@@ -22,7 +22,8 @@
       "items": [
         {
           "title": "Full-Stack Developer - Supercampo S/A",
-          "description": "Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in Brazil. Developed a Management Information System (MIS)/Analytics MERN Application from scratch to manage multiple business units. Deployed ETLs for database migrations and data warehouse modeling (200+ tables). Designed BI dashboard applications for GMV and related KPIs using MySQL, Power BI, and Streamlit."
+          "description": "Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in Brazil. Developed a Management Information System (MIS)/Analytics MERN Application from scratch to manage multiple business units. Deployed ETLs for database migrations and data warehouse modeling (200+ tables). Designed BI dashboard applications for GMV and related KPIs using MySQL, Power BI, and Streamlit.",
+          "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
         },
         {
           "title": "Back-End Developer - BRG Brasil Geradores",
@@ -30,7 +31,8 @@
         },
         {
           "title": "Software Developer - SIMEPAR",
-          "description": "Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees. Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS. Delivered a data analysis pipeline to identify inconsistencies and generate ~900 reports using Python (Pandas). Designed a Power BI decision support tool for monitoring KPIs, including team productivity, deliverables, and scheduling."
+          "description": "Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees. Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS. Delivered a data analysis pipeline to identify inconsistencies and generate ~900 reports using Python (Pandas). Designed a Power BI decision support tool for monitoring KPIs, including team productivity, deliverables, and scheduling.",
+          "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana"
         }
       ]
     },
@@ -40,7 +42,7 @@
         {
           "title": "2021 - Fellow of Leaders in Innovation Programme (LIF-7th cohort)",
           "description": "The program builds entrepreneurial and commercialization capacity for researchers, creating international networks of innovators. Supported by the UK Newton Fund, it promotes science and innovation for the economic development of partner countries, including Brazil, India, and Vietnam.",
-          "link": "https://lif.raeng.org.uk/about.aspx"
+          "link": "https://raeng.org.uk/lif"
         },
         {
           "title": "2019 - 2nd place in Global Legal Hackathon (Nous Team)",
@@ -64,7 +66,8 @@
         },
         {
           "title": "2013 - 1st place, Scholarship Selection UTFPR 2013 Cohort",
-          "description": "Achieved the highest ranking in the BRAFITEC-UTFPR selection across all campuses."
+          "description": "Achieved the highest ranking in the BRAFITEC-UTFPR selection across all campuses.",
+          "link": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/franca/programa-capes-brafitec"
         }
       ]
     },
