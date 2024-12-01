@@ -1,0 +1,76 @@
+{
+  "content": {
+    "projects": {
+      "title": "Projects",
+      "items": [
+        {
+          "title": "Integration of Multiple ERP Systems and VTEX APIs",
+          "description": "Integration of multiple ERP systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics MERN Application from scratch to manage multiple business units; Development of ETL for database migrations and data warehouse modeling with 200+ tables; Conception of BI dashboard applications for GMV and related KPIs (MongoDB, MySQL, PowerBI)."
+        },
+        {
+          "title": "Data Collection Pipeline for Water Dam Monitoring",
+          "description": "Developed a front-end for data collection and processing workflow following standards from the National Water and Basic Sanitation Agency. Trained 5 civil engineers on report best practices and data registration criteria."
+        },
+        {
+          "title": "Prosthetics Technology Project Subsidized",
+          "description": "Technology project awarded an economic subsidy, selected among 1851 total projects in the state technology program Paraná Sinapse da Inovação. Program covered costs (~10k USD, Jan 2020), mentoring, and acceleration of product development for prototypes of mechatronic prosthetic devices."
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "items": [
+        {
+          "title": "Full-Stack Developer - Supercampo S/A",
+          "description": "Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in Brazil. Developed a Management Information System (MIS)/Analytics MERN Application from scratch to manage multiple business units. Deployed ETLs for database migrations and data warehouse modeling (200+ tables). Designed BI dashboard applications for GMV and related KPIs using MySQL, Power BI, and Streamlit."
+        },
+        {
+          "title": "Back-End Developer - BRG Brasil Geradores",
+          "description": "Delivered new features to the REST API of a monitoring system, collaborating closely with a front-end developer. Refactored legacy code (Express.js API for a MySQL database) following clean code principles. Documented the project using OpenAPI notation, Swagger, and markdown documentation."
+        },
+        {
+          "title": "Software Developer - SIMEPAR",
+          "description": "Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees. Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS. Delivered a data analysis pipeline to identify inconsistencies and generate ~900 reports using Python (Pandas). Designed a Power BI decision support tool for monitoring KPIs, including team productivity, deliverables, and scheduling."
+        }
+      ]
+    },
+    "awards": {
+      "title": "Awards",
+      "items": [
+        {
+          "title": "2021 - Fellow of Leaders in Innovation Programme (LIF-7th cohort)",
+          "description": "The program builds entrepreneurial and commercialization capacity for researchers, creating international networks of innovators. Supported by the UK Newton Fund, it promotes science and innovation for the economic development of partner countries, including Brazil, India, and Vietnam.",
+          "link": "https://lif.raeng.org.uk/about.aspx"
+        },
+        {
+          "title": "2019 - 2nd place in Global Legal Hackathon (Nous Team)",
+          "description": "Project Bob is a digital game designed to support justice professionals in taking statements from minors who were allegedly sexually abused. It aims to provide a comfortable environment for children to give their official statements.",
+          "link": "https://globallegalhackathon.com/"
+        },
+        {
+          "title": "2018 - 1st place, Ozires Silva Award for Sustainable Entrepreneurship (11th edition)",
+          "description": "Santiago Health Technologies won in the 'social' category, showcasing innovation and entrepreneurship that drives sustainable development.",
+          "link": "https://www.youtube.com/watch?v=KVn5fkNrAQs&t=1800s"
+        },
+        {
+          "title": "2017 - 3rd place, Perfumathon (Perfumerie Hackathon, Epic Team)",
+          "description": "A creative hackathon focusing on innovative solutions for the perfumery industry.",
+          "link": "https://www.youtube.com/watch?v=YVSlHFDyucg"
+        },
+        {
+          "title": "2016 - Finalist, Hackathon SENDI/COPEL 2016 (Hack'nergy Team)",
+          "description": "The largest hackathon in Brazil, focusing on energy distribution challenges. It featured four simultaneous challenges and international travel as awards.",
+          "link": "https://www.youtube.com/watch?v=KvzbUcHXvps&t=292s"
+        },
+        {
+          "title": "2013 - 1st place, Scholarship Selection UTFPR 2013 Cohort",
+          "description": "Achieved the highest ranking in the BRAFITEC-UTFPR selection across all campuses."
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "description": "I am a Full-Stack Developer with a Mechanical Engineering background and a passion for crafting innovative technological solutions. My expertise includes web development, data visualization, and system integrations. Proficient in modern frameworks and technologies such as Node.js, React, Python, and MongoDB, I excel at delivering data-driven insights using BI tools like Power BI and Looker. Throughout my career, I’ve led impactful projects, from designing Management Information Systems (MIS) for large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My professional journey includes key roles at Supercampo, enhancing the digital presence of agricultural cooperatives, and SIMEPAR, contributing to critical dam monitoring initiatives. Additionally, I’ve modernized back-end systems for BRG Brasil Geradores and developed automation tools and full-stack applications as a freelancer. My notable achievements include being recognized as a LIF-7 Fellow by the Royal Academy of Engineering (UK), winning multiple hackathons, and contributing to award-winning sustainable entrepreneurship initiatives. I am committed to continuous learning, reflected in my advanced training in full-stack web development, data engineering, and data science."
+    }
+  }
+}
