@@ -1,0 +1,248 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Arial', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    display: flex;
+}
+
+/* Header */
+header {
+    width: calc(100% - 250px);
+    /* Full width minus sidebar */
+    height: 60px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    position: fixed;
+    top: 0;
+    left: 250px;
+    /* Sidebar width */
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 999;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Layout */
+.container {
+    margin-left: 250px;
+    /* Sidebar width */
+    /* margin-top: 60px;  */
+    /* Header height */
+    width: calc(100% - 250px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Hero Section */
+.hero {
+    width: 100%;
+    height: calc(100vh - 400px);
+    /* Full viewport height minus header */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #eeeeee;
+    overflow: hidden;
+    position: relative;
+    /* margin-left: 10%; */
+}
+
+.hero h1 {
+    position: absolute;
+    z-index: 10;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    margin-left: 10%;
+}
+
+.hero p {
+    position: absolute;
+    z-index: 10;
+    top: 60%;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    /* Improved readability */
+    color: #444;
+    /* Slightly darker shade for better contrast */
+    margin-left: 10%;
+    margin-right: 10%;
+    /* Add some balance */
+    text-align: justify;
+    /* Better alignment for larger text blocks */
+    word-wrap: break-word;
+    /* Ensures the text wraps properly */
+}
+
+
+/* Hero Canvas */
+#hero-canvas {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10;
+    left: 100;
+}
+
+/* Content Section */
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* .content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #555;
+    text-align: justify;
+    width: 100%;
+    word-spacing: normal;
+} */
+.content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    color: #444;
+    text-align: justify;
+}
+
+.content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    color: #222;
+}
+
+.content em {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content li {
+    margin-bottom: 1.5rem;
+    list-style-type: none;
+    position: relative;
+    text-align: left;
+}
+
+.content li:before {
+    content: "•";
+    color: #007acc;
+    font-size: 1.2rem;
+    position: absolute;
+    left: -1.5rem;
+    top: 0.2rem;
+}
+
+.content li strong {
+    color: #222;
+    font-weight: bold;
+}
+
+.content li em {
+    font-style: italic;
+    color: #666;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-inline: 0;
+}
+
+.content a {
+    color: #007acc;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+
+/* Adjust the GUI position */
+.dg.ac {
+    position: absolute !important;
+    top: 70px !important;
+    /* Below the header */
+    right: 20px;
+    z-index: 1001;
+}
+
+.logo {
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: right;
+}
