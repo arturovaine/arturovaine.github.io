@@ -4,6 +4,22 @@
       "title": "Projects",
       "items": [
         {
+          "title": "Platform for Product Information Management (PIM)",
+          "description": "SaaS project, full stack web application associated with AI models. Centralized solution designed for collection, management, and AI enrichment product information across an organization. This kind of system ensures that accurate, consistent, and up-to-date product data is distributed across multiple channels. Stacks: React, Golang, Mongodb, Postgres. Work in progress...",
+          "image": "assets/products-vault.png"
+        },
+        {
+          "title": "Pose estimator to check gym activities",
+          "description": "Workflow using mediapipe lib to check orientation of body parts in real-time. The model is based on the BlazePose/mediapipe architecture, which is a lightweight model that can run on mobile devices in real-time. The model is able to detect 33 body parts, including the eyes, ears, nose, shoulders, elbows, wrists, hips, knees, and ankles.",
+          "image": "https://raw.githubusercontent.com/arturovaine/arturovaine/main/python-pose-estimator_.gif"
+        },
+        {
+          "title": "Home page with access form - React + Vite",
+          "description": "Modern home page built using Vite and React. It features a sidebar for user authentication (login and password inputs) and a corporate video playing in the background. The primary goal is to create an engaging and functional home page for corporate websites.",
+          "image": "https://github.com/arturovaine/landing-page-video-bg/blob/main/public/demo.gif?raw=true",
+          "link": "https://github.com/arturovaine/landing-page-video-bg"
+        },
+        {
           "title": "Integration of Multiple ERP Systems and VTEX APIs",
           "description": "Integration of multiple <b>ERP</b> systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics <b>MERN</b> Application from scratch to manage multiple business units; Development of <b>ETL</b> for database migrations and data warehouse modeling with 200+ tables; Conception of <b>BI</b> dashboard applications for GMV and related KPIs (<b>MongoDB</b>, <b>MySQL</b>, <b>PowerBI</b>).",
           "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
