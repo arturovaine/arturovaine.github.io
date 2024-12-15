@@ -5,14 +5,17 @@
       "items": [
         {
           "title": "Integration of Multiple ERP Systems and VTEX APIs",
-          "description": "Integration of multiple <b>ERP</b> systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics <b>MERN</b> Application from scratch to manage multiple business units; Development of <b>ETL</b> for database migrations and data warehouse modeling with 200+ tables; Conception of <b>BI</b> dashboard applications for GMV and related KPIs (MongoDB, MySQL, PowerBI).",
+          "description": "Integration of multiple <b>ERP</b> systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics <b>MERN</b> Application from scratch to manage multiple business units; Development of <b>ETL</b> for database migrations and data warehouse modeling with 200+ tables; Conception of <b>BI</b> dashboard applications for GMV and related KPIs (<b>MongoDB</b>, <b>MySQL</b>, <b>PowerBI</b>).",
           "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
-          "image": "assets/vtex-day.webp"
+          "image": "assets/vtex-day.webp",
+          "image_description": "The traditional B2C and B2B e-commerce platforms do not address the business model needs of agricultural cooperatives. From left to right: Leandro Carvalho (Supercampo CEO), Wagner Figueiredo (VTEX Architect), and Ronald Koch (Supercampo Platform and Product Manager) at VTEX Day 2024."
         },
         {
           "title": "Data Collection Pipeline for Water Dam Monitoring",
           "description": "Developed a front-end for data collection and processing workflow following standards from the National Water and Basic Sanitation Agency. Trained 5 civil engineers on report best practices and data registration criteria.",
-          "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana"
+          "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana",
+          "image": "assets/simepar.webp",
+          "image_description": "Simepar developed a long process of surveying the inventory of Paraná dams detected via remote sensing. According to information from the Secretariat for Sustainable Development, most of the state's dams are used for irrigation, water supply, energy generation, environmental protection and recreation."
         },
         {
           "title": "Prosthetics Technology Project Subsidized",
@@ -26,17 +29,21 @@
       "title": "Experience",
       "items": [
         {
+          "title": "Full-Stack Developer - Freelancer",
+          "description": "Sep 2024 - Present · 4 mos <br/><ul><li>Development of various types of systems integrations and applications projects;</li><li>Creation of workflows and of Management Information Systems, ETL of multiple data types;</li><li>Delivering data processes and analysis through BI applications;</li></ul>"
+        },
+        {
           "title": "Full-Stack Developer - Supercampo S/A",
-          "description": "Integrated multiple <b>ERP</b> systems and <b>VTEX</b> e-commerce APIs for large agricultural cooperatives in Brazil. Developed a Management Information System (MIS)/Analytics <b>MERN</b> Application from scratch to manage multiple business units. Deployed <b>ETLs</b> for database migrations and data warehouse modeling (200+ tables). Designed <b>BI</b> dashboard applications for GMV and related <b>KPIs</b> using <b>MySQL</b>, <b>Power BI</b>, and <b>Streamlit</b>.",
+          "description": "Mar 2023 - Sep 2024 · 1 yr 7 mos <br/><ul><li>Integrated multiple <b>ERP</b> systems and <b>VTEX</b> e-commerce APIs for large agricultural cooperatives in Brazil</li><li>Developed a Management Information System (MIS) <b>MERN</b> Application to manage multiple business units</li><li>Deployed <b>ETLs</b> for database migrations and data warehouse modeling (200+ tables)</li><li>Designed <b>BI</b> dashboard applications for GMV and related <b>KPIs</b> using <b>MySQL</b>, <b>Power BI</b>, and <b>Streamlit</b></li></ul>",
           "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
         },
         {
           "title": "Back-End Developer - BRG Brasil Geradores",
-          "description": "Delivered new features to the <b>REST API</b> of a monitoring system, collaborating closely with a front-end developer. Refactored legacy code (</b>Express.js</b> API for a <b>MySQL</b> database) following clean code principles. Documented the project using OpenAPI notation, Swagger, and markdown documentation."
+          "description": "Oct 2022 - Mar 2023 · 6 mos <br/><ul><li>Delivered new features to the <b>REST API</b> of a monitoring system, collaborating with a front-end developer</li><li>Refactored legacy code (<b>Express.js</b> API for a <b>MySQL</b> database) following clean code principles</li><li>Documented the project using OpenAPI notation, Swagger, and markdown documentation</li></ul>"
         },
         {
           "title": "Software Developer - SIMEPAR",
-          "description": "Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees. Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS. Delivered a data analysis pipeline to identify inconsistencies and generate ~900 reports using Python (Pandas). Designed a <b>Power BI</b> decision support tool for monitoring KPIs, including team productivity, deliverables, and scheduling.",
+          "description": "Jun 2019 - Dec 2021 · 2 yrs 7 mos <br/><ul><li>Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees</li><li>Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS</li><li>Delivered a data analysis pipeline to check inconsistencies and generate ~900 reports using Python (Pandas)</li><li>Designed a <b>Power BI</b> dashboard for monitoring KPIs, including team productivity, deliverables, and scheduling</li></ul>",
           "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana"
         }
       ]
