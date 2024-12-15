@@ -46,7 +46,9 @@
       "items": [
         {
           "title": "Full-Stack Developer - Freelancer",
-          "description": "Sep 2024 - Present · 4 mos <br/><ul><li>Development of various types of systems integrations and applications projects;</li><li>Creation of workflows and of Management Information Systems, ETL of multiple data types;</li><li>Delivering data processes and analysis through BI applications;</li></ul>"
+          "start_date": "2024-09-01",
+          "end_date": null, 
+          "description": "<ul><li>Development of various types of systems integrations and applications projects</li><li>Creation of workflows and Management Information Systems, ETL of multiple data types</li><li>Delivering data processes and analysis through BI applications</li></ul>"
         },
         {
           "title": "Full-Stack Developer - Supercampo S/A",
