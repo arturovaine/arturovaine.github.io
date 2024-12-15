@@ -88,6 +88,7 @@ function setupGUI() {
   });
 
   gui.add(params, "rotation").name("Rotate Mesh");
+  gui.close();
 }
 
 // Handle Window Resize

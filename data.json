@@ -5,15 +5,17 @@
       "items": [
         {
           "title": "Integration of Multiple ERP Systems and VTEX APIs",
-          "description": "Integration of multiple ERP systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics MERN Application from scratch to manage multiple business units; Development of ETL for database migrations and data warehouse modeling with 200+ tables; Conception of BI dashboard applications for GMV and related KPIs (MongoDB, MySQL, PowerBI)."
+          "description": "Integration of multiple ERP systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics MERN Application from scratch to manage multiple business units; Development of <b>ETL</b> for database migrations and data warehouse modeling with 200+ tables; Conception of BI dashboard applications for GMV and related KPIs (MongoDB, MySQL, PowerBI).",
+          "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
         },
         {
           "title": "Data Collection Pipeline for Water Dam Monitoring",
-          "description": "Developed a front-end for data collection and processing workflow following standards from the National Water and Basic Sanitation Agency. Trained 5 civil engineers on report best practices and data registration criteria."
+          "description": "Developed a front-end for data collection and processing workflow following standards from the National Water and Basic Sanitation Agency. Trained 5 civil engineers on report best practices and data registration criteria.",
+          "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana"
         },
         {
           "title": "Prosthetics Technology Project Subsidized",
-          "description": "Technology project awarded an economic subsidy, selected among 1851 total projects in the state technology program Paraná Sinapse da Inovação. Program covered costs (~10k USD, Jan 2020), mentoring, and acceleration of product development for prototypes of mechatronic prosthetic devices.",
+          "description": "Technology project awarded an economic subsidy, selected among cohort top 5%, one of 89 startups of 1851 total projects in the state technology program Paraná Sinapse da Inovação. Program covered costs (~10k USD, Jan 2020), mentoring, and acceleration of product development for prototypes of mechatronic prosthetic devices.",
           "link": "https://www.fappr.pr.gov.br/Noticia/Programa-Sinapse-contribui-para-consolidacao-de-startups-paranaenses",
           "image": "assets/fundacaoaraucaria.jpg"
         }
@@ -45,6 +47,16 @@
           "title": "2021 - Fellow of Leaders in Innovation Programme (LIF-7th cohort)",
           "description": "Fellowship associated to project of development of affordable upper limb myoelectric prosthesis. The program builds entrepreneurial and commercialization capacity for researchers, creating international networks of innovators. Supported by the UK Newton Fund, it promotes science and innovation for the economic development of partner countries, including Brazil, India, and Vietnam.",
           "link": "https://raeng.org.uk/lif",
+          "links": [
+            {
+              "title": "LIF-7th cohort",
+              "link": "https://raeng.org.uk/programmes-and-prizes/programmes/international-programmes/leaders-in-innovation-fellowships-old/lif-7"
+            },
+            {
+              "title": "Newton Fund",
+              "link": "https://www.newtonfund.ac.uk/"
+            }
+          ],
           "image": "assets/rae_logo_black.webp"
         },
         {
@@ -80,7 +92,30 @@
       "items": [
         {
           "title": "",
-          "description": "I am a Full-Stack Developer with a Mechanical Engineering background and a passion for crafting innovative technological solutions. My expertise includes web development, data visualization, and system integrations. Proficient in modern frameworks and technologies such as Node.js, React, Python, and MongoDB, I excel at delivering data-driven insights using BI tools like Power BI and Looker. Throughout my career, I’ve led impactful projects, from designing Management Information Systems (MIS) for large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My professional journey includes key roles at Supercampo, enhancing the digital presence of agricultural cooperatives, and SIMEPAR, contributing to critical dam monitoring initiatives. Additionally, I’ve modernized back-end systems for BRG Brasil Geradores and developed automation tools and full-stack applications as a freelancer. My notable achievements include being recognized as a LIF-7 Fellow by the Royal Academy of Engineering (UK), winning multiple hackathons, and contributing to award-winning sustainable entrepreneurship initiatives. I am committed to continuous learning, reflected in my advanced training in full-stack web development, data engineering, and data science."
+          "description": "I am a <b>Full-Stack Developer</b> with a Mechanical Engineering background and a passion for crafting innovative technological solutions. My expertise includes web development, data visualization, and system integrations. Proficient in modern frameworks and technologies such as <b>Node.js</b>, <b>React</b>, <b>Python</b>, and <b>MongoDB</b>, I excel at delivering data-driven insights using BI tools like Power BI and Looker. <br/><br/> Throughout my career, I’ve led impactful projects, from designing <b>Management Information Systems (MIS)</b> for large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My professional journey includes key roles at <b>Supercampo</b>, enhancing the digital presence of agricultural cooperatives, and <b>SIMEPAR</b>, contributing to critical dam monitoring initiatives. <br/><br/>Additionally, I’ve modernized back-end systems for <b>BRG Brasil Geradores</b> and developed automation tools and full-stack applications as a freelancer. My notable achievements include being recognized as a <b>LIF-7</b> Fellow by the <b>Royal Academy of Engineering (UK)</b>, winning multiple hackathons, and contributing to award-winning sustainable entrepreneurship initiatives. I am committed to continuous learning, reflected in my advanced training in full-stack web development, data engineering, and data science."
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "items": [
+        {
+          "title": "TETO (NGO)",
+          "description": "In 2023, TETO achieved the milestone of constructing 500 houses in the state of Paraná. Main experiences as volunteer: Database update and structuring of data compilation of socio-economic surveys ; Volunteer in Emergency Houses Construction Team (May and October 2015; April 2017)",
+          "links": [
+            {
+              "title": "TETO",
+              "link": "https://redeglobo.globo.com/globociencia/noticia/2013/07/ongs-compartilham-conhecimentos-e-constroem-casas-sustentaveis.html"
+            },
+            {
+              "title": "Plastic",
+              "link": "https://wetzel.com.br/tags/ong-teto/"
+            }
+          ],
+          "images": [
+            "assets/teto-houses.webp",
+            "assets/teto-wetzel.webp"
+          ]
         }
       ]
     },
@@ -104,15 +139,6 @@
           "description": "Sketch of 'Arcimboldo study' Aprox. 30 x 30cm, pencil on paper. Drawing based on Arcimboldo's masterpiece 'Summer'. Oil on wood,1563.",
           "link": "https://www.behance.net/gallery/103654197/Arcimboldo-study-(2006)",
           "image": "assets/arcimboldo.png"
-        }
-      ]
-    },
-    "contact": {
-      "title": "Contact",
-      "items": [
-        {
-          "title": "",
-          "description": "arturo.vaine@gmail.com"       
         }
       ]
     }
