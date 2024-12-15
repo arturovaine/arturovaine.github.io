@@ -4,23 +4,37 @@ function generateContent(contentData) {
     const section = contentData[sectionKey];
     if (section.title) {
       html += `<div class="content" id="${sectionKey}">`;
-      html += `<h2>${section.title}</h2>`;
+      html += `<br/><h2>${section.title}</h2>`;
+      
       if (section.items && section.items.length) {
         section.items.forEach((item) => {
           html += `<h4>${item.title}</h4>`;
           // Render description with HTML tags explicitly
           html += `<p>${item.description}</p>`;
-          html += item.link
-            ? `<a href="${item.link}" target="_blank">Learn more</a><br><br>`
-            : "";
+          
           // Image styles
-          const imgStyle =
-            sectionKey === "artworks"
-              ? "display: block; margin: 0 auto; height: 300px; object-fit: contain; border-radius: 10px;"
-              : "display: block; margin: 0 auto; height: 100px; object-fit: contain;";
-          html += item.image
-            ? `<a href="${item.link}" target="_blank"><img src="${item.image}" style="${imgStyle}" /></a><br><br>`
-            : "";
+          const imgStyle = sectionKey === "artworks"
+            ? "display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain; border-radius: 10px;"
+            : "display: block; margin: 0 auto; width: 100%; object-fit: contain;";
+
+          // Render image if available
+          if (item.image) {
+            html += `<a href="${item.link || '#'}" target="_blank">
+              <img src="${item.image}" style="${imgStyle}" />
+            </a><br><br>`;
+          }
+
+          // Render smaller image if available
+          if (item.image_sm) {
+            html += `<a href="${item.link || '#'}" target="_blank">
+              <img src="${item.image_sm}" style="display: block; margin: 0 auto; height: 65px; object-fit: contain;" />
+            </a><br><br>`;
+          }
+
+          // Add "Learn more" link if available
+          if (item.link) {
+            html += `<a href="${item.link}" target="_blank">Learn more</a><br><br>`;
+          }
         });
       }
       html += `</div>`;

@@ -5,8 +5,9 @@
       "items": [
         {
           "title": "Integration of Multiple ERP Systems and VTEX APIs",
-          "description": "Integration of multiple ERP systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics MERN Application from scratch to manage multiple business units; Development of <b>ETL</b> for database migrations and data warehouse modeling with 200+ tables; Conception of BI dashboard applications for GMV and related KPIs (MongoDB, MySQL, PowerBI).",
-          "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
+          "description": "Integration of multiple <b>ERP</b> systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics <b>MERN</b> Application from scratch to manage multiple business units; Development of <b>ETL</b> for database migrations and data warehouse modeling with 200+ tables; Conception of <b>BI</b> dashboard applications for GMV and related KPIs (MongoDB, MySQL, PowerBI).",
+          "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
+          "image": "assets/vtex-day.webp"
         },
         {
           "title": "Data Collection Pipeline for Water Dam Monitoring",
@@ -17,7 +18,7 @@
           "title": "Prosthetics Technology Project Subsidized",
           "description": "Technology project awarded an economic subsidy, selected among cohort top 5%, one of 89 startups of 1851 total projects in the state technology program Paraná Sinapse da Inovação. Program covered costs (~10k USD, Jan 2020), mentoring, and acceleration of product development for prototypes of mechatronic prosthetic devices.",
           "link": "https://www.fappr.pr.gov.br/Noticia/Programa-Sinapse-contribui-para-consolidacao-de-startups-paranaenses",
-          "image": "assets/fundacaoaraucaria.jpg"
+          "image_sm": "assets/fundacaoaraucaria.jpg"
         }
       ]
     },
@@ -26,16 +27,16 @@
       "items": [
         {
           "title": "Full-Stack Developer - Supercampo S/A",
-          "description": "Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in Brazil. Developed a Management Information System (MIS)/Analytics MERN Application from scratch to manage multiple business units. Deployed ETLs for database migrations and data warehouse modeling (200+ tables). Designed BI dashboard applications for GMV and related KPIs using MySQL, Power BI, and Streamlit.",
+          "description": "Integrated multiple <b>ERP</b> systems and <b>VTEX</b> e-commerce APIs for large agricultural cooperatives in Brazil. Developed a Management Information System (MIS)/Analytics <b>MERN</b> Application from scratch to manage multiple business units. Deployed <b>ETLs</b> for database migrations and data warehouse modeling (200+ tables). Designed <b>BI</b> dashboard applications for GMV and related <b>KPIs</b> using <b>MySQL</b>, <b>Power BI</b>, and <b>Streamlit</b>.",
           "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
         },
         {
           "title": "Back-End Developer - BRG Brasil Geradores",
-          "description": "Delivered new features to the REST API of a monitoring system, collaborating closely with a front-end developer. Refactored legacy code (Express.js API for a MySQL database) following clean code principles. Documented the project using OpenAPI notation, Swagger, and markdown documentation."
+          "description": "Delivered new features to the <b>REST API</b> of a monitoring system, collaborating closely with a front-end developer. Refactored legacy code (</b>Express.js</b> API for a <b>MySQL</b> database) following clean code principles. Documented the project using OpenAPI notation, Swagger, and markdown documentation."
         },
         {
           "title": "Software Developer - SIMEPAR",
-          "description": "Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees. Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS. Delivered a data analysis pipeline to identify inconsistencies and generate ~900 reports using Python (Pandas). Designed a Power BI decision support tool for monitoring KPIs, including team productivity, deliverables, and scheduling.",
+          "description": "Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees. Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS. Delivered a data analysis pipeline to identify inconsistencies and generate ~900 reports using Python (Pandas). Designed a <b>Power BI</b> decision support tool for monitoring KPIs, including team productivity, deliverables, and scheduling.",
           "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana"
         }
       ]
@@ -57,7 +58,7 @@
               "link": "https://www.newtonfund.ac.uk/"
             }
           ],
-          "image": "assets/rae_logo_black.webp"
+          "image_sm": "assets/rae_logo_black.webp"
         },
         {
           "title": "2019 - 2nd place in Global Legal Hackathon (Nous Team)",
@@ -83,7 +84,7 @@
           "title": "2013 - 1st place, Scholarship Selection UTFPR 2013 Cohort",
           "description": "Achieved the highest ranking in the BRAFITEC-UTFPR selection across all campuses.",
           "link": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/franca/programa-capes-brafitec",
-          "image": "assets/brafitec.png"
+          "image_sm": "assets/brafitec.png"
         }
       ]
     },
@@ -92,7 +93,7 @@
       "items": [
         {
           "title": "",
-          "description": "I am a <b>Full-Stack Developer</b> with a Mechanical Engineering background and a passion for crafting innovative technological solutions. My expertise includes web development, data visualization, and system integrations. Proficient in modern frameworks and technologies such as <b>Node.js</b>, <b>React</b>, <b>Python</b>, and <b>MongoDB</b>, I excel at delivering data-driven insights using BI tools like Power BI and Looker. <br/><br/> Throughout my career, I’ve led impactful projects, from designing <b>Management Information Systems (MIS)</b> for large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My professional journey includes key roles at <b>Supercampo</b>, enhancing the digital presence of agricultural cooperatives, and <b>SIMEPAR</b>, contributing to critical dam monitoring initiatives. <br/><br/>Additionally, I’ve modernized back-end systems for <b>BRG Brasil Geradores</b> and developed automation tools and full-stack applications as a freelancer. My notable achievements include being recognized as a <b>LIF-7</b> Fellow by the <b>Royal Academy of Engineering (UK)</b>, winning multiple hackathons, and contributing to award-winning sustainable entrepreneurship initiatives. I am committed to continuous learning, reflected in my advanced training in full-stack web development, data engineering, and data science."
+          "description": "I am a <b>Full-Stack Developer</b> with a Mechanical Engineering background and a passion for crafting innovative technological solutions. My expertise includes web development, data visualization, and system integrations. Proficient in modern frameworks and technologies such as <b>Node.js</b>, <b>React</b>, <b>Python</b>, and <b>MongoDB</b>, I delivered data-driven insights using BI tools like Power BI and Looker. <br/><br/> Throughout my career, I’ve led innovative projects, from designing <b>Management Information Systems (MIS)</b> for large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My professional journey includes key roles at <b>Supercampo</b>, enhancing the digital presence of agricultural cooperatives, and <b>SIMEPAR</b>, contributing to critical dam monitoring initiatives. <br/><br/>Additionally, I’ve modernized back-end systems for <b>BRG Brasil Geradores</b> and developed automation tools and full-stack applications as a freelancer. My notable achievements include being recognized as a <b>LIF-7</b> Fellow by the <b>Royal Academy of Engineering (UK)</b>, winning multiple hackathons, and contributing to award-winning sustainable entrepreneurship initiatives. I am committed to continuous learning, reflected in my advanced training in full-stack web development, data engineering, and data science."
         }
       ]
     },
@@ -124,7 +125,7 @@
       "items": [
         {
           "title": "Commemorative Mural of the Centenary of UTFPR (1909-2009)",
-          "description": "The Federal Technological University of Paraná (UTFPR) celebrated its 100th anniversary on September 23, 2009. The institution was created as the School of Apprentice Craftsmen in 1909 by President Nilo Peçanha, and offered courses in trades such as tailoring, shoemaking, carpentry and metalworking. In 1978, it became the Federal Center for Technological Education of Paraná (Cefet-PR) and began offering full undergraduate courses.",
+          "description": "The <b>Federal Technological University of Paraná (UTFPR)</b> celebrated its 100th anniversary on September 23, 2009. The institution was created as the School of Apprentice Craftsmen in 1909 by President Nilo Peçanha, and offered courses in trades such as tailoring, shoemaking, carpentry and metalworking. In 1978, it became the Federal Center for Technological Education of Paraná (Cefet-PR) and began offering full undergraduate courses.",
           "link": "https://www.behance.net/gallery/103655095/Mural-Centenario-UTFPR-2010-(1909-2009)",
           "image": "assets/mural-100y.png"
         },
