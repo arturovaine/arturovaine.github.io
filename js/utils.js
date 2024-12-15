@@ -14,7 +14,7 @@ function generateContent(contentData) {
           
           // Image styles
           const imgStyle = sectionKey === "artworks"
-            ? "display: block; margin: 0 auto; width: 300px; height: 300px; object-fit: contain; border-radius: 5px;"
+            ? "display: block; margin: 0 auto; width: 300px; object-fit: contain; border-radius: 5px;"
             : "display: block; margin: 0 auto; width: 50%; object-fit: contain; border-radius: 5px;";
 
           // Render image if available
