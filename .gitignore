@@ -31,7 +31,7 @@ Thumbs.db
 # Test & coverage output
 coverage/
 .nyc_output/
-jest-*.json
+# jest-*.json
 
 # TypeScript
 *.tsbuildinfo
