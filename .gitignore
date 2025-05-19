@@ -1,24 +1,57 @@
-# Logs
-logs
+
+# Dependency directories
+node_modules/
+.pnpm/
+.yarn/
+.cache/
+
+# Production & dev builds
+dist/
+build/
+out/
+.next/
+vite.svg
 *.log
+
+# Source maps
+*.map
+
+# Local env & secrets
+.env*
+!.env.example
+
+# OS / Editor clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test & coverage output
+coverage/
+.nyc_output/
+jest-*.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs & reports
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Lint & formatting caches
+.eslintcache
+.prettier-cache/
+stylelintcache/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+storybook-static/
+docs-build/
+

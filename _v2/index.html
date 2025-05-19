@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arturo's Portfolio</title>
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+    <link rel="stylesheet" href="./styles/projects-cards.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./components/project-card.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <button class="theme-toggle-btn" id="themeToggle" aria-label="Toggle light/dark theme">
+            <img class="theme-toggle-img" src="./assets/icons/themeToggle.svg" alt="Theme Toggle Icon" />
+        </button>
+    </header>
+
+    <main class="main">
+        <section class="hero" id="hero">
+            <div class="hero__container">
+                <div class="hero__avatar-container">
+                    <img src="./assets/images/my_photo.png" alt="Profile Picture" class="hero__avatar-img">
+                </div>
+
+                <div class="hero__intro">
+                    <h1 class="hero__title">Arturo Vaine</h1>
+                    <p class="hero__subtitle">Software Engineer</p>
+                    <div class="hero__social-links">
+                        <a href="https://github.com/arturovaine" class="social-link">
+                            <img class="icon__social_media" id="icon-github" src="./assets/icons/github.svg"
+                                alt="Github Icon">
+                        </a>
+                        <a href="https://x.com/arturovaine" class="social-link">
+                            <img class="icon__social_media" id="icon-twitter" src="./assets/icons/twitter.svg"
+                                alt="Twitter Icon">
+                        </a>
+                        <a href="https://www.linkedin.com/in/arturovaine/" class="social-link">
+                            <img class="icon__social_media" id="icon-linkedin" src="./assets/icons/linkedin.svg"
+                                alt="LinkedIn Icon">
+                        </a>
+                        <a href="" class="social-link">
+                            <img class="icon__social_media" id="icon-youtube" src="./assets/icons/youtube.svg"
+                                alt="Youtube Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="stats__item">
+                <div class="stats__number">5</div>
+                <div class="stats__label">Years of work experience</div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__number">50+</div>
+                <div class="stats__label">Completed projects</div>
+            </div>
+            <div class="stats__item">
+                <div class="stats__number">20+</div>
+                <div class="stats__label">Satisfied customers</div>
+            </div>
+        </section>
+
+        <div class="hero__actions">
+            <a href="./cv.pdf" class="hero__action-btn hero__action-btn--primary">
+                Download CV
+                <img class="icon--download" src="./assets/icons/download.svg" alt="Download Icon">
+            </a>
+            <a href="mailto:arturo.vaine@gmail.com" class="hero__action-btn hero__action-btn--secondary">
+                Contact me
+            </a>
+        </div>
+
+        <!--  -->
+
+      <p><a href="https://www.behance.net/gallery/70813139/Bionic-Hand-(2018)">Concept design of a bionic hand created
+          in SolidWorks and rendered using Three.js.</a></p>
+
+        <!--  -->
+
+        <section class="tabs-section">
+            <div class="tabs__container">
+                <button class="tab active">
+                    Portfolio
+                </button>
+                <button class="tab">
+                    Profile
+                </button>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio__wrapper">
+                <div class="portfolio__grid">
+
+                    <!-- <project-card
+                        title="TESTE"
+                        description="descricao do teste"
+                        href="https://github.com/arturovaine/10-days-gcp"
+                        image="./assets/thumbs/gcp-dashboard.jpeg">
+                    </project-card> -->
+
+
+                    <div class="project-card">
+                        <a href="https://github.com/arturovaine/10-days-gcp" target="_blank">
+                            <div class="project-card--title">GCP Quick Start</div>
+                            <div class="project-card--description">Guide for activities: 10 Days of Google Cloud - Data
+                                Self-Service in 5 Minutes
+                            </div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/gcp-dashboard.jpeg" alt="Looker Dashboard"
+                                class="project__thumbnail">
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://github.com/arturovaine/airflow-web-scraper-etl" target="_blank">
+                            <div class="project-card--title">Airflow Scraper</div>
+                            <div class="project-card--description">Fully dockerized Apache Airflow pipeline to scrape
+                                quotes from the web
+                            </div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/airflow-etl.jpeg"
+                                alt="Dockerized Airflow Web ETL                            " class="project__thumbnail">
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://github.com/arturovaine/company-risk-radar_web-extension" target="_blank">
+                            <div class="project-card--title">Web Extension using AI</div>
+                            <div class="project-card--description">Web extension to automate brief due diligence using
+                                OpenAI API
+                            </div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/chrome-extension.png" alt="Company Reds Flags"
+                                class="project__thumbnail">
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://github.com/arturovaine/python-personal-trainer" target="_blank">
+                            <div class="project-card--title">Pose estimator</div>
+                            <div class="project-card--description">Python workflow using mediapipe lib to check pose
+                                orientation in real-time
+                            </div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/pose-estimator.gif" alt="Pose estimator"
+                                class="project__thumbnail">
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://arturovaine.github.io/" target="_blank">
+                            <div class="project-card--title">Product Info Manager</div>
+                            <div class="project-card--description">Platform for Product Information Management (PIM)
+                            </div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/project1.png" alt="Product Information Manager"
+                                class="project__thumbnail">
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://github.com/arturovaine/landing-page-video-bg" target="_blank">
+                            <div class="project-card--title">Corporate Page</div>
+                            <div class="project-card--description">Demonstration of home page for corporate website
+                            </div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/project2.gif" alt="Corporate Landing Page"
+                                class="project__thumbnail">
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
+                            target="_blank">
+                            <div class="project-card--title">VTEX Integrations</div>
+                            <div class="project-card--description">Integration of multiple ERP systems and VTEX
+                                e-commerce APIs</div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/project3.webp" alt="Supercampo VTEX" class="project__thumbnail">
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://arturovaine.github.io/" target="_blank">
+                            <div class="project-card--title">Water Dam Monitoring</div>
+                            <div class="project-card--description">Data Pipeline for Government System of Water Dams
+                                Monitoring
+                            </div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/project4.webp" alt="SIMEPAR" class="project__thumbnail">
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://github.com/arturovaine/crud_fullstack" target="_blank">
+                            <div class="project-card--title">Backoffice CRUD</div>
+                            <div class="project-card--description">Application for CRUD operations on predefined
+                                e-commerce entities</div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/project5.gif" alt="CRUD" class="project__thumbnail">
+                        </a>
+                    </div>
+                    <div class="project-card">
+                        <a href="https://github.com/arturovaine/doom-fire-algorithm/tree/master/playground/threejs-3d-cube"
+                            target="_blank">
+                            <div class="project-card--title">Three.js Fire Animation</div>
+                            <div class="project-card--description">Dynamic 3D simulation of fire effect using three.js
+                                voxels</div>
+                            <button class="project-card--link-btn">
+                                <img src="./assets/icons/link-chain.svg" alt="Link icon"
+                                    class="project-card--link-icon">
+                            </button>
+                            <img src="./assets/thumbs/project6.gif" alt="3D Doom Fire" class="project__thumbnail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile" id="profile" style="display: none;">
+
+            <h3>About</h3>
+            I am a Full-Stack Developer with a Mechanical Engineering background and a passion for crafting innovative
+            technological solutions. My expertise includes web development, data visualization, and system integrations.
+            Proficient in modern frameworks and technologies such as Node.js, React, Python, and MongoDB, I delivered
+            data-driven insights using BI tools like Power BI and Looker.
+
+            Throughout my career, I’ve led innovative projects, from designing Management Information Systems (MIS) for
+            large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My
+            professional journey includes key roles at Supercampo, enhancing the digital presence of agricultural
+            cooperatives, and SIMEPAR, contributing to critical dam monitoring system.
+
+            Additionally, I’ve modernized back-end systems for BRG Brasil Geradores and developed automation tools and
+            full-stack applications as a freelancer. My main achievements include being recognized as a LIF-7 Fellow by
+            the Royal Academy of Engineering (UK), winning multiple hackathons, and contributing to award-winning
+            sustainable entrepreneurship project. I am committed to lifelong learning, considering my training in
+            full-stack web development, data engineering, and data science.
+
+
+            <h3>Experience</h3>
+
+            <b>Full-Stack Developer - Freelancer</b><br />
+            Aug 2024 - Present · 8 mos<br /><br />
+
+            - Development of various types of systems integrations and applications projects<br />
+            - Creation of workflows and Management Information Systems, ETL of multiple data types<br />
+            - Delivering data processes and analysis through BI applications<br /><br />
+
+            <b>Software Developer - Meros do Brazil Institute</b><br />
+            Apr 2025 - Present · 1 mos<br /><br />
+
+            <b>Full-Stack Developer - Rise Layers</b><br />
+            Sep 2024 - Feb 2025 · 6 mos<br /><br />
+
+
+            <b>Full-Stack Developer - Supercampo S/A</b><br />
+            Mar 2023 - Sep 2024 · 1 yr 7 mos<br /><br />
+
+            - Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in
+            Brazil<br />
+            - Developed a Management Information System (MIS) MERN Application to manage multiple business units<br />
+            - Deployed ETLs for database migrations and data warehouse modeling (200+ tables)<br />
+            - Designed BI dashboard applications for GMV and related KPIs using MySQL, Power BI, and
+            Streamlit<br /><br />
+
+            <b>Back-End Developer - BRG Brasil Geradores</b><br />
+            Oct 2022 - Mar 2023 · 6 mos<br /><br />
+
+            - Delivered new features to the REST API of a monitoring system, collaborating with a front-end
+            developer<br />
+            - Refactored legacy code (Express.js API for a MySQL database) following clean code principles<br />
+            - Documented the project using OpenAPI notation, Swagger, and markdown documentation<br /><br />
+
+            <b>Software Developer - SIMEPAR</b><br />
+            Jun 2019 - Dec 2021 · 2 yrs 7 mos<br /><br />
+
+            - Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees<br />
+            - Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS<br />
+            - Delivered a data analysis pipeline to check inconsistencies and generate ~900 reports using Python
+            (Pandas)<br />
+            - Designed a Power BI dashboard for monitoring KPIs, including team productivity, deliverables, and
+            scheduling
+
+
+            <h3>Awards</h3>
+
+            2021 - Fellow of Leaders in Innovation Programme (LIF-7th cohort)<br />
+            Fellowship associated to project of development of affordable upper limb myoelectric prosthesis. The program
+            builds entrepreneurial and commercialization capacity for researchers, creating international networks of
+            innovators. Supported by the UK Newton Fund, it promotes science and innovation for the economic development
+            of partner countries, including Brazil, India, and Vietnam.
+            <br /><br />
+
+            2019 - 2nd place in Global Legal Hackathon (Nous Team)<br />
+            Project Bob is a digital game designed to support justice professionals in taking statements from minors who
+            were allegedly sexually abused. It aims to provide a comfortable environment for children to give their
+            official statements.
+            <br /><br />
+            2018 - 1st place, Ozires Silva Award for Sustainable Entrepreneurship (11th edition)<br />
+            Santiago Health Technologies won in the 'social' category, showcasing innovation and entrepreneurship that
+            drives sustainable development.
+            <br /><br />
+            2017 - 3rd place, Perfumathon (Perfumerie Hackathon, Epic Team)<br />
+            A creative hackathon focusing on innovative solutions for the perfumery industry.
+            <br /><br />
+            2016 - Finalist, Hackathon SENDI/COPEL 2016 (Hack'nergy Team)<br />
+            The largest hackathon in Brazil, focusing on energy distribution challenges. It featured four simultaneous
+            challenges and international travel as awards.
+            <br /><br />
+            2013 - 1st place, Scholarship Selection UTFPR 2013 Cohort<br />
+            Achieved the highest ranking in the BRAFITEC-UTFPR selection across all campuses.
+            <br /><br />
+
+            <h3>Volunteering</h3>
+
+            TETO (NGO)
+            In Brazil since 2006, TETO is an organization formed by young volunteers who implement housing and habitat
+            initiatives in precarious favelas alongside residents, strengthening capacities to develop self-managed
+            communities and, thus, overcome poverty in our country. In 2023, TETO achieved the milestone of constructing
+            500 houses in the state of Paraná. Main experiences as volunteer: Database update and structuring of data
+            compilation of socio-economic surveys ; Volunteer in Emergency Houses Construction Team (May and October
+            2015; April 2017)
+
+
+
+            <h3>Artworks</h3>
+
+            Commemorative Mural of the Centenary of UTFPR (1909-2009)
+            The Federal Technological University of Paraná (UTFPR) celebrated its 100th anniversary on September 23,
+            2009. The institution was created as the School of Apprentice Craftsmen in 1909 by President Nilo Peçanha,
+            and offered courses in trades such as tailoring, shoemaking, carpentry and metalworking. In 1978, it became
+            the Federal Center for Technological Education of Paraná (Cefet-PR) and began offering full undergraduate
+            courses.
+
+
+
+            A bust of a warrior
+            Sketch of 'A bust of a warrior' Aprox. 50 x 70cm, pencil on painted wall. Drawing based on Da Vinci's
+            masterpiece 'A bust of a warrior in profile to left, wearing a winged helmet and armour bearing a lion on
+            the breastplate'. Silverpoint, on cream prepared paper. Production date: 1475-1480, 287mm x 211mm.
+
+
+
+            Arcimboldo study
+            Sketch of 'Arcimboldo study' Aprox. 30 x 30cm, pencil on paper. Drawing based on Arcimboldo's masterpiece
+            'Summer'. Oil on wood,1563.
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">
+                &copy;
+                Arturo Vaine.
+                <script>document.write(new Date().getFullYear());</script> All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <div class="btn__scroll-to-top" id="btnScrollToTop" aria-label="Scroll to top">
+        <img src="./assets/icons/arrow-up_light-mode.svg" class="btn__scroll-to-top--icon" id="scrollToTop"
+            aria-label="Scroll to top">
+    </div>
+
+    <script src="./scripts.js"></script>
+
+    <!-- Three.js Import Map -->
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.157.0/examples/jsm/",
+        "dat.gui": "https://cdn.jsdelivr.net/npm/dat.gui/build/dat.gui.module.js"
+      }
+    }
+  </script>
+
+
+    <!-- Load JavaScript Modules -->
+    <script src="./js/utils.js"></script>
+    <!-- <script src="./js/main.js"></script> -->
+    <!-- <script type="module" src="./js/main.js"></script> -->
+    <!-- <script type="module" src="./js/typewriter.js"></script> -->
+    <script type="module" src="./js/threeSetup.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/three@0.157.0/examples/jsm/controls/OrbitControls.js"></script>
+
+</body>
+
+</html>

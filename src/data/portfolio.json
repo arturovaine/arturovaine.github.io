@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "title": "Airflow Web ETL",
+      "description": "Pipeline to scrape data and load it into a Postgres db",
+      "image": "src/assets/thumbs/airflow-etl.jpeg",
+      "link": "https://github.com/arturovaine/airflow-web-scraper-etl"
+    },
+    {
+      "title": "Product Info Manager",
+      "description": "PIM Platform, work in progress...",
+      "image": "src/assets/thumbs/pim.png",
+      "link": "https://github.com/arturovaine"
+    },
+    {
+      "title": "Corporate Page",
+      "description": "Demonstration of home page for corporate website",
+      "image": "src/assets/thumbs/lp-corp.gif",
+      "link": "https://github.com/arturovaine/landing-page-video-bg"
+    },
+    {
+      "title": "VTEX Integrations",
+      "description": "Integration of multiple ERP systems and VTEX e-commerce APIs",
+      "image": "src/assets/thumbs/vtex.webp",
+      "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
+    },
+    {
+      "title": "Water Dam Monitoring",
+      "description": "Collecting Data for Water Dams Monitoring System",
+      "image": "src/assets/thumbs/simepar.webp",
+      "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana"
+    },
+    {
+      "title": "Backoffice CRUD",
+      "description": "Application for CRUD operations on predefined e-commerce entities",
+      "image": "src/assets/thumbs/crud-backoffice.gif",
+      "link": "https://github.com/arturovaine/crud_fullstack"
+    },
+    {
+      "title": "Three.js Fire Animation",
+      "description": "Dynamic 3D simulation of fire effect using three.js voxels",
+      "image": "src/assets/thumbs/3d-fire.gif",
+      "link": "https://github.com/arturovaine/doom-fire-algorithm"
+    }
+  ]
+}
