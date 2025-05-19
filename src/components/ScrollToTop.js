@@ -46,9 +46,7 @@ class ScrollToTop extends HTMLElement {
   updateIcon() {
     const iconImg = this.shadowRoot.querySelector('.btn__scroll-to-top--icon');
     if (iconImg) {
-      iconImg.src = this.isDarkMode
-        ? 'https://raw.githubusercontent.com/feathericons/feather/master/icons/arrow-up.svg'
-        : 'https://raw.githubusercontent.com/feathericons/feather/master/icons/arrow-up.svg';
+      iconImg.src = 'src/assets/icons/arrow-up.svg';
     }
   }
 
@@ -90,7 +88,7 @@ class ScrollToTop extends HTMLElement {
       </style>
       
       <div class="btn__scroll-to-top" aria-label="Scroll to top">
-        <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/arrow-up.svg" 
+        <img src="src/assets/icons/arrow-up.svg" 
           class="btn__scroll-to-top--icon" aria-label="Scroll to top">
       </div>
     `;

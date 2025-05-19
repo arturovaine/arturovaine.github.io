@@ -222,7 +222,7 @@ class HeroSection extends HTMLElement {
       <section class="hero">
         <div class="hero__container">
           <div class="hero__avatar-container">
-            <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" 
+            <img src="src/assets/images/my_photo.png" 
               alt="Profile Picture" class="hero__avatar-img">
           </div>
 

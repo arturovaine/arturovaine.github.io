@@ -64,16 +64,15 @@ class ProfileSection extends HTMLElement {
   getImageForType(type, idx) {
     const imgs = {
       awards: [
-        'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=60',
-        'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=60',
-        'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=60'
+        ''
       ],
       volunteering: [
-        'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=800&q=60'
+        'src/assets/images/teto-timelapse.gif'
       ],
       artworks: [
-        'https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=60',
-        'https://images.unsplash.com/photo-1547891654-e66ed7ebb968?auto=format&fit=crop&w=800&q=60'
+        'src/assets/images/mural.png',
+        'src/assets/images/davinci.png',
+        'src/assets/images/arcimboldo.png',
       ]
     };
     return imgs[type][idx] ?? imgs[type][0];
@@ -187,16 +186,12 @@ class ProfileSection extends HTMLElement {
                     ${
                       award.link
                         ? `<a href="${award.link}" target="_blank" class="item-link">
-                             <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/external-link.svg" alt="External">Details
+                             <img src="src/assets/icons/external-link.svg" alt="External">Details
                            </a>`
                         : ''
                     }
                   </h3>
-                  <img
-                    src="${this.getImageForType('awards', i)}"
-                    alt="${award.title}"
-                    style="width:100%;border-radius:8px;margin:0.5rem 0;"
-                  >
+                  
                   <p class="item-description">${award.description}</p>
                 </div>
               `
@@ -205,6 +200,12 @@ class ProfileSection extends HTMLElement {
         </div>
       </div>`;
   }
+
+  // <img
+  //                   src="${this.getImageForType('awards', i)}"
+  //                   alt="${award.title}"
+  //                   style="width:100%;border-radius:8px;margin:0.5rem 0;"
+  //                 ></img>
 
   get volunteeringSection() {
     const v = this.data.volunteering;
@@ -216,7 +217,7 @@ class ProfileSection extends HTMLElement {
             <h3 class="item-title">
               <span>${v.organization}</span>
               <a href="https://teto.org.br" target="_blank" class="item-link">
-                <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/external-link.svg" alt="External">
+                <img src="src/assets/icons/external-link.svg" alt="External">
                 Visit Website
               </a>
             </h3>
@@ -247,7 +248,7 @@ class ProfileSection extends HTMLElement {
                   <h3 class="item-title">
                     <span>${art.title}</span>
                     <a href="${art.link}" target="_blank" class="item-link">
-                      <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/external-link.svg" alt="External">
+                      <img src="src/assets/icons/external-link.svg" alt="External">
                       View Details
                     </a>
                   </h3>
