@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "title": "DYOD",
+      "description": "`Do Your Own Diligence`: Web extension to automate brief investigation",
+      "image": "src/assets/thumbs/company-risk-extension.png",
+      "link": "https://github.com/arturovaine/company-risk-radar_web-extension"
+    },
+    {
       "title": "Airflow Web ETL",
       "description": "Pipeline to scrape data and load it into a Postgres db",
       "image": "src/assets/thumbs/airflow-etl.jpeg",
