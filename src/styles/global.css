@@ -79,6 +79,10 @@ body {
   padding: 0;
   margin: 0;
   transition: background-color var(--transition-time) ease, color var(--transition-time) ease;
+  /* Override the flex centering from style.css */
+  display: block !important;
+  place-items: unset !important;
+  min-height: unset !important;
 }
 
 body.dark-mode {
