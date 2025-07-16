@@ -7,11 +7,23 @@
   },
   "experience": [
     {
+      "title": "Software Developer",
+      "company": "NILG.AI",
+      "period": "Apr 2025 - Present",
+      "responsibilities": [
+        "Designing and developing ETL pipelines to process and transform data for AI-driven solutions.",
+        "Collaborating with data scientists and business teams to define needs and data quality."
+      ]
+    },
+    {
       "title": "Full-Stack Developer",
       "company": "Meros do Brasil Institute",
       "period": "Apr 2025 - Present",
       "responsibilities": [
-        "Ad hoc consulting for digital solutions subsidized by PETROBRAS S.A."
+        "Ad hoc consulting for digital solutions subsidized by PETROBRAS S.A.",
+        "Development of back-office platform to manage tasks and reporting of 60+ team members.",
+        "Deployment of pipelines and RAG system to consolidate reports and querying of Knowledge Base.",
+        "Management of Google Admin Workspace console to support all sort of team members needs.",
       ]
     },
     {
