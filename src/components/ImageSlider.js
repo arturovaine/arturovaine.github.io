@@ -190,7 +190,7 @@ class ImageSlider extends HTMLElement {
         @media (max-width: 1024px) {
           .image-slider {
             width: 720px;
-            margin: 0 auto 52px;
+            margin: 0 auto 20px;
           }
           .slider__container {
             height: 320px;
@@ -222,7 +222,7 @@ class ImageSlider extends HTMLElement {
         @media (max-width: 600px) {
           .image-slider {
             width: 380px;
-            margin: 0 auto 30px;
+            margin: 0 auto 10px;
           }
           .slider__container {
             height: 240px;

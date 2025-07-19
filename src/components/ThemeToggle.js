@@ -53,7 +53,7 @@ class ThemeToggle extends HTMLElement {
         }
         .header {
           margin: 33px auto 65px;
-          display: flex;
+          display: none;
           justify-content: center;
           align-items: center;
           width: 100%;
