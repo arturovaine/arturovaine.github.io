@@ -20,9 +20,14 @@ class PortfolioApp extends HTMLElement {
           margin: 0 auto;
           padding: 0 20px;
         }
+        theme-toggle {
+          display: block;
+          width: 100%;
+        }
       </style>
       <div class="container">
         <theme-toggle></theme-toggle>
+        <image-slider></image-slider>
         <hero-section></hero-section>
         <stats-section></stats-section>
         <action-buttons></action-buttons>

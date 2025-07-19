@@ -50,11 +50,11 @@ class TabsSection extends HTMLElement {
           justify-content: center;
           gap: 20px;
           margin: 0 auto;
-          border-radius: 20px;
+          border-radius: 0;
           height: 110px;
           width: 760px;
           background-color: var(--light-card-bg, #ffffff);
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+          border: 1px solid #c0c0c0;
           transition: background-color var(--transition-time, 0.7s) ease;
         }
         .tab {
@@ -69,7 +69,7 @@ class TabsSection extends HTMLElement {
           background-color: var(--light-card-bg, #ffffff);
           text-align: center;
           text-decoration: none;
-          border-radius: 10px;
+          border-radius: 0;
           border: none;
           outline: none;
           cursor: pointer;
@@ -101,13 +101,13 @@ class TabsSection extends HTMLElement {
             width: 549px;
             height: 79px;
             gap: 16px;
-            border-radius: 14px;
+            border-radius: 0;
           }
           .tab {
             width: 252px;
             height: 58px;
             font-size: 18px;
-            border-radius: 7px;
+            border-radius: 0;
           }
           .tabs-section {
             width: 549px;
@@ -121,12 +121,12 @@ class TabsSection extends HTMLElement {
             width: 330px;
             height: 64px;
             gap: 9px;
-            border-radius: 10px;
+            border-radius: 0;
           }
           .tab {
             width: 154px;
             height: 50.3px;
-            border-radius: 10px;
+            border-radius: 0;
             font-size: 14px;
           }
           .tabs-section {

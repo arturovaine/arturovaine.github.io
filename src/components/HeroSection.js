@@ -1,17 +1,27 @@
+import themeManager from '../utils/ThemeManager.js';
+
 class HeroSection extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-    this.isDarkMode = document.body.classList.contains('dark-mode');
+    this.isDarkMode = false;
+    this.unsubscribe = null;
   }
 
   connectedCallback() {
     this.render();
     
-    document.addEventListener('theme-changed', (e) => {
-      this.isDarkMode = e.detail.theme === 'dark';
+    // Subscribe to theme changes
+    this.unsubscribe = themeManager.subscribe((theme) => {
+      this.isDarkMode = theme === 'dark';
       this.updateIcons();
     });
+  }
+
+  disconnectedCallback() {
+    if (this.unsubscribe) {
+      this.unsubscribe();
+    }
   }
 
   updateIcons() {
@@ -44,6 +54,7 @@ class HeroSection extends HTMLElement {
           height: 215px;
           display: flex;
           margin: 0 auto 48px;
+          margin-top: -40px;
           align-items: center;
           justify-content: center;
         }
@@ -54,11 +65,12 @@ class HeroSection extends HTMLElement {
           margin: 0 auto;
           align-items: center;
           justify-content: center;
+          flex-direction: column;
         }
         .hero__avatar-container {
           width: 215px;
           height: 215px;
-          display: flex;
+          display: none;
           margin: 0 auto;
           align-items: center;
           justify-content: center;
@@ -79,7 +91,8 @@ class HeroSection extends HTMLElement {
         .hero__intro {
           width: 372px;
           height: 156px;
-          margin-left: 40px;
+          margin-left: 0px;
+          text-align: center;
         }
         .hero__title {
           font-size: 46px;
@@ -96,10 +109,10 @@ class HeroSection extends HTMLElement {
           transition: color var(--transition-time, 0.7s) ease;
         }
         .hero__social-links {
-          width: 222px;
+          width: 80px;
           height: 36px;
           display: flex;
-          margin-top: 12px;
+          margin: 30px auto 0;
           justify-content: space-between;
         }
         .social-link {
@@ -160,7 +173,7 @@ class HeroSection extends HTMLElement {
             height: 30px;
           }
           .hero__social-links {
-            width: 180px;
+            width: 70px;
             margin-top: 10px;
           }
         }
@@ -205,7 +218,7 @@ class HeroSection extends HTMLElement {
             margin-top: 8px;
           }
           .hero__social-links {
-            width: 174px;
+            width: 60px;
             height: 24px;
             margin-top: 16px;
             display: flex;
@@ -239,11 +252,6 @@ class HeroSection extends HTMLElement {
                 <img class="icon__social_media" id="icon-linkedin" 
                   src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linkedin.svg"
                   alt="LinkedIn Icon">
-              </a>
-              <a href="https://www.youtube.com/@ArturoCWB" class="social-link" target="_blank">
-                <img class="icon__social_media" id="icon-youtube" 
-                  src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/youtube.svg"
-                  alt="YouTube Icon">
               </a>
             </div>
           </div>

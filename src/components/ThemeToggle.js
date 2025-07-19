@@ -1,18 +1,29 @@
+import themeManager from '../utils/ThemeManager.js';
+
 class ThemeToggle extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-    this.isDarkMode = document.body.classList.contains('dark-mode');
+    this.isDarkMode = false;
+    this.unsubscribe = null;
   }
 
   connectedCallback() {
     this.render();
     this.addEventListeners();
     
-    document.addEventListener('theme-changed', (e) => {
-      this.isDarkMode = e.detail.theme === 'dark';
+    // Subscribe to theme changes
+    this.unsubscribe = themeManager.subscribe((theme) => {
+      this.isDarkMode = theme === 'dark';
       this.updateThemeIcon();
     });
+  }
+
+  disconnectedCallback() {
+    // Clean up subscription
+    if (this.unsubscribe) {
+      this.unsubscribe();
+    }
   }
 
   addEventListeners() {
@@ -21,25 +32,15 @@ class ThemeToggle extends HTMLElement {
   }
 
   toggleTheme() {
-    this.isDarkMode = !this.isDarkMode;
-    document.body.classList.toggle('dark-mode', this.isDarkMode);
-    localStorage.setItem('theme', this.isDarkMode ? 'dark' : 'light');
-    
-    document.dispatchEvent(new CustomEvent('theme-changed', { 
-      detail: { theme: this.isDarkMode ? 'dark' : 'light' } 
-    }));
-    
-    this.updateThemeIcon();
+    themeManager.toggleTheme();
   }
 
   updateThemeIcon() {
     const iconImg = this.shadowRoot.querySelector('.theme-toggle-img');
     if (iconImg) {
       iconImg.src = this.isDarkMode 
-        // ? 'https://raw.githubusercontent.com/feathericons/feather/master/icons/sun.svg' 
-        // : 'https://raw.githubusercontent.com/feathericons/feather/master/icons/moon.svg';
-        ? 'src/assets/icons/sun.svg' 
-        : 'src/assets/icons/moon.svg';
+        ? '/src/assets/icons/sun.svg' 
+        : '/src/assets/icons/moon.svg';
     }
   }
 
@@ -55,6 +56,7 @@ class ThemeToggle extends HTMLElement {
           display: flex;
           justify-content: center;
           align-items: center;
+          width: 100%;
         }
         .theme-toggle-btn {
           width: 80px;
@@ -116,8 +118,8 @@ class ThemeToggle extends HTMLElement {
       <div class="header">
         <button class="theme-toggle-btn" aria-label="Toggle light/dark theme">
           <img class="theme-toggle-img" src="${this.isDarkMode 
-            ? 'src/assets/icons/sun.svg' 
-            : 'src/assets/icons/moon.svg'}" 
+            ? '/src/assets/icons/sun.svg' 
+            : '/src/assets/icons/moon.svg'}" 
             alt="Theme Toggle Icon" />
         </button>
       </div>

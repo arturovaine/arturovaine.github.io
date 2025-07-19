@@ -39,17 +39,41 @@ npx serve .
 
 ```
 ├── index.html
+├── main.js
+├── counter.js
+├── javascript.svg
+├── threeSetup.js
+├── package.json
+├── package-lock.json
+├── .gitignore
+├── README.md
+├── _v1/
+├── _v2/
+├── dist/
+├── node_modules/
+├── public/
 ├── src/
 │   ├── assets/
-│   │   └── icons/
-│   │       ├── sun.svg
-│   │       └── moon.svg
-│   └── components/
-│       └── theme-toggle.js
+│   ├── components/
+│   │   ├── ActionButtons.js
+│   │   ├── FooterSection.js
+│   │   ├── HeroSection.js
+│   │   ├── ModelViewer.js
+│   │   ├── PortfolioApp.js
+│   │   ├── PortfolioSection.js
+│   │   ├── ProfileSection.js
+│   │   ├── ScrollToTop.js
+│   │   ├── SkillsSection.js
+│   │   ├── StatsSection.js
+│   │   ├── TabsSection.js
+│   │   └── ThemeToggle.js
+│   └── data/
+│       ├── portfolio.json
+│       └── profile.json
+├── js/
 ├── styles/
-│   ├── global.css
-│   └── style.css
-└── README.md
+│   └── global.css
+└── style.css
 ```
 
 ## Theme Toggle

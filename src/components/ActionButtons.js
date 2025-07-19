@@ -32,24 +32,26 @@ class ActionButtons extends HTMLElement {
           color: var(--light-text-primary, #3d3d3d);
           text-align: center;
           text-decoration: none;
-          border-radius: 10px;
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .hero__action-btn:hover {
-          transform: translateY(-3px);
-          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-        .hero__action-btn:active {
-          transform: translateY(0);
+          border-radius: 0;
+          border: 1px solid #999999;
+          transition: background-color 0.3s ease, color 0.3s ease;
         }
         .hero__action-btn--primary {
           background-color: var(--accent-light, #f7d039);
-          transition: background-color var(--transition-time, 0.7s) ease;
+          transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .hero__action-btn--primary:hover {
+          background-color: #333333;
+          color: #ffffff;
         }
         .hero__action-btn--secondary {
           background-color: var(--light-card-bg, #ffffff);
-          transition: background-color var(--transition-time, 0.7s) ease, color var(--transition-time, 0.7s) ease;
+          transition: background-color 0.3s ease, color 0.3s ease;
           color: var(--light-text-primary, #3d3d3d);
+        }
+        .hero__action-btn--secondary:hover {
+          background-color: #333333;
+          color: #ffffff;
         }
         .icon--download {
           height: 24px;
@@ -57,10 +59,19 @@ class ActionButtons extends HTMLElement {
         }
         :host-context(body.dark-mode) .hero__action-btn--primary {
           background-color: var(--accent-dark, #ffe071);
+          color: #333333;
+        }
+        :host-context(body.dark-mode) .hero__action-btn--primary:hover {
+          background-color: #ffffff;
+          color: #333333;
         }
         :host-context(body.dark-mode) .hero__action-btn--secondary {
           background-color: var(--dark-card-bg, #171f26);
           color: var(--dark-text-secondary, #a3abb2);
+        }
+        :host-context(body.dark-mode) .hero__action-btn--secondary:hover {
+          background-color: #ffffff;
+          color: #333333;
         }
         
         @media (max-width: 1024px) {
@@ -73,7 +84,7 @@ class ActionButtons extends HTMLElement {
             width: 230px;
             height: 64px;
             font-size: 18px;
-            border-radius: 8px;
+            border-radius: 0;
           }
           .icon--download {
             height: 20px;
@@ -90,7 +101,7 @@ class ActionButtons extends HTMLElement {
           .hero__action-btn {
             width: 158px;
             height: 44px;
-            border-radius: 10px;
+            border-radius: 0;
             font-size: 12px;
           }
           .icon--download {

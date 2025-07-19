@@ -103,8 +103,8 @@ class ProfileSection extends HTMLElement {
     return `
       :host { display:block; }
       .profile { display:${this.visible ? 'block' : 'none'}; max-width:757px; margin:0 auto; padding:0 1rem; margin-top:-32px; }
-      .section { background:var(--light-card-bg,#fff); border-radius:15px; padding:1.5rem; margin-bottom:1rem; box-shadow:0 2px 4px rgba(0,0,0,.05); transition:box-shadow .3s ease; }
-      .section:hover { box-shadow:0 4px 8px rgba(0,0,0,.1); }
+      .section { background:var(--light-card-bg,#fff); border-radius:0; padding:1.5rem; margin-bottom:1rem; border:1px solid #c0c0c0; transition:border-color .3s ease; }
+      .section:hover { border-color:#d0d0d0; }
       .section-title { font-size:1.25rem; font-weight:500; color:var(--light-text-primary,#3d3d3d); cursor:pointer; user-select:none; display:flex; align-items:center; }
       .section-title::after { content:''; width:24px; height:24px; margin-left:auto; background:url('https://raw.githubusercontent.com/feathericons/feather/master/icons/chevron-up.svg') center/contain no-repeat; transition:transform .3s ease; opacity:.5; }
       .section-title.collapsed::after { transform:rotate(180deg); }
@@ -224,7 +224,7 @@ class ProfileSection extends HTMLElement {
             <img
               src="${this.getImageForType('volunteering', 0)}"
               alt="Volunteer"
-              style="width:100%;border-radius:8px;margin:0.5rem 0;"
+              style="width:100%;border-radius:0;margin:0.5rem 0;"
             >
             <p class="item-description">${v.description}</p>
             <strong>Main experiences as volunteer:</strong>
@@ -255,7 +255,7 @@ class ProfileSection extends HTMLElement {
                   <img
                     src="${this.getImageForType('artworks', i)}"
                     alt="${art.title}"
-                    style="width:100%;border-radius:8px;margin:0.5rem 0;"
+                    style="width:100%;border-radius:0;margin:0.5rem 0;"
                   >
                   <p class="item-description">${art.description}</p>
                 </div>

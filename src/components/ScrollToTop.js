@@ -1,20 +1,29 @@
+import themeManager from '../utils/ThemeManager.js';
+
 class ScrollToTop extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-    this.isDarkMode = document.body.classList.contains('dark-mode');
+    this.isDarkMode = false;
     this.visible = false;
+    this.unsubscribe = null;
   }
 
   connectedCallback() {
     this.render();
     this.addEventListeners();
     
-    // Listen for theme changes
-    document.addEventListener('theme-changed', (e) => {
-      this.isDarkMode = e.detail.theme === 'dark';
+    // Subscribe to theme changes
+    this.unsubscribe = themeManager.subscribe((theme) => {
+      this.isDarkMode = theme === 'dark';
       this.updateIcon();
     });
+  }
+
+  disconnectedCallback() {
+    if (this.unsubscribe) {
+      this.unsubscribe();
+    }
   }
 
   addEventListeners() {
