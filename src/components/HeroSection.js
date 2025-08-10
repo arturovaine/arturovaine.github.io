@@ -26,20 +26,19 @@ class HeroSection extends HTMLElement {
 
   updateIcons() {
     const githubIcon = this.shadowRoot.querySelector('#icon-github');
-    // const twitterIcon = this.shadowRoot.querySelector('#icon-twitter');
     const linkedinIcon = this.shadowRoot.querySelector('#icon-linkedin');
-    const youtubeIcon = this.shadowRoot.querySelector('#icon-youtube');
 
-    if (this.isDarkMode) {
-      githubIcon.src = 'src/assets/icons/github.svg';
-      // twitterIcon.src = 'src/assets/icons/x.svg';
-      linkedinIcon.src = 'src/assets/icons/linkedin.svg';
-      youtubeIcon.src = 'src/assets/icons/youtube.svg';
-    } else {
-      githubIcon.src = 'src/assets/icons/github.svg';
-      // twitterIcon.src = 'src/assets/icons/x.svg';
-      linkedinIcon.src = 'src/assets/icons/linkedin.svg';
-      youtubeIcon.src = 'src/assets/icons/youtube.svg';
+    // Update icons if they exist
+    if (githubIcon) {
+      githubIcon.src = this.isDarkMode 
+        ? 'src/assets/icons/github-dark.svg'
+        : 'src/assets/icons/github.svg';
+    }
+
+    if (linkedinIcon) {
+      linkedinIcon.src = this.isDarkMode 
+        ? 'src/assets/icons/linkedin-dark.svg'
+        : 'src/assets/icons/linkedin.svg';
     }
   }
 
@@ -236,7 +235,7 @@ class HeroSection extends HTMLElement {
         <div class="hero__container">
           <div class="hero__avatar-container">
             <img src="src/assets/images/my_photo.png" 
-              alt="Profile Picture" class="hero__avatar-img">
+              alt="Profile Picture" class="hero__avatar-img" loading="eager">
           </div>
 
           <div class="hero__intro">
@@ -245,13 +244,13 @@ class HeroSection extends HTMLElement {
             <div class="hero__social-links">
               <a href="https://github.com/arturovaine" class="social-link" target="_blank">
                 <img class="icon__social_media" id="icon-github" 
-                  src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg"
-                  alt="Github Icon">
+                  src="src/assets/icons/github.svg"
+                  alt="Github Icon" loading="eager">
               </a>
               <a href="https://www.linkedin.com/in/arturovaine/" class="social-link" target="_blank">
                 <img class="icon__social_media" id="icon-linkedin" 
-                  src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/linkedin.svg"
-                  alt="LinkedIn Icon">
+                  src="src/assets/icons/linkedin.svg"
+                  alt="LinkedIn Icon" loading="eager">
               </a>
             </div>
           </div>
@@ -259,6 +258,8 @@ class HeroSection extends HTMLElement {
       </section>
     `;
     
+    // Set initial theme and update icons
+    this.isDarkMode = themeManager.getCurrentTheme() === 'dark';
     this.updateIcons();
   }
 }
