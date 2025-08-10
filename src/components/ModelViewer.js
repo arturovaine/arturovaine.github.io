@@ -1,18 +1,68 @@
-import * as THREE from 'three';
-import { STLLoader } from 'three/examples/jsm/loaders/STLLoader.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-
 class ModelViewer extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
     this.isUserInteracting = false;
     this.autoRotationEnabled = true;
+    this.threeJSLoaded = false;
+    this.isComponentVisible = false;
   }
 
   connectedCallback() {
     this.render();
-    this.setupThreeJS();
+    this.setupIntersectionObserver();
+  }
+
+  setupIntersectionObserver() {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !this.threeJSLoaded) {
+            this.isComponentVisible = true;
+            this.loadThreeJSAndSetup();
+            observer.unobserve(this);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(this);
+  }
+
+  async loadThreeJSAndSetup() {
+    if (this.threeJSLoaded) return;
+    
+    try {
+      const loadingElement = this.shadowRoot.querySelector('.loading-indicator');
+      if (loadingElement) loadingElement.style.display = 'block';
+
+      const [
+        THREE,
+        { STLLoader },
+        { OrbitControls }
+      ] = await Promise.all([
+        import('three'),
+        import('three/examples/jsm/loaders/STLLoader.js'),
+        import('three/examples/jsm/controls/OrbitControls.js')
+      ]);
+
+      this.THREE = THREE;
+      this.STLLoader = STLLoader;
+      this.OrbitControls = OrbitControls;
+      this.threeJSLoaded = true;
+
+      this.setupThreeJS();
+      
+      if (loadingElement) loadingElement.style.display = 'none';
+    } catch (error) {
+      console.error('Failed to load Three.js:', error);
+      this.showFallback();
+    }
+  }
+
+  showFallback() {
+    const container = this.shadowRoot.querySelector('.model-viewer__canvas');
+    container.innerHTML = '<div class="fallback-message">3D model could not be loaded</div>';
   }
 
   setupThreeJS() {
@@ -20,6 +70,8 @@ class ModelViewer extends HTMLElement {
     const width = container.clientWidth;
     const height = container.clientHeight;
 
+    const { THREE } = this;
+    
     // Scene setup
     this.scene = new THREE.Scene();
     this.scene.background = new THREE.Color(0xeeeeee);
@@ -42,7 +94,7 @@ class ModelViewer extends HTMLElement {
     this.scene.add(directionalLight);
 
     // Add OrbitControls
-    this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+    this.controls = new this.OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = true;
     this.controls.dampingFactor = 0.05;
     this.controls.enableZoom = true;
@@ -67,11 +119,11 @@ class ModelViewer extends HTMLElement {
     });
 
     // Load model
-    const loader = new STLLoader();
+    const loader = new this.STLLoader();
     const modelUrl = 'src/assets/3d/3d-model.stl';
 
     loader.load(modelUrl, (geometry) => {
-      const material = new THREE.MeshPhongMaterial({
+      const material = new this.THREE.MeshPhongMaterial({
         color: 0xffffff,
         specular: 0x111111,
         shininess: 200,
@@ -80,16 +132,16 @@ class ModelViewer extends HTMLElement {
         wireframe: true
       });
 
-      this.mesh = new THREE.Mesh(geometry, material);
+      this.mesh = new this.THREE.Mesh(geometry, material);
       geometry.center();
       this.mesh.scale.set(0.1, 0.1, 0.1);
       this.mesh.position.x += 0.5;
       this.scene.add(this.mesh);
 
       // Adjust camera position
-      const box = new THREE.Box3().setFromObject(this.mesh);
-      const center = box.getCenter(new THREE.Vector3());
-      const size = box.getSize(new THREE.Vector3());
+      const box = new this.THREE.Box3().setFromObject(this.mesh);
+      const center = box.getCenter(new this.THREE.Vector3());
+      const size = box.getSize(new this.THREE.Vector3());
 
       this.camera.position.set(
         center.x + size.x * -1.25 * 0.75 - 1,
@@ -122,7 +174,7 @@ class ModelViewer extends HTMLElement {
 
     // Apply original rotation axis when auto-rotation is enabled
     if (this.mesh && this.autoRotationEnabled && !this.isUserInteracting) {
-      const rotationAxis = new THREE.Vector3(0.1, 0, 1).normalize();
+      const rotationAxis = new this.THREE.Vector3(0.1, 0, 1).normalize();
       this.mesh.rotateOnAxis(rotationAxis, 0.01);
     }
 
@@ -150,6 +202,28 @@ class ModelViewer extends HTMLElement {
           width: 100%;
           height: 400px;
           position: relative;
+        }
+        .loading-indicator {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 16px;
+          color: var(--light-text-primary, #3d3d3d);
+          display: none;
+        }
+        .fallback-message {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 16px;
+          color: var(--light-text-primary, #3d3d3d);
+          text-align: center;
+        }
+        :host-context(body.dark-mode) .loading-indicator,
+        :host-context(body.dark-mode) .fallback-message {
+          color: var(--dark-text-primary, #f1f2f4);
         }
         .model-viewer__canvas::after {
           content: '';
@@ -225,7 +299,9 @@ class ModelViewer extends HTMLElement {
         }
       </style>
       <div class="model-viewer">
-        <div class="model-viewer__canvas"></div>
+        <div class="model-viewer__canvas">
+          <div class="loading-indicator">Loading 3D model...</div>
+        </div>
         <div class="model-viewer__description">
           Concept design of a bionic hand created in SolidWorks and rendered using Three.js. 
           <a href="https://www.behance.net/gallery/70813139/Bionic-Hand-(2018)" target="_blank" class="model-viewer__link">View on Behance</a>
