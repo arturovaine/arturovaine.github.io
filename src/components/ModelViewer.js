@@ -41,9 +41,9 @@ class ModelViewer extends HTMLElement {
         { STLLoader },
         { OrbitControls }
       ] = await Promise.all([
-        import('https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js'),
-        import('https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/loaders/STLLoader.js'),
-        import('https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/controls/OrbitControls.js')
+        import('https://unpkg.com/three@0.160.1/build/three.module.js'),
+        import('https://unpkg.com/three@0.160.1/examples/jsm/loaders/STLLoader.js'),
+        import('https://unpkg.com/three@0.160.1/examples/jsm/controls/OrbitControls.js')
       ]);
 
       this.THREE = THREE;

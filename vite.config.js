@@ -5,8 +5,8 @@ export default defineConfig({
     // Optimize chunk splitting
     rollupOptions: {
       external: (id) => {
-        // Keep Three.js external for dynamic imports
-        return id.includes('three') && id.includes('/examples/jsm/');
+        // Keep all Three.js modules external for dynamic imports
+        return id.includes('three') || id === 'three';
       },
       output: {
         manualChunks: {
