@@ -5,20 +5,28 @@
     <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arturo's Portfolio</title>
+    
+    <!-- SEO and Performance Meta Tags -->
+    <meta name="description" content="Arturo Vaine - Full-Stack Developer with Mechanical Engineering background. Expertise in Node.js, React, Python, and innovative tech solutions.">
+    <meta name="theme-color" content="#f7d039">
+    
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/src/styles/global.css" as="style">
+    <link rel="preload" href="/src/assets/images/my_photo.webp" as="image" type="image/webp">
+    <link rel="preload" href="/src/assets/images/my_photo.png" as="image" type="image/png">
+    <link rel="preload" href="/src/data/pixelart-frames.json" as="fetch" crossorigin>
+    
+    <!-- Prefetch next likely resources -->
+    <link rel="prefetch" href="/src/data/portfolio.json" as="fetch" crossorigin>
+    <link rel="prefetch" href="/src/data/profile.json" as="fetch" crossorigin>
+    
     <link rel="stylesheet" href="/src/styles/global.css">
     
-    <script type="importmap">
-      {
-        "imports": {
-          "three": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.min.js",
-          "three/examples/jsm/loaders/STLLoader.js":
-            "https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/loaders/STLLoader.min.js",
-          "three/examples/jsm/controls/OrbitControls.js":
-            "https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/controls/OrbitControls.min.js"
-        }
-      }
-    </script>
-    
+    <!-- Three.js will be loaded dynamically when needed -->
     <script type="module" src="/src/main.js"></script>
       
   

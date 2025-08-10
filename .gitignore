@@ -55,3 +55,20 @@ stylelintcache/
 storybook-static/
 docs-build/
 
+# Local development scripts & tools
+scripts/
+*.local.js
+*.dev.js
+
+# Development notes and documentation (local only)
+notes.md
+NOTES.md
+dev-notes.md
+
+# Legacy/unused code (moved for reference)
+legacy/
+
+# Image optimization artifacts (keep WebP files, ignore temp processing)
+*.temp
+*.processing
+
