@@ -4,10 +4,6 @@ export default defineConfig({
   build: {
     // Optimize chunk splitting
     rollupOptions: {
-      external: (id) => {
-        // Keep all Three.js modules external for dynamic imports
-        return id.includes('three') || id === 'three';
-      },
       output: {
         manualChunks: {
           // Keep utilities together  
@@ -40,10 +36,10 @@ export default defineConfig({
     }
   },
 
-  // Optimize dependencies
+  // Optimize dependencies  
   optimizeDeps: {
-    // Exclude Three.js from pre-bundling since we're using dynamic imports
-    exclude: ['three', 'three/examples/jsm/loaders/STLLoader.js', 'three/examples/jsm/controls/OrbitControls.js']
+    // Include Three.js for proper bundling
+    include: ['three', 'three/examples/jsm/loaders/STLLoader.js', 'three/examples/jsm/controls/OrbitControls.js']
   },
 
   // Add performance hints
