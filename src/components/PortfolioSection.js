@@ -27,13 +27,13 @@ class PortfolioSection extends HTMLElement {
   }
 
   renderProjects() {
-    return this.data.projects.map(project => `
+    return this.data.projects.map((project, index) => `
       <a href="${project.link}" target="_blank" class="project-card" style="background-image: url('${project.image}')">
         <div class="project-card--title">${project.title}</div>
         <div class="project-card--description">${project.description}</div>
         <div class="project-card--link-btn">
           <img src="src/assets/icons/external-link.svg" 
-            alt="Link icon" class="project-card--link-icon">
+            alt="Link icon" class="project-card--link-icon" loading="${index < 3 ? 'eager' : 'lazy'}">
         </div>
       </a>
     `).join('');

@@ -3,89 +3,79 @@ class ImageSlider extends HTMLElement {
     super();
     this.attachShadow({ mode: 'open' });
     this.currentIndex = 0;
-    this.images = [
-      'src/assets/images/pxart/pxArt.png',
-      'src/assets/images/pxart/pxArt (1).png',
-      'src/assets/images/pxart/pxArt (2).png',
-      'src/assets/images/pxart/pxArt (3).png',
-      'src/assets/images/pxart/pxArt (4).png',
-      'src/assets/images/pxart/pxArt (5).png',
-      'src/assets/images/pxart/pxArt (6).png',
-      'src/assets/images/pxart/pxArt (7).png',
-      'src/assets/images/pxart/pxArt (8).png',
-      'src/assets/images/pxart/pxArt (9).png',
-      'src/assets/images/pxart/pxArt (10).png',
-      'src/assets/images/pxart/pxArt (11).png',
-      'src/assets/images/pxart/pxArt (12).png',
-      'src/assets/images/pxart/pxArt (13).png',
-      'src/assets/images/pxart/pxArt (14).png',
-      'src/assets/images/pxart/pxArt (15).png',
-      'src/assets/images/pxart/pxArt (16).png',
-      'src/assets/images/pxart/pxArt (17).png',
-      'src/assets/images/pxart/pxArt (18).png',
-      'src/assets/images/pxart/pxArt (19).png',
-      'src/assets/images/pxart/pxArt (20).png',
-      'src/assets/images/pxart/pxArt (21).png',
-      'src/assets/images/pxart/pxArt (22).png',
-      'src/assets/images/pxart/pxArt (23).png',
-      'src/assets/images/pxart/pxArt (24).png',
-      'src/assets/images/pxart/pxArt (25).png',
-      'src/assets/images/pxart/pxArt (26).png',
-      'src/assets/images/pxart/pxArt (27).png',
-      'src/assets/images/pxart/pxArt (28).png',
-      'src/assets/images/pxart/pxArt (29).png',
-      'src/assets/images/pxart/pxArt (30).png',
-      'src/assets/images/pxart/pxArt (31).png',
-      'src/assets/images/pxart/pxArt (32).png',
-      'src/assets/images/pxart/pxArt (33).png',
-      'src/assets/images/pxart/pxArt (34).png',
-      'src/assets/images/pxart/pxArt (35).png',
-      'src/assets/images/pxart/pxArt (36).png',
-      'src/assets/images/pxart/pxArt (37).png',
-      'src/assets/images/pxart/pxArt (38).png',
-      'src/assets/images/pxart/pxArt (39).png',
-      'src/assets/images/pxart/pxArt (40).png',
-      'src/assets/images/pxart/pxArt (41).png',
-      'src/assets/images/pxart/pxArt (42).png',
-      'src/assets/images/pxart/pxArt (43).png',
-      'src/assets/images/pxart/pxArt (44).png',
-      'src/assets/images/pxart/pxArt (45).png',
-      'src/assets/images/pxart/pxArt (46).png',
-      'src/assets/images/pxart/pxArt (47).png',
-      'src/assets/images/pxart/pxArt (48).png',
-      'src/assets/images/pxart/pxArt (49).png',
-      'src/assets/images/pxart/pxArt (50).png',
-      'src/assets/images/pxart/pxArt (51).png',
-      'src/assets/images/pxart/pxArt (52).png',
-      'src/assets/images/pxart/pxArt (53).png',
-      'src/assets/images/pxart/pxArt (54).png',
-      'src/assets/images/pxart/pxArt (55).png',
-      'src/assets/images/pxart/pxArt (56).png',
-      'src/assets/images/pxart/pxArt (57).png',
-      'src/assets/images/pxart/pxArt (58).png',
-      'src/assets/images/pxart/pxArt (59).png',
-      'src/assets/images/pxart/pxArt (60).png',
-      'src/assets/images/pxart/pxArt (61).png',
-      'src/assets/images/pxart/pxArt (62).png',
-      'src/assets/images/pxart/pxArt (63).png',
-      'src/assets/images/pxart/pxArt (64).png',
-      'src/assets/images/pxart/pxArt (65).png',
-      'src/assets/images/pxart/pxArt (66).png',
-      'src/assets/images/pxart/pxArt (67).png',
-      'src/assets/images/pxart/pxArt (68).png',
-      'src/assets/images/pxart/pxArt (69).png',
-      'src/assets/images/pxart/pxArt (70).png',
-      'src/assets/images/pxart/pxArt (71).png',
-      'src/assets/images/pxart/pxArt (72).png',
-      'src/assets/images/pxart/pxArt (73).png',
-      'src/assets/images/pxart/pxArt (74).png'
-    ];
+    this.images = [];
+    this.loadedImages = new Set();
+    this.preloadCache = new Map();
     this.animationInterval = null;
+    this.isComponentVisible = false;
   }
 
-  connectedCallback() {
+  async connectedCallback() {
+    await this.loadImageData();
     this.render();
-    this.startAnimation();
+    this.setupIntersectionObserver();
+  }
+
+  async loadImageData() {
+    try {
+      const response = await fetch('/src/data/pixelart-frames.json');
+      const data = await response.json();
+      this.images = data.images;
+    } catch (error) {
+      console.error('Failed to load image data:', error);
+      this.images = [{ src: 'src/assets/images/pxart/pxArt.png', alt: 'Fallback artwork', title: 'pixelart_frame_0' }];
+    }
+  }
+
+  setupIntersectionObserver() {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            this.isComponentVisible = true;
+            this.startAnimation();
+            this.preloadInitialImages();
+            observer.unobserve(this);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    observer.observe(this);
+  }
+
+  preloadInitialImages() {
+    const imagesToPreload = [0, 1, 2, 3, 4].map(i => i % this.images.length);
+    imagesToPreload.forEach(index => this.preloadImage(index));
+  }
+
+  preloadImage(index) {
+    if (this.preloadCache.has(index)) return this.preloadCache.get(index);
+
+    const promise = new Promise((resolve, reject) => {
+      const img = new Image();
+      const imageData = this.images[index];
+      
+      img.onload = () => {
+        this.loadedImages.add(index);
+        resolve(img);
+      };
+      
+      img.onerror = () => {
+        // If WebP fails, try fallback
+        if (imageData?.webp && img.src.endsWith('.webp')) {
+          img.src = imageData.src;
+        } else {
+          reject(new Error(`Failed to load image at index ${index}`));
+        }
+      };
+
+      // Try WebP first if available, otherwise use original
+      img.src = imageData?.webp || imageData?.src || '';
+    });
+
+    this.preloadCache.set(index, promise);
+    return promise;
   }
 
   disconnectedCallback() {
@@ -95,6 +85,8 @@ class ImageSlider extends HTMLElement {
   }
 
   startAnimation() {
+    if (this.animationInterval || !this.isComponentVisible) return;
+    
     this.animationInterval = setInterval(() => {
       this.nextSlide();
     }, 133);
@@ -102,7 +94,19 @@ class ImageSlider extends HTMLElement {
 
   nextSlide() {
     this.currentIndex = (this.currentIndex + 1) % this.images.length;
+    this.preloadAdjacentImages();
     this.updateSlider();
+  }
+
+  preloadAdjacentImages() {
+    const nextIndex = (this.currentIndex + 1) % this.images.length;
+    const prevIndex = this.currentIndex === 0 ? this.images.length - 1 : this.currentIndex - 1;
+    
+    [this.currentIndex, nextIndex, prevIndex].forEach(index => {
+      if (!this.loadedImages.has(index)) {
+        this.preloadImage(index);
+      }
+    });
   }
 
   updateSlider() {
@@ -110,12 +114,51 @@ class ImageSlider extends HTMLElement {
     const centerImage = this.shadowRoot.querySelector('.slider__image--center');
     const rightImage = this.shadowRoot.querySelector('.slider__image--right');
 
+    if (!leftImage || !centerImage || !rightImage) return;
+
     const prevIndex = this.currentIndex === 0 ? this.images.length - 1 : this.currentIndex - 1;
     const nextIndex = (this.currentIndex + 1) % this.images.length;
 
-    leftImage.src = this.images[prevIndex];
-    centerImage.src = this.images[this.currentIndex];
-    rightImage.src = this.images[nextIndex];
+    const currentImg = this.images[this.currentIndex];
+    const prevImg = this.images[prevIndex];
+    const nextImg = this.images[nextIndex];
+
+    if (currentImg) {
+      centerImage.src = currentImg.webp || currentImg.src;
+      centerImage.alt = currentImg.alt;
+      centerImage.title = currentImg.title;
+      centerImage.loading = 'eager';
+      // Add fallback handling
+      centerImage.onerror = () => {
+        if (centerImage.src.endsWith('.webp')) {
+          centerImage.src = currentImg.src;
+        }
+      };
+    }
+    
+    if (prevImg) {
+      leftImage.src = prevImg.webp || prevImg.src;
+      leftImage.alt = prevImg.alt;
+      leftImage.title = prevImg.title;
+      leftImage.loading = 'lazy';
+      leftImage.onerror = () => {
+        if (leftImage.src.endsWith('.webp')) {
+          leftImage.src = prevImg.src;
+        }
+      };
+    }
+    
+    if (nextImg) {
+      rightImage.src = nextImg.webp || nextImg.src;
+      rightImage.alt = nextImg.alt;
+      rightImage.title = nextImg.title;
+      rightImage.loading = 'lazy';
+      rightImage.onerror = () => {
+        if (rightImage.src.endsWith('.webp')) {
+          rightImage.src = nextImg.src;
+        }
+      };
+    }
   }
 
   render() {
@@ -253,9 +296,9 @@ class ImageSlider extends HTMLElement {
       </style>
       <div class="image-slider">
         <div class="slider__container">
-          <img class="slider__image slider__image--left" alt="Previous artwork">
-          <img class="slider__image slider__image--center" alt="Current artwork">
-          <img class="slider__image slider__image--right" alt="Next artwork">
+          <img class="slider__image slider__image--left" loading="lazy" alt="Previous artwork">
+          <img class="slider__image slider__image--center" loading="eager" alt="Current artwork">
+          <img class="slider__image slider__image--right" loading="lazy" alt="Next artwork">
         </div>
         <div class="slider__description">
           Mechanical Engineer, Software Developer
