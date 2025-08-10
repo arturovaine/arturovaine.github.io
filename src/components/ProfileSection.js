@@ -28,7 +28,7 @@ class ProfileSection extends HTMLElement {
    * ─────────────────────────── */
   async loadData() {
     try {
-      const res  = await fetch('/src/data/profile.json');
+      const res  = await fetch('src/data/profile.json');
       this.data  = await res.json();
     } catch (err) {
       console.error('Error loading profile data:', err);

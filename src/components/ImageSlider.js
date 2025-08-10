@@ -18,7 +18,7 @@ class ImageSlider extends HTMLElement {
 
   async loadImageData() {
     try {
-      const response = await fetch('/src/data/pixelart-frames.json');
+      const response = await fetch('src/data/pixelart-frames.json');
       const data = await response.json();
       this.images = data.images;
     } catch (error) {

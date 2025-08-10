@@ -18,7 +18,7 @@ class PortfolioSection extends HTMLElement {
 
   async loadData() {
     try {
-      const response = await fetch('/src/data/portfolio.json');
+      const response = await fetch('src/data/portfolio.json');
       this.data = await response.json();
     } catch (error) {
       console.error('Error loading portfolio data:', error);
