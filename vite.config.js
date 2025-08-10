@@ -38,8 +38,8 @@ export default defineConfig({
 
   // Optimize dependencies  
   optimizeDeps: {
-    // Include Three.js for proper bundling
-    include: ['three', 'three/examples/jsm/loaders/STLLoader.js', 'three/examples/jsm/controls/OrbitControls.js']
+    // Exclude Three.js since it's loaded via import map
+    exclude: ['three', 'three/examples/jsm/loaders/STLLoader.js', 'three/examples/jsm/controls/OrbitControls.js']
   },
 
   // Add performance hints
