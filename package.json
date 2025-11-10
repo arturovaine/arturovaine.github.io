@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-web-components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-optimized": "npm run optimize-images && vite build",
+    "preview": "vite preview",
+    "optimize-images": "node scripts/convert-to-webp.js",
+    "dev-optimized": "npm run optimize-images && npm run dev",
+    "analyze-bundle": "npx vite-bundle-analyzer dist"
+  },
+  "dependencies": {
+    "sharp": "^0.34.3",
+    "three": "^0.157.0"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "images": [
+    {
+      "src": "src/assets/images/pxart/pxArt.png",
+      "webp": "src/assets/images/pxart/pxArt.webp",
+      "alt": "Pixel art - Main artwork",
+      "title": "pixelart_frame_0"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (1).png",
+      "alt": "Pixel art creation 1",
+      "title": "pixelart_frame_1",
+      "webp": "src/assets/images/pxart/pxArt (1).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (2).png",
+      "alt": "Pixel art creation 2",
+      "title": "pixelart_frame_2",
+      "webp": "src/assets/images/pxart/pxArt (2).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (3).png",
+      "alt": "Pixel art creation 3",
+      "title": "pixelart_frame_3",
+      "webp": "src/assets/images/pxart/pxArt (3).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (4).png",
+      "alt": "Pixel art creation 4",
+      "title": "pixelart_frame_4",
+      "webp": "src/assets/images/pxart/pxArt (4).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (5).png",
+      "alt": "Pixel art creation 5",
+      "title": "pixelart_frame_5",
+      "webp": "src/assets/images/pxart/pxArt (5).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (6).png",
+      "alt": "Pixel art creation 6",
+      "title": "pixelart_frame_6",
+      "webp": "src/assets/images/pxart/pxArt (6).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (7).png",
+      "alt": "Pixel art creation 7",
+      "title": "pixelart_frame_7",
+      "webp": "src/assets/images/pxart/pxArt (7).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (8).png",
+      "alt": "Pixel art creation 8",
+      "title": "pixelart_frame_8",
+      "webp": "src/assets/images/pxart/pxArt (8).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (9).png",
+      "alt": "Pixel art creation 9",
+      "title": "pixelart_frame_9",
+      "webp": "src/assets/images/pxart/pxArt (9).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (10).png",
+      "alt": "Pixel art creation 10",
+      "title": "pixelart_frame_10",
+      "webp": "src/assets/images/pxart/pxArt (10).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (11).png",
+      "alt": "Pixel art creation 11",
+      "title": "pixelart_frame_11",
+      "webp": "src/assets/images/pxart/pxArt (11).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (12).png",
+      "alt": "Pixel art creation 12",
+      "title": "pixelart_frame_12",
+      "webp": "src/assets/images/pxart/pxArt (12).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (13).png",
+      "alt": "Pixel art creation 13",
+      "title": "pixelart_frame_13",
+      "webp": "src/assets/images/pxart/pxArt (13).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (14).png",
+      "alt": "Pixel art creation 14",
+      "title": "pixelart_frame_14",
+      "webp": "src/assets/images/pxart/pxArt (14).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (15).png",
+      "alt": "Pixel art creation 15",
+      "title": "pixelart_frame_15",
+      "webp": "src/assets/images/pxart/pxArt (15).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (16).png",
+      "alt": "Pixel art creation 16",
+      "title": "pixelart_frame_16",
+      "webp": "src/assets/images/pxart/pxArt (16).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (17).png",
+      "alt": "Pixel art creation 17",
+      "title": "pixelart_frame_17",
+      "webp": "src/assets/images/pxart/pxArt (17).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (18).png",
+      "alt": "Pixel art creation 18",
+      "title": "pixelart_frame_18",
+      "webp": "src/assets/images/pxart/pxArt (18).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (19).png",
+      "alt": "Pixel art creation 19",
+      "title": "pixelart_frame_19",
+      "webp": "src/assets/images/pxart/pxArt (19).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (20).png",
+      "alt": "Pixel art creation 20",
+      "title": "pixelart_frame_20",
+      "webp": "src/assets/images/pxart/pxArt (20).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (21).png",
+      "alt": "Pixel art creation 21",
+      "title": "pixelart_frame_21",
+      "webp": "src/assets/images/pxart/pxArt (21).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (22).png",
+      "alt": "Pixel art creation 22",
+      "title": "pixelart_frame_22",
+      "webp": "src/assets/images/pxart/pxArt (22).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (23).png",
+      "alt": "Pixel art creation 23",
+      "title": "pixelart_frame_23",
+      "webp": "src/assets/images/pxart/pxArt (23).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (24).png",
+      "alt": "Pixel art creation 24",
+      "title": "pixelart_frame_24",
+      "webp": "src/assets/images/pxart/pxArt (24).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (25).png",
+      "alt": "Pixel art creation 25",
+      "title": "pixelart_frame_25",
+      "webp": "src/assets/images/pxart/pxArt (25).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (26).png",
+      "alt": "Pixel art creation 26",
+      "title": "pixelart_frame_26",
+      "webp": "src/assets/images/pxart/pxArt (26).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (27).png",
+      "alt": "Pixel art creation 27",
+      "title": "pixelart_frame_27",
+      "webp": "src/assets/images/pxart/pxArt (27).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (28).png",
+      "alt": "Pixel art creation 28",
+      "title": "pixelart_frame_28",
+      "webp": "src/assets/images/pxart/pxArt (28).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (29).png",
+      "alt": "Pixel art creation 29",
+      "title": "pixelart_frame_29",
+      "webp": "src/assets/images/pxart/pxArt (29).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (30).png",
+      "alt": "Pixel art creation 30",
+      "title": "pixelart_frame_30",
+      "webp": "src/assets/images/pxart/pxArt (30).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (31).png",
+      "alt": "Pixel art creation 31",
+      "title": "pixelart_frame_31",
+      "webp": "src/assets/images/pxart/pxArt (31).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (32).png",
+      "alt": "Pixel art creation 32",
+      "title": "pixelart_frame_32",
+      "webp": "src/assets/images/pxart/pxArt (32).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (33).png",
+      "alt": "Pixel art creation 33",
+      "title": "pixelart_frame_33",
+      "webp": "src/assets/images/pxart/pxArt (33).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (34).png",
+      "alt": "Pixel art creation 34",
+      "title": "pixelart_frame_34",
+      "webp": "src/assets/images/pxart/pxArt (34).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (35).png",
+      "alt": "Pixel art creation 35",
+      "title": "pixelart_frame_35",
+      "webp": "src/assets/images/pxart/pxArt (35).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (36).png",
+      "alt": "Pixel art creation 36",
+      "title": "pixelart_frame_36",
+      "webp": "src/assets/images/pxart/pxArt (36).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (37).png",
+      "alt": "Pixel art creation 37",
+      "title": "pixelart_frame_37",
+      "webp": "src/assets/images/pxart/pxArt (37).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (38).png",
+      "alt": "Pixel art creation 38",
+      "title": "pixelart_frame_38",
+      "webp": "src/assets/images/pxart/pxArt (38).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (39).png",
+      "alt": "Pixel art creation 39",
+      "title": "pixelart_frame_39",
+      "webp": "src/assets/images/pxart/pxArt (39).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (40).png",
+      "alt": "Pixel art creation 40",
+      "title": "pixelart_frame_40",
+      "webp": "src/assets/images/pxart/pxArt (40).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (41).png",
+      "alt": "Pixel art creation 41",
+      "title": "pixelart_frame_41",
+      "webp": "src/assets/images/pxart/pxArt (41).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (42).png",
+      "alt": "Pixel art creation 42",
+      "title": "pixelart_frame_42",
+      "webp": "src/assets/images/pxart/pxArt (42).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (43).png",
+      "alt": "Pixel art creation 43",
+      "title": "pixelart_frame_43",
+      "webp": "src/assets/images/pxart/pxArt (43).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (44).png",
+      "alt": "Pixel art creation 44",
+      "title": "pixelart_frame_44",
+      "webp": "src/assets/images/pxart/pxArt (44).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (45).png",
+      "alt": "Pixel art creation 45",
+      "title": "pixelart_frame_45",
+      "webp": "src/assets/images/pxart/pxArt (45).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (46).png",
+      "alt": "Pixel art creation 46",
+      "title": "pixelart_frame_46",
+      "webp": "src/assets/images/pxart/pxArt (46).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (47).png",
+      "alt": "Pixel art creation 47",
+      "title": "pixelart_frame_47",
+      "webp": "src/assets/images/pxart/pxArt (47).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (48).png",
+      "alt": "Pixel art creation 48",
+      "title": "pixelart_frame_48",
+      "webp": "src/assets/images/pxart/pxArt (48).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (49).png",
+      "alt": "Pixel art creation 49",
+      "title": "pixelart_frame_49",
+      "webp": "src/assets/images/pxart/pxArt (49).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (50).png",
+      "alt": "Pixel art creation 50",
+      "title": "pixelart_frame_50",
+      "webp": "src/assets/images/pxart/pxArt (50).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (51).png",
+      "alt": "Pixel art creation 51",
+      "title": "pixelart_frame_51",
+      "webp": "src/assets/images/pxart/pxArt (51).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (52).png",
+      "alt": "Pixel art creation 52",
+      "title": "pixelart_frame_52",
+      "webp": "src/assets/images/pxart/pxArt (52).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (53).png",
+      "alt": "Pixel art creation 53",
+      "title": "pixelart_frame_53",
+      "webp": "src/assets/images/pxart/pxArt (53).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (54).png",
+      "alt": "Pixel art creation 54",
+      "title": "pixelart_frame_54",
+      "webp": "src/assets/images/pxart/pxArt (54).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (55).png",
+      "alt": "Pixel art creation 55",
+      "title": "pixelart_frame_55",
+      "webp": "src/assets/images/pxart/pxArt (55).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (56).png",
+      "alt": "Pixel art creation 56",
+      "title": "pixelart_frame_56",
+      "webp": "src/assets/images/pxart/pxArt (56).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (57).png",
+      "alt": "Pixel art creation 57",
+      "title": "pixelart_frame_57",
+      "webp": "src/assets/images/pxart/pxArt (57).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (58).png",
+      "alt": "Pixel art creation 58",
+      "title": "pixelart_frame_58",
+      "webp": "src/assets/images/pxart/pxArt (58).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (59).png",
+      "alt": "Pixel art creation 59",
+      "title": "pixelart_frame_59",
+      "webp": "src/assets/images/pxart/pxArt (59).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (60).png",
+      "alt": "Pixel art creation 60",
+      "title": "pixelart_frame_60",
+      "webp": "src/assets/images/pxart/pxArt (60).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (61).png",
+      "alt": "Pixel art creation 61",
+      "title": "pixelart_frame_61",
+      "webp": "src/assets/images/pxart/pxArt (61).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (62).png",
+      "alt": "Pixel art creation 62",
+      "title": "pixelart_frame_62",
+      "webp": "src/assets/images/pxart/pxArt (62).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (63).png",
+      "alt": "Pixel art creation 63",
+      "title": "pixelart_frame_63",
+      "webp": "src/assets/images/pxart/pxArt (63).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (64).png",
+      "alt": "Pixel art creation 64",
+      "title": "pixelart_frame_64",
+      "webp": "src/assets/images/pxart/pxArt (64).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (65).png",
+      "alt": "Pixel art creation 65",
+      "title": "pixelart_frame_65",
+      "webp": "src/assets/images/pxart/pxArt (65).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (66).png",
+      "alt": "Pixel art creation 66",
+      "title": "pixelart_frame_66",
+      "webp": "src/assets/images/pxart/pxArt (66).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (67).png",
+      "alt": "Pixel art creation 67",
+      "title": "pixelart_frame_67",
+      "webp": "src/assets/images/pxart/pxArt (67).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (68).png",
+      "alt": "Pixel art creation 68",
+      "title": "pixelart_frame_68",
+      "webp": "src/assets/images/pxart/pxArt (68).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (69).png",
+      "alt": "Pixel art creation 69",
+      "title": "pixelart_frame_69",
+      "webp": "src/assets/images/pxart/pxArt (69).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (70).png",
+      "alt": "Pixel art creation 70",
+      "title": "pixelart_frame_70",
+      "webp": "src/assets/images/pxart/pxArt (70).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (71).png",
+      "alt": "Pixel art creation 71",
+      "title": "pixelart_frame_71",
+      "webp": "src/assets/images/pxart/pxArt (71).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (72).png",
+      "alt": "Pixel art creation 72",
+      "title": "pixelart_frame_72",
+      "webp": "src/assets/images/pxart/pxArt (72).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (73).png",
+      "alt": "Pixel art creation 73",
+      "title": "pixelart_frame_73",
+      "webp": "src/assets/images/pxart/pxArt (73).webp"
+    },
+    {
+      "src": "src/assets/images/pxart/pxArt (74).png",
+      "alt": "Pixel art creation 74",
+      "title": "pixelart_frame_74",
+      "webp": "src/assets/images/pxart/pxArt (74).webp"
+    }
+  ]
+}
