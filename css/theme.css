@@ -156,9 +156,50 @@ body.preload * {
   min-height: 600px;
 }
 
+/* Reserve space for main content sections to prevent CLS */
+#main-content {
+  min-height: 100vh;
+}
+
+/* Reserve space for each major section */
+section {
+  min-height: 200px;
+}
+
 /* Prevent layout shift for images */
 img {
   content-visibility: auto;
+}
+
+/* Explicit aspect ratios for image containers */
+.aspect-\[4\/3\] {
+  aspect-ratio: 4 / 3;
+}
+
+.aspect-\[3\/4\] {
+  aspect-ratio: 3 / 4;
+}
+
+.aspect-\[16\/9\] {
+  aspect-ratio: 16 / 9;
+}
+
+/* Ensure images don't cause layout shift */
+img[loading="lazy"] {
+  min-height: 100px; /* Reserve minimum space */
+}
+
+/* Skeleton loading for components */
+.component-loading {
+  min-height: 400px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
 
 /* Reserve space for lazy-loaded content */

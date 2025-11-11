@@ -9,6 +9,7 @@ import { StylingManager } from './components/StylingManager.js';
 import { VideoCarousel } from './components/VideoCarousel.js';
 import { TetoCarousel } from './components/TetoCarousel.js';
 import { HoverPrefetch } from './components/HoverPrefetch.js';
+import { LazyLoader } from './components/LazyLoader.js';
 
 // Polyfill for requestIdleCallback
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
@@ -73,4 +74,9 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   // Initialize Hover Prefetch for faster navigation
   HoverPrefetch.init();
+
+  // Initialize Lazy Loader for Intersection Observer
+  requestIdleCallback(() => {
+    LazyLoader.init();
+  }, { timeout: 1000 });
 });
