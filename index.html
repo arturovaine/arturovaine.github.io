@@ -12,11 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
-    <!-- Tailwind CSS - Self-hosted (41KB vs 126KB CDN = 67% reduction) -->
-    <link rel="stylesheet" href="css/tailwind.min.css">
-
-    <!-- Lucide Icons -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <!-- Three.js Import Map -->
@@ -26,6 +22,16 @@
           "three": "https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.module.js",
           "three/examples/jsm/loaders/STLLoader.js": "https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/loaders/STLLoader.js",
           "three/examples/jsm/controls/OrbitControls.js": "https://cdn.jsdelivr.net/npm/three@0.160.1/examples/jsm/controls/OrbitControls.js"
+        }
+      }
+    </script>
+
+    <!-- Tailwind Dark Mode Config -->
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {}
         }
       }
     </script>
