@@ -8,6 +8,7 @@ import { ModelViewer } from './components/ModelViewer.js';
 import { StylingManager } from './components/StylingManager.js';
 import { VideoCarousel } from './components/VideoCarousel.js';
 import { TetoCarousel } from './components/TetoCarousel.js';
+import { HoverPrefetch } from './components/HoverPrefetch.js';
 
 // Polyfill for requestIdleCallback
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
@@ -69,4 +70,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   setTimeout(() => {
     TetoCarousel.init();
   }, 100);
+
+  // Initialize Hover Prefetch for faster navigation
+  HoverPrefetch.init();
 });
