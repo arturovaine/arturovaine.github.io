@@ -1,0 +1,174 @@
+{
+  "content": {
+    "projects": {
+      "title": "Projects",
+      "items": [
+        {
+          "title": "Platform for Product Information Management (PIM)",
+          "description": "SaaS project, full stack web application associated with AI models. Centralized solution designed for collection, management, and AI enrichment product information across an organization. This kind of system ensures that accurate, consistent, and up-to-date product data is distributed across multiple channels. Stacks: React, Golang, Mongodb, Postgres. Work in progress...",
+          "image": "assets/products-vault.png"
+        },
+        {
+          "title": "Pose estimator to check gym activities",
+          "description": "Workflow using mediapipe lib to check orientation of body parts in real-time. The model is based on the BlazePose/mediapipe architecture, which is a lightweight model that can run on mobile devices in real-time. The model is able to detect 33 body parts, including the eyes, ears, nose, shoulders, elbows, wrists, hips, knees, and ankles.",
+          "image": "https://raw.githubusercontent.com/arturovaine/arturovaine/main/python-pose-estimator_.gif"
+        },
+        {
+          "title": "Home page with access form - React + Vite",
+          "description": "Modern home page built using Vite and React. It features a sidebar for user authentication (login and password inputs) and a corporate video playing in the background. The primary goal is to create an engaging and functional home page for corporate websites.",
+          "image": "https://github.com/arturovaine/landing-page-video-bg/blob/main/public/demo.gif?raw=true",
+          "link": "https://github.com/arturovaine/landing-page-video-bg"
+        },
+        {
+          "title": "Integration of Multiple ERP Systems and VTEX APIs",
+          "description": "Integration of multiple <b>ERP</b> systems and e-commerce VTEX APIs for large cooperatives in the Brazilian agro sector; Development of MIS/Analytics <b>MERN</b> Application from scratch to manage multiple business units; Development of <b>ETL</b> for database migrations and data warehouse modeling with 200+ tables; Conception of <b>BI</b> dashboard applications for GMV and related KPIs (<b>MongoDB</b>, <b>MySQL</b>, <b>PowerBI</b>).",
+          "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
+          "image": "assets/vtex-day.webp",
+          "image_description": "The traditional B2C and B2B e-commerce platforms do not address the business model needs of agricultural cooperatives. From left to right: Leandro Carvalho (Supercampo CEO), Wagner Figueiredo (VTEX Architect), and Ronald Koch (Supercampo Platform and Product Manager) at VTEX Day 2024."
+        },
+        {
+          "title": "Data Collection Pipeline for Water Dam Monitoring",
+          "description": "Developed a front-end for data collection and processing workflow following standards from the National Water and Basic Sanitation Agency. Trained 5 civil engineers on report best practices and data registration criteria.",
+          "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana",
+          "image": "assets/simepar.webp",
+          "image_description": "Simepar developed a long process of surveying the inventory of Paraná dams detected via remote sensing. According to information from the Secretariat for Sustainable Development, most of the state's dams are used for irrigation, water supply, energy generation, environmental protection and recreation."
+        },
+        {
+          "title": "Prosthetics Technology Project Subsidized",
+          "description": "Technology project awarded an economic subsidy, selected among cohort top 5%, one of 89 startups of 1851 total projects in the state technology program Paraná Sinapse da Inovação. Program covered costs (~10k USD, Jan 2020), mentoring, and acceleration of product development for prototypes of mechatronic prosthetic devices.",
+          "link": "https://www.fappr.pr.gov.br/Noticia/Programa-Sinapse-contribui-para-consolidacao-de-startups-paranaenses",
+          "image_sm": "assets/fundacaoaraucaria.jpg"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Experience",
+      "items": [
+        {
+          "title": "Full-Stack Developer - Freelancer",
+          "start_date": "2024-09-01",
+          "end_date": null, 
+          "description": "<ul><li>Development of various types of systems integrations and applications projects</li><li>Creation of workflows and Management Information Systems, ETL of multiple data types</li><li>Delivering data processes and analysis through BI applications</li></ul>"
+        },
+        {
+          "title": "Full-Stack Developer - Supercampo S/A",
+          "description": "Mar 2023 - Sep 2024 · 1 yr 7 mos <br/><ul><li>Integrated multiple <b>ERP</b> systems and <b>VTEX</b> e-commerce APIs for large agricultural cooperatives in Brazil</li><li>Developed a Management Information System (MIS) <b>MERN</b> Application to manage multiple business units</li><li>Deployed <b>ETLs</b> for database migrations and data warehouse modeling (200+ tables)</li><li>Designed <b>BI</b> dashboard applications for GMV and related <b>KPIs</b> using <b>MySQL</b>, <b>Power BI</b>, and <b>Streamlit</b></li></ul>",
+          "link": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff"
+        },
+        {
+          "title": "Back-End Developer - BRG Brasil Geradores",
+          "description": "Oct 2022 - Mar 2023 · 6 mos <br/><ul><li>Delivered new features to the <b>REST API</b> of a monitoring system, collaborating with a front-end developer</li><li>Refactored legacy code (<b>Express.js</b> API for a <b>MySQL</b> database) following clean code principles</li><li>Documented the project using OpenAPI notation, Swagger, and markdown documentation</li></ul>"
+        },
+        {
+          "title": "Software Developer - SIMEPAR",
+          "description": "Jun 2019 - Dec 2021 · 2 yrs 7 mos <br/><ul><li>Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees</li><li>Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS</li><li>Delivered a data analysis pipeline to check inconsistencies and generate ~900 reports using Python (Pandas)</li><li>Designed a <b>Power BI</b> dashboard for monitoring KPIs, including team productivity, deliverables, and scheduling</li></ul>",
+          "link": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana"
+        }
+      ]
+    },
+    "awards": {
+      "title": "Awards",
+      "items": [
+        {
+          "title": "2021 - Fellow of Leaders in Innovation Programme (LIF-7th cohort)",
+          "description": "Fellowship associated to project of development of affordable upper limb myoelectric prosthesis. The program builds entrepreneurial and commercialization capacity for researchers, creating international networks of innovators. Supported by the UK Newton Fund, it promotes science and innovation for the economic development of partner countries, including Brazil, India, and Vietnam.",
+          "link": "https://raeng.org.uk/lif",
+          "links": [
+            {
+              "title": "LIF-7th cohort",
+              "link": "https://raeng.org.uk/programmes-and-prizes/programmes/international-programmes/leaders-in-innovation-fellowships-old/lif-7"
+            },
+            {
+              "title": "Newton Fund",
+              "link": "https://www.newtonfund.ac.uk/"
+            }
+          ],
+          "image_sm": "assets/rae_logo_black.webp"
+        },
+        {
+          "title": "2019 - 2nd place in Global Legal Hackathon (Nous Team)",
+          "description": "Project Bob is a digital game designed to support justice professionals in taking statements from minors who were allegedly sexually abused. It aims to provide a comfortable environment for children to give their official statements.",
+          "link": "https://globallegalhackathon.com/"
+        },
+        {
+          "title": "2018 - 1st place, Ozires Silva Award for Sustainable Entrepreneurship (11th edition)",
+          "description": "Santiago Health Technologies won in the 'social' category, showcasing innovation and entrepreneurship that drives sustainable development.",
+          "link": "https://www.youtube.com/watch?v=KVn5fkNrAQs&t=1800s"
+        },
+        {
+          "title": "2017 - 3rd place, Perfumathon (Perfumerie Hackathon, Epic Team)",
+          "description": "A creative hackathon focusing on innovative solutions for the perfumery industry.",
+          "link": "https://www.youtube.com/watch?v=YVSlHFDyucg"
+        },
+        {
+          "title": "2016 - Finalist, Hackathon SENDI/COPEL 2016 (Hack'nergy Team)",
+          "description": "The largest hackathon in Brazil, focusing on energy distribution challenges. It featured four simultaneous challenges and international travel as awards.",
+          "link": "https://www.youtube.com/watch?v=KvzbUcHXvps&t=292s"
+        },
+        {
+          "title": "2013 - 1st place, Scholarship Selection UTFPR 2013 Cohort",
+          "description": "Achieved the highest ranking in the BRAFITEC-UTFPR selection across all campuses.",
+          "link": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/franca/programa-capes-brafitec",
+          "image_sm": "assets/brafitec.png"
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "items": [
+        {
+          "title": "",
+          "description": "I am a <b>Full-Stack Developer</b> with a Mechanical Engineering background and a passion for crafting innovative technological solutions. My expertise includes web development, data visualization, and system integrations. Proficient in modern frameworks and technologies such as <b>Node.js</b>, <b>React</b>, <b>Python</b>, and <b>MongoDB</b>, I delivered data-driven insights using BI tools like Power BI and Looker. <br/><br/> Throughout my career, I’ve led innovative projects, from designing <b>Management Information Systems (MIS)</b> for large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My professional journey includes key roles at <b>Supercampo</b>, enhancing the digital presence of agricultural cooperatives, and <b>SIMEPAR</b>, contributing to critical dam monitoring system. <br/><br/>Additionally, I’ve modernized back-end systems for <b>BRG Brasil Geradores</b> and developed automation tools and full-stack applications as a freelancer. My main achievements include being recognized as a <b>LIF-7</b> Fellow by the <b>Royal Academy of Engineering (UK)</b>, winning multiple hackathons, and contributing to award-winning sustainable entrepreneurship project. I am committed to lifelong learning, considering my training in full-stack web development, data engineering, and data science."
+        }
+      ]
+    },
+    "volunteering": {
+      "title": "Volunteering",
+      "items": [
+        {
+          "title": "TETO (NGO)",
+          "description": "In Brazil since 2006, TETO is an organization formed by young volunteers who implement housing and habitat initiatives in precarious favelas alongside residents, strengthening capacities to develop self-managed communities and, thus, overcome poverty in our country. In 2023, TETO achieved the milestone of constructing 500 houses in the state of Paraná. Main experiences as volunteer: Database update and structuring of data compilation of socio-economic surveys ; Volunteer in Emergency Houses Construction Team (May and October 2015; April 2017)",
+          "image": "assets/teto-houses.webp",
+          "link": "https://br.techo.org/sobre-a-teto/",
+          "links": [
+            {
+              "title": "TETO",
+              "link": "https://redeglobo.globo.com/globociencia/noticia/2013/07/ongs-compartilham-conhecimentos-e-constroem-casas-sustentaveis.html"
+            },
+            {
+              "title": "Plastic",
+              "link": "https://wetzel.com.br/tags/ong-teto/"
+            }
+          ],
+          "images": [
+            "assets/teto-houses.webp",
+            "assets/teto-wetzel.webp"
+          ]
+        }
+      ]
+    },
+    "artworks": {
+      "title": "Artworks",
+      "items": [
+        {
+          "title": "Commemorative Mural of the Centenary of UTFPR (1909-2009)",
+          "description": "The <b>Federal Technological University of Paraná (UTFPR)</b> celebrated its 100th anniversary on September 23, 2009. The institution was created as the School of Apprentice Craftsmen in 1909 by President Nilo Peçanha, and offered courses in trades such as tailoring, shoemaking, carpentry and metalworking. In 1978, it became the Federal Center for Technological Education of Paraná (Cefet-PR) and began offering full undergraduate courses.",
+          "link": "https://www.behance.net/gallery/103655095/Mural-Centenario-UTFPR-2010-(1909-2009)",
+          "image": "assets/mural-100y.png"
+        },
+        {
+          "title": "A bust of a warrior",
+          "description": "Sketch of 'A bust of a warrior' Aprox. 50 x 70cm, pencil on painted wall. Drawing based on Da Vinci's masterpiece 'A bust of a warrior in profile to left, wearing a winged helmet and armour bearing a lion on the breastplate'. Silverpoint, on cream prepared paper. Production date: 1475-1480, 287mm x 211mm.",
+          "link": "https://www.behance.net/gallery/105378633/A-bust-of-a-warrior-in-profile-(2006)",
+          "image": "assets/warrior-davinci.png"
+        },
+        {
+          "title": "Arcimboldo study",
+          "description": "Sketch of 'Arcimboldo study' Aprox. 30 x 30cm, pencil on paper. Drawing based on Arcimboldo's masterpiece 'Summer'. Oil on wood,1563.",
+          "link": "https://www.behance.net/gallery/103654197/Arcimboldo-study-(2006)",
+          "image": "assets/arcimboldo.png"
+        }
+      ]
+    }
+  }
+}

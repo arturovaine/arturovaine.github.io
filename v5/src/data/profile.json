@@ -1,0 +1,131 @@
+{
+  "about": {
+    "paragraphs": [
+      "I am a Full-Stack Developer with a Mechanical Engineering background and a passion for crafting innovative technological solutions. My expertise includes web development, data visualization, and system integrations. Proficient in modern frameworks and technologies such as Node.js, React, Python, Postgres and MongoDB, I delivered data-driven insights using BI tools like Power BI and Looker.",
+      "Throughout my career, I've led innovative projects, from designing Management Information Systems (MIS) for large-scale e-commerce operations to developing monitoring platforms and robust data workflows. My professional journey includes key roles at Supercampo, enhancing the digital presence of agricultural cooperatives, and SIMEPAR, contributing to critical dam monitoring system."
+    ]
+  },
+  "experience": [
+    {
+      "title": "Software Developer",
+      "company": "NILG.AI",
+      "period": "May 2025 - Present",
+      "responsibilities": [
+        "Designing and developing ETL pipelines to process and transform data for AI-driven solutions.",
+        "Collaborating with data scientists and business teams to define needs and data quality."
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Meros do Brasil Institute",
+      "period": "Apr 2025 - Present",
+      "responsibilities": [
+        "Ad hoc consulting for digital solutions subsidized by PETROBRAS S.A.",
+        "Development of back-office platform to manage tasks and reporting of 60+ team members.",
+        "Deployment of pipelines and RAG system to consolidate reports and querying of Knowledge Base.",
+        "Management of Google Admin Workspace console to support all sort of team members needs."
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Rise Layers",
+      "period": "Sep 2024 - Feb 2025 · 6 mos",
+      "responsibilities": [
+        "Developer at Delivery branch (early stage startup) - Restaurant Delivery Platform (300+ restaurants);",
+        "Designed digital menu from scratch (React, Typescript, Nodejs), new revenue channel;",
+        "Developed full-stack applications of multiple products (portfolio management, broadcast messages lists, customers segmentation, etc.)",
+        "Deployed ETLs workflows for: CRM synchronization, portfolio enrichment, general data analysis (RFM/RFV matrix, ABC curve, etc.)",
+        "Integrated restaurant delivery platform - iFood and similar partners;"
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Supercampo S/A",
+      "period": "Mar 2023 - Sep 2024 · 1 yr 7 mos",
+      "responsibilities": [
+        "Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in Brazil",
+        "Developed a Management Information System (MIS) MERN Application to manage multiple business units",
+        "Deployed ETLs for database migrations and data warehouse modeling (200+ tables)",
+        "Designed BI dashboard applications for GMV and related KPIs using MySQL, Power BI, and Streamlit"
+      ]
+    },
+    {
+      "title": "Back-End Developer",
+      "company": "BRG Brasil Geradores",
+      "period": "Oct 2022 - Mar 2023 · 6 mos",
+      "responsibilities": [
+        "Delivered new features to the REST API of a monitoring system, collaborating with a front-end developer",
+        "Refactored legacy code (Express.js API for a MySQL database) following clean code principles",
+        "Documented the project using OpenAPI notation, Swagger, and markdown documentation"
+      ]
+    },
+    {
+      "title": "Software Developer",
+      "company": "SIMEPAR",
+      "period": "Jun 2019 - Dec 2021 · 2 yrs 7 mos",
+      "responsibilities": [
+        "Contributed to the Dam Monitoring Project, enabling opportunities to collect 7-digit fees",
+        "Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS",
+        "Delivered a data analysis pipeline to check inconsistencies and generate ~900 reports using Python (Pandas)",
+        "Designed a Power BI dashboard for monitoring KPIs, including team productivity, deliverables, and scheduling"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "year": "2021",
+      "title": "Fellow of Leaders in Innovation Programme (LIF-7th cohort)",
+      "description": "Fellowship associated to project of development of affordable upper limb myoelectric prosthesis. The program builds entrepreneurial and commercialization capacity for researchers, creating international networks of innovators. Supported by the UK Newton Fund, it promotes science and innovation for the economic development of partner countries, including Brazil, India, and Vietnam."
+    },
+    {
+      "year": "2019",
+      "title": "2nd place in Global Legal Hackathon (Nous Team)",
+      "description": "Project Bob is a digital game designed to support justice professionals in taking statements from minors who were allegedly sexually abused. It aims to provide a comfortable environment for children to give their official statements."
+    },
+    {
+      "year": "2018",
+      "title": "1st place, Ozires Silva Award for Sustainable Entrepreneurship (11th edition)",
+      "description": "Santiago Health Technologies won in the 'social' category, showcasing innovation and entrepreneurship that drives sustainable development."
+    },
+    {
+      "year": "2017",
+      "title": "3rd place, Perfumathon (Perfumerie Hackathon, Epic Team)",
+      "description": "A creative hackathon focusing on innovative solutions for the perfumery industry."
+    },
+    {
+      "year": "2016",
+      "title": "Finalist, Hackathon SENDI/COPEL 2016 (Hack'nergy Team)",
+      "description": "The largest hackathon in Brazil, focusing on energy distribution challenges. It featured four simultaneous challenges and international travel as awards."
+    },
+    {
+      "year": "2013",
+      "title": "1st place, Scholarship Selection UTFPR 2013 Cohort",
+      "description": "Achieved the highest ranking in the BRAFITEC-UTFPR selection across all campuses."
+    }
+  ],
+  "volunteering": {
+    "organization": "TETO (NGO)",
+    "description": "In Brazil since 2006, TETO is an organization formed by young volunteers who implement housing and habitat initiatives in precarious favelas alongside residents, strengthening capacities to develop self-managed communities and, thus, overcome poverty in our country. In 2023, TETO achieved the milestone of constructing 500 houses in the state of Paraná.",
+    "experiences": [
+      "Database update and structuring of data compilation of socio-economic surveys",
+      "Volunteer in Emergency Houses Construction Team (May and October 2015; April 2017)"
+    ]
+  },
+  "artworks": [
+    {
+      "title": "Commemorative Mural of the Centenary of UTFPR (1909-2009)",
+      "description": "The Federal Technological University of Paraná (UTFPR) celebrated its 100th anniversary on September 23, 2009. The institution was created as the School of Apprentice Craftsmen in 1909 by President Nilo Peçanha, and offered courses in trades such as tailoring, shoemaking, carpentry and metalworking. In 1978, it became the Federal Center for Technological Education of Paraná (Cefet-PR) and began offering full undergraduate courses.",
+      "link": "https://www.behance.net/gallery/103655095/Mural-Centenario-UTFPR-2010-(1909-2009)"
+    },
+    {
+      "title": "A bust of a warrior",
+      "description": "Sketch of 'A bust of a warrior' Aprox. 50 x 70cm, pencil on painted wall. Drawing based on Da Vinci's masterpiece 'A bust of a warrior in profile to left, wearing a winged helmet and armour bearing a lion on the breastplate'. Silverpoint, on cream prepared paper. Production date: 1475-1480, 287mm x 211mm.",
+      "link": "https://www.behance.net/gallery/105378633/A-bust-of-a-warrior-in-profile-(2006)"
+    },
+    {
+      "title": "Arcimboldo study",
+      "description": "Sketch of 'Arcimboldo study' Aprox. 30 x 30cm, pencil on paper. Drawing based on Arcimboldo's masterpiece 'Summer'. Oil on wood,1563.",
+      "link": "https://www.behance.net/gallery/103654197/Arcimboldo-study-(2006)"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Arturo's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- <link href="./styles.css" rel="stylesheet"> -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.157.0/examples/js/controls/OrbitControls.js"></script>
+
+</head>
+
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+
+  .container {
+    width: 50%;
+    max-width: 1200px;
+    /* Set a maximum width for large screens */
+    margin: 0 auto;
+    /* Center horizontally */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      /* Adjust width for smaller screens */
+      padding: 10px;
+    }
+  }
+
+  p {
+    text-align: justify;
+    font-size: medium;
+    /* Center-align text */
+  }
+
+  p {
+    line-height: 1.8;
+    /* Adjust spacing between text lines */
+    margin: 0 0 16px;
+    /* Adds bottom margin for spacing between paragraphs */
+  }
+
+  h1,
+  h2,
+  h3 {
+    line-height: 1.3;
+    /* Set tighter spacing for headings */
+    margin: 0 0 12px;
+  }
+
+  a {
+    font-size: medium;
+    color: #0011ff;
+    text-decoration: none;
+    /* Removes underline */
+    /* color: inherit; Keeps the initial text color consistent */
+    transition: color 0.1s ease, font-weight 0.2s ease;
+    /* Smooth transition for color and bold */
+  }
+
+  a:hover {
+    /* font-weight: bold;  */
+    /* Makes the text bold on hover */
+    color: #007BFF;
+    /* Change to your preferred hover color */
+  }
+
+  img {
+    border-radius: 5px;
+  }
+</style>
+
+<body>
+  <!-- <div class="sidebar">
+    <div class="logo">Arturo Vaine</div>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#awards">Awards</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div> -->
+
+  <div class="container">
+    <div class="hero">
+      <br />
+      <h1>Arturo Vaine</h1>
+
+      <b>
+        <p id="typewriter"></p>
+      </b>
+      <p style="font-size: small;">Software Developer / Full Stack Developer<br /> JavaScript, Node.js, Python, MySQL,
+        Postgres, Mongodb</p>
+
+      <div style="display: flex; gap: 16px; align-items: center;">
+        <a href="https://www.linkedin.com/in/arturovaine/" target="_blank" style="text-decoration: none;">
+          <img src="assets/linkedin-icon.png" alt="LinkedIn" style="width: 25px; height: 25px;" />
+        </a>
+        <a href="https://www.github.com/arturovaine/" target="_blank" style="text-decoration: none;">
+          <img src="assets/github-icon.png" alt="GitHub" style="width: 25px; height: 25px;" />
+        </a>
+        <a href="https://medium.com/@arturovaine" target="_blank" style="text-decoration: none;">
+          <img src="assets/medium-icon.png" alt="Medium" style="width: 25px; height: 25px;" />
+        </a>
+        <a href="mailto:arturo.vaine@gmail.com">arturo.vaine@gmail.com</a>
+      </div><br />
+
+      <!-- <p>Software Engineer</p> -->
+      <div id="hero-canvas"></div>
+      <br />
+      <p><a href="https://www.behance.net/gallery/70813139/Bionic-Hand-(2018)">Concept design of a bionic hand created
+          in SolidWorks and rendered using Three.js.</a></p>
+    </div>
+
+    <div id="rootContent"></div>
+
+    <!-- <div class="content" id="artworks">
+      <h2>Artworks</h2>
+      ...
+    </div>
+
+    <div class="content" id="contact">
+      <h2>Contact</h2>
+      arturo.vaine@gmail.com
+    </div> -->
+  </div>
+
+  <!-- Three.js Import Map -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.157.0/examples/jsm/",
+        "dat.gui": "https://cdn.jsdelivr.net/npm/dat.gui/build/dat.gui.module.js"
+      }
+    }
+  </script>
+
+
+  <!-- Load JavaScript Modules -->
+  <script src="./js/utils.js"></script>
+  <!-- <script src="./js/main.js"></script> -->
+  <script type="module" src="./js/main.js"></script>
+  <script type="module" src="./js/typewriter.js"></script>
+  <script type="module" src="./js/threeSetup.js"></script>
+
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+  
+
+  <footer>
+    Arturo Vaine - Portfolio (Copyright) <span id="currentYear"></span>
+  </footer><br/>
+  
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+  
+  
+</body>
+
+</html>
