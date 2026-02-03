@@ -70,80 +70,14 @@
     <noscript><link rel="stylesheet" href="css/theme.css"></noscript>
   </head>
   <body class="bg-neutral-950 text-neutral-200 antialiased selection:bg-neutral-800 selection:text-neutral-100" style="font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; scroll-behavior: smooth;">
-    <!-- Backdrop / subtle radial -->
-    <div aria-hidden="true" class="pointer-events-none fixed inset-0 overflow-hidden">
-      <div class="backdrop-radial absolute -top-40 left-1/2 -translate-x-1/2 h-96 w-[48rem] rounded-full blur-3xl opacity-30" style="background: radial-gradient(1200px 400px at 50% 0%, rgba(59,130,246,0.10), rgba(16,185,129,0.06) 50%, transparent 70%);"></div>
-    </div>
-
-    <!-- Header -->
-    <header class="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/70 border-b border-white/5">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="flex h-16 items-center justify-between">
-          <a href="#" class="flex items-center gap-2 group" aria-label="Home">
-            <span class="text-sm text-neutral-400 group-hover:text-neutral-200 transition-colors">Home</span>
-          </a>
-
-          <nav class="hidden md:flex items-center gap-1">
-            <a href="#work" class="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md outline-none focus-visible:ring-2 focus-visible:ring-white/20">Work</a>
-            <a href="#experience" class="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md outline-none focus-visible:ring-2 focus-visible:ring-white/20">Experience</a>
-            <a href="#awards" class="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md outline-none focus-visible:ring-2 focus-visible:ring-white/20">Awards</a>
-            <a href="#posts" class="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md outline-none focus-visible:ring-2 focus-visible:ring-white/20">Posts</a>
-            <a href="#volunteering" class="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md outline-none focus-visible:ring-2 focus-visible:ring-white/20">Volunteering</a>
-            <a href="#artworks" class="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md outline-none focus-visible:ring-2 focus-visible:ring-white/20">Artworks</a>
-            <a href="#bootstrapping" class="px-3 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md outline-none focus-visible:ring-2 focus-visible:ring-white/20">Bootstrapping</a>
-          </nav>
-
-          <div class="flex items-center gap-2">
-            <button id="themeToggle" class="p-2 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.03] outline-none focus-visible:ring-2 focus-visible:ring-white/20" aria-label="Toggle theme">
-              <i data-lucide="moon" class="w-5 h-5"></i>
-            </button>
-            <a href="https://github.com/arturovaine" target="_blank" rel="noopener" class="hidden md:inline-flex p-2 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.03] outline-none focus-visible:ring-2 focus-visible:ring-white/20" aria-label="GitHub">
-              <i data-lucide="github" class="w-5 h-5"></i>
-            </a>
-            <a href="mailto:arturo.vaine@gmail.com" class="hidden md:inline-flex px-3 py-2 rounded-md text-sm bg-white text-neutral-900 hover:bg-neutral-100 outline-none focus-visible:ring-2 focus-visible:ring-white/20">Email</a>
-            <button id="menuBtn" class="md:hidden inline-flex items-center justify-center p-2 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.05] outline-none focus-visible:ring-2 focus-visible:ring-white/20" aria-label="Open menu" aria-expanded="false">
-              <i data-lucide="menu" class="w-5 h-5"></i>
-            </button>
-          </div>
-        </div>
-        <div id="mobileNav" class="md:hidden hidden border-t border-white/5">
-          <div class="py-2">
-            <a href="#work" class="block px-2 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md">Work</a>
-            <a href="#experience" class="block px-2 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md">Experience</a>
-            <a href="#awards" class="block px-2 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md">Awards</a>
-            <a href="#posts" class="block px-2 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md">Posts</a>
-            <a href="#volunteering" class="block px-2 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md">Volunteering</a>
-            <a href="#artworks" class="block px-2 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md">Artworks</a>
-            <a href="#bootstrapping" class="block px-2 py-2 text-sm text-neutral-300 hover:text-white hover:bg-white/[0.03] rounded-md">Bootstrapping</a>
-          </div>
-        </div>
-      </div>
-    </header>
+    <!-- Header Container (backdrop + header) -->
+    <div id="header-content"></div>
 
     <!-- Main Content Container -->
-    <div id="main-content"></div>
+    <div id="main-content" class="pt-16"></div>
 
-    <!-- Footer -->
-    <footer class="border-t border-white/5">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
-        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <div class="flex items-center gap-3">
-            <div class="h-8 w-8 rounded-md border border-white/10 bg-neutral-900 flex items-center justify-center text-sm font-semibold tracking-tight text-white">AV</div>
-            <div class="text-sm text-neutral-400">© <span id="year"></span> Arturo Vaine. All rights reserved.</div>
-          </div>
-          <div class="flex items-center gap-3">
-            <a href="#work" class="text-sm text-neutral-300 hover:text-white px-2 py-1 rounded-md hover:bg-white/[0.04]">Work</a>
-            <a href="#awards" class="text-sm text-neutral-300 hover:text-white px-2 py-1 rounded-md hover:bg-white/[0.04]">Awards</a>
-            <a href="#experience" class="text-sm text-neutral-300 hover:text-white px-2 py-1 rounded-md hover:bg-white/[0.04]">Experience</a>
-            <a href="#artworks" class="text-sm text-neutral-300 hover:text-white px-2 py-1 rounded-md hover:bg-white/[0.04]">Artworks</a>
-            <a href="https://github.com/arturovaine" target="_blank" rel="noopener" class="inline-flex items-center gap-1 px-2 py-1 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.04]">
-              <i data-lucide="github" class="w-4 h-4"></i>
-              <span class="text-sm">GitHub</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <!-- Footer Container -->
+    <div id="footer-content"></div>
 
     <!-- Service Worker Registration -->
     <script>
