@@ -126,11 +126,11 @@ Components must be served via HTTP(S) - opening `index.html` directly in a brows
 
 This project uses git tags for version management:
 
-- `v1.0.0` - Component-based architecture with performance optimizations (Feb 2026)
-- `v6.0` - Component-based architecture (Nov 2025)
-- `v5.0` - Pre-component architecture redesign (Nov 2025)
-- `v2.0` - Web Components refactor (May 2025)
-- `v1.0` - Initial version (March 2022)
+- `v1.0.0` - Data-driven architecture with JSON renderers, modal system, and CSS components (Feb 2026) - Current
+- `v6` - Component-based architecture (Nov 2025)
+- `v5` - Redesign with Tailwind CSS (Nov 2025)
+- `v2` - Web Components refactor (May 2025)
+- `v1` - Initial version (March 2022)
 
 ### Viewing Previous Versions
 
