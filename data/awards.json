@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lif-7",
+    "year": "2021",
+    "title": "Leaders in Innovation Fellowship (LIF-7)",
+    "description": "Selected among global entrepreneurs for Royal Academy of Engineering's (UK) prestigious innovation leadership program",
+    "logo": "./src/assets/images/raeng-logo.svg",
+    "logoAlt": "Royal Academy of Engineering",
+    "logoBg": "rgb(249,249,249)",
+    "url": "https://lif.raeng.org.uk/about.aspx"
+  },
+  {
+    "id": "global-legal-hackathon",
+    "year": "2019",
+    "title": "2nd Place - Global Legal Hackathon",
+    "description": "Developed innovative legal tech solution with Nous Team at Ordem dos Advogados do Brasil (Brazilian Lawyers Organization - OAB-PR)",
+    "logo": "./src/assets/images/oab-logo.png",
+    "logoAlt": "OAB-PR",
+    "url": "https://globallegalhackathon.com/"
+  },
+  {
+    "id": "sinapse-inovacao",
+    "year": "2019",
+    "title": "Technology Subsidy - Paraná Sinapse da Inovação",
+    "description": "Awarded research funding by Fundação Araucária, ranked top 5% among 1,851 innovation projects competing statewide",
+    "logo": "./src/assets/images/fundacao-araucaria-logo.png",
+    "logoAlt": "Fundação Araucária",
+    "url": "http://www.fappr.pr.gov.br/"
+  },
+  {
+    "id": "ozires-silva",
+    "year": "2018",
+    "title": "1st Place - Ozires Silva Award",
+    "description": "Champion in ISAE-FGV's 11th Sustainable Entrepreneurship competition, honoring Brazil's aerospace engineering pioneer Ozires Silva",
+    "logo": "./src/assets/images/ISAE-FGV-logo.png",
+    "logoAlt": "ISAE-FGV",
+    "logoBg": "rgb(249,249,249)",
+    "logoSize": "large",
+    "url": "https://www.youtube.com/watch?v=KVn5fkNrAQs&t=1800s"
+  },
+  {
+    "id": "perfumathon",
+    "year": "2017",
+    "title": "3rd Place - Perfumathon",
+    "description": "Developed innovative perfumery solution with Epic Team at O Boticário's first-ever fragrance and cosmetics hackathon",
+    "logo": "./src/assets/images/boticario-logo.png",
+    "logoAlt": "O Boticário",
+    "url": "https://www.youtube.com/watch?v=YVSlHFDyucg"
+  },
+  {
+    "id": "sendi-copel",
+    "year": "2016",
+    "title": "Finalist - SENDI/COPEL Hackathon",
+    "description": "Reached finals with Hack'nergy Team at Brazil's premier energy sector innovation challenge, sponsored by COPEL utility company",
+    "logo": "./src/assets/images/copel-logo.png",
+    "logoAlt": "COPEL",
+    "logoSize": "large",
+    "url": "https://www.youtube.com/watch?v=KvzbUcHXvps&t=292s"
+  },
+  {
+    "id": "brafitec",
+    "year": "2013",
+    "title": "1st Place - BRAFITEC Scholarship",
+    "description": "Top-ranked recipient of Brazil-France engineering exchange scholarship for academic excellence at INSA Lyon and UTFPR",
+    "logo": "./src/assets/images/utfpr-logo.png",
+    "logoAlt": "UTFPR"
+  }
+]

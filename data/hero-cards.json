@@ -1,0 +1,26 @@
+[
+  {
+    "id": "software",
+    "title": "Software",
+    "description": "6+ years building full-stack applications, APIs, ETL pipelines, and data integrations using Python, JavaScript, and modern cloud platforms.",
+    "image": "./src/assets/images/1st-herocard.webp",
+    "alt": "Software development and tech presentations",
+    "href": "#experience"
+  },
+  {
+    "id": "hardware",
+    "title": "Hardware",
+    "description": "Mechanical engineering background with expertise in CAD modeling, 3D printing, prototyping, and product development from concept to manufacturing.",
+    "image": "./src/assets/images/2nd-herocard.webp",
+    "alt": "Hardware fabrication and prototyping",
+    "href": "#bootstrapping"
+  },
+  {
+    "id": "volunteering",
+    "title": "Volunteering",
+    "description": "Active contributor to social impact initiatives, from building transitional housing with TETO to reducing food waste with GoodTruck Brasil.",
+    "image": "./src/assets/images/3rd-herocard.webp",
+    "alt": "Volunteer work and community building",
+    "href": "#volunteering"
+  }
+]

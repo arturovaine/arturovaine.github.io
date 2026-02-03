@@ -1,0 +1,47 @@
+[
+  {
+    "id": "nilg-ai",
+    "period": "May 2025 to Present",
+    "location": "Remote",
+    "title": "Software Developer to NILG.AI",
+    "description": "Designing and developing ETL pipelines to process and transform data for AI-driven solutions. Collaborating with data scientists and business teams to define needs and data quality.",
+    "current": true
+  },
+  {
+    "id": "meros",
+    "period": "Apr 2025 to Present",
+    "location": "Remote",
+    "title": "Full-Stack Developer to Meros do Brasil Institute",
+    "description": "Ad hoc consulting for digital solutions subsidized by PETROBRAS S.A. Development of back-office platform to manage tasks and reporting of 60+ team members. Deployment of pipelines and RAG system to consolidate reports.",
+    "current": true
+  },
+  {
+    "id": "rise-layers",
+    "period": "Sep 2024 to Feb 2025",
+    "location": "Remote",
+    "title": "Full-Stack Developer to Rise Layers",
+    "description": "Developer at Delivery branch (early stage startup) - Restaurant Delivery Platform (300+ restaurants). Designed digital menu from scratch (React, Typescript, Nodejs), developed full-stack applications, deployed ETL workflows for CRM synchronization."
+  },
+  {
+    "id": "supercampo",
+    "period": "Mar 2023 to Sep 2024",
+    "location": "Remote",
+    "title": "Full-Stack Developer to Supercampo S/A",
+    "description": "Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in Brazil. Developed a Management Information System (MIS) MERN Application. Deployed ETLs for database migrations (200+ tables)."
+  },
+  {
+    "id": "brg",
+    "period": "Oct 2022 to Mar 2023",
+    "location": "Remote",
+    "title": "Back-End Developer to BRG Brasil Geradores",
+    "description": "Delivered new features to the REST API of a monitoring system. Refactored legacy code (Express.js API for a MySQL database) following clean code principles. Documented the project using OpenAPI notation and Swagger."
+  },
+  {
+    "id": "simepar",
+    "period": "Jun 2019 to Dec 2021",
+    "location": "Hybrid",
+    "title": "Software Developer to SIMEPAR",
+    "description": "Contributed to the Dam Monitoring Project. Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS. Delivered a data analysis pipeline to check inconsistencies and generate ~900 reports using Python (Pandas).",
+    "last": true
+  }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "id": "bias-reflector",
+    "title": "Bias Reflector",
+    "description": "AI-powered cognitive bias analyzer with interactive D3.js visualization",
+    "image": "./src/assets/thumbs/bias-reflector.png",
+    "alt": "Bias Reflector cognitive bias visualization",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["AI", "D3.js", "React"],
+    "modal": {
+      "subtitle": "Cognitive Bias Analysis Tool",
+      "fullDescription": "Bias Reflector is a sophisticated web application that analyzes conversations for cognitive biases using Google's Gemini AI and visualizes them through an interactive D3.js radial cluster diagram. The tool helps users identify and understand the 188 cognitive biases from the Cognitive Bias Codex framework in real-time conversational exchanges.",
+      "features": [
+        "AI-Powered Analysis: Leverages Gemini 3 Flash to detect cognitive biases in conversational text",
+        "Interactive Visualization: D3.js radial cluster diagram with 188 cognitive biases organized hierarchically",
+        "Real-time Detection: Instant analysis of two-way conversations with confidence scoring",
+        "Educational Tool: Helps users understand bias patterns and improve critical thinking",
+        "Responsive Design: Modern, mobile-friendly interface built with React and Tailwind CSS"
+      ],
+      "techStack": ["React", "TypeScript", "D3.js", "Google Gemini AI", "Tailwind CSS"],
+      "status": "In Development"
+    }
+  },
+  {
+    "id": "dyod",
+    "title": "DYOD",
+    "description": "`Do Your Own Diligence`: Web extension to automate brief investigation",
+    "image": "./src/assets/thumbs/company-risk-extension.png",
+    "alt": "DYOD web extension preview",
+    "url": "https://github.com/arturovaine/company-risk-radar_web-extension",
+    "category": "engineering open-source",
+    "tags": ["Extension", "Automation", "Research"],
+    "modal": {
+      "subtitle": "Company Due Diligence Automation",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "Open Source"
+    }
+  },
+  {
+    "id": "airflow-etl",
+    "title": "Airflow Web ETL",
+    "description": "Pipeline to scrape data and load it into a Postgres db",
+    "image": "./src/assets/thumbs/airflow-etl.webp",
+    "alt": "Airflow ETL pipeline preview",
+    "url": "https://github.com/arturovaine/airflow-web-scraper-etl",
+    "category": "engineering",
+    "tags": ["Airflow", "ETL", "PostgreSQL"],
+    "modal": {
+      "subtitle": "Data Pipeline Automation",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "Open Source"
+    }
+  },
+  {
+    "id": "pim",
+    "title": "Product Info Manager",
+    "description": "PIM Platform, work in progress...",
+    "image": "./src/assets/thumbs/pim.png",
+    "alt": "PIM Platform preview",
+    "url": "https://github.com/arturovaine",
+    "category": "engineering",
+    "tags": ["PIM", "E-commerce", "Platform"],
+    "modal": {
+      "subtitle": "Product Information Management",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "In Development"
+    }
+  },
+  {
+    "id": "corporate-page",
+    "title": "Corporate Page",
+    "description": "Demonstration of home page for corporate website",
+    "image": "./src/assets/thumbs/lp-corp.gif",
+    "alt": "Corporate landing page",
+    "url": "https://github.com/arturovaine/landing-page-video-bg",
+    "category": "design",
+    "tags": ["Landing Page", "Video BG", "Corporate"],
+    "modal": {
+      "subtitle": "Corporate Landing Page",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "Open Source"
+    }
+  },
+  {
+    "id": "vtex-integrations",
+    "title": "VTEX Integrations",
+    "description": "Integration of multiple ERP systems and VTEX e-commerce APIs",
+    "image": "./src/assets/thumbs/vtex.webp",
+    "alt": "VTEX integrations",
+    "url": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
+    "category": "engineering",
+    "tags": ["E-commerce", "ERP", "Integration"],
+    "modal": {
+      "subtitle": "Enterprise E-commerce Integration",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "Production"
+    }
+  },
+  {
+    "id": "dam-monitoring",
+    "title": "Water Dam Monitoring",
+    "description": "Collecting Data for Water Dams Monitoring System",
+    "image": "./src/assets/thumbs/simepar.webp",
+    "alt": "Dam monitoring system",
+    "url": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana",
+    "category": "engineering",
+    "tags": ["IoT", "Monitoring", "Data"],
+    "modal": {
+      "subtitle": "Critical Infrastructure Monitoring",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "Production"
+    }
+  },
+  {
+    "id": "backoffice-crud",
+    "title": "Backoffice CRUD",
+    "description": "Application for CRUD operations on predefined e-commerce entities",
+    "image": "./src/assets/thumbs/crud-backoffice.gif",
+    "alt": "Backoffice CRUD application",
+    "url": "https://github.com/arturovaine/crud_fullstack",
+    "category": "engineering",
+    "tags": ["CRUD", "Full-Stack", "Backoffice"],
+    "modal": {
+      "subtitle": "E-commerce Backoffice System",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "Open Source"
+    }
+  },
+  {
+    "id": "threejs-fire",
+    "title": "Three.js Fire Animation",
+    "description": "Dynamic 3D simulation of fire effect using three.js voxels",
+    "image": "./src/assets/thumbs/3d-fire.gif",
+    "alt": "Three.js fire animation",
+    "url": "https://github.com/arturovaine/doom-fire-algorithm",
+    "category": "experiment",
+    "tags": ["Three.js", "3D", "Animation"],
+    "modal": {
+      "subtitle": "3D Fire Simulation Experiment",
+      "fullDescription": "",
+      "features": [],
+      "techStack": [],
+      "status": "Open Source"
+    }
+  }
+]
