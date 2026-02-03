@@ -41,8 +41,11 @@ document.addEventListener('DOMContentLoaded', async function () {
   MobileMenu.init();
   StylingManager.init();
 
+  const currentYear = new Date().getFullYear();
   const yearElement = document.getElementById('year');
-  if (yearElement) yearElement.textContent = new Date().getFullYear();
+  if (yearElement) yearElement.textContent = currentYear;
+  const heroYearElement = document.getElementById('hero-year');
+  if (heroYearElement) heroYearElement.textContent = currentYear;
 
   await new Promise(resolve => setTimeout(resolve, 0));
 
