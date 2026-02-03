@@ -1,5 +1,27 @@
 [
   {
+    "id": "n8n-nodes-sklearn",
+    "title": "n8n-nodes-sklearn",
+    "description": "Custom n8n nodes for integrating scikit-learn ML algorithms into workflows",
+    "image": "./src/assets/thumbs/n8n-nodes-sklearn.png",
+    "alt": "n8n-nodes-sklearn npm package",
+    "url": "https://www.npmjs.com/package/n8n-nodes-sklearn",
+    "category": "engineering open-source",
+    "tags": ["n8n", "scikit-learn", "ML"],
+    "modal": {
+      "subtitle": "Machine Learning Nodes for n8n",
+      "fullDescription": "Custom n8n nodes for integrating scikit-learn machine learning algorithms into your n8n workflows. This package enables no-code/low-code ML pipelines by bringing scikit-learn's powerful algorithms directly into the n8n automation platform.",
+      "features": [
+        "Seamless integration of scikit-learn algorithms into n8n workflows",
+        "Support for classification, regression, and clustering models",
+        "No-code/low-code machine learning pipeline creation",
+        "Easy model training and prediction within automation workflows"
+      ],
+      "techStack": ["n8n", "TypeScript", "scikit-learn", "Python", "npm"],
+      "status": "Open Source"
+    }
+  },
+  {
     "id": "bias-reflector",
     "title": "Bias Reflector",
     "description": "AI-powered cognitive bias analyzer with interactive D3.js visualization",
