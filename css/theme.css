@@ -405,9 +405,23 @@ body.light-theme .badge-status {
 }
 
 .card-image {
+  position: relative;
   overflow: hidden;
   background-color: #0a0a0a;
   border-radius: 15px;
+}
+
+.card-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.card:hover .card-image::after {
+  opacity: 0;
 }
 
 .card-image img {
