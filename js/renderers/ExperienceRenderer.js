@@ -1,8 +1,22 @@
 export const ExperienceRenderer = {
-  async init() {
+  loaded: false,
+
+  init() {
     const container = document.getElementById('experience-timeline');
     if (!container) return;
 
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !this.loaded) {
+        this.loaded = true;
+        this.loadAndRender(container);
+        observer.disconnect();
+      }
+    }, { rootMargin: '200px' });
+
+    observer.observe(container);
+  },
+
+  async loadAndRender(container) {
     try {
       const response = await fetch('./data/experience.json');
       const experiences = await response.json();

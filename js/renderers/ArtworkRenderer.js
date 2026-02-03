@@ -1,10 +1,23 @@
 export const ArtworkRenderer = {
   artworks: [],
+  loaded: false,
 
-  async init() {
+  init() {
     const container = document.getElementById('artworks-grid');
     if (!container) return;
 
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !this.loaded) {
+        this.loaded = true;
+        this.loadAndRender(container);
+        observer.disconnect();
+      }
+    }, { rootMargin: '200px' });
+
+    observer.observe(container);
+  },
+
+  async loadAndRender(container) {
     try {
       const response = await fetch('./data/artworks.json');
       this.artworks = await response.json();

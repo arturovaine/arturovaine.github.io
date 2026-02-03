@@ -1,10 +1,23 @@
 export const ProjectRenderer = {
   projects: [],
+  loaded: false,
 
-  async init() {
+  init() {
     const container = document.getElementById('projects');
     if (!container) return;
 
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !this.loaded) {
+        this.loaded = true;
+        this.loadAndRender(container);
+        observer.disconnect();
+      }
+    }, { rootMargin: '200px' });
+
+    observer.observe(container);
+  },
+
+  async loadAndRender(container) {
     try {
       const response = await fetch('./data/projects.json');
       this.projects = await response.json();

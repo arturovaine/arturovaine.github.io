@@ -1,8 +1,22 @@
 export const AwardRenderer = {
-  async init() {
+  loaded: false,
+
+  init() {
     const container = document.getElementById('awards-grid');
     if (!container) return;
 
+    const observer = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !this.loaded) {
+        this.loaded = true;
+        this.loadAndRender(container);
+        observer.disconnect();
+      }
+    }, { rootMargin: '200px' });
+
+    observer.observe(container);
+  },
+
+  async loadAndRender(container) {
     try {
       const response = await fetch('./data/awards.json');
       const awards = await response.json();
@@ -45,5 +59,8 @@ export const AwardRenderer = {
 
   render(container, awards) {
     container.innerHTML = awards.map(award => this.renderCard(award)).join('');
+    if (window.lucide) {
+      window.lucide.createIcons();
+    }
   }
 };

@@ -51,14 +51,15 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   await new Promise(resolve => setTimeout(resolve, 0));
 
-  await Promise.all([
-    HeroCardRenderer.init(),
-    ProjectRenderer.init(),
-    AwardRenderer.init(),
-    ExperienceRenderer.init(),
-    PostRenderer.init(),
-    ArtworkRenderer.init()
-  ]);
+  // HeroCardRenderer loads immediately (above the fold)
+  await HeroCardRenderer.init();
+
+  // Other renderers use IntersectionObserver - they load when visible
+  ProjectRenderer.init();
+  AwardRenderer.init();
+  ExperienceRenderer.init();
+  PostRenderer.init();
+  ArtworkRenderer.init();
 
   if (window.lucide) {
     lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
