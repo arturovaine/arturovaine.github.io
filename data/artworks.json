@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mural-utfpr",
+    "title": "Commemorative Mural of the Centenary of UTFPR",
+    "description": "The Federal Technological University of Paraná celebrated its 100th anniversary on September 23, 2009. Created as the School of Apprentice Craftsmen in 1909.",
+    "image": "./src/assets/images/mural.webp",
+    "alt": "UTFPR Centenary Mural",
+    "url": "https://www.behance.net/gallery/103655095/Mural-Centenario-UTFPR-2010-(1909-2009)",
+    "tags": ["Mural", "2010"]
+  },
+  {
+    "id": "warrior-bust",
+    "title": "A bust of a warrior",
+    "description": "Sketch approx. 50 x 70cm, pencil on painted wall. Drawing based on Da Vinci's masterpiece 'A bust of a warrior in profile to left'.",
+    "image": "./src/assets/images/davinci.webp",
+    "alt": "Warrior bust drawing",
+    "url": "https://www.behance.net/gallery/105378633/A-bust-of-a-warrior-in-profile-(2006)",
+    "tags": ["Drawing", "2006", "Da Vinci"]
+  },
+  {
+    "id": "arcimboldo-study",
+    "title": "Arcimboldo study",
+    "description": "Sketch approx. 30 x 30cm, pencil on paper. Drawing based on Arcimboldo's masterpiece 'Summer'. Oil on wood, 1563.",
+    "image": "./src/assets/images/arcimboldo.webp",
+    "alt": "Arcimboldo study drawing",
+    "url": "https://www.behance.net/gallery/103654197/Arcimboldo-study-(2006)",
+    "tags": ["Drawing", "2006", "Arcimboldo"]
+  },
+  {
+    "id": "farol-do-saber",
+    "title": "Farol do Saber e Base Paranismo",
+    "description": "3D printed miniature of Farol do Saber library with paranista-themed relief base, presented to Curitiba Mayor Rafael Greca. Commemorative piece for the inauguration of the first \"Farol do Saber e Inovação\" (2017), inspired by the Library of Alexandria.",
+    "image": "./src/assets/images/farol-do-saber.webp",
+    "alt": "Curitiba city Mayor holding 3D printed model of Farol do Saber library",
+    "url": "https://www.behance.net/gallery/112771521/Farol-do-Saber-e-Base-Paranismo",
+    "tags": ["3D Modeling", "3D Printing", "Architecture"]
+  },
+  {
+    "id": "ciencia-na-caixa",
+    "title": "Ciência na Caixa Logo",
+    "description": "Logo design study for science education project. Visual identity exploration combining geometric forms with educational concepts.",
+    "image": "./src/assets/images/ciencia-na-caixa.webp",
+    "alt": "Ciência na Caixa logo design study",
+    "url": "https://www.behance.net/gallery/105120735/Ciencia-da-Caixa-logo-(2016)",
+    "tags": ["Logo Design", "2016"]
+  },
+  {
+    "id": "bionic-hand",
+    "title": "Bionic Hand",
+    "description": "3D model of bionic hand prosthesis visualized in Meshmixer. Digital modeling project exploring mechanical design and human anatomy.",
+    "image": "./src/assets/images/hand-model.webp",
+    "alt": "Bionic hand 3D model in Meshmixer",
+    "url": "https://www.behance.net/gallery/70813139/Bionic-Hand-(2018)",
+    "tags": ["3D Modeling", "2018", "Prosthetics"]
+  }
+]
