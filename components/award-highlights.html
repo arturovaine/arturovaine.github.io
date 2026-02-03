@@ -1,0 +1,105 @@
+<!-- Award Highlights -->
+<section class="border-t border-white/5">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <!-- Awards Video Carousel -->
+    <div>
+      <div class="flex items-center justify-between mb-6">
+        <div class="flex items-center gap-2">
+          <i data-lucide="award" class="w-5 h-5 text-emerald-400"></i>
+          <h3 class="text-xl font-semibold tracking-tight">Award Highlights</h3>
+        </div>
+      </div>
+
+      <div class="relative overflow-hidden border border-white/10 bg-neutral-900" style="border-radius: 15px;">
+        <!-- Navigation Arrows Overlay -->
+        <button id="carousel-prev" class="absolute left-4 top-1/2 -translate-y-1/2 z-10 btn btn-carousel" aria-label="Previous video">
+          <i data-lucide="chevron-left" class="w-6 h-6"></i>
+        </button>
+        <button id="carousel-next" class="absolute right-4 top-1/2 -translate-y-1/2 z-10 btn btn-carousel" aria-label="Next video">
+          <i data-lucide="chevron-right" class="w-6 h-6"></i>
+        </button>
+
+        <div id="video-carousel" class="flex transition-transform duration-500 ease-in-out">
+          <!-- Video 1: Ozires Silva Award 2018 -->
+          <div class="min-w-full">
+            <div class="relative aspect-video">
+              <video
+                class="w-full h-full object-contain bg-neutral-950"
+                autoplay
+                muted
+                loop
+                playsinline
+              >
+                <source src="https://storage.googleapis.com/arturovaine-portfolio-videos/awards/ozires-silva-award-2018-clip.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-neutral-950 via-neutral-950/95 via-neutral-950/70 to-transparent pt-20 pb-6 px-6">
+                <div class="flex items-center gap-2 text-xs font-medium text-yellow-400 mb-2">
+                  <i data-lucide="award" class="w-4 h-4"></i>
+                  <span>2018</span>
+                </div>
+                <h4 class="text-lg font-semibold tracking-tight mb-1 text-white">Ozires Silva Award - Sustainable Entrepreneurship</h4>
+                <p class="text-sm text-white">1st place at ISAE's 11th edition</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video 2: Perfumathon 2017 - Opening -->
+          <div class="min-w-full">
+            <div class="relative aspect-video">
+              <video
+                class="w-full h-full object-contain bg-neutral-950"
+                autoplay
+                muted
+                loop
+                playsinline
+              >
+                <source src="https://storage.googleapis.com/arturovaine-portfolio-videos/awards/perfumathon-2017-clip-01.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-neutral-950 via-neutral-950/95 via-neutral-950/70 to-transparent pt-20 pb-6 px-6">
+                <div class="flex items-center gap-2 text-xs font-medium text-orange-400 mb-2">
+                  <i data-lucide="award" class="w-4 h-4"></i>
+                  <span>2017</span>
+                </div>
+                <h4 class="text-lg font-semibold tracking-tight mb-1 text-white">Perfumathon - Opening</h4>
+                <p class="text-sm text-white">3rd place at O Boticário's Perfumery Hackathon</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Video 3: Perfumathon 2017 - Pitch -->
+          <div class="min-w-full">
+            <div class="relative aspect-video">
+              <video
+                class="w-full h-full object-contain bg-neutral-950"
+                autoplay
+                muted
+                loop
+                playsinline
+              >
+                <source src="https://storage.googleapis.com/arturovaine-portfolio-videos/awards/perfumathon-2017-clip-02.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-neutral-950 via-neutral-950/95 via-neutral-950/70 to-transparent pt-20 pb-6 px-6">
+                <div class="flex items-center gap-2 text-xs font-medium text-orange-400 mb-2">
+                  <i data-lucide="award" class="w-4 h-4"></i>
+                  <span>2017</span>
+                </div>
+                <h4 class="text-lg font-semibold tracking-tight mb-1 text-white">Perfumathon - Behind the Scenes</h4>
+                <p class="text-sm text-white">Epic Team preparing for the presentation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Indicators -->
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 z-10">
+          <button class="btn btn-dot active" data-index="0" aria-label="Go to video 1"></button>
+          <button class="btn btn-dot" data-index="1" aria-label="Go to video 2"></button>
+          <button class="btn btn-dot" data-index="2" aria-label="Go to video 3"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
