@@ -32,6 +32,22 @@ window.requestIdleCallback = window.requestIdleCallback || function (cb) {
 window.ModelViewer = ModelViewer;
 window.ProjectModal = ProjectModal;
 
+// Map component names to their initializers
+const componentInitializers = {
+  'work': () => {
+    ProjectRenderer.init();
+    ProjectModal.init();
+    ProjectFilter.init();
+  },
+  'experience': () => ExperienceRenderer.init(),
+  'awards': () => AwardRenderer.init(),
+  'award-highlights': () => VideoCarousel.init(),
+  'posts': () => PostRenderer.init(),
+  'volunteering': () => TetoCarousel.init(),
+  'bootstrapping': () => ModelViewer.init(),
+  'artworks': () => ArtworkRenderer.init()
+};
+
 document.addEventListener('DOMContentLoaded', async function () {
   if (window.lucide) {
     lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
@@ -54,39 +70,31 @@ document.addEventListener('DOMContentLoaded', async function () {
   // HeroCardRenderer loads immediately (above the fold)
   await HeroCardRenderer.init();
 
-  // Other renderers use IntersectionObserver - they load when visible
-  ProjectRenderer.init();
-  AwardRenderer.init();
-  ExperienceRenderer.init();
-  PostRenderer.init();
-  ArtworkRenderer.init();
+  // ImageSlider is in hero section (above the fold)
+  requestIdleCallback(() => {
+    ImageSlider.init();
+  }, { timeout: 1000 });
 
   if (window.lucide) {
     lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
   }
-
-  ProjectModal.init();
-  ProjectFilter.init();
-
-  requestIdleCallback(() => {
-    ModelViewer.init();
-  }, { timeout: 2000 });
-
-  requestIdleCallback(() => {
-    ImageSlider.init();
-  }, { timeout: 2000 });
-
-  requestIdleCallback(() => {
-    VideoCarousel.init();
-  }, { timeout: 2000 });
-
-  setTimeout(() => {
-    TetoCarousel.init();
-  }, 100);
 
   HoverPrefetch.init();
 
   requestIdleCallback(() => {
     LazyLoader.init();
   }, { timeout: 1000 });
+});
+
+// Listen for lazy-loaded components and initialize their features
+window.addEventListener('componentLoaded', (event) => {
+  const componentName = event.detail.name;
+  const initializer = componentInitializers[componentName];
+
+  if (initializer) {
+    // Small delay to ensure DOM is ready
+    requestAnimationFrame(() => {
+      initializer();
+    });
+  }
 });
