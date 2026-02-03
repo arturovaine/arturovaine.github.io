@@ -26,14 +26,10 @@ export const ImageSlider = {
 
   showImages() {
     const placeholder = document.getElementById('slider-placeholder');
-    const leftImg = document.getElementById('slider-left');
     const centerImg = document.getElementById('slider-center');
-    const rightImg = document.getElementById('slider-right');
 
     if (placeholder) placeholder.style.display = 'none';
-    if (leftImg) leftImg.style.opacity = '0.7';
     if (centerImg) centerImg.style.opacity = '1';
-    if (rightImg) rightImg.style.opacity = '0.7';
   },
 
   fixPath(path) {
@@ -41,35 +37,16 @@ export const ImageSlider = {
   },
 
   update() {
-    const leftImg = document.getElementById('slider-left');
     const centerImg = document.getElementById('slider-center');
-    const rightImg = document.getElementById('slider-right');
 
-    if (!leftImg || !centerImg || !rightImg || this.images.length === 0) return;
-
-    const prevIndex = this.currentIndex === 0 ? this.images.length - 1 : this.currentIndex - 1;
-    const nextIndex = (this.currentIndex + 1) % this.images.length;
+    if (!centerImg || this.images.length === 0) return;
 
     const currentImg = this.images[this.currentIndex];
-    const prevImg = this.images[prevIndex];
-    const nextImg = this.images[nextIndex];
 
     if (currentImg) {
       centerImg.src = this.fixPath(currentImg.webp || currentImg.src);
-      centerImg.alt = currentImg.alt || 'Current artwork';
+      centerImg.alt = currentImg.alt || 'Pixel Art';
       centerImg.title = currentImg.title || '';
-    }
-
-    if (prevImg) {
-      leftImg.src = this.fixPath(prevImg.webp || prevImg.src);
-      leftImg.alt = prevImg.alt || 'Previous artwork';
-      leftImg.title = prevImg.title || '';
-    }
-
-    if (nextImg) {
-      rightImg.src = this.fixPath(nextImg.webp || nextImg.src);
-      rightImg.alt = nextImg.alt || 'Next artwork';
-      rightImg.title = nextImg.title || '';
     }
   },
 
