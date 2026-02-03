@@ -2,6 +2,15 @@
   --transition-duration: 0.2s;
 }
 
+#cv-btn {
+  color: #ffffff;
+}
+
+#cv-btn:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
 body {
   min-height: 100vh;
 }
