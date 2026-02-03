@@ -56,9 +56,10 @@
         <!-- Image Slider -->
         <div class="relative">
           <div id="image-slider-container" class="w-full h-[400px] flex items-center justify-center" style="perspective: 1200px; perspective-origin: center center;">
-            <img id="slider-left" class="absolute w-[200px] h-[270px] object-cover border border-white/20 opacity-70 transition-all duration-500" style="transform: rotateY(-45deg) translateZ(-80px) scale(0.8); transform-origin: left center; margin-right: -40px; z-index: 1;" alt="Previous artwork">
-            <img id="slider-center" class="relative w-[270px] h-[270px] object-cover border-2 border-amber-300/80 shadow-2xl shadow-amber-300/20 transition-all duration-500" style="transform: translateZ(0px); z-index: 2;" alt="Current artwork">
-            <img id="slider-right" class="absolute w-[200px] h-[270px] object-cover border border-white/20 opacity-70 transition-all duration-500" style="transform: rotateY(45deg) translateZ(-80px) scale(0.8); transform-origin: right center; margin-left: -40px; z-index: 1;" alt="Next artwork">
+            <div id="slider-placeholder" class="w-[270px] h-[270px] rounded bg-neutral-800/50 animate-pulse"></div>
+            <img id="slider-left" loading="lazy" class="absolute w-[200px] h-[270px] object-cover border border-white/20 opacity-0 transition-all duration-500" style="transform: rotateY(-45deg) translateZ(-80px) scale(0.8); transform-origin: left center; margin-right: -40px; z-index: 1;" alt="Previous artwork">
+            <img id="slider-center" loading="lazy" class="relative w-[270px] h-[270px] object-cover border-2 border-amber-300/80 shadow-2xl shadow-amber-300/20 opacity-0 transition-all duration-500" style="transform: translateZ(0px); z-index: 2;" alt="Current artwork">
+            <img id="slider-right" loading="lazy" class="absolute w-[200px] h-[270px] object-cover border border-white/20 opacity-0 transition-all duration-500" style="transform: rotateY(45deg) translateZ(-80px) scale(0.8); transform-origin: right center; margin-left: -40px; z-index: 1;" alt="Next artwork">
           </div>
           <div class="mt-4 text-center">
             <div class="flex items-center justify-center gap-2 text-sm text-neutral-400">

@@ -11,6 +11,7 @@ export const ImageSlider = {
 
       if (this.images.length > 0) {
         this.update();
+        this.showImages();
         this.startAnimation();
       }
     } catch (error) {
@@ -19,7 +20,20 @@ export const ImageSlider = {
         { src: './src/assets/images/pxart/pxArt.png', alt: 'Pixel Art', title: 'Pixel Art' }
       ];
       this.update();
+      this.showImages();
     }
+  },
+
+  showImages() {
+    const placeholder = document.getElementById('slider-placeholder');
+    const leftImg = document.getElementById('slider-left');
+    const centerImg = document.getElementById('slider-center');
+    const rightImg = document.getElementById('slider-right');
+
+    if (placeholder) placeholder.style.display = 'none';
+    if (leftImg) leftImg.style.opacity = '0.7';
+    if (centerImg) centerImg.style.opacity = '1';
+    if (rightImg) rightImg.style.opacity = '0.7';
   },
 
   fixPath(path) {
