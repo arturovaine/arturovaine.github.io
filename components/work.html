@@ -1,189 +1,26 @@
-    <!-- Work -->
-    <section id="work" class="border-t border-white/5">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-          <div>
-            <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Selected work</h2>
-            <p class="mt-2 text-neutral-400">A few projects spanning design systems, product, and engineering.</p>
-          </div>
-          <div class="flex flex-wrap items-center gap-2">
-            <button data-filter="all" class="filter-chip px-3 py-1.5 text-xs rounded-md border border-white/10 bg-white/[0.03] text-white hover:bg-white/[0.06]">All</button>
-            <button data-filter="design" class="filter-chip px-3 py-1.5 text-xs rounded-md border border-white/10 bg-neutral-900 text-neutral-300 hover:bg-white/[0.06]">Design</button>
-            <button data-filter="engineering" class="filter-chip px-3 py-1.5 text-xs rounded-md border border-white/10 bg-neutral-900 text-neutral-300 hover:bg-white/[0.06]">Engineering</button>
-            <button data-filter="open-source" class="filter-chip px-3 py-1.5 text-xs rounded-md border border-white/10 bg-neutral-900 text-neutral-300 hover:bg-white/[0.06]">Open Source</button>
-            <button data-filter="experiment" class="filter-chip px-3 py-1.5 text-xs rounded-md border border-white/10 bg-neutral-900 text-neutral-300 hover:bg-white/[0.06]">Experiments</button>
-          </div>
-        </div>
-
-        <div id="projects" class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <!-- DYOD -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="engineering open-source">
-            <a href="https://github.com/arturovaine/company-risk-radar_web-extension" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/company-risk-extension.png" alt="DYOD web extension preview" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">DYOD</h3>
-                <a href="https://github.com/arturovaine/company-risk-radar_web-extension" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="github" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">`Do Your Own Diligence`: Web extension to automate brief investigation</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Extension</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Automation</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Research</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Airflow Web ETL -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="engineering">
-            <a href="https://github.com/arturovaine/airflow-web-scraper-etl" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/airflow-etl.webp" alt="Airflow ETL pipeline preview" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">Airflow Web ETL</h3>
-                <a href="https://github.com/arturovaine/airflow-web-scraper-etl" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="github" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">Pipeline to scrape data and load it into a Postgres db</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Airflow</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">ETL</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">PostgreSQL</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Product Info Manager -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="engineering">
-            <a href="https://github.com/arturovaine" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/pim.png" alt="PIM Platform preview" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">Product Info Manager</h3>
-                <a href="https://github.com/arturovaine" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="external-link" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">PIM Platform, work in progress...</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">PIM</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">E-commerce</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Platform</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Corporate Page -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="design">
-            <a href="https://github.com/arturovaine/landing-page-video-bg" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/lp-corp.gif" alt="Corporate landing page" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">Corporate Page</h3>
-                <a href="https://github.com/arturovaine/landing-page-video-bg" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="github" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">Demonstration of home page for corporate website</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Landing Page</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Video BG</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Corporate</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- VTEX Integrations -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="engineering">
-            <a href="https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/vtex.webp" alt="VTEX integrations" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">VTEX Integrations</h3>
-                <a href="https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="external-link" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">Integration of multiple ERP systems and VTEX e-commerce APIs</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">E-commerce</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">ERP</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Integration</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Water Dam Monitoring -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="engineering">
-            <a href="https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/simepar.webp" alt="Dam monitoring system" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">Water Dam Monitoring</h3>
-                <a href="https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="external-link" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">Collecting Data for Water Dams Monitoring System</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">IoT</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Monitoring</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Data</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Backoffice CRUD -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="engineering">
-            <a href="https://github.com/arturovaine/crud_fullstack" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/crud-backoffice.gif" alt="Backoffice CRUD application" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">Backoffice CRUD</h3>
-                <a href="https://github.com/arturovaine/crud_fullstack" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="github" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">Application for CRUD operations on predefined e-commerce entities</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">CRUD</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Full-Stack</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Backoffice</span>
-              </div>
-            </div>
-          </article>
-
-          <!-- Three.js Fire Animation -->
-          <article class="project group rounded-xl border border-white/10 bg-neutral-900/60 overflow-hidden hover:border-white/20 transition-colors" data-category="experiment">
-            <a href="https://github.com/arturovaine/doom-fire-algorithm" target="_blank" rel="noopener" class="block aspect-[16/10] overflow-hidden">
-              <img loading="lazy" src="./src/assets/thumbs/3d-fire.gif" alt="Three.js fire animation" class="h-full w-full object-cover group-hover:scale-[1.02] transition-transform duration-300">
-            </a>
-            <div class="p-4">
-              <div class="flex items-center justify-between">
-                <h3 class="text-lg font-semibold tracking-tight">Three.js Fire Animation</h3>
-                <a href="https://github.com/arturovaine/doom-fire-algorithm" target="_blank" rel="noopener" class="p-1.5 rounded-md text-neutral-300 hover:text-white hover:bg-white/[0.06]" aria-label="Open project">
-                  <i data-lucide="github" class="w-4 h-4"></i>
-                </a>
-              </div>
-              <p class="mt-1 text-sm text-neutral-400">Dynamic 3D simulation of fire effect using three.js voxels</p>
-              <div class="mt-3 flex flex-wrap gap-2 text-[11px] text-neutral-300">
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Three.js</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">3D</span>
-                <span class="rounded-md border border-white/10 bg-white/[0.02] px-2 py-1">Animation</span>
-              </div>
-            </div>
-          </article>
-        </div>
+<!-- Work -->
+<section id="work" class="border-t border-white/5">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+      <div>
+        <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Selected work</h2>
+        <p class="mt-2 text-neutral-400">A few projects spanning design systems, product, and engineering.</p>
       </div>
-    </section>
+      <div class="flex flex-wrap items-center gap-2">
+        <button data-filter="all" class="btn btn-chip active">All</button>
+        <button data-filter="design" class="btn btn-chip">Design</button>
+        <button data-filter="engineering" class="btn btn-chip">Engineering</button>
+        <button data-filter="open-source" class="btn btn-chip">Open Source</button>
+        <button data-filter="experiment" class="btn btn-chip">Experiments</button>
+      </div>
+    </div>
 
+    <!-- Projects rendered dynamically from data/projects.json -->
+    <div id="projects" class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Loading placeholder -->
+      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 aspect-[3/4]"></div>
+      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 aspect-[3/4]"></div>
+      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 aspect-[3/4]"></div>
+    </div>
+  </div>
+</section>
