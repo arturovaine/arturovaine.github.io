@@ -14,6 +14,8 @@ import { HeroCardRenderer } from './renderers/HeroCardRenderer.js';
 import { ProjectRenderer } from './renderers/ProjectRenderer.js';
 import { AwardRenderer } from './renderers/AwardRenderer.js';
 import { ExperienceRenderer } from './renderers/ExperienceRenderer.js';
+import { PostRenderer } from './renderers/PostRenderer.js';
+import { ArtworkRenderer } from './renderers/ArtworkRenderer.js';
 
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
   const start = Date.now();
@@ -53,7 +55,9 @@ document.addEventListener('DOMContentLoaded', async function () {
     HeroCardRenderer.init(),
     ProjectRenderer.init(),
     AwardRenderer.init(),
-    ExperienceRenderer.init()
+    ExperienceRenderer.init(),
+    PostRenderer.init(),
+    ArtworkRenderer.init()
   ]);
 
   if (window.lucide) {
