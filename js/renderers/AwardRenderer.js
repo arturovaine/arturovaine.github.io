@@ -27,8 +27,7 @@ export const AwardRenderer = {
     ` : '';
 
     return `
-      <article class="group rounded-xl border border-white/10 bg-neutral-900/60 hover:border-white/20 transition-colors flex flex-col p-6"
-               style="min-height: ${minHeight};">
+      <article class="group border border-white/10 bg-neutral-900/60 hover:border-white/20 transition-colors flex flex-col p-6" style="border-radius: 15px; min-height: ${minHeight};">
         <div class="flex items-center justify-between mb-4">
           <div class="text-xs font-medium text-neutral-400">${award.year}</div>
           ${externalLink}
