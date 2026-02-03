@@ -1,19 +1,25 @@
 [
   {
-    "id": "nilg-ai",
-    "period": "May 2025 to Present",
-    "location": "Remote",
-    "title": "Software Developer to NILG.AI",
-    "description": "Designing and developing ETL pipelines to process and transform data for AI-driven solutions. Collaborating with data scientists and business teams to define needs and data quality.",
-    "current": true
-  },
-  {
     "id": "meros",
     "period": "Apr 2025 to Present",
     "location": "Remote",
     "title": "Full-Stack Developer to Meros do Brasil Institute",
     "description": "Ad hoc consulting for digital solutions subsidized by PETROBRAS S.A. Development of back-office platform to manage tasks and reporting of 60+ team members. Deployment of pipelines and RAG system to consolidate reports.",
     "current": true
+  },
+  {
+    "id": "nilg-ai",
+    "period": "May 2025 to Nov 2025",
+    "location": "Remote",
+    "title": "Software Developer to NILG.AI",
+    "description": "Designing and developing ETL pipelines to process and transform data for AI-driven solutions. Collaborating with data scientists and business teams to define needs and data quality."
+  },
+  {
+    "id": "litboat",
+    "period": "Jun 2025 to Oct 2025",
+    "location": "Remote",
+    "title": "Data Engineer to LitBoat | Stealth Startup",
+    "description": "Deployment of Medallion Architecture in BigQuery and APIs (SQLAlchemy, FastAPI) for data ingestion. Integration of data pipelines and Analytics with GCP (Buckets, Postgres, BigQuery), Retool and Metabase. Building dataviz to provide strategic KPIs for thousands of restaurant clients."
   },
   {
     "id": "rise-layers",
