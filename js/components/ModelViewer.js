@@ -1,4 +1,3 @@
-// 3D Model Viewer Component
 export const ModelViewer = {
   container: null,
   loadingIndicator: null,
@@ -22,7 +21,7 @@ export const ModelViewer = {
       await this.setupScene();
       await this.loadModel();
       this.setupResize();
-      this.updateTheme(); // Set initial theme
+      this.updateTheme();
     } catch (error) {
       console.error('Failed to load Three.js:', error);
       if (this.loadingIndicator) {
@@ -36,11 +35,7 @@ export const ModelViewer = {
 
     const isLightTheme = document.body.classList.contains('light-theme');
 
-    // Update scene background
     this.scene.background = new this.THREE.Color(isLightTheme ? 0xf5f5f5 : 0x0a0a0a);
-
-    // Keep material color the same in both themes (grey wireframe)
-    // No need to change material color
   },
 
   async loadThreeJS() {
@@ -59,20 +54,16 @@ export const ModelViewer = {
     const width = this.container.clientWidth;
     const height = this.container.clientHeight;
 
-    // Scene
     this.scene = new this.THREE.Scene();
     this.scene.background = new this.THREE.Color(0x0a0a0a);
 
-    // Camera
     this.camera = new this.THREE.PerspectiveCamera(40, width / height, 0.1, 1000);
 
-    // Renderer
     this.renderer = new this.THREE.WebGLRenderer({ antialias: true, alpha: true });
     this.renderer.setSize(width, height);
-    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2)); // Cap at 2 for performance
+    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.container.appendChild(this.renderer.domElement);
 
-    // Lighting
     const ambientLight = new this.THREE.AmbientLight(0xffffff, 0.6);
     this.scene.add(ambientLight);
 
@@ -84,7 +75,6 @@ export const ModelViewer = {
     directionalLight2.position.set(-5, -5, -5);
     this.scene.add(directionalLight2);
 
-    // Controls
     this.controls = new this.OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = true;
     this.controls.dampingFactor = 0.05;
@@ -130,7 +120,6 @@ export const ModelViewer = {
           this.mesh.position.x += 0.5;
           this.scene.add(this.mesh);
 
-          // Adjust camera
           const box = new this.THREE.Box3().setFromObject(this.mesh);
           const center = box.getCenter(new this.THREE.Vector3());
           const size = box.getSize(new this.THREE.Vector3());
@@ -175,7 +164,6 @@ export const ModelViewer = {
   setupResize() {
     let resizeTimeout;
     window.addEventListener('resize', () => {
-      // Debounce resize for performance
       clearTimeout(resizeTimeout);
       resizeTimeout = setTimeout(() => {
         const newWidth = this.container.clientWidth;

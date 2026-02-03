@@ -1,6 +1,3 @@
-// Lazy Loader - Intersection Observer for components
-// Only loads components when they become visible in viewport
-
 export const LazyLoader = {
   observer: null,
   loadedComponents: new Set(),
@@ -16,12 +13,11 @@ export const LazyLoader = {
         });
       },
       {
-        rootMargin: '50px', // Load 50px before entering viewport
+        rootMargin: '50px',
         threshold: 0.01
       }
     );
 
-    // Observe all lazy-loadable sections
     document.querySelectorAll('[data-lazy-component]').forEach((section) => {
       this.observer.observe(section);
     });
@@ -30,23 +26,15 @@ export const LazyLoader = {
   async loadComponent(element) {
     const componentName = element.getAttribute('data-lazy-component');
 
-    // Skip if already loaded
     if (this.loadedComponents.has(componentName)) {
       return;
     }
 
-    // Mark as loaded
     this.loadedComponents.add(componentName);
 
     try {
-      // Remove skeleton loader
       element.classList.remove('component-loading');
-
-      // Component already loaded by ComponentLoader
-      // This just removes the loading state
       console.log(`✓ Lazy loaded: ${componentName}`);
-
-      // Stop observing this element
       this.observer.unobserve(element);
     } catch (error) {
       console.error(`Error lazy loading ${componentName}:`, error);

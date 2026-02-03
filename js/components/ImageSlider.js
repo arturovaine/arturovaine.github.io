@@ -1,4 +1,3 @@
-// Image Slider Component
 export const ImageSlider = {
   images: [],
   currentIndex: 0,

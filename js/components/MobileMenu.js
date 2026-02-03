@@ -1,4 +1,3 @@
-// Mobile Menu Component
 export const MobileMenu = {
   init() {
     this.menuBtn = document.getElementById('menuBtn');

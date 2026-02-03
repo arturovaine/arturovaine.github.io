@@ -1,6 +1,3 @@
-// Hover Prefetch - McMaster-Carr inspired
-// Prefetches HTML content when user hovers over navigation links
-
 export const HoverPrefetch = {
   prefetchedComponents: new Map(),
   componentMapping: {
@@ -14,7 +11,6 @@ export const HoverPrefetch = {
   },
 
   init() {
-    // Add hover listeners to all navigation links
     const navLinks = document.querySelectorAll('a[href^="#"]');
     navLinks.forEach(link => {
       const href = link.getAttribute('href');
@@ -28,7 +24,6 @@ export const HoverPrefetch = {
   },
 
   async prefetch(componentName) {
-    // Skip if already prefetched
     if (this.prefetchedComponents.has(componentName)) {
       return;
     }
@@ -45,7 +40,6 @@ export const HoverPrefetch = {
     }
   },
 
-  // Get prefetched content if available
   get(componentName) {
     return this.prefetchedComponents.get(componentName);
   }

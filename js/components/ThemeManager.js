@@ -1,14 +1,11 @@
-// Theme Management Component
 export const ThemeManager = {
   STORAGE_KEY: 'portfolio-theme',
   LIGHT_CLASS: 'light-theme',
 
   init() {
-    // Prevent flash of unstyled content
     document.body.classList.add('preload');
     this.loadTheme();
     this.setupToggle();
-    // Remove preload class after a brief delay
     requestAnimationFrame(() => {
       setTimeout(() => {
         document.body.classList.remove('preload');
@@ -30,7 +27,6 @@ export const ThemeManager = {
     localStorage.setItem(this.STORAGE_KEY, theme);
     this.updateIcon(theme);
 
-    // Update 3D model theme
     if (window.ModelViewer && typeof window.ModelViewer.updateTheme === 'function') {
       window.ModelViewer.updateTheme();
     }
@@ -57,7 +53,6 @@ export const ThemeManager = {
   setupToggle() {
     const btn = document.getElementById('themeToggle');
     if (btn) {
-      // Use passive event listener for better performance
       btn.addEventListener('click', () => this.toggleTheme(), { passive: true });
     }
   }

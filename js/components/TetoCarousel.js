@@ -1,6 +1,3 @@
-// TETO Carousel Component
-// Manual carousel for TETO volunteering images
-
 export const TetoCarousel = {
   images: [
     {
@@ -22,20 +19,17 @@ export const TetoCarousel = {
     this.credit = document.getElementById('teto-carousel-credit');
 
     if (!this.img || !this.counter || !this.prevBtn || !this.nextBtn) {
-      console.log('TETO Carousel: Elements not found');
       return;
     }
 
     this.prevBtn.addEventListener('click', () => this.prev());
     this.nextBtn.addEventListener('click', () => this.next());
 
-    // Re-initialize Lucide icons for the carousel buttons
     if (window.lucide) {
       lucide.createIcons();
     }
 
     this.updateImage();
-    console.log('TETO Carousel: Initialized successfully');
   },
 
   prev() {
@@ -54,7 +48,6 @@ export const TetoCarousel = {
     this.img.alt = image.alt;
     this.counter.textContent = `${this.currentIndex + 1} / ${this.images.length}`;
 
-    // Show credit only for the GIF (first image)
     if (this.credit) {
       this.credit.style.display = this.currentIndex === 0 ? 'flex' : 'none';
     }
