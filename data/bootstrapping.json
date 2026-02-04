@@ -1,0 +1,63 @@
+{
+  "title": "Bootstrapping",
+  "description": "Self-funded hardware projects built with minimal external resources, relying on accessible manufacturing technologies like 3D printing to address real-world accessibility challenges. These initiatives demonstrate the potential of maker culture and rapid prototyping to create impactful solutions independently.",
+  "infoBox": "<strong>Bootstrapping</strong> refers to self-starting ventures that grow without significant external funding, building solutions through resourcefulness, iterative development, and leveraging cost-effective tools to validate concepts and reach early adopters.",
+  "projects": [
+    {
+      "id": "bionic-hand",
+      "title": "3D Bionic Hand",
+      "subtitle": "Conceptual design for upper limb prosthesis model (TRL-5)",
+      "heroImage": "./src/assets/images/prosthesis-project.webp",
+      "heroImageAlt": "Prosthesis project team presentation",
+      "background": [
+        "This conceptual design represents an upper limb prosthesis developed during a research project focused on creating accessible 3D-printed solutions for people with disabilities.",
+        "The project achieved Technology Readiness Level 5 (TRL-5), demonstrating component and/or breadboard validation in a relevant environment."
+      ],
+      "links": [
+        {
+          "icon": "newspaper",
+          "text": "Read Media Release (Pequenas Empresas & Grandes Negócios)",
+          "url": "https://revistapegn.globo.com/Startups/noticia/2019/08/startup-do-parana-cria-protese-com-movimentos-partir-de-impressao-3d.html"
+        }
+      ],
+      "features": [
+        "3D-printed components for cost-effective manufacturing",
+        "Modular design for customization and repairs",
+        "Designed in SolidWorks with functional mechanics"
+      ],
+      "modelViewer": {
+        "fileName": "bionic-hand.stl",
+        "behanceUrl": "https://www.behance.net/gallery/70813139/Bionic-Hand-(2018)"
+      }
+    },
+    {
+      "id": "medication-aid",
+      "title": "Medication Handling Aid",
+      "subtitle": "Assistive device for visually impaired individuals",
+      "background": [
+        "A specialized device designed to assist visually impaired people in safely handling syringes and medication bottles. This accessibility-focused solution addresses a critical daily challenge faced by individuals with visual impairments who require regular medication administration, particularly for conditions like diabetes that require precise insulin dosing.",
+        "For people with both visual impairment and diabetes, managing insulin injections independently can be extremely challenging and potentially dangerous. The device provides tactile guidance and secure positioning to enable independent medication management with increased safety and confidence, reducing dependence on caregivers while maintaining accurate dosing."
+      ],
+      "features": [
+        "Tactile guidance system for safe syringe positioning",
+        "Secure bottle stabilization mechanism",
+        "3D-printed ergonomic design for accessibility",
+        "User-centered design based on accessibility research"
+      ],
+      "media": [
+        {
+          "image": "./src/assets/images/dose-device.jpg",
+          "alt": "Medication handling aid device for visually impaired",
+          "caption": "Assistive device prototype",
+          "captionIcon": "accessibility"
+        },
+        {
+          "image": "./src/assets/images/dose-device-press-release.jpg",
+          "alt": "Press release coverage of medication handling aid device",
+          "caption": "Media coverage",
+          "captionIcon": "newspaper"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "teto",
+    "title": "Construction Worker to TETO Brasil",
+    "period": "Feb 2015 - Apr 2017 · 2 yrs 3 mos",
+    "url": "https://teto.org.br/",
+    "icon": "./src/assets/icons/teto-icon.png",
+    "color": "emerald",
+    "description": "TETO is a nonprofit organization that mobilizes youth volunteers to fight extreme poverty in Latin America, by constructing transitional housing and implementing social inclusion programs. In 2023, TETO achieved the milestone of constructing 500 houses in the state of Paraná.",
+    "experiences": [
+      "Database update and structuring of data compilation of socio-economic surveys",
+      "Coordinator of Community Diagnosis, a sort of local census (May to June, 2016)",
+      "Group Leader in COLETA 2015, fundraising campaign (May 2015)",
+      "Group Leader for the application of ECO Socioeconomic Survey (June 2015)",
+      "Volunteer in Emergency Houses Construction Team (May and October 2015; April 2017)",
+      "Volunteer of the Detection and Diagnosis Group, GIS analysis (February 2015 to July 2016)"
+    ],
+    "stats": {
+      "icon": "globe",
+      "text": "150,000 homes built across Latin America and the Caribbean",
+      "note": "Data from 2025"
+    },
+    "media": [
+      {
+        "type": "map",
+        "image": "./src/assets/images/techo-map.jpg",
+        "alt": "TECHO presence map across Latin America and the Caribbean",
+        "bgColor": "rgb(72, 188, 235)",
+        "caption": "TECHO operates in 18 countries",
+        "captionIcon": "map",
+        "link": "https://techo.org/donde-estamos/",
+        "linkText": "View map"
+      },
+      {
+        "type": "image",
+        "image": "./src/assets/images/teto-timelapse.gif",
+        "alt": "TETO house construction timelapse",
+        "caption": "500+ houses built in Paraná by 2023",
+        "captionIcon": "home",
+        "source": {
+          "icon": "video",
+          "text": "Source: TETO Brasil YouTube",
+          "url": "https://www.youtube.com/watch?v=YER9a0MdfLk"
+        }
+      },
+      {
+        "type": "image",
+        "image": "./src/assets/images/teto-1.jpg",
+        "alt": "TETO volunteer team group photo",
+        "caption": "Volunteer team building homes",
+        "captionIcon": "users"
+      }
+    ]
+  },
+  {
+    "id": "goodtruck",
+    "title": "Kitchen Clerk to GoodTruck Brasil",
+    "period": "Nov 2019 - Mar 2020 · 5 mos",
+    "url": "https://goodtruck.org.br/",
+    "icon": "./src/assets/icons/goodtruck-icon.svg",
+    "color": "amber",
+    "description": "GoodTruck was founded in 2016 in Curitiba, Paraná, with the goal of bringing food from where there's surplus to where there's shortage. Through various projects in partnership with distributors and supermarkets, the organization promotes volunteer engagement to reduce food waste and fight hunger.",
+    "experiences": [
+      "Volunteering activities focused on food waste reduction campaign and meal distribution"
+    ],
+    "stats": {
+      "icon": "utensils",
+      "text": "4,120,000+ meals served • 1,000+ families supported weekly",
+      "note": "Data from December 2025"
+    },
+    "media": [
+      {
+        "type": "image",
+        "image": "./src/assets/images/goodtruck-volunteering.jpg",
+        "alt": "GoodTruck volunteer team group photo",
+        "caption": "Volunteer team fighting food waste",
+        "captionIcon": "users"
+      }
+    ]
+  }
+]

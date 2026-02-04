@@ -16,6 +16,8 @@ import { AwardRenderer } from './renderers/AwardRenderer.js';
 import { ExperienceRenderer } from './renderers/ExperienceRenderer.js';
 import { PostRenderer } from './renderers/PostRenderer.js';
 import { ArtworkRenderer } from './renderers/ArtworkRenderer.js';
+import { VolunteeringRenderer } from './renderers/VolunteeringRenderer.js';
+import { BootstrappingRenderer } from './renderers/BootstrappingRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
 
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
@@ -43,8 +45,14 @@ const componentInitializers = {
   'awards': () => AwardRenderer.init(),
   'award-highlights': () => VideoCarousel.init(),
   'posts': () => PostRenderer.init(),
-  'volunteering': () => TetoCarousel.init(),
-  'bootstrapping': () => ModelViewer.init(),
+  'volunteering': () => {
+    VolunteeringRenderer.init();
+    TetoCarousel.init();
+  },
+  'bootstrapping': () => {
+    BootstrappingRenderer.init();
+    ModelViewer.init();
+  },
   'artworks': () => ArtworkRenderer.init()
 };
 
