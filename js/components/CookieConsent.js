@@ -22,7 +22,7 @@ export const CookieConsent = {
   loadGA() {
     if (typeof gtag === 'function') {
       gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      gtag('config', 'G-J3QXJYNRM9');
     }
   }
 };
