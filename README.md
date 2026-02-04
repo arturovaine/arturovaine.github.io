@@ -285,6 +285,26 @@ Award highlights carousel with navigation controls and video playback.
 
 The site is automatically deployed to GitHub Pages from the `main` branch. Any push to main triggers a new deployment.
 
+## Roadmap
+
+### Performance
+- [ ] Image optimization - Convert remaining PNGs/JPGs to WebP
+- [ ] Preconnect hints - Add preconnect for external resources (Google Fonts, CDNs)
+- [ ] Critical CSS inline - Inline above-the-fold CSS to reduce render blocking
+
+### Code Quality
+- [ ] Componentize `award-highlights.html` (105 lines) - Make data-driven
+- [ ] Componentize `hero.html` (72 lines) - Extract hero data to JSON
+
+### Features
+- [x] SEO meta tags - Add Open Graph for social sharing
+- [ ] Twitter cards - Add Twitter meta tags
+- [ ] Accessibility audit - Check ARIA labels, keyboard navigation
+- [ ] 404 page - Custom error page for GitHub Pages
+
+### Analytics
+- [ ] Performance monitoring - Add Web Vitals tracking (LCP, CLS, FID)
+
 ## License
 
 This project is open source and available under the MIT License.
