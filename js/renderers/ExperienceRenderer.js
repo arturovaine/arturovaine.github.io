@@ -28,6 +28,9 @@ export const ExperienceRenderer = {
 
   renderItem(experience, isLast) {
     const marginClass = isLast ? '' : 'mb-10';
+    const logoHtml = experience.logo ? `
+      <img src="${experience.logo}" alt="${experience.title}" class="w-10 h-10 rounded-full object-cover border border-white/10 flex-shrink-0">
+    ` : '';
 
     return `
       <li class="ml-6 ${marginClass}">
@@ -37,7 +40,10 @@ export const ExperienceRenderer = {
             <div class="text-sm text-neutral-400">${experience.period}</div>
             <div class="text-sm text-neutral-300">${experience.location}</div>
           </div>
-          <h3 class="mt-1 text-lg font-semibold tracking-tight">${experience.title}</h3>
+          <div class="flex items-center gap-3 mt-2">
+            ${logoHtml}
+            <h3 class="text-lg font-semibold tracking-tight">${experience.title}</h3>
+          </div>
           <p class="mt-2 text-sm text-neutral-400">${experience.description}</p>
         </div>
       </li>
