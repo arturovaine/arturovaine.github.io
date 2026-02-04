@@ -3,11 +3,11 @@
     "id": "meros",
     "period": "Apr 2025 to Present",
     "location": "Remote",
-    "title": "Full-Stack Developer to Meros do Brasil Institute",
+    "title": "Full Stack Developer / AI Engineer at Instituto Meros do Brasil",
     "description": [
-      "Ad hoc consulting for digital solutions subsidized by PETROBRAS S.A.",
-      "Development of back-office platform to manage tasks and reporting of 60+ team members",
-      "Deployment of pipelines and RAG system to consolidate reports"
+      "Development of a back-office platform (MERN) w/ MCP to manage tasks and reporting of 60+ team members",
+      "Deployment of ETL pipelines and RAG system to consolidate reports and enable querying of Knowledge Base",
+      "Management of Google Admin Workspace console to support all sort of team members needs"
     ],
     "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
     "current": true
@@ -16,10 +16,11 @@
     "id": "nilg-ai",
     "period": "May 2025 to Nov 2025",
     "location": "Remote",
-    "title": "Software Developer to NILG.AI",
+    "title": "Software Developer / AI Engineer at NILG.AI",
     "description": [
-      "Designing and developing ETL pipelines to process and transform data for AI-driven solutions",
-      "Collaborating with data scientists and business teams to define needs and data quality"
+      "Built MCP and audiovisual pipelines using Python, Zapier, webhooks, and FFmpeg to process TV episodes",
+      "Achieved relevant time savings by automating docs processing with ETLs, and vision-language models",
+      "Developed RAG agents and chatbots (front-end React) for multiple industries, including tourism and healthcare"
     ],
     "logo": "./src/assets/icons/nilg_ai_logo.jpeg"
   },
@@ -27,11 +28,11 @@
     "id": "litboat",
     "period": "Jun 2025 to Oct 2025",
     "location": "Remote",
-    "title": "Data Engineer to LitBoat | Stealth Startup",
+    "title": "Data Engineer at LitBoat / Stealth Startup",
     "description": [
       "Deployment of Medallion Architecture in BigQuery and APIs (SQLAlchemy, FastAPI) for data ingestion",
-      "Integration of data pipelines and Analytics with GCP (Buckets, Postgres, BigQuery), Retool and Metabase",
-      "Building dataviz to provide strategic KPIs for thousands of restaurant clients"
+      "Integration of data pipelines and Analytics, GCP (Buckets, Postgres, BigQuery), Retool and Metabase",
+      "Building dataviz on Metabase to provide strategic KPIs for thousands of clients (restaurants)"
     ],
     "logo": "./src/assets/icons/stealth_startup_51_logo.jpeg"
   },
@@ -39,11 +40,11 @@
     "id": "rise-layers",
     "period": "Sep 2024 to Feb 2025",
     "location": "On-site",
-    "title": "Full-Stack Developer to Rise Layers | 88 Delivery",
+    "title": "Full Stack Developer / Data Analytics at Rise Layers / 88 Delivery",
     "description": [
-      "Developer at Delivery branch (early stage startup) - Restaurant Delivery Platform (300+ restaurants)",
-      "Designed digital menu from scratch (React, Typescript, Nodejs)",
-      "Developed full-stack applications, deployed ETL workflows for CRM synchronization"
+      "Built digital menu from scratch (React), to open new revenue channel for more than 300 customers (restaurants)",
+      "Developed integration and applications: portfolio management, broadcast messages, etc. (NoSQL, Firebase)",
+      "Deployed ETLs for: CRM sync, portfolio enrichment, data analysis - RFM matrix, ABC curve, etc. (Python)"
     ],
     "logo": "./src/assets/icons/riselayers_logo.jpeg"
   },
@@ -51,11 +52,13 @@
     "id": "supercampo",
     "period": "Mar 2023 to Sep 2024",
     "location": "On-site",
-    "title": "Full-Stack Developer to Supercampo S/A",
+    "title": "Full Stack Developer / Data Analytics at Supercampo S/A",
     "description": [
-      "Integrated multiple ERP systems and VTEX e-commerce APIs for large agricultural cooperatives in Brazil",
-      "Developed a Management Information System (MIS) MERN Application",
-      "Deployed ETLs for database migrations (200+ tables)"
+      "Delivered data through ETL / BI of R$ 160MM+ annual GMV and other KPIs (MySQL, PowerBI, Streamlit)",
+      "Supported technology innovation project (Tecnoparque), reducing company's service tax (ISS) from 5% to 2%",
+      "Developed MERN stack for Product Information Manager (PIM) of portfolio enrichment w/ GenAI (180k+ SKUs)",
+      "Deployment of workflows for integration of 180k+ SKUs, 80k+ customers, and other multiple data",
+      "Gathered requirements and integrated ERP systems (12 businesses) and VTEX ecommerce APIs"
     ],
     "logo": "./src/assets/icons/supercampo_sa_logo.jpeg"
   },
@@ -63,23 +66,24 @@
     "id": "brg",
     "period": "Oct 2022 to Mar 2023",
     "location": "Remote",
-    "title": "Back-End Developer to BRG Brasil Geradores",
+    "title": "Back-end Developer at BRG Brasil Geradores",
     "description": [
-      "Delivered new features to the REST API of a monitoring system",
-      "Refactored legacy code (Express.js API for a MySQL database) following clean code principles",
-      "Documented the project using OpenAPI notation and Swagger"
+      "Delivered key features to enhance APIs / back-end of National Power Plant Monitoring System",
+      "Refactored and modernized legacy Express.js codebase by transitioning to a multi-layer architecture REST API",
+      "Documented APIs using OpenAPI notation, Swagger and markdown docs"
     ],
     "logo": "./src/assets/icons/brggeradores_logo.jpeg"
   },
   {
     "id": "simepar",
-    "period": "Jun 2019 to Dec 2021",
-    "location": "Hybrid",
-    "title": "Software Developer to SIMEPAR",
+    "period": "Jul 2019 to Dec 2021",
+    "location": "On-site",
+    "title": "Software Developer at SIMEPAR",
     "description": [
-      "Contributed to the Dam Monitoring Project",
-      "Developed a front-end technical form with ~350 inputs using HTML, JavaScript, and CSS",
-      "Delivered a data analysis pipeline to check inconsistencies and generate ~900 reports using Python (Pandas)"
+      "Dam Monitoring Project - overall output delivered opportunity of collecting 7-digit fees",
+      "Developed data collection solution of technical form with ~350 inputs (HTML, Vanilla JavaScript, CSS; SQLite)",
+      "Delivered data analysis process to check inconsistencies and generate ~900 reports (Python-Pandas)",
+      "Designed PowerBI decision tool for monitoring KPIs: team's productivity, deliverables and scheduling"
     ],
     "logo": "./src/assets/icons/simeparpr_logo.jpeg",
     "last": true
