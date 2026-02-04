@@ -49,10 +49,7 @@ const componentInitializers = {
     VolunteeringRenderer.init();
     TetoCarousel.init();
   },
-  'bootstrapping': () => {
-    BootstrappingRenderer.init();
-    ModelViewer.init();
-  },
+  'bootstrapping': () => BootstrappingRenderer.init(),
   'artworks': () => ArtworkRenderer.init()
 };
 

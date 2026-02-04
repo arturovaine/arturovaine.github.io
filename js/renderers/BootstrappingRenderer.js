@@ -22,6 +22,7 @@ export const BootstrappingRenderer = {
       const data = await response.json();
       this.render(container, data);
       if (window.lucide) lucide.createIcons();
+      if (window.ModelViewer) window.ModelViewer.init();
     } catch (error) {
       console.error('Failed to load bootstrapping:', error);
     }
