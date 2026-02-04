@@ -29,22 +29,24 @@ export const ExperienceRenderer = {
   renderItem(experience, isLast) {
     const marginClass = isLast ? '' : 'mb-10';
     const logoHtml = experience.logo ? `
-      <img src="${experience.logo}" alt="${experience.title}" class="w-10 h-10 rounded-full object-cover border border-white/10 flex-shrink-0">
-    ` : '';
+      <img src="${experience.logo}" alt="${experience.title}" class="w-12 h-12 rounded-full object-cover border border-white/10 flex-shrink-0">
+    ` : '<div class="w-12 h-12 flex-shrink-0"></div>';
 
     return `
       <li class="ml-6 ${marginClass}">
         <span class="absolute -left-[7px] mt-1.5 h-3.5 w-3.5 rounded-full bg-white"></span>
         <div class="border border-white/10 bg-neutral-900/60 p-4" style="border-radius: 15px;">
-          <div class="flex items-center justify-between">
-            <div class="text-sm text-neutral-400">${experience.period}</div>
-            <div class="text-sm text-neutral-300">${experience.location}</div>
-          </div>
-          <div class="flex items-center gap-3 mt-2">
+          <div class="flex gap-4">
             ${logoHtml}
-            <h3 class="text-lg font-semibold tracking-tight">${experience.title}</h3>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center justify-between flex-wrap gap-2">
+                <h3 class="text-lg font-semibold tracking-tight">${experience.title}</h3>
+                <div class="text-sm text-neutral-300">${experience.location}</div>
+              </div>
+              <div class="text-sm text-neutral-400 mt-1">${experience.period}</div>
+              <p class="mt-2 text-sm text-neutral-400">${experience.description}</p>
+            </div>
           </div>
-          <p class="mt-2 text-sm text-neutral-400">${experience.description}</p>
         </div>
       </li>
     `;
