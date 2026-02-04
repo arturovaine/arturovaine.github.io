@@ -32,7 +32,6 @@ window.requestIdleCallback = window.requestIdleCallback || function (cb) {
 window.ModelViewer = ModelViewer;
 window.ProjectModal = ProjectModal;
 
-// Map component names to their initializers
 const componentInitializers = {
   'work': () => {
     ProjectRenderer.init();
@@ -67,10 +66,8 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   await new Promise(resolve => setTimeout(resolve, 0));
 
-  // HeroCardRenderer loads immediately (above the fold)
   await HeroCardRenderer.init();
 
-  // ImageSlider is in hero section (above the fold)
   requestIdleCallback(() => {
     ImageSlider.init();
   }, { timeout: 1000 });
@@ -86,13 +83,11 @@ document.addEventListener('DOMContentLoaded', async function () {
   }, { timeout: 1000 });
 });
 
-// Listen for lazy-loaded components and initialize their features
 window.addEventListener('componentLoaded', (event) => {
   const componentName = event.detail.name;
   const initializer = componentInitializers[componentName];
 
   if (initializer) {
-    // Small delay to ensure DOM is ready
     requestAnimationFrame(() => {
       initializer();
     });
