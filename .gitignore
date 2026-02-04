@@ -79,4 +79,18 @@ src/assets/videos/
 *.mov
 *.avi
 
+# Large files (>10MB)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# Large GIFs (use video or optimized alternatives)
+# src/assets/thumbs/*.gif
+
 .vercel
