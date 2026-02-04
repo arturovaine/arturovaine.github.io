@@ -287,23 +287,48 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 
 ## Roadmap
 
-### Performance
-- [ ] Image optimization - Convert remaining PNGs/JPGs to WebP
-- [ ] Preconnect hints - Add preconnect for external resources (Google Fonts, CDNs)
-- [ ] Critical CSS inline - Inline above-the-fold CSS to reduce render blocking
+### Completed
 
-### Code Quality
-- [ ] Componentize `award-highlights.html` (105 lines) - Make data-driven
-- [ ] Componentize `hero.html` (72 lines) - Extract hero data to JSON
+#### Performance (McMaster-Carr inspired optimizations)
+- [x] Lazy loading for images and components via IntersectionObserver
+- [x] ImageSlider optimized to preload only 5 images ahead (reduced from 237 requests / 8.8 MB)
+- [x] WebP image format for optimized assets
+- [x] Component-based lazy loading with 300px rootMargin
+- [x] Skeleton placeholders for loading states
+- [x] CLS optimization with fixed aspect ratios and min-heights
 
-### Features
-- [x] SEO meta tags - Add Open Graph for social sharing
-- [ ] Twitter cards - Add Twitter meta tags
-- [ ] Accessibility audit - Check ARIA labels, keyboard navigation
-- [ ] 404 page - Custom error page for GitHub Pages
+#### Architecture
+- [x] Data-driven rendering with JSON + JavaScript renderers (8 renderers)
+- [x] Modular CSS split into 5 files (base, buttons, cards, modal, light-theme)
+- [x] Component-based HTML architecture (17 components)
+- [x] Dark/Light theme with localStorage persistence
 
-### Analytics
-- [ ] Performance monitoring - Add Web Vitals tracking (LCP, CLS, FID)
+#### Features
+- [x] SEO meta tags - Open Graph for social sharing
+- [x] Cookie consent banner with GA4 integration
+- [x] Cloudflare Web Analytics + Google Analytics 4
+- [x] 3D Model Viewer (Three.js)
+- [x] Video carousel for award highlights
+- [x] Project modal with keyboard support
+
+### Pending
+
+#### Performance
+- [ ] Convert remaining PNGs/JPGs to WebP
+- [ ] Preconnect hints for external resources
+- [ ] Critical CSS inline for above-the-fold content
+
+#### Code Quality
+- [ ] Componentize `award-highlights.html` (105 lines)
+- [ ] Componentize `hero.html` (72 lines)
+
+#### Features
+- [ ] Twitter cards meta tags
+- [ ] Accessibility audit (ARIA labels, keyboard navigation)
+- [ ] Custom 404 page
+
+#### Analytics
+- [ ] Web Vitals tracking (LCP, CLS, FID)
 
 ## License
 
