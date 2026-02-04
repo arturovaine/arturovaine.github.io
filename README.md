@@ -40,10 +40,14 @@ mainComponents: ['hero', 'hero-cards', 'work', 'experience', 'awards', 'award-hi
 footerComponents: ['footer']
 
 // Data-driven renderers
-ProjectRenderer   -> data/projects.json
-AwardRenderer     -> data/awards.json
-ExperienceRenderer -> data/experience.json
-HeroCardRenderer  -> data/hero-cards.json
+ProjectRenderer       -> data/projects.json
+AwardRenderer         -> data/awards.json
+ExperienceRenderer    -> data/experience.json
+HeroCardRenderer      -> data/hero-cards.json
+PostRenderer          -> data/posts.json
+ArtworkRenderer       -> data/artworks.json
+VolunteeringRenderer  -> data/volunteering.json
+BootstrappingRenderer -> data/bootstrapping.json
 ```
 
 ## Project Structure
@@ -65,7 +69,11 @@ arturovaine.github.io/
 │   ├── projects.json
 │   ├── awards.json
 │   ├── experience.json
-│   └── hero-cards.json
+│   ├── hero-cards.json
+│   ├── posts.json
+│   ├── artworks.json
+│   ├── volunteering.json
+│   └── bootstrapping.json
 ├── js/                      # JavaScript modules
 │   ├── componentLoader.js
 │   ├── main.js
@@ -80,7 +88,11 @@ arturovaine.github.io/
 │       ├── ProjectRenderer.js
 │       ├── AwardRenderer.js
 │       ├── ExperienceRenderer.js
-│       └── HeroCardRenderer.js
+│       ├── HeroCardRenderer.js
+│       ├── PostRenderer.js
+│       ├── ArtworkRenderer.js
+│       ├── VolunteeringRenderer.js
+│       └── BootstrappingRenderer.js
 ├── src/
 │   ├── assets/
 │   │   ├── images/
@@ -88,8 +100,13 @@ arturovaine.github.io/
 │   │   └── 3d/
 │   └── data/
 │       └── pixelart-frames.json
-├── css/
-│   └── theme.css            # Button, card, modal component systems
+├── css/                     # Modular CSS files
+│   ├── theme.css            # Main entry (imports all)
+│   ├── base.css             # Variables, layout, responsive
+│   ├── buttons.css          # Button components
+│   ├── cards.css            # Card components
+│   ├── modal.css            # Modal & cookie banner
+│   └── light-theme.css      # Light theme overrides
 ├── index.html
 └── README.md
 ```
@@ -148,13 +165,92 @@ git checkout main
 git checkout archive/v5
 ```
 
+## Architecture Diagram
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              index.html                                     │
+│                                  │                                          │
+│                           ┌──────┴──────┐                                   │
+│                           │   main.js   │                                   │
+│                           └──────┬──────┘                                   │
+│                                  │                                          │
+│              ┌───────────────────┼───────────────────┐                      │
+│              │                   │                   │                      │
+│              ▼                   ▼                   ▼                      │
+│    ┌─────────────────┐  ┌───────────────┐  ┌─────────────────┐              │
+│    │ ComponentLoader │  │ ThemeManager  │  │    Renderers    │              │
+│    └────────┬────────┘  └───────────────┘  └────────┬────────┘              │
+│             │                                       │                       │
+│             ▼                                       ▼                       │
+│    ┌─────────────────┐                    ┌─────────────────┐               │
+│    │   components/   │                    │      data/      │               │
+│    │    *.html       │                    │     *.json      │               │
+│    └─────────────────┘                    └─────────────────┘               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           Data Flow (Renderers)                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ┌──────────────┐      fetch()      ┌──────────────┐      innerHTML        │
+│   │  *Renderer   │ ───────────────►  │  data/*.json │ ───────────────►  DOM │
+│   └──────────────┘                   └──────────────┘                       │
+│                                                                             │
+│   Renderers:                         JSON Data:                             │
+│   ├── ProjectRenderer.js      ◄────► projects.json                          │
+│   ├── AwardRenderer.js        ◄────► awards.json                            │
+│   ├── ExperienceRenderer.js   ◄────► experience.json                        │
+│   ├── HeroCardRenderer.js     ◄────► hero-cards.json                        │
+│   ├── PostRenderer.js         ◄────► posts.json                             │
+│   ├── ArtworkRenderer.js      ◄────► artworks.json                          │
+│   ├── VolunteeringRenderer.js ◄────► volunteering.json                      │
+│   └── BootstrappingRenderer.js◄────► bootstrapping.json                     │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                         Component Loading Strategy                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   1. Header (immediate)     2. Critical (immediate)    3. Lazy (on scroll)  │
+│   ┌─────────────────┐       ┌─────────────────┐        ┌─────────────────┐  │
+│   │ backdrop        │       │ hero            │        │ work            │  │
+│   │ header          │       │ hero-cards      │        │ experience      │  │
+│   └─────────────────┘       └─────────────────┘        │ awards          │  │
+│                                                        │ award-highlights│  │
+│   4. Footer (after main)                               │ posts           │  │
+│   ┌─────────────────┐                                  │ volunteering    │  │
+│   │ footer          │                                  │ bootstrapping   │  │
+│   │ cookie-banner   │                                  │ artworks        │  │
+│   └─────────────────┘                                  └─────────────────┘  │
+│                                                                             │
+│   IntersectionObserver (rootMargin: 300px) triggers lazy component loading  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              CSS Architecture                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   theme.css (entry point)                                                   │
+│       │                                                                     │
+│       ├── @import base.css        → Variables, layout, responsive           │
+│       ├── @import buttons.css     → .btn-*, .tag, .badge-status             │
+│       ├── @import cards.css       → .card, .card-image, .card-overlay       │
+│       ├── @import modal.css       → .modal, .cookie-banner-*                │
+│       └── @import light-theme.css → body.light-theme overrides              │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
 ## Key Components
 
 ### Component Loader
-Dynamically loads HTML components in three groups (header, main, footer) and initializes Lucide icons.
+Dynamically loads HTML components with lazy loading via IntersectionObserver. Components are grouped by priority: header (immediate), critical (immediate), lazy (on scroll), footer (after main).
 
 ### Data Renderers
-JavaScript modules that fetch JSON data and render HTML dynamically using `.map()` for projects, awards, experience, and hero cards.
+JavaScript modules that fetch JSON data and render HTML dynamically using `.map()`. Each renderer uses IntersectionObserver with 200px rootMargin for lazy initialization.
 
 ### Project Modal
 Displays detailed project information including features, tech stack, and status badges with keyboard support.
