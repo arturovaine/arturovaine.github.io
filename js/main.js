@@ -16,6 +16,7 @@ import { AwardRenderer } from './renderers/AwardRenderer.js';
 import { ExperienceRenderer } from './renderers/ExperienceRenderer.js';
 import { PostRenderer } from './renderers/PostRenderer.js';
 import { ArtworkRenderer } from './renderers/ArtworkRenderer.js';
+import { CookieConsent } from './components/CookieConsent.js';
 
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
   const start = Date.now();
@@ -81,6 +82,8 @@ document.addEventListener('DOMContentLoaded', async function () {
   requestIdleCallback(() => {
     LazyLoader.init();
   }, { timeout: 1000 });
+
+  CookieConsent.init();
 });
 
 window.addEventListener('componentLoaded', (event) => {

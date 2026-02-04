@@ -68,6 +68,17 @@
     <!-- Non-critical theme styles - Loaded async -->
     <link rel="preload" href="css/theme.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="css/theme.css"></noscript>
+
+    <!-- Google Analytics 4 (loads only after cookie consent) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      if (localStorage.getItem('cookieConsent') === 'accepted') {
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+      }
+    </script>
   </head>
   <body class="bg-neutral-950 text-neutral-200 antialiased selection:bg-neutral-800 selection:text-neutral-100" style="font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; scroll-behavior: smooth;">
     <!-- Header Container (backdrop + header) -->
@@ -93,5 +104,7 @@
     <!-- Main Application Script -->
     <script type="module" src="js/main.js"></script>
 
+    <!-- Cloudflare Web Analytics (privacy-focused, no cookies) -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_CLOUDFLARE_TOKEN"}'></script>
   </body>
 </html>

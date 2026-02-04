@@ -11,7 +11,7 @@ export const ComponentLoader = {
     'bootstrapping',
     'artworks'
   ],
-  footerComponents: ['footer'],
+  footerComponents: ['footer', 'cookie-banner'],
   loadedComponents: new Set(),
 
   async loadComponent(name) {
