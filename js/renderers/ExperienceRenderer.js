@@ -26,6 +26,22 @@ export const ExperienceRenderer = {
     }
   },
 
+  renderDescription(description) {
+    if (Array.isArray(description)) {
+      return `
+        <ul class="mt-2 space-y-1">
+          ${description.map(item => `
+            <li class="flex items-start gap-2 text-sm text-neutral-400">
+              <span class="text-neutral-500 mt-1">•</span>
+              <span>${item}</span>
+            </li>
+          `).join('')}
+        </ul>
+      `;
+    }
+    return `<p class="mt-2 text-sm text-neutral-400">${description}</p>`;
+  },
+
   renderItem(experience, isLast) {
     const marginClass = isLast ? '' : 'mb-10';
     const logoHtml = experience.logo ? `
@@ -44,7 +60,7 @@ export const ExperienceRenderer = {
                 <div class="text-sm text-neutral-300">${experience.location}</div>
               </div>
               <div class="text-sm text-neutral-400 mt-1">${experience.period}</div>
-              <p class="mt-2 text-sm text-neutral-400">${experience.description}</p>
+              ${this.renderDescription(experience.description)}
             </div>
           </div>
         </div>
