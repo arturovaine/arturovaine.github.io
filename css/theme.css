@@ -752,3 +752,51 @@ body.light-theme .modal-close {
     min-height: 500px;
   }
 }
+
+.cookie-banner-inner {
+  background-color: rgba(23, 23, 23, 0.95);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #d4d4d4;
+}
+
+.cookie-accept-btn {
+  background-color: #ffffff;
+  color: #171717;
+}
+
+.cookie-accept-btn:hover {
+  background-color: #e5e5e5;
+}
+
+.cookie-reject-btn {
+  color: #a3a3a3;
+}
+
+.cookie-reject-btn:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.light-theme .cookie-banner-inner {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #525252;
+}
+
+body.light-theme .cookie-accept-btn {
+  background-color: #171717;
+  color: #ffffff;
+}
+
+body.light-theme .cookie-accept-btn:hover {
+  background-color: #262626;
+}
+
+body.light-theme .cookie-reject-btn {
+  color: #737373;
+}
+
+body.light-theme .cookie-reject-btn:hover {
+  color: #171717;
+  background-color: rgba(0, 0, 0, 0.05);
+}
