@@ -1,0 +1,97 @@
+:root {
+  --transition-duration: 0.2s;
+}
+
+body {
+  min-height: 100vh;
+}
+
+body,
+header,
+.backdrop-radial,
+button,
+a,
+section {
+  transition: background-color var(--transition-duration) ease,
+              border-color var(--transition-duration) ease,
+              color var(--transition-duration) ease !important;
+}
+
+body.preload * {
+  transition: none !important;
+}
+
+#cv-btn {
+  color: #ffffff;
+}
+
+#cv-btn:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+
+#image-slider-container {
+  min-height: 400px;
+}
+
+#model-viewer-container {
+  min-height: 600px;
+}
+
+#main-content {
+  min-height: 100vh;
+}
+
+section {
+  min-height: 200px;
+}
+
+img {
+  content-visibility: auto;
+}
+
+.aspect-\[4\/3\] {
+  aspect-ratio: 4 / 3;
+}
+
+.aspect-\[3\/4\] {
+  aspect-ratio: 3 / 4;
+}
+
+.aspect-\[16\/9\] {
+  aspect-ratio: 16 / 9;
+}
+
+img[loading="lazy"] {
+  min-height: 100px;
+}
+
+.component-loading {
+  min-height: 400px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@media (max-width: 600px) {
+  #image-slider-container {
+    min-height: 250px;
+  }
+  #model-viewer-container {
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  #image-slider-container {
+    min-height: 320px;
+  }
+  #model-viewer-container {
+    min-height: 500px;
+  }
+}
