@@ -1,5 +1,29 @@
 [
   {
+    "id": "accef-platform",
+    "title": "ACCEF Platform",
+    "description": "Intranet/backoffice platform for a social assistance organization",
+    "image": "./src/assets/thumbs/accef-platform.png",
+    "alt": "ACCEF Platform backoffice system",
+    "url": "https://instituicaoaccef.com.br/sobre-nos/",
+    "category": "engineering",
+    "tags": ["Intranet", "Backoffice", "Full-Stack"],
+    "modal": {
+      "subtitle": "Social Organization Backoffice System",
+      "fullDescription": "An intranet/backoffice platform built for ACCEF (Associação Centro de Convivência Espaço da Família), a social assistance organization. The system handles volunteer management, donor tracking, beneficiary registration, asset inventory, program coordination, financial management, and reporting dashboards.",
+      "features": [
+        "Beneficiary registration and management with demographic tracking",
+        "Volunteer and staff coordination modules",
+        "Asset inventory and loan management",
+        "Program and workshop scheduling",
+        "Financial tracking with donation management",
+        "Analytics dashboards and reporting"
+      ],
+      "techStack": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      "status": "In Development"
+    }
+  },
+  {
     "id": "n8n-nodes-sklearn",
     "title": "n8n-nodes-sklearn",
     "description": "Custom n8n nodes for integrating scikit-learn ML algorithms into workflows",
