@@ -22,9 +22,23 @@ export const VolunteeringRenderer = {
       const data = await response.json();
       this.render(container, data);
       if (window.lucide) lucide.createIcons();
+      this.setupHoverSwap();
     } catch (error) {
       console.error('Failed to load volunteering:', error);
     }
+  },
+
+  setupHoverSwap() {
+    const containers = document.querySelectorAll('.hover-swap-container');
+    console.log('Found hover-swap-container elements:', containers.length);
+    containers.forEach((container, i) => {
+      container.addEventListener('mouseenter', () => {
+        console.log('Mouse enter on container', i);
+      });
+      container.addEventListener('mouseleave', () => {
+        console.log('Mouse leave on container', i);
+      });
+    });
   },
 
   renderExperiences(experiences, color) {
