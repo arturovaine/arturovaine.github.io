@@ -19,7 +19,7 @@
         "Financial tracking with donation management",
         "Analytics dashboards and reporting"
       ],
-      "techStack": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      "techStack": ["React", "TypeScript", "Node.js", "Firebase", "Firestore"],
       "status": "In Development"
     }
   },
