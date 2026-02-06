@@ -77,5 +77,26 @@
         "captionIcon": "users"
       }
     ]
+  },
+  {
+    "id": "accef",
+    "title": "Software Developer to ACCEF",
+    "period": "Oct 2024 - Present",
+    "url": "https://instituicaoaccef.com.br/sobre-nos/",
+    "icon": "./src/assets/icons/freehelper-icon.png",
+    "color": "blue",
+    "description": "Voluntary project aided by Freehelper, a platform that connects NGOs and volunteers. Building an intranet/backoffice platform for ACCEF (Associação Centro de Convivência Espaço da Família), a social assistance organization that supports vulnerable families and communities.",
+    "experiences": [
+      "Developing a comprehensive management platform for beneficiary registration and tracking",
+      "Building modules for volunteer coordination, asset inventory, and program scheduling",
+      "Implementing financial tracking and donation management features",
+      "Creating analytics dashboards and reporting tools"
+    ],
+    "stats": {
+      "icon": "heart",
+      "text": "Freehelper connects volunteers with 500+ NGOs across Brazil",
+      "note": "Data from 2025"
+    },
+    "media": []
   }
 ]
