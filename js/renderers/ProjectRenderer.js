@@ -23,6 +23,7 @@ export const ProjectRenderer = {
       this.projects = await response.json();
       this.render(container, this.projects);
       this.setupClickHandlers();
+      window.dispatchEvent(new CustomEvent('projectsRendered'));
     } catch (error) {
       console.error('Failed to load projects:', error);
     }

@@ -3,6 +3,10 @@ export const ProjectFilter = {
     this.chips = Array.from(document.querySelectorAll('.btn-chip[data-filter]'));
     this.cards = Array.from(document.querySelectorAll('.project'));
     this.setupFilters();
+
+    window.addEventListener('projectsRendered', () => {
+      this.cards = Array.from(document.querySelectorAll('.project'));
+    });
   },
 
   setupFilters() {
