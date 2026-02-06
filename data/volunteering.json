@@ -83,7 +83,8 @@
     "title": "Software Developer to ACCEF",
     "period": "Oct 2024 - Present",
     "url": "https://instituicaoaccef.com.br/sobre-nos/",
-    "icon": "./src/assets/icons/freehelper-icon.png",
+    "icon": "./src/assets/icons/freehelper-icon.jpeg",
+    "iconBgColor": "rgb(128, 223, 254)",
     "color": "blue",
     "description": "Voluntary project aided by Freehelper, a platform that connects NGOs and volunteers. Building an intranet/backoffice platform for ACCEF (Associação Centro de Convivência Espaço da Família), a social assistance organization that supports vulnerable families and communities.",
     "experiences": [

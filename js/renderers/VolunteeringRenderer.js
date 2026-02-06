@@ -81,7 +81,7 @@ export const VolunteeringRenderer = {
           <div class="border border-white/10 bg-neutral-900/60 p-6" style="border-radius: 15px;">
             <div class="flex items-center justify-between mb-4">
               <div class="flex items-center gap-4">
-                <a href="${item.url}" target="_blank" rel="noopener" class="p-3 rounded-xl bg-${item.color}-500/10 border border-${item.color}-500/20 flex items-center justify-center hover:bg-${item.color}-500/15 transition-colors" aria-label="Visit ${item.title} website">
+                <a href="${item.url}" target="_blank" rel="noopener" class="p-3 rounded-xl ${item.iconBgColor ? '' : `bg-${item.color}-500/10`} border border-${item.color}-500/20 flex items-center justify-center hover:bg-${item.color}-500/15 transition-colors" ${item.iconBgColor ? `style="background-color: ${item.iconBgColor};"` : ''} aria-label="Visit ${item.title} website">
                   <img loading="lazy" src="${item.icon}" alt="${item.title} icon" class="w-10 h-10 object-contain">
                 </a>
                 <div>
