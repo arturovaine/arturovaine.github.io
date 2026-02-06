@@ -51,10 +51,19 @@ export const VolunteeringRenderer = {
       </a>
     ` : '';
 
+    const imageHtml = media.hoverImage ? `
+      <div class="relative group/img">
+        <img loading="lazy" src="${media.image}" alt="${media.alt}" class="h-full w-full object-cover transition-opacity duration-300 group-hover/img:opacity-0">
+        <img loading="lazy" src="${media.hoverImage}" alt="${media.alt}" class="absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-300 group-hover/img:opacity-100">
+      </div>
+    ` : `
+      <img loading="lazy" src="${media.image}" alt="${media.alt}" class="${media.type === 'map' ? 'w-full h-full object-contain' : 'h-full w-full object-cover'}">
+    `;
+
     return `
       <div class="border border-white/10 bg-neutral-900/60 overflow-hidden" style="border-radius: 15px;">
         <div class="${media.type === 'map' ? 'h-56' : 'aspect-[4/3]'} ${media.type === 'map' ? 'flex items-center justify-center' : 'bg-neutral-950'}" style="${bgStyle}">
-          <img loading="lazy" src="${media.image}" alt="${media.alt}" class="${media.type === 'map' ? 'w-full h-full object-contain' : 'h-full w-full object-cover'}">
+          ${imageHtml}
         </div>
         <div class="p-4">
           <div class="${media.link ? 'flex items-center justify-between' : 'flex flex-col gap-2'}">
