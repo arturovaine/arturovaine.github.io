@@ -102,7 +102,6 @@
       {
         "type": "image",
         "image": "./src/assets/images/accef-platform-1.png",
-        "hoverImage": "./src/assets/images/accef-platform-2.png",
         "alt": "ACCEF Platform backoffice interface",
         "caption": "Building management tools for ACCEF",
         "captionIcon": "code"
