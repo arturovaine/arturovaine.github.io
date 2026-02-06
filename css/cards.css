@@ -70,3 +70,11 @@
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 0.375rem;
 }
+
+/* Hover swap images */
+.hover-swap-container:hover .hover-swap-img {
+  opacity: 0;
+}
+.hover-swap-container:hover .hover-swap-img-alt {
+  opacity: 1;
+}
