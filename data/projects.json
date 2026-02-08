@@ -10,7 +10,7 @@
     "tags": ["Telegram", "AI", "Fintech"],
     "modal": {
       "subtitle": "Natural Language Financial Assistant",
-      "fullDescription": "A Telegram bot that connects to the Organizze personal finance application, leveraging Google Gemini AI to provide natural language financial insights and visualizations. Users can ask about finances in conversational Portuguese and receive contextual responses with charts and dashboards.",
+      "fullDescription": "A Telegram bot that integrates with Organizze (organizze.com.br), a popular Brazilian personal finance app with 87k+ reviews. Using Google Gemini AI, it provides natural language financial insights and visualizations. Users can query their finances in conversational Portuguese and receive contextual responses with charts and dashboards. Organizze handles expense tracking, bank account management, and Open Finance integrations with major Brazilian banks.",
       "features": [
         "Natural language interface for financial queries in Portuguese",
         "AI-powered analysis using Google Gemini for contextual responses",
