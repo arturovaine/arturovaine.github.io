@@ -179,17 +179,23 @@
   {
     "id": "dam-monitoring",
     "title": "Water Dam Monitoring",
-    "description": "Collecting Data for Water Dams Monitoring System",
+    "description": "Data collection system for 3,000+ dams safety monitoring in Paraná, Brazil",
     "image": "./src/assets/thumbs/simepar.webp",
     "alt": "Dam monitoring system",
-    "url": "https://www.aen.pr.gov.br/Noticia/Simepar-avaliara-situacao-de-461-barragens-existentes-no-Parana",
+    "url": "https://www.parana.pr.gov.br/aen/Noticia/Mais-seguranca-para-populacao-Estado-vai-fechar-2025-com-3-mil-barragens-vistoriadas",
     "category": "engineering",
-    "tags": ["IoT", "Monitoring", "Data"],
+    "tags": ["IoT", "Monitoring", "GIS"],
     "modal": {
       "subtitle": "Critical Infrastructure Monitoring",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "Data collection and monitoring system developed for SIMEPAR (Sistema de Tecnologia e Monitoramento Ambiental do Paraná) as part of the state's dam safety program. The system supports the inspection and classification of over 3,000 dams across Paraná, Brazil, using remote sensing, satellite imagery, and field data collection to assess structural conditions and safety risks.",
+      "features": [
+        "Remote sensing and satellite imagery analysis for dam identification",
+        "Field inspection data collection and synchronization",
+        "Risk classification system (CRI) and damage potential assessment (DPA)",
+        "Integration with state environmental monitoring infrastructure",
+        "Support for dams with water surfaces exceeding 10,000 m²"
+      ],
+      "techStack": ["Python", "GIS", "Remote Sensing", "PostgreSQL", "Data Collection"],
       "status": "Production"
     }
   },
