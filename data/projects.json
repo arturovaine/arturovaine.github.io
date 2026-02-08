@@ -184,7 +184,7 @@
     "alt": "Dam monitoring system",
     "url": "https://www.parana.pr.gov.br/aen/Noticia/Mais-seguranca-para-populacao-Estado-vai-fechar-2025-com-3-mil-barragens-vistoriadas",
     "category": "engineering",
-    "tags": ["IoT", "Monitoring", "GIS"],
+    "tags": ["Engineering", "Monitoring", "GIS"],
     "modal": {
       "subtitle": "Critical Infrastructure Monitoring",
       "fullDescription": "Data collection and monitoring system developed for SIMEPAR (Sistema de Tecnologia e Monitoramento Ambiental do Paraná) as part of the state's dam safety program. The system supports the inspection and classification of over 3,000 dams across Paraná, Brazil, using remote sensing, satellite imagery, and field data collection to assess structural conditions and safety risks.",
