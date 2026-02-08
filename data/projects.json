@@ -1,5 +1,28 @@
 [
   {
+    "id": "telegram-bot-organizze",
+    "title": "Organizze Telegram Bot",
+    "description": "AI-powered Telegram bot for personal finance insights using Gemini",
+    "image": "./src/assets/thumbs/telegram-bot-organizze.png",
+    "alt": "Organizze Telegram Bot with AI financial insights",
+    "url": "https://github.com/arturovaine/telegram-bot-organizze",
+    "category": "engineering open-source",
+    "tags": ["Telegram", "AI", "Fintech"],
+    "modal": {
+      "subtitle": "Natural Language Financial Assistant",
+      "fullDescription": "A Telegram bot that connects to the Organizze personal finance application, leveraging Google Gemini AI to provide natural language financial insights and visualizations. Users can ask about finances in conversational Portuguese and receive contextual responses with charts and dashboards.",
+      "features": [
+        "Natural language interface for financial queries in Portuguese",
+        "AI-powered analysis using Google Gemini for contextual responses",
+        "Visual dashboards with pie charts, bar charts, and summaries",
+        "Pre-built commands for common queries like balance and expenses",
+        "Whitelist-based access control via Telegram Chat IDs"
+      ],
+      "techStack": ["Python", "Google Gemini AI", "python-telegram-bot", "Matplotlib", "Docker"],
+      "status": "Open Source"
+    }
+  },
+  {
     "id": "accef-platform",
     "title": "ACCEF Platform",
     "description": "Intranet/backoffice platform for a social assistance organization",
