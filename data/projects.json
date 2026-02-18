@@ -1,5 +1,29 @@
 [
   {
+    "id": "urban-vulnerability",
+    "title": "Urban Vulnerability Detection",
+    "description": "Vector search application for identifying urban vulnerable areas using government data and satellite imagery",
+    "image": "./src/assets/thumbs/urban-vulnerability.png",
+    "alt": "Urban Vulnerability Detection System",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["AI", "GIS", "Vector Search"],
+    "modal": {
+      "subtitle": "AI-Powered Urban Analysis",
+      "fullDescription": "Innovative vector search application for identifying urban vulnerable areas using Brazilian government data, satellite imagery, and advanced AI techniques. Combines Census 2022 data with satellite analysis to detect vulnerability patterns across thousands of areas.",
+      "features": [
+        "12,348+ vulnerable areas from Census 2022 with real shapefile polygons",
+        "Demographic sectors with population and infrastructure data",
+        "Google Earth Engine integration with Landsat 8/9 Collection 2",
+        "NDVI, NDBI, LST indices calculated for each area",
+        "Multi-spectral analysis for vulnerability pattern detection",
+        "Public dataset hosted on Google Cloud Storage"
+      ],
+      "techStack": ["Python", "Google Earth Engine", "Vector Search", "GIS", "Cloud Storage"],
+      "status": "In Development"
+    }
+  },
+  {
     "id": "telegram-bot-organizze",
     "title": "Organizze Telegram Bot",
     "description": "AI-powered Telegram bot for personal finance insights using Gemini",
