@@ -1,5 +1,29 @@
 [
   {
+    "id": "energy-bill-extractor",
+    "title": "Energy Bill Data Extractor",
+    "description": "CLI tool for extracting structured data from Brazilian energy bills using LLM with schema validation and guardrails",
+    "image": "./src/assets/thumbs/energy-bill-extractor.png",
+    "alt": "Energy Bill Data Extractor CLI",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["CLI", "LLM", "Data Extraction"],
+    "modal": {
+      "subtitle": "Intelligent Document Processing",
+      "fullDescription": "Command-line interface for automated extraction of structured data from Brazilian energy bills (contas de energia). Leverages Large Language Models with strict schema validation and guardrails to parse complex utility documents into clean, structured JSON output. Handles diverse bill formats from multiple energy distributors across Brazil.",
+      "features": [
+        "LLM-powered extraction with structured output schemas",
+        "Guardrails for data validation and error handling",
+        "Support for multiple Brazilian energy distributors",
+        "CLI interface for batch processing and automation",
+        "JSON output with standardized field mapping",
+        "Handles OCR artifacts and formatting variations"
+      ],
+      "techStack": ["Python", "LLM", "Pydantic", "Guardrails", "CLI"],
+      "status": "In Development"
+    }
+  },
+  {
     "id": "urban-vulnerability",
     "title": "Urban Vulnerability Detection",
     "description": "Vector search application for identifying urban vulnerable areas using government data and satellite imagery",
