@@ -19,6 +19,7 @@ import { ArtworkRenderer } from './renderers/ArtworkRenderer.js';
 import { VolunteeringRenderer } from './renderers/VolunteeringRenderer.js';
 import { BootstrappingRenderer } from './renderers/BootstrappingRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
+import { ScrollToTop } from './components/ScrollToTop.js';
 
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
   const start = Date.now();
@@ -89,6 +90,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   }, { timeout: 1000 });
 
   CookieConsent.init();
+  ScrollToTop.init();
 });
 
 window.addEventListener('componentLoaded', (event) => {
