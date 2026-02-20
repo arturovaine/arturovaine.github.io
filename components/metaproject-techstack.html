@@ -1,5 +1,5 @@
 <!-- Tech Stack -->
-<section id="tech-stack" class="border-t border-white/5">
+<section id="tech-stack" class="border-t border-white/5 scroll-mt-20">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
     <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight flex items-center gap-3">
       <i data-lucide="layers" class="w-7 h-7 text-neutral-500"></i>
@@ -94,55 +94,326 @@
     </div>
 
     <!-- Performance -->
-    <div id="performance" class="mt-16">
-      <h3 class="text-xl font-medium mb-6 flex items-center gap-2">
-        <i data-lucide="zap" class="w-5 h-5 text-amber-400"></i>
-        Performance Optimizations
-      </h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
-          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
-          <div>
-            <p class="font-medium text-sm">Lazy loading via IntersectionObserver</p>
-            <p class="text-xs text-neutral-500 mt-1">Components and images load only when approaching viewport (300px rootMargin)</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
-          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
-          <div>
-            <p class="font-medium text-sm">WebP image format</p>
-            <p class="text-xs text-neutral-500 mt-1">Up to 94% size reduction compared to PNG (e.g., metaproject image: 2.9MB → 180KB)</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
-          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
-          <div>
-            <p class="font-medium text-sm">Skeleton placeholders</p>
-            <p class="text-xs text-neutral-500 mt-1">Animated loading states prevent layout shift during component loading</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
-          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
-          <div>
-            <p class="font-medium text-sm">Fixed aspect ratios</p>
-            <p class="text-xs text-neutral-500 mt-1">CLS optimization with predefined dimensions for images and containers</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
-          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
-          <div>
-            <p class="font-medium text-sm">DNS prefetch & preconnect</p>
-            <p class="text-xs text-neutral-500 mt-1">Early connection hints for Google Fonts, CDNs, and external resources</p>
-          </div>
-        </div>
-        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
-          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
-          <div>
-            <p class="font-medium text-sm">Critical CSS inline</p>
-            <p class="text-xs text-neutral-500 mt-1">Above-the-fold styles inlined in HTML, non-critical loaded async</p>
-          </div>
+    <div id="performance" class="mt-16 scroll-mt-24">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
+        <h3 class="text-xl font-medium flex items-center gap-2">
+          <i data-lucide="zap" class="w-5 h-5 text-amber-400"></i>
+          Performance Optimizations
+        </h3>
+        <div class="flex flex-wrap gap-2" id="perf-filters">
+          <button class="perf-filter active px-3 py-1 text-xs font-medium rounded-full border border-white/30 bg-white/20 text-white transition-all" data-filter="all">
+            All <span class="opacity-60">(16)</span>
+          </button>
+          <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-blue-500/30 text-blue-400 hover:bg-blue-500/10 transition-all" data-filter="Loading">
+            Loading <span class="opacity-60">(4)</span>
+          </button>
+          <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-purple-500/30 text-purple-400 hover:bg-purple-500/10 transition-all" data-filter="Assets">
+            Assets <span class="opacity-60">(4)</span>
+          </button>
+          <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 transition-all" data-filter="Rendering">
+            Rendering <span class="opacity-60">(4)</span>
+          </button>
+          <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-orange-500/30 text-orange-400 hover:bg-orange-500/10 transition-all" data-filter="CSS">
+            CSS <span class="opacity-60">(4)</span>
+          </button>
         </div>
       </div>
+
+      <!-- Compact grid with click to expand -->
+      <div class="grid grid-cols-4 md:grid-cols-8 gap-2" id="perf-grid">
+        <!-- Loading -->
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="Lazy Loading" data-desc="Components and images load via IntersectionObserver with 300px rootMargin, ensuring content is ready just before entering viewport." data-tpl="tpl-lazy">
+          <i data-lucide="eye" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+          <p class="text-xs text-neutral-300">Lazy Load</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="Priority Loading" data-desc="Header loads immediately, hero section is critical, remaining components lazy-load based on viewport proximity." data-tpl="tpl-priority">
+          <i data-lucide="layers" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+          <p class="text-xs text-neutral-300">Priority</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="DNS Prefetch" data-desc="Early connection hints for Google Fonts, CDNs, and external resources reduce latency when those resources are needed." data-tpl="tpl-prefetch">
+          <i data-lucide="globe" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+          <p class="text-xs text-neutral-300">Prefetch</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="Deferred Scripts" data-desc="Non-critical JavaScript loaded with defer/async attributes to avoid blocking the initial render." data-tpl="tpl-defer">
+          <i data-lucide="file-code" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+          <p class="text-xs text-neutral-300">Defer JS</p>
+        </button>
+        <!-- Assets -->
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="WebP Images" data-desc="All images converted to WebP format achieving up to 94% size reduction." data-tpl="tpl-webp">
+          <i data-lucide="image" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+          <p class="text-xs text-neutral-300">WebP</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="Cloud Video" data-desc="Videos hosted on Google Cloud Storage to bypass GitHub's 100MB file limit and leverage global edge caching." data-tpl="tpl-cloud">
+          <i data-lucide="cloud" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+          <p class="text-xs text-neutral-300">Cloud</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="Native Lazy" data-desc="Images use the native loading='lazy' attribute for browser-optimized deferred loading." data-tpl="tpl-native">
+          <i data-lucide="clock" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+          <p class="text-xs text-neutral-300">Native</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="SVG Icons" data-desc="Lucide icons rendered as inline SVG on-demand. No icon font download, tree-shakeable." data-tpl="tpl-svg">
+          <i data-lucide="pen-tool" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+          <p class="text-xs text-neutral-300">SVG</p>
+        </button>
+        <!-- Rendering -->
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="Skeleton Loaders" data-desc="Animated placeholder elements shown during component loading prevent layout shift." data-tpl="tpl-skeleton">
+          <i data-lucide="loader" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+          <p class="text-xs text-neutral-300">Skeleton</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="Fixed Aspect Ratios" data-desc="Predefined dimensions for images and containers minimize Cumulative Layout Shift (CLS)." data-tpl="tpl-aspect">
+          <i data-lucide="square" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+          <p class="text-xs text-neutral-300">Aspect</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="CSS Containment" data-desc="Isolated component rendering using CSS containment reduces reflows and repaints." data-tpl="tpl-contain">
+          <i data-lucide="box" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+          <p class="text-xs text-neutral-300">Contain</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="GPU Animations" data-desc="All animations use transform and opacity for GPU acceleration and smooth 60fps." data-tpl="tpl-gpu">
+          <i data-lucide="zap" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+          <p class="text-xs text-neutral-300">GPU</p>
+        </button>
+        <!-- CSS -->
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Modular CSS" data-desc="Styles organized into 5 files for maintainability and clear separation of concerns." data-tpl="tpl-modular">
+          <i data-lucide="folder" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+          <p class="text-xs text-neutral-300">Modular</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Tailwind CDN" data-desc="Tailwind CSS loaded via CDN with JIT compilation. No build step required." data-tpl="tpl-tailwind">
+          <i data-lucide="wind" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+          <p class="text-xs text-neutral-300">Tailwind</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Font Display Swap" data-desc="System fonts render immediately while web fonts load. No Flash of Invisible Text." data-tpl="tpl-fonts">
+          <i data-lucide="type" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+          <p class="text-xs text-neutral-300">Fonts</p>
+        </button>
+        <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Theme Persistence" data-desc="Theme preference saved to localStorage, applied before first paint." data-tpl="tpl-theme">
+          <i data-lucide="moon" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+          <p class="text-xs text-neutral-300">Theme</p>
+        </button>
+      </div>
+
+      <!-- Expanded detail panel -->
+      <div id="perf-detail" class="hidden mt-4 p-5 rounded-lg border border-white/10 bg-neutral-900/40 will-change-[max-height,opacity]">
+        <div class="flex items-start justify-between gap-4">
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-2">
+              <span id="perf-detail-category" class="text-xs font-medium px-2 py-0.5 rounded bg-white/10 text-neutral-400"></span>
+              <h4 id="perf-detail-title" class="text-base font-medium text-white"></h4>
+            </div>
+            <p id="perf-detail-desc" class="mt-2 text-sm text-neutral-400 leading-relaxed"></p>
+            <div id="perf-detail-extra" class="mt-4"></div>
+          </div>
+          <button id="perf-detail-close" class="shrink-0 p-1 rounded hover:bg-white/10 transition-colors">
+            <i data-lucide="x" class="w-4 h-4 text-neutral-500"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Detail templates -->
+      <template id="tpl-lazy">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+            <pre class="text-green-400">const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadComponent(entry.target);
+      }
+    });
+  },
+  { rootMargin: '300px' }
+);</pre>
+          </div>
+          <div class="flex items-center justify-center">
+            <div class="text-center">
+              <div class="text-3xl font-bold text-green-400">300px</div>
+              <div class="text-xs text-neutral-500 mt-1">rootMargin buffer</div>
+            </div>
+          </div>
+        </div>
+      </template>
+
+      <template id="tpl-priority">
+        <div class="flex items-center gap-3 flex-wrap">
+          <div class="flex items-center gap-1.5 px-2 py-1 rounded bg-amber-500/10 border border-amber-500/20">
+            <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+            <span class="text-xs text-amber-300">Immediate</span>
+          </div>
+          <span class="text-neutral-600">→</span>
+          <div class="flex items-center gap-1.5 px-2 py-1 rounded bg-green-500/10 border border-green-500/20">
+            <span class="w-2 h-2 rounded-full bg-green-400"></span>
+            <span class="text-xs text-green-300">Critical</span>
+          </div>
+          <span class="text-neutral-600">→</span>
+          <div class="flex items-center gap-1.5 px-2 py-1 rounded bg-blue-500/10 border border-blue-500/20">
+            <span class="w-2 h-2 rounded-full bg-blue-400"></span>
+            <span class="text-xs text-blue-300">Lazy</span>
+          </div>
+          <span class="text-neutral-600">→</span>
+          <div class="flex items-center gap-1.5 px-2 py-1 rounded bg-neutral-500/10 border border-neutral-500/20">
+            <span class="w-2 h-2 rounded-full bg-neutral-400"></span>
+            <span class="text-xs text-neutral-300">Footer</span>
+          </div>
+        </div>
+      </template>
+
+      <template id="tpl-prefetch">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-neutral-500">&lt;!-- DNS Prefetch --&gt;</span>
+<span class="text-pink-400">&lt;link</span> <span class="text-cyan-300">rel</span>=<span class="text-green-300">"dns-prefetch"</span> <span class="text-cyan-300">href</span>=<span class="text-green-300">"//fonts.googleapis.com"</span><span class="text-pink-400">&gt;</span>
+<span class="text-pink-400">&lt;link</span> <span class="text-cyan-300">rel</span>=<span class="text-green-300">"preconnect"</span> <span class="text-cyan-300">href</span>=<span class="text-green-300">"https://fonts.gstatic.com"</span> <span class="text-cyan-300">crossorigin</span><span class="text-pink-400">&gt;</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-defer">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-pink-400">&lt;script</span> <span class="text-cyan-300">type</span>=<span class="text-green-300">"module"</span> <span class="text-cyan-300">src</span>=<span class="text-green-300">"js/main.js"</span><span class="text-pink-400">&gt;&lt;/script&gt;</span>
+<span class="text-neutral-500">&lt;!-- ES modules are deferred by default --&gt;</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-webp">
+        <div class="grid grid-cols-3 gap-3 text-center">
+          <div class="p-3 rounded bg-red-500/10 border border-red-500/20">
+            <div class="text-lg font-bold text-red-400">2.9 MB</div>
+            <div class="text-xs text-neutral-500">PNG</div>
+          </div>
+          <div class="flex items-center justify-center">
+            <i data-lucide="arrow-right" class="w-5 h-5 text-neutral-600"></i>
+          </div>
+          <div class="p-3 rounded bg-green-500/10 border border-green-500/20">
+            <div class="text-lg font-bold text-green-400">180 KB</div>
+            <div class="text-xs text-neutral-500">WebP</div>
+          </div>
+        </div>
+        <div class="mt-3 text-center">
+          <span class="text-2xl font-bold text-green-400">94%</span>
+          <span class="text-sm text-neutral-500 ml-1">size reduction</span>
+        </div>
+      </template>
+
+      <template id="tpl-cloud">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-neutral-500">// Video URL structure</span>
+<span class="text-green-300">"https://storage.googleapis.com/arturovaine/videos/*.mp4"</span>
+
+<span class="text-neutral-500">// Benefits:</span>
+<span class="text-cyan-300">• Global CDN edge caching</span>
+<span class="text-cyan-300">• No 100MB GitHub limit</span>
+<span class="text-cyan-300">• Streaming support</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-native">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-pink-400">&lt;img</span>
+  <span class="text-cyan-300">src</span>=<span class="text-green-300">"image.webp"</span>
+  <span class="text-cyan-300">loading</span>=<span class="text-green-300">"lazy"</span>
+  <span class="text-cyan-300">decoding</span>=<span class="text-green-300">"async"</span>
+<span class="text-pink-400">/&gt;</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-svg">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-neutral-500">&lt;!-- Lucide icons --&gt;</span>
+<span class="text-pink-400">&lt;i</span> <span class="text-cyan-300">data-lucide</span>=<span class="text-green-300">"zap"</span> <span class="text-cyan-300">class</span>=<span class="text-green-300">"w-5 h-5"</span><span class="text-pink-400">&gt;&lt;/i&gt;</span>
+
+<span class="text-neutral-500">// Rendered as inline SVG</span>
+<span class="text-cyan-300">lucide.createIcons()</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-skeleton">
+        <div class="flex items-center gap-4">
+          <div class="flex-1 space-y-2">
+            <div class="h-4 bg-neutral-700 rounded animate-pulse"></div>
+            <div class="h-4 bg-neutral-700 rounded animate-pulse w-3/4"></div>
+            <div class="h-4 bg-neutral-700 rounded animate-pulse w-1/2"></div>
+          </div>
+          <div class="text-xs text-neutral-500">← Live skeleton</div>
+        </div>
+      </template>
+
+      <template id="tpl-aspect">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-neutral-500">&lt;!-- Fixed aspect ratio container --&gt;</span>
+<span class="text-pink-400">&lt;div</span> <span class="text-cyan-300">class</span>=<span class="text-green-300">"aspect-video"</span><span class="text-pink-400">&gt;</span>
+  <span class="text-pink-400">&lt;img</span> <span class="text-cyan-300">class</span>=<span class="text-green-300">"object-cover w-full h-full"</span> <span class="text-pink-400">/&gt;</span>
+<span class="text-pink-400">&lt;/div&gt;</span>
+
+<span class="text-neutral-500">// CLS Impact: 0</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-contain">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-purple-400">.card</span> {
+  <span class="text-cyan-300">contain</span>: <span class="text-green-300">layout style paint</span>;
+}
+
+<span class="text-neutral-500">/* Browser skips recalculating
+   styles outside this element */</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-gpu">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-neutral-500">/* GPU-accelerated properties */</span>
+<span class="text-purple-400">.animated</span> {
+  <span class="text-cyan-300">transform</span>: <span class="text-green-300">translateX(0)</span>;
+  <span class="text-cyan-300">opacity</span>: <span class="text-green-300">1</span>;
+  <span class="text-cyan-300">will-change</span>: <span class="text-green-300">transform, opacity</span>;
+}
+
+<span class="text-neutral-500">/* Avoid: top, left, width, height */</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-modular">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs">
+          <pre><span class="text-orange-400">css/</span>
+├── <span class="text-cyan-300">theme.css</span>      <span class="text-neutral-500"># Entry point</span>
+├── <span class="text-cyan-300">base.css</span>       <span class="text-neutral-500"># Variables, layout</span>
+├── <span class="text-cyan-300">buttons.css</span>    <span class="text-neutral-500"># .btn-*, .tag</span>
+├── <span class="text-cyan-300">cards.css</span>      <span class="text-neutral-500"># .card, overlays</span>
+├── <span class="text-cyan-300">modal.css</span>      <span class="text-neutral-500"># .modal, banner</span>
+└── <span class="text-cyan-300">light-theme.css</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-tailwind">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-pink-400">&lt;script</span> <span class="text-cyan-300">src</span>=<span class="text-green-300">"https://cdn.tailwindcss.com"</span><span class="text-pink-400">&gt;&lt;/script&gt;</span>
+
+<span class="text-neutral-500">&lt;!-- JIT compilation in browser
+     No build step required
+     Full utility access --&gt;</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-fonts">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-cyan-300">@font-face</span> {
+  <span class="text-purple-400">font-family</span>: <span class="text-green-300">'Inter'</span>;
+  <span class="text-purple-400">font-display</span>: <span class="text-green-300">swap</span>; <span class="text-neutral-500">/* Key! */</span>
+}
+
+<span class="text-neutral-500">/* System font shown immediately
+   Web font swaps in when ready */</span></pre>
+        </div>
+      </template>
+
+      <template id="tpl-theme">
+        <div class="p-3 rounded bg-neutral-900/60 font-mono text-xs overflow-x-auto">
+          <pre><span class="text-neutral-500">// Check saved preference</span>
+<span class="text-cyan-300">const</span> theme = localStorage.getItem(<span class="text-green-300">'theme'</span>);
+
+<span class="text-neutral-500">// Apply before first paint</span>
+<span class="text-cyan-300">if</span> (theme === <span class="text-green-300">'light'</span>) {
+  document.body.classList.add(<span class="text-green-300">'light-theme'</span>);
+}</pre>
+        </div>
+      </template>
     </div>
   </div>
 </section>
