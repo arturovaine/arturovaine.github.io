@@ -1,0 +1,206 @@
+<!-- Architecture Section -->
+<section id="architecture" class="border-t border-white/5">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight flex items-center gap-3">
+      <i data-lucide="git-branch" class="w-7 h-7 text-neutral-500"></i>
+      Architecture
+    </h2>
+    <p class="mt-2 text-neutral-400 max-w-2xl">A component-based architecture where HTML components are loaded dynamically and data is rendered from JSON files.</p>
+
+    <!-- Main Flow -->
+    <div class="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div class="card p-6">
+        <div class="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center mb-4">
+          <i data-lucide="file-code" class="w-6 h-6 text-blue-400"></i>
+        </div>
+        <h3 class="text-lg font-medium text-white">index.html</h3>
+        <p class="mt-2 text-sm text-neutral-400">Entry point with minimal HTML structure. Contains three container divs that receive dynamically loaded components.</p>
+      </div>
+      <div class="card p-6">
+        <div class="w-12 h-12 rounded-lg bg-green-500/10 flex items-center justify-center mb-4">
+          <i data-lucide="cpu" class="w-6 h-6 text-green-400"></i>
+        </div>
+        <h3 class="text-lg font-medium text-white">main.js</h3>
+        <p class="mt-2 text-sm text-neutral-400">Orchestrates component loading, initializes renderers, sets up theme management and event listeners.</p>
+      </div>
+      <div class="card p-6">
+        <div class="w-12 h-12 rounded-lg bg-purple-500/10 flex items-center justify-center mb-4">
+          <i data-lucide="layers" class="w-6 h-6 text-purple-400"></i>
+        </div>
+        <h3 class="text-lg font-medium text-white">ComponentLoader</h3>
+        <p class="mt-2 text-sm text-neutral-400">Manages HTML component loading with priority groups and IntersectionObserver for lazy loading.</p>
+      </div>
+    </div>
+
+    <!-- Component Loading Strategy -->
+    <div class="mt-12">
+      <h3 class="text-xl font-medium mb-6">Component Loading Strategy</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="p-4 rounded-lg border border-white/10 bg-neutral-900/30">
+          <div class="flex items-center gap-2 text-sm font-medium text-amber-400 mb-3">
+            <i data-lucide="zap" class="w-4 h-4"></i>
+            Immediate (Header)
+          </div>
+          <ul class="space-y-1 text-sm text-neutral-400">
+            <li class="font-mono text-xs">backdrop</li>
+            <li class="font-mono text-xs">header</li>
+          </ul>
+        </div>
+        <div class="p-4 rounded-lg border border-white/10 bg-neutral-900/30">
+          <div class="flex items-center gap-2 text-sm font-medium text-green-400 mb-3">
+            <i data-lucide="star" class="w-4 h-4"></i>
+            Critical (Above fold)
+          </div>
+          <ul class="space-y-1 text-sm text-neutral-400">
+            <li class="font-mono text-xs">hero</li>
+            <li class="font-mono text-xs">hero-cards</li>
+          </ul>
+        </div>
+        <div class="p-4 rounded-lg border border-white/10 bg-neutral-900/30">
+          <div class="flex items-center gap-2 text-sm font-medium text-blue-400 mb-3">
+            <i data-lucide="eye" class="w-4 h-4"></i>
+            Lazy (On scroll)
+          </div>
+          <ul class="space-y-1 text-sm text-neutral-400">
+            <li class="font-mono text-xs">work, metaproject</li>
+            <li class="font-mono text-xs">experience, awards</li>
+            <li class="font-mono text-xs">posts, volunteering</li>
+            <li class="font-mono text-xs">bootstrapping, artworks</li>
+          </ul>
+        </div>
+        <div class="p-4 rounded-lg border border-white/10 bg-neutral-900/30">
+          <div class="flex items-center gap-2 text-sm font-medium text-neutral-400 mb-3">
+            <i data-lucide="arrow-down" class="w-4 h-4"></i>
+            After main
+          </div>
+          <ul class="space-y-1 text-sm text-neutral-400">
+            <li class="font-mono text-xs">footer</li>
+            <li class="font-mono text-xs">cookie-banner</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data Renderers -->
+    <div class="mt-12">
+      <h3 class="text-xl font-medium mb-6">Data-Driven Renderers</h3>
+      <p class="text-neutral-400 text-sm mb-6">JavaScript modules that fetch JSON data and render HTML dynamically using <code class="text-xs bg-white/5 px-1.5 py-0.5 rounded">.map()</code>. Each renderer uses IntersectionObserver with 200px rootMargin for lazy initialization.</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-white/10">
+              <th class="text-left py-3 px-4 font-medium text-neutral-300">Renderer</th>
+              <th class="text-left py-3 px-4 font-medium text-neutral-300">Data Source</th>
+              <th class="text-left py-3 px-4 font-medium text-neutral-300">Purpose</th>
+            </tr>
+          </thead>
+          <tbody class="text-neutral-400">
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-mono text-xs text-blue-400">ProjectRenderer</td><td class="py-3 px-4 font-mono text-xs">projects.json</td><td class="py-3 px-4">Portfolio project cards with modal</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-mono text-xs text-blue-400">AwardRenderer</td><td class="py-3 px-4 font-mono text-xs">awards.json</td><td class="py-3 px-4">Awards & certifications</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-mono text-xs text-blue-400">ExperienceRenderer</td><td class="py-3 px-4 font-mono text-xs">experience.json</td><td class="py-3 px-4">Work experience timeline</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-mono text-xs text-blue-400">HeroCardRenderer</td><td class="py-3 px-4 font-mono text-xs">hero-cards.json</td><td class="py-3 px-4">Hero section quick links</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-mono text-xs text-blue-400">PostRenderer</td><td class="py-3 px-4 font-mono text-xs">posts.json</td><td class="py-3 px-4">Blog posts & articles</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-mono text-xs text-blue-400">ArtworkRenderer</td><td class="py-3 px-4 font-mono text-xs">artworks.json</td><td class="py-3 px-4">Pixel art gallery</td></tr>
+            <tr class="border-b border-white/5"><td class="py-3 px-4 font-mono text-xs text-blue-400">VolunteeringRenderer</td><td class="py-3 px-4 font-mono text-xs">volunteering.json</td><td class="py-3 px-4">Volunteer activities</td></tr>
+            <tr><td class="py-3 px-4 font-mono text-xs text-blue-400">BootstrappingRenderer</td><td class="py-3 px-4 font-mono text-xs">bootstrapping.json</td><td class="py-3 px-4">Side projects</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Main Architecture Diagram -->
+    <div id="diagrams" class="mt-12">
+      <h3 class="text-xl font-medium mb-6 text-center">System Overview</h3>
+      <div class="p-6 rounded-xl border border-white/10 bg-neutral-900/30 overflow-x-auto max-w-2xl mx-auto">
+        <pre style="font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.75rem; line-height: 1.4; color: #a1a1aa;"><span style="color:#c084fc">┌───────────────────────────────────────────────────────┐</span>
+<span style="color:#c084fc">│</span>                     <span style="color:#60a5fa">index.html</span>                        <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>                          <span style="color:#9ca3af">│</span>                            <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>                   <span style="color:#9ca3af">┌──────┴──────┐</span>                     <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>                   <span style="color:#9ca3af">│</span>   <span style="color:#4ade80">main.js</span>   <span style="color:#9ca3af">│</span>                     <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>                   <span style="color:#9ca3af">└──────┬──────┘</span>                     <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>                          <span style="color:#9ca3af">│</span>                            <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>        <span style="color:#9ca3af">┌─────────────────┼─────────────────┐</span>          <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>        <span style="color:#9ca3af">│</span>                 <span style="color:#9ca3af">│</span>                 <span style="color:#9ca3af">│</span>          <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>        <span style="color:#f472b6">▼</span>                 <span style="color:#f472b6">▼</span>                 <span style="color:#f472b6">▼</span>          <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>  <span style="color:#22d3ee">ComponentLoader</span>    <span style="color:#c084fc">ThemeManager</span>      <span style="color:#facc15">Renderers</span>       <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>        <span style="color:#9ca3af">│</span>                                   <span style="color:#9ca3af">│</span>          <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>        <span style="color:#f472b6">▼</span>                                   <span style="color:#f472b6">▼</span>          <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">│</span>  <span style="color:#fb923c">components/*.html</span>                   <span style="color:#4ade80">data/*.json</span>      <span style="color:#c084fc">│</span>
+<span style="color:#c084fc">└───────────────────────────────────────────────────────┘</span></pre>
+      </div>
+    </div>
+
+    <!-- Data Flow Diagram -->
+    <div class="mt-12">
+      <h3 class="text-xl font-medium mb-6 text-center">Data Flow</h3>
+      <div class="p-6 rounded-xl border border-white/10 bg-neutral-900/30 overflow-x-auto max-w-2xl mx-auto">
+        <pre style="font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.75rem; line-height: 1.4; color: #a1a1aa;"><span style="color:#ffffff">                    Data-Driven Rendering</span>
+
+<span style="color:#22d3ee">┌──────────────┐</span>    <span style="color:#4ade80">fetch()</span>    <span style="color:#fb923c">┌──────────────┐</span>   <span style="color:#60a5fa">innerHTML</span>
+<span style="color:#22d3ee">│  *Renderer   │</span><span style="color:#f472b6">─────────────►</span><span style="color:#fb923c">│  data/*.json │</span><span style="color:#f472b6">─────────────►</span><span style="color:#c084fc">DOM</span>
+<span style="color:#22d3ee">└──────────────┘</span>               <span style="color:#fb923c">└──────────────┘</span>
+
+<span style="color:#ffffff">Renderers:</span>                     <span style="color:#ffffff">JSON Data:</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#22d3ee">ProjectRenderer</span>        <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">projects.json</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#22d3ee">AwardRenderer</span>          <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">awards.json</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#22d3ee">ExperienceRenderer</span>     <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">experience.json</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#22d3ee">HeroCardRenderer</span>       <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">hero-cards.json</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#22d3ee">PostRenderer</span>           <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">posts.json</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#22d3ee">ArtworkRenderer</span>        <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">artworks.json</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#22d3ee">VolunteeringRenderer</span>   <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">volunteering.json</span>
+<span style="color:#9ca3af">└──</span> <span style="color:#22d3ee">BootstrappingRenderer</span>  <span style="color:#f472b6">◄──►</span> <span style="color:#4ade80">bootstrapping.json</span></pre>
+      </div>
+    </div>
+
+    <!-- Project Structure -->
+    <div class="mt-12">
+      <h3 class="text-xl font-medium mb-6 text-center">Project Structure</h3>
+      <div class="p-6 rounded-xl border border-white/10 bg-neutral-900/30 overflow-x-auto max-w-2xl mx-auto">
+        <pre style="font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.75rem; line-height: 1.4; color: #a1a1aa;"><span style="color:#60a5fa">arturovaine.github.io/</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#fb923c">components/</span>           <span style="color:#71717a"># HTML component files</span>
+<span style="color:#9ca3af">│   ├──</span> header.html
+<span style="color:#9ca3af">│   ├──</span> hero.html
+<span style="color:#9ca3af">│   ├──</span> work.html
+<span style="color:#9ca3af">│   └──</span> <span style="color:#71717a">... (17 components)</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#4ade80">data/</span>                 <span style="color:#71717a"># JSON data files</span>
+<span style="color:#9ca3af">│   ├──</span> projects.json
+<span style="color:#9ca3af">│   ├──</span> awards.json
+<span style="color:#9ca3af">│   └──</span> <span style="color:#71717a">... (8 data files)</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#facc15">js/</span>                   <span style="color:#71717a"># JavaScript modules</span>
+<span style="color:#9ca3af">│   ├──</span> <span style="color:#4ade80">main.js</span>
+<span style="color:#9ca3af">│   ├──</span> <span style="color:#4ade80">componentLoader.js</span>
+<span style="color:#9ca3af">│   ├──</span> <span style="color:#22d3ee">components/</span>       <span style="color:#71717a"># UI components</span>
+<span style="color:#9ca3af">│   │   ├──</span> ThemeManager.js
+<span style="color:#9ca3af">│   │   ├──</span> ProjectModal.js
+<span style="color:#9ca3af">│   │   └──</span> ModelViewer.js
+<span style="color:#9ca3af">│   └──</span> <span style="color:#22d3ee">renderers/</span>        <span style="color:#71717a"># Data renderers</span>
+<span style="color:#9ca3af">│       ├──</span> ProjectRenderer.js
+<span style="color:#9ca3af">│       └──</span> <span style="color:#71717a">... (8 renderers)</span>
+<span style="color:#9ca3af">├──</span> <span style="color:#c084fc">css/</span>                  <span style="color:#71717a"># Modular CSS</span>
+<span style="color:#9ca3af">│   ├──</span> <span style="color:#c084fc">theme.css</span>         <span style="color:#71717a"># Entry point</span>
+<span style="color:#9ca3af">│   ├──</span> base.css
+<span style="color:#9ca3af">│   ├──</span> buttons.css
+<span style="color:#9ca3af">│   ├──</span> cards.css
+<span style="color:#9ca3af">│   ├──</span> modal.css
+<span style="color:#9ca3af">│   └──</span> light-theme.css
+<span style="color:#9ca3af">├──</span> <span style="color:#f472b6">src/assets/</span>           <span style="color:#71717a"># Static assets</span>
+<span style="color:#9ca3af">└──</span> <span style="color:#60a5fa">index.html</span>            <span style="color:#71717a"># Entry point</span></pre>
+      </div>
+    </div>
+
+    <!-- CSS Architecture -->
+    <div class="mt-12">
+      <h3 class="text-xl font-medium mb-6 text-center">CSS Architecture</h3>
+      <div class="p-6 rounded-xl border border-white/10 bg-neutral-900/30 max-w-2xl mx-auto" style="font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.75rem; line-height: 1.4;">
+        <div style="color:#c084fc">theme.css <span style="color:#9ca3af">(entry point)</span></div>
+        <div class="ml-4 mt-2 space-y-1" style="color:#9ca3af">
+          <div><span style="color:#9ca3af">├──</span> @import <span style="color:#4ade80">base.css</span> <span style="color:#71717a">→ Variables, layout, responsive</span></div>
+          <div><span style="color:#9ca3af">├──</span> @import <span style="color:#22d3ee">buttons.css</span> <span style="color:#71717a">→ .btn-*, .tag, .badge-status</span></div>
+          <div><span style="color:#9ca3af">├──</span> @import <span style="color:#fb923c">cards.css</span> <span style="color:#71717a">→ .card, .card-image, .card-overlay</span></div>
+          <div><span style="color:#9ca3af">├──</span> @import <span style="color:#f472b6">modal.css</span> <span style="color:#71717a">→ .modal, .cookie-banner-*</span></div>
+          <div><span style="color:#9ca3af">└──</span> @import <span style="color:#facc15">light-theme.css</span> <span style="color:#71717a">→ body.light-theme overrides</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
