@@ -1,0 +1,101 @@
+<!-- Metaproject -->
+<section id="metaproject" class="border-t border-white/5">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!-- Image -->
+      <div class="order-2 lg:order-1">
+        <div class="group relative rounded-2xl overflow-hidden border border-white/10 bg-neutral-900/60">
+          <img
+            src="./src/assets/images/metaproject.webp"
+            alt="Recursive self-portrait representing the meta nature of this project"
+            class="w-full h-auto transition-transform duration-500 group-hover:scale-105"
+            loading="lazy"
+          >
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
+            <p class="text-sm text-neutral-200 leading-relaxed">
+              A self-aware portrait: seated, looking back with a raised eyebrow, reflected infinitely between mirrors. The recursion mirrors the idea of a metaproject: a portfolio that reflects on itself, so architecture, structure, and identity repeating with intention.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="order-1 lg:order-2">
+        <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Metaproject</h2>
+        <p class="mt-2 text-neutral-400">The portfolio itself is a project.</p>
+
+        <div class="mt-8 space-y-6">
+          <div>
+            <h3 class="text-lg font-medium text-white flex items-center gap-2">
+              <i data-lucide="boxes" class="w-5 h-5 text-neutral-400"></i>
+              Component Architecture
+            </h3>
+            <p class="mt-2 text-neutral-400 text-sm">
+              Modular HTML components loaded dynamically via IntersectionObserver.
+              17 components organized by priority: header (immediate), critical (immediate), lazy (on scroll).
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-white flex items-center gap-2">
+              <i data-lucide="database" class="w-5 h-5 text-neutral-400"></i>
+              Data-Driven Rendering
+            </h3>
+            <p class="mt-2 text-neutral-400 text-sm">
+              8 JavaScript renderers fetch JSON data and render HTML dynamically.
+              Projects, awards, experience, and more - all managed through structured data files.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-white flex items-center gap-2">
+              <i data-lucide="zap" class="w-5 h-5 text-neutral-400"></i>
+              Performance First
+            </h3>
+            <p class="mt-2 text-neutral-400 text-sm">
+              Lazy loading for images and components. WebP format, skeleton placeholders,
+              optimized aspect ratios for minimal CLS. Videos hosted on Google Cloud Storage.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-medium text-white flex items-center gap-2">
+              <i data-lucide="moon" class="w-5 h-5 text-neutral-400"></i>
+              Dark/Light Theme
+            </h3>
+            <p class="mt-2 text-neutral-400 text-sm">
+              Theme switching with localStorage persistence and smooth transitions.
+              Modular CSS architecture split into 5 organized files.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="mt-8 flex flex-wrap gap-2">
+          <span class="tag">Vanilla JS (ES6)</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">Three.js</span>
+          <span class="tag">Lucide Icons</span>
+          <span class="tag">GitHub Pages</span>
+        </div>
+
+        <!-- Links -->
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="./metaproject.html"
+             class="metaproject-learn-more group inline-flex items-center gap-2 px-4 py-2 rounded-md border border-white/10 bg-white/5 text-sm text-neutral-200 font-medium hover:bg-neutral-800 transition-all duration-200">
+            <span>Learn More</span>
+            <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform"></i>
+          </a>
+          <a href="https://github.com/arturovaine/arturovaine.github.io"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="group inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 text-sm text-neutral-200 hover:bg-white hover:text-neutral-900 hover:border-white transition-all duration-200">
+            <i data-lucide="github" class="w-4 h-4"></i>
+            <span>View Source</span>
+            <i data-lucide="arrow-up-right" class="w-3 h-3 opacity-50 group-hover:opacity-100 transition-opacity"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
