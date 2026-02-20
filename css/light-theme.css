@@ -105,6 +105,25 @@ body.light-theme .btn-ghost:hover {
   color: #171717;
 }
 
+body.light-theme .btn-ghost.btn-portfolio {
+  color: #2563eb !important;
+}
+body.light-theme .btn-ghost.btn-portfolio:hover {
+  color: #1d4ed8 !important;
+  background-color: rgba(37, 99, 235, 0.1) !important;
+}
+
+/* Scroll to Top Button */
+body.light-theme #scrollToTop {
+  background-color: #f5f5f5;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #171717;
+}
+body.light-theme #scrollToTop:hover {
+  background-color: #e5e5e5;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
 body.light-theme .btn-chip {
   border-color: rgba(0, 0, 0, 0.1);
   background-color: #f5f5f5;
