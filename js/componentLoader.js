@@ -85,6 +85,51 @@ export const ComponentLoader = {
       lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
     }
 
+    this.setupAnchorNavigation();
+
     window.dispatchEvent(new CustomEvent('componentsLoaded'));
+  },
+
+  setupAnchorNavigation() {
+    document.addEventListener('click', async (e) => {
+      const link = e.target.closest('a[href^="#"]');
+      if (!link) return;
+
+      const targetId = link.getAttribute('href').slice(1);
+      if (!targetId) return;
+
+      e.preventDefault();
+
+      let targetElement = document.getElementById(targetId);
+
+      // If element doesn't exist, check if it's a lazy component
+      if (!targetElement && this.lazyComponents.includes(targetId)) {
+        const placeholder = document.querySelector(`[data-component="${targetId}"]`);
+        if (placeholder && !this.loadedComponents.has(targetId)) {
+          const html = await this.loadComponent(targetId);
+          placeholder.outerHTML = html;
+
+          if (window.lucide) {
+            lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+          }
+
+          window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: targetId } }));
+        }
+
+        // Small delay to let DOM update
+        await new Promise(resolve => setTimeout(resolve, 50));
+        targetElement = document.getElementById(targetId);
+      }
+
+      if (targetElement) {
+        const headerHeight = 64;
+        const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+        window.scrollTo({
+          top: elementPosition - headerHeight,
+          behavior: 'smooth'
+        });
+        history.pushState(null, '', `#${targetId}`);
+      }
+    });
   }
 };
