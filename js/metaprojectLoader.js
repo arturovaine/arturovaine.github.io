@@ -1,4 +1,5 @@
 import { ThemeManager } from './components/ThemeManager.js';
+import { perfTemplates } from './perfTemplates.js';
 
 export const MetaprojectLoader = {
   components: [
@@ -46,6 +47,13 @@ export const MetaprojectLoader = {
       for (const componentName of mainComponents) {
         const html = await this.loadComponent(componentName);
         mainContainer.insertAdjacentHTML('beforeend', html);
+      }
+
+      // Load performance section into the placeholder
+      const perfPlaceholder = document.getElementById('performance-placeholder');
+      if (perfPlaceholder) {
+        const perfHtml = await this.loadComponent('metaproject-performance');
+        perfPlaceholder.outerHTML = perfHtml;
       }
     }
 
@@ -151,12 +159,10 @@ export const MetaprojectLoader = {
       detailTitle.textContent = item.dataset.title;
       detailDesc.textContent = item.dataset.desc;
 
-      // Load template content
-      const tplId = item.dataset.tpl;
-      const tpl = document.getElementById(tplId);
-      if (tpl && detailExtra) {
-        detailExtra.innerHTML = '';
-        detailExtra.appendChild(tpl.content.cloneNode(true));
+      // Load template content from JS
+      const tplKey = item.dataset.tpl;
+      if (tplKey && perfTemplates[tplKey] && detailExtra) {
+        detailExtra.innerHTML = perfTemplates[tplKey];
         // Re-initialize lucide icons in the new content
         if (window.lucide) {
           lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });

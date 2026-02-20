@@ -1,0 +1,115 @@
+<!-- Performance Optimizations Section -->
+<div id="performance" class="mt-16 scroll-mt-24">
+  <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
+    <h3 class="text-xl font-medium flex items-center gap-2">
+      <i data-lucide="zap" class="w-5 h-5 text-amber-400"></i>
+      Performance Optimizations
+    </h3>
+    <div class="flex flex-wrap gap-2" id="perf-filters">
+      <button class="perf-filter active px-3 py-1 text-xs font-medium rounded-full border border-white/30 bg-white/20 text-white transition-all" data-filter="all">
+        All <span class="opacity-60">(16)</span>
+      </button>
+      <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-blue-500/30 text-blue-400 hover:bg-blue-500/10 transition-all" data-filter="Loading">
+        Loading <span class="opacity-60">(4)</span>
+      </button>
+      <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-purple-500/30 text-purple-400 hover:bg-purple-500/10 transition-all" data-filter="Assets">
+        Assets <span class="opacity-60">(4)</span>
+      </button>
+      <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-cyan-500/30 text-cyan-400 hover:bg-cyan-500/10 transition-all" data-filter="Rendering">
+        Rendering <span class="opacity-60">(4)</span>
+      </button>
+      <button class="perf-filter px-3 py-1 text-xs font-medium rounded-full border border-orange-500/30 text-orange-400 hover:bg-orange-500/10 transition-all" data-filter="CSS">
+        CSS <span class="opacity-60">(4)</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Compact grid with click to expand -->
+  <div class="grid grid-cols-4 md:grid-cols-8 gap-2" id="perf-grid">
+    <!-- Loading -->
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="Lazy Loading" data-desc="Components and images load via IntersectionObserver with 300px rootMargin, ensuring content is ready just before entering viewport." data-tpl="lazy">
+      <i data-lucide="eye" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+      <p class="text-xs text-neutral-300">Lazy Load</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="Priority Loading" data-desc="Header loads immediately, hero section is critical, remaining components lazy-load based on viewport proximity." data-tpl="priority">
+      <i data-lucide="layers" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+      <p class="text-xs text-neutral-300">Priority</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="DNS Prefetch" data-desc="Early connection hints for Google Fonts, CDNs, and external resources reduce latency when those resources are needed." data-tpl="prefetch">
+      <i data-lucide="globe" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+      <p class="text-xs text-neutral-300">Prefetch</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-blue-500/30 transition-all cursor-pointer text-center" data-category="Loading" data-title="Deferred Scripts" data-desc="Non-critical JavaScript loaded with defer/async attributes to avoid blocking the initial render." data-tpl="defer">
+      <i data-lucide="file-code" class="w-5 h-5 mx-auto mb-1 text-blue-400"></i>
+      <p class="text-xs text-neutral-300">Defer JS</p>
+    </button>
+    <!-- Assets -->
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="WebP Images" data-desc="All images converted to WebP format achieving up to 94% size reduction." data-tpl="webp">
+      <i data-lucide="image" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+      <p class="text-xs text-neutral-300">WebP</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="Cloud Video" data-desc="Videos hosted on Google Cloud Storage to bypass GitHub's 100MB file limit and leverage global edge caching." data-tpl="cloud">
+      <i data-lucide="cloud" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+      <p class="text-xs text-neutral-300">Cloud</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="Native Lazy" data-desc="Images use the native loading='lazy' attribute for browser-optimized deferred loading." data-tpl="native">
+      <i data-lucide="clock" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+      <p class="text-xs text-neutral-300">Native</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-purple-500/30 transition-all cursor-pointer text-center" data-category="Assets" data-title="SVG Icons" data-desc="Lucide icons rendered as inline SVG on-demand. No icon font download, tree-shakeable." data-tpl="svg">
+      <i data-lucide="pen-tool" class="w-5 h-5 mx-auto mb-1 text-purple-400"></i>
+      <p class="text-xs text-neutral-300">SVG</p>
+    </button>
+    <!-- Rendering -->
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="Skeleton Loaders" data-desc="Animated placeholder elements shown during component loading prevent layout shift." data-tpl="skeleton">
+      <i data-lucide="loader" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+      <p class="text-xs text-neutral-300">Skeleton</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="Fixed Aspect Ratios" data-desc="Predefined dimensions for images and containers minimize Cumulative Layout Shift (CLS)." data-tpl="aspect">
+      <i data-lucide="square" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+      <p class="text-xs text-neutral-300">Aspect</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="CSS Containment" data-desc="Isolated component rendering using CSS containment reduces reflows and repaints." data-tpl="contain">
+      <i data-lucide="box" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+      <p class="text-xs text-neutral-300">Contain</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-cyan-500/30 transition-all cursor-pointer text-center" data-category="Rendering" data-title="GPU Animations" data-desc="All animations use transform and opacity for GPU acceleration and smooth 60fps." data-tpl="gpu">
+      <i data-lucide="zap" class="w-5 h-5 mx-auto mb-1 text-cyan-400"></i>
+      <p class="text-xs text-neutral-300">GPU</p>
+    </button>
+    <!-- CSS -->
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Modular CSS" data-desc="Styles organized into 5 files for maintainability and clear separation of concerns." data-tpl="modular">
+      <i data-lucide="folder" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+      <p class="text-xs text-neutral-300">Modular</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Tailwind CDN" data-desc="Tailwind CSS loaded via CDN with JIT compilation. No build step required." data-tpl="tailwind">
+      <i data-lucide="wind" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+      <p class="text-xs text-neutral-300">Tailwind</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Font Display Swap" data-desc="System fonts render immediately while web fonts load. No Flash of Invisible Text." data-tpl="fonts">
+      <i data-lucide="type" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+      <p class="text-xs text-neutral-300">Fonts</p>
+    </button>
+    <button class="perf-item p-3 rounded-lg border border-white/5 bg-neutral-900/20 hover:bg-neutral-900/40 hover:border-orange-500/30 transition-all cursor-pointer text-center" data-category="CSS" data-title="Theme Persistence" data-desc="Theme preference saved to localStorage, applied before first paint." data-tpl="theme">
+      <i data-lucide="moon" class="w-5 h-5 mx-auto mb-1 text-orange-400"></i>
+      <p class="text-xs text-neutral-300">Theme</p>
+    </button>
+  </div>
+
+  <!-- Expanded detail panel -->
+  <div id="perf-detail" class="hidden mt-4 p-5 rounded-lg border border-white/10 bg-neutral-900/40 will-change-[max-height,opacity]">
+    <div class="flex items-start justify-between gap-4">
+      <div class="flex-1 min-w-0">
+        <div class="flex items-center gap-2">
+          <span id="perf-detail-category" class="text-xs font-medium px-2 py-0.5 rounded bg-white/10 text-neutral-400"></span>
+          <h4 id="perf-detail-title" class="text-base font-medium text-white"></h4>
+        </div>
+        <p id="perf-detail-desc" class="mt-2 text-sm text-neutral-400 leading-relaxed"></p>
+        <div id="perf-detail-extra" class="mt-4"></div>
+      </div>
+      <button id="perf-detail-close" class="shrink-0 p-1 rounded hover:bg-white/10 transition-colors">
+        <i data-lucide="x" class="w-4 h-4 text-neutral-500"></i>
+      </button>
+    </div>
+  </div>
+</div>
