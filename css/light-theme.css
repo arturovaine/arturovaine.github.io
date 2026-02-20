@@ -39,6 +39,12 @@ body.light-theme button:hover {
   background-color: rgba(0, 0, 0, 0.04) !important;
 }
 
+/* Learn More button in metaproject */
+body.light-theme .metaproject-learn-more:hover {
+  background-color: #e5e5e5 !important;
+  color: #171717 !important;
+}
+
 body.light-theme ::selection {
   background-color: #e5e5e5 !important;
   color: #0a0a0a !important;
@@ -204,3 +210,67 @@ body.light-theme .cookie-reject-btn:hover {
   color: #171717;
   background-color: rgba(0, 0, 0, 0.05);
 }
+
+/* Metaproject page styles */
+body.light-theme .bg-neutral-900\/30 { background-color: rgba(245, 245, 245, 0.8) !important; }
+body.light-theme .bg-neutral-900\/40 { background-color: rgba(245, 245, 245, 0.9) !important; }
+body.light-theme .bg-neutral-900\/20 { background-color: rgba(245, 245, 245, 0.6) !important; }
+body.light-theme .bg-white\/5 { background-color: rgba(0, 0, 0, 0.03) !important; }
+
+/* Code blocks and pre elements */
+body.light-theme pre { color: #525252 !important; }
+body.light-theme code { background-color: rgba(0, 0, 0, 0.05) !important; }
+
+/* ASCII diagrams - darker text colors for light theme */
+body.light-theme #architecture pre span[style*="#4ade80"] { color: #15803d !important; }
+body.light-theme #architecture pre span[style*="#22d3ee"] { color: #0e7490 !important; }
+body.light-theme #architecture pre span[style*="#60a5fa"] { color: #1d4ed8 !important; }
+body.light-theme #architecture pre span[style*="#c084fc"] { color: #7c3aed !important; }
+body.light-theme #architecture pre span[style*="#f472b6"] { color: #be185d !important; }
+body.light-theme #architecture pre span[style*="#fb923c"] { color: #c2410c !important; }
+body.light-theme #architecture pre span[style*="#facc15"] { color: #a16207 !important; }
+body.light-theme #architecture pre span[style*="#a1a1aa"] { color: #404040 !important; }
+body.light-theme #architecture pre span[style*="#9ca3af"] { color: #525252 !important; }
+body.light-theme #architecture pre span[style*="#71717a"] { color: #737373 !important; }
+body.light-theme #architecture pre span[style*="#ffffff"] { color: #171717 !important; }
+body.light-theme #architecture div[style*="#c084fc"] { color: #7c3aed !important; }
+body.light-theme #architecture div[style*="#4ade80"] { color: #15803d !important; }
+body.light-theme #architecture div[style*="#22d3ee"] { color: #0e7490 !important; }
+body.light-theme #architecture div[style*="#fb923c"] { color: #c2410c !important; }
+body.light-theme #architecture div[style*="#f472b6"] { color: #be185d !important; }
+body.light-theme #architecture div[style*="#facc15"] { color: #a16207 !important; }
+body.light-theme #architecture div[style*="#9ca3af"] { color: #525252 !important; }
+body.light-theme #architecture div[style*="#71717a"] { color: #737373 !important; }
+/* CSS Architecture section - spans inside divs */
+body.light-theme #architecture div span[style*="#4ade80"] { color: #15803d !important; }
+body.light-theme #architecture div span[style*="#22d3ee"] { color: #0e7490 !important; }
+body.light-theme #architecture div span[style*="#fb923c"] { color: #c2410c !important; }
+body.light-theme #architecture div span[style*="#f472b6"] { color: #be185d !important; }
+body.light-theme #architecture div span[style*="#facc15"] { color: #a16207 !important; }
+body.light-theme #architecture div span[style*="#9ca3af"] { color: #525252 !important; }
+body.light-theme #architecture div span[style*="#71717a"] { color: #737373 !important; }
+
+/* Table styles */
+body.light-theme table { border-color: rgba(0, 0, 0, 0.1) !important; }
+body.light-theme th { color: #171717 !important; }
+body.light-theme td { color: #525252 !important; }
+body.light-theme tr { border-color: rgba(0, 0, 0, 0.05) !important; }
+
+/* Icon backgrounds in light theme */
+body.light-theme .bg-blue-500\/10 { background-color: rgba(59, 130, 246, 0.1) !important; }
+body.light-theme .bg-green-500\/10 { background-color: rgba(34, 197, 94, 0.1) !important; }
+body.light-theme .bg-purple-500\/10 { background-color: rgba(168, 85, 247, 0.1) !important; }
+body.light-theme .bg-yellow-500\/10 { background-color: rgba(234, 179, 8, 0.1) !important; }
+body.light-theme .bg-cyan-500\/10 { background-color: rgba(6, 182, 212, 0.1) !important; }
+body.light-theme .bg-orange-500\/10 { background-color: rgba(249, 115, 22, 0.1) !important; }
+body.light-theme .bg-neutral-500\/10 { background-color: rgba(115, 115, 115, 0.1) !important; }
+
+/* Neutral text shades */
+body.light-theme .text-neutral-500 { color: #737373 !important; }
+body.light-theme .text-neutral-600 { color: #525252 !important; }
+
+/* Timeline */
+body.light-theme .timeline-line { background-color: #d4d4d4 !important; }
+body.light-theme .timeline-dot { background-color: #737373 !important; }
+body.light-theme .bg-neutral-700 { background-color: #d4d4d4 !important; }
+body.light-theme .bg-neutral-500 { background-color: #737373 !important; }
