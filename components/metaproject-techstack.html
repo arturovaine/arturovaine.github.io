@@ -1,0 +1,148 @@
+<!-- Tech Stack -->
+<section id="tech-stack" class="border-t border-white/5">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight flex items-center gap-3">
+      <i data-lucide="layers" class="w-7 h-7 text-neutral-500"></i>
+      Tech Stack
+    </h2>
+    <p class="mt-2 text-neutral-400 max-w-2xl">A deliberately minimal stack focused on performance and maintainability.</p>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Vanilla JS -->
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-yellow-500/10 flex items-center justify-center">
+            <span class="text-yellow-400 font-bold text-lg">JS</span>
+          </div>
+          <h3 class="text-lg font-medium text-white">Vanilla JavaScript</h3>
+        </div>
+        <p class="text-sm text-neutral-400 mb-4">ES6 Modules with native browser APIs. No framework overhead, full control over the DOM.</p>
+        <div class="text-xs text-neutral-500">
+          <span class="font-medium text-neutral-400">Why:</span> Maximum performance, zero dependencies, future-proof code.
+        </div>
+      </div>
+
+      <!-- Tailwind -->
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-cyan-500/10 flex items-center justify-center">
+            <i data-lucide="wind" class="w-5 h-5 text-cyan-400"></i>
+          </div>
+          <h3 class="text-lg font-medium text-white">Tailwind CSS</h3>
+        </div>
+        <p class="text-sm text-neutral-400 mb-4">Utility-first CSS framework loaded via CDN. Rapid prototyping with consistent design tokens.</p>
+        <div class="text-xs text-neutral-500">
+          <span class="font-medium text-neutral-400">Why:</span> Fast iteration, no CSS bloat, excellent responsive utilities.
+        </div>
+      </div>
+
+      <!-- Three.js -->
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-purple-500/10 flex items-center justify-center">
+            <i data-lucide="box" class="w-5 h-5 text-purple-400"></i>
+          </div>
+          <h3 class="text-lg font-medium text-white">Three.js</h3>
+        </div>
+        <p class="text-sm text-neutral-400 mb-4">3D rendering library for the interactive STL model viewer with OrbitControls.</p>
+        <div class="text-xs text-neutral-500">
+          <span class="font-medium text-neutral-400">Why:</span> Industry standard for WebGL, extensive documentation, active community.
+        </div>
+      </div>
+
+      <!-- Lucide -->
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-orange-500/10 flex items-center justify-center">
+            <i data-lucide="pen-tool" class="w-5 h-5 text-orange-400"></i>
+          </div>
+          <h3 class="text-lg font-medium text-white">Lucide Icons</h3>
+        </div>
+        <p class="text-sm text-neutral-400 mb-4">Beautiful, consistent icon set with 1.5px stroke width. Feather icons fork.</p>
+        <div class="text-xs text-neutral-500">
+          <span class="font-medium text-neutral-400">Why:</span> Clean aesthetic, easy to use, actively maintained.
+        </div>
+      </div>
+
+      <!-- GitHub Pages -->
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-neutral-500/10 flex items-center justify-center">
+            <i data-lucide="github" class="w-5 h-5 text-neutral-400"></i>
+          </div>
+          <h3 class="text-lg font-medium text-white">GitHub Pages</h3>
+        </div>
+        <p class="text-sm text-neutral-400 mb-4">Free static hosting with automatic deployment from main branch. Global CDN.</p>
+        <div class="text-xs text-neutral-500">
+          <span class="font-medium text-neutral-400">Why:</span> Zero cost, seamless git integration, reliable uptime.
+        </div>
+      </div>
+
+      <!-- Google Cloud -->
+      <div class="card p-6">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-10 h-10 rounded-lg bg-blue-500/10 flex items-center justify-center">
+            <i data-lucide="cloud" class="w-5 h-5 text-blue-400"></i>
+          </div>
+          <h3 class="text-lg font-medium text-white">Google Cloud Storage</h3>
+        </div>
+        <p class="text-sm text-neutral-400 mb-4">Video hosting for award highlights. Avoids GitHub's 100MB file limit.</p>
+        <div class="text-xs text-neutral-500">
+          <span class="font-medium text-neutral-400">Why:</span> Scalable, cost-effective for media, global edge caching.
+        </div>
+      </div>
+    </div>
+
+    <!-- Performance -->
+    <div id="performance" class="mt-16">
+      <h3 class="text-xl font-medium mb-6 flex items-center gap-2">
+        <i data-lucide="zap" class="w-5 h-5 text-amber-400"></i>
+        Performance Optimizations
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
+          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
+          <div>
+            <p class="font-medium text-sm">Lazy loading via IntersectionObserver</p>
+            <p class="text-xs text-neutral-500 mt-1">Components and images load only when approaching viewport (300px rootMargin)</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
+          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
+          <div>
+            <p class="font-medium text-sm">WebP image format</p>
+            <p class="text-xs text-neutral-500 mt-1">Up to 94% size reduction compared to PNG (e.g., metaproject image: 2.9MB → 180KB)</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
+          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
+          <div>
+            <p class="font-medium text-sm">Skeleton placeholders</p>
+            <p class="text-xs text-neutral-500 mt-1">Animated loading states prevent layout shift during component loading</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
+          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
+          <div>
+            <p class="font-medium text-sm">Fixed aspect ratios</p>
+            <p class="text-xs text-neutral-500 mt-1">CLS optimization with predefined dimensions for images and containers</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
+          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
+          <div>
+            <p class="font-medium text-sm">DNS prefetch & preconnect</p>
+            <p class="text-xs text-neutral-500 mt-1">Early connection hints for Google Fonts, CDNs, and external resources</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3 p-4 rounded-lg border border-white/5 bg-neutral-900/20">
+          <i data-lucide="check" class="w-5 h-5 text-green-400 mt-0.5"></i>
+          <div>
+            <p class="font-medium text-sm">Critical CSS inline</p>
+            <p class="text-xs text-neutral-500 mt-1">Above-the-fold styles inlined in HTML, non-critical loaded async</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
