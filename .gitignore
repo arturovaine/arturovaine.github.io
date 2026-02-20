@@ -94,3 +94,8 @@ src/assets/videos/
 # src/assets/thumbs/*.gif
 
 .vercel
+
+# Test outputs
+test-results/
+playwright-report/
+playwright/.cache/
