@@ -250,6 +250,57 @@ body.light-theme #architecture div span[style*="#facc15"] { color: #a16207 !impo
 body.light-theme #architecture div span[style*="#9ca3af"] { color: #525252 !important; }
 body.light-theme #architecture div span[style*="#71717a"] { color: #737373 !important; }
 
+/* Performance detail panel - light panel, dark code blocks */
+body.light-theme #perf-detail {
+  background-color: #f5f5f5 !important;
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+body.light-theme #perf-detail-category {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  color: #525252 !important;
+}
+body.light-theme #perf-detail-title { color: #171717 !important; }
+body.light-theme #perf-detail-desc { color: #525252 !important; }
+body.light-theme #perf-detail-close { color: #737373 !important; }
+
+/* Code blocks inside detail - keep dark */
+body.light-theme #perf-detail [class*="bg-neutral-900"] {
+  background-color: #1a1a1a !important;
+}
+body.light-theme #perf-detail pre { color: #a1a1aa !important; }
+
+/* Metrics/badges - darker colors for light bg */
+body.light-theme #perf-detail .text-neutral-500 { color: #737373 !important; }
+body.light-theme #perf-detail .text-neutral-600 { color: #525252 !important; }
+body.light-theme #perf-detail [class*="text-green-4"]:not(pre *) { color: #16a34a !important; }
+body.light-theme #perf-detail [class*="text-red-4"]:not(pre *) { color: #dc2626 !important; }
+body.light-theme #perf-detail [class*="text-amber-3"]:not(pre *) { color: #d97706 !important; }
+body.light-theme #perf-detail [class*="text-blue-3"]:not(pre *) { color: #2563eb !important; }
+body.light-theme #perf-detail [class*="border-green"] { border-color: rgba(22, 163, 74, 0.3) !important; }
+body.light-theme #perf-detail [class*="border-red"] { border-color: rgba(220, 38, 38, 0.3) !important; }
+body.light-theme #perf-detail [class*="border-amber"] { border-color: rgba(217, 119, 6, 0.3) !important; }
+body.light-theme #perf-detail [class*="border-blue"] { border-color: rgba(37, 99, 235, 0.3) !important; }
+body.light-theme #perf-detail [class*="border-neutral"] { border-color: rgba(115, 115, 115, 0.3) !important; }
+body.light-theme #perf-detail [class*="bg-green-500"] { background-color: rgba(22, 163, 74, 0.1) !important; }
+body.light-theme #perf-detail [class*="bg-red-500"] { background-color: rgba(220, 38, 38, 0.1) !important; }
+body.light-theme #perf-detail [class*="bg-amber-500"] { background-color: rgba(217, 119, 6, 0.1) !important; }
+body.light-theme #perf-detail [class*="bg-blue-500"] { background-color: rgba(37, 99, 235, 0.1) !important; }
+body.light-theme #perf-detail [class*="bg-neutral-500"] { background-color: rgba(115, 115, 115, 0.1) !important; }
+
+/* Performance filter buttons */
+body.light-theme .perf-filter.active {
+  background-color: #171717 !important;
+  border-color: #171717 !important;
+  color: #ffffff !important;
+}
+body.light-theme .perf-filter:not(.active) {
+  border-color: rgba(0, 0, 0, 0.15) !important;
+}
+body.light-theme .perf-filter[data-filter="Loading"]:not(.active) { color: #2563eb !important; }
+body.light-theme .perf-filter[data-filter="Assets"]:not(.active) { color: #9333ea !important; }
+body.light-theme .perf-filter[data-filter="Rendering"]:not(.active) { color: #0891b2 !important; }
+body.light-theme .perf-filter[data-filter="CSS"]:not(.active) { color: #ea580c !important; }
+
 /* Table styles */
 body.light-theme table { border-color: rgba(0, 0, 0, 0.1) !important; }
 body.light-theme th { color: #171717 !important; }
