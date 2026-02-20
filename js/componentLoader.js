@@ -3,6 +3,7 @@ export const ComponentLoader = {
   criticalComponents: ['hero', 'hero-cards'],
   lazyComponents: [
     'work',
+    'metaproject',
     'experience',
     'awards',
     'award-highlights',
