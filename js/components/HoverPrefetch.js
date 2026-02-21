@@ -33,7 +33,7 @@ export const HoverPrefetch = {
       if (response.ok) {
         const html = await response.text();
         this.prefetchedComponents.set(componentName, html);
-        console.log(`✓ Prefetched: ${componentName}`);
+        // console.log(`✓ Prefetched: ${componentName}`);
       }
     } catch (error) {
       console.warn(`Prefetch failed for ${componentName}:`, error);

@@ -34,7 +34,7 @@ export const LazyLoader = {
 
     try {
       element.classList.remove('component-loading');
-      console.log(`✓ Lazy loaded: ${componentName}`);
+      // console.log(`✓ Lazy loaded: ${componentName}`);
       this.observer.unobserve(element);
     } catch (error) {
       console.error(`Error lazy loading ${componentName}:`, error);

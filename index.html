@@ -9,6 +9,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://arturovaine.github.io/src/assets/images/pxart/pxArt.png">
     <link rel="canonical" href="https://arturovaine.github.io/">
+    <link rel="icon" href="data:,">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -94,8 +95,8 @@
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
           navigator.serviceWorker.register('/sw.js')
-            .then(reg => console.log('✓ Service Worker registered:', reg.scope))
-            .catch(err => console.log('✗ Service Worker registration failed:', err));
+            .then(reg => {})
+            .catch(err => {});
         });
       }
     </script>
@@ -103,6 +104,6 @@
     <!-- Main Application Script -->
     <script type="module" src="js/main.js"></script>
 
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cfc31ea48ca24abba8d8cc9ad236e54f"}'></script>
+    <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cfc31ea48ca24abba8d8cc9ad236e54f"}'></script> -->
   </body>
 </html>
