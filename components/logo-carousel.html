@@ -1,0 +1,89 @@
+<!-- Logo Carousel -->
+<section class="logo-section">
+  <p class="logo-title">Trusted by organizations</p>
+  <div class="logo-slider" id="logoCarousel">
+    <div class="logo-track" id="logoTrack"></div>
+  </div>
+</section>
+
+<style>
+  .logo-section {
+    padding: 2rem 0;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    overflow: hidden;
+  }
+
+  .logo-title {
+    text-align: center;
+    font-size: 0.875rem;
+    color: rgb(115, 115, 115);
+    margin-bottom: 1.5rem;
+  }
+
+  .logo-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  }
+
+  .logo-track {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    width: max-content;
+  }
+
+  .logo-track a,
+  .logo-track a:hover,
+  body.light-theme .logo-track a,
+  body.light-theme .logo-track a:hover {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    background: transparent !important;
+    background-color: transparent !important;
+    text-decoration: none;
+  }
+
+  .logo-track img {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%) brightness(0.6);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .logo-track img:hover {
+    filter: grayscale(0%) brightness(1);
+    opacity: 1;
+  }
+
+  body.light-theme .logo-track img {
+    filter: grayscale(100%) brightness(0.5);
+  }
+
+  body.light-theme .logo-track img:hover {
+    filter: grayscale(0%) brightness(1);
+    opacity: 1;
+  }
+
+  body.light-theme .logo-section {
+    border-color: rgba(0,0,0,0.05);
+  }
+
+  .logo-slider:hover .logo-track {
+    animation-play-state: paused;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .logo-track {
+      animation: none !important;
+    }
+  }
+</style>
