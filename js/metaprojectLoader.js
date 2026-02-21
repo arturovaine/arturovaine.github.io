@@ -170,9 +170,13 @@ export const MetaprojectLoader = {
       }
 
       detail.classList.remove('hidden');
-      // Trigger reflow
+      // Temporarily remove maxHeight to measure true content height
+      detail.style.maxHeight = 'none';
+      const contentHeight = detail.scrollHeight;
+      detail.style.maxHeight = '0';
+      // Trigger reflow then animate to measured height
       detail.offsetHeight;
-      detail.style.maxHeight = '800px';
+      detail.style.maxHeight = contentHeight + 'px';
       detail.style.opacity = '1';
 
       // Highlight active item
