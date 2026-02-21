@@ -10,6 +10,7 @@ import { TetoCarousel } from './components/TetoCarousel.js';
 import { HoverPrefetch } from './components/HoverPrefetch.js';
 import { LazyLoader } from './components/LazyLoader.js';
 import { ProjectModal } from './components/ProjectModal.js';
+import { LogoCarousel } from './components/LogoCarousel.js';
 import { HeroCardRenderer } from './renderers/HeroCardRenderer.js';
 import { ProjectRenderer } from './renderers/ProjectRenderer.js';
 import { AwardRenderer } from './renderers/AwardRenderer.js';
@@ -64,6 +65,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   ThemeManager.init();
   MobileMenu.init();
   StylingManager.init();
+  LogoCarousel.init();
 
   const currentYear = new Date().getFullYear();
   const yearElement = document.getElementById('year');

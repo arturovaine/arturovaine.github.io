@@ -1,6 +1,6 @@
 export const ComponentLoader = {
   headerComponents: ['backdrop', 'header'],
-  criticalComponents: ['hero', 'hero-cards'],
+  criticalComponents: ['hero', 'logo-carousel', 'hero-cards'],
   lazyComponents: [
     'work',
     'metaproject',
