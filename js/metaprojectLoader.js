@@ -1,5 +1,5 @@
 import { ThemeManager } from './components/ThemeManager.js';
-import { perfTemplates } from './perfTemplates.js';
+import { perfTemplates } from './perfTemplates/index.js';
 
 export const MetaprojectLoader = {
   components: [
@@ -172,7 +172,7 @@ export const MetaprojectLoader = {
       detail.classList.remove('hidden');
       // Trigger reflow
       detail.offsetHeight;
-      detail.style.maxHeight = '400px';
+      detail.style.maxHeight = '800px';
       detail.style.opacity = '1';
 
       // Highlight active item
