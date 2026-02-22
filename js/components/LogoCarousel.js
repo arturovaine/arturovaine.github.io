@@ -7,7 +7,9 @@ export const LogoCarousel = {
     { src: 'src/assets/images/logos/brg.png', alt: 'BRG', url: 'https://brggeradores.com.br/' },
     { src: 'src/assets/images/logos/meros.png', alt: 'Meros', url: 'https://merosdobrasil.org/' },
     { src: 'src/assets/images/logos/accef.png', alt: 'ACCEF', url: 'https://instituicaoaccef.com.br/' },
-    { src: 'src/assets/images/logos/icoop-logo.png', alt: 'iCoop', url: 'https://icoop.com.br/' }
+    { src: 'src/assets/images/logos/icoop-logo.png', alt: 'iCoop', url: 'https://icoop.com.br/' },
+    { src: 'src/assets/images/logos/tristel-logo.png', alt: 'Tristel', url: 'https://tristel.com/' },
+    { src: 'src/assets/images/logos/authentic-trails-logo.svg', alt: 'Authentic Trails', url: 'https://www.authentictrails.com/' }
   ],
 
   init() {
