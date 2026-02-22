@@ -8,8 +8,15 @@ export const LogoCarousel = {
     { src: 'src/assets/images/logos/meros.png', alt: 'Meros', url: 'https://merosdobrasil.org/' },
     { src: 'src/assets/images/logos/accef.png', alt: 'ACCEF', url: 'https://instituicaoaccef.com.br/' },
     { src: 'src/assets/images/logos/icoop-logo.png', alt: 'iCoop', url: 'https://icoop.com.br/' },
-    { src: 'src/assets/images/logos/tristel-logo.png', alt: 'Tristel', url: 'https://tristel.com/' },
-    { src: 'src/assets/images/logos/authentic-trails-logo.svg', alt: 'Authentic Trails', url: 'https://www.authentictrails.com/' }
+    { src: 'src/assets/images/logos/lar-logo.svg', alt: 'LAR', url: 'https://www.lar.ind.br/' },
+    { src: 'src/assets/images/logos/copacol-logo.png', alt: 'Copacol', url: 'https://www.copacol.com.br/' },
+    { src: 'src/assets/images/logos/inovativa-logo.png', alt: 'Inovativa', url: 'https://www.inovativa.online/' },
+    { src: 'src/assets/images/logos/rae-logo-dark.webp', srcLight: 'src/assets/images/logos/rae-logo-light.webp', alt: 'RAE', url: 'https://raeng.org.uk/programmes-and-prizes/programmes/international-programmes/lif/' },
+    { src: 'src/assets/images/logos/fundacao-araucaria-logo.png', alt: 'Fundação Araucária', url: 'https://www.fappr.pr.gov.br/' },
+    { src: 'src/assets/images/logos/certi-logo.png', alt: 'CERTI', url: 'https://certi.org.br/' }
+    // { src: 'src/assets/images/logos/tristel-logo.png', alt: 'Tristel', url: 'https://tristel.com/' },
+    // { src: 'src/assets/images/logos/authentic-trails-logo.svg', alt: 'Authentic Trails', url: 'https://www.authentictrails.com/' },
+    // { src: 'src/assets/images/logos/cork-supply-logo.png', alt: 'Cork Supply', url: 'https://corksupply.com/us' }
   ],
 
   init() {
