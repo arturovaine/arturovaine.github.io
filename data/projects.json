@@ -122,7 +122,7 @@
     "description": "AI-powered cognitive bias analyzer with interactive D3.js visualization",
     "image": "./src/assets/thumbs/bias-reflector.png",
     "alt": "Bias Reflector cognitive bias visualization",
-    "url": null,
+    "url": "https://bias-reflector.vercel.app/",
     "category": "engineering experiment",
     "tags": ["AI", "D3.js", "React"],
     "modal": {
