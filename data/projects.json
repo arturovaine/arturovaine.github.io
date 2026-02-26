@@ -1,5 +1,29 @@
 [
   {
+    "id": "real-estate-intelligence",
+    "title": "Real Estate Intelligence",
+    "description": "3D urban modeling platform for real estate market analysis and geospatial insights",
+    "image": "./src/assets/thumbs/real-estate-intelligence.png",
+    "alt": "3D urban visualization for real estate intelligence",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["GIS", "3D Visualization", "Real Estate"],
+    "modal": {
+      "subtitle": "Geospatial Real Estate Analytics",
+      "fullDescription": "A 3D urban modeling platform designed for real estate market intelligence. The system renders detailed city-scale building models with height, density, and land-use data to support investment decisions, market comparisons, and urban development insights.",
+      "features": [
+        "3D city visualization with building footprints and volumetric modeling",
+        "Property density and land-use classification analysis",
+        "Geospatial data integration for market intelligence",
+        "Urban infrastructure and accessibility mapping",
+        "Interactive exploration of neighborhoods and districts",
+        "Data-driven insights for investment decisions"
+      ],
+      "techStack": ["Python", "GIS", "3D Visualization", "Geospatial Analytics"],
+      "status": "In Development"
+    }
+  },
+  {
     "id": "energy-bill-extractor",
     "title": "Energy Bill Data Extractor",
     "description": "CLI tool for extracting structured data from Brazilian energy bills using LLM with schema validation and guardrails",
