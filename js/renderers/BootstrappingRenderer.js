@@ -80,7 +80,7 @@ export const BootstrappingRenderer = {
 
   renderModelViewer(modelViewer) {
     if (!modelViewer) return '';
-    const t = this.translations ? this.translations[this.currentLang].bootstrapping.modelViewer : {
+    const t = this.translations ? this.translations[this.currentLang].sections.bootstrapping.modelViewer : {
       title: 'Interactive 3D Viewer',
       description: 'CAD model designed in SolidWorks, rendered using Three.js. Drag to rotate, scroll to zoom.',
       viewOnBehance: 'View on Behance'
