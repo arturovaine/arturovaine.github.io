@@ -1,6 +1,7 @@
 export const BootstrappingRenderer = {
   loaded: false,
   currentLang: 'en',
+  translations: null,
 
   init() {
     const container = document.getElementById('bootstrapping-content');
@@ -29,6 +30,12 @@ export const BootstrappingRenderer = {
 
   async loadAndRender(container) {
     try {
+      // Load translations if not loaded
+      if (!this.translations) {
+        const translationsRes = await fetch('./data/translations.json');
+        this.translations = await translationsRes.json();
+      }
+
       const bootstrappingFile = this.currentLang === 'pt' ? './data/bootstrapping-pt.json' : './data/bootstrapping.json';
       const response = await fetch(bootstrappingFile);
       const data = await response.json();
@@ -73,6 +80,11 @@ export const BootstrappingRenderer = {
 
   renderModelViewer(modelViewer) {
     if (!modelViewer) return '';
+    const t = this.translations ? this.translations[this.currentLang].bootstrapping.modelViewer : {
+      title: 'Interactive 3D Viewer',
+      description: 'CAD model designed in SolidWorks, rendered using Three.js. Drag to rotate, scroll to zoom.',
+      viewOnBehance: 'View on Behance'
+    };
     return `
       <div class="relative">
         <div class="absolute -inset-1 rounded-xl bg-gradient-to-tr from-emerald-500/10 via-blue-500/5 to-emerald-500/10 blur-3xl opacity-30"></div>
@@ -100,13 +112,13 @@ export const BootstrappingRenderer = {
               <div class="flex items-start gap-2">
                 <i data-lucide="info" class="w-4 h-4 mt-0.5 text-neutral-400"></i>
                 <div>
-                  <p class="text-sm text-neutral-300">Interactive 3D Viewer</p>
-                  <p class="text-xs text-neutral-500 mt-0.5">CAD model designed in SolidWorks, rendered using Three.js. Drag to rotate, scroll to zoom.</p>
+                  <p class="text-sm text-neutral-300">${t.title}</p>
+                  <p class="text-xs text-neutral-500 mt-0.5">${t.description}</p>
                 </div>
               </div>
               <a href="${modelViewer.behanceUrl}" target="_blank" rel="noopener" class="inline-flex items-center gap-2 rounded-md border border-white/10 bg-white/[0.02] px-3 py-2 text-sm text-neutral-200 hover:bg-white/[0.05] outline-none focus-visible:ring-2 focus-visible:ring-white/20">
                 <i data-lucide="external-link" class="w-4 h-4"></i>
-                View on Behance
+                ${t.viewOnBehance}
               </a>
             </div>
           </div>
