@@ -1,5 +1,29 @@
 [
   {
+    "id": "social-economic-survey",
+    "title": "Social Economic Survey App",
+    "description": "Socio-economic data collection platform for field surveys and research in Brazilian communities",
+    "image": "./src/assets/thumbs/social-economic-survey.png",
+    "alt": "Social Economic Survey App dashboard",
+    "url": "https://github.com/arturovaine/social-economic-survey-app",
+    "category": "engineering",
+    "tags": ["Mobile", "Firebase", "Flutter", "Survey"],
+    "modal": {
+      "subtitle": "Field Survey Platform for Social Research",
+      "fullDescription": "A comprehensive socio-economic data collection platform designed for field surveys and research in Brazilian communities. Built with modern mobile technologies for offline-first data gathering, real-time synchronization, and actionable analytics. Supports researchers, NGOs, and government agencies in conducting household surveys, collecting demographic and economic data, and generating insights for social programs and policy-making.",
+      "features": [
+        "Offline-first field data collection with photos, GPS coordinates, and audio notes",
+        "10 specialized dashboards for real-time analytics and insights",
+        "Multi-platform support (iOS, Android, Web)",
+        "Dual implementation: React Native (Expo) and Flutter",
+        "Firebase backend with Firestore, Storage, and Authentication",
+        "Brazilian context: income ranges, poverty line calculations, pt-BR language"
+      ],
+      "techStack": ["Flutter", "React Native", "Firebase", "TypeScript", "Dart", "Firestore"],
+      "status": "In Development"
+    }
+  },
+  {
     "id": "real-estate-intelligence",
     "title": "Real Estate Intelligence",
     "description": "3D urban modeling platform for real estate market analysis and geospatial insights",
@@ -174,9 +198,17 @@
     "tags": ["Extension", "Automation", "Research"],
     "modal": {
       "subtitle": "Company Due Diligence Automation",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "A proof-of-concept Chrome extension that automates brief due diligence using OpenAI API. Analyzes companies and generates structured JSON reports covering five critical risk categories: financial, legal, executive, reputational, and regulatory. The extension synthesizes a 1-5 risk score based on comprehensive analysis of corporate data, enabling quick assessment of potential business partners or investment opportunities.",
+      "features": [
+        "AI-powered company analysis with structured JSON output",
+        "Five-category risk assessment: financial, legal, executive, reputational, regulatory",
+        "1-5 risk scoring system with contextual evaluation",
+        "Secure API key storage in Chrome local storage",
+        "JSON export for integration with other tools",
+        "Privacy-focused: runs fully in browser with no external data transmission",
+        "Planned: Multi-API support, real-time research, batch CSV analysis, Google Sheets integration"
+      ],
+      "techStack": ["JavaScript", "Chrome Extensions API", "OpenAI API", "HTML", "CSS"],
       "status": "Open Source"
     }
   },
@@ -191,9 +223,17 @@
     "tags": ["Airflow", "ETL", "PostgreSQL"],
     "modal": {
       "subtitle": "Data Pipeline Automation",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "A fully containerized data pipeline using Apache Airflow to scrape quotes from the web, transform the data, and load it into a PostgreSQL database. The entire setup can be initialized with a single shell script, demonstrating modern ETL best practices with Docker orchestration. Features web-based DAG management and monitoring through Airflow's UI.",
+      "features": [
+        "Automated web scraping with BeautifulSoup",
+        "Data transformation and cleaning pipeline",
+        "PostgreSQL database loading with timestamps",
+        "Complete Docker containerization via Docker Compose",
+        "Airflow web UI for DAG management and monitoring",
+        "Single-command setup and deployment",
+        "Structured data extraction: quotes, authors, tags, timestamps"
+      ],
+      "techStack": ["Python", "Apache Airflow", "PostgreSQL", "Docker", "BeautifulSoup", "Docker Compose"],
       "status": "Open Source"
     }
   },
@@ -208,9 +248,17 @@
     "tags": ["PIM", "E-commerce", "Platform"],
     "modal": {
       "subtitle": "Product Information Management",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "A comprehensive Product Information Management (PIM) platform designed to centralize, enrich, and distribute product data across multiple e-commerce channels. Built with a modern microservices architecture using Go for high-performance backend operations and PostgreSQL for reliable data persistence. The platform enables efficient product catalog management, multi-channel distribution, and data quality control for e-commerce operations.",
+      "features": [
+        "Centralized product catalog management",
+        "Multi-channel product data distribution",
+        "Product attribute and specification management",
+        "Image and digital asset management",
+        "Data quality validation and enrichment",
+        "RESTful API for system integrations",
+        "Dockerized deployment for scalability"
+      ],
+      "techStack": ["Go", "PostgreSQL", "Docker", "Nginx", "Docker Compose"],
       "status": "In Development"
     }
   },
@@ -225,9 +273,16 @@
     "tags": ["Landing Page", "Video BG", "Corporate"],
     "modal": {
       "subtitle": "Corporate Landing Page",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "A contemporary web application designed as an engaging homepage with integrated authentication, featuring a full-screen video backdrop for corporate website deployment. Built with modern React development practices and optimized with Vite for rapid development cycles. The project emphasizes modularity through reusable components while creating an immersive visual experience with video backgrounds.",
+      "features": [
+        "Full-screen corporate video background integration",
+        "Authentication sidebar with login interface",
+        "Component-based React architecture for modularity",
+        "Optimized build process via Vite",
+        "Responsive design for multiple screen sizes",
+        "Modern UI patterns for corporate applications"
+      ],
+      "techStack": ["React", "Vite", "JavaScript", "CSS", "HTML"],
       "status": "Open Source"
     }
   },
@@ -242,9 +297,17 @@
     "tags": ["E-commerce", "ERP", "Integration"],
     "modal": {
       "subtitle": "Enterprise E-commerce Integration",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "Enterprise-grade integration layer connecting multiple ERP systems with VTEX e-commerce platform APIs. Developed for the Brazilian agricultural commerce sector, this integration enables seamless data synchronization between legacy ERP systems and modern e-commerce infrastructure. Handles product catalogs, inventory management, order processing, and customer data across distributed systems while maintaining data consistency and real-time updates.",
+      "features": [
+        "Multi-ERP system integration with VTEX platform",
+        "Real-time product catalog and inventory synchronization",
+        "Automated order processing and fulfillment",
+        "Customer data management across systems",
+        "Error handling and data validation",
+        "Scalable architecture for high-volume transactions",
+        "Production deployment for agricultural B2B commerce"
+      ],
+      "techStack": ["VTEX APIs", "ERP Integration", "REST APIs", "Node.js", "Data Synchronization"],
       "status": "Production"
     }
   },
@@ -282,9 +345,18 @@
     "tags": ["CRUD", "Full-Stack", "Backoffice"],
     "modal": {
       "subtitle": "E-commerce Backoffice System",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "A full-stack CRUD application built in a monorepo configuration for managing e-commerce entities through REST APIs and a React interface. Implements complete Create, Read, Update, and Delete operations on predefined database tables with DDL definitions. Features JWT authentication, rate limiting for security, and comprehensive API documentation via Swagger. Demonstrates modern web application architecture with separation of concerns and security best practices.",
+      "features": [
+        "Complete CRUD operations for e-commerce entities",
+        "JWT-based authentication with Bearer tokens",
+        "Rate limiting for API security",
+        "Swagger/OpenAPI documentation",
+        "React frontend with clean UI",
+        "MySQL database with predefined DDL schemas",
+        "Postman/Insomnia collection for API testing",
+        "Monorepo structure for frontend and backend"
+      ],
+      "techStack": ["Node.js", "Fastify", "React", "MySQL", "JWT", "Swagger", "CSS"],
       "status": "Open Source"
     }
   },
@@ -299,9 +371,17 @@
     "tags": ["Three.js", "3D", "Animation"],
     "modal": {
       "subtitle": "3D Fire Simulation Experiment",
-      "fullDescription": "",
-      "features": [],
-      "techStack": [],
+      "fullDescription": "A community-driven playground showcasing various implementations of the classic DOOM fire effect algorithm. This experimental project features 60+ distinct implementations demonstrating different rendering methods, cross-platform approaches, and creative variations of the iconic fire animation. The repository serves as a collaborative space for developers to experiment with and contribute different technical approaches to recreating this retro visual effect using modern web technologies.",
+      "features": [
+        "60+ implementations of DOOM fire algorithm",
+        "Multiple rendering methods: Canvas, WebGL, Three.js, PixiJS",
+        "Cross-platform implementations: web, mobile, terminal, embedded",
+        "Interactive controls: wind simulation, color customization, particle effects",
+        "Various frameworks: React, Flutter, Unity, Godot, Love2D",
+        "GPU acceleration and WebAssembly variants",
+        "Open-source contributions encouraged with MIT license"
+      ],
+      "techStack": ["JavaScript", "Three.js", "Canvas", "WebGL", "HTML"],
       "status": "Open Source"
     }
   }
