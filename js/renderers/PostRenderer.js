@@ -1,10 +1,13 @@
 export const PostRenderer = {
   posts: [],
   loaded: false,
+  currentLang: 'en',
 
   init() {
     const container = document.getElementById('posts-grid');
     if (!container) return;
+
+    this.currentLang = localStorage.getItem('language') || 'en';
 
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !this.loaded) {
@@ -15,15 +18,30 @@ export const PostRenderer = {
     }, { rootMargin: '200px' });
 
     observer.observe(container);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      if (this.loaded) {
+        this.loadAndRender(container);
+      }
+    });
   },
 
   async loadAndRender(container) {
     try {
-      const response = await fetch('./data/posts.json');
+      const postsFile = this.currentLang === 'pt' ? './data/posts-pt.json' : './data/posts.json';
+      const response = await fetch(postsFile);
       this.posts = await response.json();
       this.render(container);
     } catch (error) {
       console.error('Failed to load posts:', error);
+      // Fallback to English if PT file doesn't exist
+      if (this.currentLang === 'pt') {
+        const response = await fetch('./data/posts.json');
+        this.posts = await response.json();
+        this.render(container);
+      }
     }
   },
 
