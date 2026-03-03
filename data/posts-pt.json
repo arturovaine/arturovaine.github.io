@@ -1,7 +1,7 @@
 [
   {
     "id": "airflow-scraper",
-    "title": "DYA como DAGs: Construa um Scraper com Apache Airflow e Docker",
+    "title": "D'YA like DAGs: Construa um Scraper com Apache Airflow e Docker",
     "description": "Aprenda como construir um web scraper usando DAGs do Apache Airflow e containerização Docker.",
     "image": "./src/assets/images/airflow-dag.gif",
     "alt": "Visualização de DAG do Apache Airflow",
