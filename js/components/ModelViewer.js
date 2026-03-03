@@ -9,6 +9,7 @@ export const ModelViewer = {
   material: null,
   isUserInteracting: false,
   autoRotationEnabled: true,
+  isInitialized: false,
 
   async init() {
     this.container = document.getElementById('model-viewer-container');
@@ -16,12 +17,16 @@ export const ModelViewer = {
 
     if (!this.container) return;
 
+    // Prevent re-initialization if already initialized
+    if (this.isInitialized) return;
+
     try {
       await this.loadThreeJS();
       await this.setupScene();
       await this.loadModel();
       this.setupResize();
       this.updateTheme();
+      this.isInitialized = true;
     } catch (error) {
       console.error('Failed to load Three.js:', error);
       if (this.loadingIndicator) {
