@@ -19,11 +19,13 @@
       <div class="flex items-center gap-2">
         <a href="./src/assets/CV_ArturoVaine.pdf" target="_blank" rel="noopener" id="cv-btn" style="min-width: 32px; max-width: 32px; min-height: 32px; max-height: 32px; border-radius: 50% !important; font-size: 10px; font-weight: 700;" class="flex items-center justify-center bg-neutral-800 border border-white/5 transition-all" aria-label="View CV">CV</a>
         <div class="flex items-center gap-1">
-          <button type="button" id="langEN" class="btn btn-ghost btn-icon language-toggle active" data-lang="en" aria-label="English" title="English">
+          <button type="button" id="langEN" class="btn btn-ghost btn-icon language-toggle active relative group" data-lang="en" aria-label="English">
             <span class="text-base">🇺🇸</span>
+            <span class="absolute -bottom-10 left-1/2 -translate-x-1/2 px-2 py-1 bg-neutral-800 border border-white/10 rounded text-xs text-white whitespace-nowrap opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none">English</span>
           </button>
-          <button type="button" id="langPT" class="btn btn-ghost btn-icon language-toggle" data-lang="pt" aria-label="Português" title="Português">
+          <button type="button" id="langPT" class="btn btn-ghost btn-icon language-toggle relative group" data-lang="pt" aria-label="Português">
             <span class="text-base">🇧🇷</span>
+            <span class="absolute -bottom-10 left-1/2 -translate-x-1/2 px-2 py-1 bg-neutral-800 border border-white/10 rounded text-xs text-white whitespace-nowrap opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none">Português</span>
           </button>
         </div>
         <button type="button" id="themeToggle" class="btn btn-ghost btn-icon" aria-label="Toggle theme">
