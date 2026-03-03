@@ -1,0 +1,63 @@
+{
+  "title": "Bootstrapping",
+  "description": "Projetos de hardware autofinanciados construídos com recursos externos mínimos, apoiando-se em tecnologias de manufatura acessíveis como impressão 3D para abordar desafios reais de acessibilidade. Essas iniciativas demonstram o potencial da cultura maker e prototipagem rápida para criar soluções impactantes de forma independente.",
+  "infoBox": "<strong>Bootstrapping</strong> refere-se a empreendimentos auto-inicializados que crescem sem financiamento externo significativo, construindo soluções através de engenhosidade, desenvolvimento iterativo e aproveitamento de ferramentas de custo-benefício para validar conceitos e alcançar early adopters.",
+  "projects": [
+    {
+      "id": "bionic-hand",
+      "title": "Mão Biônica 3D",
+      "subtitle": "Design conceitual para modelo de prótese de membro superior (TRL-5)",
+      "heroImage": "./src/assets/images/prosthesis-project.webp",
+      "heroImageAlt": "Apresentação da equipe do projeto de prótese",
+      "background": [
+        "Este design conceitual representa uma prótese de membro superior desenvolvida durante um projeto de pesquisa focado em criar soluções acessíveis impressas em 3D para pessoas com deficiência.",
+        "O projeto alcançou o Nível de Prontidão Tecnológica 5 (TRL-5), demonstrando validação de componentes e/ou breadboard em ambiente relevante."
+      ],
+      "links": [
+        {
+          "icon": "newspaper",
+          "text": "Ler Release na Mídia (Pequenas Empresas & Grandes Negócios)",
+          "url": "https://revistapegn.globo.com/Startups/noticia/2019/08/startup-do-parana-cria-protese-com-movimentos-partir-de-impressao-3d.html"
+        }
+      ],
+      "features": [
+        "Componentes impressos em 3D para manufatura de baixo custo",
+        "Design modular para customização e reparos",
+        "Projetado em SolidWorks com mecânica funcional"
+      ],
+      "modelViewer": {
+        "fileName": "bionic-hand.stl",
+        "behanceUrl": "https://www.behance.net/gallery/70813139/Bionic-Hand-(2018)"
+      }
+    },
+    {
+      "id": "medication-aid",
+      "title": "Auxílio para Manuseio de Medicamentos",
+      "subtitle": "Dispositivo assistivo para pessoas com deficiência visual",
+      "background": [
+        "Um dispositivo especializado projetado para auxiliar pessoas com deficiência visual no manuseio seguro de seringas e frascos de medicamentos. Esta solução focada em acessibilidade aborda um desafio diário crítico enfrentado por indivíduos com deficiências visuais que requerem administração regular de medicamentos, particularmente para condições como diabetes que requerem dosagem precisa de insulina.",
+        "Para pessoas com deficiência visual e diabetes, gerenciar injeções de insulina de forma independente pode ser extremamente desafiador e potencialmente perigoso. O dispositivo fornece orientação tátil e posicionamento seguro para permitir gerenciamento independente de medicamentos com maior segurança e confiança, reduzindo a dependência de cuidadores enquanto mantém a dosagem precisa."
+      ],
+      "features": [
+        "Sistema de orientação tátil para posicionamento seguro de seringas",
+        "Mecanismo de estabilização segura do frasco",
+        "Design ergonômico impresso em 3D para acessibilidade",
+        "Design centrado no usuário baseado em pesquisa de acessibilidade"
+      ],
+      "media": [
+        {
+          "image": "./src/assets/images/dose-device.jpg",
+          "alt": "Dispositivo de auxílio para manuseio de medicamentos para deficientes visuais",
+          "caption": "Protótipo do dispositivo assistivo",
+          "captionIcon": "accessibility"
+        },
+        {
+          "image": "./src/assets/images/dose-device-press-release.jpg",
+          "alt": "Cobertura de imprensa do dispositivo de auxílio para medicamentos",
+          "caption": "Cobertura na mídia",
+          "captionIcon": "newspaper"
+        }
+      ]
+    }
+  ]
+}
