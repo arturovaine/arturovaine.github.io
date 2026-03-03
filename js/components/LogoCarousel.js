@@ -19,7 +19,25 @@ export const LogoCarousel = {
     // { src: 'src/assets/images/logos/cork-supply-logo.png', alt: 'Cork Supply', url: 'https://corksupply.com/us' }
   ],
 
-  init() {
+  translations: null,
+  currentLang: 'en',
+
+  async init() {
+    // Load translations for title
+    this.currentLang = localStorage.getItem('language') || 'en';
+    try {
+      const response = await fetch('./data/translations.json');
+      this.translations = await response.json();
+      this.updateTitle();
+
+      // Listen for language changes
+      window.addEventListener('languageChanged', (event) => {
+        this.currentLang = event.detail.language;
+        this.updateTitle();
+      });
+    } catch (error) {
+      console.error('Failed to load logo carousel translations:', error);
+    }
     const track = document.getElementById('logoTrack');
     if (!track) return;
 
@@ -94,5 +112,14 @@ export const LogoCarousel = {
         requestAnimationFrame(animate);
       }, 200);
     });
+  },
+
+  updateTitle() {
+    if (!this.translations) return;
+
+    const titleElement = document.querySelector('.logo-title');
+    if (titleElement) {
+      titleElement.textContent = this.translations[this.currentLang].logoCarousel.title;
+    }
   }
 };
