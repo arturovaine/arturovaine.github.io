@@ -24,6 +24,7 @@ import { BootstrappingRenderer } from './renderers/BootstrappingRenderer.js';
 import { NavigationRenderer } from './renderers/NavigationRenderer.js';
 import { WorkSectionRenderer } from './renderers/WorkSectionRenderer.js';
 import { SectionsRenderer } from './renderers/SectionsRenderer.js';
+import { MetaprojectRenderer } from './renderers/MetaprojectRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
 import { ScrollToTop } from './components/ScrollToTop.js';
 
@@ -77,6 +78,9 @@ const componentInitializers = {
   'artworks': () => {
     ArtworkRenderer.init();
     SectionsRenderer.init();
+  },
+  'metaproject': () => {
+    MetaprojectRenderer.init();
   }
 };
 
