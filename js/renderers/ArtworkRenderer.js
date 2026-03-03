@@ -1,10 +1,13 @@
 export const ArtworkRenderer = {
   artworks: [],
   loaded: false,
+  currentLang: 'en',
 
   init() {
     const container = document.getElementById('artworks-grid');
     if (!container) return;
+
+    this.currentLang = localStorage.getItem('language') || 'en';
 
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !this.loaded) {
@@ -15,15 +18,30 @@ export const ArtworkRenderer = {
     }, { rootMargin: '200px' });
 
     observer.observe(container);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      if (this.loaded) {
+        this.loadAndRender(container);
+      }
+    });
   },
 
   async loadAndRender(container) {
     try {
-      const response = await fetch('./data/artworks.json');
+      const artworksFile = this.currentLang === 'pt' ? './data/artworks-pt.json' : './data/artworks.json';
+      const response = await fetch(artworksFile);
       this.artworks = await response.json();
       this.render(container);
     } catch (error) {
       console.error('Failed to load artworks:', error);
+      // Fallback to English if PT file doesn't exist
+      if (this.currentLang === 'pt') {
+        const response = await fetch('./data/artworks.json');
+        this.artworks = await response.json();
+        this.render(container);
+      }
     }
   },
 
