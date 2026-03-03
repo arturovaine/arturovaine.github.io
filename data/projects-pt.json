@@ -1,0 +1,388 @@
+[
+  {
+    "id": "social-economic-survey",
+    "title": "App de Pesquisa Socioeconômica",
+    "description": "Plataforma de coleta de dados socioeconômicos para pesquisas de campo em comunidades brasileiras",
+    "image": "./src/assets/thumbs/social-economic-survey.png",
+    "alt": "Dashboard do App de Pesquisa Socioeconômica",
+    "url": "https://github.com/arturovaine/social-economic-survey-app",
+    "category": "engineering",
+    "tags": ["Mobile", "Firebase", "Flutter", "Pesquisa"],
+    "modal": {
+      "subtitle": "Plataforma de Pesquisa de Campo para Pesquisa Social",
+      "fullDescription": "Uma plataforma abrangente de coleta de dados socioeconômicos projetada para pesquisas de campo em comunidades brasileiras. Construída com tecnologias móveis modernas para coleta de dados offline-first, sincronização em tempo real e análises acionáveis. Apoia pesquisadores, ONGs e agências governamentais na condução de pesquisas domiciliares, coleta de dados demográficos e econômicos, e geração de insights para programas sociais e formulação de políticas.",
+      "features": [
+        "Coleta de dados de campo offline-first com fotos, coordenadas GPS e notas de áudio",
+        "10 dashboards especializados para análises e insights em tempo real",
+        "Suporte multiplataforma (iOS, Android, Web)",
+        "Implementação dupla: React Native (Expo) e Flutter",
+        "Backend Firebase com Firestore, Storage e Authentication",
+        "Contexto brasileiro: faixas de renda, cálculos de linha de pobreza, linguagem pt-BR"
+      ],
+      "techStack": ["Flutter", "React Native", "Firebase", "TypeScript", "Dart", "Firestore"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "real-estate-intelligence",
+    "title": "Inteligência Imobiliária",
+    "description": "Plataforma de modelagem urbana 3D para análise de mercado imobiliário e insights geoespaciais",
+    "image": "./src/assets/thumbs/real-estate-intelligence.png",
+    "alt": "Visualização urbana 3D para inteligência imobiliária",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["GIS", "Visualização 3D", "Imóveis"],
+    "modal": {
+      "subtitle": "Análise Geoespacial de Mercado Imobiliário",
+      "fullDescription": "Uma plataforma de modelagem urbana 3D projetada para inteligência de mercado imobiliário. O sistema renderiza modelos detalhados de edificações em escala urbana com dados de altura, densidade e uso do solo para apoiar decisões de investimento, comparações de mercado e insights de desenvolvimento urbano.",
+      "features": [
+        "Visualização 3D de cidades com plantas baixas de edifícios e modelagem volumétrica",
+        "Análise de densidade de propriedades e classificação de uso do solo",
+        "Integração de dados geoespaciais para inteligência de mercado",
+        "Mapeamento de infraestrutura urbana e acessibilidade",
+        "Exploração interativa de bairros e distritos",
+        "Insights baseados em dados para decisões de investimento"
+      ],
+      "techStack": ["Python", "GIS", "Visualização 3D", "Análise Geoespacial"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "energy-bill-extractor",
+    "title": "Extrator de Dados de Contas de Energia",
+    "description": "Ferramenta CLI para extração de dados estruturados de contas de energia brasileiras usando LLM com validação de schema e guardrails",
+    "image": "./src/assets/thumbs/energy-bill-extractor.png",
+    "alt": "CLI Extrator de Dados de Contas de Energia",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["CLI", "LLM", "Extração de Dados"],
+    "modal": {
+      "subtitle": "Processamento Inteligente de Documentos",
+      "fullDescription": "Interface de linha de comando para extração automatizada de dados estruturados de contas de energia brasileiras. Utiliza Modelos de Linguagem de Grande Escala com validação rigorosa de schema e guardrails para analisar documentos complexos de concessionárias em saída JSON limpa e estruturada. Lida com diversos formatos de contas de múltiplas distribuidoras de energia em todo o Brasil.",
+      "features": [
+        "Extração baseada em LLM com schemas de saída estruturados",
+        "Guardrails para validação de dados e tratamento de erros",
+        "Suporte para múltiplas distribuidoras de energia brasileiras",
+        "Interface CLI para processamento em lote e automação",
+        "Saída JSON com mapeamento padronizado de campos",
+        "Trata artefatos de OCR e variações de formatação"
+      ],
+      "techStack": ["Python", "LLM", "Pydantic", "Guardrails", "CLI"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "urban-vulnerability",
+    "title": "Detecção de Vulnerabilidade Urbana",
+    "description": "Aplicação de busca vetorial para identificar áreas urbanas vulneráveis usando dados governamentais e imagens de satélite",
+    "image": "./src/assets/thumbs/urban-vulnerability.png",
+    "alt": "Sistema de Detecção de Vulnerabilidade Urbana",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["IA", "GIS", "Busca Vetorial"],
+    "modal": {
+      "subtitle": "Análise Urbana Baseada em IA",
+      "fullDescription": "Aplicação inovadora de busca vetorial para identificar áreas urbanas vulneráveis usando dados do governo brasileiro, imagens de satélite e técnicas avançadas de IA. Combina dados do Censo 2022 com análise de satélite para detectar padrões de vulnerabilidade em milhares de áreas.",
+      "features": [
+        "12.348+ áreas vulneráveis do Censo 2022 com polígonos reais de shapefile",
+        "Setores demográficos com dados de população e infraestrutura",
+        "Integração com Google Earth Engine com Landsat 8/9 Collection 2",
+        "Índices NDVI, NDBI, LST calculados para cada área",
+        "Análise multiespectral para detecção de padrões de vulnerabilidade",
+        "Dataset público hospedado no Google Cloud Storage"
+      ],
+      "techStack": ["Python", "Google Earth Engine", "Busca Vetorial", "GIS", "Cloud Storage"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "telegram-bot-organizze",
+    "title": "Bot Telegram Organizze",
+    "description": "Bot Telegram com IA para insights de finanças pessoais usando Gemini",
+    "image": "./src/assets/thumbs/telegram-bot-organizze.png",
+    "alt": "Bot Telegram Organizze com insights financeiros de IA",
+    "url": "https://github.com/arturovaine/telegram-bot-organizze",
+    "category": "engineering open-source",
+    "tags": ["Telegram", "IA", "Fintech"],
+    "modal": {
+      "subtitle": "Assistente Financeiro em Linguagem Natural",
+      "fullDescription": "Um bot Telegram que se integra com o Organizze (organizze.com.br), um popular aplicativo brasileiro de finanças pessoais com 87k+ avaliações. Usando Google Gemini AI, fornece insights financeiros em linguagem natural e visualizações. Os usuários podem consultar suas finanças em português conversacional e receber respostas contextuais com gráficos e dashboards. O Organizze gerencia rastreamento de despesas, gestão de contas bancárias e integrações Open Finance com os principais bancos brasileiros.",
+      "features": [
+        "Interface em linguagem natural para consultas financeiras em português",
+        "Análise baseada em IA usando Google Gemini para respostas contextuais",
+        "Dashboards visuais com gráficos de pizza, barras e resumos",
+        "Comandos pré-construídos para consultas comuns como saldo e despesas",
+        "Controle de acesso baseado em whitelist via IDs de Chat do Telegram"
+      ],
+      "techStack": ["Python", "Google Gemini AI", "python-telegram-bot", "Matplotlib", "Docker"],
+      "status": "Código Aberto"
+    }
+  },
+  {
+    "id": "accef-platform",
+    "title": "Plataforma ACCEF",
+    "description": "Plataforma de intranet/backoffice para organização de assistência social",
+    "image": "./src/assets/thumbs/accef-platform.png",
+    "alt": "Sistema backoffice da Plataforma ACCEF",
+    "url": "https://instituicaoaccef.com.br/sobre-nos/",
+    "category": "engineering",
+    "tags": ["Intranet", "Backoffice", "Full-Stack"],
+    "modal": {
+      "subtitle": "Sistema Backoffice para Organização Social",
+      "fullDescription": "Uma plataforma de intranet/backoffice construída para a ACCEF (Associação Centro de Convivência Espaço da Família), uma organização de assistência social. O sistema gerencia voluntários, doadores, cadastro de beneficiários, inventário de ativos, coordenação de programas, gestão financeira e dashboards de relatórios.",
+      "features": [
+        "Cadastro e gestão de beneficiários com rastreamento demográfico",
+        "Módulos de coordenação de voluntários e funcionários",
+        "Inventário de ativos e gestão de empréstimos",
+        "Agendamento de programas e oficinas",
+        "Rastreamento financeiro com gestão de doações",
+        "Dashboards de análise e relatórios"
+      ],
+      "techStack": ["React", "TypeScript", "Node.js", "Firebase", "Firestore"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "n8n-nodes-sklearn",
+    "title": "n8n-nodes-sklearn",
+    "description": "Nodes personalizados do n8n para integrar algoritmos ML do scikit-learn em workflows",
+    "image": "./src/assets/thumbs/n8n-nodes-sklearn.png",
+    "alt": "Pacote npm n8n-nodes-sklearn",
+    "url": "https://www.npmjs.com/package/n8n-nodes-sklearn",
+    "category": "engineering open-source",
+    "tags": ["n8n", "scikit-learn", "ML"],
+    "modal": {
+      "subtitle": "Nodes de Machine Learning para n8n",
+      "fullDescription": "Nodes personalizados do n8n para integrar algoritmos de machine learning do scikit-learn em seus workflows n8n. Este pacote habilita pipelines ML no-code/low-code trazendo os poderosos algoritmos do scikit-learn diretamente para a plataforma de automação n8n.",
+      "features": [
+        "Integração perfeita de algoritmos scikit-learn em workflows n8n",
+        "Suporte para modelos de classificação, regressão e clustering",
+        "Criação de pipelines de machine learning no-code/low-code",
+        "Treinamento e predição de modelos fácil dentro de workflows de automação"
+      ],
+      "techStack": ["n8n", "TypeScript", "scikit-learn", "Python", "npm"],
+      "status": "Código Aberto"
+    }
+  },
+  {
+    "id": "bias-reflector",
+    "title": "Bias Reflector",
+    "description": "Analisador de vieses cognitivos com IA e visualização interativa D3.js",
+    "image": "./src/assets/thumbs/bias-reflector.png",
+    "alt": "Visualização de vieses cognitivos do Bias Reflector",
+    "url": "https://bias-reflector.vercel.app/",
+    "category": "engineering experiment",
+    "tags": ["IA", "D3.js", "React"],
+    "modal": {
+      "subtitle": "Ferramenta de Análise de Vieses Cognitivos",
+      "fullDescription": "Bias Reflector é uma aplicação web sofisticada que analisa conversas para vieses cognitivos usando Gemini AI do Google e os visualiza através de um diagrama interativo de cluster radial D3.js. A ferramenta ajuda usuários a identificar e compreender os 188 vieses cognitivos do framework Cognitive Bias Codex em trocas conversacionais em tempo real.",
+      "features": [
+        "Análise Baseada em IA: Usa Gemini 3 Flash para detectar vieses cognitivos em texto conversacional",
+        "Visualização Interativa: Diagrama de cluster radial D3.js com 188 vieses cognitivos organizados hierarquicamente",
+        "Detecção em Tempo Real: Análise instantânea de conversas bidirecionais com pontuação de confiança",
+        "Ferramenta Educacional: Ajuda usuários a entender padrões de viés e melhorar pensamento crítico",
+        "Design Responsivo: Interface moderna e mobile-friendly construída com React e Tailwind CSS"
+      ],
+      "techStack": ["React", "TypeScript", "D3.js", "Google Gemini AI", "Tailwind CSS"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "dyod",
+    "title": "DYOD",
+    "description": "`Faça Sua Própria Diligência`: Extensão web para automatizar investigações breves",
+    "image": "./src/assets/thumbs/company-risk-extension.png",
+    "alt": "Preview da extensão web DYOD",
+    "url": "https://github.com/arturovaine/company-risk-radar_web-extension",
+    "category": "engineering open-source",
+    "tags": ["Extensão", "Automação", "Pesquisa"],
+    "modal": {
+      "subtitle": "Automação de Due Diligence Corporativa",
+      "fullDescription": "Uma extensão Chrome prova-de-conceito que automatiza due diligence breve usando API OpenAI. Analisa empresas e gera relatórios JSON estruturados cobrindo cinco categorias críticas de risco: financeiro, legal, executivo, reputacional e regulatório. A extensão sintetiza uma pontuação de risco de 1-5 baseada em análise abrangente de dados corporativos, permitindo avaliação rápida de potenciais parceiros de negócios ou oportunidades de investimento.",
+      "features": [
+        "Análise de empresas baseada em IA com saída JSON estruturada",
+        "Avaliação de risco em cinco categorias: financeiro, legal, executivo, reputacional, regulatório",
+        "Sistema de pontuação de risco 1-5 com avaliação contextual",
+        "Armazenamento seguro de chave API no armazenamento local do Chrome",
+        "Exportação JSON para integração com outras ferramentas",
+        "Foco em privacidade: executa totalmente no navegador sem transmissão de dados externa",
+        "Planejado: Suporte multi-API, pesquisa em tempo real, análise batch CSV, integração Google Sheets"
+      ],
+      "techStack": ["JavaScript", "Chrome Extensions API", "OpenAI API", "HTML", "CSS"],
+      "status": "Código Aberto"
+    }
+  },
+  {
+    "id": "airflow-etl",
+    "title": "ETL Web com Airflow",
+    "description": "Pipeline para extrair dados e carregar em banco Postgres",
+    "image": "./src/assets/thumbs/airflow-etl.webp",
+    "alt": "Preview do pipeline ETL Airflow",
+    "url": "https://github.com/arturovaine/airflow-web-scraper-etl",
+    "category": "engineering",
+    "tags": ["Airflow", "ETL", "PostgreSQL"],
+    "modal": {
+      "subtitle": "Automação de Pipeline de Dados",
+      "fullDescription": "Um pipeline de dados totalmente containerizado usando Apache Airflow para extrair citações da web, transformar os dados e carregar em um banco PostgreSQL. Toda a configuração pode ser inicializada com um único script shell, demonstrando melhores práticas modernas de ETL com orquestração Docker. Possui interface web de gerenciamento e monitoramento de DAGs através da UI do Airflow.",
+      "features": [
+        "Web scraping automatizado com BeautifulSoup",
+        "Pipeline de transformação e limpeza de dados",
+        "Carregamento em banco PostgreSQL com timestamps",
+        "Containerização completa via Docker Compose",
+        "Interface web Airflow para gerenciamento e monitoramento de DAGs",
+        "Configuração e deploy com comando único",
+        "Extração de dados estruturados: citações, autores, tags, timestamps"
+      ],
+      "techStack": ["Python", "Apache Airflow", "PostgreSQL", "Docker", "BeautifulSoup", "Docker Compose"],
+      "status": "Código Aberto"
+    }
+  },
+  {
+    "id": "pim",
+    "title": "Gerenciador de Info de Produtos",
+    "description": "Plataforma PIM, em desenvolvimento...",
+    "image": "./src/assets/thumbs/pim.png",
+    "alt": "Preview da Plataforma PIM",
+    "url": "https://github.com/arturovaine",
+    "category": "engineering",
+    "tags": ["PIM", "E-commerce", "Plataforma"],
+    "modal": {
+      "subtitle": "Gestão de Informações de Produtos",
+      "fullDescription": "Uma plataforma abrangente de Gestão de Informações de Produtos (PIM) projetada para centralizar, enriquecer e distribuir dados de produtos através de múltiplos canais de e-commerce. Construída com arquitetura moderna de microserviços usando Go para operações backend de alto desempenho e PostgreSQL para persistência confiável de dados. A plataforma permite gestão eficiente de catálogos de produtos, distribuição multicanal e controle de qualidade de dados para operações de e-commerce.",
+      "features": [
+        "Gestão centralizada de catálogo de produtos",
+        "Distribuição de dados de produtos multicanal",
+        "Gestão de atributos e especificações de produtos",
+        "Gestão de imagens e ativos digitais",
+        "Validação e enriquecimento de qualidade de dados",
+        "API RESTful para integrações de sistemas",
+        "Deploy dockerizado para escalabilidade"
+      ],
+      "techStack": ["Go", "PostgreSQL", "Docker", "Nginx", "Docker Compose"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "corporate-page",
+    "title": "Página Corporativa",
+    "description": "Demonstração de página inicial para website corporativo",
+    "image": "./src/assets/thumbs/lp-corp.gif",
+    "alt": "Landing page corporativa",
+    "url": "https://github.com/arturovaine/landing-page-video-bg",
+    "category": "design",
+    "tags": ["Landing Page", "Video BG", "Corporativo"],
+    "modal": {
+      "subtitle": "Landing Page Corporativa",
+      "fullDescription": "Uma aplicação web contemporânea projetada como uma homepage envolvente com autenticação integrada, apresentando um vídeo em tela cheia como pano de fundo para deploy de websites corporativos. Construída com práticas modernas de desenvolvimento React e otimizada com Vite para ciclos de desenvolvimento rápidos. O projeto enfatiza modularidade através de componentes reutilizáveis enquanto cria uma experiência visual imersiva com fundos de vídeo.",
+      "features": [
+        "Integração de vídeo corporativo em tela cheia como background",
+        "Sidebar de autenticação com interface de login",
+        "Arquitetura React baseada em componentes para modularidade",
+        "Processo de build otimizado via Vite",
+        "Design responsivo para múltiplos tamanhos de tela",
+        "Padrões modernos de UI para aplicações corporativas"
+      ],
+      "techStack": ["React", "Vite", "JavaScript", "CSS", "HTML"],
+      "status": "Código Aberto"
+    }
+  },
+  {
+    "id": "vtex-integrations",
+    "title": "Integrações VTEX",
+    "description": "Integração de múltiplos sistemas ERP e APIs de e-commerce VTEX",
+    "image": "./src/assets/thumbs/vtex.webp",
+    "alt": "Integrações VTEX",
+    "url": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
+    "category": "engineering",
+    "tags": ["E-commerce", "ERP", "Integração"],
+    "modal": {
+      "subtitle": "Integração Empresarial de E-commerce",
+      "fullDescription": "Camada de integração de nível empresarial conectando múltiplos sistemas ERP com APIs da plataforma de e-commerce VTEX. Desenvolvida para o setor de comércio agrícola brasileiro, esta integração permite sincronização perfeita de dados entre sistemas ERP legados e infraestrutura moderna de e-commerce. Gerencia catálogos de produtos, gestão de inventário, processamento de pedidos e dados de clientes através de sistemas distribuídos, mantendo consistência de dados e atualizações em tempo real.",
+      "features": [
+        "Integração multi-ERP com plataforma VTEX",
+        "Sincronização em tempo real de catálogo de produtos e inventário",
+        "Processamento e fulfillment automatizado de pedidos",
+        "Gestão de dados de clientes através de sistemas",
+        "Tratamento de erros e validação de dados",
+        "Arquitetura escalável para transações de alto volume",
+        "Deploy em produção para comércio B2B agrícola"
+      ],
+      "techStack": ["VTEX APIs", "Integração ERP", "REST APIs", "Node.js", "Sincronização de Dados"],
+      "status": "Produção"
+    }
+  },
+  {
+    "id": "dam-monitoring",
+    "title": "Monitoramento de Barragens",
+    "description": "Sistema de coleta de dados para monitoramento de segurança de 3.000+ barragens no Paraná, Brasil",
+    "image": "./src/assets/thumbs/simepar.webp",
+    "alt": "Sistema de monitoramento de barragens",
+    "url": "https://www.parana.pr.gov.br/aen/Noticia/Mais-seguranca-para-populacao-Estado-vai-fechar-2025-com-3-mil-barragens-vistoriadas",
+    "category": "engineering",
+    "tags": ["Engenharia", "Monitoramento", "GIS"],
+    "modal": {
+      "subtitle": "Monitoramento de Infraestrutura Crítica",
+      "fullDescription": "Sistema de coleta de dados e monitoramento desenvolvido para o SIMEPAR (Sistema de Tecnologia e Monitoramento Ambiental do Paraná) como parte do programa estadual de segurança de barragens. O sistema apoia a inspeção e classificação de mais de 3.000 barragens em todo o Paraná, Brasil, usando sensoriamento remoto, imagens de satélite e coleta de dados de campo para avaliar condições estruturais e riscos de segurança.",
+      "features": [
+        "Sensoriamento remoto e análise de imagens de satélite para identificação de barragens",
+        "Coleta e sincronização de dados de inspeção de campo",
+        "Sistema de classificação de risco (CRI) e avaliação de dano potencial (DPA)",
+        "Integração com infraestrutura de monitoramento ambiental estadual",
+        "Suporte para barragens com espelhos d'água superiores a 10.000 m²"
+      ],
+      "techStack": ["Python", "GIS", "Sensoriamento Remoto", "SQLite", "Coleta de Dados"],
+      "status": "Produção"
+    }
+  },
+  {
+    "id": "backoffice-crud",
+    "title": "CRUD Backoffice",
+    "description": "Aplicação para operações CRUD em entidades de e-commerce predefinidas",
+    "image": "./src/assets/thumbs/crud-backoffice.gif",
+    "alt": "Aplicação CRUD Backoffice",
+    "url": "https://github.com/arturovaine/crud_fullstack",
+    "category": "engineering",
+    "tags": ["CRUD", "Full-Stack", "Backoffice"],
+    "modal": {
+      "subtitle": "Sistema Backoffice de E-commerce",
+      "fullDescription": "Uma aplicação CRUD full-stack construída em configuração monorepo para gerenciar entidades de e-commerce através de APIs REST e uma interface React. Implementa operações completas de Create, Read, Update e Delete em tabelas de banco de dados predefinidas com definições DDL. Possui autenticação JWT, limitação de taxa para segurança e documentação abrangente de API via Swagger. Demonstra arquitetura moderna de aplicação web com separação de responsabilidades e melhores práticas de segurança.",
+      "features": [
+        "Operações CRUD completas para entidades de e-commerce",
+        "Autenticação baseada em JWT com tokens Bearer",
+        "Limitação de taxa para segurança da API",
+        "Documentação Swagger/OpenAPI",
+        "Frontend React com UI limpa",
+        "Banco de dados MySQL com schemas DDL predefinidos",
+        "Coleção Postman/Insomnia para testes de API",
+        "Estrutura monorepo para frontend e backend"
+      ],
+      "techStack": ["Node.js", "Fastify", "React", "MySQL", "JWT", "Swagger", "CSS"],
+      "status": "Código Aberto"
+    }
+  },
+  {
+    "id": "threejs-fire",
+    "title": "Animação de Fogo Three.js",
+    "description": "Simulação 3D dinâmica de efeito de fogo usando voxels three.js",
+    "image": "./src/assets/thumbs/3d-fire.gif",
+    "alt": "Animação de fogo Three.js",
+    "url": "https://github.com/arturovaine/doom-fire-algorithm",
+    "category": "experiment",
+    "tags": ["Three.js", "3D", "Animação"],
+    "modal": {
+      "subtitle": "Experimento de Simulação de Fogo 3D",
+      "fullDescription": "Um playground colaborativo comunitário apresentando várias implementações do algoritmo clássico de efeito de fogo do DOOM. Este projeto experimental apresenta 60+ implementações distintas demonstrando diferentes métodos de renderização, abordagens multiplataforma e variações criativas da icônica animação de fogo. O repositório serve como espaço colaborativo para desenvolvedores experimentarem e contribuírem diferentes abordagens técnicas para recriar este efeito visual retrô usando tecnologias web modernas.",
+      "features": [
+        "60+ implementações do algoritmo de fogo do DOOM",
+        "Múltiplos métodos de renderização: Canvas, WebGL, Three.js, PixiJS",
+        "Implementações multiplataforma: web, mobile, terminal, embarcados",
+        "Controles interativos: simulação de vento, customização de cores, efeitos de partículas",
+        "Vários frameworks: React, Flutter, Unity, Godot, Love2D",
+        "Aceleração GPU e variantes WebAssembly",
+        "Contribuições open-source encorajadas com licença MIT"
+      ],
+      "techStack": ["JavaScript", "Three.js", "Canvas", "WebGL", "HTML"],
+      "status": "Código Aberto"
+    }
+  }
+]
