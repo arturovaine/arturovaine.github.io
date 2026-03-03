@@ -1,8 +1,28 @@
 export const LanguageSwitcher = {
   currentLang: 'en',
 
+  detectBrowserLanguage() {
+    // Get browser language
+    const browserLang = navigator.language || navigator.userLanguage;
+
+    // Check if browser language is Portuguese (pt, pt-BR, pt-PT, etc.)
+    if (browserLang && browserLang.toLowerCase().startsWith('pt')) {
+      return 'pt';
+    }
+
+    return 'en';
+  },
+
   init() {
-    this.currentLang = localStorage.getItem('language') || 'en';
+    // Use saved preference, or detect browser language on first visit
+    const savedLang = localStorage.getItem('language');
+    this.currentLang = savedLang || this.detectBrowserLanguage();
+
+    // Save detected language if no preference exists
+    if (!savedLang) {
+      localStorage.setItem('language', this.currentLang);
+    }
+
     this.updateLanguage(this.currentLang, false);
     this.setupEventListeners();
   },
