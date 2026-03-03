@@ -18,6 +18,7 @@ Visit: [arturovaine.github.io](https://arturovaine.github.io)
 - **Image Slider** - Pixel art collection with lazy loading
 - **Button & Card Systems** - Reusable CSS component classes
 - **Performance Optimized** - Lazy loading, skeleton placeholders, optimized assets
+- **Internationalization (i18n)** - English/Portuguese with auto-detect browser language
 - **Modern Stack** - Vanilla JavaScript (ES6 Modules), Tailwind CSS, Lucide icons
 
 ## Technologies
@@ -296,6 +297,8 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 - [x] Component-based lazy loading with 300px rootMargin
 - [x] Skeleton placeholders for loading states
 - [x] CLS optimization with fixed aspect ratios and min-heights
+- [x] Skeleton loading for PortfolioSection and ProfileSection (CLS: 0.16 → 0.00)
+- [x] Explicit image dimensions to prevent layout shifts
 
 #### Architecture
 - [x] Data-driven rendering with JSON + JavaScript renderers (8 renderers)
@@ -310,6 +313,8 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 - [x] 3D Model Viewer (Three.js)
 - [x] Video carousel for award highlights
 - [x] Project modal with keyboard support
+- [x] Internationalization (i18n) - EN/PT with auto-detect
+- [x] Tooltips for UI buttons (theme-aware)
 
 ### Pending
 
