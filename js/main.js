@@ -25,6 +25,7 @@ import { NavigationRenderer } from './renderers/NavigationRenderer.js';
 import { WorkSectionRenderer } from './renderers/WorkSectionRenderer.js';
 import { SectionsRenderer } from './renderers/SectionsRenderer.js';
 import { MetaprojectRenderer } from './renderers/MetaprojectRenderer.js';
+import { FooterRenderer } from './renderers/FooterRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
 import { ScrollToTop } from './components/ScrollToTop.js';
 
@@ -81,6 +82,9 @@ const componentInitializers = {
   },
   'metaproject': () => {
     MetaprojectRenderer.init();
+  },
+  'footer': () => {
+    FooterRenderer.init();
   }
 };
 

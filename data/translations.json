@@ -116,6 +116,14 @@
         "title": "Artworks",
         "subtitle": "Traditional drawing and murals that shaped my approach to technical work. The spatial reasoning, perspective understanding, and attention to detail developed through years of studying classical art masters directly inform modern skills in CAD modeling, 3D visualization, and product design, bridging the timeless principles of visual composition with contemporary engineering practice."
       }
+    },
+    "footer": {
+      "copyright": "All rights reserved.",
+      "portfolio": "Portfolio",
+      "awards": "Awards",
+      "experience": "Experience",
+      "artworks": "Artworks",
+      "github": "GitHub"
     }
   },
   "pt": {
@@ -235,6 +243,14 @@
         "title": "Obras",
         "subtitle": "Desenho tradicional e murais que moldaram minha abordagem ao trabalho técnico. O raciocínio espacial, compreensão de perspectiva e atenção aos detalhes desenvolvidos através de anos estudando mestres da arte clássica informam diretamente habilidades modernas em modelagem CAD, visualização 3D e design de produtos, conectando os princípios atemporais da composição visual com a prática contemporânea de engenharia."
       }
+    },
+    "footer": {
+      "copyright": "Todos os direitos reservados.",
+      "portfolio": "Portfólio",
+      "awards": "Prêmios",
+      "experience": "Experiência",
+      "artworks": "Obras",
+      "github": "GitHub"
     }
   }
 }
