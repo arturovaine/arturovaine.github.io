@@ -1,9 +1,12 @@
 export const VolunteeringRenderer = {
   loaded: false,
+  currentLang: 'en',
 
   init() {
     const container = document.getElementById('volunteering-list');
     if (!container) return;
+
+    this.currentLang = localStorage.getItem('language') || 'en';
 
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !this.loaded) {
@@ -14,16 +17,32 @@ export const VolunteeringRenderer = {
     }, { rootMargin: '200px' });
 
     observer.observe(container);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      if (this.loaded) {
+        this.loadAndRender(container);
+      }
+    });
   },
 
   async loadAndRender(container) {
     try {
-      const response = await fetch('./data/volunteering.json');
+      const volunteeringFile = this.currentLang === 'pt' ? './data/volunteering-pt.json' : './data/volunteering.json';
+      const response = await fetch(volunteeringFile);
       const data = await response.json();
       this.render(container, data);
       if (window.lucide) lucide.createIcons();
     } catch (error) {
       console.error('Failed to load volunteering:', error);
+      // Fallback to English if PT file doesn't exist
+      if (this.currentLang === 'pt') {
+        const response = await fetch('./data/volunteering.json');
+        const data = await response.json();
+        this.render(container, data);
+        if (window.lucide) lucide.createIcons();
+      }
     }
   },
 
