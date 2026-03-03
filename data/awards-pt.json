@@ -1,0 +1,68 @@
+[
+  {
+    "id": "lif-7",
+    "year": "2021",
+    "title": "Fellowship Líderes em Inovação (LIF-7)",
+    "description": "Selecionado entre empreendedores globais para o prestigiado programa de liderança em inovação da Royal Academy of Engineering (Reino Unido)",
+    "logo": "./src/assets/images/raeng-logo.svg",
+    "logoAlt": "Royal Academy of Engineering",
+    "logoBg": "rgb(249,249,249)",
+    "url": "https://lif.raeng.org.uk/about.aspx"
+  },
+  {
+    "id": "global-legal-hackathon",
+    "year": "2019",
+    "title": "2º Lugar - Global Legal Hackathon",
+    "description": "Desenvolvimento de solução inovadora de tecnologia jurídica com o Time Nous na Ordem dos Advogados do Brasil (OAB-PR)",
+    "logo": "./src/assets/images/oab-logo.png",
+    "logoAlt": "OAB-PR",
+    "url": "https://globallegalhackathon.com/"
+  },
+  {
+    "id": "sinapse-inovacao",
+    "year": "2019",
+    "title": "Subsídio Tecnológico - Paraná Sinapse da Inovação",
+    "description": "Premiado com financiamento de pesquisa pela Fundação Araucária, classificado entre os 5% melhores dentre 1.851 projetos de inovação competindo em âmbito estadual",
+    "logo": "./src/assets/images/fundacao-araucaria-logo.png",
+    "logoAlt": "Fundação Araucária",
+    "url": "http://www.fappr.pr.gov.br/"
+  },
+  {
+    "id": "ozires-silva",
+    "year": "2018",
+    "title": "1º Lugar - Prêmio Ozires Silva",
+    "description": "Campeão na 11ª competição de Empreendedorismo Sustentável do ISAE-FGV, homenageando o pioneiro da engenharia aeroespacial brasileira Ozires Silva",
+    "logo": "./src/assets/images/ISAE-FGV-logo.png",
+    "logoAlt": "ISAE-FGV",
+    "logoBg": "rgb(249,249,249)",
+    "logoSize": "large",
+    "url": "https://www.youtube.com/watch?v=KVn5fkNrAQs&t=1800s"
+  },
+  {
+    "id": "perfumathon",
+    "year": "2017",
+    "title": "3º Lugar - Perfumathon",
+    "description": "Desenvolvimento de solução inovadora de perfumaria com o Time Epic no primeiro hackathon de fragrâncias e cosméticos d'O Boticário",
+    "logo": "./src/assets/images/boticario-logo.png",
+    "logoAlt": "O Boticário",
+    "url": "https://www.youtube.com/watch?v=YVSlHFDyucg"
+  },
+  {
+    "id": "sendi-copel",
+    "year": "2016",
+    "title": "Finalista - Hackathon SENDI/COPEL",
+    "description": "Chegou às finais com o Time Hack'nergy no principal desafio de inovação do setor energético do Brasil, patrocinado pela COPEL",
+    "logo": "./src/assets/images/copel-logo.png",
+    "logoAlt": "COPEL",
+    "logoSize": "large",
+    "url": "https://www.youtube.com/watch?v=KvzbUcHXvps&t=292s"
+  },
+  {
+    "id": "brafitec",
+    "year": "2013",
+    "title": "1º Lugar - Bolsa BRAFITEC",
+    "description": "Recipiente de classificação máxima da bolsa de intercâmbio de engenharia Brasil-França por excelência acadêmica na INSA Lyon e UTFPR",
+    "logo": "./src/assets/images/utfpr-logo.png",
+    "logoAlt": "UTFPR"
+  }
+]
