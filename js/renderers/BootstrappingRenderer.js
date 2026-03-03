@@ -1,9 +1,12 @@
 export const BootstrappingRenderer = {
   loaded: false,
+  currentLang: 'en',
 
   init() {
     const container = document.getElementById('bootstrapping-content');
     if (!container) return;
+
+    this.currentLang = localStorage.getItem('language') || 'en';
 
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !this.loaded) {
@@ -14,17 +17,34 @@ export const BootstrappingRenderer = {
     }, { rootMargin: '200px' });
 
     observer.observe(container);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      if (this.loaded) {
+        this.loadAndRender(container);
+      }
+    });
   },
 
   async loadAndRender(container) {
     try {
-      const response = await fetch('./data/bootstrapping.json');
+      const bootstrappingFile = this.currentLang === 'pt' ? './data/bootstrapping-pt.json' : './data/bootstrapping.json';
+      const response = await fetch(bootstrappingFile);
       const data = await response.json();
       this.render(container, data);
       if (window.lucide) lucide.createIcons();
       if (window.ModelViewer) window.ModelViewer.init();
     } catch (error) {
       console.error('Failed to load bootstrapping:', error);
+      // Fallback to English if PT file doesn't exist
+      if (this.currentLang === 'pt') {
+        const response = await fetch('./data/bootstrapping.json');
+        const data = await response.json();
+        this.render(container, data);
+        if (window.lucide) lucide.createIcons();
+        if (window.ModelViewer) window.ModelViewer.init();
+      }
     }
   },
 
