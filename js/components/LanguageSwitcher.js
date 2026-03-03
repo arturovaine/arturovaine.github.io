@@ -34,23 +34,17 @@ export const LanguageSwitcher = {
     this.currentLang = lang;
     localStorage.setItem('language', lang);
 
-    // Save current scroll position
-    const scrollY = window.scrollY;
+    // Remove hash from URL
     const currentHash = window.location.hash;
-
-    // Temporarily remove hash to prevent auto-scrolling
     if (currentHash) {
       history.replaceState(null, '', window.location.pathname + window.location.search);
     }
 
     this.updateLanguage(lang, true);
 
-    // Restore scroll position and hash after content updates
+    // Scroll to top after content updates
     setTimeout(() => {
-      window.scrollTo(0, scrollY);
-      if (currentHash) {
-        history.replaceState(null, '', currentHash);
-      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }, 100);
   },
 
