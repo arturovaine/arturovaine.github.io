@@ -105,7 +105,12 @@
         "title": "Volunteering"
       },
       "bootstrapping": {
-        "title": "Bootstrapping"
+        "title": "Bootstrapping",
+        "modelViewer": {
+          "title": "Interactive 3D Viewer",
+          "description": "CAD model designed in SolidWorks, rendered using Three.js. Drag to rotate, scroll to zoom.",
+          "viewOnBehance": "View on Behance"
+        }
       },
       "artworks": {
         "title": "Artworks",
@@ -219,7 +224,12 @@
         "title": "Voluntariado"
       },
       "bootstrapping": {
-        "title": "Bootstrapping"
+        "title": "Bootstrapping",
+        "modelViewer": {
+          "title": "Visualizador 3D Interativo",
+          "description": "Modelo CAD projetado em SolidWorks, renderizado usando Three.js. Arraste para rotacionar, role para dar zoom.",
+          "viewOnBehance": "Ver no Behance"
+        }
       },
       "artworks": {
         "title": "Obras",
