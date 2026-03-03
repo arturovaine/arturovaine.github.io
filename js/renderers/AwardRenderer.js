@@ -1,9 +1,12 @@
 export const AwardRenderer = {
   loaded: false,
+  currentLang: 'en',
 
   init() {
     const container = document.getElementById('awards-grid');
     if (!container) return;
+
+    this.currentLang = localStorage.getItem('language') || 'en';
 
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !this.loaded) {
@@ -14,15 +17,30 @@ export const AwardRenderer = {
     }, { rootMargin: '200px' });
 
     observer.observe(container);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      if (this.loaded) {
+        this.loadAndRender(container);
+      }
+    });
   },
 
   async loadAndRender(container) {
     try {
-      const response = await fetch('./data/awards.json');
+      const awardsFile = this.currentLang === 'pt' ? './data/awards-pt.json' : './data/awards.json';
+      const response = await fetch(awardsFile);
       const awards = await response.json();
       this.render(container, awards);
     } catch (error) {
       console.error('Failed to load awards:', error);
+      // Fallback to English if PT file doesn't exist
+      if (this.currentLang === 'pt') {
+        const response = await fetch('./data/awards.json');
+        const awards = await response.json();
+        this.render(container, awards);
+      }
     }
   },
 
