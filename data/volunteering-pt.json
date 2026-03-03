@@ -1,0 +1,111 @@
+[
+  {
+    "id": "teto",
+    "title": "Construtor Voluntário na TETO Brasil",
+    "period": "Fev 2015 - Abr 2017 · 2 anos 3 meses",
+    "url": "https://teto.org.br/",
+    "icon": "./src/assets/icons/teto-icon.png",
+    "color": "emerald",
+    "description": "A TETO é uma organização sem fins lucrativos que mobiliza jovens voluntários para combater a pobreza extrema na América Latina, construindo moradias de emergência e implementando programas de inclusão social. Em 2023, a TETO alcançou o marco de construção de 500 casas no estado do Paraná.",
+    "experiences": [
+      "Atualização de banco de dados e estruturação de compilação de dados de pesquisas socioeconômicas",
+      "Coordenador de Diagnóstico Comunitário, uma espécie de censo local (Maio a Junho, 2016)",
+      "Líder de Grupo na COLETA 2015, campanha de arrecadação de fundos (Maio 2015)",
+      "Líder de Grupo para aplicação da Pesquisa Socioeconômica ECO (Junho 2015)",
+      "Voluntário na Equipe de Construção de Casas de Emergência (Maio e Outubro 2015; Abril 2017)",
+      "Voluntário do Grupo de Detecção e Diagnóstico, análise GIS (Fevereiro 2015 a Julho 2016)"
+    ],
+    "stats": {
+      "icon": "globe",
+      "text": "150.000 casas construídas na América Latina e Caribe",
+      "note": "Dados de 2025"
+    },
+    "media": [
+      {
+        "type": "map",
+        "image": "./src/assets/images/techo-map.jpg",
+        "alt": "Mapa de presença da TECHO na América Latina e Caribe",
+        "bgColor": "rgb(72, 188, 235)",
+        "caption": "TECHO opera em 18 países",
+        "captionIcon": "map",
+        "link": "https://techo.org/donde-estamos/",
+        "linkText": "Ver mapa"
+      },
+      {
+        "type": "image",
+        "image": "./src/assets/images/teto-timelapse.gif",
+        "alt": "Timelapse de construção de casa TETO",
+        "caption": "500+ casas construídas no Paraná até 2023",
+        "captionIcon": "home",
+        "source": {
+          "icon": "video",
+          "text": "Fonte: TETO Brasil YouTube",
+          "url": "https://www.youtube.com/watch?v=YER9a0MdfLk"
+        }
+      },
+      {
+        "type": "image",
+        "image": "./src/assets/images/teto-1.jpg",
+        "alt": "Foto em grupo da equipe voluntária TETO",
+        "caption": "Equipe de voluntários construindo casas",
+        "captionIcon": "users"
+      }
+    ]
+  },
+  {
+    "id": "goodtruck",
+    "title": "Auxiliar de Cozinha no GoodTruck Brasil",
+    "period": "Nov 2019 - Mar 2020 · 5 meses",
+    "url": "https://goodtruck.org.br/",
+    "icon": "./src/assets/icons/goodtruck-icon.svg",
+    "color": "amber",
+    "description": "O GoodTruck foi fundado em 2016 em Curitiba, Paraná, com o objetivo de levar alimentos de onde há excesso para onde há escassez. Através de diversos projetos em parceria com distribuidoras e supermercados, a organização promove engajamento voluntário para reduzir o desperdício de alimentos e combater a fome.",
+    "experiences": [
+      "Atividades de voluntariado focadas em campanha de redução de desperdício de alimentos e distribuição de refeições"
+    ],
+    "stats": {
+      "icon": "utensils",
+      "text": "4.120.000+ refeições servidas • 1.000+ famílias apoiadas semanalmente",
+      "note": "Dados de Dezembro de 2025"
+    },
+    "media": [
+      {
+        "type": "image",
+        "image": "./src/assets/images/goodtruck-volunteering.jpg",
+        "alt": "Foto em grupo da equipe voluntária GoodTruck",
+        "caption": "Equipe de voluntários combatendo desperdício de alimentos",
+        "captionIcon": "users"
+      }
+    ]
+  },
+  {
+    "id": "accef",
+    "title": "Desenvolvedor Voluntário na Freehelper",
+    "period": "Out 2024 - Presente",
+    "url": "https://instituicaoaccef.com.br/sobre-nos/",
+    "icon": "./src/assets/icons/freehelper-icon.jpeg",
+    "iconBgColor": "rgb(128, 223, 255)",
+    "color": "blue",
+    "description": "Freehelper é uma plataforma que conecta ONGs e voluntários. Atualmente construindo uma plataforma de intranet/backoffice para a ACCEF (Associação Centro de Convivência Espaço da Família), uma organização de assistência social que apoia famílias e comunidades vulneráveis.",
+    "experiences": [
+      "Desenvolvimento de plataforma de gestão abrangente para cadastro e acompanhamento de beneficiários",
+      "Construção de módulos para coordenação de voluntários, inventário de ativos e agendamento de programas",
+      "Implementação de funcionalidades de rastreamento financeiro e gestão de doações",
+      "Criação de dashboards de análises e ferramentas de relatórios"
+    ],
+    "stats": {
+      "icon": "heart",
+      "text": "Freehelper conecta voluntários com 500+ ONGs em todo o Brasil",
+      "note": "Dados de 2025"
+    },
+    "media": [
+      {
+        "type": "image",
+        "image": "./src/assets/images/accef-platform-1.png",
+        "alt": "Interface backoffice da Plataforma ACCEF",
+        "caption": "Construindo ferramentas de gestão para ACCEF",
+        "captionIcon": "code"
+      }
+    ]
+  }
+]
