@@ -1,9 +1,12 @@
 export const ExperienceRenderer = {
   loaded: false,
+  currentLang: 'en',
 
   init() {
     const container = document.getElementById('experience-timeline');
     if (!container) return;
+
+    this.currentLang = localStorage.getItem('language') || 'en';
 
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !this.loaded) {
@@ -14,15 +17,30 @@ export const ExperienceRenderer = {
     }, { rootMargin: '200px' });
 
     observer.observe(container);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      if (this.loaded) {
+        this.loadAndRender(container);
+      }
+    });
   },
 
   async loadAndRender(container) {
     try {
-      const response = await fetch('./data/experience.json');
+      const experienceFile = this.currentLang === 'pt' ? './data/experience-pt.json' : './data/experience.json';
+      const response = await fetch(experienceFile);
       const experiences = await response.json();
       this.render(container, experiences);
     } catch (error) {
       console.error('Failed to load experience:', error);
+      // Fallback to English if PT file doesn't exist
+      if (this.currentLang === 'pt') {
+        const response = await fetch('./data/experience.json');
+        const experiences = await response.json();
+        this.render(container, experiences);
+      }
     }
   },
 
