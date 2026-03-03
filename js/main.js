@@ -43,21 +43,41 @@ window.ModelViewer = ModelViewer;
 window.ProjectModal = ProjectModal;
 
 const componentInitializers = {
+  'header': () => {
+    NavigationRenderer.init();
+  },
   'work': () => {
     ProjectRenderer.init();
     ProjectModal.init();
     ProjectFilter.init();
+    WorkSectionRenderer.init();
   },
-  'experience': () => ExperienceRenderer.init(),
-  'awards': () => AwardRenderer.init(),
+  'experience': () => {
+    ExperienceRenderer.init();
+    SectionsRenderer.init();
+  },
+  'awards': () => {
+    AwardRenderer.init();
+    SectionsRenderer.init();
+  },
   'award-highlights': () => VideoCarousel.init(),
-  'posts': () => PostRenderer.init(),
+  'posts': () => {
+    PostRenderer.init();
+    SectionsRenderer.init();
+  },
   'volunteering': () => {
     VolunteeringRenderer.init();
     TetoCarousel.init();
+    SectionsRenderer.init();
   },
-  'bootstrapping': () => BootstrappingRenderer.init(),
-  'artworks': () => ArtworkRenderer.init()
+  'bootstrapping': () => {
+    BootstrappingRenderer.init();
+    SectionsRenderer.init();
+  },
+  'artworks': () => {
+    ArtworkRenderer.init();
+    SectionsRenderer.init();
+  }
 };
 
 document.addEventListener('DOMContentLoaded', async function () {
@@ -72,9 +92,6 @@ document.addEventListener('DOMContentLoaded', async function () {
   MobileMenu.init();
   StylingManager.init();
   LogoCarousel.init();
-  NavigationRenderer.init();
-  WorkSectionRenderer.init();
-  SectionsRenderer.init();
 
   const currentYear = new Date().getFullYear();
   const yearElement = document.getElementById('year');
