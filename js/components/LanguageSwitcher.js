@@ -12,11 +12,19 @@ export const LanguageSwitcher = {
     const langPT = document.getElementById('langPT');
 
     if (langEN) {
-      langEN.addEventListener('click', () => this.switchLanguage('en'));
+      langEN.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.switchLanguage('en');
+      });
     }
 
     if (langPT) {
-      langPT.addEventListener('click', () => this.switchLanguage('pt'));
+      langPT.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        this.switchLanguage('pt');
+      });
     }
   },
 
