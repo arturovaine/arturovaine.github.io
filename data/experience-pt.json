@@ -1,0 +1,91 @@
+[
+  {
+    "id": "meros",
+    "period": "Abr 2025 até o Presente",
+    "location": "Remoto",
+    "title": "Desenvolvedor Full Stack / Engenheiro de IA no Instituto Meros do Brasil",
+    "description": [
+      "Desenvolvimento de plataforma back-office (MERN) c/ MCP para gerenciar tarefas e relatórios de 60+ membros da equipe",
+      "Deploy de pipelines ETL e sistema RAG para consolidar relatórios e permitir consultas à Base de Conhecimento",
+      "Gerenciamento do console Google Admin Workspace para suportar todas as necessidades dos membros da equipe"
+    ],
+    "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
+    "current": true
+  },
+  {
+    "id": "nilg-ai",
+    "period": "Mai 2025 a Nov 2025",
+    "location": "Remoto",
+    "title": "Desenvolvedor de Software / Engenheiro de IA na NILG.AI",
+    "description": [
+      "Construção de pipelines MCP e audiovisuais usando Python, Zapier, webhooks e FFmpeg para processar episódios de TV",
+      "Economia relevante de tempo ao automatizar processamento de docs com ETLs e modelos de visão-linguagem",
+      "Desenvolvimento de agentes RAG e chatbots (front-end React) para múltiplas indústrias, incluindo turismo e saúde"
+    ],
+    "logo": "./src/assets/icons/nilg_ai_logo.jpeg"
+  },
+  {
+    "id": "litboat",
+    "period": "Jun 2025 a Out 2025",
+    "location": "Remoto",
+    "title": "Engenheiro de Dados na LitBoat / Stealth Startup",
+    "description": [
+      "Deploy de Arquitetura Medallion no BigQuery e APIs (SQLAlchemy, FastAPI) para ingestão de dados",
+      "Integração de pipelines de dados e Analytics, GCP (Buckets, Postgres, BigQuery), Retool e Metabase",
+      "Construção de dataviz no Metabase para fornecer KPIs estratégicos para milhares de clientes (restaurantes)"
+    ],
+    "logo": "./src/assets/icons/stealth_startup_51_logo.jpeg"
+  },
+  {
+    "id": "rise-layers",
+    "period": "Set 2024 a Fev 2025",
+    "location": "Presencial",
+    "title": "Desenvolvedor Full Stack / Analista de Dados na Rise Layers / 88 Delivery",
+    "description": [
+      "Construção de cardápio digital do zero (React), para abrir novo canal de receita para mais de 300 clientes (restaurantes)",
+      "Desenvolvimento de integrações e aplicações: gestão de portfólio, mensagens broadcast, etc. (NoSQL, Firebase)",
+      "Deploy de ETLs para: sincronização CRM, enriquecimento de portfólio, análise de dados - matriz RFM, curva ABC, etc. (Python)"
+    ],
+    "logo": "./src/assets/icons/riselayers_logo.jpeg"
+  },
+  {
+    "id": "supercampo",
+    "period": "Mar 2023 a Set 2024",
+    "location": "Presencial",
+    "title": "Desenvolvedor Full Stack / Analista de Dados na Supercampo S/A",
+    "description": [
+      "Entrega de dados através de ETL / BI de R$ 160MM+ GMV anual e outros KPIs (MySQL, PowerBI, Streamlit)",
+      "Suporte a projeto de inovação tecnológica (Tecnoparque), reduzindo ISS da empresa de 5% para 2%",
+      "Desenvolvimento de stack MERN para Gerenciador de Informações de Produtos (PIM) de enriquecimento de portfólio c/ GenAI (180k+ SKUs)",
+      "Deploy de workflows para integração de 180k+ SKUs, 80k+ clientes e outros múltiplos dados",
+      "Levantamento de requisitos e integração de sistemas ERP (12 negócios) e APIs de e-commerce VTEX"
+    ],
+    "logo": "./src/assets/icons/supercampo_sa_logo.jpeg"
+  },
+  {
+    "id": "brg",
+    "period": "Out 2022 a Mar 2023",
+    "location": "Remoto",
+    "title": "Desenvolvedor Back-end na BRG Brasil Geradores",
+    "description": [
+      "Entrega de features-chave para aprimorar APIs / back-end do Sistema Nacional de Monitoramento de Usinas",
+      "Refatoração e modernização de codebase legado Express.js transitando para REST API de arquitetura multi-camada",
+      "Documentação de APIs usando notação OpenAPI, Swagger e docs markdown"
+    ],
+    "logo": "./src/assets/icons/brggeradores_logo.jpeg"
+  },
+  {
+    "id": "simepar",
+    "period": "Jul 2019 a Dez 2021",
+    "location": "Presencial",
+    "title": "Desenvolvedor de Software no SIMEPAR",
+    "description": [
+      "Projeto de Monitoramento de Barragens - output geral entregue oportunidade de coletar honorários de 7 dígitos",
+      "Desenvolvimento de solução de coleta de dados de formulário técnico com ~350 inputs (HTML, Vanilla JavaScript, CSS; SQLite)",
+      "Entrega de processo de análise de dados para checar inconsistências e gerar ~900 relatórios (Python-Pandas)",
+      "Design de ferramenta de decisão PowerBI para monitorar KPIs: produtividade da equipe, entregas e agendamentos"
+    ],
+    "logo": "./src/assets/icons/simeparpr_logo.jpeg",
+    "last": true
+  }
+]
