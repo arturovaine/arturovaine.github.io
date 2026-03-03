@@ -1,19 +1,69 @@
+import { skeletonStyles, portfolioSkeletonHTML } from '../utils/SkeletonLoader.js';
+
 class PortfolioSection extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
     this.visible = true;
     this.data = null;
+    this.isLoading = true;
   }
 
   async connectedCallback() {
+    this.renderSkeleton();
     await this.loadData();
+    this.isLoading = false;
     this.render();
-    
+
     document.addEventListener('tab-changed', (e) => {
       this.visible = e.detail.tab === 'portfolio';
       this.shadowRoot.querySelector('.portfolio').style.display = this.visible ? 'block' : 'none';
     });
+  }
+
+  renderSkeleton() {
+    this.shadowRoot.innerHTML = `
+      <style>
+        ${skeletonStyles}
+        :host { display: block; }
+        .portfolio {
+          display: ${this.visible ? 'block' : 'none'};
+        }
+        .portfolio__wrapper {
+          max-width: 757px;
+          margin: 0 auto;
+          padding-bottom: 0;
+        }
+        .portfolio__grid {
+          display: grid;
+          gap: 16px;
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+        .skeleton-card {
+          border: 1px solid #e0e0e0;
+        }
+        :host-context(body.dark-mode) .skeleton-card {
+          border-color: #2a3441;
+        }
+        @media (max-width: 600px) {
+          .portfolio__wrapper {
+            max-width: 375px;
+            padding: 0 20px;
+          }
+          .portfolio__grid {
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+          }
+        }
+      </style>
+      <section class="portfolio">
+        <div class="portfolio__wrapper">
+          <div class="portfolio__grid">
+            ${portfolioSkeletonHTML(9)}
+          </div>
+        </div>
+      </section>
+    `;
   }
 
   async loadData() {
