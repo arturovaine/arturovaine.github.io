@@ -1,0 +1,29 @@
+[
+  {
+    "id": "airflow-scraper",
+    "title": "DYA como DAGs: Construa um Scraper com Apache Airflow e Docker",
+    "description": "Aprenda como construir um web scraper usando DAGs do Apache Airflow e containerização Docker.",
+    "image": "./src/assets/images/airflow-dag.gif",
+    "alt": "Visualização de DAG do Apache Airflow",
+    "url": "https://medium.com/@arturovaine/dya-like-dags-build-a-scraper-with-apache-airflow-and-docker-3abd4c9e7f8d",
+    "tags": ["Airflow", "Docker", "ETL"]
+  },
+  {
+    "id": "c2f-b2m",
+    "title": "C2F vs B2M: Uma Nova Era no Comércio Digital para Agricultura no Brasil",
+    "description": "Explorando a transformação dos modelos de comércio digital na agricultura brasileira.",
+    "image": "./src/assets/images/supercampo.webp",
+    "alt": "Plataforma de agricultura digital SuperCampo",
+    "url": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
+    "tags": ["E-commerce", "Agricultura", "Brasil"]
+  },
+  {
+    "id": "n8n-gcp",
+    "title": "n8n no Google Cloud Platform (GCP) sem Docker",
+    "description": "Um guia simples de 6 passos para fazer deploy de automação de workflow n8n no GCP sem Docker.",
+    "image": "./src/assets/images/n8n-gcp.png",
+    "alt": "Automação de workflow n8n no Google Cloud Platform",
+    "url": "https://medium.com/@arturovaine/n8n-on-google-cloud-platform-gcp-without-docker-a-simple-6-step-guide-eeeeda195b53",
+    "tags": ["n8n", "GCP", "Cloud"]
+  }
+]
