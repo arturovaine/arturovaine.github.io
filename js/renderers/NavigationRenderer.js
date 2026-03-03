@@ -42,8 +42,8 @@ export const NavigationRenderer = {
       links[2].textContent = t.awards;
       links[3].textContent = t.posts;
       links[4].textContent = t.volunteering;
-      links[5].textContent = t.artworks;
-      links[6].textContent = t.bootstrapping;
+      links[5].textContent = t.bootstrapping;
+      links[6].textContent = t.artworks;
     }
 
     // Update mobile navigation
@@ -55,8 +55,8 @@ export const NavigationRenderer = {
       links[2].textContent = t.awards;
       links[3].textContent = t.posts;
       links[4].textContent = t.volunteering;
-      links[5].textContent = t.artworks;
-      links[6].textContent = t.bootstrapping;
+      links[5].textContent = t.bootstrapping;
+      links[6].textContent = t.artworks;
     }
 
     // Update home link
