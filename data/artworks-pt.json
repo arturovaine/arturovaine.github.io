@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mural-utfpr",
+    "title": "Mural Comemorativo do Centenário da UTFPR",
+    "description": "A Universidade Tecnológica Federal do Paraná celebrou seu 100º aniversário em 23 de setembro de 2009. Criada como Escola de Aprendizes Artífices em 1909.",
+    "image": "./src/assets/images/mural.webp",
+    "alt": "Mural do Centenário da UTFPR",
+    "url": "https://www.behance.net/gallery/103655095/Mural-Centenario-UTFPR-2010-(1909-2009)",
+    "tags": ["Mural", "2010"]
+  },
+  {
+    "id": "warrior-bust",
+    "title": "Busto de um guerreiro",
+    "description": "Esboço aprox. 50 x 70cm, lápis sobre parede pintada. Desenho baseado na obra-prima de Da Vinci 'Busto de um guerreiro de perfil à esquerda'.",
+    "image": "./src/assets/images/davinci.webp",
+    "alt": "Desenho de busto de guerreiro",
+    "url": "https://www.behance.net/gallery/105378633/A-bust-of-a-warrior-in-profile-(2006)",
+    "tags": ["Desenho", "2006", "Da Vinci"]
+  },
+  {
+    "id": "arcimboldo-study",
+    "title": "Estudo de Arcimboldo",
+    "description": "Esboço aprox. 30 x 30cm, lápis sobre papel. Desenho baseado na obra-prima de Arcimboldo 'Verão'. Óleo sobre madeira, 1563.",
+    "image": "./src/assets/images/arcimboldo.webp",
+    "alt": "Desenho de estudo de Arcimboldo",
+    "url": "https://www.behance.net/gallery/103654197/Arcimboldo-study-(2006)",
+    "tags": ["Desenho", "2006", "Arcimboldo"]
+  },
+  {
+    "id": "farol-do-saber",
+    "title": "Farol do Saber e Base Paranismo",
+    "description": "Miniatura impressa em 3D da biblioteca Farol do Saber com base em relevo de tema paranista, apresentada ao Prefeito de Curitiba Rafael Greca. Peça comemorativa para inauguração do primeiro \"Farol do Saber e Inovação\" (2017), inspirado na Biblioteca de Alexandria.",
+    "image": "./src/assets/images/farol-do-saber.webp",
+    "alt": "Prefeito de Curitiba segurando modelo impresso em 3D da biblioteca Farol do Saber",
+    "url": "https://www.behance.net/gallery/112771521/Farol-do-Saber-e-Base-Paranismo",
+    "tags": ["Modelagem 3D", "Impressão 3D", "Arquitetura"]
+  },
+  {
+    "id": "ciencia-na-caixa",
+    "title": "Logo Ciência na Caixa",
+    "description": "Estudo de design de logo para projeto de educação científica. Exploração de identidade visual combinando formas geométricas com conceitos educacionais.",
+    "image": "./src/assets/images/ciencia-na-caixa.webp",
+    "alt": "Estudo de design de logo Ciência na Caixa",
+    "url": "https://www.behance.net/gallery/105120735/Ciencia-da-Caixa-logo-(2016)",
+    "tags": ["Design de Logo", "2016"]
+  },
+  {
+    "id": "bionic-hand",
+    "title": "Mão Biônica",
+    "description": "Modelo 3D de prótese de mão biônica visualizado no Meshmixer. Projeto de modelagem digital explorando design mecânico e anatomia humana.",
+    "image": "./src/assets/images/hand-model.webp",
+    "alt": "Modelo 3D de mão biônica no Meshmixer",
+    "url": "https://www.behance.net/gallery/70813139/Bionic-Hand-(2018)",
+    "tags": ["Modelagem 3D", "2018", "Próteses"]
+  }
+]
