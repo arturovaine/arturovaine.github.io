@@ -17,7 +17,10 @@
       </nav>
 
       <div class="flex items-center gap-2">
-        <a href="./src/assets/CV_ArturoVaine.pdf" target="_blank" rel="noopener" id="cv-btn" style="min-width: 32px; max-width: 32px; min-height: 32px; max-height: 32px; border-radius: 50% !important; font-size: 10px; font-weight: 700;" class="flex items-center justify-center bg-neutral-800 border border-white/5 transition-all" aria-label="View CV">CV</a>
+        <a href="./src/assets/CV_ArturoVaine.pdf" target="_blank" rel="noopener" id="cv-btn" style="min-width: 32px; max-width: 32px; min-height: 32px; max-height: 32px; border-radius: 50% !important; font-size: 10px; font-weight: 700;" class="relative group flex items-center justify-center bg-neutral-800 border border-white/5 transition-all" aria-label="View CV">
+          CV
+          <span class="language-tooltip">Download CV</span>
+        </a>
         <div class="flex items-center gap-1">
           <button type="button" id="langEN" class="btn btn-ghost btn-icon language-toggle active relative group" data-lang="en" aria-label="English">
             <span class="text-base">🇺🇸</span>
@@ -28,13 +31,18 @@
             <span class="language-tooltip">Português</span>
           </button>
         </div>
-        <button type="button" id="themeToggle" class="btn btn-ghost btn-icon" aria-label="Toggle theme">
+        <button type="button" id="themeToggle" class="btn btn-ghost btn-icon relative group" aria-label="Toggle theme">
           <i data-lucide="moon" class="w-5 h-5"></i>
+          <span class="language-tooltip">Toggle theme</span>
         </button>
-        <a href="https://github.com/arturovaine" target="_blank" rel="noopener" class="hidden md:inline-flex btn btn-ghost btn-icon" aria-label="GitHub">
+        <a href="https://github.com/arturovaine" target="_blank" rel="noopener" class="hidden md:inline-flex btn btn-ghost btn-icon relative group" aria-label="GitHub">
           <i data-lucide="github" class="w-5 h-5"></i>
+          <span class="language-tooltip">GitHub</span>
         </a>
-        <a href="mailto:arturo.vaine@gmail.com" class="hidden md:inline-flex btn btn-primary btn-md">Email</a>
+        <a href="mailto:arturo.vaine@gmail.com" class="hidden md:inline-flex btn btn-primary btn-md relative group">
+          <span>Email</span>
+          <span class="language-tooltip">Send email</span>
+        </a>
         <button type="button" id="menuBtn" class="md:hidden btn btn-ghost btn-icon" aria-label="Open menu" aria-expanded="false">
           <i data-lucide="menu" class="w-5 h-5"></i>
         </button>
