@@ -34,6 +34,38 @@ body.preload * {
   color: #000000 !important;
 }
 
+/* Language tooltips */
+.language-tooltip {
+  position: absolute;
+  bottom: -2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.25rem 0.5rem;
+  background-color: #262626;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  color: #ffffff;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.group:hover .language-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+body.light-theme .language-tooltip {
+  background-color: #ffffff;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #171717;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
 #image-slider-container {
   min-height: 400px;
 }
