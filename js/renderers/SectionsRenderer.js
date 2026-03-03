@@ -1,23 +1,31 @@
 export const SectionsRenderer = {
   translations: null,
   currentLang: 'en',
+  initialized: false,
 
   async init() {
-    this.currentLang = localStorage.getItem('language') || 'en';
+    // Only load translations and set up listener once
+    if (!this.initialized) {
+      this.initialized = true;
+      this.currentLang = localStorage.getItem('language') || 'en';
 
-    try {
-      const response = await fetch('./data/translations.json');
-      this.translations = await response.json();
-      this.render();
+      try {
+        const response = await fetch('./data/translations.json');
+        this.translations = await response.json();
 
-      // Listen for language changes
-      window.addEventListener('languageChanged', (event) => {
-        this.currentLang = event.detail.language;
-        this.render();
-      });
-    } catch (error) {
-      console.error('Failed to load sections translations:', error);
+        // Listen for language changes
+        window.addEventListener('languageChanged', (event) => {
+          this.currentLang = event.detail.language;
+          this.render();
+        });
+      } catch (error) {
+        console.error('Failed to load sections translations:', error);
+        return;
+      }
     }
+
+    // Render every time init is called (for each component load)
+    this.render();
   },
 
   render() {
