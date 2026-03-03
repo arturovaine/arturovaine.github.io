@@ -1,5 +1,8 @@
 {
   "en": {
+    "logoCarousel": {
+      "title": "Trusted by organizations"
+    },
     "nav": {
       "home": "Home",
       "portfolio": "Portfolio",
@@ -111,6 +114,9 @@
     }
   },
   "pt": {
+    "logoCarousel": {
+      "title": "Confiado por organizações"
+    },
     "nav": {
       "home": "Início",
       "portfolio": "Portfólio",
