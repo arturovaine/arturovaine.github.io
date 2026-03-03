@@ -1,5 +1,6 @@
 import { ComponentLoader } from './componentLoader.js';
 import { ThemeManager } from './components/ThemeManager.js';
+import { LanguageSwitcher } from './components/LanguageSwitcher.js';
 import { MobileMenu } from './components/MobileMenu.js';
 import { ProjectFilter } from './components/ProjectFilter.js';
 import { ImageSlider } from './components/ImageSlider.js';
@@ -12,6 +13,7 @@ import { LazyLoader } from './components/LazyLoader.js';
 import { ProjectModal } from './components/ProjectModal.js';
 import { LogoCarousel } from './components/LogoCarousel.js';
 import { HeroCardRenderer } from './renderers/HeroCardRenderer.js';
+import { HeroRenderer } from './renderers/HeroRenderer.js';
 import { ProjectRenderer } from './renderers/ProjectRenderer.js';
 import { AwardRenderer } from './renderers/AwardRenderer.js';
 import { ExperienceRenderer } from './renderers/ExperienceRenderer.js';
@@ -19,6 +21,9 @@ import { PostRenderer } from './renderers/PostRenderer.js';
 import { ArtworkRenderer } from './renderers/ArtworkRenderer.js';
 import { VolunteeringRenderer } from './renderers/VolunteeringRenderer.js';
 import { BootstrappingRenderer } from './renderers/BootstrappingRenderer.js';
+import { NavigationRenderer } from './renderers/NavigationRenderer.js';
+import { WorkSectionRenderer } from './renderers/WorkSectionRenderer.js';
+import { SectionsRenderer } from './renderers/SectionsRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
 import { ScrollToTop } from './components/ScrollToTop.js';
 
@@ -63,9 +68,13 @@ document.addEventListener('DOMContentLoaded', async function () {
   await ComponentLoader.loadAll();
 
   ThemeManager.init();
+  LanguageSwitcher.init();
   MobileMenu.init();
   StylingManager.init();
   LogoCarousel.init();
+  NavigationRenderer.init();
+  WorkSectionRenderer.init();
+  SectionsRenderer.init();
 
   const currentYear = new Date().getFullYear();
   const yearElement = document.getElementById('year');
@@ -76,6 +85,7 @@ document.addEventListener('DOMContentLoaded', async function () {
   await new Promise(resolve => setTimeout(resolve, 0));
 
   await HeroCardRenderer.init();
+  await HeroRenderer.init();
 
   requestIdleCallback(() => {
     ImageSlider.init();

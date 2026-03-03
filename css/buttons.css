@@ -117,3 +117,14 @@
   border-radius: 9999px;
   background-color: #34d399;
 }
+
+.language-toggle {
+  opacity: 0.5;
+  transition: opacity 0.2s ease;
+}
+.language-toggle:hover {
+  opacity: 0.8;
+}
+.language-toggle.active {
+  opacity: 1;
+}

@@ -1,10 +1,13 @@
 export const ProjectRenderer = {
   projects: [],
   loaded: false,
+  currentLang: 'en',
 
   init() {
     const container = document.getElementById('projects');
     if (!container) return;
+
+    this.currentLang = localStorage.getItem('language') || 'en';
 
     const observer = new IntersectionObserver((entries) => {
       if (entries[0].isIntersecting && !this.loaded) {
@@ -15,17 +18,34 @@ export const ProjectRenderer = {
     }, { rootMargin: '200px' });
 
     observer.observe(container);
+
+    // Listen for language changes
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      if (this.loaded) {
+        this.loadAndRender(container);
+      }
+    });
   },
 
   async loadAndRender(container) {
     try {
-      const response = await fetch('./data/projects.json');
+      const projectFile = this.currentLang === 'pt' ? './data/projects-pt.json' : './data/projects.json';
+      const response = await fetch(projectFile);
       this.projects = await response.json();
       this.render(container, this.projects);
       this.setupClickHandlers();
       window.dispatchEvent(new CustomEvent('projectsRendered'));
     } catch (error) {
       console.error('Failed to load projects:', error);
+      // Fallback to English if PT file doesn't exist
+      if (this.currentLang === 'pt') {
+        const response = await fetch('./data/projects.json');
+        this.projects = await response.json();
+        this.render(container, this.projects);
+        this.setupClickHandlers();
+        window.dispatchEvent(new CustomEvent('projectsRendered'));
+      }
     }
   },
 

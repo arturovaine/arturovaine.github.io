@@ -1,0 +1,224 @@
+{
+  "en": {
+    "nav": {
+      "home": "Home",
+      "portfolio": "Portfolio",
+      "experience": "Experience",
+      "awards": "Awards",
+      "posts": "Posts",
+      "volunteering": "Volunteering",
+      "artworks": "Artworks",
+      "bootstrapping": "Bootstrapping"
+    },
+    "hero": {
+      "badge": "Available for selective projects • v",
+      "paragraph1": "Full-Stack Developer and AI Engineer with 6+ years of experience building <strong class=\"text-navy\">data pipelines</strong>, <strong class=\"text-navy\">RAG systems</strong>, and web applications across multiple industries. With a Mechanical Engineering background, I specialize in <strong class=\"text-navy\">AI/ML solutions</strong>, <strong class=\"text-navy\">ETL pipelines</strong>, and <strong class=\"text-navy\">systems integration</strong>. Proficient in <strong class=\"text-navy\">Python</strong>, <strong class=\"text-navy\">JavaScript/TypeScript</strong>, and modern data stacks including <strong class=\"text-navy\">PostgreSQL</strong>, <strong class=\"text-navy\">MongoDB</strong>, <strong class=\"text-navy\">BigQuery</strong>, with expertise in <strong>Amazon Web Services</strong> (<strong class=\"text-navy\">AWS</strong>) and <strong>Google Cloud Platform</strong> (<strong class=\"text-navy\">GCP</strong>).",
+      "paragraph2": "Throughout my career, I've deployed <strong class=\"text-navy\">RAG systems</strong> and AI chatbots, developed <strong class=\"text-navy\">back-office platforms</strong> and <strong class=\"text-navy\">Management Information Systems</strong> for large-scale e-commerce operations, and built monitoring platforms for critical infrastructure. Recognized as <strong class=\"text-navy\">Fellow of the LIF-7 Program</strong> (Royal Academy of Engineering, UK) and awarded in national hackathons. Bachelor's in Mechanical Engineering (UTFPR) with exchange at <strong class=\"text-navy\">INSA Lyon</strong> (France).",
+      "stats": {
+        "experience": "Years experience",
+        "companies": "Companies served",
+        "acknowledgements": "Acknowledgements"
+      },
+      "coreStack": "Core stack",
+      "pixelArt": {
+        "title": "Pixel Art Portrait",
+        "description": "Frame-by-frame animated digital illustrations crafted in retro pixel art style"
+      }
+    },
+    "heroCards": {
+      "software": {
+        "title": "Software development and tech presentations",
+        "label": "Software",
+        "description": "6+ years building full-stack applications, APIs, ETL pipelines, and data integrations using Python, JavaScript, and modern cloud platforms."
+      },
+      "hardware": {
+        "title": "Hardware fabrication and prototyping",
+        "label": "Hardware",
+        "description": "Mechanical engineering background with expertise in CAD modeling, 3D printing, prototyping, and product development from concept to manufacturing."
+      },
+      "volunteering": {
+        "title": "Volunteer work and community building",
+        "label": "Volunteering",
+        "description": "Active contributor to social impact initiatives, from building transitional housing with TETO to reducing food waste with GoodTruck Brasil."
+      }
+    },
+    "projects": {
+      "heading": "A few projects spanning design systems, product, and engineering.",
+      "filters": {
+        "all": "All",
+        "design": "Design",
+        "engineering": "Engineering",
+        "openSource": "Open Source",
+        "experiments": "Experiments"
+      }
+    },
+    "metaproject": {
+      "title": "Metaproject",
+      "subtitle": "The portfolio itself is a project.",
+      "sections": {
+        "architecture": {
+          "title": "Component Architecture",
+          "description": "Modular HTML components loaded dynamically via IntersectionObserver. 17 components organized by priority: header (immediate), critical (immediate), lazy (on scroll)."
+        },
+        "dataRendering": {
+          "title": "Data-Driven Rendering",
+          "description": "8 JavaScript renderers fetch JSON data and render HTML dynamically. Projects, awards, experience, and more - all managed through structured data files."
+        },
+        "performance": {
+          "title": "Performance First",
+          "description": "Lazy loading for images and components. WebP format, skeleton placeholders, optimized aspect ratios for minimal CLS. Videos hosted on Google Cloud Storage."
+        },
+        "theme": {
+          "title": "Dark/Light Theme",
+          "description": "Theme switching with localStorage persistence and smooth transitions. Modular CSS architecture split into 5 organized files."
+        }
+      },
+      "techStack": ["Vanilla JS (ES6)", "Tailwind CSS", "Three.js", "Lucide Icons", "GitHub Pages"],
+      "learnMore": "Learn More",
+      "viewSource": "View Source"
+    },
+    "sections": {
+      "experience": {
+        "title": "Experience",
+        "highlights": {
+          "title": "Highlights",
+          "items": [
+            "R$ 160MM+ annual GMV through ETL/BI",
+            "180k+ SKUs integrated across 12 ERPs",
+            "RAG agents & chatbots for healthcare/tourism",
+            "7-digit fees from Dam Monitoring project"
+          ]
+        }
+      },
+      "awards": {
+        "title": "Awards & Recognition",
+        "subtitle": "Achievements and honors throughout my career"
+      },
+      "posts": {
+        "title": "Posts",
+        "subtitle": "Technical articles and insights on Medium"
+      },
+      "volunteering": {
+        "title": "Volunteering"
+      },
+      "bootstrapping": {
+        "title": "Bootstrapping"
+      },
+      "artworks": {
+        "title": "Artworks",
+        "subtitle": "Traditional drawing and murals that shaped my approach to technical work. The spatial reasoning, perspective understanding, and attention to detail developed through years of studying classical art masters directly inform modern skills in CAD modeling, 3D visualization, and product design, bridging the timeless principles of visual composition with contemporary engineering practice."
+      }
+    }
+  },
+  "pt": {
+    "nav": {
+      "home": "Início",
+      "portfolio": "Portfólio",
+      "experience": "Experiência",
+      "awards": "Prêmios",
+      "posts": "Posts",
+      "volunteering": "Voluntariado",
+      "artworks": "Obras",
+      "bootstrapping": "Bootstrapping"
+    },
+    "hero": {
+      "badge": "Disponível para projetos seletivos • v",
+      "paragraph1": "Desenvolvedor Full-Stack e Engenheiro de IA com 6+ anos de experiência construindo <strong class=\"text-navy\">pipelines de dados</strong>, <strong class=\"text-navy\">sistemas RAG</strong> e aplicações web em múltiplas indústrias. Com formação em Engenharia Mecânica, me especializo em <strong class=\"text-navy\">soluções de IA/ML</strong>, <strong class=\"text-navy\">pipelines ETL</strong> e <strong class=\"text-navy\">integração de sistemas</strong>. Proficiente em <strong class=\"text-navy\">Python</strong>, <strong class=\"text-navy\">JavaScript/TypeScript</strong> e stacks de dados modernos incluindo <strong class=\"text-navy\">PostgreSQL</strong>, <strong class=\"text-navy\">MongoDB</strong>, <strong class=\"text-navy\">BigQuery</strong>, com expertise em <strong>Amazon Web Services</strong> (<strong class=\"text-navy\">AWS</strong>) e <strong>Google Cloud Platform</strong> (<strong class=\"text-navy\">GCP</strong>).",
+      "paragraph2": "Ao longo da minha carreira, implementei <strong class=\"text-navy\">sistemas RAG</strong> e chatbots de IA, desenvolvi <strong class=\"text-navy\">plataformas back-office</strong> e <strong class=\"text-navy\">Sistemas de Informação Gerencial</strong> para operações de e-commerce em larga escala, e construí plataformas de monitoramento para infraestrutura crítica. Reconhecido como <strong class=\"text-navy\">Fellow do Programa LIF-7</strong> (Royal Academy of Engineering, Reino Unido) e premiado em hackathons nacionais. Bacharel em Engenharia Mecânica (UTFPR) com intercâmbio na <strong class=\"text-navy\">INSA Lyon</strong> (França).",
+      "stats": {
+        "experience": "Anos de experiência",
+        "companies": "Empresas atendidas",
+        "acknowledgements": "Reconhecimentos"
+      },
+      "coreStack": "Stack principal",
+      "pixelArt": {
+        "title": "Retrato em Pixel Art",
+        "description": "Ilustrações digitais animadas quadro a quadro criadas em estilo retrô de pixel art"
+      }
+    },
+    "heroCards": {
+      "software": {
+        "title": "Desenvolvimento de software e apresentações técnicas",
+        "label": "Software",
+        "description": "6+ anos construindo aplicações full-stack, APIs, pipelines ETL e integrações de dados usando Python, JavaScript e plataformas cloud modernas."
+      },
+      "hardware": {
+        "title": "Fabricação de hardware e prototipagem",
+        "label": "Hardware",
+        "description": "Formação em engenharia mecânica com expertise em modelagem CAD, impressão 3D, prototipagem e desenvolvimento de produtos do conceito à manufatura."
+      },
+      "volunteering": {
+        "title": "Trabalho voluntário e construção comunitária",
+        "label": "Voluntariado",
+        "description": "Contribuidor ativo em iniciativas de impacto social, desde construção de moradias transitórias com TETO até redução de desperdício de alimentos com GoodTruck Brasil."
+      }
+    },
+    "projects": {
+      "heading": "Alguns projetos abrangendo sistemas de design, produto e engenharia.",
+      "filters": {
+        "all": "Todos",
+        "design": "Design",
+        "engineering": "Engenharia",
+        "openSource": "Código Aberto",
+        "experiments": "Experimentos"
+      }
+    },
+    "metaproject": {
+      "title": "Metaprojeto",
+      "subtitle": "O próprio portfólio é um projeto.",
+      "sections": {
+        "architecture": {
+          "title": "Arquitetura de Componentes",
+          "description": "Componentes HTML modulares carregados dinamicamente via IntersectionObserver. 17 componentes organizados por prioridade: header (imediato), críticos (imediato), lazy (no scroll)."
+        },
+        "dataRendering": {
+          "title": "Renderização Orientada a Dados",
+          "description": "8 renderizadores JavaScript buscam dados JSON e renderizam HTML dinamicamente. Projetos, prêmios, experiência e mais - tudo gerenciado através de arquivos de dados estruturados."
+        },
+        "performance": {
+          "title": "Performance em Primeiro Lugar",
+          "description": "Lazy loading para imagens e componentes. Formato WebP, placeholders skeleton, aspect ratios otimizados para CLS mínimo. Vídeos hospedados no Google Cloud Storage."
+        },
+        "theme": {
+          "title": "Tema Escuro/Claro",
+          "description": "Troca de tema com persistência em localStorage e transições suaves. Arquitetura CSS modular dividida em 5 arquivos organizados."
+        }
+      },
+      "techStack": ["Vanilla JS (ES6)", "Tailwind CSS", "Three.js", "Lucide Icons", "GitHub Pages"],
+      "learnMore": "Saiba Mais",
+      "viewSource": "Ver Código"
+    },
+    "sections": {
+      "experience": {
+        "title": "Experiência",
+        "highlights": {
+          "title": "Destaques",
+          "items": [
+            "R$ 160MM+ GMV anual através de ETL/BI",
+            "180k+ SKUs integrados em 12 ERPs",
+            "Agentes RAG e chatbots para saúde/turismo",
+            "Honorários de 7 dígitos do projeto de Monitoramento de Barragens"
+          ]
+        }
+      },
+      "awards": {
+        "title": "Prêmios e Reconhecimentos",
+        "subtitle": "Conquistas e honrarias ao longo da minha carreira"
+      },
+      "posts": {
+        "title": "Posts",
+        "subtitle": "Artigos técnicos e insights no Medium"
+      },
+      "volunteering": {
+        "title": "Voluntariado"
+      },
+      "bootstrapping": {
+        "title": "Bootstrapping"
+      },
+      "artworks": {
+        "title": "Obras",
+        "subtitle": "Desenho tradicional e murais que moldaram minha abordagem ao trabalho técnico. O raciocínio espacial, compreensão de perspectiva e atenção aos detalhes desenvolvidos através de anos estudando mestres da arte clássica informam diretamente habilidades modernas em modelagem CAD, visualização 3D e design de produtos, conectando os princípios atemporais da composição visual com a prática contemporânea de engenharia."
+      }
+    }
+  }
+}

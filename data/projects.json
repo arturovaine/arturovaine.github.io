@@ -330,7 +330,7 @@
         "Integration with state environmental monitoring infrastructure",
         "Support for dams with water surfaces exceeding 10,000 m²"
       ],
-      "techStack": ["Python", "GIS", "Remote Sensing", "PostgreSQL", "Data Collection"],
+      "techStack": ["Python", "GIS", "Remote Sensing", "SQLite", "Data Collection"],
       "status": "Production"
     }
   },
