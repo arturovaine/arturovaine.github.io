@@ -1,5 +1,30 @@
 [
   {
+    "id": "smart-catalog-reader",
+    "title": "Leitor Inteligente de Catálogos",
+    "description": "Sistema de extração de catálogos PDF com IA usando Google Gemini Vision para dados de produtos cosméticos",
+    "image": "./src/assets/thumbs/smart-catalog-reader.jpg",
+    "alt": "Interface CLI do Smart Catalog Reader",
+    "url": "https://github.com/arturovaine/smart-catalog-reader",
+    "category": "engineering open-source",
+    "tags": ["IA", "CLI", "Python", "Extração de Dados"],
+    "modal": {
+      "subtitle": "Extração Inteligente de Produtos em PDF",
+      "fullDescription": "Um sistema inteligente de extração de catálogos PDF utilizando Google Gemini Vision AI para extrair automaticamente dados estruturados de produtos de catálogos de cosméticos, particularmente de marcas como O Boticário e Natura. Construído com princípios de Clean Architecture, o sistema apresenta processamento em lote, normalização de categorias com correspondência fuzzy, validação abrangente com auto-correção, e retomada baseada em checkpoints para extrações interrompidas.",
+      "features": [
+        "Processamento em lote de páginas PDF em imagens com DPI configurável",
+        "Extração baseada em IA de códigos de produtos, nomes, preços e detalhes promocionais",
+        "Normalização de categorias com correspondência fuzzy contra categorias master",
+        "Validação abrangente com auto-correção de inconsistências de preços",
+        "Sistema de checkpoints permitindo retomada de extrações interrompidas",
+        "Lógica de retry com backoff exponencial para limites de API",
+        "Acompanhamento de progresso em tempo real com interface Rich no terminal"
+      ],
+      "techStack": ["Python", "Google Gemini AI", "Typer", "Rich", "Pydantic", "pdf2image", "thefuzz"],
+      "status": "Código Aberto"
+    }
+  },
+  {
     "id": "social-economic-survey",
     "title": "App de Pesquisa Socioeconômica",
     "description": "Plataforma de coleta de dados socioeconômicos para pesquisas de campo em comunidades brasileiras",
