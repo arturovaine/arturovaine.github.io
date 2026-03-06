@@ -1,5 +1,30 @@
 [
   {
+    "id": "smart-catalog-reader",
+    "title": "Smart Catalog Reader",
+    "description": "AI-powered PDF catalog extraction system using Google Gemini Vision for cosmetics product data",
+    "image": "./src/assets/thumbs/smart-catalog-reader.jpg",
+    "alt": "Smart Catalog Reader CLI interface",
+    "url": "https://github.com/arturovaine/smart-catalog-reader",
+    "category": "engineering open-source",
+    "tags": ["AI", "CLI", "Python", "Data Extraction"],
+    "modal": {
+      "subtitle": "Intelligent PDF Product Extraction",
+      "fullDescription": "An intelligent PDF catalog extraction system utilizing Google Gemini Vision AI to automatically extract structured product data from cosmetics catalogs, particularly from brands like O Boticário and Natura. Built with Clean Architecture principles, the system features batch processing, fuzzy-matched category normalization, comprehensive validation with auto-correction, and checkpoint-based resumption for interrupted extractions.",
+      "features": [
+        "Batch processing of PDF pages into images at configurable DPI",
+        "AI-powered extraction of product codes, names, pricing, and promotional details",
+        "Fuzzy-matched category normalization against master categories",
+        "Comprehensive validation with auto-correction of pricing inconsistencies",
+        "Checkpoint system enabling resumption of interrupted extractions",
+        "Exponential backoff retry logic for API rate limits",
+        "Real-time progress tracking with Rich terminal UI"
+      ],
+      "techStack": ["Python", "Google Gemini AI", "Typer", "Rich", "Pydantic", "pdf2image", "thefuzz"],
+      "status": "Open Source"
+    }
+  },
+  {
     "id": "social-economic-survey",
     "title": "Social Economic Survey App",
     "description": "Socio-economic data collection platform for field surveys and research in Brazilian communities",
