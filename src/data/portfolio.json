@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "title": "Smart Catalog Reader",
+      "description": "AI-powered PDF catalog extraction using Google Gemini Vision",
+      "image": "src/assets/thumbs/smart-catalog-reader.jpg",
+      "link": "https://github.com/arturovaine/smart-catalog-reader"
+    },
+    {
       "title": "DYOD",
       "description": "`Do Your Own Diligence`: Web extension to automate brief investigation",
       "image": "src/assets/thumbs/company-risk-extension.png",
