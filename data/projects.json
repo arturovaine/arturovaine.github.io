@@ -1,5 +1,29 @@
 [
   {
+    "id": "gear-simulator",
+    "title": "GEAR_SIM.v1",
+    "description": "Interactive 3D involute gear simulator with React and Three.js for real-time mechanical engineering visualization",
+    "image": "./src/assets/thumbs/gear-simulator.gif",
+    "alt": "3D gear simulator animation",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["Three.js", "React", "TypeScript", "WebGL"],
+    "modal": {
+      "subtitle": "Involute Geometry & Rotation Dynamics Simulator",
+      "fullDescription": "GEAR_SIM.v1 is an interactive 3D gear simulator developed with React and Three.js that combines mechanical engineering and computer graphics to generate involute gear geometries in real-time. The system enables visualization of transmission ratios, angular velocities, and complex physical interactions in an immersive WebGL environment.",
+      "features": [
+        "Procedural Generation: Mathematically calculates each gear vertex instead of using pre-made 3D models for technical precision",
+        "Real-Time Simulation: Optimized animation loop synchronizing React state with the 3D rendering engine",
+        "Involute Mesh Engine: Procedural 3D mesh generation based on real engineering parameters (module, tooth count, pressure angle)",
+        "High-Performance Rendering: Three.js with dynamic lighting, metallic materials, and orbital camera controls",
+        "Industrial Dashboard UI: Modern interface with glassmorphism aesthetics and real-time diagnostic feedback",
+        "Diagnostic Systems: State reset and stability mechanisms for consistent cross-browser experience"
+      ],
+      "techStack": ["React", "TypeScript", "Three.js", "WebGL", "Tailwind CSS"],
+      "status": "Experiment"
+    }
+  },
+  {
     "id": "smart-catalog-reader",
     "title": "Smart Catalog Reader",
     "description": "AI-powered PDF catalog extraction system using Google Gemini Vision for cosmetics product data",
