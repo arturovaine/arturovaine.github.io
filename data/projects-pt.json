@@ -1,29 +1,5 @@
 [
   {
-    "id": "gear-simulator",
-    "title": "GEAR_SIM.v1",
-    "description": "Simulador interativo de engrenagens involutas 3D com React e Three.js para visualização em tempo real de engenharia mecânica",
-    "image": "./src/assets/thumbs/gear-simulator.gif",
-    "alt": "Animação do simulador de engrenagens 3D",
-    "url": null,
-    "category": "engineering experiment",
-    "tags": ["Three.js", "React", "TypeScript", "WebGL"],
-    "modal": {
-      "subtitle": "Simulador de Geometria Involuta e Dinâmica de Rotação",
-      "fullDescription": "GEAR_SIM.v1 é um simulador interativo de engrenagens 3D desenvolvido com React e Three.js que combina engenharia mecânica e computação gráfica para gerar geometrias de engrenagens involutas em tempo real. O sistema permite visualização de relações de transmissão, velocidades angulares e interações físicas complexas em um ambiente WebGL imersivo.",
-      "features": [
-        "Geração Procedimental: Calcula matematicamente cada vértice da engrenagem em vez de usar modelos 3D pré-prontos para precisão técnica",
-        "Simulação em Tempo Real: Loop de animação otimizado sincronizando estado do React com o motor de renderização 3D",
-        "Motor de Malha Involuta: Geração procedimental de malhas 3D baseada em parâmetros reais de engenharia (módulo, número de dentes, ângulo de pressão)",
-        "Renderização de Alta Performance: Three.js com iluminação dinâmica, materiais metálicos e controles de câmera orbitais",
-        "UI Dashboard Industrial: Interface moderna com estética glassmorphism e feedback de diagnóstico em tempo real",
-        "Sistemas de Diagnóstico: Mecanismos de reset de estado e estabilidade para experiência consistente entre navegadores"
-      ],
-      "techStack": ["React", "TypeScript", "Three.js", "WebGL", "Tailwind CSS"],
-      "status": "Experimento"
-    }
-  },
-  {
     "id": "smart-catalog-reader",
     "title": "Leitor Inteligente de Catálogos",
     "description": "Sistema de extração de catálogos PDF com IA usando Google Gemini Vision para dados de produtos cosméticos",
@@ -407,6 +383,30 @@
       ],
       "techStack": ["Node.js", "Fastify", "React", "MySQL", "JWT", "Swagger", "CSS"],
       "status": "Código Aberto"
+    }
+  },
+  {
+    "id": "gear-simulator",
+    "title": "GEAR_SIM.v1",
+    "description": "Simulador interativo de engrenagens involutas 3D com React e Three.js para visualização em tempo real de engenharia mecânica",
+    "image": "./src/assets/thumbs/gear-simulator.gif",
+    "alt": "Animação do simulador de engrenagens 3D",
+    "url": null,
+    "category": "engineering experiment",
+    "tags": ["Three.js", "React", "TypeScript", "WebGL"],
+    "modal": {
+      "subtitle": "Simulador de Geometria Involuta e Dinâmica de Rotação",
+      "fullDescription": "GEAR_SIM.v1 é um simulador interativo de engrenagens 3D desenvolvido com React e Three.js que combina engenharia mecânica e computação gráfica para gerar geometrias de engrenagens involutas em tempo real. O sistema permite visualização de relações de transmissão, velocidades angulares e interações físicas complexas em um ambiente WebGL imersivo.",
+      "features": [
+        "Geração Procedimental: Calcula matematicamente cada vértice da engrenagem em vez de usar modelos 3D pré-prontos para precisão técnica",
+        "Simulação em Tempo Real: Loop de animação otimizado sincronizando estado do React com o motor de renderização 3D",
+        "Motor de Malha Involuta: Geração procedimental de malhas 3D baseada em parâmetros reais de engenharia (módulo, número de dentes, ângulo de pressão)",
+        "Renderização de Alta Performance: Three.js com iluminação dinâmica, materiais metálicos e controles de câmera orbitais",
+        "UI Dashboard Industrial: Interface moderna com estética glassmorphism e feedback de diagnóstico em tempo real",
+        "Sistemas de Diagnóstico: Mecanismos de reset de estado e estabilidade para experiência consistente entre navegadores"
+      ],
+      "techStack": ["React", "TypeScript", "Three.js", "WebGL", "Tailwind CSS"],
+      "status": "Experimento"
     }
   },
   {
