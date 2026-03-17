@@ -51,9 +51,11 @@ export const ProjectRenderer = {
 
   renderCard(project, index) {
     const tags = project.tags.map(tag => `<span class="card-tag">${tag}</span>`).join('');
+    const branches = Array.isArray(project.branch) ? project.branch.join(' ') : project.branch || '';
 
     return `
       <div class="card group project"
+           data-branch="${branches}"
            data-category="${project.category}"
            data-project-index="${index}"
            role="button"

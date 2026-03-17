@@ -15,10 +15,10 @@ export const ProjectFilter = {
     const counts = { all: this.cards.length };
 
     this.cards.forEach(card => {
-      const cats = (card.getAttribute('data-category') || '').toLowerCase();
-      ['design', 'engineering', 'open-source', 'experiment'].forEach(cat => {
-        if (cats.includes(cat)) {
-          counts[cat] = (counts[cat] || 0) + 1;
+      const branches = (card.getAttribute('data-branch') || '').toLowerCase();
+      ['development', 'data'].forEach(branch => {
+        if (branches.includes(branch)) {
+          counts[branch] = (counts[branch] || 0) + 1;
         }
       });
     });
@@ -34,10 +34,8 @@ export const ProjectFilter = {
   getLabel(filter) {
     const labels = {
       'all': 'All',
-      'design': 'Design',
-      'engineering': 'Engineering',
-      'open-source': 'Open Source',
-      'experiment': 'Experiments'
+      'development': 'Development',
+      'data': 'Data'
     };
     return labels[filter] || filter;
   },
@@ -63,8 +61,8 @@ export const ProjectFilter = {
     this.setActive(chip);
 
     this.cards.forEach((card, index) => {
-      const cats = (card.getAttribute('data-category') || '').toLowerCase();
-      const shouldShow = !filter || filter === 'all' || cats.includes(filter);
+      const branches = (card.getAttribute('data-branch') || '').toLowerCase();
+      const shouldShow = !filter || filter === 'all' || branches.includes(filter);
 
       if (shouldShow) {
         card.classList.remove('hidden');

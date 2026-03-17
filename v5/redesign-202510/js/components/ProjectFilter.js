@@ -35,8 +35,8 @@ export const ProjectFilter = {
     }
 
     this.cards.forEach(card => {
-      const cats = (card.getAttribute('data-category') || '').toLowerCase();
-      card.classList.toggle('hidden', !cats.includes(filter));
+      const branches = (card.getAttribute('data-branch') || '').toLowerCase();
+      card.classList.toggle('hidden', !branches.includes(filter));
     });
   }
 };
