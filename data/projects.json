@@ -6,7 +6,8 @@
     "image": "./src/assets/thumbs/smart-catalog-reader.jpg",
     "alt": "Smart Catalog Reader CLI interface",
     "url": "https://github.com/arturovaine/smart-catalog-reader",
-    "category": "engineering open-source",
+    "branch": ["data"],
+    "category": "open-source",
     "tags": ["AI", "CLI", "Python", "Data Extraction"],
     "modal": {
       "subtitle": "Intelligent PDF Product Extraction",
@@ -31,7 +32,8 @@
     "image": "./src/assets/thumbs/social-economic-survey.png",
     "alt": "Social Economic Survey App dashboard",
     "url": "https://github.com/arturovaine/social-economic-survey-app",
-    "category": "engineering",
+    "branch": ["development", "data"],
+    "category": "in-development",
     "tags": ["Mobile", "Firebase", "Flutter", "Survey"],
     "modal": {
       "subtitle": "Field Survey Platform for Social Research",
@@ -55,7 +57,8 @@
     "image": "./src/assets/thumbs/real-estate-intelligence.png",
     "alt": "3D urban visualization for real estate intelligence",
     "url": null,
-    "category": "engineering experiment",
+    "branch": ["data"],
+    "category": "experiment",
     "tags": ["GIS", "3D Visualization", "Real Estate"],
     "modal": {
       "subtitle": "Geospatial Real Estate Analytics",
@@ -79,7 +82,8 @@
     "image": "./src/assets/thumbs/energy-bill-extractor.png",
     "alt": "Energy Bill Data Extractor CLI",
     "url": null,
-    "category": "engineering experiment",
+    "branch": ["data"],
+    "category": "experiment",
     "tags": ["CLI", "LLM", "Data Extraction"],
     "modal": {
       "subtitle": "Intelligent Document Processing",
@@ -103,7 +107,8 @@
     "image": "./src/assets/thumbs/urban-vulnerability.png",
     "alt": "Urban Vulnerability Detection System",
     "url": null,
-    "category": "engineering experiment",
+    "branch": ["data"],
+    "category": "experiment",
     "tags": ["AI", "GIS", "Vector Search"],
     "modal": {
       "subtitle": "AI-Powered Urban Analysis",
@@ -127,7 +132,8 @@
     "image": "./src/assets/thumbs/telegram-bot-organizze.png",
     "alt": "Organizze Telegram Bot with AI financial insights",
     "url": "https://github.com/arturovaine/telegram-bot-organizze",
-    "category": "engineering open-source",
+    "branch": ["data"],
+    "category": "open-source",
     "tags": ["Telegram", "AI", "Fintech"],
     "modal": {
       "subtitle": "Natural Language Financial Assistant",
@@ -150,7 +156,8 @@
     "image": "./src/assets/thumbs/accef-platform.png",
     "alt": "ACCEF Platform backoffice system",
     "url": "https://instituicaoaccef.com.br/sobre-nos/",
-    "category": "engineering",
+    "branch": ["development"],
+    "category": "in-development",
     "tags": ["Intranet", "Backoffice", "Full-Stack"],
     "modal": {
       "subtitle": "Social Organization Backoffice System",
@@ -174,7 +181,8 @@
     "image": "./src/assets/thumbs/n8n-nodes-sklearn.png",
     "alt": "n8n-nodes-sklearn npm package",
     "url": "https://www.npmjs.com/package/n8n-nodes-sklearn",
-    "category": "engineering open-source",
+    "branch": ["development", "data"],
+    "category": "open-source",
     "tags": ["n8n", "scikit-learn", "ML"],
     "modal": {
       "subtitle": "Machine Learning Nodes for n8n",
@@ -196,7 +204,8 @@
     "image": "./src/assets/thumbs/bias-reflector.png",
     "alt": "Bias Reflector cognitive bias visualization",
     "url": "https://bias-reflector.vercel.app/",
-    "category": "engineering experiment",
+    "branch": ["development", "data"],
+    "category": "experiment",
     "tags": ["AI", "D3.js", "React"],
     "modal": {
       "subtitle": "Cognitive Bias Analysis Tool",
@@ -219,7 +228,8 @@
     "image": "./src/assets/thumbs/company-risk-extension.png",
     "alt": "DYOD web extension preview",
     "url": "https://github.com/arturovaine/company-risk-radar_web-extension",
-    "category": "engineering open-source",
+    "branch": ["development"],
+    "category": "open-source",
     "tags": ["Extension", "Automation", "Research"],
     "modal": {
       "subtitle": "Company Due Diligence Automation",
@@ -244,7 +254,8 @@
     "image": "./src/assets/thumbs/airflow-etl.webp",
     "alt": "Airflow ETL pipeline preview",
     "url": "https://github.com/arturovaine/airflow-web-scraper-etl",
-    "category": "engineering",
+    "branch": ["data"],
+    "category": "open-source",
     "tags": ["Airflow", "ETL", "PostgreSQL"],
     "modal": {
       "subtitle": "Data Pipeline Automation",
@@ -269,7 +280,8 @@
     "image": "./src/assets/thumbs/pim.png",
     "alt": "PIM Platform preview",
     "url": "https://github.com/arturovaine",
-    "category": "engineering",
+    "branch": ["development"],
+    "category": "in-development",
     "tags": ["PIM", "E-commerce", "Platform"],
     "modal": {
       "subtitle": "Product Information Management",
@@ -294,7 +306,8 @@
     "image": "./src/assets/thumbs/lp-corp.gif",
     "alt": "Corporate landing page",
     "url": "https://github.com/arturovaine/landing-page-video-bg",
-    "category": "design",
+    "branch": ["development"],
+    "category": "open-source",
     "tags": ["Landing Page", "Video BG", "Corporate"],
     "modal": {
       "subtitle": "Corporate Landing Page",
@@ -318,7 +331,8 @@
     "image": "./src/assets/thumbs/vtex.webp",
     "alt": "VTEX integrations",
     "url": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
-    "category": "engineering",
+    "branch": ["development"],
+    "category": "production",
     "tags": ["E-commerce", "ERP", "Integration"],
     "modal": {
       "subtitle": "Enterprise E-commerce Integration",
@@ -343,7 +357,8 @@
     "image": "./src/assets/thumbs/simepar.webp",
     "alt": "Dam monitoring system",
     "url": "https://www.parana.pr.gov.br/aen/Noticia/Mais-seguranca-para-populacao-Estado-vai-fechar-2025-com-3-mil-barragens-vistoriadas",
-    "category": "engineering",
+    "branch": ["data"],
+    "category": "production",
     "tags": ["Engineering", "Monitoring", "GIS"],
     "modal": {
       "subtitle": "Critical Infrastructure Monitoring",
@@ -366,7 +381,8 @@
     "image": "./src/assets/thumbs/crud-backoffice.gif",
     "alt": "Backoffice CRUD application",
     "url": "https://github.com/arturovaine/crud_fullstack",
-    "category": "engineering",
+    "branch": ["development"],
+    "category": "open-source",
     "tags": ["CRUD", "Full-Stack", "Backoffice"],
     "modal": {
       "subtitle": "E-commerce Backoffice System",
@@ -392,7 +408,8 @@
     "image": "./src/assets/thumbs/gear-simulator.gif",
     "alt": "3D gear simulator animation",
     "url": null,
-    "category": "engineering experiment",
+    "branch": ["development"],
+    "category": "experiment",
     "tags": ["Three.js", "React", "TypeScript", "WebGL"],
     "modal": {
       "subtitle": "Involute Geometry & Rotation Dynamics Simulator",
@@ -416,6 +433,7 @@
     "image": "./src/assets/thumbs/3d-fire.gif",
     "alt": "Three.js fire animation",
     "url": "https://github.com/arturovaine/doom-fire-algorithm",
+    "branch": ["development"],
     "category": "experiment",
     "tags": ["Three.js", "3D", "Animation"],
     "modal": {
