@@ -51,6 +51,31 @@
     }
   },
   {
+    "id": "uskcuritiba",
+    "title": "Urban Sketchers Curitiba",
+    "description": "Community website for Urban Sketchers Curitiba, documenting 436+ on-location drawing events",
+    "image": "./src/assets/thumbs/uskcuritiba.png",
+    "alt": "Urban Sketchers Curitiba website",
+    "url": "https://www.uskcuritiba.org/",
+    "branch": ["development"],
+    "category": "in-development",
+    "tags": ["Community", "Web", "Art"],
+    "modal": {
+      "subtitle": "Artistic Community Platform",
+      "fullDescription": "Website for Urban Sketchers Curitiba, part of the global Urban Sketchers movement founded in 2007 by journalist Gabriel Campanario. Urban Sketchers is a worldwide community of artists who practice on-location drawing in cities, towns, and villages where they live or travel. This platform documents the Curitiba chapter's activities, with 436+ events already held. The site features event archives, artist galleries, and community resources, with images primarily extracted from Instagram publications.",
+      "features": [
+        "Event archive documenting 436+ on-location drawing sessions",
+        "Artist community gallery and profiles",
+        "Event mapping and location history (in progress)",
+        "Integration with Instagram for image sourcing",
+        "Community resources and drawing guidelines",
+        "Event calendar and upcoming meetups"
+      ],
+      "techStack": ["Web Development", "Community Platform"],
+      "status": "In Development"
+    }
+  },
+  {
     "id": "real-estate-intelligence",
     "title": "Real Estate Intelligence",
     "description": "3D urban modeling platform for real estate market analysis and geospatial insights",
