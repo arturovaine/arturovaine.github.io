@@ -51,6 +51,31 @@
     }
   },
   {
+    "id": "uskcuritiba",
+    "title": "Urban Sketchers Curitiba",
+    "description": "Website da comunidade Urban Sketchers Curitiba, documentando 436+ eventos de desenho in loco",
+    "image": "./src/assets/thumbs/uskcuritiba.png",
+    "alt": "Website Urban Sketchers Curitiba",
+    "url": "https://www.uskcuritiba.org/",
+    "branch": ["development"],
+    "category": "in-development",
+    "tags": ["Comunidade", "Web", "Arte"],
+    "modal": {
+      "subtitle": "Plataforma de Comunidade Artística",
+      "fullDescription": "Website do Urban Sketchers Curitiba, parte do movimento global Urban Sketchers fundado em 2007 pelo jornalista Gabriel Campanario. Urban Sketchers é uma comunidade mundial de artistas que praticam desenho in loco em cidades, vilas e vilarejos onde vivem ou viajam. Esta plataforma documenta as atividades do capítulo de Curitiba, com 436+ eventos já realizados. O site apresenta arquivo de eventos, galerias de artistas e recursos da comunidade, com imagens extraídas principalmente de publicações no Instagram.",
+      "features": [
+        "Arquivo de eventos documentando 436+ sessões de desenho in loco",
+        "Galeria e perfis da comunidade de artistas",
+        "Mapeamento de eventos e histórico de locais (em andamento)",
+        "Integração com Instagram para obtenção de imagens",
+        "Recursos da comunidade e diretrizes de desenho",
+        "Calendário de eventos e próximos encontros"
+      ],
+      "techStack": ["Desenvolvimento Web", "Plataforma Comunitária"],
+      "status": "Em Desenvolvimento"
+    }
+  },
+  {
     "id": "real-estate-intelligence",
     "title": "Inteligência Imobiliária",
     "description": "Plataforma de modelagem urbana 3D para análise de mercado imobiliário e insights geoespaciais",
