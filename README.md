@@ -254,7 +254,7 @@ Dynamically loads HTML components with lazy loading via IntersectionObserver. Co
 JavaScript modules that fetch JSON data and render HTML dynamically using `.map()`. Each renderer uses IntersectionObserver with 200px rootMargin for lazy initialization.
 
 ### Project Modal
-Displays detailed project information including features, tech stack, and status badges with keyboard support.
+Displays detailed project information including features, tech stack, and status badges with keyboard support. Fully internationalized with EN/PT translations.
 
 ### Theme Manager
 Handles dark/light theme switching with localStorage persistence and smooth transitions.
