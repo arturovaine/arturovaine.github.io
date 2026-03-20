@@ -53,6 +53,12 @@
         "engineering": "Engineering",
         "openSource": "Open Source",
         "experiments": "Experiments"
+      },
+      "modal": {
+        "viewProject": "View Project",
+        "close": "Close",
+        "keyFeatures": "Key Features",
+        "techStack": "Tech Stack"
       }
     },
     "metaproject": {
@@ -180,6 +186,12 @@
         "engineering": "Engenharia",
         "openSource": "Código Aberto",
         "experiments": "Experimentos"
+      },
+      "modal": {
+        "viewProject": "Ver Projeto",
+        "close": "Fechar",
+        "keyFeatures": "Principais Funcionalidades",
+        "techStack": "Stack Tecnológico"
       }
     },
     "metaproject": {
