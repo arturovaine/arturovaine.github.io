@@ -47,7 +47,6 @@ export const ProjectModal = {
               <i data-lucide="external-link" class="w-4 h-4"></i>
               <span class="modal-view-project-text">View Project</span>
             </a>
-            <button class="btn btn-secondary btn-sm modal-close-btn">Close</button>
           </div>
         </div>
         <p class="modal-subtitle"></p>
@@ -85,11 +84,6 @@ export const ProjectModal = {
       viewProjectText.textContent = t.viewProject;
     }
 
-    const closeBtn = this.modalElement.querySelector('.modal-close-btn');
-    if (closeBtn) {
-      closeBtn.textContent = t.close;
-    }
-
     const featuresTitle = this.modalElement.querySelector('.modal-features-title');
     if (featuresTitle) {
       featuresTitle.textContent = t.keyFeatures;
@@ -107,11 +101,6 @@ export const ProjectModal = {
     const closeBtn = this.modalElement.querySelector('.modal-close');
     if (closeBtn) {
       closeBtn.addEventListener('click', () => this.close());
-    }
-
-    const closeBtnFooter = this.modalElement.querySelector('.modal-close-btn');
-    if (closeBtnFooter) {
-      closeBtnFooter.addEventListener('click', () => this.close());
     }
 
     document.addEventListener('keydown', (e) => {
