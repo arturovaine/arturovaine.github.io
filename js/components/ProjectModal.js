@@ -2,10 +2,26 @@ export const ProjectModal = {
   modalElement: null,
   backdropElement: null,
   currentProject: null,
+  translations: null,
+  currentLang: 'en',
 
-  init() {
+  async init() {
+    this.currentLang = localStorage.getItem('language') || 'en';
+
+    try {
+      const response = await fetch('./data/translations.json');
+      this.translations = await response.json();
+    } catch (error) {
+      console.error('Failed to load modal translations:', error);
+    }
+
     this.createModalElements();
     this.setupEventListeners();
+
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      this.updateTranslations();
+    });
   },
 
   createModalElements() {
@@ -24,25 +40,27 @@ export const ProjectModal = {
         </button>
       </div>
       <div class="modal-body">
-        <h2 class="modal-title"></h2>
+        <div class="modal-title-row">
+          <h2 class="modal-title"></h2>
+          <div class="modal-actions">
+            <a class="btn btn-primary btn-sm modal-link" href="" target="_blank" rel="noopener">
+              <i data-lucide="external-link" class="w-4 h-4"></i>
+              <span class="modal-view-project-text">View Project</span>
+            </a>
+            <button class="btn btn-secondary btn-sm modal-close-btn">Close</button>
+          </div>
+        </div>
         <p class="modal-subtitle"></p>
         <span class="modal-status"></span>
         <p class="modal-description"></p>
         <div class="modal-features-section">
-          <h3 class="modal-section-title">Key Features</h3>
+          <h3 class="modal-section-title modal-features-title">Key Features</h3>
           <ul class="modal-features"></ul>
         </div>
         <div class="modal-tech-section">
-          <h3 class="modal-section-title">Tech Stack</h3>
+          <h3 class="modal-section-title modal-tech-title">Tech Stack</h3>
           <div class="modal-tech-stack"></div>
         </div>
-      </div>
-      <div class="modal-footer">
-        <a class="btn btn-primary btn-md modal-link" href="" target="_blank" rel="noopener">
-          <i data-lucide="external-link" class="w-4 h-4"></i>
-          View Project
-        </a>
-        <button class="btn btn-secondary btn-md modal-close-btn">Close</button>
       </div>
     `;
 
@@ -51,6 +69,35 @@ export const ProjectModal = {
 
     if (window.lucide) {
       lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+    }
+
+    this.updateTranslations();
+  },
+
+  updateTranslations() {
+    if (!this.translations || !this.modalElement) return;
+
+    const t = this.translations[this.currentLang]?.projects?.modal;
+    if (!t) return;
+
+    const viewProjectText = this.modalElement.querySelector('.modal-view-project-text');
+    if (viewProjectText) {
+      viewProjectText.textContent = t.viewProject;
+    }
+
+    const closeBtn = this.modalElement.querySelector('.modal-close-btn');
+    if (closeBtn) {
+      closeBtn.textContent = t.close;
+    }
+
+    const featuresTitle = this.modalElement.querySelector('.modal-features-title');
+    if (featuresTitle) {
+      featuresTitle.textContent = t.keyFeatures;
+    }
+
+    const techTitle = this.modalElement.querySelector('.modal-tech-title');
+    if (techTitle) {
+      techTitle.textContent = t.techStack;
     }
   },
 
