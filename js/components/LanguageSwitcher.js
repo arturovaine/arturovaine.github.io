@@ -1,3 +1,5 @@
+import { Analytics } from '../analytics.js';
+
 export const LanguageSwitcher = {
   currentLang: 'en',
 
@@ -51,8 +53,10 @@ export const LanguageSwitcher = {
   switchLanguage(lang) {
     if (lang === this.currentLang) return;
 
+    const previousLang = this.currentLang;
     this.currentLang = lang;
     localStorage.setItem('language', lang);
+    Analytics.trackLanguageChange(previousLang, lang);
 
     // Remove hash from URL
     const currentHash = window.location.hash;
