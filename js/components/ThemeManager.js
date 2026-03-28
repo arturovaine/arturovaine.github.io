@@ -1,3 +1,5 @@
+import { Analytics } from '../analytics.js';
+
 export const ThemeManager = {
   STORAGE_KEY: 'portfolio-theme',
   LIGHT_CLASS: 'light-theme',
@@ -26,6 +28,7 @@ export const ThemeManager = {
     const theme = isLight ? 'light' : 'dark';
     localStorage.setItem(this.STORAGE_KEY, theme);
     this.updateIcon(theme);
+    Analytics.trackThemeChange(theme);
 
     if (window.ModelViewer && typeof window.ModelViewer.updateTheme === 'function') {
       window.ModelViewer.updateTheme();
