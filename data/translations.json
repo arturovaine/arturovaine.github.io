@@ -50,10 +50,8 @@
       "heading": "A few projects spanning design systems, product, and engineering.",
       "filters": {
         "all": "All",
-        "design": "Design",
-        "engineering": "Engineering",
-        "openSource": "Open Source",
-        "experiments": "Experiments"
+        "development": "Development",
+        "data": "Data"
       },
       "modal": {
         "viewProject": "View Project",
@@ -183,10 +181,8 @@
       "heading": "Alguns projetos abrangendo sistemas de design, produto e engenharia.",
       "filters": {
         "all": "Todos",
-        "design": "Design",
-        "engineering": "Engenharia",
-        "openSource": "Código Aberto",
-        "experiments": "Experimentos"
+        "development": "Desenvolvimento",
+        "data": "Dados"
       },
       "modal": {
         "viewProject": "Ver Projeto",
