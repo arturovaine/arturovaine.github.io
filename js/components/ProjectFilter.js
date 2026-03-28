@@ -1,7 +1,14 @@
 export const ProjectFilter = {
-  init() {
+  translations: null,
+  currentLang: 'en',
+
+  async init() {
     this.chips = Array.from(document.querySelectorAll('.btn-chip[data-filter]'));
     this.cards = Array.from(document.querySelectorAll('.project'));
+
+    await this.loadTranslations();
+    this.currentLang = localStorage.getItem('language') || 'en';
+
     this.setupFilters();
     this.updateCounters();
 
@@ -9,6 +16,20 @@ export const ProjectFilter = {
       this.cards = Array.from(document.querySelectorAll('.project'));
       this.updateCounters();
     });
+
+    window.addEventListener('languageChanged', (event) => {
+      this.currentLang = event.detail.language;
+      this.updateCounters();
+    });
+  },
+
+  async loadTranslations() {
+    try {
+      const response = await fetch('./data/translations.json');
+      this.translations = await response.json();
+    } catch (error) {
+      console.error('Failed to load filter translations:', error);
+    }
   },
 
   updateCounters() {
@@ -32,12 +53,10 @@ export const ProjectFilter = {
   },
 
   getLabel(filter) {
-    const labels = {
-      'all': 'All',
-      'development': 'Development',
-      'data': 'Data'
-    };
-    return labels[filter] || filter;
+    if (this.translations && this.translations[this.currentLang]?.projects?.filters) {
+      return this.translations[this.currentLang].projects.filters[filter] || filter;
+    }
+    return filter;
   },
 
   setupFilters() {
