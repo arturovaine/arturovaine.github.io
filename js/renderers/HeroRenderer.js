@@ -42,6 +42,7 @@ export const HeroRenderer = {
     const paragraphs = document.querySelectorAll('.hero-paragraph');
     if (paragraphs[0]) paragraphs[0].innerHTML = t.paragraph1;
     if (paragraphs[1]) paragraphs[1].innerHTML = t.paragraph2;
+    if (paragraphs[2]) paragraphs[2].innerHTML = t.paragraph3;
 
     // Update stats
     const statsLabels = document.querySelectorAll('.stat-label');
