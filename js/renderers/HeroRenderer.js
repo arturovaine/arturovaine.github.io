@@ -64,5 +64,10 @@ export const HeroRenderer = {
     if (animate) {
       document.querySelector('#work')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+
+    // Recreate Lucide icons after DOM updates
+    if (window.lucide) {
+      lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+    }
   }
 };
