@@ -28,6 +28,7 @@ import { MetaprojectRenderer } from './renderers/MetaprojectRenderer.js';
 import { FooterRenderer } from './renderers/FooterRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
 import { ScrollToTop } from './components/ScrollToTop.js';
+import { Analytics } from './analytics.js';
 
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
   const start = Date.now();
@@ -128,6 +129,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   CookieConsent.init();
   ScrollToTop.init();
+  Analytics.init();
 });
 
 window.addEventListener('componentLoaded', (event) => {
