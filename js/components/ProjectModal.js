@@ -1,3 +1,5 @@
+import { Analytics } from '../analytics.js';
+
 export const ProjectModal = {
   modalElement: null,
   backdropElement: null,
@@ -119,6 +121,8 @@ export const ProjectModal = {
     this.backdropElement.classList.add('active');
     this.modalElement.classList.add('active');
     document.body.style.overflow = 'hidden';
+
+    Analytics.trackProjectView(project.id, project.title);
   },
 
   close() {
