@@ -37,6 +37,11 @@ export const ComponentLoader = {
       const html = await this.loadComponent(componentName);
       container.insertAdjacentHTML('beforeend', html);
 
+      // Recreate Lucide icons after each component is loaded
+      if (window.lucide) {
+        lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+      }
+
       // Dispatch componentLoaded event for each component
       window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: componentName } }));
     }
