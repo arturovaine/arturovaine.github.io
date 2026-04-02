@@ -346,21 +346,28 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 - [x] Semantic `<main>` element for main content
 - [x] `<video>` elements for animated project thumbnails (replacing GIFs)
 
+#### Performance
+- [x] Tailwind CSS build pipeline — CDN replaced with purged CSS (`npm run css`)
+- [x] PostHog deferred with `requestIdleCallback`
+- [x] Original GIF files removed from repo (~64MB freed)
+
+#### Code Quality
+- [x] Componentized `award-highlights.html` — data-driven via JSON + AwardHighlightsRenderer
+
+#### Accessibility
+- [x] Light theme contrast improved (buttons, tags, badges: `#525252` → `#404040`)
+- [x] Focus-visible outline on buttons (replaced invalid `ring` property)
+
+#### Analytics
+- [x] Web Vitals tracking (LCP, CLS, INP) via PerformanceObserver → GA4
+
 ### Pending
 
 #### Performance
 - [ ] Critical CSS inline for above-the-fold content
-- [ ] Tailwind CSS build pipeline (replace CDN with purged CSS)
 
 #### Code Quality
-- [ ] Componentize `award-highlights.html` (105 lines)
 - [ ] Componentize `hero.html` (72 lines)
-
-#### Features
-- [ ] Accessibility audit (color contrast, ARIA roles)
-
-#### Analytics
-- [ ] Web Vitals tracking (LCP, CLS, FID)
 
 ## License
 
