@@ -305,6 +305,10 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 - [x] CLS optimization with fixed aspect ratios and min-heights
 - [x] Skeleton loading for PortfolioSection and ProfileSection (CLS: 0.16 → 0.00)
 - [x] Explicit image dimensions to prevent layout shifts
+- [x] GIF thumbnails converted to MP4 (46MB → 5.5MB lp-corp, 13MB → 776KB 3d-fire)
+- [x] PNG thumbnails converted to WebP (3.5MB → 448KB uskcuritiba, etc.)
+- [x] Removed duplicate preconnect/dns-prefetch hints
+- [x] Pinned Lucide icons to version 0.469.0 (was @latest)
 
 #### Architecture
 - [x] Data-driven rendering with JSON + JavaScript renderers (8 renderers)
@@ -333,21 +337,27 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 - [x] Canonical URLs on all pages
 - [x] Web App Manifest (`manifest.json`)
 - [x] Favicon with proper icon reference
+- [x] `og:image:width/height` dimensions
+- [x] `meta author` tag
+
+#### Accessibility
+- [x] Skip navigation link for screen readers
+- [x] Custom `404.html` page
+- [x] Semantic `<main>` element for main content
+- [x] `<video>` elements for animated project thumbnails (replacing GIFs)
 
 ### Pending
 
 #### Performance
-- [ ] Convert remaining PNGs/JPGs to WebP
-- [ ] Preconnect hints for external resources
 - [ ] Critical CSS inline for above-the-fold content
+- [ ] Tailwind CSS build pipeline (replace CDN with purged CSS)
 
 #### Code Quality
 - [ ] Componentize `award-highlights.html` (105 lines)
 - [ ] Componentize `hero.html` (72 lines)
 
 #### Features
-- [ ] Accessibility audit (ARIA labels, keyboard navigation)
-- [ ] Custom 404 page
+- [ ] Accessibility audit (color contrast, ARIA roles)
 
 #### Analytics
 - [ ] Web Vitals tracking (LCP, CLS, FID)
