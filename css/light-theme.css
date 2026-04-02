@@ -99,16 +99,19 @@ body.light-theme .btn-primary {
 body.light-theme .btn-primary:hover { background-color: #262626; }
 
 body.light-theme .btn-secondary {
-  border-color: rgba(0, 0, 0, 0.1);
-  background-color: rgba(0, 0, 0, 0.02);
-  color: #525252;
+  border-color: rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.03);
+  color: #404040;
 }
-body.light-theme .btn-secondary:hover { background-color: rgba(0, 0, 0, 0.05); }
-
-body.light-theme .btn-ghost { color: #525252; }
-body.light-theme .btn-ghost:hover {
-  background-color: rgba(0, 0, 0, 0.04);
+body.light-theme .btn-secondary:hover {
+  background-color: rgba(0, 0, 0, 0.06);
   color: #171717;
+}
+
+body.light-theme .btn-ghost { color: #404040; }
+body.light-theme .btn-ghost:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+  color: #0a0a0a;
 }
 
 body.light-theme .btn-ghost.btn-portfolio {
@@ -157,15 +160,15 @@ body.light-theme .btn-chip.active {
 }
 
 body.light-theme .tag {
-  border-color: rgba(0, 0, 0, 0.1);
-  background-color: rgba(0, 0, 0, 0.02);
-  color: #525252;
+  border-color: rgba(0, 0, 0, 0.12);
+  background-color: rgba(0, 0, 0, 0.03);
+  color: #404040;
 }
 
 body.light-theme .badge-status {
-  border-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.12);
   background-color: rgba(245, 245, 245, 0.8);
-  color: #525252;
+  color: #404040;
 }
 
 /* Cards */
