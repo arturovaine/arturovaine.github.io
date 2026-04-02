@@ -1,0 +1,17 @@
+{
+  "name": "Arturo Vaine — Portfolio",
+  "short_name": "Arturo Vaine",
+  "description": "Engineer & Product Designer crafting fast, minimal interfaces.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "src": "/src/assets/images/pxart/pxArt.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
