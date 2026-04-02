@@ -29,6 +29,8 @@ import { FooterRenderer } from './renderers/FooterRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
 import { ScrollToTop } from './components/ScrollToTop.js';
 import { Analytics } from './analytics.js';
+import { initWebVitals } from './webVitals.js';
+import { AwardHighlightsRenderer } from './renderers/AwardHighlightsRenderer.js';
 
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
   const start = Date.now();
@@ -63,7 +65,10 @@ const componentInitializers = {
     AwardRenderer.init();
     SectionsRenderer.init();
   },
-  'award-highlights': () => VideoCarousel.init(),
+  'award-highlights': () => {
+    AwardHighlightsRenderer.init();
+    VideoCarousel.init();
+  },
   'posts': () => {
     PostRenderer.init();
     SectionsRenderer.init();
@@ -130,6 +135,10 @@ document.addEventListener('DOMContentLoaded', async function () {
   CookieConsent.init();
   ScrollToTop.init();
   Analytics.init();
+
+  requestIdleCallback(() => {
+    initWebVitals();
+  }, { timeout: 3000 });
 });
 
 window.addEventListener('componentLoaded', (event) => {
