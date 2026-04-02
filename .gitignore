@@ -75,9 +75,10 @@ dev-notes.md
 
 # Large video files (stored in cloud bucket)
 src/assets/videos/
-*.mp4
 *.mov
 *.avi
+# Allow MP4 thumbnails (converted from GIFs)
+!src/assets/thumbs/*.mp4
 
 # Large files (>10MB)
 *.zip
