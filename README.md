@@ -19,6 +19,8 @@ Visit: [arturovaine.github.io](https://arturovaine.github.io)
 - **Button & Card Systems** - Reusable CSS component classes
 - **Performance Optimized** - Lazy loading, skeleton placeholders, optimized assets
 - **Internationalization (i18n)** - English/Portuguese with auto-detect browser language
+- **SEO & AEO** - Structured data (JSON-LD), Open Graph, Twitter Cards, sitemap, robots.txt, hreflang
+- **PWA Ready** - Service Worker with cache strategies, Web App Manifest
 - **Modern Stack** - Vanilla JavaScript (ES6 Modules), Tailwind CSS, Lucide icons
 
 ## Technologies
@@ -109,6 +111,10 @@ arturovaine.github.io/
 │   ├── modal.css            # Modal & cookie banner
 │   └── light-theme.css      # Light theme overrides
 ├── index.html
+├── metaproject.html
+├── sitemap.xml
+├── robots.txt
+├── manifest.json
 └── README.md
 ```
 
@@ -316,6 +322,18 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 - [x] Internationalization (i18n) - EN/PT with auto-detect
 - [x] Tooltips for UI buttons (theme-aware)
 
+#### SEO & AEO
+- [x] JSON-LD structured data (Person schema on index, Article schema on metaproject)
+- [x] Twitter Cards meta tags on all pages
+- [x] Open Graph meta tags on all pages
+- [x] `sitemap.xml` with hreflang annotations
+- [x] `robots.txt` with sitemap reference
+- [x] `hreflang` alternate links (EN/PT/x-default)
+- [x] Dynamic `<html lang>` attribute on language switch
+- [x] Canonical URLs on all pages
+- [x] Web App Manifest (`manifest.json`)
+- [x] Favicon with proper icon reference
+
 ### Pending
 
 #### Performance
@@ -328,7 +346,6 @@ The site is automatically deployed to GitHub Pages from the `main` branch. Any p
 - [ ] Componentize `hero.html` (72 lines)
 
 #### Features
-- [ ] Twitter cards meta tags
 - [ ] Accessibility audit (ARIA labels, keyboard navigation)
 - [ ] Custom 404 page
 
