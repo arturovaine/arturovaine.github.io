@@ -1,6 +1,7 @@
 /**
  * Unit tests for Web Vitals tracking
  */
+import { initWebVitals } from '../../js/webVitals.js';
 
 describe('Web Vitals', () => {
   let observers = [];
@@ -10,7 +11,6 @@ describe('Web Vitals', () => {
     observers = [];
     jest.clearAllMocks();
 
-    // Mock PerformanceObserver
     originalPerformanceObserver = global.PerformanceObserver;
     global.PerformanceObserver = class MockPerformanceObserver {
       constructor(callback) {
@@ -21,7 +21,6 @@ describe('Web Vitals', () => {
       disconnect() {}
     };
 
-    // Mock gtag
     window.gtag = jest.fn();
   });
 
@@ -30,56 +29,13 @@ describe('Web Vitals', () => {
     delete window.gtag;
   });
 
-  function loadModule() {
-    // Inline the logic since Jest doesn't support ESM well
-    if (!('PerformanceObserver' in window)) return;
-
-    try {
-      new PerformanceObserver((list) => {
-        const entries = list.getEntries();
-        const lastEntry = entries[entries.length - 1];
-        reportMetric('LCP', lastEntry.startTime);
-      }).observe({ type: 'largest-contentful-paint', buffered: true });
-    } catch (e) {}
-
-    try {
-      let clsValue = 0;
-      new PerformanceObserver((list) => {
-        for (const entry of list.getEntries()) {
-          if (!entry.hadRecentInput) {
-            clsValue += entry.value;
-          }
-        }
-        reportMetric('CLS', clsValue);
-      }).observe({ type: 'layout-shift', buffered: true });
-    } catch (e) {}
-
-    try {
-      new PerformanceObserver((list) => {
-        const entries = list.getEntries();
-        const lastEntry = entries[entries.length - 1];
-        reportMetric('INP', lastEntry.duration);
-      }).observe({ type: 'event', buffered: true, durationThreshold: 16 });
-    } catch (e) {}
-  }
-
-  function reportMetric(name, value) {
-    if (window.gtag) {
-      window.gtag('event', name, {
-        event_category: 'Web Vitals',
-        value: Math.round(name === 'CLS' ? value * 1000 : value),
-        non_interaction: true
-      });
-    }
-  }
-
   test('should create 3 PerformanceObservers (LCP, CLS, INP)', () => {
-    loadModule();
+    initWebVitals();
     expect(observers).toHaveLength(3);
   });
 
   test('should report LCP metric to gtag', () => {
-    loadModule();
+    initWebVitals();
     const lcpObserver = observers[0];
     lcpObserver.callback({
       getEntries: () => [{ startTime: 1500 }]
@@ -93,7 +49,7 @@ describe('Web Vitals', () => {
   });
 
   test('should report CLS metric to gtag (multiplied by 1000)', () => {
-    loadModule();
+    initWebVitals();
     const clsObserver = observers[1];
     clsObserver.callback({
       getEntries: () => [{ value: 0.05, hadRecentInput: false }]
@@ -107,7 +63,7 @@ describe('Web Vitals', () => {
   });
 
   test('should ignore layout shifts with recent input', () => {
-    loadModule();
+    initWebVitals();
     const clsObserver = observers[1];
     clsObserver.callback({
       getEntries: () => [{ value: 0.1, hadRecentInput: true }]
@@ -121,7 +77,7 @@ describe('Web Vitals', () => {
   });
 
   test('should report INP metric to gtag', () => {
-    loadModule();
+    initWebVitals();
     const inpObserver = observers[2];
     inpObserver.callback({
       getEntries: () => [{ duration: 200 }]
@@ -136,24 +92,23 @@ describe('Web Vitals', () => {
 
   test('should not report if gtag is not available', () => {
     delete window.gtag;
-    loadModule();
+    initWebVitals();
     const lcpObserver = observers[0];
-    lcpObserver.callback({
-      getEntries: () => [{ startTime: 1500 }]
-    });
-    // No error thrown
+    // Should not throw
+    expect(() => {
+      lcpObserver.callback({
+        getEntries: () => [{ startTime: 1500 }]
+      });
+    }).not.toThrow();
   });
 
   test('should not initialize if PerformanceObserver is not supported', () => {
     delete global.PerformanceObserver;
-    // Should not throw
-    expect(() => {
-      if (!('PerformanceObserver' in window)) return;
-    }).not.toThrow();
+    expect(() => initWebVitals()).not.toThrow();
   });
 
   test('should accumulate CLS values across multiple entries', () => {
-    loadModule();
+    initWebVitals();
     const clsObserver = observers[1];
 
     clsObserver.callback({

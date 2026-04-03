@@ -1,45 +1,7 @@
 /**
  * Unit tests for ProjectRenderer
  */
-
-// Mock module system for ESM
-const ProjectRenderer = {
-  projects: [],
-  loaded: false,
-  currentLang: 'en',
-
-  renderCard(project, index) {
-    const tags = project.tags.map(tag => `<span class="card-tag">${tag}</span>`).join('');
-    const branches = Array.isArray(project.branch) ? project.branch.join(' ') : project.branch || '';
-
-    return `
-      <div class="card group project"
-           data-branch="${branches}"
-           data-category="${project.category}"
-           data-project-index="${index}"
-           role="button"
-           tabindex="0"
-           aria-label="View details for ${project.title}">
-        <div class="card-image aspect-[3/4]">
-          ${project.image.endsWith('.mp4') ? `<video autoplay loop muted playsinline loading="lazy" src="${project.image}" aria-label="${project.alt}"></video>` : project.image.endsWith('.webp') ? `<picture><source srcset="${project.image}" type="image/webp"><img loading="lazy" src="${project.image.replace('.webp', '.png')}" alt="${project.alt}"></picture>` : `<img loading="lazy" src="${project.image}" alt="${project.alt}">`}
-        </div>
-        <div class="card-overlay">
-          <h3 class="card-title">${project.title}</h3>
-          <p class="card-description">${project.description}</p>
-          <div class="card-tags">${tags}</div>
-        </div>
-      </div>
-    `;
-  },
-
-  render(container, projects) {
-    container.innerHTML = projects.map((project, index) => this.renderCard(project, index)).join('');
-  },
-
-  getProjectById(id) {
-    return this.projects.find(p => p.id === id);
-  }
-};
+import { ProjectRenderer } from '../../js/renderers/ProjectRenderer.js';
 
 describe('ProjectRenderer', () => {
   let container;
@@ -48,6 +10,9 @@ describe('ProjectRenderer', () => {
     container = document.createElement('div');
     container.id = 'projects';
     document.body.appendChild(container);
+    ProjectRenderer.projects = [];
+    ProjectRenderer.loaded = false;
+    ProjectRenderer.currentLang = 'en';
     jest.clearAllMocks();
   });
 
