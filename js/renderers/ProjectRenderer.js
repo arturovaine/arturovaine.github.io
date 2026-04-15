@@ -61,7 +61,7 @@ export const ProjectRenderer = {
            role="button"
            tabindex="0"
            aria-label="View details for ${project.title}">
-        <div class="card-image aspect-[3/4]">
+        <div class="card-image aspect-[3/4]"${project.imageBg ? ` style="background-color: ${project.imageBg};"` : ''}>
           ${project.image.endsWith('.mp4') ? `<video autoplay loop muted playsinline loading="lazy" src="${project.image}" aria-label="${project.alt}"></video>` : project.image.endsWith('.webp') ? `<picture><source srcset="${project.image}" type="image/webp"><img loading="lazy" src="${project.image.replace('.webp', '.png')}" alt="${project.alt}"></picture>` : `<img loading="lazy" src="${project.image}" alt="${project.alt}">`}
         </div>
         <div class="card-overlay">
