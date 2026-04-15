@@ -1,5 +1,29 @@
 [
   {
+    "id": "kaggle-datasets",
+    "title": "Datasets no Kaggle",
+    "description": "Conjuntos de dados públicos publicados no Kaggle cobrindo diversos domínios e aplicações",
+    "image": "./src/assets/thumbs/kaggle.jpg",
+    "alt": "Perfil de Datasets no Kaggle",
+    "imageBg": "white",
+    "url": "https://www.kaggle.com/arturovainecwb/datasets",
+    "branch": ["data"],
+    "category": "open-source",
+    "tags": ["Kaggle", "Datasets", "Dados Abertos"],
+    "modal": {
+      "subtitle": "Datasets Públicos no Kaggle",
+      "fullDescription": "Coleção de datasets públicos publicados no Kaggle, compartilhados com a comunidade de ciência de dados para apoiar exploração, modelagem e pesquisa em diferentes domínios.",
+      "features": [
+        "Datasets publicamente disponíveis hospedados no Kaggle",
+        "Tópicos diversos para análise de dados e machine learning",
+        "Formatos prontos para uso em notebooks e experimentos",
+        "Contribuições orientadas à comunidade"
+      ],
+      "techStack": ["Kaggle", "CSV", "Dados"],
+      "status": "Código Aberto"
+    }
+  },
+  {
     "id": "smart-catalog-reader",
     "title": "Leitor Inteligente de Catálogos",
     "description": "Sistema de extração de catálogos PDF com IA usando Google Gemini Vision para dados de produtos cosméticos",
