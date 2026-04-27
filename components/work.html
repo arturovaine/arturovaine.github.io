@@ -1,24 +1,37 @@
 <!-- Work -->
 <section id="work" class="border-t border-white/5">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
-      <div>
+    <div class="flex flex-col gap-6 xl:flex-row xl:items-end xl:justify-between">
+      <div class="max-w-2xl">
         <h2 class="text-3xl sm:text-4xl font-semibold tracking-tight">Portfolio</h2>
         <p class="mt-2 text-neutral-400">A few projects spanning design systems, product, and engineering.</p>
       </div>
-      <div class="flex flex-wrap items-center gap-2">
-        <button data-filter="all" class="btn btn-chip active">All</button>
-        <button data-filter="development" class="btn btn-chip">Development</button>
-        <button data-filter="data" class="btn btn-chip">Data</button>
+      <div class="flex w-full flex-col gap-3 xl:w-auto xl:flex-row xl:items-center xl:justify-end">
+        <!-- Search bar temporarily disabled
+        <label for="project-search" class="sr-only">Search projects</label>
+        <input
+          id="project-search"
+          type="search"
+          placeholder="Search projects..."
+          autocomplete="off"
+          spellcheck="false"
+          class="h-11 w-full rounded-md border border-white/10 bg-white/[0.03] px-4 text-sm text-white placeholder:text-neutral-500 outline-none transition-colors focus:border-white/20 focus:bg-white/[0.05] xl:w-80"
+        />
+        -->
+        <div class="flex flex-wrap items-center gap-2 xl:flex-nowrap">
+          <button data-filter="all" class="btn btn-chip active whitespace-nowrap">All</button>
+          <button data-filter="development" class="btn btn-chip whitespace-nowrap">Development</button>
+          <button data-filter="data" class="btn btn-chip whitespace-nowrap">Data</button>
+        </div>
       </div>
     </div>
 
     <!-- Projects rendered dynamically from data/projects.json -->
-    <div id="projects" class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div id="projects" class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4">
       <!-- Loading placeholder -->
-      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 aspect-[3/4]"></div>
-      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 aspect-[3/4]"></div>
-      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 aspect-[3/4]"></div>
+      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 project-card-skeleton"></div>
+      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 project-card-skeleton"></div>
+      <div class="animate-pulse rounded-[15px] border border-white/10 bg-neutral-900/60 project-card-skeleton"></div>
     </div>
   </div>
 </section>
