@@ -44,6 +44,12 @@ export const WorkSectionRenderer = {
       description.textContent = t.heading;
     }
 
+    const searchInput = document.getElementById('project-search');
+    if (searchInput && t.searchPlaceholder) {
+      searchInput.placeholder = t.searchPlaceholder;
+      searchInput.setAttribute('aria-label', t.searchPlaceholder);
+    }
+
     // Update filter buttons
     const filterButtons = document.querySelectorAll('#work button[data-filter]');
     filterButtons.forEach(button => {

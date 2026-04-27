@@ -53,6 +53,7 @@
         "development": "Development",
         "data": "Data"
       },
+      "searchPlaceholder": "Search projects...",
       "modal": {
         "viewProject": "View Project",
         "keyFeatures": "Key Features",
@@ -184,6 +185,7 @@
         "development": "Desenvolvimento",
         "data": "Dados"
       },
+      "searchPlaceholder": "Pesquisar projetos...",
       "modal": {
         "viewProject": "Ver Projeto",
         "keyFeatures": "Principais Funcionalidades",
