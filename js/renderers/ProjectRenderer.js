@@ -52,22 +52,24 @@ export const ProjectRenderer = {
   renderCard(project, index) {
     const tags = project.tags.map(tag => `<span class="card-tag">${tag}</span>`).join('');
     const branches = Array.isArray(project.branch) ? project.branch.join(' ') : project.branch || '';
+    const searchIndex = [project.title, project.description, ...(project.tags || [])].join(' ').toLowerCase().replace(/"/g, '&quot;');
 
     return `
-      <div class="card group project"
+      <div class="card group project project-card"
            data-branch="${branches}"
+           data-search="${searchIndex}"
            data-category="${project.category}"
            data-project-index="${index}"
            role="button"
            tabindex="0"
            aria-label="View details for ${project.title}">
-        <div class="card-image aspect-[3/4]"${project.imageBg ? ` style="background-color: ${project.imageBg};"` : ''}>
+        <div class="card-image project-card-image"${project.imageBg ? ` style="background-color: ${project.imageBg};"` : ''}>
           ${project.image.endsWith('.mp4') ? `<video autoplay loop muted playsinline loading="lazy" src="${project.image}" aria-label="${project.alt}"></video>` : project.image.endsWith('.webp') ? `<picture><source srcset="${project.image}" type="image/webp"><img loading="lazy" src="${project.image.replace('.webp', '.png')}" alt="${project.alt}"></picture>` : `<img loading="lazy" src="${project.image}" alt="${project.alt}">`}
         </div>
-        <div class="card-overlay">
-          <h3 class="card-title">${project.title}</h3>
-          <p class="card-description">${project.description}</p>
-          <div class="card-tags">${tags}</div>
+        <div class="card-overlay project-card-overlay">
+          <h3 class="card-title project-card-title">${project.title}</h3>
+          <p class="card-description project-card-description">${project.description}</p>
+          <div class="card-tags project-card-tags">${tags}</div>
         </div>
       </div>
     `;
