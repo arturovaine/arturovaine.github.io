@@ -33,10 +33,20 @@ export const AwardHighlightsRenderer = {
     carousel.innerHTML = highlights.map(h => `
       <div class="min-w-full">
         <div class="relative aspect-video">
-          <video class="w-full h-full object-contain bg-neutral-950" autoplay muted loop playsinline>
-            <source src="${h.video}" type="video/mp4">
-          </video>
-          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-neutral-950 via-neutral-950/95 via-neutral-950/70 to-transparent pt-20 pb-6 px-6">
+          ${h.youtube
+            ? `<iframe
+                class="w-full h-full bg-neutral-950"
+                data-src="${h.youtube}"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                title="${h.title}"
+              ></iframe>`
+            : `<video class="w-full h-full object-contain bg-neutral-950" muted loop playsinline>
+                <source data-src="${h.video}" type="video/mp4">
+              </video>`
+          }
+          <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-neutral-950 via-neutral-950/95 via-neutral-950/70 to-transparent pt-20 pb-6 px-6 pointer-events-none">
             <div class="flex items-center gap-2 text-xs font-medium text-${h.color}-400 mb-2">
               <i data-lucide="award" class="w-4 h-4"></i>
               <span>${h.year}</span>
@@ -53,5 +63,32 @@ export const AwardHighlightsRenderer = {
     `).join('');
 
     if (window.lucide) lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+
+    this.setupLazyLoad(container);
+  },
+
+  setupLazyLoad(container) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+
+        container.querySelectorAll('video source[data-src]').forEach(source => {
+          source.src = source.dataset.src;
+          source.removeAttribute('data-src');
+          const video = source.closest('video');
+          video.load();
+          video.play().catch(() => {});
+        });
+
+        container.querySelectorAll('iframe[data-src]').forEach(iframe => {
+          iframe.src = iframe.dataset.src;
+          iframe.removeAttribute('data-src');
+        });
+
+        observer.disconnect();
+      });
+    }, { threshold: 0.25 });
+
+    observer.observe(container);
   }
 };

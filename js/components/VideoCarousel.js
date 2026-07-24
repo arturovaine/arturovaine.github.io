@@ -1,41 +1,37 @@
 export const VideoCarousel = {
   currentIndex: 0,
-  totalSlides: 3,
   carousel: null,
-  indicators: null,
-  videos: [],
+  autoPlayTimer: null,
 
   init() {
     this.carousel = document.getElementById('video-carousel');
-    this.indicators = document.querySelectorAll('.btn-dot[data-index]');
-    this.videos = document.querySelectorAll('#video-carousel video');
-
-    if (!this.carousel) {
-      return;
-    }
+    if (!this.carousel) return;
 
     const prevBtn = document.getElementById('carousel-prev');
     const nextBtn = document.getElementById('carousel-next');
 
-    if (prevBtn) {
-      prevBtn.addEventListener('click', () => this.prev());
-    }
+    if (prevBtn) prevBtn.addEventListener('click', () => this.prev());
+    if (nextBtn) nextBtn.addEventListener('click', () => this.next());
 
-    if (nextBtn) {
-      nextBtn.addEventListener('click', () => this.next());
-    }
-
-    this.indicators.forEach((indicator, index) => {
-      indicator.addEventListener('click', () => this.goToSlide(index));
+    document.getElementById('award-highlights-carousel')?.addEventListener('click', (e) => {
+      const dot = e.target.closest('.btn-dot[data-index]');
+      if (dot) this.goToSlide(parseInt(dot.dataset.index, 10));
     });
 
-    setInterval(() => this.next(), 10000);
+    this.startAutoPlay();
 
-    if (window.lucide) {
-      lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
-    }
+    if (window.lucide) lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
 
     this.updateVideoPlayback();
+  },
+
+  get totalSlides() {
+    return this.carousel ? this.carousel.querySelectorAll(':scope > div').length : 0;
+  },
+
+  startAutoPlay() {
+    if (this.autoPlayTimer) clearInterval(this.autoPlayTimer);
+    this.autoPlayTimer = setInterval(() => this.next(), 10000);
   },
 
   goToSlide(index) {
@@ -44,12 +40,16 @@ export const VideoCarousel = {
   },
 
   next() {
-    this.currentIndex = (this.currentIndex + 1) % this.totalSlides;
+    const total = this.totalSlides;
+    if (total === 0) return;
+    this.currentIndex = (this.currentIndex + 1) % total;
     this.updateCarousel();
   },
 
   prev() {
-    this.currentIndex = (this.currentIndex - 1 + this.totalSlides) % this.totalSlides;
+    const total = this.totalSlides;
+    if (total === 0) return;
+    this.currentIndex = (this.currentIndex - 1 + total) % total;
     this.updateCarousel();
   },
 
@@ -57,26 +57,24 @@ export const VideoCarousel = {
     const offset = -this.currentIndex * 100;
     this.carousel.style.transform = `translateX(${offset}%)`;
 
-    this.indicators.forEach((indicator, index) => {
-      if (index === this.currentIndex) {
-        indicator.classList.add('active');
-      } else {
-        indicator.classList.remove('active');
-      }
+    document.querySelectorAll('.btn-dot[data-index]').forEach((indicator, index) => {
+      indicator.classList.toggle('active', index === this.currentIndex);
     });
 
     this.updateVideoPlayback();
   },
 
   updateVideoPlayback() {
-    this.videos.forEach((video) => {
-      video.pause();
+    const slides = this.carousel ? this.carousel.querySelectorAll(':scope > div') : [];
+    slides.forEach((slide, index) => {
+      const video = slide.querySelector('video');
+      if (!video) return;
+      if (index === this.currentIndex) {
+        video.muted = true;
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
     });
-
-    if (this.videos[this.currentIndex]) {
-      const currentVideo = this.videos[this.currentIndex];
-      currentVideo.muted = true;
-      currentVideo.play().catch(() => {});
-    }
   }
 };
