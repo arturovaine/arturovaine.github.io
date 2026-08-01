@@ -17,7 +17,17 @@
           <i data-lucide="chevron-right" class="w-6 h-6"></i>
         </button>
 
-        <div id="video-carousel" class="flex transition-transform duration-500 ease-in-out"></div>
+        <div id="video-carousel" class="flex transition-transform duration-500 ease-in-out">
+          <div class="animate-pulse min-w-full">
+            <div class="relative aspect-video bg-neutral-800/50">
+              <div class="absolute bottom-6 left-6 space-y-2">
+                <div class="h-3 bg-neutral-700/60 rounded w-12"></div>
+                <div class="h-5 bg-neutral-700/60 rounded w-56"></div>
+                <div class="h-4 bg-neutral-700/60 rounded w-40"></div>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div id="carousel-dots" class="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center gap-2 z-10"></div>
       </div>
