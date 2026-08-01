@@ -2,7 +2,17 @@
 <section class="logo-section">
   <p class="logo-title">Trusted by organizations</p>
   <div class="logo-slider" id="logoCarousel">
-    <div class="logo-track" id="logoTrack"></div>
+    <div id="logoSkeleton" class="logo-skeleton-track" aria-hidden="true">
+      <div class="logo-skeleton-item"></div>
+      <div class="logo-skeleton-item" style="width:80px"></div>
+      <div class="logo-skeleton-item" style="width:56px"></div>
+      <div class="logo-skeleton-item" style="width:96px"></div>
+      <div class="logo-skeleton-item" style="width:64px"></div>
+      <div class="logo-skeleton-item"></div>
+      <div class="logo-skeleton-item" style="width:72px"></div>
+      <div class="logo-skeleton-item" style="width:88px"></div>
+    </div>
+    <div class="logo-track" id="logoTrack" style="opacity:0;transition:opacity 0.4s ease"></div>
   </div>
 </section>
 
@@ -85,5 +95,31 @@
     .logo-track {
       animation: none !important;
     }
+  }
+
+  .logo-skeleton-track {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: center;
+    padding: 0 2rem;
+  }
+
+  .logo-skeleton-item {
+    height: 28px;
+    width: 72px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 4px;
+    animation: logo-shimmer 1.6s ease-in-out infinite;
+    flex-shrink: 0;
+  }
+
+  body.light-theme .logo-skeleton-item {
+    background: rgba(0,0,0,0.06);
+  }
+
+  @keyframes logo-shimmer {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
   }
 </style>

@@ -39,6 +39,7 @@ export const LogoCarousel = {
       console.error('Failed to load logo carousel translations:', error);
     }
     const track = document.getElementById('logoTrack');
+    const skeleton = document.getElementById('logoSkeleton');
     if (!track) return;
 
     const isLightTheme = () => document.body.classList.contains('light-theme');
@@ -48,6 +49,8 @@ export const LogoCarousel = {
         const img = document.createElement('img');
         img.src = logo.srcLight && isLightTheme() ? logo.srcLight : logo.src;
         img.alt = logo.alt;
+        img.height = Math.round(36 * (logo.scale || 1));
+        img.decoding = 'async';
         if (logo.srcLight) {
           img.dataset.srcDark = logo.src;
           img.dataset.srcLight = logo.srcLight;
@@ -93,10 +96,13 @@ export const LogoCarousel = {
         }
       });
     })).then(() => {
-      setTimeout(() => {
+      requestAnimationFrame(() => {
         const firstImg = images[0];
         const firstImgSet2 = images[this.logos.length];
         const oneSetWidth = firstImgSet2.offsetLeft - firstImg.offsetLeft;
+
+        if (skeleton) skeleton.style.display = 'none';
+        track.style.opacity = '1';
 
         let x = 0;
         const speed = 0.8;
@@ -110,7 +116,7 @@ export const LogoCarousel = {
         };
 
         requestAnimationFrame(animate);
-      }, 200);
+      });
     });
   },
 
