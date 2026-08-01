@@ -62,7 +62,7 @@ export const AwardHighlightsRenderer = {
       <button class="btn btn-dot${i === 0 ? ' active' : ''}" data-index="${i}" aria-label="Go to video ${i + 1}"></button>
     `).join('');
 
-    if (window.lucide) lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+    if (window.lucide) requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
 
     this.setupLazyLoad(container);
   },

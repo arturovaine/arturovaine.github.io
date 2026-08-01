@@ -74,7 +74,7 @@ export const ArtworkRenderer = {
   render(container) {
     container.innerHTML = this.artworks.map(artwork => this.renderCard(artwork)).join('');
     if (window.lucide) {
-      window.lucide.createIcons();
+      requestIdleCallback(() => window.lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
     }
   }
 };

@@ -20,7 +20,7 @@ export const VideoCarousel = {
 
     this.startAutoPlay();
 
-    if (window.lucide) lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+    if (window.lucide) requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
 
     this.updateVideoPlayback();
   },

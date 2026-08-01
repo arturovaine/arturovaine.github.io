@@ -26,7 +26,7 @@ export const TetoCarousel = {
     this.nextBtn.addEventListener('click', () => this.next());
 
     if (window.lucide) {
-      lucide.createIcons();
+      requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
     }
 
     this.updateImage();

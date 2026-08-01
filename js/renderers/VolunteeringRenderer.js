@@ -33,15 +33,14 @@ export const VolunteeringRenderer = {
       const response = await fetch(volunteeringFile);
       const data = await response.json();
       this.render(container, data);
-      if (window.lucide) lucide.createIcons();
+      if (window.lucide) requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
     } catch (error) {
       console.error('Failed to load volunteering:', error);
-      // Fallback to English if PT file doesn't exist
       if (this.currentLang === 'pt') {
         const response = await fetch('./data/volunteering.json');
         const data = await response.json();
         this.render(container, data);
-        if (window.lucide) lucide.createIcons();
+        if (window.lucide) requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
       }
     }
   },

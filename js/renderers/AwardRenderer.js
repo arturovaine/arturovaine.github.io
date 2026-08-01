@@ -78,7 +78,7 @@ export const AwardRenderer = {
   render(container, awards) {
     container.innerHTML = awards.map(award => this.renderCard(award)).join('');
     if (window.lucide) {
-      window.lucide.createIcons();
+      requestIdleCallback(() => window.lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
     }
   }
 };

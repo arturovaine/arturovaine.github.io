@@ -74,7 +74,7 @@ export const PostRenderer = {
   render(container) {
     container.innerHTML = this.posts.map(post => this.renderCard(post)).join('');
     if (window.lucide) {
-      window.lucide.createIcons();
+      requestIdleCallback(() => window.lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
     }
   }
 };

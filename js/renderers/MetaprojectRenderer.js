@@ -81,9 +81,8 @@ export const MetaprojectRenderer = {
         themeDesc.textContent = t.sections.theme.description;
       }
 
-      // Re-initialize lucide icons
       if (window.lucide) {
-        lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+        requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
       }
     }
 

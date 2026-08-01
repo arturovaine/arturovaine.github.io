@@ -40,16 +40,15 @@ export const BootstrappingRenderer = {
       const response = await fetch(bootstrappingFile);
       const data = await response.json();
       this.render(container, data);
-      if (window.lucide) lucide.createIcons();
+      if (window.lucide) requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
       if (window.ModelViewer) window.ModelViewer.init();
     } catch (error) {
       console.error('Failed to load bootstrapping:', error);
-      // Fallback to English if PT file doesn't exist
       if (this.currentLang === 'pt') {
         const response = await fetch('./data/bootstrapping.json');
         const data = await response.json();
         this.render(container, data);
-        if (window.lucide) lucide.createIcons();
+        if (window.lucide) requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
         if (window.ModelViewer) window.ModelViewer.init();
       }
     }

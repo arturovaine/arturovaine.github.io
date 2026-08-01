@@ -42,9 +42,8 @@ export const SectionsRenderer = {
     const highlightsTitle = document.querySelector('#experience .flex.items-center.gap-2.text-sm.text-neutral-300');
     if (highlightsTitle) {
       highlightsTitle.innerHTML = `<i data-lucide="trophy" class="w-4 h-4"></i> ${t.experience.highlights.title}`;
-      // Re-initialize lucide icons for the updated element
       if (window.lucide) {
-        lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+        requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
       }
     }
 
@@ -53,9 +52,8 @@ export const SectionsRenderer = {
       highlightsList.innerHTML = t.experience.highlights.items.map(item =>
         `<li class="flex items-start gap-2"><i data-lucide="check-circle-2" class="w-4 h-4 mt-0.5 text-emerald-400"></i> ${item}</li>`
       ).join('');
-      // Re-initialize lucide icons for the updated list
       if (window.lucide) {
-        lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+        requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
       }
     }
 
