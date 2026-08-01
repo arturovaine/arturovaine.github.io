@@ -95,10 +95,6 @@ const componentInitializers = {
 };
 
 document.addEventListener('DOMContentLoaded', async function () {
-  if (window.lucide) {
-    lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
-  }
-
   await ComponentLoader.loadAll();
 
   ThemeManager.init();
@@ -119,12 +115,9 @@ document.addEventListener('DOMContentLoaded', async function () {
   await HeroRenderer.init();
 
   requestIdleCallback(() => {
+    if (window.lucide) lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
     ImageSlider.init();
   }, { timeout: 1000 });
-
-  if (window.lucide) {
-    lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
-  }
 
   HoverPrefetch.init();
 

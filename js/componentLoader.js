@@ -36,13 +36,6 @@ export const ComponentLoader = {
     for (const componentName of componentList) {
       const html = await this.loadComponent(componentName);
       container.insertAdjacentHTML('beforeend', html);
-
-      // Recreate Lucide icons after each component is loaded
-      if (window.lucide) {
-        lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
-      }
-
-      // Dispatch componentLoaded event for each component
       window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: componentName } }));
     }
   },
@@ -70,7 +63,7 @@ export const ComponentLoader = {
             placeholder.outerHTML = html;
 
             if (window.lucide) {
-              lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+              requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
             }
 
             window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: componentName } }));
@@ -91,7 +84,7 @@ export const ComponentLoader = {
     await this.loadComponentsInto(this.footerComponents, 'footer-content');
 
     if (window.lucide) {
-      lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+      requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
     }
 
     this.setupAnchorNavigation();
@@ -119,7 +112,7 @@ export const ComponentLoader = {
           placeholder.outerHTML = html;
 
           if (window.lucide) {
-            lucide.createIcons({ attrs: { 'stroke-width': 1.5 } });
+            requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
           }
 
           window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: targetId } }));
