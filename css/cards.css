@@ -127,44 +127,15 @@
 
 /* ── Desktop hover interactions ── */
 @media (hover: hover) {
-  /* Card base: transitions defined here so they apply on both enter and leave */
   .project-card {
     transition: border-color 0.22s ease, box-shadow 0.35s ease, transform 0.28s ease;
   }
 
-  /* Resting state: title centered, details hidden */
-  .project-card-overlay {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 24%;
-    background: linear-gradient(to top, rgba(10,10,10,0.9) 0%, rgba(10,10,10,0.5) 45%, rgba(10,10,10,0.08) 100%);
-    transition: padding-bottom 0.35s ease, background 0.3s ease;
-  }
-
-  .project-card-description {
-    max-height: 0;
-    opacity: 0;
-    margin-top: 0;
-    pointer-events: none;
-    transition: opacity 0.25s ease, max-height 0.3s ease, margin-top 0.3s ease;
-  }
-
-  .project-card-tags {
-    max-height: 0;
-    opacity: 0;
-    margin-top: 0;
-    pointer-events: none;
-    transition: opacity 0.25s ease 0.05s, max-height 0.3s ease 0.05s, margin-top 0.3s ease;
-  }
-
-  /* Image zoom on hover */
   .project-card-image img,
   .project-card-image video {
     transition: transform 0.45s ease;
   }
 
-  /* Card hover: glow, lift, reveal */
   .project-card:hover {
     border-color: rgba(251, 191, 36, 0.55);
     box-shadow:
@@ -180,24 +151,7 @@
   }
 
   .project-card:hover .project-card-overlay {
-    padding-bottom: 1.25rem;
-    align-items: flex-start;
-    text-align: left;
     background: linear-gradient(to top, rgba(10,10,10,0.98) 0%, rgba(10,10,10,0.88) 55%, rgba(10,10,10,0.2) 100%);
-  }
-
-  .project-card:hover .project-card-description {
-    max-height: 4rem;
-    opacity: 1;
-    margin-top: 0.35rem;
-    pointer-events: auto;
-  }
-
-  .project-card:hover .project-card-tags {
-    max-height: 4rem;
-    opacity: 1;
-    margin-top: 0.6rem;
-    pointer-events: auto;
   }
 }
 
