@@ -29,7 +29,7 @@
     "description": "AI-powered PDF catalog extraction system using Google Gemini Vision for cosmetics product data",
     "image": "./src/assets/thumbs/smart-catalog-reader.jpg",
     "alt": "Smart Catalog Reader CLI interface",
-    "url": "https://github.com/arturovaine/smart-catalog-reader",
+    "url": "https://arturovaine.github.io/cosmetics-catalogs/",
     "branch": ["data"],
     "category": "open-source",
     "tags": ["AI", "CLI", "Python", "Data Extraction"],
