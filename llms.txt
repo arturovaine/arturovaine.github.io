@@ -1,0 +1,35 @@
+# Arturo Vaine — Portfolio
+
+> Arturo Vaine is an Engineer & Product Designer crafting fast, minimal interfaces.
+> This is a static personal portfolio. There is no login, no write API, and no
+> user data — everything below is public, read-only JSON served over HTTPS.
+
+## Contact
+- Email: arturo.vaine@gmail.com
+- GitHub: https://github.com/arturovaine
+- LinkedIn: https://linkedin.com/in/arturovaine
+
+## Data endpoints (public, read-only, `application/json`)
+Each dataset has an English file and a `-pt` (Portuguese) variant.
+
+- [Projects](https://arturovaine.github.io/data/projects.json): work and open-source projects — id, title, description, url, category, tags, and modal detail.
+- [Experience](https://arturovaine.github.io/data/experience.json): professional experience timeline.
+- [Awards](https://arturovaine.github.io/data/awards.json): awards and recognitions.
+- [Posts](https://arturovaine.github.io/data/posts.json): writing and posts.
+- [Artworks](https://arturovaine.github.io/data/artworks.json): creative/3D artwork.
+- [Volunteering](https://arturovaine.github.io/data/volunteering.json): volunteering activity.
+- [Bootstrapping](https://arturovaine.github.io/data/bootstrapping.json): bootstrapping / side ventures.
+
+## How to consume
+- Prefer these JSON endpoints over scraping the HTML — they are the source of truth for the rendered pages.
+- Append `-pt` before `.json` for Portuguese (e.g. `projects-pt.json`).
+- A machine-readable catalog of these endpoints is at [/.well-known/api-catalog](https://arturovaine.github.io/.well-known/api-catalog) (RFC 9727 linkset+json).
+- In-browser agents: this site registers WebMCP tools via `navigator.modelContext` (list_projects, get_project, list_experience, get_contact, open_project).
+
+## Usage preferences
+See [/robots.txt](https://arturovaine.github.io/robots.txt) Content-Signal:
+search=yes, ai-input=yes, ai-train=no.
+
+## Optional
+- [Sitemap](https://arturovaine.github.io/sitemap.xml)
+- [Agent skills index](https://arturovaine.github.io/.well-known/agent-skills/index.json)
