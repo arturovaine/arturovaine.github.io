@@ -1,0 +1,93 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://arturovaine.github.io/",
+      "service-doc": [
+        {
+          "href": "https://arturovaine.github.io/llms.txt",
+          "type": "text/markdown",
+          "title": "Portfolio guide for agents (llms.txt)"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://arturovaine.github.io/sitemap.xml",
+          "type": "application/xml",
+          "title": "Sitemap"
+        }
+      ],
+      "author": [
+        { "href": "https://github.com/arturovaine", "title": "GitHub" },
+        { "href": "https://linkedin.com/in/arturovaine", "title": "LinkedIn" }
+      ],
+      "item": [
+        {
+          "href": "https://arturovaine.github.io/data/projects.json",
+          "type": "application/json",
+          "title": "Projects",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/projects-pt.json",
+          "type": "application/json",
+          "title": "Projects",
+          "hreflang": "pt"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/experience.json",
+          "type": "application/json",
+          "title": "Experience",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/experience-pt.json",
+          "type": "application/json",
+          "title": "Experience",
+          "hreflang": "pt"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/awards.json",
+          "type": "application/json",
+          "title": "Awards",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/awards-pt.json",
+          "type": "application/json",
+          "title": "Awards",
+          "hreflang": "pt"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/posts.json",
+          "type": "application/json",
+          "title": "Posts",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/posts-pt.json",
+          "type": "application/json",
+          "title": "Posts",
+          "hreflang": "pt"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/artworks.json",
+          "type": "application/json",
+          "title": "Artworks",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/volunteering.json",
+          "type": "application/json",
+          "title": "Volunteering",
+          "hreflang": "en"
+        },
+        {
+          "href": "https://arturovaine.github.io/data/bootstrapping.json",
+          "type": "application/json",
+          "title": "Bootstrapping",
+          "hreflang": "en"
+        }
+      ]
+    }
+  ]
+}
