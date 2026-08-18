@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agentskills.io/schema/discovery/v0.2.0.json",
+  "skills": [
+    {
+      "name": "portfolio-data",
+      "type": "text/markdown",
+      "description": "Query Arturo Vaine's portfolio — projects, experience, awards, posts, artworks, volunteering, and contact — via public read-only JSON endpoints.",
+      "url": "https://arturovaine.github.io/.well-known/agent-skills/portfolio-data/SKILL.md",
+      "sha256": "d9ccb08b38d3b9eb30bf0889c3ef64257331ae6b7fbdfddf7a2b9f1f38bdc9af"
+    }
+  ]
+}
