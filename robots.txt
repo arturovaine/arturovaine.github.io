@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
 
+# Content Signals — declare how this content may be used by automated systems.
+# Spec: https://contentsignals.org/  (draft-romm-aipref-contentsignals)
+#   search   = indexing for search results
+#   ai-input = use as live input/grounding for an AI answer (e.g. RAG, agents)
+#   ai-train = use to train or fine-tune AI models
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
 Sitemap: https://arturovaine.github.io/sitemap.xml
+
+# Machine-readable entry points for agents:
+#   /llms.txt                            — guided summary of this site
+#   /.well-known/api-catalog             — catalog of public data endpoints (RFC 9727)
+#   /.well-known/agent-skills/index.json — agent skills discovery index
