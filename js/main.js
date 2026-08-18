@@ -31,6 +31,7 @@ import { ScrollToTop } from './components/ScrollToTop.js';
 import { Analytics } from './analytics.js';
 import { initWebVitals } from './webVitals.js';
 import { AwardHighlightsRenderer } from './renderers/AwardHighlightsRenderer.js';
+import { WebMCP } from './components/WebMCP.js';
 
 window.requestIdleCallback = window.requestIdleCallback || function (cb) {
   const start = Date.now();
@@ -131,6 +132,10 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   requestIdleCallback(() => {
     initWebVitals();
+  }, { timeout: 3000 });
+
+  requestIdleCallback(() => {
+    WebMCP.init();
   }, { timeout: 3000 });
 });
 
