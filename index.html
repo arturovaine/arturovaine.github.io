@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Arturo Vaine — Portfolio</title>
     <meta name="description" content="Arturo Vaine — Engineer & Product Designer crafting fast, minimal interfaces.">
-    <meta name="theme-color" content="#0a0a0a">
+    <meta name="theme-color" content="#EEF1F5">
     <meta property="og:title" content="Arturo Vaine — Portfolio">
     <meta property="og:description" content="Engineer & Product Designer crafting fast, minimal interfaces.">
     <meta property="og:type" content="website">
@@ -68,6 +68,7 @@
       }
     </style>
     <link rel="stylesheet" href="css/tailwind.min.css">
+    <link rel="stylesheet" href="css/brutalist.css">
     <script defer src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
 
     <!-- Three.js Import Map -->
@@ -88,8 +89,8 @@
 
     <!-- Critical CSS - Inlined for immediate render -->
     <style>
-      /* Critical theme CSS for initial paint */
-      :root{--transition-duration:0.2s}body{min-height:100vh}body,header,.backdrop-radial,button,a,section{transition:background-color var(--transition-duration) ease,border-color var(--transition-duration) ease,color var(--transition-duration) ease!important}body.light-theme{background-color:#fff!important;color:#171717!important}body.light-theme header{background-color:rgba(255,255,255,0.8)!important;border-color:rgba(0,0,0,0.08)!important}body.light-theme .backdrop-radial{background:radial-gradient(1200px 400px at 50% 0%,rgba(59,130,246,0.04),rgba(16,185,129,0.02) 50%,transparent 70%)!important}body.preload *{transition:none!important}img{content-visibility:auto}#image-slider-container{min-height:400px}#model-viewer-container{min-height:600px}@media(max-width:600px){#image-slider-container{min-height:250px}#model-viewer-container{min-height:400px}}@media(min-width:601px)and (max-width:1024px){#image-slider-container{min-height:320px}#model-viewer-container{min-height:500px}}
+      /* Critical theme CSS for initial paint (brutalist: light-C default, dark-E when .light-theme absent) */
+      :root{--transition-duration:0.2s}body{min-height:100vh}body,header,.backdrop-radial,button,a,section{transition:background-color var(--transition-duration) ease,border-color var(--transition-duration) ease,color var(--transition-duration) ease!important}body.brutalist{background-color:#15181F!important;color:#C3CAD8!important}body.brutalist.light-theme{background-color:#EEF1F5!important;color:#3C4557!important}body.brutalist .backdrop-radial{background:none!important}body.preload *{transition:none!important}img{content-visibility:auto}#image-slider-container{min-height:400px}#model-viewer-container{min-height:600px}@media(max-width:600px){#image-slider-container{min-height:250px}#model-viewer-container{min-height:400px}}@media(min-width:601px)and (max-width:1024px){#image-slider-container{min-height:320px}#model-viewer-container{min-height:500px}}
     </style>
 
     <!-- Non-critical theme styles - Loaded async -->
@@ -118,7 +119,7 @@
       }
     </script>
   </head>
-  <body class="bg-neutral-950 text-neutral-200 antialiased selection:bg-neutral-800 selection:text-neutral-100" style="font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; scroll-behavior: smooth;">
+  <body class="brutalist light-theme bg-neutral-950 text-neutral-200 antialiased selection:bg-neutral-800 selection:text-neutral-100" style="font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; scroll-behavior: smooth;">
     <!-- Header Container (backdrop + header) -->
     <div id="header-content"></div>
 

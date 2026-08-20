@@ -1,5 +1,20 @@
 [
   {
+    "id": "main-street-ai",
+    "period": "May 2026 to Aug 2026",
+    "location": "California, United States · Remote",
+    "title": "AI Engineer at Main Street AI Advisors",
+    "description": [
+      "AI strategy & implementation for SMBs across Colorado, Louisiana, Montana and Texas",
+      "Founding Engineer: created the company's GitHub organization and bootstrapped 7 projects from scratch",
+      "Built AI engine for civil construction projects (PDFs, docs, images) surfacing bid-risk",
+      "Delivered 24/7 lead-qualification agent w/ CRM integration (infra cost < $20/month)",
+      "Developed pricing tool for retail client (Apify integration) improving vendor assertiveness",
+      "Deployed ops assistant for C-level executive: inbox-triage agent and daily ops-reporting"
+    ],
+    "logo": "./src/assets/icons/main_street_ai_advisors_logo.jpeg"
+  },
+  {
     "id": "meros",
     "period": "Apr 2025 to Present",
     "location": "Remote",

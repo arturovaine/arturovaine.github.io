@@ -1,0 +1,333 @@
+/* ============================================================
+   Neo-Brutalist theme layer
+   Light default = "C · Cool paper + Blue"
+   Dark          = "E · Slate + Blue"
+   Scoped to body.brutalist; overrides inline Tailwind utilities
+   + component classes via CSS variables. Toggle adds/removes
+   .light-theme (see ThemeManager).
+   ============================================================ */
+
+/* ---- palette tokens ---------------------------------------- */
+/* base = dark (E); .light-theme flips to light (C) */
+body.brutalist {
+  --bg:        #15181F;
+  --surface:   #1E232D;
+  --surface-2: #272D3A;
+  --ink:       #C3CAD8;
+  --ink-strong:#F2F5FB;
+  --soft:      #828CA1;
+  --line:      #3C4353;
+  --lines:     #586074;   /* shadow color */
+  --accent:    #3B82F6;
+  --accent-b:  #1D4ED8;
+
+  --radius: 14px;
+  --bw: 2.5px;
+  --shadow: 5px 5px 0 var(--lines);
+  --shadow-sm: 3px 3px 0 var(--lines);
+  --shadow-lift: 8px 8px 0 var(--lines);
+}
+
+body.brutalist.light-theme {
+  --bg:        #EEF1F5;
+  --surface:   #F7F9FC;
+  --surface-2: #E5EAF1;
+  --ink:       #3C4557;
+  --ink-strong:#232936;
+  --soft:      #5A6478;
+  --line:      #A6B0C2;
+  --lines:     #5A6478;
+  --accent:    #2563EB;
+  --accent-b:  #1E3A8A;
+}
+
+/* ---- base surface + type ----------------------------------- */
+body.brutalist {
+  background-color: var(--bg) !important;
+  color: var(--ink) !important;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body.brutalist h1,
+body.brutalist h2,
+body.brutalist h3,
+body.brutalist .text-white {
+  color: var(--ink-strong) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+}
+body.brutalist h1 { font-weight: 900 !important; letter-spacing: -0.03em; }
+
+body.brutalist .text-neutral-200,
+body.brutalist .text-neutral-300,
+body.brutalist .text-neutral-400,
+body.brutalist .text-neutral-500,
+body.brutalist .text-neutral-600 { color: var(--ink) !important; }
+body.brutalist .text-neutral-400,
+body.brutalist .text-neutral-500 { color: var(--soft) !important; }
+
+/* mono for eyebrows / small labels / stat labels */
+body.brutalist .badge-status,
+body.brutalist .tag,
+body.brutalist .card-tag,
+body.brutalist .stat-label,
+body.brutalist .core-stack-title,
+body.brutalist .pixel-art-description {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ---- backdrop glow (kill it, brutalism is flat) ------------ */
+body.brutalist .backdrop-radial { background: none !important; }
+
+/* ---- header ------------------------------------------------ */
+body.brutalist header {
+  background-color: var(--bg) !important;
+  backdrop-filter: none !important;
+  border-bottom: var(--bw) solid var(--line) !important;
+}
+body.brutalist .border-white\/5,
+body.brutalist .border-white\/10 { border-color: var(--line) !important; }
+
+/* neutral bg utilities -> surfaces */
+body.brutalist .bg-neutral-950,
+body.brutalist .bg-neutral-950\/60,
+body.brutalist .bg-neutral-950\/70 { background-color: var(--bg) !important; }
+body.brutalist .bg-neutral-900,
+body.brutalist .bg-neutral-900\/60,
+body.brutalist .bg-neutral-900\/90,
+body.brutalist .bg-neutral-900\/40,
+body.brutalist .bg-neutral-900\/30,
+body.brutalist .bg-neutral-900\/20,
+body.brutalist .bg-neutral-800,
+body.brutalist .bg-neutral-800\/50 { background-color: var(--surface) !important; }
+body.brutalist .bg-white\/5,
+body.brutalist .bg-white\/\[0\.02\],
+body.brutalist .bg-white\/\[0\.03\] { background-color: var(--surface-2) !important; }
+
+/* ---- text-navy inline highlight ---------------------------- */
+body.brutalist .text-navy {
+  color: var(--accent) !important;
+  background-color: var(--surface-2) !important;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* ---- hero stat boxes (inline utility cards) ---------------- */
+body.brutalist .border.border-white\/10.bg-neutral-900\/60 {
+  border: var(--bw) solid var(--line) !important;
+  background-color: var(--surface) !important;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---- cards ------------------------------------------------- */
+body.brutalist .card {
+  border: var(--bw) solid var(--line) !important;
+  background-color: var(--surface) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow);
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease !important;
+}
+body.brutalist .card:not(.project-card):hover {
+  border-color: var(--line) !important;
+  transform: translate(-3px, -3px);
+  box-shadow: var(--shadow-lift);
+}
+body.brutalist .card-image { background-color: var(--surface-2) !important; border-radius: 10px; }
+body.brutalist .card-tag {
+  border: 2px solid var(--line) !important;
+  background-color: var(--surface-2) !important;
+  color: var(--ink) !important;
+  border-radius: 8px;
+}
+
+/* project cards: swap amber-glow hover for brutalist lift */
+body.brutalist .project-card {
+  border: var(--bw) solid var(--line) !important;
+  background-color: var(--surface) !important;
+  box-shadow: var(--shadow);
+}
+@media (hover: hover) {
+  body.brutalist .project-card:hover {
+    border-color: var(--accent) !important;
+    transform: translate(-3px, -3px) !important;
+    box-shadow: var(--shadow-lift) !important;
+  }
+}
+
+/* ---- tags + status badge ----------------------------------- */
+body.brutalist .tag {
+  border: 2px solid var(--line) !important;
+  background-color: var(--surface) !important;
+  color: var(--ink) !important;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+body.brutalist .badge-status {
+  border: var(--bw) solid var(--line) !important;
+  background-color: var(--surface) !important;
+  color: var(--soft) !important;
+  border-radius: 10px;
+  box-shadow: var(--shadow-sm);
+  font-weight: 700;
+}
+body.brutalist .badge-status .dot { background-color: var(--accent) !important; }
+
+/* ---- buttons ----------------------------------------------- */
+body.brutalist .btn { border-radius: 11px !important; font-weight: 700 !important; }
+
+body.brutalist .btn-primary {
+  background-color: var(--ink-strong) !important;
+  color: var(--bg) !important;
+  border: var(--bw) solid var(--lines) !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.1s ease, box-shadow 0.1s ease !important;
+}
+body.brutalist .btn-primary:hover {
+  background-color: var(--ink-strong) !important;
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow);
+}
+
+body.brutalist .btn-secondary {
+  background-color: var(--surface) !important;
+  color: var(--ink-strong) !important;
+  border: var(--bw) solid var(--lines) !important;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.1s ease, box-shadow 0.1s ease !important;
+}
+body.brutalist .btn-secondary:hover {
+  background-color: var(--surface) !important;
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow);
+}
+
+body.brutalist .btn-ghost { color: var(--ink) !important; border: 2px solid transparent !important; }
+body.brutalist .btn-ghost:hover {
+  color: var(--ink-strong) !important;
+  background-color: var(--surface) !important;
+  border-color: var(--line) !important;
+}
+body.brutalist .btn-ghost.btn-portfolio { color: var(--accent) !important; }
+body.brutalist .btn-ghost.btn-portfolio:hover {
+  color: #fff !important;
+  background-color: var(--accent) !important;
+  border-color: var(--accent-b) !important;
+}
+
+/* chips / filters */
+body.brutalist .btn-chip {
+  border: var(--bw) solid var(--line) !important;
+  background-color: var(--surface) !important;
+  color: var(--soft) !important;
+  border-radius: 9px !important;
+}
+body.brutalist .btn-chip:not(.active):hover {
+  border-color: var(--lines) !important;
+  color: var(--ink-strong) !important;
+}
+body.brutalist .btn-chip.active {
+  background-color: var(--accent) !important;
+  border-color: var(--accent-b) !important;
+  color: #fff !important;
+  box-shadow: var(--shadow-sm);
+}
+
+body.brutalist .btn-carousel {
+  border: var(--bw) solid var(--lines) !important;
+  background-color: var(--surface) !important;
+  color: var(--ink-strong) !important;
+  backdrop-filter: none !important;
+  box-shadow: var(--shadow-sm);
+}
+body.brutalist .btn-dot { background-color: var(--line) !important; }
+body.brutalist .btn-dot.active { background-color: var(--accent) !important; }
+
+/* CV pill in header */
+body.brutalist #cv-btn {
+  background-color: var(--surface) !important;
+  border: var(--bw) solid var(--lines) !important;
+  color: var(--ink-strong) !important;
+}
+body.brutalist #cv-btn:hover {
+  background-color: var(--accent) !important;
+  color: #fff !important;
+}
+
+/* ---- email / mailto CTA ------------------------------------ */
+body.brutalist a[href^="mailto"].btn-primary { background-color: var(--accent) !important; color:#fff !important; border-color: var(--accent-b) !important; }
+
+/* ---- language tooltip -------------------------------------- */
+body.brutalist .language-tooltip {
+  background-color: var(--ink-strong) !important;
+  border: 2px solid var(--lines) !important;
+  color: var(--bg) !important;
+  border-radius: 8px;
+}
+
+/* ---- pixel-art image frame --------------------------------- */
+body.brutalist #slider-center {
+  border: var(--bw) solid var(--lines) !important;
+  box-shadow: var(--shadow) !important;
+  border-radius: 10px;
+}
+
+/* ---- modal ------------------------------------------------- */
+body.brutalist .modal {
+  background-color: var(--surface) !important;
+  border: var(--bw) solid var(--lines) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow-lift) !important;
+}
+body.brutalist .modal-title,
+body.brutalist .modal-section-title { color: var(--ink-strong) !important; }
+body.brutalist .modal-subtitle,
+body.brutalist .modal-description,
+body.brutalist .modal-features li { color: var(--ink) !important; }
+body.brutalist .modal-tech-tag {
+  background-color: var(--surface-2) !important;
+  border: 2px solid var(--line) !important;
+  color: var(--ink) !important;
+  border-radius: 8px;
+}
+body.brutalist .modal-footer { border-color: var(--line) !important; }
+body.brutalist .modal-close {
+  background-color: var(--surface) !important;
+  border: var(--bw) solid var(--lines) !important;
+  color: var(--ink-strong) !important;
+  border-radius: 9px;
+}
+
+/* ---- cookie banner ----------------------------------------- */
+body.brutalist .cookie-banner-inner {
+  background-color: var(--surface) !important;
+  border: var(--bw) solid var(--lines) !important;
+  color: var(--ink) !important;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+body.brutalist .cookie-accept-btn {
+  background-color: var(--accent) !important;
+  color: #fff !important;
+  border: var(--bw) solid var(--accent-b) !important;
+  border-radius: 9px;
+}
+body.brutalist .cookie-reject-btn { color: var(--soft) !important; }
+
+/* ---- scroll-to-top ----------------------------------------- */
+body.brutalist #scrollToTop {
+  background-color: var(--surface) !important;
+  border: var(--bw) solid var(--lines) !important;
+  color: var(--ink-strong) !important;
+  border-radius: 11px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---- footer + section dividers ----------------------------- */
+body.brutalist footer { border-top: var(--bw) solid var(--line) !important; }
+body.brutalist .border-t { border-top-color: var(--line) !important; }
+
+/* ---- selection --------------------------------------------- */
+body.brutalist ::selection { background-color: var(--accent) !important; color: #fff !important; }
+
+/* ---- focus ring -------------------------------------------- */
+body.brutalist .btn:focus-visible { outline: 2px solid var(--accent) !important; outline-offset: 2px; }

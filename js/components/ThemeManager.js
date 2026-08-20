@@ -16,8 +16,12 @@ export const ThemeManager = {
   },
 
   loadTheme() {
-    const savedTheme = localStorage.getItem(this.STORAGE_KEY) || 'dark';
-    if (savedTheme === 'light') {
+    const savedTheme = localStorage.getItem(this.STORAGE_KEY) || 'light';
+    // Brutalist: light (C) is the default. The body ships with .light-theme in
+    // markup for a flash-free first paint; only remove it when dark is saved.
+    if (savedTheme === 'dark') {
+      document.body.classList.remove(this.LIGHT_CLASS);
+    } else {
       document.body.classList.add(this.LIGHT_CLASS);
     }
     this.updateIcon(savedTheme);

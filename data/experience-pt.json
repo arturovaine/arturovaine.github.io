@@ -1,5 +1,20 @@
 [
   {
+    "id": "main-street-ai",
+    "period": "Mai 2026 a Ago 2026",
+    "location": "Califórnia, Estados Unidos · Remoto",
+    "title": "Engenheiro de IA na Main Street AI Advisors",
+    "description": [
+      "Estratégia e implementação de IA para PMEs no Colorado, Louisiana, Montana e Texas",
+      "Engenheiro Fundador: criei a organização no GitHub da empresa e iniciei 7 projetos do zero",
+      "Desenvolvimento de engine de IA para projetos de construção civil (PDFs, docs, imagens) identificando risco em propostas",
+      "Entrega de agente de qualificação de leads 24/7 c/ integração CRM (custo de infra < US$ 20/mês)",
+      "Desenvolvimento de ferramenta de precificação para cliente de varejo (integração Apify) melhorando assertividade de fornecedores",
+      "Deploy de assistente de operações para executivo C-level: agente de triagem de inbox e relatórios diários"
+    ],
+    "logo": "./src/assets/icons/main_street_ai_advisors_logo.jpeg"
+  },
+  {
     "id": "meros",
     "period": "Abr 2025 até o Presente",
     "location": "Remoto",
