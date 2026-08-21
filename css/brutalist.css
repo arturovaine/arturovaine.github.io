@@ -201,6 +201,8 @@ body.brutalist .btn-secondary:hover {
   box-shadow: var(--shadow);
 }
 
+body.brutalist .btn-ghost,
+body.brutalist .btn-icon { background-color: transparent !important; }
 body.brutalist .btn-ghost { color: var(--ink) !important; border: 2px solid transparent !important; }
 body.brutalist .btn-ghost:hover {
   color: var(--ink-strong) !important;
@@ -311,7 +313,15 @@ body.brutalist .cookie-accept-btn {
   border: var(--bw) solid var(--accent-b) !important;
   border-radius: 9px;
 }
-body.brutalist .cookie-reject-btn { color: var(--soft) !important; }
+body.brutalist .cookie-reject-btn {
+  color: var(--soft) !important;
+  background-color: transparent !important;
+  border: 2px solid transparent !important;
+}
+body.brutalist .cookie-reject-btn:hover {
+  color: var(--ink-strong) !important;
+  border-color: var(--line) !important;
+}
 
 /* ---- scroll-to-top ----------------------------------------- */
 body.brutalist #scrollToTop {
@@ -325,6 +335,7 @@ body.brutalist #scrollToTop {
 /* ---- footer + section dividers ----------------------------- */
 body.brutalist footer { border-top: var(--bw) solid var(--line) !important; }
 body.brutalist .border-t { border-top-color: var(--line) !important; }
+body.brutalist .logo-section { border-color: var(--line) !important; }
 
 /* ---- selection --------------------------------------------- */
 body.brutalist ::selection { background-color: var(--accent) !important; color: #fff !important; }
