@@ -28,6 +28,7 @@ import { MetaprojectRenderer } from './renderers/MetaprojectRenderer.js';
 import { FooterRenderer } from './renderers/FooterRenderer.js';
 import { CookieConsent } from './components/CookieConsent.js';
 import { ScrollToTop } from './components/ScrollToTop.js';
+import { AccessibilityMenu } from './components/AccessibilityMenu.js';
 import { Analytics } from './analytics.js';
 import { initWebVitals } from './webVitals.js';
 import { AwardHighlightsRenderer } from './renderers/AwardHighlightsRenderer.js';
@@ -128,6 +129,7 @@ document.addEventListener('DOMContentLoaded', async function () {
 
   CookieConsent.init();
   ScrollToTop.init();
+  AccessibilityMenu.init();
   Analytics.init();
 
   requestIdleCallback(() => {

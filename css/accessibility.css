@@ -1,0 +1,280 @@
+/* ============================================================
+   Accessibility menu + user preference effects.
+   Widget is styled with the brutalist theme tokens (with fallbacks
+   so it degrades gracefully). Preference classes live on <html>.
+   ============================================================ */
+
+/* ---- launcher button (lower-left) -------------------------- */
+#a11y-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  background-color: var(--accent, #2563EB);
+  border: var(--bw, 2.5px) solid var(--accent-b, #1E3A8A);
+  border-radius: 9999px;
+  box-shadow: var(--shadow-sm, 3px 3px 0 #5A6478);
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+#a11y-toggle:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow, 5px 5px 0 #5A6478);
+}
+#a11y-toggle:focus-visible {
+  outline: 3px solid var(--accent, #2563EB);
+  outline-offset: 3px;
+}
+#a11y-toggle .a11y-icon-img {
+  width: 26px;
+  height: 26px;
+  /* the source glyph is solid black on transparent — render it white */
+  filter: brightness(0) invert(1);
+}
+
+/* ---- panel ------------------------------------------------- */
+#a11y-panel {
+  position: fixed;
+  bottom: 5.25rem;
+  left: 1.5rem;
+  z-index: 50;
+  width: min(360px, calc(100vw - 3rem));
+  max-height: min(72vh, 640px);
+  overflow-y: auto;
+  background-color: var(--surface, #F7F9FC);
+  color: var(--ink, #3C4557);
+  border: var(--bw, 2.5px) solid var(--lines, #5A6478);
+  border-radius: var(--radius, 14px);
+  box-shadow: var(--shadow-lift, 8px 8px 0 #5A6478);
+  padding: 1rem 1rem 0.75rem;
+  transform-origin: bottom left;
+  transform: translateY(8px) scale(0.98);
+  opacity: 0;
+  transition: opacity 0.14s ease, transform 0.14s ease;
+}
+#a11y-panel.open { opacity: 1; transform: translateY(0) scale(1); }
+#a11y-panel[hidden] { display: none; }
+
+.a11y-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+#a11y-panel-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  color: var(--ink-strong, #232936);
+}
+.a11y-close {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  color: var(--ink-strong, #232936);
+  background-color: var(--surface, #F7F9FC);
+  border: 2px solid var(--line, #A6B0C2);
+  border-radius: 9px;
+  cursor: pointer;
+}
+.a11y-close:hover { background-color: var(--surface-2, #E5EAF1); }
+
+.a11y-list { list-style: none; margin: 0; padding: 0; }
+.a11y-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.7rem 0;
+  border-top: 2px solid var(--line, #A6B0C2);
+}
+.a11y-row:first-child { border-top: 0; }
+.a11y-row-text { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.a11y-row-title { font-weight: 700; font-size: 0.92rem; color: var(--ink-strong, #232936); }
+.a11y-row-desc {
+  font-size: 0.76rem;
+  line-height: 1.35;
+  color: var(--soft, #5A6478);
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ---- toggle switch ----------------------------------------- */
+.a11y-switch {
+  flex: 0 0 auto;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.a11y-switch-track {
+  display: inline-block;
+  position: relative;
+  width: 46px;
+  height: 26px;
+  background-color: var(--surface-2, #E5EAF1);
+  border: 2.5px solid var(--lines, #5A6478);
+  border-radius: 999px;
+  transition: background-color 0.14s ease, border-color 0.14s ease;
+}
+.a11y-switch-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 17px;
+  height: 17px;
+  background-color: var(--lines, #5A6478);
+  border-radius: 999px;
+  transition: transform 0.14s ease, background-color 0.14s ease;
+}
+.a11y-switch[aria-checked="true"] .a11y-switch-track {
+  background-color: var(--accent, #2563EB);
+  border-color: var(--accent-b, #1E3A8A);
+}
+.a11y-switch[aria-checked="true"] .a11y-switch-thumb {
+  transform: translateX(20px);
+  background-color: #fff;
+}
+.a11y-switch:focus-visible .a11y-switch-track {
+  outline: 3px solid var(--accent, #2563EB);
+  outline-offset: 2px;
+}
+
+.a11y-note {
+  margin: 0.5rem 0 0.25rem;
+  padding-top: 0.6rem;
+  border-top: 2px solid var(--line, #A6B0C2);
+  font-size: 0.74rem;
+  text-align: center;
+  color: var(--soft, #5A6478);
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* ============================================================
+   Preference effects — toggled classes on <html>
+   ============================================================ */
+
+/* 1. Larger text — scales all rem-based type */
+html.a11y-large-text { font-size: 112.5%; }
+
+/* 2. High contrast — override theme tokens to max-contrast values */
+html.a11y-high-contrast body.brutalist.light-theme {
+  --ink: #000000; --ink-strong: #000000; --soft: #1a1a1a;
+  --line: #000000; --lines: #000000;
+}
+html.a11y-high-contrast body.brutalist:not(.light-theme) {
+  --ink: #ffffff; --ink-strong: #ffffff; --soft: #e5e5e5;
+  --line: #ffffff; --lines: #ffffff;
+}
+html.a11y-high-contrast body.brutalist .text-navy { text-decoration: underline; }
+
+/* 3. Readable font — widely-available legible sans-serif */
+html.a11y-readable-font body,
+html.a11y-readable-font body :not(svg):not(i):not([data-lucide]) {
+  font-family: Verdana, Tahoma, "Trebuchet MS", "Segoe UI", system-ui, sans-serif !important;
+}
+
+/* 4. Wider line spacing */
+html.a11y-line-spacing body p,
+html.a11y-line-spacing body li,
+html.a11y-line-spacing body a,
+html.a11y-line-spacing body span,
+html.a11y-line-spacing body h1,
+html.a11y-line-spacing body h2,
+html.a11y-line-spacing body h3,
+html.a11y-line-spacing body h4 { line-height: 1.9 !important; }
+
+/* 5. Word spacing */
+html.a11y-word-spacing body p,
+html.a11y-word-spacing body li,
+html.a11y-word-spacing body a,
+html.a11y-word-spacing body span,
+html.a11y-word-spacing body h1,
+html.a11y-word-spacing body h2,
+html.a11y-word-spacing body h3,
+html.a11y-word-spacing body h4 { word-spacing: 0.18em !important; }
+
+/* 6. Focus indicators — always-visible outlines on interactive elements */
+html.a11y-focus a:focus,
+html.a11y-focus button:focus,
+html.a11y-focus input:focus,
+html.a11y-focus select:focus,
+html.a11y-focus textarea:focus,
+html.a11y-focus [tabindex]:focus,
+html.a11y-focus [role="button"]:focus {
+  outline: 3px solid var(--accent, #2563EB) !important;
+  outline-offset: 2px !important;
+}
+
+/* 7. Highlight links */
+html.a11y-highlight-links body a:not(.btn):not(#a11y-toggle) {
+  text-decoration: underline !important;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  color: var(--accent, #2563EB) !important;
+  background-color: color-mix(in srgb, var(--accent, #2563EB) 12%, transparent);
+  border-radius: 3px;
+}
+
+/* 8. Bigger tap targets */
+html.a11y-tap-targets body a,
+html.a11y-tap-targets body button,
+html.a11y-tap-targets body [role="button"],
+html.a11y-tap-targets body input,
+html.a11y-tap-targets body select {
+  min-height: 44px !important;
+  min-width: 44px !important;
+}
+html.a11y-tap-targets body a:not(.btn) { padding: 2px 4px; }
+
+/* 9. Reduce motion */
+html.a11y-reduce-motion *,
+html.a11y-reduce-motion *::before,
+html.a11y-reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* 10. Reading guide */
+#a11y-reading-guide {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 2.4rem;
+  transform: translateY(-50%);
+  z-index: 45;
+  pointer-events: none;
+  background-color: color-mix(in srgb, var(--accent, #2563EB) 14%, transparent);
+  border-top: 2.5px solid var(--accent, #2563EB);
+  border-bottom: 2.5px solid var(--accent, #2563EB);
+}
+
+/* 11. Image descriptions — captions injected after each image */
+.a11y-img-desc {
+  display: block;
+  margin-top: 0.35rem;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.74rem;
+  line-height: 1.35;
+  color: var(--ink-strong, #232936);
+  background-color: var(--surface-2, #E5EAF1);
+  border: 2px solid var(--line, #A6B0C2);
+  border-radius: 8px;
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* honour OS-level reduced motion for the widget itself */
+@media (prefers-reduced-motion: reduce) {
+  #a11y-toggle, #a11y-panel, .a11y-switch-track, .a11y-switch-thumb { transition: none !important; }
+}
