@@ -131,13 +131,25 @@
 
     <!-- Service Worker Registration -->
     <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
-            .then(reg => {})
-            .catch(err => {});
+      // The SW uses a cache-first strategy for CSS/JS, which serves stale assets
+      // on localhost and forces a hard reload after every edit. Disable it in dev.
+      (function () {
+        if (!('serviceWorker' in navigator)) return;
+        var isLocalDev = ['localhost', '127.0.0.1', '[::1]', '::1'].includes(location.hostname);
+        if (isLocalDev) {
+          // Purge any previously-installed SW + its caches so edits load without cmd+shift+R
+          navigator.serviceWorker.getRegistrations().then(function (regs) {
+            regs.forEach(function (r) { r.unregister(); });
+          });
+          if (window.caches) {
+            caches.keys().then(function (keys) { keys.forEach(function (k) { caches.delete(k); }); });
+          }
+          return;
+        }
+        window.addEventListener('load', function () {
+          navigator.serviceWorker.register('/sw.js').then(function () {}).catch(function () {});
         });
-      }
+      })();
     </script>
 
     <!-- Main Application Script -->
