@@ -18,9 +18,9 @@
     ],
     "modal": {
       "subtitle": "Cognitive Bias Analysis Tool",
-      "fullDescription": "Bias Reflector is a sophisticated web application that analyzes conversations for cognitive biases using Google's Gemini AI and visualizes them through an interactive D3.js radial cluster diagram. The tool helps users identify and understand the 188 cognitive biases from the Cognitive Bias Codex framework in real-time conversational exchanges.",
+      "fullDescription": "Bias Reflector is a sophisticated web application that analyzes conversations for cognitive biases using Groq models and visualizes them through an interactive D3.js radial cluster diagram. The tool helps users identify and understand the 188 cognitive biases from the Cognitive Bias Codex framework in real-time conversational exchanges.",
       "features": [
-        "AI-Powered Analysis: Leverages Gemini 3 Flash to detect cognitive biases in conversational text",
+        "AI-Powered Analysis: Leverages Groq models to detect cognitive biases in conversational text",
         "Interactive Visualization: D3.js radial cluster diagram with 188 cognitive biases organized hierarchically",
         "Real-time Detection: Instant analysis of two-way conversations with confidence scoring",
         "Educational Tool: Helps users understand bias patterns and improve critical thinking",
@@ -30,7 +30,7 @@
         "React",
         "TypeScript",
         "D3.js",
-        "Google Gemini AI",
+        "Groq",
         "Tailwind CSS"
       ],
       "status": "In Development"

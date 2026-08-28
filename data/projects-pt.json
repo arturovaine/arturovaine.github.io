@@ -18,9 +18,9 @@
     ],
     "modal": {
       "subtitle": "Ferramenta de Análise de Vieses Cognitivos",
-      "fullDescription": "Bias Reflector é uma aplicação web sofisticada que analisa conversas para vieses cognitivos usando Gemini AI do Google e os visualiza através de um diagrama interativo de cluster radial D3.js. A ferramenta ajuda usuários a identificar e compreender os 188 vieses cognitivos do framework Cognitive Bias Codex em trocas conversacionais em tempo real.",
+      "fullDescription": "Bias Reflector é uma aplicação web sofisticada que analisa conversas para vieses cognitivos usando modelos Groq e os visualiza através de um diagrama interativo de cluster radial D3.js. A ferramenta ajuda usuários a identificar e compreender os 188 vieses cognitivos do framework Cognitive Bias Codex em trocas conversacionais em tempo real.",
       "features": [
-        "Análise Baseada em IA: Usa Gemini 3 Flash para detectar vieses cognitivos em texto conversacional",
+        "Análise Baseada em IA: Usa modelos Groq para detectar vieses cognitivos em texto conversacional",
         "Visualização Interativa: Diagrama de cluster radial D3.js com 188 vieses cognitivos organizados hierarquicamente",
         "Detecção em Tempo Real: Análise instantânea de conversas bidirecionais com pontuação de confiança",
         "Ferramenta Educacional: Ajuda usuários a entender padrões de viés e melhorar pensamento crítico",
@@ -30,7 +30,7 @@
         "React",
         "TypeScript",
         "D3.js",
-        "Google Gemini AI",
+        "Groq",
         "Tailwind CSS"
       ],
       "status": "Em Desenvolvimento"
