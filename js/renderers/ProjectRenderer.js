@@ -55,7 +55,7 @@ export const ProjectRenderer = {
     const searchIndex = [project.title, project.description, ...(project.tags || [])].join(' ').toLowerCase().replace(/"/g, '&quot;');
 
     return `
-      <div class="card group project project-card"
+      <div class="card group project project-card${project.featured ? ' project-card-featured' : ''}"
            data-branch="${branches}"
            data-search="${searchIndex}"
            data-category="${project.category}"
@@ -68,7 +68,8 @@ export const ProjectRenderer = {
         </div>
         <div class="card-overlay project-card-overlay">
           <h3 class="card-title project-card-title">${project.title}</h3>
-          <p class="card-description project-card-description">${project.description}</p>
+          ${project.featured && project.modal && project.modal.subtitle ? `<p class="project-card-subtitle">${project.modal.subtitle}</p>` : ''}
+          <p class="card-description project-card-description">${project.featured && project.modal && project.modal.fullDescription ? project.modal.fullDescription : project.description}</p>
           <div class="card-tags project-card-tags">${tags}</div>
         </div>
       </div>

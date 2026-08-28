@@ -125,6 +125,27 @@
   aspect-ratio: 9 / 4;
 }
 
+/* ── Featured highlight cards — 3x the height of a standard card ── */
+.project-card-featured .project-card-image {
+  aspect-ratio: 9 / 12;
+}
+.project-card-featured .project-card-overlay {
+  padding: 1.75rem;
+}
+.project-card-featured .project-card-title {
+  font-size: 1.5rem;
+}
+.project-card-featured .project-card-subtitle {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgba(251, 191, 36, 0.95);
+  margin-top: 0.4rem;
+}
+.project-card-featured .project-card-description {
+  font-size: 0.9rem;
+  -webkit-line-clamp: 7;
+}
+
 /* ── Desktop hover interactions ── */
 @media (hover: hover) {
   .project-card {
