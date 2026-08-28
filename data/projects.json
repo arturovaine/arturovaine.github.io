@@ -1,27 +1,78 @@
 [
   {
-    "id": "kaggle-datasets",
-    "title": "Kaggle Datasets",
-    "description": "Curated public datasets published on Kaggle covering diverse domains and use cases",
-    "image": "./src/assets/thumbs/kaggle.jpg",
-    "alt": "Kaggle Datasets profile",
-    "imageBg": "white",
-    "url": "https://www.kaggle.com/arturovainecwb/datasets",
-    "branch": ["data"],
-    "category": "open-source",
-    "tags": ["Kaggle", "Datasets", "Open Data"],
+    "id": "bias-reflector",
+    "title": "Bias Reflector",
+    "description": "AI-powered cognitive bias analyzer with interactive D3.js visualization",
+    "image": "./src/assets/thumbs/bias-reflector.webp",
+    "alt": "Bias Reflector cognitive bias visualization",
+    "url": "https://bias-reflector.vercel.app/",
+    "branch": [
+      "development",
+      "data"
+    ],
+    "category": "experiment",
+    "tags": [
+      "AI",
+      "D3.js",
+      "React"
+    ],
     "modal": {
-      "subtitle": "Public Datasets on Kaggle",
-      "fullDescription": "Collection of public datasets published on Kaggle, shared with the data science community to support exploration, modeling, and research across different domains.",
+      "subtitle": "Cognitive Bias Analysis Tool",
+      "fullDescription": "Bias Reflector is a sophisticated web application that analyzes conversations for cognitive biases using Google's Gemini AI and visualizes them through an interactive D3.js radial cluster diagram. The tool helps users identify and understand the 188 cognitive biases from the Cognitive Bias Codex framework in real-time conversational exchanges.",
       "features": [
-        "Publicly available datasets hosted on Kaggle",
-        "Diverse topics for data analysis and machine learning",
-        "Ready-to-use formats for notebooks and experiments",
-        "Community-oriented contributions"
+        "AI-Powered Analysis: Leverages Gemini 3 Flash to detect cognitive biases in conversational text",
+        "Interactive Visualization: D3.js radial cluster diagram with 188 cognitive biases organized hierarchically",
+        "Real-time Detection: Instant analysis of two-way conversations with confidence scoring",
+        "Educational Tool: Helps users understand bias patterns and improve critical thinking",
+        "Responsive Design: Modern, mobile-friendly interface built with React and Tailwind CSS"
       ],
-      "techStack": ["Kaggle", "CSV", "Data"],
+      "techStack": [
+        "React",
+        "TypeScript",
+        "D3.js",
+        "Google Gemini AI",
+        "Tailwind CSS"
+      ],
+      "status": "In Development"
+    },
+    "featured": true
+  },
+  {
+    "id": "telegram-bot-organizze",
+    "title": "Organizze Telegram Bot",
+    "description": "AI-powered Telegram bot for personal finance insights using Gemini",
+    "image": "./src/assets/thumbs/telegram-bot-organizze.webp",
+    "alt": "Organizze Telegram Bot with AI financial insights",
+    "url": "https://github.com/arturovaine/telegram-bot-organizze",
+    "branch": [
+      "data"
+    ],
+    "category": "open-source",
+    "tags": [
+      "Telegram",
+      "AI",
+      "Fintech"
+    ],
+    "modal": {
+      "subtitle": "Natural Language Financial Assistant",
+      "fullDescription": "A Telegram bot that integrates with Organizze (organizze.com.br), a popular Brazilian personal finance app with 87k+ reviews. Using Google Gemini AI, it provides natural language financial insights and visualizations. Users can query their finances in conversational Portuguese and receive contextual responses with charts and dashboards. Organizze handles expense tracking, bank account management, and Open Finance integrations with major Brazilian banks.",
+      "features": [
+        "Natural language interface for financial queries in Portuguese",
+        "AI-powered analysis using Google Gemini for contextual responses",
+        "Visual dashboards with pie charts, bar charts, and summaries",
+        "Pre-built commands for common queries like balance and expenses",
+        "Whitelist-based access control via Telegram Chat IDs"
+      ],
+      "techStack": [
+        "Python",
+        "Google Gemini AI",
+        "python-telegram-bot",
+        "Matplotlib",
+        "Docker"
+      ],
       "status": "Open Source"
-    }
+    },
+    "featured": true
   },
   {
     "id": "smart-catalog-reader",
@@ -30,9 +81,16 @@
     "image": "./src/assets/thumbs/smart-catalog-reader.jpg",
     "alt": "Smart Catalog Reader CLI interface",
     "url": "https://arturovaine.github.io/cosmetics-catalogs/",
-    "branch": ["data"],
+    "branch": [
+      "data"
+    ],
     "category": "open-source",
-    "tags": ["AI", "CLI", "Python", "Data Extraction"],
+    "tags": [
+      "AI",
+      "CLI",
+      "Python",
+      "Data Extraction"
+    ],
     "modal": {
       "subtitle": "Intelligent PDF Product Extraction",
       "fullDescription": "An intelligent PDF catalog extraction system utilizing Google Gemini Vision AI to automatically extract structured product data from cosmetics catalogs, particularly from brands like O Boticário and Natura. Built with Clean Architecture principles, the system features batch processing, fuzzy-matched category normalization, comprehensive validation with auto-correction, and checkpoint-based resumption for interrupted extractions.",
@@ -45,7 +103,50 @@
         "Exponential backoff retry logic for API rate limits",
         "Real-time progress tracking with Rich terminal UI"
       ],
-      "techStack": ["Python", "Google Gemini AI", "Typer", "Rich", "Pydantic", "pdf2image", "thefuzz"],
+      "techStack": [
+        "Python",
+        "Google Gemini AI",
+        "Typer",
+        "Rich",
+        "Pydantic",
+        "pdf2image",
+        "thefuzz"
+      ],
+      "status": "Open Source"
+    },
+    "featured": true
+  },
+  {
+    "id": "kaggle-datasets",
+    "title": "Kaggle Datasets",
+    "description": "Curated public datasets published on Kaggle covering diverse domains and use cases",
+    "image": "./src/assets/thumbs/kaggle.jpg",
+    "alt": "Kaggle Datasets profile",
+    "imageBg": "white",
+    "url": "https://www.kaggle.com/arturovainecwb/datasets",
+    "branch": [
+      "data"
+    ],
+    "category": "open-source",
+    "tags": [
+      "Kaggle",
+      "Datasets",
+      "Open Data"
+    ],
+    "modal": {
+      "subtitle": "Public Datasets on Kaggle",
+      "fullDescription": "Collection of public datasets published on Kaggle, shared with the data science community to support exploration, modeling, and research across different domains.",
+      "features": [
+        "Publicly available datasets hosted on Kaggle",
+        "Diverse topics for data analysis and machine learning",
+        "Ready-to-use formats for notebooks and experiments",
+        "Community-oriented contributions"
+      ],
+      "techStack": [
+        "Kaggle",
+        "CSV",
+        "Data"
+      ],
       "status": "Open Source"
     }
   },
@@ -56,9 +157,17 @@
     "image": "./src/assets/thumbs/social-economic-survey.webp",
     "alt": "Social Economic Survey App dashboard",
     "url": "https://github.com/arturovaine/social-economic-survey-app",
-    "branch": ["development", "data"],
+    "branch": [
+      "development",
+      "data"
+    ],
     "category": "in-development",
-    "tags": ["Mobile", "Firebase", "Flutter", "Survey"],
+    "tags": [
+      "Mobile",
+      "Firebase",
+      "Flutter",
+      "Survey"
+    ],
     "modal": {
       "subtitle": "Field Survey Platform for Social Research",
       "fullDescription": "A comprehensive socio-economic data collection platform designed for field surveys and research in Brazilian communities. Built with modern mobile technologies for offline-first data gathering, real-time synchronization, and actionable analytics. Supports researchers, NGOs, and government agencies in conducting household surveys, collecting demographic and economic data, and generating insights for social programs and policy-making.",
@@ -70,7 +179,14 @@
         "Firebase backend with Firestore, Storage, and Authentication",
         "Brazilian context: income ranges, poverty line calculations, pt-BR language"
       ],
-      "techStack": ["Flutter", "React Native", "Firebase", "TypeScript", "Dart", "Firestore"],
+      "techStack": [
+        "Flutter",
+        "React Native",
+        "Firebase",
+        "TypeScript",
+        "Dart",
+        "Firestore"
+      ],
       "status": "In Development"
     }
   },
@@ -81,9 +197,15 @@
     "image": "./src/assets/thumbs/uskcuritiba.webp",
     "alt": "Urban Sketchers Curitiba website",
     "url": "https://www.uskcuritiba.org/",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "in-development",
-    "tags": ["Community", "Web", "Art"],
+    "tags": [
+      "Community",
+      "Web",
+      "Art"
+    ],
     "modal": {
       "subtitle": "Artistic Community Platform",
       "fullDescription": "Website for Urban Sketchers Curitiba, part of the global Urban Sketchers movement founded in 2007 by journalist Gabriel Campanario. Urban Sketchers is a worldwide community of artists who practice on-location drawing in cities, towns, and villages where they live or travel. This platform documents the Curitiba chapter's activities, with 436+ events already held. The site features event archives, artist galleries, and community resources, with images primarily extracted from Instagram publications.",
@@ -95,7 +217,10 @@
         "Community resources and drawing guidelines",
         "Event calendar and upcoming meetups"
       ],
-      "techStack": ["Web Development", "Community Platform"],
+      "techStack": [
+        "Web Development",
+        "Community Platform"
+      ],
       "status": "In Development"
     }
   },
@@ -106,9 +231,15 @@
     "image": "./src/assets/thumbs/real-estate-intelligence.webp",
     "alt": "3D urban visualization for real estate intelligence",
     "url": null,
-    "branch": ["data"],
+    "branch": [
+      "data"
+    ],
     "category": "experiment",
-    "tags": ["GIS", "3D Visualization", "Real Estate"],
+    "tags": [
+      "GIS",
+      "3D Visualization",
+      "Real Estate"
+    ],
     "modal": {
       "subtitle": "Geospatial Real Estate Analytics",
       "fullDescription": "A 3D urban modeling platform designed for real estate market intelligence. The system renders detailed city-scale building models with height, density, and land-use data to support investment decisions, market comparisons, and urban development insights.",
@@ -120,7 +251,12 @@
         "Interactive exploration of neighborhoods and districts",
         "Data-driven insights for investment decisions"
       ],
-      "techStack": ["Python", "GIS", "3D Visualization", "Geospatial Analytics"],
+      "techStack": [
+        "Python",
+        "GIS",
+        "3D Visualization",
+        "Geospatial Analytics"
+      ],
       "status": "In Development"
     }
   },
@@ -131,9 +267,15 @@
     "image": "./src/assets/thumbs/energy-bill-extractor.webp",
     "alt": "Energy Bill Data Extractor CLI",
     "url": null,
-    "branch": ["data"],
+    "branch": [
+      "data"
+    ],
     "category": "experiment",
-    "tags": ["CLI", "LLM", "Data Extraction"],
+    "tags": [
+      "CLI",
+      "LLM",
+      "Data Extraction"
+    ],
     "modal": {
       "subtitle": "Intelligent Document Processing",
       "fullDescription": "Command-line interface for automated extraction of structured data from Brazilian energy bills (contas de energia). Leverages Large Language Models with strict schema validation and guardrails to parse complex utility documents into clean, structured JSON output. Handles diverse bill formats from multiple energy distributors across Brazil.",
@@ -145,7 +287,13 @@
         "JSON output with standardized field mapping",
         "Handles OCR artifacts and formatting variations"
       ],
-      "techStack": ["Python", "LLM", "Pydantic", "Guardrails", "CLI"],
+      "techStack": [
+        "Python",
+        "LLM",
+        "Pydantic",
+        "Guardrails",
+        "CLI"
+      ],
       "status": "In Development"
     }
   },
@@ -156,9 +304,15 @@
     "image": "./src/assets/thumbs/urban-vulnerability.webp",
     "alt": "Urban Vulnerability Detection System",
     "url": null,
-    "branch": ["data"],
+    "branch": [
+      "data"
+    ],
     "category": "experiment",
-    "tags": ["AI", "GIS", "Vector Search"],
+    "tags": [
+      "AI",
+      "GIS",
+      "Vector Search"
+    ],
     "modal": {
       "subtitle": "AI-Powered Urban Analysis",
       "fullDescription": "Innovative vector search application for identifying urban vulnerable areas using Brazilian government data, satellite imagery, and advanced AI techniques. Combines Census 2022 data with satellite analysis to detect vulnerability patterns across thousands of areas.",
@@ -170,32 +324,14 @@
         "Multi-spectral analysis for vulnerability pattern detection",
         "Public dataset hosted on Google Cloud Storage"
       ],
-      "techStack": ["Python", "Google Earth Engine", "Vector Search", "GIS", "Cloud Storage"],
-      "status": "In Development"
-    }
-  },
-  {
-    "id": "telegram-bot-organizze",
-    "title": "Organizze Telegram Bot",
-    "description": "AI-powered Telegram bot for personal finance insights using Gemini",
-    "image": "./src/assets/thumbs/telegram-bot-organizze.webp",
-    "alt": "Organizze Telegram Bot with AI financial insights",
-    "url": "https://github.com/arturovaine/telegram-bot-organizze",
-    "branch": ["data"],
-    "category": "open-source",
-    "tags": ["Telegram", "AI", "Fintech"],
-    "modal": {
-      "subtitle": "Natural Language Financial Assistant",
-      "fullDescription": "A Telegram bot that integrates with Organizze (organizze.com.br), a popular Brazilian personal finance app with 87k+ reviews. Using Google Gemini AI, it provides natural language financial insights and visualizations. Users can query their finances in conversational Portuguese and receive contextual responses with charts and dashboards. Organizze handles expense tracking, bank account management, and Open Finance integrations with major Brazilian banks.",
-      "features": [
-        "Natural language interface for financial queries in Portuguese",
-        "AI-powered analysis using Google Gemini for contextual responses",
-        "Visual dashboards with pie charts, bar charts, and summaries",
-        "Pre-built commands for common queries like balance and expenses",
-        "Whitelist-based access control via Telegram Chat IDs"
+      "techStack": [
+        "Python",
+        "Google Earth Engine",
+        "Vector Search",
+        "GIS",
+        "Cloud Storage"
       ],
-      "techStack": ["Python", "Google Gemini AI", "python-telegram-bot", "Matplotlib", "Docker"],
-      "status": "Open Source"
+      "status": "In Development"
     }
   },
   {
@@ -205,9 +341,15 @@
     "image": "./src/assets/thumbs/accef-platform.webp",
     "alt": "ACCEF Platform backoffice system",
     "url": "https://instituicaoaccef.com.br/sobre-nos/",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "in-development",
-    "tags": ["Intranet", "Backoffice", "Full-Stack"],
+    "tags": [
+      "Intranet",
+      "Backoffice",
+      "Full-Stack"
+    ],
     "modal": {
       "subtitle": "Social Organization Backoffice System",
       "fullDescription": "An intranet/backoffice platform built for ACCEF (Associação Centro de Convivência Espaço da Família), a social assistance organization. The system handles volunteer management, donor tracking, beneficiary registration, asset inventory, program coordination, financial management, and reporting dashboards.",
@@ -219,7 +361,13 @@
         "Financial tracking with donation management",
         "Analytics dashboards and reporting"
       ],
-      "techStack": ["React", "TypeScript", "Node.js", "Firebase", "Firestore"],
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Firebase",
+        "Firestore"
+      ],
       "status": "In Development"
     }
   },
@@ -230,9 +378,16 @@
     "image": "./src/assets/thumbs/n8n-nodes-sklearn.webp",
     "alt": "n8n-nodes-sklearn npm package",
     "url": "https://www.npmjs.com/package/n8n-nodes-sklearn",
-    "branch": ["development", "data"],
+    "branch": [
+      "development",
+      "data"
+    ],
     "category": "open-source",
-    "tags": ["n8n", "scikit-learn", "ML"],
+    "tags": [
+      "n8n",
+      "scikit-learn",
+      "ML"
+    ],
     "modal": {
       "subtitle": "Machine Learning Nodes for n8n",
       "fullDescription": "Custom n8n nodes for integrating scikit-learn machine learning algorithms into your n8n workflows. This package enables no-code/low-code ML pipelines by bringing scikit-learn's powerful algorithms directly into the n8n automation platform.",
@@ -242,32 +397,14 @@
         "No-code/low-code machine learning pipeline creation",
         "Easy model training and prediction within automation workflows"
       ],
-      "techStack": ["n8n", "TypeScript", "scikit-learn", "Python", "npm"],
-      "status": "Open Source"
-    }
-  },
-  {
-    "id": "bias-reflector",
-    "title": "Bias Reflector",
-    "description": "AI-powered cognitive bias analyzer with interactive D3.js visualization",
-    "image": "./src/assets/thumbs/bias-reflector.webp",
-    "alt": "Bias Reflector cognitive bias visualization",
-    "url": "https://bias-reflector.vercel.app/",
-    "branch": ["development", "data"],
-    "category": "experiment",
-    "tags": ["AI", "D3.js", "React"],
-    "modal": {
-      "subtitle": "Cognitive Bias Analysis Tool",
-      "fullDescription": "Bias Reflector is a sophisticated web application that analyzes conversations for cognitive biases using Google's Gemini AI and visualizes them through an interactive D3.js radial cluster diagram. The tool helps users identify and understand the 188 cognitive biases from the Cognitive Bias Codex framework in real-time conversational exchanges.",
-      "features": [
-        "AI-Powered Analysis: Leverages Gemini 3 Flash to detect cognitive biases in conversational text",
-        "Interactive Visualization: D3.js radial cluster diagram with 188 cognitive biases organized hierarchically",
-        "Real-time Detection: Instant analysis of two-way conversations with confidence scoring",
-        "Educational Tool: Helps users understand bias patterns and improve critical thinking",
-        "Responsive Design: Modern, mobile-friendly interface built with React and Tailwind CSS"
+      "techStack": [
+        "n8n",
+        "TypeScript",
+        "scikit-learn",
+        "Python",
+        "npm"
       ],
-      "techStack": ["React", "TypeScript", "D3.js", "Google Gemini AI", "Tailwind CSS"],
-      "status": "In Development"
+      "status": "Open Source"
     }
   },
   {
@@ -277,9 +414,15 @@
     "image": "./src/assets/thumbs/company-risk-extension.webp",
     "alt": "DYOD web extension preview",
     "url": "https://github.com/arturovaine/company-risk-radar_web-extension",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "open-source",
-    "tags": ["Extension", "Automation", "Research"],
+    "tags": [
+      "Extension",
+      "Automation",
+      "Research"
+    ],
     "modal": {
       "subtitle": "Company Due Diligence Automation",
       "fullDescription": "A proof-of-concept Chrome extension that automates brief due diligence using OpenAI API. Analyzes companies and generates structured JSON reports covering five critical risk categories: financial, legal, executive, reputational, and regulatory. The extension synthesizes a 1-5 risk score based on comprehensive analysis of corporate data, enabling quick assessment of potential business partners or investment opportunities.",
@@ -292,7 +435,13 @@
         "Privacy-focused: runs fully in browser with no external data transmission",
         "Planned: Multi-API support, real-time research, batch CSV analysis, Google Sheets integration"
       ],
-      "techStack": ["JavaScript", "Chrome Extensions API", "OpenAI API", "HTML", "CSS"],
+      "techStack": [
+        "JavaScript",
+        "Chrome Extensions API",
+        "OpenAI API",
+        "HTML",
+        "CSS"
+      ],
       "status": "Open Source"
     }
   },
@@ -303,9 +452,15 @@
     "image": "./src/assets/thumbs/airflow-etl.webp",
     "alt": "Airflow ETL pipeline preview",
     "url": "https://github.com/arturovaine/airflow-web-scraper-etl",
-    "branch": ["data"],
+    "branch": [
+      "data"
+    ],
     "category": "open-source",
-    "tags": ["Airflow", "ETL", "PostgreSQL"],
+    "tags": [
+      "Airflow",
+      "ETL",
+      "PostgreSQL"
+    ],
     "modal": {
       "subtitle": "Data Pipeline Automation",
       "fullDescription": "A fully containerized data pipeline using Apache Airflow to scrape quotes from the web, transform the data, and load it into a PostgreSQL database. The entire setup can be initialized with a single shell script, demonstrating modern ETL best practices with Docker orchestration. Features web-based DAG management and monitoring through Airflow's UI.",
@@ -318,7 +473,14 @@
         "Single-command setup and deployment",
         "Structured data extraction: quotes, authors, tags, timestamps"
       ],
-      "techStack": ["Python", "Apache Airflow", "PostgreSQL", "Docker", "BeautifulSoup", "Docker Compose"],
+      "techStack": [
+        "Python",
+        "Apache Airflow",
+        "PostgreSQL",
+        "Docker",
+        "BeautifulSoup",
+        "Docker Compose"
+      ],
       "status": "Open Source"
     }
   },
@@ -329,9 +491,15 @@
     "image": "./src/assets/thumbs/pim.webp",
     "alt": "PIM Platform preview",
     "url": "https://github.com/arturovaine",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "in-development",
-    "tags": ["PIM", "E-commerce", "Platform"],
+    "tags": [
+      "PIM",
+      "E-commerce",
+      "Platform"
+    ],
     "modal": {
       "subtitle": "Product Information Management",
       "fullDescription": "A comprehensive Product Information Management (PIM) platform designed to centralize, enrich, and distribute product data across multiple e-commerce channels. Built with a modern microservices architecture using Go for high-performance backend operations and PostgreSQL for reliable data persistence. The platform enables efficient product catalog management, multi-channel distribution, and data quality control for e-commerce operations.",
@@ -344,7 +512,13 @@
         "RESTful API for system integrations",
         "Dockerized deployment for scalability"
       ],
-      "techStack": ["Go", "PostgreSQL", "Docker", "Nginx", "Docker Compose"],
+      "techStack": [
+        "Go",
+        "PostgreSQL",
+        "Docker",
+        "Nginx",
+        "Docker Compose"
+      ],
       "status": "In Development"
     }
   },
@@ -355,9 +529,15 @@
     "image": "./src/assets/thumbs/lp-corp.mp4",
     "alt": "Corporate landing page",
     "url": "https://github.com/arturovaine/landing-page-video-bg",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "open-source",
-    "tags": ["Landing Page", "Video BG", "Corporate"],
+    "tags": [
+      "Landing Page",
+      "Video BG",
+      "Corporate"
+    ],
     "modal": {
       "subtitle": "Corporate Landing Page",
       "fullDescription": "A contemporary web application designed as an engaging homepage with integrated authentication, featuring a full-screen video backdrop for corporate website deployment. Built with modern React development practices and optimized with Vite for rapid development cycles. The project emphasizes modularity through reusable components while creating an immersive visual experience with video backgrounds.",
@@ -369,7 +549,13 @@
         "Responsive design for multiple screen sizes",
         "Modern UI patterns for corporate applications"
       ],
-      "techStack": ["React", "Vite", "JavaScript", "CSS", "HTML"],
+      "techStack": [
+        "React",
+        "Vite",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
       "status": "Open Source"
     }
   },
@@ -380,9 +566,15 @@
     "image": "./src/assets/thumbs/vtex.webp",
     "alt": "VTEX integrations",
     "url": "https://medium.com/@arturovaine/c2f-vs-b2m-a-new-era-in-digital-commerce-for-agriculture-in-brazil-21593a3668ff",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "production",
-    "tags": ["E-commerce", "ERP", "Integration"],
+    "tags": [
+      "E-commerce",
+      "ERP",
+      "Integration"
+    ],
     "modal": {
       "subtitle": "Enterprise E-commerce Integration",
       "fullDescription": "Enterprise-grade integration layer connecting multiple ERP systems with VTEX e-commerce platform APIs. Developed for the Brazilian agricultural commerce sector, this integration enables seamless data synchronization between legacy ERP systems and modern e-commerce infrastructure. Handles product catalogs, inventory management, order processing, and customer data across distributed systems while maintaining data consistency and real-time updates.",
@@ -395,7 +587,13 @@
         "Scalable architecture for high-volume transactions",
         "Production deployment for agricultural B2B commerce"
       ],
-      "techStack": ["VTEX APIs", "ERP Integration", "REST APIs", "Node.js", "Data Synchronization"],
+      "techStack": [
+        "VTEX APIs",
+        "ERP Integration",
+        "REST APIs",
+        "Node.js",
+        "Data Synchronization"
+      ],
       "status": "Production"
     }
   },
@@ -406,9 +604,15 @@
     "image": "./src/assets/thumbs/simepar.webp",
     "alt": "Dam monitoring system",
     "url": "https://www.parana.pr.gov.br/aen/Noticia/Mais-seguranca-para-populacao-Estado-vai-fechar-2025-com-3-mil-barragens-vistoriadas",
-    "branch": ["data"],
+    "branch": [
+      "data"
+    ],
     "category": "production",
-    "tags": ["Engineering", "Monitoring", "GIS"],
+    "tags": [
+      "Engineering",
+      "Monitoring",
+      "GIS"
+    ],
     "modal": {
       "subtitle": "Critical Infrastructure Monitoring",
       "fullDescription": "Data collection and monitoring system developed for SIMEPAR (Sistema de Tecnologia e Monitoramento Ambiental do Paraná) as part of the state's dam safety program. The system supports the inspection and classification of over 3,000 dams across Paraná, Brazil, using remote sensing, satellite imagery, and field data collection to assess structural conditions and safety risks.",
@@ -419,7 +623,13 @@
         "Integration with state environmental monitoring infrastructure",
         "Support for dams with water surfaces exceeding 10,000 m²"
       ],
-      "techStack": ["Python", "GIS", "Remote Sensing", "SQLite", "Data Collection"],
+      "techStack": [
+        "Python",
+        "GIS",
+        "Remote Sensing",
+        "SQLite",
+        "Data Collection"
+      ],
       "status": "Production"
     }
   },
@@ -430,9 +640,15 @@
     "image": "./src/assets/thumbs/crud-backoffice.mp4",
     "alt": "Backoffice CRUD application",
     "url": "https://github.com/arturovaine/crud_fullstack",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "open-source",
-    "tags": ["CRUD", "Full-Stack", "Backoffice"],
+    "tags": [
+      "CRUD",
+      "Full-Stack",
+      "Backoffice"
+    ],
     "modal": {
       "subtitle": "E-commerce Backoffice System",
       "fullDescription": "A full-stack CRUD application built in a monorepo configuration for managing e-commerce entities through REST APIs and a React interface. Implements complete Create, Read, Update, and Delete operations on predefined database tables with DDL definitions. Features JWT authentication, rate limiting for security, and comprehensive API documentation via Swagger. Demonstrates modern web application architecture with separation of concerns and security best practices.",
@@ -446,7 +662,15 @@
         "Postman/Insomnia collection for API testing",
         "Monorepo structure for frontend and backend"
       ],
-      "techStack": ["Node.js", "Fastify", "React", "MySQL", "JWT", "Swagger", "CSS"],
+      "techStack": [
+        "Node.js",
+        "Fastify",
+        "React",
+        "MySQL",
+        "JWT",
+        "Swagger",
+        "CSS"
+      ],
       "status": "Open Source"
     }
   },
@@ -457,9 +681,16 @@
     "image": "./src/assets/thumbs/gear-simulator.mp4",
     "alt": "3D gear simulator animation",
     "url": null,
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "experiment",
-    "tags": ["Three.js", "React", "TypeScript", "WebGL"],
+    "tags": [
+      "Three.js",
+      "React",
+      "TypeScript",
+      "WebGL"
+    ],
     "modal": {
       "subtitle": "Involute Geometry & Rotation Dynamics Simulator",
       "fullDescription": "GEAR_SIM.v1 is an interactive 3D gear simulator developed with React and Three.js that combines mechanical engineering and computer graphics to generate involute gear geometries in real-time. The system enables visualization of transmission ratios, angular velocities, and complex physical interactions in an immersive WebGL environment.",
@@ -471,7 +702,13 @@
         "Industrial Dashboard UI: Modern interface with glassmorphism aesthetics and real-time diagnostic feedback",
         "Diagnostic Systems: State reset and stability mechanisms for consistent cross-browser experience"
       ],
-      "techStack": ["React", "TypeScript", "Three.js", "WebGL", "Tailwind CSS"],
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Three.js",
+        "WebGL",
+        "Tailwind CSS"
+      ],
       "status": "Experiment"
     }
   },
@@ -482,9 +719,15 @@
     "image": "./src/assets/thumbs/3d-fire.mp4",
     "alt": "Three.js fire animation",
     "url": "https://github.com/arturovaine/doom-fire-algorithm",
-    "branch": ["development"],
+    "branch": [
+      "development"
+    ],
     "category": "experiment",
-    "tags": ["Three.js", "3D", "Animation"],
+    "tags": [
+      "Three.js",
+      "3D",
+      "Animation"
+    ],
     "modal": {
       "subtitle": "3D Fire Simulation Experiment",
       "fullDescription": "A community-driven playground showcasing various implementations of the classic DOOM fire effect algorithm. This experimental project features 60+ distinct implementations demonstrating different rendering methods, cross-platform approaches, and creative variations of the iconic fire animation. The repository serves as a collaborative space for developers to experiment with and contribute different technical approaches to recreating this retro visual effect using modern web technologies.",
@@ -497,7 +740,13 @@
         "GPU acceleration and WebAssembly variants",
         "Open-source contributions encouraged with MIT license"
       ],
-      "techStack": ["JavaScript", "Three.js", "Canvas", "WebGL", "HTML"],
+      "techStack": [
+        "JavaScript",
+        "Three.js",
+        "Canvas",
+        "WebGL",
+        "HTML"
+      ],
       "status": "Open Source"
     }
   }
