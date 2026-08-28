@@ -3,11 +3,15 @@ export const ProjectFilter = {
   currentLang: 'en',
   activeFilter: 'all',
   searchQuery: '',
+  expanded: false,
+  collapsedLimit: 6,
 
   async init() {
     this.chips = Array.from(document.querySelectorAll('.btn-chip[data-filter]'));
     this.cards = Array.from(document.querySelectorAll('.project'));
     this.searchInput = document.getElementById('project-search');
+    this.moreWrap = document.getElementById('projects-more-wrap');
+    this.moreBtn = document.getElementById('projects-more-btn');
 
     await this.loadTranslations();
     this.currentLang = localStorage.getItem('language') || 'en';
@@ -92,6 +96,7 @@ export const ProjectFilter = {
     this.chips.forEach(chip => {
       chip.addEventListener('click', () => {
         this.activeFilter = chip.getAttribute('data-filter') || 'all';
+        this.expanded = false;
         this.setActive(chip);
         this.applyFilters();
       }, { passive: true });
@@ -100,6 +105,14 @@ export const ProjectFilter = {
     if (this.searchInput) {
       this.searchInput.addEventListener('input', () => {
         this.searchQuery = this.searchInput.value.trim().toLowerCase();
+        this.expanded = false;
+        this.applyFilters();
+      });
+    }
+
+    if (this.moreBtn) {
+      this.moreBtn.addEventListener('click', () => {
+        this.expanded = !this.expanded;
         this.applyFilters();
       });
     }
@@ -116,12 +129,19 @@ export const ProjectFilter = {
   },
 
   applyFilters() {
+    let matchedCount = 0;
+
     this.cards.forEach(card => {
       const branches = this.getBranches(card);
       const searchIndex = (card.getAttribute('data-search') || '').toLowerCase();
       const matchesFilter = !this.activeFilter || this.activeFilter === 'all' || branches.includes(this.activeFilter);
       const matchesSearch = !this.searchQuery || searchIndex.includes(this.searchQuery);
-      const shouldShow = matchesFilter && matchesSearch;
+      const matches = matchesFilter && matchesSearch;
+
+      // Collapse: only reveal the first `collapsedLimit` matching cards until expanded.
+      const withinLimit = this.expanded || matchedCount < this.collapsedLimit;
+      if (matches) matchedCount++;
+      const shouldShow = matches && withinLimit;
 
       if (shouldShow) {
         card.classList.remove('hidden');
@@ -135,5 +155,23 @@ export const ProjectFilter = {
         card.classList.add('hidden');
       }
     });
+
+    this.updateMoreButton(matchedCount);
+  },
+
+  updateMoreButton(matchedCount) {
+    if (!this.moreWrap || !this.moreBtn) return;
+
+    const hasOverflow = matchedCount > this.collapsedLimit;
+    this.moreWrap.hidden = !hasOverflow;
+
+    if (hasOverflow) {
+      const t = this.translations?.[this.currentLang]?.projects;
+      const label = this.expanded
+        ? (t?.viewLess || 'Show less')
+        : (t?.viewMore || 'View more projects');
+      this.moreBtn.textContent = label;
+      this.moreBtn.setAttribute('aria-expanded', String(this.expanded));
+    }
   }
 };

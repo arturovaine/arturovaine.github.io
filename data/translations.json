@@ -54,6 +54,8 @@
         "data": "Data"
       },
       "searchPlaceholder": "Search projects...",
+      "viewMore": "View more projects",
+      "viewLess": "Show less",
       "modal": {
         "viewProject": "View Project",
         "keyFeatures": "Key Features",
@@ -186,6 +188,8 @@
         "data": "Dados"
       },
       "searchPlaceholder": "Pesquisar projetos...",
+      "viewMore": "Ver mais projetos",
+      "viewLess": "Ver menos",
       "modal": {
         "viewProject": "Ver Projeto",
         "keyFeatures": "Principais Funcionalidades",
