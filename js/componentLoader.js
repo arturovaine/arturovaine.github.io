@@ -1,6 +1,7 @@
 export const ComponentLoader = {
   headerComponents: ['backdrop', 'header'],
-  criticalComponents: ['hero', 'logo-carousel', 'hero-cards'],
+  // 'hero' is inlined statically in index.html for a fast LCP, so it is not fetched here.
+  criticalComponents: ['logo-carousel', 'hero-cards'],
   lazyComponents: [
     'work',
     'metaproject',
