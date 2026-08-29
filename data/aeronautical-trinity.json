@@ -1,0 +1,18 @@
+{
+  "title": "Meeting Ozires Silva",
+  "intro": "I had the privilege of meeting Ozires Silva, founder of Embraer, the year I was honored with the award that carries his name.",
+  "hero": {
+    "image": "./src/assets/images/ozires-silva-arturo.webp",
+    "alt": "Arturo Vaine with Ozires Silva",
+    "role": "Founder of Embraer",
+    "name": "Ozires Silva"
+  },
+  "panel": {
+    "heading": "The award that carries his name",
+    "paragraphs": [
+      "In 2018 I received first place in the Ozires Silva Award for Sustainable Entrepreneurship, at ISAE FGV's eleventh edition. Meeting the man behind the name made the recognition unforgettable.",
+      "Ozires Silva graduated from ITA, the aeronautics institute founded by Casimiro Montenegro Filho, and became one of the most influential figures in Brazilian industry. In 1969 he led the creation of Embraer and served as its first president.",
+      "That lineage is the point. ITA trained the engineers, and Ozires turned their talent into Embraer, today one of the largest aircraft manufacturers in the world and a rare case of a developing country building a global aerospace champion. He later led Petrobras and served as Brazil's Minister of Infrastructure."
+    ]
+  }
+}

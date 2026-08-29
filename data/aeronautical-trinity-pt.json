@@ -1,0 +1,18 @@
+{
+  "title": "Encontro com Ozires Silva",
+  "intro": "Tive o privilégio de conhecer Ozires Silva, fundador da Embraer, no ano em que fui honrado com o prêmio que leva o seu nome.",
+  "hero": {
+    "image": "./src/assets/images/ozires-silva-arturo.webp",
+    "alt": "Arturo Vaine com Ozires Silva",
+    "role": "Fundador da Embraer",
+    "name": "Ozires Silva"
+  },
+  "panel": {
+    "heading": "O prêmio que leva o seu nome",
+    "paragraphs": [
+      "Em 2018 recebi o primeiro lugar no Prêmio Ozires Silva de Empreendedorismo Sustentável, na 11ª edição do ISAE FGV. Conhecer o homem por trás do nome tornou o reconhecimento inesquecível.",
+      "Ozires Silva formou-se no ITA, o instituto de aeronáutica fundado por Casimiro Montenegro Filho, e tornou-se uma das figuras mais influentes da indústria brasileira. Em 1969 liderou a criação da Embraer e foi o seu primeiro presidente.",
+      "É essa linhagem que importa. O ITA formou os engenheiros, e Ozires transformou esse talento na Embraer, hoje uma das maiores fabricantes de aeronaves do mundo e um raro caso de um país em desenvolvimento construindo um campeão aeroespacial global. Mais tarde presidiu a Petrobras e foi Ministro da Infraestrutura do Brasil."
+    ]
+  }
+}

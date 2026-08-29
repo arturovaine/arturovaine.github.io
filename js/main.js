@@ -16,6 +16,7 @@ import { HeroCardRenderer } from './renderers/HeroCardRenderer.js';
 import { HeroRenderer } from './renderers/HeroRenderer.js';
 import { ProjectRenderer } from './renderers/ProjectRenderer.js';
 import { AwardRenderer } from './renderers/AwardRenderer.js';
+import { TrinityRenderer } from './renderers/TrinityRenderer.js';
 import { ExperienceRenderer } from './renderers/ExperienceRenderer.js';
 import { PostRenderer } from './renderers/PostRenderer.js';
 import { ArtworkRenderer } from './renderers/ArtworkRenderer.js';
@@ -65,6 +66,10 @@ const componentInitializers = {
   },
   'awards': () => {
     AwardRenderer.init();
+    SectionsRenderer.init();
+  },
+  'aeronautical-trinity': () => {
+    TrinityRenderer.init();
     SectionsRenderer.init();
   },
   'award-highlights': () => {

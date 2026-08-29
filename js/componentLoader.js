@@ -6,6 +6,7 @@ export const ComponentLoader = {
     'metaproject',
     'experience',
     'awards',
+    'aeronautical-trinity',
     'award-highlights',
     'posts',
     'volunteering',
