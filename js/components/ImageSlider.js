@@ -12,9 +12,12 @@ export const ImageSlider = {
       this.images = data.images || [];
 
       if (this.images.length > 0) {
-        await this.preloadInitialImages();
+        // The first frame is already in the static HTML (preloaded + visible),
+        // so reveal immediately and preload the rest in the background — never
+        // gate the first paint behind the 5-frame preload.
         this.update();
         this.showImages();
+        await this.preloadInitialImages();
         this.startAnimation();
       }
     } catch (error) {
@@ -83,9 +86,20 @@ export const ImageSlider = {
     const currentImg = this.images[this.currentIndex];
 
     if (currentImg) {
-      centerImg.src = this.getImageSrc(currentImg);
-      centerImg.alt = currentImg.alt || 'Pixel Art';
-      centerImg.title = currentImg.title || '';
+      const src = this.getImageSrc(currentImg);
+      let cached = this.preloadCache.get(src);
+      if (!cached) {
+        this.preloadImage(this.currentIndex);
+        cached = this.preloadCache.get(src);
+      }
+
+      // Only swap once the frame is fully decoded. Otherwise hold the current
+      // frame this tick instead of flashing a blank <img> mid-decode.
+      if (!cached || (cached.complete && cached.naturalWidth > 0)) {
+        centerImg.src = src;
+        centerImg.alt = currentImg.alt || 'Pixel Art';
+        centerImg.title = currentImg.title || '';
+      }
     }
 
     this.preloadUpcoming();

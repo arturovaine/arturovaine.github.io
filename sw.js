@@ -1,5 +1,5 @@
 // Service Worker - McMaster-Carr inspired caching strategy
-const CACHE_VERSION = 'v7.4.0';
+const CACHE_VERSION = 'v7.5.0';
 const CACHE_NAME = `portfolio-${CACHE_VERSION}`;
 
 // Assets to cache immediately on install
@@ -12,6 +12,7 @@ const PRECACHE_ASSETS = [
   '/js/main.js',
   '/js/componentLoader.js',
   '/components/hero.html',
+  '/src/assets/images/pxart/pxArt.webp',
   '/components/hero-cards.html',
   '/components/work.html',
   '/components/experience.html',
