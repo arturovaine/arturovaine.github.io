@@ -35,11 +35,12 @@ export const ComponentLoader = {
     const container = document.getElementById(containerId);
     if (!container) return;
 
-    for (const componentName of componentList) {
-      const html = await this.loadComponent(componentName);
-      container.insertAdjacentHTML('beforeend', html);
+    // Fetch all fragments concurrently, then insert in declared order to preserve layout.
+    const htmls = await Promise.all(componentList.map((name) => this.loadComponent(name)));
+    componentList.forEach((componentName, i) => {
+      container.insertAdjacentHTML('beforeend', htmls[i]);
       window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: componentName } }));
-    }
+    });
   },
 
   createPlaceholder(name) {
