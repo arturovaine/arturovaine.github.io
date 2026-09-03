@@ -208,7 +208,7 @@
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px;">
             <div style="padding:14px;background:#0f172a;border-radius:8px;border:1px solid #334155;text-align:center;">
               <div style="font-size:24px;font-weight:700;color:#fbbf24;">12</div>
-              <div style="font-size:11px;color:#94a3b8;">Current clients</div>
+              <div style="font-size:11px;color:#94a3b8;">Anonymized accounts</div>
             </div>
             <div style="padding:14px;background:#0f172a;border-radius:8px;border:1px solid #334155;text-align:center;">
               <div style="font-size:24px;font-weight:700;color:#fbbf24;">75%</div>
@@ -273,7 +273,7 @@
       <div class="card-header">SMB Density by State <span class="info-tip">i<span class="tip-text"><strong>Why this matters</strong>SDRs: Prioritize outreach by state volume. Decision Makers: Allocate regional budgets where SMB density is highest. Helps answer "where should we focus first?"</span></span><span class="badge">Interactive</span></div>
       <div style="padding:10px 16px 0;display:flex;flex-wrap:wrap;gap:6px;" id="mapFilters">
         <button class="filter-btn active" data-layer="all" style="--active-bg:#0c4a6e;--active-border:#38bdf8;--active-color:#fff;">All Layers</button>
-        <button class="filter-btn active" data-layer="clients" style="border-color:#f59e0b;color:#fbbf24;--active-bg:#713f12;--active-border:#fbbf24;--active-color:#fef3c7;">&#9733; Clients (12)</button>
+        <button class="filter-btn active" data-layer="clients" style="border-color:#f59e0b;color:#fbbf24;--active-bg:#713f12;--active-border:#fbbf24;--active-color:#fef3c7;">&#9733; Accounts (12)</button>
         <button class="filter-btn active" data-layer="metros" style="border-color:#db2777;color:#f472b6;--active-bg:#831843;--active-border:#f472b6;--active-color:#fce7f3;">&#9679; Metro Areas</button>
         <button class="filter-btn active" data-layer="states" style="border-color:#0891b2;color:#22d3ee;--active-bg:#164e63;--active-border:#22d3ee;--active-color:#cffafe;">&#9678; States</button>
         <button class="filter-btn" data-layer="high-opp" style="border-color:#16a34a;color:#4ade80;--active-bg:#14532d;--active-border:#4ade80;--active-color:#dcfce7;">High Opportunity Only</button>
@@ -1204,7 +1204,7 @@
               <tr><td style="color:#f87171;width:20px;vertical-align:top;">-</td><td><strong style="color:#f1f5f9;">Geographic concentration risk</strong><br><span style="color:#94a3b8;">75% of clients in a single metro. A local economic downturn or single client loss has outsized impact. Need geographic diversification.</span></td></tr>
               <tr><td style="color:#f87171;vertical-align:top;">-</td><td><strong style="color:#f1f5f9;">Small client base (12)</strong><br><span style="color:#94a3b8;">Not yet at scale to prove repeatable sales process. Revenue concentration risk if top 2-3 clients churn.</span></td></tr>
               <tr><td style="color:#f87171;vertical-align:top;">-</td><td><strong style="color:#f1f5f9;">Capacity constraints</strong><br><span style="color:#94a3b8;">Advisory is people-intensive. Scaling from 12 to 100 clients requires hiring or productizing services — both take time and capital.</span></td></tr>
-              <tr><td style="color:#f87171;vertical-align:top;">-</td><td><strong style="color:#f1f5f9;">No vertical specialization yet</strong><br><span style="color:#94a3b8;">Current clients span 8+ industries. Specialists earn 30-40% more — but you need volume in one vertical to build credible expertise.</span></td></tr>
+              <tr><td style="color:#f87171;vertical-align:top;">-</td><td><strong style="color:#f1f5f9;">No vertical specialization yet</strong><br><span style="color:#94a3b8;">The client base spans 8+ industries. Specialists earn 30-40% more — but you need volume in one vertical to build credible expertise.</span></td></tr>
               <tr><td style="color:#f87171;vertical-align:top;">-</td><td><strong style="color:#f1f5f9;">Brand awareness is zero outside CO</strong><br><span style="color:#94a3b8;">No national presence, no published thought leadership ranking, no conference speaking profile yet.</span></td></tr>
             </tbody>
           </table>
@@ -1260,7 +1260,7 @@
               <tr><td style="color:#22d3ee;vertical-align:top;">&#9744;</td><td><strong style="color:#f1f5f9;">Launch first 200 outreach emails</strong><br><span style="color:#94a3b8;">Target tariff-hit construction firms in CO (78% affected). Lead with: "Tariffs are costing SMBs $11.4K/mo — AI can find savings."</span></td></tr>
               <tr><td style="color:#22d3ee;vertical-align:top;">&#9744;</td><td><strong style="color:#f1f5f9;">Contact 3 local SBDCs</strong><br><span style="color:#94a3b8;">Offer free AI workshop. 85% of SMBs support the recent federal SMB-AI legislation — SBDCs want this partnership.</span></td></tr>
               <tr><td style="color:#22d3ee;vertical-align:top;">&#9744;</td><td><strong style="color:#f1f5f9;">Publish 4 LinkedIn posts</strong><br><span style="color:#94a3b8;">Use dashboard stats as content: integration gap, tariff impact, survival rates, AI ROI. Position as "the SMB AI advisor."</span></td></tr>
-              <tr><td style="color:#22d3ee;vertical-align:top;">&#9744;</td><td><strong style="color:#f1f5f9;">Ask 12 current clients for referrals</strong><br><span style="color:#94a3b8;">65-75% of SMBs find advisors through referrals. Formalize a referral ask with every existing client.</span></td></tr>
+              <tr><td style="color:#22d3ee;vertical-align:top;">&#9744;</td><td><strong style="color:#f1f5f9;">Ask existing accounts for referrals</strong><br><span style="color:#94a3b8;">65-75% of SMBs find advisors through referrals. Formalize a referral ask with every existing client.</span></td></tr>
             </tbody>
           </table>
           <div style="margin-top:12px;padding:8px;background:#0f172a;border-radius:6px;text-align:center;">
@@ -2326,8 +2326,7 @@ clients.forEach(c => {
       <b style="font-size:14px;color:#f59e0b;">&#9733; ${c[0]}</b><br>
       <span style="color:#666">${c[3]}</span><br>
       <span style="font-size:12px;color:#888">${c[4]}</span><br>
-      <span style="font-size:11px;font-weight:600;color:#f59e0b;">Current Client</span>
-    </div>`
+          </div>`
   );
   // 200-mile (~322km) radius circles for radius layer
   L.circle([c[1], c[2]], {
@@ -2461,7 +2460,7 @@ legend.onAdd = function() {
   div.style.cssText = 'background:#1e293b;padding:10px 14px;border-radius:8px;border:1px solid #334155;font-size:11px;color:#94a3b8;line-height:1.8;';
   div.innerHTML = `
     <div style="font-weight:600;color:#f1f5f9;margin-bottom:4px;">Legend</div>
-    <div><span style="display:inline-block;width:14px;height:14px;background:#fbbf24;border-radius:50%;vertical-align:middle;margin-right:6px;text-align:center;font-size:9px;line-height:14px;color:#1e293b;font-weight:700;">&#9733;</span> Current Client (${clients.length})</div>
+    <div><span style="display:inline-block;width:14px;height:14px;background:#fbbf24;border-radius:50%;vertical-align:middle;margin-right:6px;text-align:center;font-size:9px;line-height:14px;color:#1e293b;font-weight:700;">&#9733;</span> Anonymized account (${clients.length})</div>
     <div><span style="display:inline-block;width:12px;height:12px;background:#f472b6;border-radius:50%;vertical-align:middle;margin-right:6px;opacity:0.7;"></span> Metro Area (MSA)</div>
     <div><span style="display:inline-block;width:12px;height:12px;background:#22d3ee;border-radius:50%;vertical-align:middle;margin-right:6px;opacity:0.5;"></span> State &mdash; High Opportunity</div>
     <div><span style="display:inline-block;width:12px;height:12px;background:#fbbf24;border-radius:50%;vertical-align:middle;margin-right:6px;opacity:0.5;"></span> State &mdash; Medium</div>
