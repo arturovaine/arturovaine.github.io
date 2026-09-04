@@ -1,5 +1,41 @@
 [
   {
+    "id": "preply-ml-deep-dive",
+    "title": "Deep Dive de ML no Mercado de Tutores",
+    "description": "Análise de machine learning de 8.952 tutores de inglês online: arquétipos via KMeans e modelos Random Forest de preço e demanda",
+    "image": "./src/assets/thumbs/preply-ml-deep-dive.webp",
+    "alt": "Matrizes de confusão dos modelos Random Forest de preço premium e agenda cheia",
+    "url": "./global-preply-ml-deep-dive.html",
+    "branch": [
+      "data"
+    ],
+    "category": "experiment",
+    "tags": [
+      "scikit-learn",
+      "Python",
+      "pandas"
+    ],
+    "modal": {
+      "subtitle": "Clusterização e classificação em um marketplace de tutores",
+      "fullDescription": "Um deep dive de machine learning em 8.952 tutores de inglês da Preply em 161 países, coletados de páginas públicas de listagem. A clusterização KMeans revela cinco arquétipos de mercado — incluindo uma classe incumbente com 29% dos tutores capturando 69% do proxy de receita — e classificadores Random Forest mostram que o nível de preço do país do tutor praticamente sozinho prevê preços premium (AUC 0,82), enquanto a demanda é bem mais difícil de prever apenas com os sinais da listagem (AUC 0,69).",
+      "features": [
+        "Cinco arquétipos de tutores via KMeans, escolhidos com análise de silhueta e perfilados com PCA",
+        "Classificador de preço premium (AUC 0,82) com importância por permutação: o prêmio de falante nativo é na verdade um prêmio de país",
+        "Modelo de demanda com controle de vazamento mostrando agendas mais cheias em preços relativos maiores — qualidade transparecendo no preço, não preço gerando demanda",
+        "Árvore de decisão interpretável de profundidade 3 atingindo AUC 0,80 com três perguntas",
+        "Página de relatório totalmente autocontida com 9 gráficos matplotlib embutidos"
+      ],
+      "techStack": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "Matplotlib"
+      ],
+      "status": "Produção"
+    },
+    "featured": true
+  },
+  {
     "id": "bias-reflector",
     "title": "Bias Reflector",
     "description": "Analisador de vieses cognitivos com IA e visualização interativa D3.js",

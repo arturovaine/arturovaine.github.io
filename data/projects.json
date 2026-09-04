@@ -1,5 +1,41 @@
 [
   {
+    "id": "preply-ml-deep-dive",
+    "title": "Tutor Market ML Deep Dive",
+    "description": "Machine-learning analysis of 8,952 online English tutors: KMeans archetypes plus Random Forest pricing and demand models",
+    "image": "./src/assets/thumbs/preply-ml-deep-dive.webp",
+    "alt": "Confusion matrices of the premium-price and full-roster Random Forest models",
+    "url": "./global-preply-ml-deep-dive.html",
+    "branch": [
+      "data"
+    ],
+    "category": "experiment",
+    "tags": [
+      "scikit-learn",
+      "Python",
+      "pandas"
+    ],
+    "modal": {
+      "subtitle": "Clustering & classification on a scraped tutor marketplace",
+      "fullDescription": "A machine-learning deep dive into 8,952 Preply English tutors across 161 countries, scraped from public listing pages. KMeans clustering reveals five market archetypes — including an incumbent class of 29% of tutors capturing 69% of the revenue proxy — and Random Forest classifiers show that a tutor's country price level almost single-handedly predicts premium pricing (AUC 0.82), while demand is far harder to call from listing signals alone (AUC 0.69).",
+      "features": [
+        "Five tutor archetypes via KMeans, chosen with silhouette analysis and profiled through PCA",
+        "Premium-price classifier (AUC 0.82) with permutation importance: the native-speaker premium is really a country premium",
+        "Leakage-controlled demand model showing rosters rise with relative price — quality showing through, not price driving demand",
+        "Interpretable depth-3 decision tree reaching AUC 0.80 with three questions",
+        "Fully self-contained report page with 9 embedded matplotlib charts"
+      ],
+      "techStack": [
+        "Python",
+        "pandas",
+        "scikit-learn",
+        "Matplotlib"
+      ],
+      "status": "Production"
+    },
+    "featured": true
+  },
+  {
     "id": "bias-reflector",
     "title": "Bias Reflector",
     "description": "AI-powered cognitive bias analyzer with interactive D3.js visualization",
