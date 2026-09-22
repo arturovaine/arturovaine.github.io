@@ -1,5 +1,5 @@
 // Service Worker - McMaster-Carr inspired caching strategy
-const CACHE_VERSION = 'v8.0.0';
+const CACHE_VERSION = 'v9.0.0';
 const CACHE_NAME = `portfolio-${CACHE_VERSION}`;
 
 // Assets to cache immediately on install
