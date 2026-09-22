@@ -43,8 +43,9 @@ export const ThemeManager = {
     const btn = document.getElementById('themeToggle');
     if (!btn) return;
 
-    const icon = btn.querySelector('svg');
-    if (icon) icon.remove();
+    // Remove any existing icon (lucide <svg> or the static <i data-lucide>),
+    // leaving the tooltip span, so only one sun/moon ever shows.
+    btn.querySelectorAll('svg, i[data-lucide]').forEach((el) => el.remove());
 
     const iconName = theme === 'light' ? 'sun' : 'moon';
     const i = document.createElement('i');
