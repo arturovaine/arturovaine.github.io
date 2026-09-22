@@ -1,0 +1,574 @@
+/* ==========================================================================
+   Editorial redesign layer (2026)
+   Flat · hairline borders · zero radius · generous whitespace.
+   Minimalist editorial aesthetic, adapted for an engineer's portfolio.
+
+   Loaded LAST (see index.html) so it wins the cascade over brutalist.css and
+   the async theme.css chain (light-theme.css). Keeps the existing
+   body.brutalist / .light-theme theming hooks intact so ThemeManager and the
+   i18n renderers keep working unchanged.
+   ========================================================================== */
+
+/* ---- fonts --------------------------------------------------------------- */
+:root {
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+}
+
+/* ---- editorial tokens (flatten the brutalist system) --------------------- */
+body.brutalist {
+  --radius: 0px;
+  --bw: 1px;
+  --shadow: none;
+  --shadow-sm: none;
+  --shadow-lift: none;
+
+  /* dark editorial palette */
+  --bg:         #101216;
+  --surface:    #16191F;
+  --surface-2:  #1E222A;
+  --ink:        #C7CDD9;
+  --ink-strong: #F4F6FA;
+  --soft:       #8A93A6;
+  --line:       rgba(255, 255, 255, 0.12);
+  --lines:      rgba(255, 255, 255, 0.20);
+  --accent:     #E0A44A;   /* warm amber accent thread */
+  --accent-b:   #C8842A;
+}
+
+body.brutalist.light-theme {
+  /* warm off-white editorial palette */
+  --bg:         #F6F5F1;
+  --surface:    #FBFAF7;
+  --surface-2:  #EFEDE7;
+  --ink:        #2A2A28;
+  --ink-strong: #141412;
+  --soft:       #6B6B66;
+  --line:       rgba(20, 20, 18, 0.14);
+  --lines:      rgba(20, 20, 18, 0.24);
+  --accent:     #B4711A;
+  --accent-b:   #8A5410;
+}
+
+body.brutalist {
+  background-color: var(--bg) !important;
+  color: var(--ink) !important;
+  font-family: var(--font-body);
+}
+/* The inline critical CSS sets the light body bg to #EEF1F5 at .light-theme
+   specificity; match it here (loaded later) so the warm editorial bg wins. */
+body.brutalist.light-theme {
+  background-color: var(--bg) !important;
+  color: var(--ink) !important;
+}
+
+/* ---- global: kill radius everywhere -------------------------------------- */
+body.brutalist *,
+body.brutalist *::before,
+body.brutalist *::after { border-radius: 0 !important; }
+
+/* ...except genuinely-circular UI affordances (dots + spinners) */
+body.brutalist .badge-status .dot,
+body.brutalist .btn-dot,
+body.brutalist .timeline-dot,
+body.brutalist .dot,
+body.brutalist .animate-spin { border-radius: 9999px !important; }
+
+/* ---- typography ---------------------------------------------------------- */
+body.brutalist h1,
+body.brutalist h2,
+body.brutalist h3 {
+  color: var(--ink-strong) !important;
+  letter-spacing: -0.02em;
+}
+body.brutalist section h2 {
+  font-family: var(--font-display) !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.015em;
+}
+
+/* mono eyebrows / small labels */
+body.brutalist .section-eyebrow,
+body.brutalist .badge-status,
+body.brutalist .tag,
+body.brutalist .card-tag,
+body.brutalist .stat-label,
+body.brutalist .core-stack-title,
+body.brutalist .pixel-art-description { font-family: var(--font-mono); }
+
+.section-eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--soft);
+  margin: 0 0 1.25rem;
+}
+
+/* de-emphasize the inline "text-navy" highlight — accent ink, no chip */
+body.brutalist .text-navy {
+  color: var(--accent) !important;
+  background: transparent !important;
+  padding: 0 !important;
+  font-weight: 600;
+}
+
+/* ---- hero ---------------------------------------------------------------- */
+.hero-name {
+  font-family: var(--font-display) !important;
+  font-weight: 400 !important;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  font-size: clamp(1.9rem, 7vw, 4.25rem);
+  white-space: nowrap; /* keep "Arturo Vaine" on one line */
+}
+
+/* Bigger + wider hero: fill the viewport on desktop, vertically centered,
+   and let the hero container spread wider than the standard max-w-7xl. */
+@media (min-width: 1024px) {
+  /* content-height hero (no forced 100vh) so the carousel peeks above the fold */
+  .hero > .mx-auto { width: 100%; max-width: 72rem; }
+  /* keep the portrait anchored to the top of the row, aligned with "Arturo" */
+  .hero-media-col { align-self: stretch; }
+  /* portrait sits close to (slightly overlapping) the 2x MacBook */
+  .hero-portrait { margin-left: -6rem; position: relative; left: 30px; z-index: 2; }
+  /* the lead line stays on a single line on desktop */
+  body.brutalist .hero-lead { font-size: 0.9rem; }
+}
+body.brutalist .hero-name .hero-name-first { color: var(--ink-strong) !important; }
+body.brutalist .hero-name .hero-name-last {
+  font-style: italic;
+  color: var(--accent) !important;
+}
+
+/* role line right under the name — highlighted accent */
+.hero-role {
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+body.brutalist .hero-role { color: var(--accent) !important; }
+
+body.brutalist .hero-paragraph { color: var(--ink) !important; max-width: 48ch; }
+body.brutalist .hero-paragraph strong { color: var(--ink-strong); }
+/* lead tagline — full width (one line on desktop), only the phrases highlighted */
+body.brutalist .hero-lead { color: var(--ink-strong) !important; max-width: none; }
+body.brutalist .hero-lead strong { color: var(--accent) !important; }
+
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.hero-stat { padding: 1.1rem 1.25rem 1.1rem 0; }
+.hero-stat + .hero-stat {
+  padding-left: 1.25rem;
+  border-left: 1px solid var(--line);
+}
+.hero-stat-num {
+  font-family: var(--font-display);
+  font-size: 2.1rem;
+  line-height: 1;
+  color: var(--ink-strong);
+}
+body.brutalist .stat-label {
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--soft) !important;
+  margin-top: 0.55rem;
+}
+body.brutalist .core-stack-title {
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--soft) !important;
+  font-weight: 500 !important;
+}
+
+/* hero media: MacBook mockup with the interview playing inside its screen.
+   The mockup PNG has a transparent screen cutout, so the video sits BEHIND it,
+   positioned to the detected screen bounds (L 9.91% · T 5.67% · W 80.26% · H 53.96%). */
+.hero-media { position: relative; width: 100%; margin: 0; }
+.hero-macbook { position: relative; display: block; width: 100%; }
+.hero-macbook-frame {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none; /* let hover/click reach the video showing through the screen */
+}
+.hero-video {
+  position: absolute;
+  z-index: 1;
+  left: 9.91%;
+  top: 5.67%;
+  width: 80.26%;
+  height: 53.96%;
+  object-fit: cover;
+  background: #000;
+  cursor: pointer;
+}
+/* Poster overlay: the interview still (thumb) shown whenever the video isn't
+   playing — including after it plays once. Hidden only during playback. */
+.hero-screen-poster {
+  position: absolute;
+  z-index: 1;
+  left: 9.91%;
+  top: 5.67%;
+  width: 80.26%;
+  height: 53.96%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+.hero-media.is-playing .hero-screen-poster { opacity: 0; pointer-events: none; }
+
+/* Right Shift key -> Awards, with a pulsing light rising from beneath the key */
+.mb-shift-link {
+  position: absolute;
+  z-index: 4;
+  left: 77.6%;
+  top: 76%;
+  width: 10%;
+  height: 3.4%;
+  cursor: pointer;
+}
+.mb-shift-svg { width: 100%; height: 100%; display: block; overflow: visible; }
+/* Strong pulsing trapezoid outline of the Shift key (in perspective) */
+.mb-shift-svg polygon {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+  animation: mb-shift-pulse 1.3s ease-in-out infinite;
+}
+@keyframes mb-shift-pulse {
+  0%, 100% { stroke: rgba(224, 164, 74, 0.7);  filter: drop-shadow(0 0 3px rgba(224, 164, 74, 0.55)); }
+  50%      { stroke: rgba(255, 200, 96, 1);    filter: drop-shadow(0 0 11px rgba(224, 164, 74, 1)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mb-shift-svg polygon { animation: none; filter: drop-shadow(0 0 8px rgba(224, 164, 74, 0.85)); }
+}
+/* interview captions — ~50% larger */
+.hero-video::cue { font-size: 1.5em; background: rgba(0, 0, 0, 0.6); }
+.hero-video-toggle {
+  position: absolute;
+  z-index: 3;
+  /* centre of the screen cutout, not the whole mockup */
+  top: 32.65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3.4rem;
+  height: 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  cursor: pointer;
+  transition: background 0.2s ease, opacity 0.25s ease;
+}
+.hero-video-toggle:hover { background: rgba(0, 0, 0, 0.82); }
+.hero-video-toggle svg { width: 1.4rem; height: 1.4rem; }
+.hero-media.is-playing .hero-video-toggle { opacity: 0; pointer-events: none; }
+.hero-media-caption {
+  margin-top: 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--soft);
+  text-align: center;
+}
+
+/* ---- hero portrait + standalone MacBook (below the hero) ---------------- */
+.hero-portrait {
+  display: block;
+  height: 495px;
+  width: auto; /* keep original proportions */
+}
+
+/* hero media row: MacBook to the left of the portrait */
+.hero-media-row { display: flex; align-items: center; justify-content: flex-end; gap: 0; }
+.hero-media-row > * { flex: none; }
+@media (max-width: 1023px) { .hero-media-row { flex-direction: column; gap: 1rem; } }
+
+.macbook-standalone { display: flex; flex-direction: column; align-items: center; margin: 0; width: 500px; max-width: 100%; }
+.macbook-standalone .hero-macbook { display: inline-block; width: 100%; }
+.macbook-standalone .hero-macbook-frame { width: 100%; max-width: none; height: auto; }
+
+/* Core stack + socials — single horizontal line (scrolls if it overflows) */
+.hero-stack {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0.6rem;
+  margin-top: 2.75rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.hero-stack::-webkit-scrollbar { display: none; }
+.hero-stack .core-stack-title { flex: none; margin: 0 0.5rem 0 0; }
+.hero-stack .tag,
+.hero-stack .btn { flex: none; white-space: nowrap; }
+
+/* ---- home contact CTA --------------------------------------------------- */
+.home-cta-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+  line-height: 1.03;
+  letter-spacing: -0.02em;
+}
+body.brutalist .home-cta-title { color: var(--ink-strong) !important; }
+.home-cta-sub { margin-top: 1rem; }
+body.brutalist .home-cta-sub { color: var(--soft) !important; }
+
+/* ---- pixel-art feature (inside the Artworks section) --------------------- */
+.pixel-feature { text-align: center; margin: 0 auto 3rem; }
+#image-slider-container.pixel-stage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: auto !important;
+}
+.pixel-frame {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 1px solid var(--lines);
+  image-rendering: pixelated;
+}
+.pixel-caption { margin-top: 1rem; }
+body.brutalist .pixel-art-title { color: var(--ink-strong) !important; }
+body.brutalist .pixel-art-description {
+  color: var(--soft) !important;
+  font-size: 0.74rem;
+  max-width: 36ch;
+  margin: 0.35rem auto 0;
+}
+
+/* ---- flatten: kill brutalist shadows + translate hovers ------------------ */
+body.brutalist .card,
+body.brutalist .project-card,
+body.brutalist .badge-status,
+body.brutalist .btn,
+body.brutalist .modal,
+body.brutalist .cookie-banner-inner,
+body.brutalist #scrollToTop,
+body.brutalist .btn-carousel,
+body.brutalist .btn-chip,
+body.brutalist #cv-btn { box-shadow: none !important; }
+
+body.brutalist .card:hover,
+body.brutalist .card:not(.project-card):hover,
+body.brutalist .project-card:hover,
+body.brutalist .btn-primary:hover,
+body.brutalist .btn-secondary:hover,
+body.brutalist #scrollToTop:hover { transform: none !important; }
+
+/* ---- cards: flat editorial ---------------------------------------------- */
+body.brutalist .card,
+body.brutalist .project-card {
+  border: 1px solid var(--line) !important;
+  background-color: var(--surface) !important;
+  transition: border-color 0.2s ease, background-color 0.2s ease !important;
+}
+body.brutalist .card-image { background-color: var(--surface-2) !important; }
+@media (hover: hover) {
+  body.brutalist .card:hover,
+  body.brutalist .project-card:hover {
+    border-color: var(--ink-strong) !important;
+    box-shadow: none !important;
+  }
+  body.brutalist .project-card:hover .project-card-image img,
+  body.brutalist .project-card:hover .project-card-image video { transform: scale(1.03); }
+}
+.project-card-featured .project-card-subtitle { color: var(--accent) !important; }
+
+/* tags + status badge — hairline, transparent */
+body.brutalist .tag,
+body.brutalist .card-tag {
+  border: 1px solid var(--line) !important;
+  background-color: transparent !important;
+  color: var(--soft) !important;
+  font-size: 0.72rem;
+}
+body.brutalist .badge-status {
+  border: 1px solid var(--line) !important;
+  background-color: transparent !important;
+  color: var(--soft) !important;
+  padding: 0.3rem 0.85rem;
+  font-weight: 500;
+}
+body.brutalist .badge-status .dot { background-color: var(--accent) !important; }
+
+/* ---- buttons: flat editorial -------------------------------------------- */
+/* brutalist.css sets .btn radius with !important at class specificity, so the
+   universal reset can't win — zero it here at matching specificity. */
+body.brutalist .btn { font-weight: 500 !important; border-radius: 0 !important; }
+body.brutalist .btn-primary {
+  background-color: var(--ink-strong) !important;
+  color: var(--bg) !important;
+  border: 1px solid var(--ink-strong) !important;
+}
+body.brutalist .btn-primary:hover {
+  background-color: transparent !important;
+  color: var(--ink-strong) !important;
+}
+body.brutalist .btn-secondary {
+  background-color: transparent !important;
+  color: var(--ink-strong) !important;
+  border: 1px solid var(--line) !important;
+}
+body.brutalist .btn-secondary:hover {
+  border-color: var(--ink-strong) !important;
+  background-color: transparent !important;
+}
+body.brutalist .btn-ghost {
+  color: var(--soft) !important;
+  border: 1px solid transparent !important;
+}
+body.brutalist .btn-ghost:hover {
+  color: var(--ink-strong) !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+body.brutalist .btn-ghost.btn-portfolio { color: var(--accent) !important; }
+body.brutalist .btn-ghost.btn-portfolio:hover {
+  color: var(--accent-b) !important;
+  background: transparent !important;
+}
+
+/* chips / filters */
+body.brutalist .btn-chip {
+  border: 1px solid var(--line) !important;
+  background: transparent !important;
+  color: var(--soft) !important;
+  border-radius: 0 !important;
+}
+body.brutalist .btn-chip:not(.active):hover {
+  border-color: var(--ink-strong) !important;
+  color: var(--ink-strong) !important;
+}
+body.brutalist .btn-chip.active {
+  background: var(--ink-strong) !important;
+  border-color: var(--ink-strong) !important;
+  color: var(--bg) !important;
+}
+
+/* mailto CTA keeps ink fill */
+body.brutalist a[href^="mailto"].btn-primary {
+  background-color: var(--ink-strong) !important;
+  color: var(--bg) !important;
+  border-color: var(--ink-strong) !important;
+}
+body.brutalist a[href^="mailto"].btn-primary:hover {
+  background-color: transparent !important;
+  color: var(--ink-strong) !important;
+}
+
+/* LinkedIn button — brand blue (#0A66C2) */
+body.brutalist a[href*="linkedin.com"].btn {
+  background-color: #0A66C2 !important;
+  border-color: #0A66C2 !important;
+  color: #fff !important;
+}
+body.brutalist a[href*="linkedin.com"].btn:hover {
+  background-color: #004182 !important;
+  border-color: #004182 !important;
+  color: #fff !important;
+}
+
+/* ---- header: minimal ---------------------------------------------------- */
+body.brutalist header {
+  background-color: var(--bg) !important;
+  background-color: color-mix(in srgb, var(--bg) 85%, transparent) !important;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line) !important;
+}
+body.brutalist #cv-btn {
+  border: 1px solid var(--line) !important;
+  background: transparent !important;
+  color: var(--ink-strong) !important;
+}
+body.brutalist #cv-btn:hover {
+  background: var(--ink-strong) !important;
+  color: var(--bg) !important;
+}
+
+/* ---- scrollspy: highlight the nav link for the section in view ----------- */
+body.brutalist header nav a { position: relative; }
+body.brutalist header nav a.nav-active,
+body.brutalist #mobileNav a.nav-active { color: var(--accent) !important; }
+body.brutalist header nav a.nav-active::after {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 0.25rem;
+  height: 2px;
+  background: var(--accent);
+}
+body.brutalist #mobileNav a.nav-active {
+  border-left: 2px solid var(--accent) !important;
+}
+
+/* ---- footer + dividers -------------------------------------------------- */
+body.brutalist footer { border-top: 1px solid var(--line) !important; }
+/* compact logo carousel with a little breathing room on top */
+body.brutalist .logo-section { border-color: var(--line) !important; padding: 1.5rem 0 1rem !important; min-height: 0 !important; }
+body.brutalist .logo-title { margin-bottom: 0.9rem !important; }
+body.brutalist .border-white\/5,
+body.brutalist .border-white\/10,
+body.brutalist .border-t { border-color: var(--line) !important; }
+
+/* ---- surfaces: map neutral utilities onto editorial tokens -------------- */
+body.brutalist .bg-neutral-950,
+body.brutalist .bg-neutral-950\/60,
+body.brutalist .bg-neutral-950\/70 { background-color: var(--bg) !important; }
+body.brutalist .bg-neutral-900,
+body.brutalist .bg-neutral-900\/60,
+body.brutalist .bg-neutral-900\/40,
+body.brutalist .bg-neutral-900\/30,
+body.brutalist .bg-neutral-800 { background-color: var(--surface) !important; }
+
+/* ---- modal -------------------------------------------------------------- */
+body.brutalist .modal {
+  background-color: var(--surface) !important;
+  border: 1px solid var(--lines) !important;
+}
+body.brutalist .modal-tech-tag {
+  background-color: transparent !important;
+  border: 1px solid var(--line) !important;
+  color: var(--ink) !important;
+}
+body.brutalist .modal-close {
+  background-color: transparent !important;
+  border: 1px solid var(--line) !important;
+  color: var(--ink-strong) !important;
+}
+
+/* ---- selection + focus -------------------------------------------------- */
+body.brutalist ::selection { background: var(--accent) !important; color: #fff !important; }
+body.brutalist .btn:focus-visible { outline: 2px solid var(--accent) !important; outline-offset: 2px; }
+
+/* ---- reduced motion ----------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  body.brutalist * { transition: none !important; }
+}
+
+/* ---- responsive --------------------------------------------------------- */
+@media (max-width: 640px) {
+  .hero-stat { padding: 0.9rem 0.5rem 0.9rem 0; }
+  .hero-stat + .hero-stat { padding-left: 0.75rem; }
+  .hero-stat-num { font-size: 1.6rem; }
+}

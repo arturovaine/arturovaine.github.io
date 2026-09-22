@@ -1,5 +1,30 @@
 [
   {
+    "id": "meros",
+    "period": "Abr 2025 até o Presente",
+    "location": "Remoto",
+    "title": "Desenvolvedor Full Stack / Engenheiro de IA no Instituto Meros do Brasil",
+    "description": [
+      "Desenvolvimento de plataforma back-office (MERN) c/ MCP para gerenciar tarefas e relatórios de 60+ membros da equipe",
+      "Deploy de pipelines ETL e sistema RAG para consolidar relatórios e permitir consultas à Base de Conhecimento",
+      "Gerenciamento do console Google Admin Workspace para suportar todas as necessidades dos membros da equipe"
+    ],
+    "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
+    "current": true
+  },
+  {
+    "id": "colorado-industrial-packaging",
+    "period": "Ago 2026 a Set 2026",
+    "location": "Denver, Colorado, Estados Unidos · Remoto",
+    "title": "Engenheiro Full Stack na Colorado Industrial Packaging · Contrato",
+    "description": [
+      "Consultor ad-hoc / Desenvolvedor Full Stack focado em web app para o processo de cotação",
+      "Migração de fluxos baseados em planilhas e legados para uma aplicação web sustentável",
+      "Tradução de regras de negócio e processos operacionais existentes em lógica de aplicação"
+    ],
+    "logo": "./src/assets/icons/colorado_industrial_packaging_logo.jpeg"
+  },
+  {
     "id": "main-street-ai",
     "period": "Mai 2026 a Ago 2026",
     "location": "Califórnia, Estados Unidos · Remoto",
@@ -13,19 +38,6 @@
       "Deploy de assistente de operações para executivo C-level: agente de triagem de inbox e relatórios diários"
     ],
     "logo": "./src/assets/icons/main_street_ai_advisors_logo.jpeg"
-  },
-  {
-    "id": "meros",
-    "period": "Abr 2025 até o Presente",
-    "location": "Remoto",
-    "title": "Desenvolvedor Full Stack / Engenheiro de IA no Instituto Meros do Brasil",
-    "description": [
-      "Desenvolvimento de plataforma back-office (MERN) c/ MCP para gerenciar tarefas e relatórios de 60+ membros da equipe",
-      "Deploy de pipelines ETL e sistema RAG para consolidar relatórios e permitir consultas à Base de Conhecimento",
-      "Gerenciamento do console Google Admin Workspace para suportar todas as necessidades dos membros da equipe"
-    ],
-    "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
-    "current": true
   },
   {
     "id": "nilg-ai",

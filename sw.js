@@ -1,21 +1,33 @@
 // Service Worker - McMaster-Carr inspired caching strategy
-const CACHE_VERSION = 'v7.5.0';
+const CACHE_VERSION = 'v8.0.0';
 const CACHE_NAME = `portfolio-${CACHE_VERSION}`;
 
 // Assets to cache immediately on install
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
+  '/work.html',
+  '/experience.html',
+  '/awards.html',
+  '/posts.html',
+  '/volunteering.html',
+  '/bootstrapping.html',
+  '/artworks.html',
   '/css/theme.css',
   '/css/tailwind.min.css',
   '/css/accessibility.css',
+  '/css/brutalist.css',
+  '/css/redesign.css',
   '/js/main.js',
   '/js/componentLoader.js',
-  '/components/hero.html',
   '/src/assets/images/pxart/pxArt.webp',
+  '/src/assets/images/macbook-mockup.webp',
+  '/src/assets/images/ozires-hero.webp',
   '/components/hero-cards.html',
+  '/components/logo-carousel.html',
   '/components/work.html',
   '/components/experience.html',
+  '/components/awards.html',
   '/components/posts.html',
   '/components/volunteering.html',
   '/components/artworks.html',

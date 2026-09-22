@@ -50,16 +50,16 @@ export const TrinityRenderer = {
 
     container.innerHTML = `
       <div class="flex items-center gap-2 mb-3">
-        <i data-lucide="plane" class="w-5 h-5 text-emerald-400"></i>
+        <i data-lucide="plane" class="w-5 h-5 text-amber-400"></i>
         <h3 class="text-xl font-semibold tracking-tight">${data.title}</h3>
       </div>
       <p class="max-w-3xl text-neutral-400 mb-10 leading-relaxed">${data.intro}</p>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 lg:items-stretch">
-        <figure class="group relative overflow-hidden border-2 border-emerald-400/70 ring-2 ring-emerald-400/25 shadow-2xl shadow-emerald-500/25 bg-neutral-900 min-h-[460px] lg:min-h-0" style="border-radius: 15px;">
+        <figure class="group relative overflow-hidden border-2 border-amber-400/70 ring-2 ring-amber-400/25 shadow-2xl shadow-amber-500/25 bg-neutral-900 min-h-[460px] lg:min-h-0" style="border-radius: 15px;">
           <img src="${data.hero.image}" alt="${data.hero.alt}" loading="lazy" class="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105">
           <figcaption class="absolute inset-x-0 bottom-0 z-10 p-5 bg-gradient-to-t from-black/85 via-black/45 to-transparent">
-            <p class="text-xs uppercase tracking-widest text-emerald-300">${data.hero.role}</p>
+            <p class="text-xs uppercase tracking-widest text-amber-300">${data.hero.role}</p>
             <h4 class="mt-1 text-2xl font-semibold tracking-tight text-white" style="color: #ffffff !important;">${data.hero.name}</h4>
           </figcaption>
         </figure>

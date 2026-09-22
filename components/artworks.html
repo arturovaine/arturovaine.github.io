@@ -8,6 +8,22 @@
           </div>
         </div>
 
+        <!-- Pixel Art feature (animated frames) — relocated here from below the hero.
+             IDs/classes preserved so ImageSlider.js animates it and HeroRenderer.js
+             hydrates the i18n caption. -->
+        <div class="pixel-feature">
+          <div id="image-slider-container" class="pixel-stage">
+            <img id="slider-center" src="/src/assets/images/pxart/pxArt.webp" width="270" height="270" loading="lazy" class="pixel-frame" alt="Pixel Art Portrait">
+          </div>
+          <div class="pixel-caption">
+            <div class="flex items-center justify-center gap-2">
+              <i data-lucide="palette" class="w-4 h-4"></i>
+              <span class="pixel-art-title font-medium">Pixel Art Portrait</span>
+            </div>
+            <p class="pixel-art-description">Frame-by-frame animated digital illustrations crafted in retro pixel art style</p>
+          </div>
+        </div>
+
         <div id="artworks-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div class="animate-pulse border border-white/10 bg-neutral-900/60 overflow-hidden" style="border-radius:15px;">
             <div class="aspect-[4/3] bg-neutral-800/50"></div>

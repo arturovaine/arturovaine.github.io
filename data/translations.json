@@ -15,7 +15,8 @@
     },
     "hero": {
       "badge": "Available for selective projects • v",
-      "paragraph1": "<strong class=\"text-navy\">I build AI systems and data pipelines that drive real business outcomes.</strong>",
+      "role": "Software and AI Developer",
+      "paragraph1": "I build <strong class=\"text-navy\">AI systems</strong> and <strong class=\"text-navy\">data pipelines</strong> that drive real business outcomes.",
       "paragraph2": "6+ years developing software: <strong class=\"text-navy\">full-stack applications</strong>, <strong class=\"text-navy\">RAG agents</strong>, <strong class=\"text-navy\">back-office platforms</strong>, and <strong class=\"text-navy\">ETL workflows</strong> across e-commerce, healthcare, energy, and environmental monitoring. <strong class=\"text-navy\">Python</strong> & <strong class=\"text-navy\">TypeScript</strong>. <strong class=\"text-navy\">AWS</strong> & <strong class=\"text-navy\">GCP</strong>.",
       "paragraph3": "Mechanical Engineer turned software developer. Fellow of the <strong class=\"text-navy\">LIF-7 Leadership Programme</strong> (Royal Academy of Engineering, UK). Award-winning hackathon competitor.",
       "stats": {
@@ -149,7 +150,8 @@
     },
     "hero": {
       "badge": "Disponível para projetos • v",
-      "paragraph1": "<strong class=\"text-navy\">Eu construo sistemas de IA e pipelines de dados que geram resultados reais de negócio.</strong>",
+      "role": "Desenvolvedor de Software e IA",
+      "paragraph1": "Eu construo <strong class=\"text-navy\">sistemas de IA</strong> e <strong class=\"text-navy\">pipelines de dados</strong> que geram resultados reais de negócio.",
       "paragraph2": "6+ anos desenvolvendo software: <strong class=\"text-navy\">aplicações full-stack</strong>, <strong class=\"text-navy\">agentes RAG</strong>, <strong class=\"text-navy\">plataformas back-office</strong> e <strong class=\"text-navy\">workflows ETL</strong> em e-commerce, saúde, energia e monitoramento ambiental. <strong class=\"text-navy\">Python</strong> & <strong class=\"text-navy\">TypeScript</strong>. <strong class=\"text-navy\">AWS</strong> & <strong class=\"text-navy\">GCP</strong>.",
       "paragraph3": "Engenheiro Mecânico que virou desenvolvedor de software. Fellow do <strong class=\"text-navy\">Programa de Liderança LIF-7</strong> (Royal Academy of Engineering, UK). Premiado em hackathons.",
       "stats": {
