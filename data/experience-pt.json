@@ -2,12 +2,12 @@
   {
     "id": "meros",
     "period": "Abr 2025 até o Presente",
-    "location": "Remoto",
+    "location": "Curitiba, Brasil · Remoto",
     "title": "Desenvolvedor Full Stack / Engenheiro de IA no Instituto Meros do Brasil",
     "description": [
-      "Desenvolvimento de plataforma back-office (MERN) c/ MCP para gerenciar tarefas e relatórios de 60+ membros da equipe",
-      "Deploy de pipelines ETL e sistema RAG para consolidar relatórios e permitir consultas à Base de Conhecimento",
-      "Gerenciamento do console Google Admin Workspace para suportar todas as necessidades dos membros da equipe"
+      "Desenvolvimento de plataforma back-office (<mark class='exp-hl'>MERN</mark>) c/ <mark class='exp-hl'>MCP</mark> para gerenciar tarefas e relatórios de <mark class='exp-hl'>60+ membros da equipe</mark>",
+      "Deploy de <mark class='exp-hl'>pipelines ETL</mark> e <mark class='exp-hl'>sistema RAG</mark> para consolidar relatórios e permitir consultas à Base de Conhecimento",
+      "Gerenciamento do console <mark class='exp-hl'>Google Admin Workspace</mark> para suportar todas as necessidades dos membros da equipe"
     ],
     "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
     "current": true
@@ -18,9 +18,9 @@
     "location": "Denver, Colorado, Estados Unidos · Remoto",
     "title": "Engenheiro Full Stack na Colorado Industrial Packaging · Contrato",
     "description": [
-      "Consultor ad-hoc / Desenvolvedor Full Stack focado em web app para o processo de cotação",
-      "Migração de fluxos baseados em planilhas e legados para uma aplicação web sustentável",
-      "Tradução de regras de negócio e processos operacionais existentes em lógica de aplicação"
+      "Consultor ad-hoc / <mark class='exp-hl'>Desenvolvedor Full Stack</mark> focado em web app para o processo de cotação",
+      "Migração de <mark class='exp-hl'>fluxos baseados em planilhas e legados</mark> para uma aplicação web sustentável",
+      "Tradução de <mark class='exp-hl'>regras de negócio</mark> e processos operacionais existentes em lógica de aplicação"
     ],
     "logo": "./src/assets/icons/colorado_industrial_packaging_logo.jpeg"
   },
@@ -30,62 +30,62 @@
     "location": "Califórnia, Estados Unidos · Remoto",
     "title": "Engenheiro de IA na Main Street AI Advisors",
     "description": [
-      "Estratégia e implementação de IA para PMEs no Colorado, Louisiana, Montana e Texas",
-      "Engenheiro Fundador: criei a organização no GitHub da empresa e iniciei 7 projetos do zero",
-      "Desenvolvimento de engine de IA para projetos de construção civil (PDFs, docs, imagens) identificando risco em propostas",
-      "Entrega de agente de qualificação de leads 24/7 c/ integração CRM (custo de infra < US$ 20/mês)",
-      "Desenvolvimento de ferramenta de precificação para cliente de varejo (integração Apify) melhorando assertividade de fornecedores",
-      "Deploy de assistente de operações para executivo C-level: agente de triagem de inbox e relatórios diários"
+      "<mark class='exp-hl'>Estratégia e implementação de IA</mark> para PMEs no Colorado, Louisiana, Montana e Texas",
+      "<mark class='exp-hl'>Engenheiro Fundador</mark>: criei a organização no GitHub da empresa e iniciei <mark class='exp-hl'>7 projetos</mark> do zero",
+      "Desenvolvimento de <mark class='exp-hl'>engine de IA</mark> para projetos de construção civil (PDFs, docs, imagens) identificando <mark class='exp-hl'>risco em propostas</mark>",
+      "Entrega de <mark class='exp-hl'>agente de qualificação de leads 24/7</mark> c/ integração CRM (custo de infra < US$ 20/mês)",
+      "Desenvolvimento de <mark class='exp-hl'>ferramenta de precificação</mark> para cliente de varejo (integração <mark class='exp-hl'>Apify</mark>) melhorando assertividade de fornecedores",
+      "Deploy de <mark class='exp-hl'>assistente de operações</mark> para executivo C-level: agente de triagem de inbox e relatórios diários"
     ],
     "logo": "./src/assets/icons/main_street_ai_advisors_logo.jpeg"
   },
   {
     "id": "nilg-ai",
     "period": "Mai 2025 a Nov 2025",
-    "location": "Remoto",
+    "location": "Porto, Portugal · Remoto",
     "title": "Desenvolvedor de Software / Engenheiro de IA na NILG.AI",
     "description": [
-      "Construção de pipelines MCP e audiovisuais usando Python, Zapier, webhooks e FFmpeg para processar episódios de TV",
-      "Economia relevante de tempo ao automatizar processamento de docs com ETLs e modelos de visão-linguagem",
-      "Desenvolvimento de agentes RAG e chatbots (front-end React) para múltiplas indústrias, incluindo turismo e saúde"
+      "Construção de pipelines <mark class='exp-hl'>MCP</mark> e audiovisuais usando <mark class='exp-hl'>Python</mark>, <mark class='exp-hl'>Zapier</mark>, webhooks e <mark class='exp-hl'>FFmpeg</mark> para processar episódios de TV",
+      "<mark class='exp-hl'>Economia relevante de tempo</mark> ao automatizar processamento de docs com <mark class='exp-hl'>ETLs</mark> e <mark class='exp-hl'>modelos de visão-linguagem</mark>",
+      "Desenvolvimento de <mark class='exp-hl'>agentes RAG</mark> e chatbots (front-end <mark class='exp-hl'>React</mark>) para múltiplas indústrias, incluindo turismo e saúde"
     ],
     "logo": "./src/assets/icons/nilg_ai_logo.jpeg"
   },
   {
     "id": "litboat",
     "period": "Jun 2025 a Out 2025",
-    "location": "Remoto",
+    "location": "Miami, EUA · Remoto",
     "title": "Engenheiro de Dados na LitBoat / Stealth Startup",
     "description": [
-      "Deploy de Arquitetura Medallion no BigQuery e APIs (SQLAlchemy, FastAPI) para ingestão de dados",
-      "Integração de pipelines de dados e Analytics, GCP (Buckets, Postgres, BigQuery), Retool e Metabase",
-      "Construção de dataviz no Metabase para fornecer KPIs estratégicos para milhares de clientes (restaurantes)"
+      "Deploy de <mark class='exp-hl'>Arquitetura Medallion</mark> no <mark class='exp-hl'>BigQuery</mark> e APIs (<mark class='exp-hl'>SQLAlchemy</mark>, <mark class='exp-hl'>FastAPI</mark>) para ingestão de dados",
+      "Integração de pipelines de dados e Analytics, <mark class='exp-hl'>GCP</mark> (Buckets, Postgres, BigQuery), <mark class='exp-hl'>Retool</mark> e <mark class='exp-hl'>Metabase</mark>",
+      "Construção de dataviz no <mark class='exp-hl'>Metabase</mark> para fornecer <mark class='exp-hl'>KPIs estratégicos</mark> para <mark class='exp-hl'>milhares de clientes</mark> (restaurantes)"
     ],
     "logo": "./src/assets/icons/stealth_startup_51_logo.jpeg"
   },
   {
     "id": "rise-layers",
     "period": "Set 2024 a Fev 2025",
-    "location": "Presencial",
+    "location": "Curitiba, Brasil · Presencial",
     "title": "Desenvolvedor Full Stack / Analista de Dados na Rise Layers / 88 Delivery",
     "description": [
-      "Construção de cardápio digital do zero (React), para abrir novo canal de receita para mais de 300 clientes (restaurantes)",
-      "Desenvolvimento de integrações e aplicações: gestão de portfólio, mensagens broadcast, etc. (NoSQL, Firebase)",
-      "Deploy de ETLs para: sincronização CRM, enriquecimento de portfólio, análise de dados - matriz RFM, curva ABC, etc. (Python)"
+      "Construção de <mark class='exp-hl'>cardápio digital</mark> do zero (<mark class='exp-hl'>React</mark>), para abrir novo canal de receita para <mark class='exp-hl'>mais de 300 clientes</mark> (restaurantes)",
+      "Desenvolvimento de integrações e aplicações: gestão de portfólio, mensagens broadcast, etc. (<mark class='exp-hl'>NoSQL</mark>, <mark class='exp-hl'>Firebase</mark>)",
+      "Deploy de <mark class='exp-hl'>ETLs</mark> para: sincronização CRM, enriquecimento de portfólio, análise de dados - <mark class='exp-hl'>matriz RFM</mark>, <mark class='exp-hl'>curva ABC</mark>, etc. (<mark class='exp-hl'>Python</mark>)"
     ],
     "logo": "./src/assets/icons/riselayers_logo.jpeg"
   },
   {
     "id": "supercampo",
     "period": "Mar 2023 a Set 2024",
-    "location": "Presencial",
+    "location": "Curitiba, Brasil · Presencial",
     "title": "Desenvolvedor Full Stack / Analista de Dados na Supercampo S/A",
     "description": [
-      "Entrega de dados através de ETL / BI de R$ 160MM+ GMV anual e outros KPIs (MySQL, PowerBI, Streamlit)",
-      "Suporte a projeto de inovação tecnológica (Tecnoparque), reduzindo ISS da empresa de 5% para 2%",
-      "Desenvolvimento de stack MERN para Gerenciador de Informações de Produtos (PIM) de enriquecimento de portfólio c/ GenAI (180k+ SKUs)",
-      "Deploy de workflows para integração de 180k+ SKUs, 80k+ clientes e outros múltiplos dados",
-      "Levantamento de requisitos e integração de sistemas ERP (12 negócios) e APIs de e-commerce VTEX"
+      "Entrega de dados através de <mark class='exp-hl'>ETL / BI</mark> de <mark class='exp-hl'>R$ 160MM+ GMV anual</mark> e outros KPIs (<mark class='exp-hl'>MySQL</mark>, <mark class='exp-hl'>PowerBI</mark>, <mark class='exp-hl'>Streamlit</mark>)",
+      "Suporte a projeto de inovação tecnológica (Tecnoparque), <mark class='exp-hl'>reduzindo ISS da empresa de 5% para 2%</mark>",
+      "Desenvolvimento de <mark class='exp-hl'>stack MERN</mark> para Gerenciador de Informações de Produtos (PIM) de enriquecimento de portfólio c/ <mark class='exp-hl'>GenAI</mark> (<mark class='exp-hl'>180k+ SKUs</mark>)",
+      "Deploy de workflows para integração de <mark class='exp-hl'>180k+ SKUs</mark>, <mark class='exp-hl'>80k+ clientes</mark> e outros múltiplos dados",
+      "Levantamento de requisitos e integração de <mark class='exp-hl'>sistemas ERP (12 negócios)</mark> e APIs de e-commerce <mark class='exp-hl'>VTEX</mark>"
     ],
     "logo": "./src/assets/icons/supercampo_sa_logo.jpeg"
   },
@@ -95,9 +95,9 @@
     "location": "Remoto",
     "title": "Desenvolvedor Back-end na BRG Brasil Geradores",
     "description": [
-      "Entrega de features-chave para aprimorar APIs / back-end do Sistema Nacional de Monitoramento de Usinas",
-      "Refatoração e modernização de codebase legado Express.js transitando para REST API de arquitetura multi-camada",
-      "Documentação de APIs usando notação OpenAPI, Swagger e docs markdown"
+      "Entrega de features-chave para aprimorar <mark class='exp-hl'>APIs / back-end</mark> do Sistema Nacional de Monitoramento de Usinas",
+      "Refatoração e modernização de codebase legado <mark class='exp-hl'>Express.js</mark> para <mark class='exp-hl'>REST API de arquitetura multi-camada</mark>",
+      "Documentação de APIs usando notação <mark class='exp-hl'>OpenAPI</mark>, <mark class='exp-hl'>Swagger</mark> e docs markdown"
     ],
     "logo": "./src/assets/icons/brggeradores_logo.jpeg"
   },
@@ -107,10 +107,10 @@
     "location": "Presencial",
     "title": "Desenvolvedor de Software no SIMEPAR",
     "description": [
-      "Projeto de Monitoramento de Barragens - output geral entregue oportunidade de coletar honorários de 7 dígitos",
-      "Desenvolvimento de solução de coleta de dados de formulário técnico com ~350 inputs (HTML, Vanilla JavaScript, CSS; SQLite)",
-      "Entrega de processo de análise de dados para checar inconsistências e gerar ~900 relatórios (Python-Pandas)",
-      "Design de ferramenta de decisão PowerBI para monitorar KPIs: produtividade da equipe, entregas e agendamentos"
+      "Projeto de Monitoramento de Barragens - output geral entregue oportunidade de coletar <mark class='exp-hl'>honorários de 7 dígitos</mark>",
+      "Desenvolvimento de solução de coleta de dados de formulário técnico com <mark class='exp-hl'>~350 inputs</mark> (<mark class='exp-hl'>HTML</mark>, <mark class='exp-hl'>Vanilla JavaScript</mark>, CSS; <mark class='exp-hl'>SQLite</mark>)",
+      "Entrega de processo de análise de dados para checar inconsistências e gerar <mark class='exp-hl'>~900 relatórios</mark> (<mark class='exp-hl'>Python-Pandas</mark>)",
+      "Design de ferramenta de decisão <mark class='exp-hl'>PowerBI</mark> para monitorar KPIs: produtividade da equipe, entregas e agendamentos"
     ],
     "logo": "./src/assets/icons/simeparpr_logo.jpeg",
     "last": true

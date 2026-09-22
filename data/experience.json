@@ -2,12 +2,12 @@
   {
     "id": "meros",
     "period": "Apr 2025 to Present",
-    "location": "Remote",
+    "location": "Curitiba, Brazil · Remote",
     "title": "Full Stack Developer / AI Engineer at Instituto Meros do Brasil",
     "description": [
-      "Development of a back-office platform (MERN) w/ MCP to manage tasks and reporting of 60+ team members",
-      "Deployment of ETL pipelines and RAG system to consolidate reports and enable querying of Knowledge Base",
-      "Management of Google Admin Workspace console to support all sort of team members needs"
+      "Development of a back-office platform (<mark class='exp-hl'>MERN</mark>) w/ <mark class='exp-hl'>MCP</mark> to manage tasks and reporting of <mark class='exp-hl'>60+ team members</mark>",
+      "Deployment of <mark class='exp-hl'>ETL pipelines</mark> and <mark class='exp-hl'>RAG system</mark> to consolidate reports and enable querying of Knowledge Base",
+      "Management of <mark class='exp-hl'>Google Admin Workspace</mark> console to support all sort of team members needs"
     ],
     "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
     "current": true
@@ -18,9 +18,9 @@
     "location": "Denver, Colorado, United States · Remote",
     "title": "Full Stack Engineer at Colorado Industrial Packaging · Contract",
     "description": [
-      "Ad-hoc consultant / Full Stack Developer focused on a web app for the quotation process",
-      "Migrated spreadsheet-based and legacy workflows into a maintainable web application",
-      "Translated existing business rules and operational processes into application logic"
+      "Ad-hoc consultant / <mark class='exp-hl'>Full Stack Developer</mark> focused on a web app for the quotation process",
+      "Migrated <mark class='exp-hl'>spreadsheet-based and legacy workflows</mark> into a maintainable web application",
+      "Translated existing <mark class='exp-hl'>business rules</mark> and operational processes into application logic"
     ],
     "logo": "./src/assets/icons/colorado_industrial_packaging_logo.jpeg"
   },
@@ -30,62 +30,62 @@
     "location": "California, United States · Remote",
     "title": "AI Engineer at Main Street AI Advisors",
     "description": [
-      "AI strategy & implementation for SMBs across Colorado, Louisiana, Montana and Texas",
-      "Founding Engineer: created the company's GitHub organization and bootstrapped 7 projects from scratch",
-      "Built AI engine for civil construction projects (PDFs, docs, images) surfacing bid-risk",
-      "Delivered 24/7 lead-qualification agent w/ CRM integration (infra cost < $20/month)",
-      "Developed pricing tool for retail client (Apify integration) improving vendor assertiveness",
-      "Deployed ops assistant for C-level executive: inbox-triage agent and daily ops-reporting"
+      "<mark class='exp-hl'>AI strategy & implementation</mark> for SMBs across Colorado, Louisiana, Montana and Texas",
+      "<mark class='exp-hl'>Founding Engineer</mark>: created the company's GitHub organization and bootstrapped <mark class='exp-hl'>7 projects</mark> from scratch",
+      "Built <mark class='exp-hl'>AI engine</mark> for civil construction projects (PDFs, docs, images) surfacing <mark class='exp-hl'>bid-risk</mark>",
+      "Delivered <mark class='exp-hl'>24/7 lead-qualification agent</mark> w/ CRM integration (infra cost < $20/month)",
+      "Developed <mark class='exp-hl'>pricing tool</mark> for retail client (<mark class='exp-hl'>Apify</mark> integration) improving vendor assertiveness",
+      "Deployed <mark class='exp-hl'>ops assistant</mark> for C-level executive: inbox-triage agent and daily ops-reporting"
     ],
     "logo": "./src/assets/icons/main_street_ai_advisors_logo.jpeg"
   },
   {
     "id": "nilg-ai",
     "period": "May 2025 to Nov 2025",
-    "location": "Remote",
+    "location": "Porto, Portugal · Remote",
     "title": "Software Developer / AI Engineer at NILG.AI",
     "description": [
-      "Built MCP and audiovisual pipelines using Python, Zapier, webhooks, and FFmpeg to process TV episodes",
-      "Achieved relevant time savings by automating docs processing with ETLs, and vision-language models",
-      "Developed RAG agents and chatbots (front-end React) for multiple industries, including tourism and healthcare"
+      "Built <mark class='exp-hl'>MCP</mark> and audiovisual pipelines using <mark class='exp-hl'>Python</mark>, <mark class='exp-hl'>Zapier</mark>, webhooks, and <mark class='exp-hl'>FFmpeg</mark> to process TV episodes",
+      "Achieved relevant <mark class='exp-hl'>time savings</mark> by automating docs processing with <mark class='exp-hl'>ETLs</mark> and <mark class='exp-hl'>vision-language models</mark>",
+      "Developed <mark class='exp-hl'>RAG agents</mark> and chatbots (front-end <mark class='exp-hl'>React</mark>) for multiple industries, including tourism and healthcare"
     ],
     "logo": "./src/assets/icons/nilg_ai_logo.jpeg"
   },
   {
     "id": "litboat",
     "period": "Jun 2025 to Oct 2025",
-    "location": "Remote",
+    "location": "Miami, USA · Remote",
     "title": "Data Engineer at LitBoat / Stealth Startup",
     "description": [
-      "Deployment of Medallion Architecture in BigQuery and APIs (SQLAlchemy, FastAPI) for data ingestion",
-      "Integration of data pipelines and Analytics, GCP (Buckets, Postgres, BigQuery), Retool and Metabase",
-      "Building dataviz on Metabase to provide strategic KPIs for thousands of clients (restaurants)"
+      "Deployment of <mark class='exp-hl'>Medallion Architecture</mark> in <mark class='exp-hl'>BigQuery</mark> and APIs (<mark class='exp-hl'>SQLAlchemy</mark>, <mark class='exp-hl'>FastAPI</mark>) for data ingestion",
+      "Integration of data pipelines and Analytics, <mark class='exp-hl'>GCP</mark> (Buckets, Postgres, BigQuery), <mark class='exp-hl'>Retool</mark> and <mark class='exp-hl'>Metabase</mark>",
+      "Building dataviz on <mark class='exp-hl'>Metabase</mark> to provide strategic <mark class='exp-hl'>KPIs</mark> for <mark class='exp-hl'>thousands of clients</mark> (restaurants)"
     ],
     "logo": "./src/assets/icons/stealth_startup_51_logo.jpeg"
   },
   {
     "id": "rise-layers",
     "period": "Sep 2024 to Feb 2025",
-    "location": "On-site",
+    "location": "Curitiba, Brazil · On-site",
     "title": "Full Stack Developer / Data Analytics at Rise Layers / 88 Delivery",
     "description": [
-      "Built digital menu from scratch (React), to open new revenue channel for more than 300 customers (restaurants)",
-      "Developed integration and applications: portfolio management, broadcast messages, etc. (NoSQL, Firebase)",
-      "Deployed ETLs for: CRM sync, portfolio enrichment, data analysis - RFM matrix, ABC curve, etc. (Python)"
+      "Built <mark class='exp-hl'>digital menu</mark> from scratch (<mark class='exp-hl'>React</mark>), to open new revenue channel for <mark class='exp-hl'>more than 300 customers</mark> (restaurants)",
+      "Developed integration and applications: portfolio management, broadcast messages, etc. (<mark class='exp-hl'>NoSQL</mark>, <mark class='exp-hl'>Firebase</mark>)",
+      "Deployed <mark class='exp-hl'>ETLs</mark> for: CRM sync, portfolio enrichment, data analysis - <mark class='exp-hl'>RFM matrix</mark>, <mark class='exp-hl'>ABC curve</mark>, etc. (<mark class='exp-hl'>Python</mark>)"
     ],
     "logo": "./src/assets/icons/riselayers_logo.jpeg"
   },
   {
     "id": "supercampo",
     "period": "Mar 2023 to Sep 2024",
-    "location": "On-site",
+    "location": "Curitiba, Brazil · On-site",
     "title": "Full Stack Developer / Data Analytics at Supercampo S/A",
     "description": [
-      "Delivered data through ETL / BI of R$ 160MM+ annual GMV and other KPIs (MySQL, PowerBI, Streamlit)",
-      "Supported technology innovation project (Tecnoparque), reducing company's service tax (ISS) from 5% to 2%",
-      "Developed MERN stack for Product Information Manager (PIM) of portfolio enrichment w/ GenAI (180k+ SKUs)",
-      "Deployment of workflows for integration of 180k+ SKUs, 80k+ customers, and other multiple data",
-      "Gathered requirements and integrated ERP systems (12 businesses) and VTEX ecommerce APIs"
+      "Delivered data through <mark class='exp-hl'>ETL / BI</mark> of <mark class='exp-hl'>R$ 160MM+ annual GMV</mark> and other KPIs (<mark class='exp-hl'>MySQL</mark>, <mark class='exp-hl'>PowerBI</mark>, <mark class='exp-hl'>Streamlit</mark>)",
+      "Supported technology innovation project (Tecnoparque), <mark class='exp-hl'>reducing service tax (ISS) from 5% to 2%</mark>",
+      "Developed <mark class='exp-hl'>MERN stack</mark> for Product Information Manager (PIM) of portfolio enrichment w/ <mark class='exp-hl'>GenAI</mark> (<mark class='exp-hl'>180k+ SKUs</mark>)",
+      "Deployment of workflows for integration of <mark class='exp-hl'>180k+ SKUs</mark>, <mark class='exp-hl'>80k+ customers</mark>, and other multiple data",
+      "Gathered requirements and integrated <mark class='exp-hl'>ERP systems (12 businesses)</mark> and <mark class='exp-hl'>VTEX</mark> ecommerce APIs"
     ],
     "logo": "./src/assets/icons/supercampo_sa_logo.jpeg"
   },
@@ -95,9 +95,9 @@
     "location": "Remote",
     "title": "Back-end Developer at BRG Brasil Geradores",
     "description": [
-      "Delivered key features to enhance APIs / back-end of National Power Plant Monitoring System",
-      "Refactored and modernized legacy Express.js codebase by transitioning to a multi-layer architecture REST API",
-      "Documented APIs using OpenAPI notation, Swagger and markdown docs"
+      "Delivered key features to enhance <mark class='exp-hl'>APIs / back-end</mark> of National Power Plant Monitoring System",
+      "Refactored and modernized legacy <mark class='exp-hl'>Express.js</mark> codebase into a <mark class='exp-hl'>multi-layer REST API</mark>",
+      "Documented APIs using <mark class='exp-hl'>OpenAPI</mark> notation, <mark class='exp-hl'>Swagger</mark> and markdown docs"
     ],
     "logo": "./src/assets/icons/brggeradores_logo.jpeg"
   },
@@ -107,10 +107,10 @@
     "location": "On-site",
     "title": "Software Developer at SIMEPAR",
     "description": [
-      "Dam Monitoring Project - overall output delivered opportunity of collecting 7-digit fees",
-      "Developed data collection solution of technical form with ~350 inputs (HTML, Vanilla JavaScript, CSS; SQLite)",
-      "Delivered data analysis process to check inconsistencies and generate ~900 reports (Python-Pandas)",
-      "Designed PowerBI decision tool for monitoring KPIs: team's productivity, deliverables and scheduling"
+      "Dam Monitoring Project - overall output delivered opportunity of collecting <mark class='exp-hl'>7-digit fees</mark>",
+      "Developed data collection solution of technical form with <mark class='exp-hl'>~350 inputs</mark> (<mark class='exp-hl'>HTML</mark>, <mark class='exp-hl'>Vanilla JavaScript</mark>, CSS; <mark class='exp-hl'>SQLite</mark>)",
+      "Delivered data analysis process to check inconsistencies and generate <mark class='exp-hl'>~900 reports</mark> (<mark class='exp-hl'>Python-Pandas</mark>)",
+      "Designed <mark class='exp-hl'>PowerBI</mark> decision tool for monitoring KPIs: team's productivity, deliverables and scheduling"
     ],
     "logo": "./src/assets/icons/simeparpr_logo.jpeg",
     "last": true
