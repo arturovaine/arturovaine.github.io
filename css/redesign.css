@@ -239,24 +239,38 @@ body.brutalist .core-stack-title {
   height: 3.4%;
   cursor: pointer;
 }
-.mb-shift-svg { width: 100%; height: 100%; display: block; overflow: visible; }
-/* Strong pulsing trapezoid outline of the Shift key (in perspective) */
-.mb-shift-svg polygon {
-  fill: none;
-  stroke: var(--accent);
-  stroke-width: 2;
-  vector-effect: non-scaling-stroke;
+/* Strong pulsing circle marking the Shift key */
+.mb-shift-ring {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 150%;
+  aspect-ratio: 1 / 1;
+  transform: translate(-50%, -50%);
+  border: 2px solid var(--accent);
   animation: mb-shift-pulse 1.3s ease-in-out infinite;
 }
+body.brutalist .mb-shift-ring { border-radius: 50% !important; } /* beat the global no-radius reset */
 @keyframes mb-shift-pulse {
-  0%, 100% { stroke: rgba(224, 164, 74, 0.7);  filter: drop-shadow(0 0 3px rgba(224, 164, 74, 0.55)); }
-  50%      { stroke: rgba(255, 200, 96, 1);    filter: drop-shadow(0 0 11px rgba(224, 164, 74, 1)); }
+  0%, 100% {
+    border-color: rgba(224, 164, 74, 0.7);
+    box-shadow: 0 0 4px 1px rgba(224, 164, 74, 0.5);
+    transform: translate(-50%, -50%) scale(0.88);
+  }
+  50% {
+    border-color: rgba(255, 200, 96, 1);
+    box-shadow: 0 0 14px 4px rgba(224, 164, 74, 1);
+    transform: translate(-50%, -50%) scale(1.12);
+  }
 }
 @media (prefers-reduced-motion: reduce) {
-  .mb-shift-svg polygon { animation: none; filter: drop-shadow(0 0 8px rgba(224, 164, 74, 0.85)); }
+  .mb-shift-ring { animation: none; box-shadow: 0 0 9px 2px rgba(224, 164, 74, 0.85); }
 }
-/* interview captions — ~50% larger */
+/* interview captions — ~50% larger on desktop, normal size on small screens */
 .hero-video::cue { font-size: 1.5em; background: rgba(0, 0, 0, 0.6); }
+@media (max-width: 640px) {
+  .hero-video::cue { font-size: 1em; }
+}
 .hero-video-toggle {
   position: absolute;
   z-index: 3;
@@ -308,13 +322,10 @@ body.brutalist .core-stack-title {
 .hero-stack {
   display: flex;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 0.6rem;
   margin-top: 2.75rem;
-  overflow-x: auto;
-  scrollbar-width: none;
 }
-.hero-stack::-webkit-scrollbar { display: none; }
 .hero-stack .core-stack-title { flex: none; margin: 0 0.5rem 0 0; }
 .hero-stack .tag,
 .hero-stack .btn { flex: none; white-space: nowrap; }
@@ -503,6 +514,15 @@ body.brutalist #cv-btn {
 body.brutalist #cv-btn:hover {
   background: var(--ink-strong) !important;
   color: var(--bg) !important;
+}
+
+/* ---- experience: highlighted keywords (marker style) -------------------- */
+body.brutalist .exp-hl {
+  background-color: rgba(224, 164, 74, 0.20);
+  color: var(--ink-strong);
+  padding: 0 0.22em;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 /* ---- scrollspy: highlight the nav link for the section in view ----------- */
