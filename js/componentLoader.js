@@ -1,21 +1,16 @@
 export const ComponentLoader = {
   headerComponents: ['backdrop', 'header'],
-  // 'hero' is inlined statically in index.html for a fast LCP, so it is not fetched here.
-  criticalComponents: ['logo-carousel', 'hero-cards'],
-  lazyComponents: [
-    'work',
-    'metaproject',
-    'experience',
-    'awards',
-    'aeronautical-trinity',
-    'award-highlights',
-    'posts',
-    'volunteering',
-    'bootstrapping',
-    'artworks'
-  ],
   footerComponents: ['footer', 'cookie-banner'],
   loadedComponents: new Set(),
+
+  // Per-page configuration, declared on each page as:
+  //   window.PAGE = { slots: { 'slot-id': ['component', ...] }, main: ['component', ...] }
+  // - slots  : components injected into a specific static container id (home uses these)
+  // - main   : section components appended into #main-content (subpages use these)
+  getPageConfig() {
+    const cfg = (typeof window !== 'undefined' && window.PAGE) ? window.PAGE : {};
+    return { slots: cfg.slots || {}, main: cfg.main || [] };
+  },
 
   async loadComponent(name) {
     if (this.loadedComponents.has(name)) return '';
@@ -33,7 +28,7 @@ export const ComponentLoader = {
 
   async loadComponentsInto(componentList, containerId) {
     const container = document.getElementById(containerId);
-    if (!container) return;
+    if (!container || !componentList || !componentList.length) return;
 
     // Fetch all fragments concurrently, then insert in declared order to preserve layout.
     const htmls = await Promise.all(componentList.map((name) => this.loadComponent(name)));
@@ -43,47 +38,21 @@ export const ComponentLoader = {
     });
   },
 
-  createPlaceholder(name) {
-    return `<div id="lazy-${name}" class="lazy-component" data-component="${name}" style="min-height: 200px;"></div>`;
-  },
+  async loadAll() {
+    const cfg = this.getPageConfig();
 
-  setupLazyLoading(containerId) {
-    const container = document.getElementById(containerId);
-    if (!container) return;
+    await this.loadComponentsInto(this.headerComponents, 'header-content');
 
-    for (const componentName of this.lazyComponents) {
-      container.insertAdjacentHTML('beforeend', this.createPlaceholder(componentName));
+    // Page-specific slots (home: trusted-content, practices-content, ...)
+    for (const [slot, comps] of Object.entries(cfg.slots)) {
+      await this.loadComponentsInto(comps, slot);
     }
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(async (entry) => {
-        if (entry.isIntersecting) {
-          const placeholder = entry.target;
-          const componentName = placeholder.dataset.component;
+    // Page's main section components -> #main-content (subpages).
+    // Injected eagerly in document order; off-screen images keep loading="lazy",
+    // so this stays cheap while avoiding layout shift.
+    await this.loadComponentsInto(cfg.main, 'main-content');
 
-          if (!this.loadedComponents.has(componentName)) {
-            const html = await this.loadComponent(componentName);
-            placeholder.outerHTML = html;
-
-            if (window.lucide) {
-              requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
-            }
-
-            window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: componentName } }));
-          }
-
-          observer.unobserve(placeholder);
-        }
-      });
-    }, { rootMargin: '300px' });
-
-    document.querySelectorAll('.lazy-component').forEach(el => observer.observe(el));
-  },
-
-  async loadAll() {
-    await this.loadComponentsInto(this.headerComponents, 'header-content');
-    await this.loadComponentsInto(this.criticalComponents, 'main-content');
-    this.setupLazyLoading('main-content');
     await this.loadComponentsInto(this.footerComponents, 'footer-content');
 
     if (window.lucide) {
@@ -95,46 +64,24 @@ export const ComponentLoader = {
     window.dispatchEvent(new CustomEvent('componentsLoaded'));
   },
 
+  // Smooth-scroll for any in-page anchors that actually exist on the current page.
+  // Cross-page links (work.html, etc.) are plain navigations and untouched here.
   setupAnchorNavigation() {
-    document.addEventListener('click', async (e) => {
+    document.addEventListener('click', (e) => {
       const link = e.target.closest('a[href^="#"]');
       if (!link) return;
 
       const targetId = link.getAttribute('href').slice(1);
       if (!targetId) return;
 
+      const targetElement = document.getElementById(targetId);
+      if (!targetElement) return;
+
       e.preventDefault();
-
-      let targetElement = document.getElementById(targetId);
-
-      // If element doesn't exist, check if it's a lazy component
-      if (!targetElement && this.lazyComponents.includes(targetId)) {
-        const placeholder = document.querySelector(`[data-component="${targetId}"]`);
-        if (placeholder && !this.loadedComponents.has(targetId)) {
-          const html = await this.loadComponent(targetId);
-          placeholder.outerHTML = html;
-
-          if (window.lucide) {
-            requestIdleCallback(() => lucide.createIcons({ attrs: { 'stroke-width': 1.5 } }));
-          }
-
-          window.dispatchEvent(new CustomEvent('componentLoaded', { detail: { name: targetId } }));
-        }
-
-        // Small delay to let DOM update
-        await new Promise(resolve => setTimeout(resolve, 50));
-        targetElement = document.getElementById(targetId);
-      }
-
-      if (targetElement) {
-        const headerHeight = 64;
-        const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
-        window.scrollTo({
-          top: elementPosition - headerHeight,
-          behavior: 'smooth'
-        });
-        history.pushState(null, '', `#${targetId}`);
-      }
+      const headerHeight = 64;
+      const top = targetElement.getBoundingClientRect().top + window.scrollY - headerHeight;
+      window.scrollTo({ top, behavior: 'smooth' });
+      history.pushState(null, '', `#${targetId}`);
     });
   }
 };

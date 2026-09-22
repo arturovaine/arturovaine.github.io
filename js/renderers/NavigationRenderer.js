@@ -26,6 +26,17 @@ export const NavigationRenderer = {
 
     // Render every time init is called
     this.render();
+    this.markActive();
+  },
+
+  // Highlight the nav link matching the current page (multi-page site).
+  markActive() {
+    let path = location.pathname.split('/').pop();
+    if (!path) path = 'index.html';
+    document.querySelectorAll('header nav a[href], #mobileNav a[href]').forEach((a) => {
+      const href = (a.getAttribute('href') || '').split('/').pop();
+      a.classList.toggle('nav-active', !!href && href.indexOf('#') === -1 && href === path);
+    });
   },
 
   render() {
