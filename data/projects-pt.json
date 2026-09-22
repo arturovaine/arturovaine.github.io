@@ -1,5 +1,40 @@
 [
   {
+    "id": "northcraft",
+    "title": "Northcraft — Minneapolis",
+    "description": "Um mundo estilo Minecraft do rio de Minneapolis no navegador — explore, voe e construa em uma cidade voxel em tempo real.",
+    "image": "./src/assets/thumbs/northcraft.webp",
+    "alt": "Renderização 3D em voxel do rio de Minneapolis no Northcraft",
+    "url": "https://northcraft-brown.vercel.app/",
+    "branch": [
+      "development"
+    ],
+    "category": "experiment",
+    "tags": [
+      "Three.js",
+      "WebGL",
+      "Game"
+    ],
+    "modal": {
+      "subtitle": "Uma Minneapolis em voxel para explorar e construir",
+      "fullDescription": "Northcraft é um jogo de navegador inspirado em Minecraft que recria o rio de Minneapolis como um mundo voxel explorável. O jogador percorre a orla do Mississippi, coloca e quebra blocos, voa e constrói — com o mundo salvo automaticamente no navegador. Uma experiência 3D em tempo real, feita para ser lúdica e fácil de compartilhar.",
+      "features": [
+        "Mundo voxel renderizado inteiramente no navegador (Three.js / WebGL)",
+        "Construção e quebra de blocos com desfazer e salvamento automático no navegador",
+        "Exploração livre com modo de voo e controles WASD",
+        "Uma orla estilizada de Minneapolis — skyline, rio e pontos de referência"
+      ],
+      "techStack": [
+        "Three.js",
+        "WebGL",
+        "JavaScript",
+        "Vercel"
+      ],
+      "status": "Live"
+    },
+    "featured": true
+  },
+  {
     "id": "preply-ml-deep-dive",
     "title": "Deep Dive de ML no Mercado de Tutores",
     "description": "Análise de machine learning de 8.952 tutores de inglês online: arquétipos via KMeans e modelos Random Forest de preço e demanda",
@@ -107,8 +142,7 @@
         "Docker"
       ],
       "status": "Código Aberto"
-    },
-    "featured": true
+    }
   },
   {
     "id": "smart-catalog-reader",

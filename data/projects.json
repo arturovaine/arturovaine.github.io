@@ -1,5 +1,40 @@
 [
   {
+    "id": "northcraft",
+    "title": "Northcraft — Minneapolis",
+    "description": "A Minecraft-style browser world of the Minneapolis riverfront — explore, fly, and build in a real-time voxel city.",
+    "image": "./src/assets/thumbs/northcraft.webp",
+    "alt": "Voxel-style 3D rendering of the Minneapolis riverfront in Northcraft",
+    "url": "https://northcraft-brown.vercel.app/",
+    "branch": [
+      "development"
+    ],
+    "category": "experiment",
+    "tags": [
+      "Three.js",
+      "WebGL",
+      "Game"
+    ],
+    "modal": {
+      "subtitle": "A voxel Minneapolis you can explore and build",
+      "fullDescription": "Northcraft is a Minecraft-inspired browser game that recreates the Minneapolis riverfront as an explorable voxel world. Players roam the Mississippi riverfront, place and break blocks, fly around, and build — with the world auto-saving in the browser. A real-time 3D web experience built to be playful and instantly shareable.",
+      "features": [
+        "Real-time voxel world rendered entirely in the browser (Three.js / WebGL)",
+        "Block building and breaking with undo and in-browser auto-save",
+        "Free-roam exploration with flight mode and WASD controls",
+        "A stylized Minneapolis riverfront — skyline, river and landmarks"
+      ],
+      "techStack": [
+        "Three.js",
+        "WebGL",
+        "JavaScript",
+        "Vercel"
+      ],
+      "status": "Live"
+    },
+    "featured": true
+  },
+  {
     "id": "preply-ml-deep-dive",
     "title": "Tutor Market ML Deep Dive",
     "description": "Machine-learning analysis of 8,952 online English tutors: KMeans archetypes plus Random Forest pricing and demand models",
@@ -107,8 +142,7 @@
         "Docker"
       ],
       "status": "Open Source"
-    },
-    "featured": true
+    }
   },
   {
     "id": "smart-catalog-reader",
