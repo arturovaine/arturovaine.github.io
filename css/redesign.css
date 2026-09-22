@@ -290,7 +290,7 @@ body.brutalist .core-stack-title {
 
 /* ---- hero portrait + standalone MacBook (below the hero) ---------------- */
 .hero-portrait {
-  display: block;
+  display: none; /* hidden (markup kept) — flip to block to restore */
   height: 495px;
   width: auto; /* keep original proportions */
 }
