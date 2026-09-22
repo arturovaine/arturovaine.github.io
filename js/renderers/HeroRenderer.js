@@ -38,6 +38,10 @@ export const HeroRenderer = {
       badge.innerHTML = `${t.badge}${year ? `<span id="hero-year">${year}</span>` : ''}`;
     }
 
+    // Update role line under the name
+    const role = document.querySelector('.hero-role');
+    if (role && t.role) role.textContent = t.role;
+
     // Update paragraphs
     const paragraphs = document.querySelectorAll('.hero-paragraph');
     if (paragraphs[0]) paragraphs[0].innerHTML = t.paragraph1;

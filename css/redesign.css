@@ -141,6 +141,17 @@ body.brutalist .hero-name .hero-name-last {
   color: var(--accent) !important;
 }
 
+/* role line right under the name — highlighted accent */
+.hero-role {
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+body.brutalist .hero-role { color: var(--accent) !important; }
+
 body.brutalist .hero-paragraph { color: var(--ink) !important; max-width: 48ch; }
 body.brutalist .hero-paragraph strong { color: var(--ink-strong); }
 /* lead tagline — full width (one line on desktop), only the phrases highlighted */
@@ -217,6 +228,33 @@ body.brutalist .core-stack-title {
   transition: opacity 0.2s ease;
 }
 .hero-media.is-playing .hero-screen-poster { opacity: 0; pointer-events: none; }
+
+/* Right Shift key -> Awards, with a pulsing light rising from beneath the key */
+.mb-shift-link {
+  position: absolute;
+  z-index: 4;
+  left: 77.6%;
+  top: 76%;
+  width: 10%;
+  height: 3.4%;
+  cursor: pointer;
+}
+.mb-shift-svg { width: 100%; height: 100%; display: block; overflow: visible; }
+/* Strong pulsing trapezoid outline of the Shift key (in perspective) */
+.mb-shift-svg polygon {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+  animation: mb-shift-pulse 1.3s ease-in-out infinite;
+}
+@keyframes mb-shift-pulse {
+  0%, 100% { stroke: rgba(224, 164, 74, 0.7);  filter: drop-shadow(0 0 3px rgba(224, 164, 74, 0.55)); }
+  50%      { stroke: rgba(255, 200, 96, 1);    filter: drop-shadow(0 0 11px rgba(224, 164, 74, 1)); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mb-shift-svg polygon { animation: none; filter: drop-shadow(0 0 8px rgba(224, 164, 74, 0.85)); }
+}
 /* interview captions — ~50% larger */
 .hero-video::cue { font-size: 1.5em; background: rgba(0, 0, 0, 0.6); }
 .hero-video-toggle {
