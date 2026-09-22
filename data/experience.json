@@ -1,5 +1,30 @@
 [
   {
+    "id": "meros",
+    "period": "Apr 2025 to Present",
+    "location": "Remote",
+    "title": "Full Stack Developer / AI Engineer at Instituto Meros do Brasil",
+    "description": [
+      "Development of a back-office platform (MERN) w/ MCP to manage tasks and reporting of 60+ team members",
+      "Deployment of ETL pipelines and RAG system to consolidate reports and enable querying of Knowledge Base",
+      "Management of Google Admin Workspace console to support all sort of team members needs"
+    ],
+    "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
+    "current": true
+  },
+  {
+    "id": "colorado-industrial-packaging",
+    "period": "Aug 2026 to Sep 2026",
+    "location": "Denver, Colorado, United States · Remote",
+    "title": "Full Stack Engineer at Colorado Industrial Packaging · Contract",
+    "description": [
+      "Ad-hoc consultant / Full Stack Developer focused on a web app for the quotation process",
+      "Migrated spreadsheet-based and legacy workflows into a maintainable web application",
+      "Translated existing business rules and operational processes into application logic"
+    ],
+    "logo": "./src/assets/icons/colorado_industrial_packaging_logo.jpeg"
+  },
+  {
     "id": "main-street-ai",
     "period": "May 2026 to Aug 2026",
     "location": "California, United States · Remote",
@@ -13,19 +38,6 @@
       "Deployed ops assistant for C-level executive: inbox-triage agent and daily ops-reporting"
     ],
     "logo": "./src/assets/icons/main_street_ai_advisors_logo.jpeg"
-  },
-  {
-    "id": "meros",
-    "period": "Apr 2025 to Present",
-    "location": "Remote",
-    "title": "Full Stack Developer / AI Engineer at Instituto Meros do Brasil",
-    "description": [
-      "Development of a back-office platform (MERN) w/ MCP to manage tasks and reporting of 60+ team members",
-      "Deployment of ETL pipelines and RAG system to consolidate reports and enable querying of Knowledge Base",
-      "Management of Google Admin Workspace console to support all sort of team members needs"
-    ],
-    "logo": "./src/assets/icons/instituto_meros_do_brasil_logo.jpeg",
-    "current": true
   },
   {
     "id": "nilg-ai",
