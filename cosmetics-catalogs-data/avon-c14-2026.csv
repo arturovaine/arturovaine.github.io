@@ -1,0 +1,910 @@
+code,name,product_line,category,normalized_category,volume_weight,quantity,regular_price,promotional_price,savings,discount_percentage,promotion_active,page,quadrant,catalog_name,brand,cycle
+232075,Renew Solar em Stick FPS 50,Renew,Proteção Solar,Proteção Solar,12g,,99.9,89.9,10.0,10.01,True,3,,avon-c14-2026,Avon,14
+232072,Renew Multiprotetor em Stick com cor FPS 70 - Claro 1.0,Renew,Proteção Solar,Proteção Solar,14g,,99.9,89.9,10.0,10.01,True,3,,avon-c14-2026,Avon,14
+232069,Renew Multiprotetor em Stick com cor FPS 70 - Média Clara 2.0,Renew,Proteção Solar,Proteção Solar,14g,,99.9,89.9,10.0,10.01,True,3,,avon-c14-2026,Avon,14
+232077,Renew Multiprotetor em Stick com cor FPS 70 - Média 3.0,Renew,Proteção Solar,Proteção Solar,14g,,99.9,89.9,10.0,10.01,True,3,,avon-c14-2026,Avon,14
+232067,Renew Multiprotetor em Stick com cor FPS 70 - Média Escura 4.0,Renew,Proteção Solar,Proteção Solar,14g,,99.9,89.9,10.0,10.01,True,3,,avon-c14-2026,Avon,14
+232071,Renew Multiprotetor em Stick com cor FPS 70 - Escura 5.0,Renew,Proteção Solar,Proteção Solar,14g,,99.9,89.9,10.0,10.01,True,3,,avon-c14-2026,Avon,14
+232070,Renew Multiprotetor em Stick com cor FPS 70 - Escura 5.4,Renew,Proteção Solar,Proteção Solar,14g,,99.9,89.9,10.0,10.01,True,3,,avon-c14-2026,Avon,14
+261993,Camiseta Avon Por Elas P/M,Avon Por Elas,Acessórios,Acessórios,72 x 1 x 51 cm,,79.9,,,,False,5,,avon-c14-2026,Avon,14
+271285,Camiseta Avon Por Elas G/GG,Avon Por Elas,Acessórios,Acessórios,76 x 1 x 57 cm,,79.9,,,,False,5,,avon-c14-2026,Avon,14
+261997,Nécessaire Avon Por Elas,Avon Por Elas,Acessórios,Acessórios,"24 x 1 x 19,5 cm",,42.9,,,,False,5,,avon-c14-2026,Avon,14
+177786,Avon Ultra Color Batom Matte Vermelho Rubi,Ultra Color,Maquiagem,Maquiagem,"3,6g",,39.99,,,,False,6,,avon-c14-2026,Avon,14
+177771,Avon Ultra Color Batom Matte Nude Sereno,Ultra Color,Maquiagem,Maquiagem,"3,6g",,39.99,,,,False,6,,avon-c14-2026,Avon,14
+177785,Avon Ultra Color Batom Matte Rosa Goiaba,Ultra Color,Maquiagem,Maquiagem,"3,6g",,39.99,,,,False,6,,avon-c14-2026,Avon,14
+155723,Sabonete Gel de Limpeza Facial,Renew,Cuidados Faciais,Cuidados Faciais,125 g,,42.9,42.9,,,False,7,,avon-c14-2026,Avon,14
+169006,Água Micelar Revitalizante,Renew,Cuidados Faciais,Cuidados Faciais,150 ml,,42.9,42.9,,,False,7,,avon-c14-2026,Avon,14
+159034,Água Micelar Bifásica,Renew,Cuidados Faciais,Cuidados Faciais,150 ml,,47.9,47.9,,,False,7,,avon-c14-2026,Avon,14
+155733,Sabonete Gel de Limpeza Facial,Renew,Cuidados Faciais,Cuidados Faciais,30 g,,15.9,12.9,3.0,18.87,True,7,,avon-c14-2026,Avon,14
+232129,Renew Reversalist Gel Creme Dia,Renew,Cuidados Faciais,Cuidados Faciais,50g,,99.9,,,,False,8,,avon-c14-2026,Avon,14
+232130,Renew Reversalist Creme Noite,Renew,Cuidados Faciais,Cuidados Faciais,50g,,99.9,,,,False,8,,avon-c14-2026,Avon,14
+232127,Renew Reversalist Creme Dia FPS 35,Renew,Cuidados Faciais,Cuidados Faciais,50g,,99.9,,,,False,8,,avon-c14-2026,Avon,14
+232125,Renew Ultimate Creme Dia FPS 35,Renew,Cuidados Faciais,Cuidados Faciais,50g,,99.9,,,,False,8,,avon-c14-2026,Avon,14
+232128,Renew Ultimate Creme Noite,Renew,Cuidados Faciais,Cuidados Faciais,50g,,99.9,,,,False,8,,avon-c14-2026,Avon,14
+232124,Renew Platinum Creme Dia FPS 35,Renew,Cuidados Faciais,Cuidados Faciais,50g,,99.9,,,,False,8,,avon-c14-2026,Avon,14
+232123,Renew Platinum Creme Noite,Renew,Cuidados Faciais,Cuidados Faciais,50g,,99.9,,,,False,8,,avon-c14-2026,Avon,14
+201062,Power Creme Pele Renovada para Contorno de Lábios e Olhos,Renew,Cuidados Faciais,Cuidados Faciais,15 g,,79.9,79.9,,,False,9,,avon-c14-2026,Avon,14
+168325,7 Doses Concentradas de Preenchimento Facial,Renew,Cuidados Faciais,Cuidados Faciais,"7 ampolas de 1,3 ml cada",,179.9,179.9,,,False,9,,avon-c14-2026,Avon,14
+155717,Power Creme Pele Renovada,Renew,Cuidados Faciais,Cuidados Faciais,50 g,,114.9,114.9,,,False,9,,avon-c14-2026,Avon,14
+155729,Sensitive+ Creme Duplo Colágeno,Renew,Cuidados Faciais,Cuidados Faciais,50 g,,99.9,99.9,,,False,9,,avon-c14-2026,Avon,14
+156722,Lift & Firmeza Duo de Tratamento Cosmético para os Olhos,Renew,Cuidados Faciais,Cuidados Faciais,Gel: 10 g / Creme: 10 g,,76.9,76.9,,,False,9,,avon-c14-2026,Avon,14
+249600,Máscara de Colágeno,Renew,Cuidados Faciais,Cuidados Faciais,25 g,,29.9,29.9,,,False,9,,avon-c14-2026,Avon,14
+136013,Sérum de Tratamento Labial FPS 15,Renew,Cuidados Faciais,Cuidados Faciais,"3,5 g",,69.9,34.95,34.95,50.0,True,10,,avon-c14-2026,Avon,14
+166061,Tônico Facial com Vitamina C e Ácido Glicólico,Renew,Cuidados Faciais,Cuidados Faciais,90 ml,,47.9,,,,False,10,,avon-c14-2026,Avon,14
+155732,Vitamina C Esfoliante Facial,Renew,Cuidados Faciais,Cuidados Faciais,50 g,,49.9,,,,False,10,,avon-c14-2026,Avon,14
+190375,Máscara Facial com Ácido Hialurônico,Renew,Cuidados Faciais,Cuidados Faciais,50 g,,49.9,,,,False,10,,avon-c14-2026,Avon,14
+164956,Hidratante e Preenchedor Gel Creme Facial,Renew,Cuidados Faciais,Cuidados Faciais,50 g,,64.9,32.45,32.45,50.0,True,10,,avon-c14-2026,Avon,14
+169798,Hidratante Antioxidante com Vitamina C FPS 50,Renew,Cuidados Faciais,Cuidados Faciais,50 g,,64.9,32.45,32.45,50.0,True,10,,avon-c14-2026,Avon,14
+155720,Power Sérum Renovador,Renew,Cuidados Faciais,Cuidados Faciais,30 ml,,169.9,89.9,80.0,47.09,True,11,,avon-c14-2026,Avon,14
+155719,Preenchedor de Rugas Concentrado com Ácido Hialurônico,Renew,Cuidados Faciais,Cuidados Faciais,30 g,,149.9,89.9,60.0,40.03,True,11,,avon-c14-2026,Avon,14
+155721,Platinum Sérum Lift & Firmeza,Renew,Cuidados Faciais,Cuidados Faciais,30 ml,,159.9,89.9,70.0,43.78,True,11,,avon-c14-2026,Avon,14
+155718,Vitamina C Super Concentrado Antioxidante,Renew,Cuidados Faciais,Cuidados Faciais,30 ml,,129.9,89.9,40.0,30.79,True,11,,avon-c14-2026,Avon,14
+199908,Refil Power Sérum Renovador,Renew,Cuidados Faciais,Cuidados Faciais,30 ml,,124.9,,,,False,11,,avon-c14-2026,Avon,14
+199903,Refil Preenchedor de Rugas Concentrado com Ácido Hialurônico,Renew,Cuidados Faciais,Cuidados Faciais,30 g,,112.9,,,,False,11,,avon-c14-2026,Avon,14
+190374,Refil Platinum Sérum Lift & Firmeza,Renew,Cuidados Faciais,Cuidados Faciais,30 ml,,119.9,,,,False,11,,avon-c14-2026,Avon,14
+199906,Refil Vitamina C Super Concentrado Antioxidante,Renew,Cuidados Faciais,Cuidados Faciais,30 ml,,97.9,,,,False,11,,avon-c14-2026,Avon,14
+201061,Tratamento Cosmético de Aplicação Localizada,Renew,Cuidados Faciais,Cuidados Faciais,15ml,,57.9,47.9,10.0,17.27,True,12,,avon-c14-2026,Avon,14
+201145,Corretor de Marcas Escuras Creme Facial Noite,Renew,Cuidados Faciais,Cuidados Faciais,40g,,89.9,,,,False,12,,avon-c14-2026,Avon,14
+160381,Uniformizador para Olheiras Duo de Tratamento Cosmético para os Olhos,Renew,Cuidados Faciais,Cuidados Faciais,20g,,76.9,,,,False,12,,avon-c14-2026,Avon,14
+185791,Corretor de Marcas Escuras Creme para as Mãos,Renew,Cuidados Faciais,Cuidados Faciais,60g,,57.9,,,,False,12,,avon-c14-2026,Avon,14
+167761,Solar com Cor FPS 50 - Clara 1.0,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,59.9,,,,False,12,,avon-c14-2026,Avon,14
+167762,Solar com Cor FPS 50 - Média Clara 2.0,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,59.9,,,,False,12,,avon-c14-2026,Avon,14
+167763,Solar com Cor FPS 50 - Média 3.0,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,59.9,,,,False,12,,avon-c14-2026,Avon,14
+167764,Solar com Cor FPS 50 - Média Escura 4.0,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,59.9,,,,False,12,,avon-c14-2026,Avon,14
+167765,Solar com Cor FPS 50 - Escura 5.0,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,59.9,,,,False,12,,avon-c14-2026,Avon,14
+167766,Solar com Cor FPS 50 - Escura 5.4,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,59.9,,,,False,12,,avon-c14-2026,Avon,14
+160380,Solar FPS 70 Protinol,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,64.9,,,,False,12,,avon-c14-2026,Avon,14
+160379,Solar FPS 50 Ácido Hialurônico,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,54.9,,,,False,12,,avon-c14-2026,Avon,14
+152723,Solar Fluido Facial Extra Matte FPS 30 Niacinamida,Renew Solar,Cuidados Faciais,Cuidados Faciais,40g,,49.9,34.9,15.0,30.06,True,12,,avon-c14-2026,Avon,14
+136030,Máscara de Limpeza Facial 3 em 1,Avon Care,Cuidados Faciais,Cuidados Faciais,75 g,,24.99,,,,False,13,,avon-c14-2026,Avon,14
+214484,Água Micelar de Limpeza Facial 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,200 ml,,26.99,,,,False,13,,avon-c14-2026,Avon,14
+224050,Tônico Facial 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,200 ml,,29.99,24.99,5.0,16.67,True,13,,avon-c14-2026,Avon,14
+214483,Gel de Limpeza Facial 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,120 g,,23.99,,,,False,13,,avon-c14-2026,Avon,14
+214688,Gel Esfoliante Facial 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,80 g,,26.99,17.99,9.0,33.35,True,13,,avon-c14-2026,Avon,14
+202626,Sérum Facial Antissinais 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,30g,,42.99,,,,False,14,,avon-c14-2026,Avon,14
+169002,Sérum Facial Hidratante Multibenefícios 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,30g,,42.99,,,,False,14,,avon-c14-2026,Avon,14
+214482,Hidratante Labial 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,"4,2g",,19.99,,,,False,14,,avon-c14-2026,Avon,14
+214477,Creme Facial Uniformizador 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,100g,,32.99,21.99,11.0,33.34,True,14,,avon-c14-2026,Avon,14
+214479,Creme Facial Noturno 6 em 1,Avon Care Face,Cuidados Faciais,Cuidados Faciais,100g,,32.99,21.99,11.0,33.34,True,14,,avon-c14-2026,Avon,14
+214481,Creme Facial Matificante 6 em 1,Care Face,Cuidados Faciais,Cuidados Faciais,100g,,32.99,,,,False,15,,avon-c14-2026,Avon,14
+214480,Creme Facial Iluminador Vitaminado 6 em 1,Care Face,Cuidados Faciais,Cuidados Faciais,100g,,32.99,,,,False,15,,avon-c14-2026,Avon,14
+244915,Creme Facial Radiância e Luminosidade 6 em 1,Care Face,Cuidados Faciais,Cuidados Faciais,100g,,32.99,,,,False,15,,avon-c14-2026,Avon,14
+203471,Creme Facial Hidratante 6 em 1,Care Face,Cuidados Faciais,Cuidados Faciais,100g,,32.99,,,,False,15,,avon-c14-2026,Avon,14
+214478,Creme Facial Antissinais 6 em 1,Care Face,Cuidados Faciais,Cuidados Faciais,100g,,32.99,,,,False,15,,avon-c14-2026,Avon,14
+152074,Triplo Esfoliante Facial de Argila Rosa,Clearskin,Cuidados Faciais,Cuidados Faciais,50 g,,27.99,,,,False,16,,avon-c14-2026,Avon,14
+152072,Sabonete Facial Esfoliante,Clearskin,Cuidados Faciais,Cuidados Faciais,50 g,,27.99,22.99,5.0,17.86,True,16,,avon-c14-2026,Avon,14
+131008,Sabonete de Limpeza Extraforte com Ácido Salicílico,Clearskin,Cuidados Faciais,Cuidados Faciais,70 g,,17.99,,,,False,16,,avon-c14-2026,Avon,14
+153253,Sabonete de Limpeza Esfoliante com Ácido Salicílico,Clearskin,Cuidados Faciais,Cuidados Faciais,70 g,,17.99,,,,False,16,,avon-c14-2026,Avon,14
+153254,Sabonete de Limpeza Purificante com Carvão,Clearskin,Cuidados Faciais,Cuidados Faciais,70 g,,17.99,,,,False,16,,avon-c14-2026,Avon,14
+152075,Máscara Facial Preta com Carvão,Clearskin,Cuidados Faciais,Cuidados Faciais,50 g,,29.99,,,,False,17,,avon-c14-2026,Avon,14
+152077,Máscara Facial Removedora de Cravos,Clearskin,Cuidados Faciais,Cuidados Faciais,50 g,,29.99,,,,False,17,,avon-c14-2026,Avon,14
+136041,Loção Tônica Facial Adstringente,Clearskin,Cuidados Faciais,Cuidados Faciais,200 ml,,34.99,,,,False,17,,avon-c14-2026,Avon,14
+203746,Combate Espinhas Creme de Limpeza Máxima Concentração,Clearskin,Cuidados Faciais,Cuidados Faciais,50 g,,25.99,22.99,3.0,11.54,True,17,,avon-c14-2026,Avon,14
+152076,Máscara Facial Argila Rosa,Clearskin,Cuidados Faciais,Cuidados Faciais,50 g,,29.99,24.99,5.0,16.67,True,17,,avon-c14-2026,Avon,14
+245289,Avon Power Stay Delineador Labial Retrátil Vinho Marsala,Power Stay,Maquiagem,Maquiagem,280mg,,34.99,,,,False,19,,avon-c14-2026,Avon,14
+245290,Avon Power Stay Delineador Labial Retrátil Vermelhaço,Power Stay,Maquiagem,Maquiagem,280mg,,34.99,,,,False,19,,avon-c14-2026,Avon,14
+245291,Avon Power Stay Delineador Labial Retrátil Rosa Magenta,Power Stay,Maquiagem,Maquiagem,280mg,,34.99,,,,False,19,,avon-c14-2026,Avon,14
+245292,Avon Power Stay Delineador Labial Retrátil Marrom Rubi,Power Stay,Maquiagem,Maquiagem,280mg,,34.99,,,,False,19,,avon-c14-2026,Avon,14
+245293,Avon Power Stay Delineador Labial Retrátil Vermelho Mais Quente,Power Stay,Maquiagem,Maquiagem,280mg,,34.99,,,,False,19,,avon-c14-2026,Avon,14
+245294,Avon Power Stay Delineador Labial Retrátil Uva Rosada,Power Stay,Maquiagem,Maquiagem,280mg,,34.99,,,,False,19,,avon-c14-2026,Avon,14
+152714,Avon Power Stay Batom Líquido Matte 16h Nude Blush,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135569,Avon Power Stay Batom Líquido Matte 16h Toda Nude Cobre,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135570,Avon Power Stay Batom Líquido Matte 16h Nude Queimado,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+152753,Avon Power Stay Batom Líquido Matte 16h Nude Coral,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135567,Avon Power Stay Batom Líquido Matte 16h Nude Caramelito,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135571,Avon Power Stay Batom Líquido Matte 16h Rosa Toque Rosê,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135572,Avon Power Stay Batom Líquido Matte 16h Rosa Super Malva,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135559,Avon Power Stay Batom Líquido Matte 16h Rosa Magenta,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+216714,Avon Power Stay Batom Líquido Matte 16h Quase Vermelho,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135558,Avon Power Stay Batom Líquido Matte 16h Marrom Rubi,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+152751,Avon Power Stay Batom Líquido Matte 16h Vermelho Terra,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135562,Avon Power Stay Batom Líquido Matte 16h Uva Rosada,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+216712,Avon Power Stay Batom Líquido Matte 16h Vermelho Radiante,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+152752,Avon Power Stay Batom Líquido Matte 16h Vermelho Escarlate,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135568,Avon Power Stay Batom Líquido Matte 16h Tô de Vinho Marsala,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+216713,Avon Power Stay Batom Líquido Matte 16h Vermelho Canela,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135563,Avon Power Stay Batom Líquido Matte 16h Vermelhaço,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135565,Avon Power Stay Batom Líquido Matte 16h Vermelho Mais Quente,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135560,Avon Power Stay Batom Líquido Matte 16h Nude Malva,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+135564,Avon Power Stay Batom Líquido Matte 16h Vinho Escuro,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,43.99,6.0,12.0,True,19,,avon-c14-2026,Avon,14
+159451,Avon Power Stay Batom Preciso Matte 10h - Vermelho Impacto,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159449,Avon Power Stay Batom Preciso Matte 10h - Vinho Intenso,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159444,Avon Power Stay Batom Preciso Matte 10h - Vinho Profundo,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159448,Avon Power Stay Batom Preciso Matte 10h - Rosa Poderoso,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159445,Avon Power Stay Batom Preciso Matte 10h - Nude Imponente,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159443,Avon Power Stay Batom Preciso Matte 10h - Nude Elegante,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159442,Avon Power Stay Batom Preciso Matte 10h - Coral Sutil,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159446,Avon Power Stay Batom Preciso Matte 10h - Nude Glamour,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+159447,Avon Power Stay Batom Preciso Matte 10h - Rosé Delicado,Power Stay,Maquiagem,Maquiagem,"1,2g",,49.99,,,,False,20,,avon-c14-2026,Avon,14
+251563,Avon Power Stay Batom Líquido Matte Glitter Effect 16h - Nude Iluminado,Power Stay,Maquiagem,Maquiagem,4ml,,49.99,,,,False,20,,avon-c14-2026,Avon,14
+251564,Avon Power Stay Batom Líquido Matte Glitter Effect 16h - Rosa Luminoso,Power Stay,Maquiagem,Maquiagem,4ml,,49.99,,,,False,20,,avon-c14-2026,Avon,14
+251562,Avon Power Stay Batom Líquido Matte Glitter Effect 16h - Malva Luminoso,Power Stay,Maquiagem,Maquiagem,4ml,,49.99,,,,False,20,,avon-c14-2026,Avon,14
+251561,Avon Power Stay Batom Líquido Matte Glitter Effect 16h - Framboesa Radiante,Power Stay,Maquiagem,Maquiagem,4ml,,49.99,,,,False,20,,avon-c14-2026,Avon,14
+251559,Avon Power Stay Batom Líquido Matte Glitter Effect 16h - Nude Pérola,Power Stay,Maquiagem,Maquiagem,4ml,,49.99,,,,False,20,,avon-c14-2026,Avon,14
+251560,Avon Power Stay Batom Líquido Matte Glitter Effect 16h - Marrom Brilhante,Power Stay,Maquiagem,Maquiagem,4ml,,49.99,,,,False,20,,avon-c14-2026,Avon,14
+251558,Avon Power Stay Batom Líquido Matte Glitter Effect 16h - Cereja Brilhante,Power Stay,Maquiagem,Maquiagem,4ml,,49.99,,,,False,20,,avon-c14-2026,Avon,14
+238380,Avon Lip Tint Marker Batom e Delineador Labial - Vermelho,Power Stay,Maquiagem,Maquiagem,1ml,,39.99,27.99,12.0,30.01,True,20,,avon-c14-2026,Avon,14
+238379,Avon Lip Tint Marker Batom e Delineador Labial - Vinho,Power Stay,Maquiagem,Maquiagem,1ml,,39.99,27.99,12.0,30.01,True,20,,avon-c14-2026,Avon,14
+238382,Avon Lip Tint Marker Batom e Delineador Labial - Nude Rosado,Power Stay,Maquiagem,Maquiagem,1ml,,39.99,27.99,12.0,30.01,True,20,,avon-c14-2026,Avon,14
+238381,Avon Lip Tint Marker Batom e Delineador Labial - Marrom,Power Stay,Maquiagem,Maquiagem,1ml,,39.99,27.99,12.0,30.01,True,20,,avon-c14-2026,Avon,14
+204682,Avon Power Stay Batom Líquido Creamy Vinyl Tô de Vinho,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204684,Avon Power Stay Batom Líquido Creamy Vinyl Uva Rosada,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204678,Avon Power Stay Batom Líquido Creamy Vinyl Vermelho Rosê,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204683,Avon Power Stay Batom Líquido Creamy Vinyl Vermelhaço,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204686,Avon Power Stay Batom Líquido Creamy Vinyl Rosa Castanho,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204685,Avon Power Stay Batom Líquido Creamy Vinyl Marrom Coral,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204680,Avon Power Stay Batom Líquido Creamy Vinyl Malva Magnético,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204679,Avon Power Stay Batom Líquido Creamy Vinyl Nude Musa,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204687,Avon Power Stay Batom Líquido Creamy Vinyl Vermelho Rosado,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+204681,Avon Power Stay Batom Líquido Creamy Vinyl Magenta Fascinante,Power Stay,Maquiagem,Maquiagem,6ml,,49.99,34.99,15.0,30.01,True,21,,avon-c14-2026,Avon,14
+135321,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 110 F,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135322,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 120 NQ,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135323,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 130 F,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135324,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 140 Q,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135325,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 210 Q,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135326,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 220 NQ,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135327,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 230 NF,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135328,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 240 N,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135329,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 310 NF,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135330,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 320 Q,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135331,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 330 Q,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135332,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 340 Q,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135333,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 410 NQ,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135334,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 420 Q,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135335,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 430 F,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135336,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 440 NF,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135337,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 510 N,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135338,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 520 NQ,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135339,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 530 N,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135340,Avon Power Stay Base Compacta 3 em 1 FPS 20 18h - 540 F,Power Stay,Maquiagem,Maquiagem,9g,,84.99,,,,False,23,,avon-c14-2026,Avon,14
+135499,Pincel Profissional Flat para Base,Avon,Maquiagem,Maquiagem,"15,4 cm",,47.99,42.99,5.0,10.42,True,23,,avon-c14-2026,Avon,14
+155674,Avon Power Stay Base Líquida Matte 24h - 110 F,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155658,Avon Power Stay Base Líquida Matte 24h - 120 NQ,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155667,Avon Power Stay Base Líquida Matte 24h - 130 F,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155671,Avon Power Stay Base Líquida Matte 24h - 140 Q,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155669,Avon Power Stay Base Líquida Matte 24h - 210 Q,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155670,Avon Power Stay Base Líquida Matte 24h - 220 NQ,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155684,Avon Power Stay Base Líquida Matte 24h - 230 NF,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155672,Avon Power Stay Base Líquida Matte 24h - 240 N,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155686,Avon Power Stay Base Líquida Matte 24h - 310 NF,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155675,Avon Power Stay Base Líquida Matte 24h - 320 Q,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155673,Avon Power Stay Base Líquida Matte 24h - 330 Q,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155677,Avon Power Stay Base Líquida Matte 24h - 340 Q,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155680,Avon Power Stay Base Líquida Matte 24h - 410 NQ,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155679,Avon Power Stay Base Líquida Matte 24h - 420 Q,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155676,Avon Power Stay Base Líquida Matte 24h - 430 F,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155678,Avon Power Stay Base Líquida Matte 24h - 440 NF,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155681,Avon Power Stay Base Líquida Matte 24h - 510 N,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155682,Avon Power Stay Base Líquida Matte 24h - 520 NQ,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155683,Avon Power Stay Base Líquida Matte 24h - 530 N,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+155685,Avon Power Stay Base Líquida Matte 24h - 540 F,Power Stay,Maquiagem,Maquiagem,30ml,,64.99,54.99,10.0,15.39,True,23,,avon-c14-2026,Avon,14
+177796,Avon Power Stay Corretivo Líquido Matte 18h - 115 Q,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177800,Avon Power Stay Corretivo Líquido Matte 18h - 135 N,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177809,Avon Power Stay Corretivo Líquido Matte 18h - 215 N,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177810,Avon Power Stay Corretivo Líquido Matte 18h - 235 N,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177815,Avon Power Stay Corretivo Líquido Matte 18h - 315 N,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177749,Avon Power Stay Corretivo Líquido Matte 18h - 335 Q,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177768,Avon Power Stay Corretivo Líquido Matte 18h - 415 Q,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177754,Avon Power Stay Corretivo Líquido Matte 18h - 435 N,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177804,Avon Power Stay Corretivo Líquido Matte 18h - 515 N,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+177797,Avon Power Stay Corretivo Líquido Matte 18h - 535 N,Power Stay,Maquiagem,Maquiagem,4ml,,39.99,29.99,10.0,25.01,True,23,,avon-c14-2026,Avon,14
+135503,Avon True Apontador Duplo,Avon True,Maquiagem,Maquiagem,"3,95 x 3,05 x 3,6 cm",,25.99,,,,False,24,,avon-c14-2026,Avon,14
+135237,Avon Power Stay Máscara para Cílios à Prova D'Água 24h,Power Stay,Maquiagem,Maquiagem,10 ml,,59.99,44.99,15.0,25.0,True,24,,avon-c14-2026,Avon,14
+152787,Avon Power Stay Lápis Delineador em Gel para Olhos 24h - Marrom,Power Stay,Maquiagem,Maquiagem,"1,2 g",,49.99,,,,False,24,,avon-c14-2026,Avon,14
+152789,Avon Power Stay Lápis Delineador em Gel para Olhos 24h - Marsala,Power Stay,Maquiagem,Maquiagem,"1,2 g",,49.99,,,,False,24,,avon-c14-2026,Avon,14
+152786,Avon Power Stay Lápis Delineador em Gel para Olhos 24h - Preto Estrelar,Power Stay,Maquiagem,Maquiagem,"1,2 g",,49.99,,,,False,24,,avon-c14-2026,Avon,14
+177805,Avon Power Stay Lápis Delineador em Gel para Olhos 24h - Preto Iluminado,Power Stay,Maquiagem,Maquiagem,"1,2 g",,49.99,,,,False,24,,avon-c14-2026,Avon,14
+152790,Avon Power Stay Lápis Delineador em Gel para Olhos 24h - Branco,Power Stay,Maquiagem,Maquiagem,"1,2 g",,49.99,,,,False,24,,avon-c14-2026,Avon,14
+152788,Avon Power Stay Lápis Delineador em Gel para Olhos 24h - Azul-Cobalto,Power Stay,Maquiagem,Maquiagem,"1,2 g",,49.99,,,,False,24,,avon-c14-2026,Avon,14
+135232,Avon Power Stay Caneta Delineadora para Olhos 24h,Power Stay,Maquiagem,Maquiagem,"1,2 ml",,55.99,34.99,21.0,37.51,True,24,,avon-c14-2026,Avon,14
+200631,Tratamake Avon Hydramatic Batom Matte - Rosa Framboesa,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+148281,Tratamake Avon Hydramatic Batom Matte - Vermelho Cereja,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+135517,Tratamake Avon Hydramatic Batom Matte - Vinho Autoral,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+135077,Tratamake Avon Hydramatic Batom Matte - Nude Irresistível,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+200632,Tratamake Avon Hydramatic Batom Matte - Rosê Sutil,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+148280,Tratamake Avon Hydramatic Batom Matte - Rosa Rosé,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+135076,Tratamake Avon Hydramatic Batom Matte - Malva Marsala,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+135512,Tratamake Avon Hydramatic Batom Matte - Nude Suave,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+200630,Tratamake Avon Hydramatic Batom Matte - Marrom Intenso,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+135511,Tratamake Avon Hydramatic Batom Matte - Nude Intenso,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+135514,Tratamake Avon Hydramatic Batom Matte - Vermelho Icônico,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+148279,Tratamake Avon Hydramatic Batom Matte - Rosa Blush,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+152748,Tratamake Avon Hydramatic Batom Matte - Malva Queimado,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+152749,Tratamake Avon Hydramatic Batom Matte - Magenta Suave,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,49.99,,,False,25,,avon-c14-2026,Avon,14
+152743,Tratamake Avon Hydramatic Batom Radiante - Rosado Coral,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152740,Tratamake Avon Hydramatic Batom Radiante - Nude Coral,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152738,Tratamake Avon Hydramatic Batom Radiante - Marrom Bronze,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152737,Tratamake Avon Hydramatic Batom Radiante - Malva Suave,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152736,Tratamake Avon Hydramatic Batom Radiante - Malva Marrom,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152744,Tratamake Avon Hydramatic Batom Radiante - Marsala Rosê,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152735,Tratamake Avon Hydramatic Batom Radiante - Fúcsia Profundo,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152741,Tratamake Avon Hydramatic Batom Radiante - Rosê Escuro,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152734,Tratamake Avon Hydramatic Batom Radiante - Coral Sutil,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152747,Tratamake Avon Hydramatic Batom Radiante - Rosado Frio,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152720,Tratamake Avon Hydramatic Batom Radiante - Cor-de-Rosa Carmim,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152742,Tratamake Avon Hydramatic Batom Radiante - Rosa Quente,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152739,Tratamake Avon Hydramatic Batom Radiante - Vinho Borgonha,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+152746,Tratamake Avon Hydramatic Batom Radiante - Vermelho Vinho,Hydramatic,Maquiagem,Maquiagem,"3,6g",,49.99,42.99,7.0,14.0,True,25,,avon-c14-2026,Avon,14
+160282,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 110 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160283,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 120 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160286,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 130 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160287,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 140 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160284,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 210 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160285,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 220 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160288,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 230 NF,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160289,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 240 N,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160291,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 310 NF,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160292,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 320 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160290,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 330 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160293,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 340 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160297,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 410 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160294,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 420 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160295,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 430 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160296,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 440 NF,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160298,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 510 N,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160299,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 520 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160300,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 530 N,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+160301,Tratamake Avon Makeup+Care Base Sérum Acabamento Radiante FPS 30 540 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,,,,False,26,,avon-c14-2026,Avon,14
+199873,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 110 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199878,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 120 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199892,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 130 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199868,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 140 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199901,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 210 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199880,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 220 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199898,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 230 NF,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199887,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 240 N,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199885,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 310 NF,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199866,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 320 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199895,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 330 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199875,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 340 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199872,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 410 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199897,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 420 Q,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199870,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 430 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199883,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 440 NF,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199891,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 510 N,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199867,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 520 NQ,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199881,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 530 N,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+199889,Tratamake Avon Makeup+Care Base Sérum Acabamento Matte FPS 30 540 F,Make Up + Care,Maquiagem,Maquiagem,30ml,,74.99,64.99,10.0,13.34,True,26,,avon-c14-2026,Avon,14
+177763,Avon Ultra Color Batom Matte FPS 30 - Rosa Carmim,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177774,Avon Ultra Color Batom Matte FPS 30 - Nude Bronze,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177767,Avon Ultra Color Batom Matte FPS 30 - Rosa Chic,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177812,Avon Ultra Color Batom Matte FPS 30 - Nude Marsala,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177788,Avon Ultra Color Batom Matte FPS 30 - Nude Rosê,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177813,Avon Ultra Color Batom Matte FPS 30 - Vermelho Malva,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177799,Avon Ultra Color Batom Matte FPS 30 - Malva Rosado,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177791,Avon Ultra Color Batom Matte FPS 30 - Vermelho Supremo,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177782,Avon Ultra Color Batom Matte FPS 30 - Rosa Pink,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177789,Avon Ultra Color Batom Matte FPS 30 - Vermelho Alaranjado,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177747,Avon Ultra Color Batom Matte FPS 30 - Nude Terracota,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177814,Avon Ultra Color Batom Matte FPS 30 - Vermelho Terracota,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177781,Avon Ultra Color Batom Matte FPS 30 - Nude Diva,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177811,Avon Ultra Color Batom Matte FPS 30 - Nude Marrom,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177794,Avon Ultra Color Batom Matte FPS 30 - Vinho Bordô,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177759,Avon Ultra Color Batom Matte FPS 30 - Amora Paixão,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+177775,Avon Ultra Color Batom Matte FPS 30 - Roxo Orquídea,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,28.49,11.5,28.76,True,27,,avon-c14-2026,Avon,14
+135552,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Nude Delicado,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+135550,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Atitude Nude,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+135551,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Doce Rosa,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+135090,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Rosa Independência,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+136554,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Rosê Singular,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+135553,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Rosê Destemido,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+135089,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Marsala Profundo,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+135092,Avon Ultra Color Lip Paint Batom Líquido FPS 15 - Vinho Que Quero Ser,Ultra Color,Maquiagem,Maquiagem,7 ml,,37.99,28.49,9.5,25.01,True,27,,avon-c14-2026,Avon,14
+177777,Avon Ultra Color Batom Brilhante FPS 15 Nude Terracota Glow,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177807,Avon Ultra Color Batom Brilhante FPS 15 Glow Crystal,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177808,Avon Ultra Color Batom Brilhante FPS 15 Malva Luz,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177748,Avon Ultra Color Batom Brilhante FPS 15 Rosa Vibrante,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177746,Avon Ultra Color Batom Brilhante FPS 15 Vermelho Glitz,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177803,Avon Ultra Color Batom Brilhante FPS 15 Marrom Cobre,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+169801,Avon Ultra Color Gloss Labial Glow Fantasy,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+135549,Avon Ultra Color Gloss Labial Brilho Holo Shine,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+135086,Avon Ultra Color Gloss Labial Nude Glow,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+135087,Avon Ultra Color Gloss Labial Marrom Must Have,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+135548,Avon Ultra Color Gloss Labial Nude Rubi,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+169803,Avon Ultra Color Gloss Labial Vermelho Conquista,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+135085,Avon Ultra Color Gloss Labial Rosa Wow,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+169802,Avon Ultra Color Gloss Labial Rosa Impacto,Ultra Color,Maquiagem,Maquiagem,7 ml,,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177745,Avon Ultra Color Batom Cremoso FPS 50 Marrom Puro,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177743,Avon Ultra Color Batom Cremoso FPS 50 Nude Puro,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177801,Avon Ultra Color Batom Cremoso FPS 50 Marrom Glam,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177790,Avon Ultra Color Batom Cremoso FPS 50 Malva Belo,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177762,Avon Ultra Color Batom Cremoso FPS 50 Vermelho Supremo,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177806,Avon Ultra Color Batom Cremoso FPS 50 Nude Cappuccino,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177765,Avon Ultra Color Batom Cremoso FPS 50 Malva Rosado,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177741,Avon Ultra Color Batom Cremoso FPS 50 Vermelho Puro,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177766,Avon Ultra Color Batom Cremoso FPS 50 Rosa Queimado,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177753,Avon Ultra Color Batom Cremoso FPS 50 Vermelho Glamour,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177758,Avon Ultra Color Batom Cremoso FPS 50 Nude Chic,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177770,Avon Ultra Color Batom Cremoso FPS 50 Rosa Canela,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177780,Avon Ultra Color Batom Cremoso FPS 50 Rosé Malva,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+177769,Avon Ultra Color Batom Cremoso FPS 50 Nude Terracota,Ultra Color,Maquiagem,Maquiagem,"3,6 g",,39.99,,,,False,28,,avon-c14-2026,Avon,14
+231336,Avon Paleta Facial Golden em Pó 3 em 1 Iluminador/Pó Bronzeador/Blush Sunkissed,Avon,Maquiagem,Maquiagem,"3,8g",,69.99,69.99,,,False,29,,avon-c14-2026,Avon,14
+231343,Avon Paleta Facial Golden em Pó 3 em 1 Iluminador/Pó Bronzeador/Blush Golden Hour,Avon,Maquiagem,Maquiagem,"3,8g",,69.99,69.99,,,False,29,,avon-c14-2026,Avon,14
+177787,Avon Ultra Color Paleta de Sombras para Olhos Bronze,Avon Ultra Color,Maquiagem,Maquiagem,"2,8g",,69.99,59.99,10.0,14.29,True,29,,avon-c14-2026,Avon,14
+177776,Avon Ultra Color Paleta de Sombras para Olhos Natural,Avon Ultra Color,Maquiagem,Maquiagem,"2,8g",,69.99,59.99,10.0,14.29,True,29,,avon-c14-2026,Avon,14
+177772,Avon Ultra Color Paleta de Sombras para Olhos Purple,Avon Ultra Color,Maquiagem,Maquiagem,"2,8g",,69.99,59.99,10.0,14.29,True,29,,avon-c14-2026,Avon,14
+200107,Avon Ultra Color Blush Facial em Pó Natural,Avon Ultra Color,Maquiagem,Maquiagem,8g,,59.99,59.99,,,False,29,,avon-c14-2026,Avon,14
+187743,Avon Ultra Color Blush Facial em Pó Uva Borgonha,Avon Ultra Color,Maquiagem,Maquiagem,8g,,59.99,59.99,,,False,29,,avon-c14-2026,Avon,14
+187745,Avon Ultra Color Blush Facial em Pó Iluminado,Avon Ultra Color,Maquiagem,Maquiagem,8g,,59.99,59.99,,,False,29,,avon-c14-2026,Avon,14
+188011,Avon Ultra Color Blush Facial em Pó Rosa Pink,Avon Ultra Color,Maquiagem,Maquiagem,8g,,59.99,59.99,,,False,29,,avon-c14-2026,Avon,14
+187744,Avon Ultra Color Blush Facial em Pó Rosa Toscano,Avon Ultra Color,Maquiagem,Maquiagem,8g,,59.99,59.99,,,False,29,,avon-c14-2026,Avon,14
+187746,Avon Ultra Color Pó Compacto Facial Iluminador Ouro Champanhe,Avon Ultra Color,Maquiagem,Maquiagem,8g,,64.99,49.99,15.0,23.08,True,29,,avon-c14-2026,Avon,14
+200108,Avon Ultra Color Pó Compacto Facial Iluminador Cobre Sublime,Avon Ultra Color,Maquiagem,Maquiagem,8g,,64.99,49.99,15.0,23.08,True,29,,avon-c14-2026,Avon,14
+187747,Avon Ultra Color Pó Compacto Facial Iluminador Rosé Gold,Avon Ultra Color,Maquiagem,Maquiagem,8g,,64.99,49.99,15.0,23.08,True,29,,avon-c14-2026,Avon,14
+152722,Avon Exxtravagant Máscara para Cílios À Prova D'Água,Exxtravagant,Maquiagem,Maquiagem,"9,5 ml",,59.99,44.99,15.0,25.0,True,30,,avon-c14-2026,Avon,14
+222050,Avon Supershock Volume Max Máscara para Cílios,Supershock,Maquiagem,Maquiagem,10 ml,,42.99,29.99,13.0,30.24,True,30,,avon-c14-2026,Avon,14
+152716,Avon Exxtravagant Máscara para Cílios,Exxtravagant,Maquiagem,Maquiagem,"9,5 ml",,59.99,,,,False,30,,avon-c14-2026,Avon,14
+160378,Avon Wonder Curve Máscara para Cílios,Wonder Curve,Maquiagem,Maquiagem,10 ml,,55.99,,,,False,30,,avon-c14-2026,Avon,14
+199158,Tratamake Avon Makeup+Care Máscara de Volume para Cílios,Makeup+Care,Maquiagem,Maquiagem,10 g,,65.99,,,,False,30,,avon-c14-2026,Avon,14
+135234,Avon Genius Multibenefícios Máscara para Cílios,5-in-1 Genius,Maquiagem,Maquiagem,10 ml,,55.99,,,,False,30,,avon-c14-2026,Avon,14
+135235,Avon Legendary Extension Máscara para Cílios,Legendary Extension,Maquiagem,Maquiagem,10 ml,,55.99,,,,False,30,,avon-c14-2026,Avon,14
+135238,Avon Super à Prova D'Água Máscara para Cílios,Super à Prova D'Água,Maquiagem,Maquiagem,8 ml,,42.99,,,,False,30,,avon-c14-2026,Avon,14
+135223,Avon Brow Boost Gel para Sobrancelhas Incolor,Brow Boost,Maquiagem,Maquiagem,"3,3g",,52.99,,,,False,31,,avon-c14-2026,Avon,14
+150664,Avon Micro Fine Delineador Retrátil para Sobrancelhas Avermelhado,Micro Fine,Maquiagem,Maquiagem,130mg,,37.99,31.99,6.0,15.79,True,31,,avon-c14-2026,Avon,14
+150667,Avon Micro Fine Delineador Retrátil para Sobrancelhas Loiro Claro,Micro Fine,Maquiagem,Maquiagem,130mg,,37.99,31.99,6.0,15.79,True,31,,avon-c14-2026,Avon,14
+150666,Avon Micro Fine Delineador Retrátil para Sobrancelhas Castanho,Micro Fine,Maquiagem,Maquiagem,130mg,,37.99,31.99,6.0,15.79,True,31,,avon-c14-2026,Avon,14
+150665,Avon Micro Fine Delineador Retrátil para Sobrancelhas Castanho Escuro,Micro Fine,Maquiagem,Maquiagem,130mg,,37.99,31.99,6.0,15.79,True,31,,avon-c14-2026,Avon,14
+135403,Avon Pó Compacto Facial Matte FPS 35 112 F,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135404,Avon Pó Compacto Facial Matte FPS 35 132 Q,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135405,Avon Pó Compacto Facial Matte FPS 35 212 N,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135406,Avon Pó Compacto Facial Matte FPS 35 232 N,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135407,Avon Pó Compacto Facial Matte FPS 35 322 F,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135408,Avon Pó Compacto Facial Matte FPS 35 352 N,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135409,Avon Pó Compacto Facial Matte FPS 08 412 Q,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135410,Avon Pó Compacto Facial Matte FPS 35 432 N,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135411,Avon Pó Compacto Facial Matte FPS 08 512 N,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135412,Avon Pó Compacto Facial Matte FPS 08 532 N,Matte,Maquiagem,Maquiagem,11g,,59.99,,,,False,31,,avon-c14-2026,Avon,14
+135415,Avon Magix Primer Controle de Brilho e Oleosidade,Magix,Maquiagem,Maquiagem,30ml,,54.99,43.99,11.0,20.0,True,31,,avon-c14-2026,Avon,14
+152768,Avon Power Stay Esmalte Gel Vermelho Mais Quente,Power Stay,Unhas,Unhas,9g,,21.99,17.99,4.0,18.19,True,32,,avon-c14-2026,Avon,14
+152774,Avon Power Stay Esmalte Gel Estilo Terracota,Power Stay,Unhas,Unhas,9g,,21.99,17.99,4.0,18.19,True,32,,avon-c14-2026,Avon,14
+152771,Avon Power Stay Esmalte Gel Tô de Vinho,Power Stay,Unhas,Unhas,9g,,21.99,17.99,4.0,18.19,True,32,,avon-c14-2026,Avon,14
+152782,Avon Power Stay Esmalte Gel Nude Pétala,Power Stay,Unhas,Unhas,9g,,21.99,17.99,4.0,18.19,True,32,,avon-c14-2026,Avon,14
+135609,Avon Crushed Crystals Esmalte Azul Glow,Crushed Crystals,Unhas,Unhas,9ml,,23.99,19.99,4.0,16.67,True,33,,avon-c14-2026,Avon,14
+135612,Avon Crushed Crystals Esmalte Flamingo Vibes,Crushed Crystals,Unhas,Unhas,9ml,,23.99,19.99,4.0,16.67,True,33,,avon-c14-2026,Avon,14
+155692,Avon Crushed Crystals Esmalte Vinho Crystal,Crushed Crystals,Unhas,Unhas,9ml,,23.99,19.99,4.0,16.67,True,33,,avon-c14-2026,Avon,14
+135619,Avon Crushed Crystals Esmalte Vermelho Crystal,Crushed Crystals,Unhas,Unhas,9ml,,23.99,19.99,4.0,16.67,True,33,,avon-c14-2026,Avon,14
+135615,Avon Crushed Crystals Esmalte Rosa Crystal,Crushed Crystals,Unhas,Unhas,9ml,,23.99,19.99,4.0,16.67,True,33,,avon-c14-2026,Avon,14
+135613,Avon Crushed Crystals Esmalte Prata Crystal,Crushed Crystals,Unhas,Unhas,9ml,,23.99,19.99,4.0,16.67,True,33,,avon-c14-2026,Avon,14
+135614,Avon Crushed Crystals Esmalte Preto Crystal,Crushed Crystals,Unhas,Unhas,9ml,,23.99,19.99,4.0,16.67,True,33,,avon-c14-2026,Avon,14
+136166,Avon Ultra Color Esmalte 60s Suspiro,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135646,Avon Ultra Color Esmalte 60s Branco Supremo,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+136167,Avon Ultra Color Esmalte 60s Pedra Hematita,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135659,Avon Ultra Color Esmalte 60s Nude Sofisticado,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135650,Avon Ultra Color Esmalte 60s Chic Nude,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135668,Avon Ultra Color Esmalte 60s Vermelho Icônico,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135653,Avon Ultra Color Esmalte 60s Deu na Telha,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135655,Avon Ultra Color Esmalte 60s Maçã Encantada,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135667,Avon Ultra Color Esmalte 60s Vermelho Desejo,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135661,Avon Ultra Color Esmalte 60s Pink Bistrô,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135664,Avon Ultra Color Esmalte 60s Reino Encantado,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135651,Avon Ultra Color Esmalte 60s Contos de Fadas,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135671,Avon Ultra Color Esmalte 60s Vinho Nobreza,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135645,Avon Ultra Color Esmalte 60s Beleza Púrpura,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+136163,Avon Ultra Color Esmalte 60s Meu Número,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135666,Avon Ultra Color Esmalte 60s Verde Urbano,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+135663,Avon Ultra Color Esmalte 60s Preto Total,Ultra Color,Unhas,Unhas,9ml,,21.99,,,,False,33,,avon-c14-2026,Avon,14
+136141,Color Trend Esmalte Poder do Nude,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136130,Color Trend Esmalte Casaco de Linho,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136113,Color Trend Esmalte Explosão Pink,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136136,Color Trend Esmalte Cappuccino Cremoso,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+159453,Color Trend Esmalte Nude Rosa,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136131,Color Trend Esmalte Flor do Campo,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136112,Color Trend Esmalte Mar do Caribe,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136109,Color Trend Esmalte Rosa Choquei,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+159456,Color Trend Esmalte Maçã do Amor,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136125,Color Trend Esmalte Quarta de Clássico,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136142,Color Trend Esmalte Recife de Coral,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+159454,Color Trend Esmalte Picolé de Uva,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+159455,Color Trend Esmalte Raspadinha de Groselha,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136127,Color Trend Esmalte Meu Pink Favorito,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136129,Color Trend Esmalte Bala de Uva,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136133,Color Trend Esmalte Cimento Queimado,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136134,Color Trend Esmalte Preto Noite,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136132,Color Trend Esmalte Branco Leite,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136137,Color Trend Esmalte Tijolinho,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136110,Color Trend Esmalte Beijo da Meia-Noite,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+136140,Color Trend Esmalte Doce de Pistache,Color Trend,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+189859,Color Trend Esmalte Coleção Moranguinho Pêssego Baby,Color Trend Moranguinho,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+189858,Color Trend Esmalte Coleção Moranguinho Rosê Sabe Tudo,Color Trend Moranguinho,Unhas,Unhas,7ml,,8.49,5.99,2.5,29.45,True,33,,avon-c14-2026,Avon,14
+198706,Kiss Matte Batom FPS 15 Atitude Rosa,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198700,Kiss Matte Batom FPS 15 Rosa Rústico,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198707,Kiss Matte Batom FPS 15 Rosa Fantasia,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198704,Kiss Matte Batom FPS 15 Vinho Tinto,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198701,Kiss Matte Batom FPS 15 Canela,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198708,Kiss Matte Batom FPS 15 Nude Mousse,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198703,Kiss Matte Batom FPS 15 Classic Mocca,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198699,Kiss Matte Batom FPS 15 Marrom Intenso,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198698,Kiss Matte Batom FPS 15 Rose in Love,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198705,Kiss Matte Batom FPS 15 Frapê de Groselha,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198697,Kiss Matte Batom FPS 15 Essência de Cranberry,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+198702,Kiss Matte Batom FPS 15 Spray de Pimenta,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,16.49,5.5,25.01,True,34,,avon-c14-2026,Avon,14
+153973,Lápis Delineador para Olhos e Boca Paixão por Roxão,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,15.99,,,False,35,,avon-c14-2026,Avon,14
+190149,Lápis Delineador para Olhos e Boca Pink Dopamina,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,15.99,,,False,35,,avon-c14-2026,Avon,14
+190147,Lápis Delineador para Olhos e Boca Nude Plenitude,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,15.99,,,False,35,,avon-c14-2026,Avon,14
+190151,Lápis Delineador para Olhos e Boca Batida de Vinho,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,15.99,,,False,35,,avon-c14-2026,Avon,14
+159439,Lápis Delineador para Olhos e Boca Ao Leite,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,15.99,,,False,35,,avon-c14-2026,Avon,14
+159441,Lápis Delineador para Olhos e Boca Belga,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,15.99,,,False,35,,avon-c14-2026,Avon,14
+159440,Lápis Delineador para Olhos e Boca Amargo,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,15.99,,,False,35,,avon-c14-2026,Avon,14
+135104,Brilho Rollette sem Glitter Menta Queridinha,Color Trend,Maquiagem,Maquiagem,"5,5 ml",,19.99,13.99,6.0,30.02,True,35,,avon-c14-2026,Avon,14
+146983,Brilho Rollette sem Glitter Cobertura de Chocolate,Color Trend,Maquiagem,Maquiagem,"5,5 ml",,19.99,13.99,6.0,30.02,True,35,,avon-c14-2026,Avon,14
+135103,Brilho Rollette sem Glitter Drink de Amora,Color Trend,Maquiagem,Maquiagem,"5,5 ml",,19.99,13.99,6.0,30.02,True,35,,avon-c14-2026,Avon,14
+146982,Brilho Rollette sem Glitter Chiclete de Tutti-Frutti,Color Trend,Maquiagem,Maquiagem,"5,5 ml",,19.99,13.99,6.0,30.02,True,35,,avon-c14-2026,Avon,14
+136177,Batom Líquido Matte D'licious Cupcake,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136176,Batom Líquido Matte D'licious Red Velvet,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136175,Batom Líquido Matte D'licious Maçã do Amor,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+169810,Batom Líquido Matte D'licious Picolé de Uva,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136170,Batom Líquido Matte D'licious Brownie Trufado,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136168,Batom Líquido Matte D'licious Docinho de Leite,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136169,Batom Líquido Matte D'licious Geladinho de Caramelo,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+169809,Batom Líquido Matte D'licious Pavê de Morango,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+169811,Batom Líquido Matte D'licious Raspadinha de Groselha,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136172,Batom Líquido Matte D'licious Beijinho Doce,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136174,Batom Líquido Matte D'licious Cereja do Bolo,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136171,Batom Líquido Matte D'licious Merengue,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+136173,Batom Líquido Matte D'licious Rosé Suspiro,Color Trend,Maquiagem,Maquiagem,4 ml,,24.99,24.99,,,False,35,,avon-c14-2026,Avon,14
+135107,Brilho Rollette com Glitter para Lábios Morango Vibes,Color Trend,Maquiagem,Maquiagem,"5,5ml",,19.99,19.99,,,False,36,,avon-c14-2026,Avon,14
+135602,Brilho Rollette com Glitter para Lábios Uva Lovers,Color Trend,Maquiagem,Maquiagem,"5,5ml",,19.99,19.99,,,False,36,,avon-c14-2026,Avon,14
+182390,Hidratante Labial FPS 20 Amora,Color Trend,Maquiagem,Maquiagem,"4,5g",,17.99,17.99,,,False,36,,avon-c14-2026,Avon,14
+182392,Hidratante Labial FPS 20 Morango,Color Trend,Maquiagem,Maquiagem,"4,5g",,17.99,17.99,,,False,36,,avon-c14-2026,Avon,14
+182391,Hidratante Labial FPS 20 Coco,Color Trend,Maquiagem,Maquiagem,"4,5g",,17.99,17.99,,,False,36,,avon-c14-2026,Avon,14
+174928,Color Trend Brilho Labial Moranguinho 2 em 1 - C,Color Trend,Maquiagem,Maquiagem,10g,,49.99,39.99,10.0,20.0,True,36,,avon-c14-2026,Avon,14
+135587,Kiss Hidra Batom Flamingo - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135582,Kiss Hidra Batom Goiaba - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135584,Kiss Hidra Batom Grape - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135588,Kiss Hidra Batom Rosa Chiclete - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135585,Kiss Hidra Batom Vermelho Pop - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135580,Kiss Hidra Batom Carmim - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135581,Kiss Hidra Batom Vermelho Café - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135586,Kiss Hidra Batom Pipoca Doce - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135583,Kiss Hidra Batom Bombom - C,Color Trend,Maquiagem,Maquiagem,"3,6g",,21.99,21.99,,,False,36,,avon-c14-2026,Avon,14
+135423,Matte Real Base Líquida Matte à Prova D'Água 110 F,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135424,Matte Real Base Líquida Matte à Prova D'Água 120 NQ,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135425,Matte Real Base Líquida Matte à Prova D'Água 130 F,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135426,Matte Real Base Líquida Matte à Prova D'Água 140 Q,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135427,Matte Real Base Líquida Matte à Prova D'Água 210 Q,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135428,Matte Real Base Líquida Matte à Prova D'Água 220 NQ,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135429,Matte Real Base Líquida Matte à Prova D'Água 230 NF,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135430,Matte Real Base Líquida Matte à Prova D'Água 240 N,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135431,Matte Real Base Líquida Matte à Prova D'Água 310 NF,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135432,Matte Real Base Líquida Matte à Prova D'Água 320 Q,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135433,Matte Real Base Líquida Matte à Prova D'Água 330 Q,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135434,Matte Real Base Líquida Matte à Prova D'Água 340 Q,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135435,Matte Real Base Líquida Matte à Prova D'Água 410 NQ,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135436,Matte Real Base Líquida Matte à Prova D'Água 420 Q,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135437,Matte Real Base Líquida Matte à Prova D'Água 430 F,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135438,Matte Real Base Líquida Matte à Prova D'Água 440 NF,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135439,Matte Real Base Líquida Matte à Prova D'Água 510 N,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135440,Matte Real Base Líquida Matte à Prova D'Água 520 NQ,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135441,Matte Real Base Líquida Matte à Prova D'Água 530 N,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135442,Matte Real Base Líquida Matte à Prova D'Água 540 F,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,,,,False,37,,avon-c14-2026,Avon,14
+135467,Matte Real Pó Compacto Facial à Prova D'Água 112 F,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135468,Matte Real Pó Compacto Facial à Prova D'Água 132 Q,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135469,Matte Real Pó Compacto Facial à Prova D'Água 212 N,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135470,Matte Real Pó Compacto Facial à Prova D'Água 232 N,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135471,Matte Real Pó Compacto Facial à Prova D'Água 312 F,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135472,Matte Real Pó Compacto Facial à Prova D'Água 332 Q,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135473,Matte Real Pó Compacto Facial à Prova D'Água 412 Q,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135474,Matte Real Pó Compacto Facial à Prova D'Água 432 N,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135475,Matte Real Pó Compacto Facial à Prova D'Água 512 N,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135476,Matte Real Pó Compacto Facial à Prova D'Água 532 N,Color Trend,Maquiagem,Maquiagem,8g,,34.99,,,,False,37,,avon-c14-2026,Avon,14
+135487,Matte Real Pó Compacto Facial FPS 10 112 F,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135488,Matte Real Pó Compacto Facial FPS 10 132 Q,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135489,Matte Real Pó Compacto Facial FPS 10 212 N,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135490,Matte Real Pó Compacto Facial FPS 10 312 F,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135491,Matte Real Pó Compacto Facial FPS 10 332 Q,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135492,Matte Real Pó Compacto Facial FPS 10 352 N,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135493,Matte Real Pó Compacto Facial FPS 10 412 Q,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135494,Matte Real Pó Compacto Facial FPS 10 432 N,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135495,Matte Real Pó Compacto Facial FPS 10 512 N,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135496,Matte Real Pó Compacto Facial FPS 10 532 N,Color Trend,Maquiagem,Maquiagem,7g,,24.99,20.99,4.0,16.01,True,37,,avon-c14-2026,Avon,14
+135455,Matte Real Base em Bastão FPS 20 120 NQ,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135456,Matte Real Base em Bastão FPS 20 140 Q,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135457,Matte Real Base em Bastão FPS 20 210 Q,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135458,Matte Real Base em Bastão FPS 20 220 NQ,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135459,Matte Real Base em Bastão FPS 20 240 N,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135460,Matte Real Base em Bastão FPS 20 320 Q,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135461,Matte Real Base em Bastão FPS 20 330 Q,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135462,Matte Real Base em Bastão FPS 20 340 Q,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135463,Matte Real Base em Bastão FPS 20 420 Q,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135464,Matte Real Base em Bastão FPS 20 430 F,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135465,Matte Real Base em Bastão FPS 20 510 N,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+135466,Matte Real Base em Bastão FPS 20 520 NQ,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+200614,Multi Stick 3 em 1 Blush Coral Fresh,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+200573,Multi Stick 3 em 1 Blush Rosé Pop,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+200575,Multi Stick 3 em 1 Iluminador Bronze Glam,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+200574,Multi Stick 3 em 1 Iluminador Puro Glow,Color Trend,Maquiagem,Maquiagem,"6,5g",,29.99,21.99,8.0,26.68,True,38,,avon-c14-2026,Avon,14
+239156,Delineador Líquido para Olhos Acabamento Metálico Vermelho Metálico,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+239153,Delineador Líquido para Olhos Acabamento Metálico Prata Metálico,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+239154,Delineador Líquido para Olhos Acabamento Metálico Azul Metálico,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+135075,Lápis para Delinear os Olhos Rosa Flamingo,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,,,,False,39,,avon-c14-2026,Avon,14
+135256,Lápis para Delinear os Olhos Azul Matte,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,,,,False,39,,avon-c14-2026,Avon,14
+135258,Lápis para Delinear os Olhos Preto Matte,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,,,,False,39,,avon-c14-2026,Avon,14
+135260,Lápis para Delinear os Olhos Tudo Nude,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,,,,False,39,,avon-c14-2026,Avon,14
+135257,Lápis para Delinear os Olhos Marrom Matte,Color Trend,Maquiagem,Maquiagem,"1,1 g",,15.99,,,,False,39,,avon-c14-2026,Avon,14
+239160,Delineador Líquido para Olhos Acabamento Matte Branco,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+239159,Delineador Líquido para Olhos Acabamento Matte Rosa Verão,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+239161,Delineador Líquido para Olhos Acabamento Matte Lilás,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+239155,Delineador Líquido para Olhos Acabamento Matte Marrom,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+239158,Delineador Líquido para Olhos Acabamento Matte Preto,Color Trend,Maquiagem,Maquiagem,3 ml,,25.99,,,,False,39,,avon-c14-2026,Avon,14
+135245,Lápis de Sobrancelhas Médio,Color Trend,Maquiagem,Maquiagem,"1,1 g",,16.99,,,,False,39,,avon-c14-2026,Avon,14
+135244,Lápis de Sobrancelhas Escuro,Color Trend,Maquiagem,Maquiagem,"1,1 g",,16.99,,,,False,39,,avon-c14-2026,Avon,14
+135247,Delineador Retrátil para Olhos Laranja Neon,Color Trend,Maquiagem,Maquiagem,350 mg,,17.99,8.99,9.0,50.03,True,39,,avon-c14-2026,Avon,14
+135248,Delineador Retrátil para Olhos Pink Neon,Color Trend,Maquiagem,Maquiagem,350 mg,,17.99,8.99,9.0,50.03,True,39,,avon-c14-2026,Avon,14
+135250,Delineador Retrátil para Olhos Verde Neon,Color Trend,Maquiagem,Maquiagem,350 mg,,17.99,8.99,9.0,50.03,True,39,,avon-c14-2026,Avon,14
+135246,Delineador Retrátil para Olhos Branco,Color Trend,Maquiagem,Maquiagem,350 mg,,17.99,8.99,9.0,50.03,True,39,,avon-c14-2026,Avon,14
+135249,Delineador Retrátil para Olhos Preto,Color Trend,Maquiagem,Maquiagem,350 mg,,17.99,8.99,9.0,50.03,True,39,,avon-c14-2026,Avon,14
+193839,Paleta de Sombras para Olhos Candy Vibe,Color Trend,Maquiagem,Maquiagem,"4,2 g",,54.99,34.99,20.0,36.37,True,39,,avon-c14-2026,Avon,14
+193841,Paleta de Sombras para Olhos Ocean Vibe,Color Trend,Maquiagem,Maquiagem,"4,2 g",,54.99,34.99,20.0,36.37,True,39,,avon-c14-2026,Avon,14
+193840,Paleta de Sombras para Olhos Sun Vibe,Color Trend,Maquiagem,Maquiagem,"4,2 g",,54.99,34.99,20.0,36.37,True,39,,avon-c14-2026,Avon,14
+152713,Mega Blaster Máscara para Cílios,Color Trend,Maquiagem,Maquiagem,7g,,29.99,,,,False,40,,avon-c14-2026,Avon,14
+152766,Máscara Incolor para Cílios e Sobrancelhas,Color Trend,Maquiagem,Maquiagem,8g,,29.99,,,,False,40,,avon-c14-2026,Avon,14
+135274,Máscara para Cílios Volume Perfeito à Prova D'Água,Color Trend,Maquiagem,Maquiagem,7ml,,29.99,,,,False,40,,avon-c14-2026,Avon,14
+156979,Máscara Alongadora para Cílios à Prova D'Água Super Looong,Color Trend,Maquiagem,Maquiagem,7ml,,29.99,19.99,10.0,33.34,True,40,,avon-c14-2026,Avon,14
+135271,Máscara para Cílios Alongadora Super Looong,Color Trend,Maquiagem,Maquiagem,7ml,,29.99,19.99,10.0,33.34,True,40,,avon-c14-2026,Avon,14
+238130,Far Away Infinity Deo Parfum,Far Away,Perfumaria,Perfumaria,50ml,,124.9,,,,False,41,,avon-c14-2026,Avon,14
+163483,Far Away Deo Parfum,Far Away,Perfumaria,Perfumaria,50ml,,124.9,,,,False,41,,avon-c14-2026,Avon,14
+163475,Far Away Shine Deo Parfum,Far Away,Perfumaria,Perfumaria,50ml,,124.9,,,,False,41,,avon-c14-2026,Avon,14
+245994,Sweet Honesty Fun Deo Parfum,Iconic Collection,Perfumaria,Perfumaria,100ml,,169.9,,,,False,42,,avon-c14-2026,Avon,14
+245999,Charisma Magnetic Deo Parfum,Iconic Collection,Perfumaria,Perfumaria,100ml,,169.9,,,,False,42,,avon-c14-2026,Avon,14
+245995,Toque de Amor Lovely Deo Parfum,Iconic Collection,Perfumaria,Perfumaria,100ml,,169.9,149.9,20.0,11.77,True,42,,avon-c14-2026,Avon,14
+245993,Topaze Elegant Deo Parfum,Iconic Collection,Perfumaria,Perfumaria,100ml,,169.9,149.9,20.0,11.77,True,42,,avon-c14-2026,Avon,14
+136078,LOV|U A Touch Deo Parfum,LOV|U,Perfumaria,Perfumaria,75ml,,144.9,,,,False,43,,avon-c14-2026,Avon,14
+136077,LOV|U Deo Parfum,LOV|U,Perfumaria,Perfumaria,75ml,,144.9,,,,False,43,,avon-c14-2026,Avon,14
+135865,LOV|U Date Night Deo Parfum,LOV|U,Perfumaria,Perfumaria,75ml,,144.9,,,,False,43,,avon-c14-2026,Avon,14
+174216,LOV|U Together Deo Parfum,LOV|U,Perfumaria,Perfumaria,75ml,,144.9,,,,False,43,,avon-c14-2026,Avon,14
+152730,LOV|U Connected Deo Parfum,LOV|U,Perfumaria,Perfumaria,75ml,,144.9,,,,False,43,,avon-c14-2026,Avon,14
+135892,Pur Blanca Hope Deo Colônia,Pur Blanca,Perfumaria,Perfumaria,75ml,,79.9,,,,False,44,,avon-c14-2026,Avon,14
+135893,Pur Blanca My Essence Deo Colônia,Pur Blanca,Perfumaria,Perfumaria,75ml,,79.9,,,,False,44,,avon-c14-2026,Avon,14
+135891,Pur Blanca Gardênia Deo Colônia,Pur Blanca,Perfumaria,Perfumaria,75ml,,79.9,,,,False,44,,avon-c14-2026,Avon,14
+135895,Pur Blanca Serenity Deo Colônia,Pur Blanca,Perfumaria,Perfumaria,75ml,,79.9,69.9,10.0,12.52,True,44,,avon-c14-2026,Avon,14
+135890,Pur Blanca Charm Deo Colônia,Pur Blanca,Perfumaria,Perfumaria,75ml,,79.9,69.9,10.0,12.52,True,44,,avon-c14-2026,Avon,14
+135894,Pur Blanca Noite Deo Colônia,Pur Blanca,Perfumaria,Perfumaria,75ml,,79.9,69.9,10.0,12.52,True,44,,avon-c14-2026,Avon,14
+135889,Pur Blanca Deo Colônia,Pur Blanca,Perfumaria,Perfumaria,75ml,,79.9,69.9,10.0,12.52,True,44,,avon-c14-2026,Avon,14
+163484,Far Away Glamour Deo Parfum,Far Away,Perfumaria,Perfumaria,50 ml,,124.9,,,,False,45,,avon-c14-2026,Avon,14
+163486,Far Away Splendoria Deo Parfum,Far Away,Perfumaria,Perfumaria,50 ml,,124.9,,,,False,45,,avon-c14-2026,Avon,14
+163485,Far Away Beyond Deo Parfum,Far Away,Perfumaria,Perfumaria,50 ml,,124.9,,,,False,45,,avon-c14-2026,Avon,14
+163487,Far Away Moon Deo Parfum,Far Away,Perfumaria,Perfumaria,50 ml,,124.9,,,,False,45,,avon-c14-2026,Avon,14
+135857,Imari Queen Deo Colônia,Imari,Perfumaria,Perfumaria,50 ml,,84.9,,,,False,45,,avon-c14-2026,Avon,14
+135858,Imari Rouge Deo Colônia,Imari,Perfumaria,Perfumaria,50 ml,,84.9,,,,False,45,,avon-c14-2026,Avon,14
+136091,Imari Eclipse Deo Colônia,Imari,Perfumaria,Perfumaria,50 ml,,84.9,,,,False,45,,avon-c14-2026,Avon,14
+135790,Petit Attitude Girl Power Deo Colônia,Petit Attitude,Perfumaria,Perfumaria,50 ml,,64.9,,,,False,45,,avon-c14-2026,Avon,14
+135791,Petit Attitude Libellule Deo Colônia,Petit Attitude,Perfumaria,Perfumaria,50 ml,,64.9,,,,False,45,,avon-c14-2026,Avon,14
+135789,Petit Attitude Lavanda Deo Colônia,Petit Attitude,Perfumaria,Perfumaria,50 ml,,64.9,,,,False,45,,avon-c14-2026,Avon,14
+135792,Petit Attitude Deo Colônia,Petit Attitude,Perfumaria,Perfumaria,50 ml,,64.9,,,,False,45,,avon-c14-2026,Avon,14
+169181,Attraction Closer para Ele Deo Colônia,Attraction,Perfumaria,Perfumaria,75ml,,134.9,,,,False,46,,avon-c14-2026,Avon,14
+169180,Attraction Closer para Ela Deo Parfum,Attraction,Perfumaria,Perfumaria,50ml,,134.9,,,,False,46,,avon-c14-2026,Avon,14
+135796,Attraction Awaken para Ele Deo Colônia,Attraction,Perfumaria,Perfumaria,75ml,,134.9,,,,False,46,,avon-c14-2026,Avon,14
+135793,Attraction Awaken para Ela Deo Parfum,Attraction,Perfumaria,Perfumaria,50ml,,134.9,,,,False,46,,avon-c14-2026,Avon,14
+136090,Attraction Sensation para Ele Deo Colônia,Attraction,Perfumaria,Perfumaria,75ml,,134.9,94.9,40.0,29.65,True,46,,avon-c14-2026,Avon,14
+135795,Attraction Sensation para Ela Deo Parfum,Attraction,Perfumaria,Perfumaria,50ml,,134.9,94.9,40.0,29.65,True,46,,avon-c14-2026,Avon,14
+135797,Attraction Desire para Ele Deo Colônia,Attraction,Perfumaria,Perfumaria,75ml,,134.9,94.9,40.0,29.65,True,46,,avon-c14-2026,Avon,14
+135794,Attraction Desire para Ela Deo Parfum,Attraction,Perfumaria,Perfumaria,50ml,,134.9,94.9,40.0,29.65,True,46,,avon-c14-2026,Avon,14
+135818,Absolute by Exclusive Deo Colônia,Exclusive,Perfumaria,Perfumaria,50 ml,,124.9,,,,False,47,,avon-c14-2026,Avon,14
+135821,Exclusive Reserve Deo Colônia,Exclusive,Perfumaria,Perfumaria,75 ml,,124.9,,,,False,47,,avon-c14-2026,Avon,14
+135819,Exclusive Quest Deo Colônia,Exclusive,Perfumaria,Perfumaria,75 ml,,124.9,,,,False,47,,avon-c14-2026,Avon,14
+135820,Exclusive In Black Deo Colônia,Exclusive,Perfumaria,Perfumaria,75 ml,,124.9,,,,False,47,,avon-c14-2026,Avon,14
+135899,Segno True Deo Parfum,Segno,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,47,,avon-c14-2026,Avon,14
+135898,Segno Deo Parfum,Segno,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,47,,avon-c14-2026,Avon,14
+135896,Segno Impact Deo Parfum,Segno,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,47,,avon-c14-2026,Avon,14
+135897,Segno Visionary Deo Parfum,Segno,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,47,,avon-c14-2026,Avon,14
+175089,Black Essential Secret Deo Colônia,Black Essential,Perfumaria,Perfumaria,100ml,,99.9,,,,False,48,,avon-c14-2026,Avon,14
+174485,Black Essential Charm Deo Colônia,Black Essential,Perfumaria,Perfumaria,100ml,,99.9,,,,False,48,,avon-c14-2026,Avon,14
+176064,Black Essential Intense Deo Colônia,Black Essential,Perfumaria,Perfumaria,100ml,,99.9,,,,False,48,,avon-c14-2026,Avon,14
+175586,Black Essential Real Deo Colônia,Black Essential,Perfumaria,Perfumaria,100ml,,99.9,,,,False,48,,avon-c14-2026,Avon,14
+175092,Black Essential Deo Colônia,Black Essential,Perfumaria,Perfumaria,100ml,,99.9,74.9,25.0,25.03,True,48,,avon-c14-2026,Avon,14
+175087,Black Essential Dark Deo Colônia,Black Essential,Perfumaria,Perfumaria,100ml,,99.9,74.9,25.0,25.03,True,48,,avon-c14-2026,Avon,14
+175093,Black Essential Real Intense Deo Colônia,Black Essential,Perfumaria,Perfumaria,100ml,,99.9,74.9,25.0,25.03,True,48,,avon-c14-2026,Avon,14
+155708,300 Km/h Boost Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+135846,300 Km/h Quantum Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+135847,300 Km/h Surfer Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+136076,300 Km/h Power Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+135842,300 Km/h Virtual Adrenaline Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+135844,300 Km/h Nitro Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+135848,300 Km/h Pulse Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+135849,300 Km/h Max Turbo Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+135843,300 Km/h Electric Deo Colônia,300 Km/h,Perfumaria,Perfumaria,100ml,,99.9,,,,False,49,,avon-c14-2026,Avon,14
+220974,Musk+ Exhale Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+178913,Musk+ Marine Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+135884,Musk+ Freeze Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+135883,Musk+ Air Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+135888,Musk+ Mineralis Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+155707,Musk+ Metropolitano Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+175589,Musk+ Rain Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+135885,Musk+ Instinct Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+135886,Musk+ Intense Deo Colônia,Musk+,Perfumaria,Perfumaria,75ml,,75.9,,,,False,50,,avon-c14-2026,Avon,14
+195069,Musk Marine Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+152167,Musk Freeze Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+152168,Musk Mineralis Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+152165,Musk Intense Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+152170,Musk Air Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+156980,Musk Metropolitano Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+152169,Musk Instinct Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+202325,Musk Rain Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+220975,Musk Exhale Body Splash,Musk,Perfumaria,Perfumaria,150ml,,44.99,29.99,15.0,33.34,True,51,,avon-c14-2026,Avon,14
+244376,Aquavibe Refrescantes Body Splash Pretty Blue,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,,,,False,52,,avon-c14-2026,Avon,14
+244377,Aquavibe Refrescantes Body Splash Romã,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,,,,False,52,,avon-c14-2026,Avon,14
+244372,Aquavibe Refrescantes Body Splash Alfazema,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,,,,False,52,,avon-c14-2026,Avon,14
+244375,Aquavibe Refrescantes Body Splash Jabuticaba,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,,,,False,52,,avon-c14-2026,Avon,14
+244371,Aquavibe Refrescantes Body Splash Melancia,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,,,,False,52,,avon-c14-2026,Avon,14
+244373,Aquavibe Refrescantes Body Splash Chypre,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,44.99,5.0,10.0,True,52,,avon-c14-2026,Avon,14
+244378,Aquavibe Refrescantes Body Splash Pitanga,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,44.99,5.0,10.0,True,52,,avon-c14-2026,Avon,14
+244379,Aquavibe Refrescantes Body Splash Lichia e Baunilha,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,44.99,5.0,10.0,True,52,,avon-c14-2026,Avon,14
+244374,Aquavibe Refrescantes Body Splash Lavanda,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,44.99,5.0,10.0,True,52,,avon-c14-2026,Avon,14
+244370,Aquavibe Refrescantes Body Splash Baby Smell,Aquavibe,Perfumaria,Perfumaria,250ml,,49.99,44.99,5.0,10.0,True,52,,avon-c14-2026,Avon,14
+196329,Goiaba e Maracujá Creme Esfoliante para os Pés,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,80g,,23.99,19.99,4.0,16.67,True,53,,avon-c14-2026,Avon,14
+206233,Goiaba e Maracujá Spray Refrescante para os Pés,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,100ml,,23.99,19.99,4.0,16.67,True,53,,avon-c14-2026,Avon,14
+196330,Goiaba e Maracujá Creme Hidratante para os Pés,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,80g,,21.99,17.99,4.0,18.19,True,53,,avon-c14-2026,Avon,14
+174930,Desodorante para os Pés em Spray,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,100 ml,,23.99,,,,False,54,,avon-c14-2026,Avon,14
+176052,Sérum Hidratante para os Pés,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,30 ml,,23.99,,,,False,54,,avon-c14-2026,Avon,14
+174932,Creme Esfoliante para os Pés,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,80 g,,23.99,,,,False,54,,avon-c14-2026,Avon,14
+174929,Creme Hidratante Noturno para os Pés,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,80 g,,21.99,,,,False,54,,avon-c14-2026,Avon,14
+174931,Creme Hidratante para Pés Extrassecos,Care Footworks,Cuidados Pessoais,Cuidados Pessoais,80 g,,21.99,,,,False,54,,avon-c14-2026,Avon,14
+161066,Luvas de Silicone Creme Protetor para as Mãos Original,Avon Care,Cuidados Pessoais,Cuidados Pessoais,120g,,24.99,,,,False,55,,avon-c14-2026,Avon,14
+266546,Luvas de Silicone Creme Protetor para as Mãos Erva Doce,Avon Care,Cuidados Pessoais,Cuidados Pessoais,75g,,19.99,11.99,8.0,40.02,True,55,,avon-c14-2026,Avon,14
+183284,Luvas de Silicone Creme Protetor para as Mãos Óleo de Coco,Avon Care,Cuidados Pessoais,Cuidados Pessoais,75g,,19.99,11.99,8.0,40.02,True,55,,avon-c14-2026,Avon,14
+161079,Luvas de Silicone Creme Protetor para as Mãos Macadâmia,Avon Care,Cuidados Pessoais,Cuidados Pessoais,75g,,19.99,11.99,8.0,40.02,True,55,,avon-c14-2026,Avon,14
+161072,Loção Corporal Macadâmia,Avon Care,Hidratação,Hidratação,200ml,,17.99,,,,False,56,,avon-c14-2026,Avon,14
+161075,Loção Corporal Frutas Vermelhas,Avon Care,Hidratação,Hidratação,200ml,,17.99,,,,False,56,,avon-c14-2026,Avon,14
+161653,Loção Corporal Óleo de Coco,Avon Care,Hidratação,Hidratação,200ml,,17.99,,,,False,56,,avon-c14-2026,Avon,14
+161074,Loção Corporal Manteiga de Cacau,Avon Care,Hidratação,Hidratação,200ml,,17.99,,,,False,56,,avon-c14-2026,Avon,14
+161071,Loção Corporal Frutas Cítricas e Gengibre,Avon Care,Hidratação,Hidratação,200ml,,17.99,,,,False,56,,avon-c14-2026,Avon,14
+161073,Loção Corporal Aveia e Extrato de Baunilha,Avon Care,Hidratação,Hidratação,200ml,,17.99,12.99,5.0,27.79,True,56,,avon-c14-2026,Avon,14
+179426,Loção Corporal Cereja,Avon Care,Hidratação,Hidratação,200ml,,17.99,12.99,5.0,27.79,True,56,,avon-c14-2026,Avon,14
+197212,Loção Corporal Óleo de Jojoba e Karité,Avon Care,Hidratação,Hidratação,200ml,,17.99,12.99,5.0,27.79,True,56,,avon-c14-2026,Avon,14
+161654,Loção Corporal Leite de Amêndoas,Avon Care,Hidratação,Hidratação,200ml,,17.99,12.99,5.0,27.79,True,56,,avon-c14-2026,Avon,14
+179427,Loção Corporal Cereja Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+161070,Loção Corporal Aveia e Extrato de Baunilha Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+201477,Loção Corporal Óleo de Jojoba e Karité Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+161067,Loção Corporal Leite de Amêndoas Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+161076,Loção Corporal Óleo de Coco Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+161069,Loção Corporal Macadâmia Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+161077,Loção Corporal Manteiga de Cacau Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+246075,Loção Corporal Erva Doce Avon Care,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,57,,avon-c14-2026,Avon,14
+222047,Sun+ Babies & Kids Protetor Solar com Cor FPS 50,Avon Care Sun+,Proteção Solar,Proteção Solar,120g,,61.9,49.99,11.91,19.24,True,58,,avon-c14-2026,Avon,14
+222045,Frutas Vermelhas Loção Corporal,Avon Care,Hidratação Corporal,Hidratação Corporal,700ml,,44.99,,,,False,58,,avon-c14-2026,Avon,14
+222046,Frutas Vermelhas Creme para as Mãos,Avon Care,Cuidados com as Mãos,Cuidados com as Mãos,75g,,19.99,,,,False,58,,avon-c14-2026,Avon,14
+135178,Shampoo 2 em 1 Sem Lágrimas,Avon Care Baby,Cabelos,Cabelos,700ml,,59.9,,,,False,58,,avon-c14-2026,Avon,14
+152795,Colônia Cheirinho de Neném,Avon Care Baby,Perfumaria Infantil,Perfumaria Infantil,100ml,,32.99,,,,False,58,,avon-c14-2026,Avon,14
+152794,Calming Colônia,Avon Care Baby,Perfumaria Infantil,Perfumaria Infantil,100ml,,32.99,,,,False,58,,avon-c14-2026,Avon,14
+136071,Protetor Solar Baby FPS 40,Avon Care Baby,Proteção Solar,Proteção Solar,120g,,61.9,,,,False,58,,avon-c14-2026,Avon,14
+224573,Creme Depilatório para o Corpo,Care Depilatório,Cuidados Pessoais,Cuidados Pessoais,125 g,,39.99,,,,False,59,,avon-c14-2026,Avon,14
+224572,Creme Depilatório para o Rosto,Care Depilatório,Cuidados Pessoais,Cuidados Pessoais,30 g,,29.99,21.99,8.0,26.68,True,59,,avon-c14-2026,Avon,14
+136066,Protetor Solar FPS 70 Rosto e Corpo,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,120 g,,72.9,,,,False,60,,avon-c14-2026,Avon,14
+136068,Gel Hidratante Corporal Pós-Sol,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,120 g,,44.99,,,,False,60,,avon-c14-2026,Avon,14
+136070,Protetor Solar Rosto Controle de Brilho FPS 50,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,40 g,,51.9,,,,False,60,,avon-c14-2026,Avon,14
+136063,Protetor Solar Rosto e Corpo FPS 50,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,120 g,,51.9,,,,False,60,,avon-c14-2026,Avon,14
+136064,Protetor Solar 2 em 1 FPS 50,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,200 g,,64.9,54.99,9.91,15.27,True,60,,avon-c14-2026,Avon,14
+136069,Protetor Solar Rosto Controle de Brilho FPS 30,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,40g,,44.99,44.99,,,False,61,,avon-c14-2026,Avon,14
+136061,Protetor Solar FPS 30,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,120g,,44.99,44.99,,,False,61,,avon-c14-2026,Avon,14
+136067,Protetor Solar Refrescante FPS 30,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,120g,,44.99,44.99,,,False,61,,avon-c14-2026,Avon,14
+136062,Protetor Solar FPS 30,Avon Care Sun+,Cuidados Pessoais,Cuidados Pessoais,200g,,54.9,42.9,12.0,21.86,True,61,,avon-c14-2026,Avon,14
+169004,Sabonete Líquido Íntimo Gentle,Avon Care Intimate,Cuidados Pessoais,Cuidados Pessoais,125ml,,17.99,14.99,3.0,16.68,True,62,,avon-c14-2026,Avon,14
+169005,Sabonete Líquido Íntimo Active,Avon Care Intimate,Cuidados Pessoais,Cuidados Pessoais,125ml,,17.99,14.99,3.0,16.68,True,62,,avon-c14-2026,Avon,14
+169003,Sabonete Líquido Íntimo Gentle,Avon Care Intimate,Cuidados Pessoais,Cuidados Pessoais,250ml,,24.99,,,,False,62,,avon-c14-2026,Avon,14
+169008,Sabonete Líquido Íntimo Fresh,Avon Care Intimate,Cuidados Pessoais,Cuidados Pessoais,250ml,,24.99,,,,False,62,,avon-c14-2026,Avon,14
+167065,Conjunto Sabonetes Encanto (3 caixas),Encanto,Corpo e Banho,Corpo e Banho,12 unidades de 80g,,74.97,54.99,19.98,26.65,True,62,,avon-c14-2026,Avon,14
+146993,Sabonete Cremoso em Barra Irresistível & Poderosa Floral Vibrante,Encanto,Corpo e Banho,Corpo e Banho,4 unidades de 80g,,24.99,,,,False,62,,avon-c14-2026,Avon,14
+146992,Sabonete Cremoso em Barra Atraente & Deslumbrante Floral Marcante,Encanto,Corpo e Banho,Corpo e Banho,4 unidades de 80g,,24.99,,,,False,62,,avon-c14-2026,Avon,14
+146991,Sabonete Cremoso em Barra Glamourosa & Cativante Chipre Envolvente,Encanto,Corpo e Banho,Corpo e Banho,4 unidades de 80g,,24.99,,,,False,62,,avon-c14-2026,Avon,14
+214705,Óleo de Coco Sabonete Líquido Corporal,Avon Care,Corpo e Banho,Corpo e Banho,200ml,,14.99,,,,False,62,,avon-c14-2026,Avon,14
+187137,Desodorante Antitranspirante Roll-On Hidratação Suave,Avon Care,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.99,11.99,,,False,63,,avon-c14-2026,Avon,14
+187138,Desodorante Antitranspirante Roll-On Neutro Sem Perfume,Avon Care,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.99,11.99,,,False,63,,avon-c14-2026,Avon,14
+187710,Desodorante em Creme Antitranspirante Neutro Sem Perfume,Avon Care,Cuidados Pessoais,Cuidados Pessoais,50g,,11.99,11.99,,,False,63,,avon-c14-2026,Avon,14
+177793,Desodorante em Creme Antitranspirante Far Away,Far Away,Cuidados Pessoais,Cuidados Pessoais,50g,,11.49,7.66,3.83,33.33,True,63,,avon-c14-2026,Avon,14
+179546,Desodorante em Creme Antitranspirante Far Away Glamour,Far Away,Cuidados Pessoais,Cuidados Pessoais,50g,,11.49,7.66,3.83,33.33,True,63,,avon-c14-2026,Avon,14
+177792,Desodorante em Creme Antitranspirante Far Away Splendoria,Far Away,Cuidados Pessoais,Cuidados Pessoais,50g,,11.49,7.66,3.83,33.33,True,63,,avon-c14-2026,Avon,14
+135726,Desodorante em Creme Antitranspirante Erva-Doce,Erva Doce,Cuidados Pessoais,Cuidados Pessoais,50g,,11.49,7.66,3.83,33.33,True,63,,avon-c14-2026,Avon,14
+135725,Desodorante em Creme Antitranspirante Aquavibe Refrescantes Baby Smell,Aquavibe,Cuidados Pessoais,Cuidados Pessoais,50g,,11.49,7.66,3.83,33.33,True,63,,avon-c14-2026,Avon,14
+135758,Segno Desodorante Corporal em Spray,Segno,Cuidados Pessoais,Cuidados Pessoais,100ml,,49.99,,,,False,64,,avon-c14-2026,Avon,14
+135759,Segno Visionary Desodorante Corporal em Spray,Segno,Cuidados Pessoais,Cuidados Pessoais,100ml,,49.99,,,,False,64,,avon-c14-2026,Avon,14
+135754,300 Km/h Max Turbo Desodorante Corporal em Spray,300 Km/h,Cuidados Pessoais,Cuidados Pessoais,100ml,,49.99,,,,False,64,,avon-c14-2026,Avon,14
+135757,LOV|U Desodorante Corporal em Spray,LOV|U,Cuidados Pessoais,Cuidados Pessoais,100ml,,49.99,,,,False,64,,avon-c14-2026,Avon,14
+135753,Far Away Desodorante Corporal em Spray,Far Away,Cuidados Pessoais,Cuidados Pessoais,100ml,,49.99,,,,False,64,,avon-c14-2026,Avon,14
+135752,Far Away Glamour Desodorante Corporal em Spray,Far Away,Cuidados Pessoais,Cuidados Pessoais,100ml,,49.99,,,,False,64,,avon-c14-2026,Avon,14
+178866,Far Away Shine Desodorante Antitranspirante Roll-On,Far Away,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190376,Far Away Glamour Desodorante Antitranspirante Roll-On,Far Away,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190382,Far Away Desodorante Antitranspirante Roll-On,Far Away,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+230381,Erva-Doce Desodorante Antitranspirante Roll-On,Erva-Doce,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190379,Aquavibe Refrescantes Pretty Blue Desodorante Antitranspirante Roll-On,Aquavibe,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190381,Aquavibe Refrescantes Baby Smell Desodorante Antitranspirante Roll-On,Aquavibe,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190385,LOV|U Desodorante Antitranspirante Roll-On,LOV|U,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190383,300 Km/h Max Turbo Desodorante Antitranspirante Roll-On,300 Km/h,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190377,300 Km/h Quantum Desodorante Antitranspirante Roll-On,300 Km/h,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190388,Segno Desodorante Antitranspirante Roll-On,Segno,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190387,Musk Mineralis Desodorante Antitranspirante Roll-On,Musk,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190380,Musk Metropolitano Desodorante Antitranspirante Roll-On,Musk,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+178867,Far Away Moon Desodorante Antitranspirante Roll-On,Far Away,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+178868,Far Away Beyond Desodorante Antitranspirante Roll-On,Far Away,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190384,Musk Marine Desodorante Antitranspirante Roll-On,Musk,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190386,Petit Attitude Desodorante Antitranspirante Roll-On,Petit Attitude,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+190378,Pur Blanca Desodorante Antitranspirante Roll-On,Pur Blanca,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,,,,False,64,,avon-c14-2026,Avon,14
+230387,Desodorante Antitranspirante Roll-On Classic,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230393,Desodorante Antitranspirante Roll-On Men Invisible,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230384,Desodorante Antitranspirante Roll-On Men Ultra Sport,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230392,Desodorante Antitranspirante Roll-On Men Max Protection,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230390,Desodorante Antitranspirante Roll-On Women Max Protection,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230391,Desodorante Antitranspirante Roll-On Women Invisible,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230388,Desodorante Antitranspirante Roll-On Women Active,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230386,Desodorante Antitranspirante Roll-On Care Clareador,On Duty Care,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230385,Desodorante Antitranspirante Roll-On Care Redutor de Pelos,On Duty Care,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+230394,Desodorante Antitranspirante Roll-On Women Powder,On Duty,Cuidados Pessoais,Cuidados Pessoais,48ml,,11.49,7.99,3.5,30.46,True,65,,avon-c14-2026,Avon,14
+135148,Hidratação Profunda Shampoo,Advance Techniques,Cabelos,Cabelos,300 ml,,25.99,17.99,8.0,30.78,True,66,,avon-c14-2026,Avon,14
+135123,Hidratação Profunda Condicionador,Advance Techniques,Cabelos,Cabelos,250 ml,,25.99,17.99,8.0,30.78,True,66,,avon-c14-2026,Avon,14
+135947,Ultra Liso Shampoo,Advance Techniques,Cabelos,Cabelos,300 ml,,25.99,,,,False,66,,avon-c14-2026,Avon,14
+135124,Ultra Liso Condicionador,Advance Techniques,Cabelos,Cabelos,250 ml,,25.99,,,,False,66,,avon-c14-2026,Avon,14
+135120,Anticaspa Shampoo 2 em 1,Advance Techniques,Cabelos,Cabelos,300 ml,,25.99,17.99,8.0,30.78,True,66,,avon-c14-2026,Avon,14
+195703,Expert Bond Repair Shampoo,Advance Techniques,Cabelos,Cabelos,300ml,,34.99,27.99,7.0,20.01,True,67,,avon-c14-2026,Avon,14
+197392,Expert Bond Repair Condicionador,Advance Techniques,Cabelos,Cabelos,250ml,,34.99,27.99,7.0,20.01,True,67,,avon-c14-2026,Avon,14
+198668,Expert Bond Repair Máscara de Tratamento,Advance Techniques,Cabelos,Cabelos,150ml,,39.99,34.99,5.0,12.5,True,67,,avon-c14-2026,Avon,14
+161086,Nutrição Completa Máscara de Tratamento,Advance Techniques,Cabelos,Cabelos,150g,,34.99,29.99,5.0,14.29,True,67,,avon-c14-2026,Avon,14
+135130,Nutrição Completa Creme para Pentear,Advance Techniques,Cabelos,Cabelos,250ml,,34.99,29.99,5.0,14.29,True,67,,avon-c14-2026,Avon,14
+135151,Nutrição Completa Shampoo 700 ml,Advance Techniques,Cabelos,Cabelos,700ml,,43.99,43.99,,,False,67,,avon-c14-2026,Avon,14
+135127,Nutrição Completa Condicionador 700 ml,Advance Techniques,Cabelos,Cabelos,700ml,,43.99,43.99,,,False,67,,avon-c14-2026,Avon,14
+135146,Nutrição Completa Shampoo,Advance Techniques,Cabelos,Cabelos,300ml,,25.99,17.99,8.0,30.78,True,67,,avon-c14-2026,Avon,14
+135121,Nutrição Completa Condicionador,Advance Techniques,Cabelos,Cabelos,250ml,,25.99,17.99,8.0,30.78,True,67,,avon-c14-2026,Avon,14
+167759,Crespos Empoderados Creme para Pentear,Advance Techniques,Cabelos,Cabelos,150g,,34.99,34.99,,,False,68,,avon-c14-2026,Avon,14
+167757,Crespos Empoderados Shampoo,Advance Techniques,Cabelos,Cabelos,700ml,,43.99,43.99,,,False,68,,avon-c14-2026,Avon,14
+167758,Crespos Empoderados Condicionador,Advance Techniques,Cabelos,Cabelos,700ml,,43.99,43.99,,,False,68,,avon-c14-2026,Avon,14
+160279,Cachos Poderosos Shampoo,Advance Techniques,Cabelos,Cabelos,700ml,,43.99,43.99,,,False,68,,avon-c14-2026,Avon,14
+160280,Cachos Poderosos Condicionador,Advance Techniques,Cabelos,Cabelos,700ml,,43.99,43.99,,,False,68,,avon-c14-2026,Avon,14
+160277,Cachos Poderosos Creme para Pentear,Advance Techniques,Cabelos,Cabelos,250ml,,34.99,34.99,,,False,68,,avon-c14-2026,Avon,14
+160278,Cachos Poderosos Shampoo,Advance Techniques,Cabelos,Cabelos,300ml,,25.99,21.99,4.0,15.39,True,68,,avon-c14-2026,Avon,14
+160281,Cachos Poderosos Condicionador,Advance Techniques,Cabelos,Cabelos,250ml,,25.99,21.99,4.0,15.39,True,68,,avon-c14-2026,Avon,14
+164957,Cachos Poderosos Máscara de Tratamento,Advance Techniques,Cabelos,Cabelos,150g,,34.99,29.99,5.0,14.29,True,68,,avon-c14-2026,Avon,14
+193725,Cachos Poderosos Loção de Tratamento Day After em Spray,Advance Techniques,Cabelos,Cabelos,200ml,,39.99,33.99,6.0,15.0,True,68,,avon-c14-2026,Avon,14
+135144,Nutrição Completa Óleo de Tratamento Argan + Coco Hidratante,Advance Techniques,Cabelos,Cabelos,90ml,,49.99,,,,False,69,,avon-c14-2026,Avon,14
+135143,Nutrição Completa Óleo de Tratamento Argan + Camélia Restaurador,Advance Techniques,Cabelos,Cabelos,90ml,,49.99,,,,False,69,,avon-c14-2026,Avon,14
+135141,Nutrição Completa Óleo de Tratamento Argan + Coco Hidratante,Advance Techniques,Cabelos,Cabelos,30ml,,32.99,,,,False,69,,avon-c14-2026,Avon,14
+135140,Nutrição Completa Óleo de Tratamento Argan + Camélia Restaurador,Advance Techniques,Cabelos,Cabelos,30ml,,32.99,,,,False,69,,avon-c14-2026,Avon,14
+135145,Nutrição Completa Óleo de Tratamento Bifásico em Spray,Advance Techniques,Cabelos,Cabelos,90ml,,49.99,,,,False,69,,avon-c14-2026,Avon,14
+163471,Creme Finalizador Capilar 10 Benefícios 1 Creme,Advance Techniques,Cabelos,Cabelos,150ml,,45.99,,,,False,69,,avon-c14-2026,Avon,14
+160276,Sérum de Tratamento Finalizador Cachos Poderosos,Advance Techniques,Cabelos,Cabelos,30ml,,29.99,22.99,7.0,23.34,True,69,,avon-c14-2026,Avon,14
+135945,Sérum de Tratamento Finalizador Blindagem Antifrizz Ultra Liso,Advance Techniques,Cabelos,Cabelos,30ml,,29.99,22.99,7.0,23.34,True,69,,avon-c14-2026,Avon,14
+135138,Sérum de Tratamento Finalizador Repara Cabelos Danificados Reconstrução Extrema,Advance Techniques,Cabelos,Cabelos,30ml,,29.99,22.99,7.0,23.34,True,69,,avon-c14-2026,Avon,14
+135137,Sérum de Tratamento Finalizador Nutre com Óleo de Argan Nutrição Completa,Advance Techniques,Cabelos,Cabelos,30ml,,29.99,22.99,7.0,23.34,True,69,,avon-c14-2026,Avon,14
+264971,Presente Avon Paleta Alice,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,27 g,,236.98,229.9,7.08,2.99,True,70,,avon-c14-2026,Avon,14
+264973,Presente Avon Duo Alice: Esmalte Carmim Soberano + Gloss Elixir Escarlate,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"9 ml + 4,8 g",,77.97,69.9,8.07,10.35,True,70,,avon-c14-2026,Avon,14
+264974,Presente Avon Duo Alice: Esmalte Sonho Curioso + Gloss Elixir Sereno,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"9 ml + 4,8 g",,77.97,69.9,8.07,10.35,True,70,,avon-c14-2026,Avon,14
+264972,Presente Avon Dupla Maravilha Alice: Gloss Elixir Sereno + Iluminador Hora Serena,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8 g + 4,8 g",,111.97,89.9,22.07,19.71,True,70,,avon-c14-2026,Avon,14
+264968,Presente Avon Dupla Maravilha Alice: Gloss Elixir Escarlate + Iluminador Hora Serena,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8 g + 4,8 g",,111.97,89.9,22.07,19.71,True,70,,avon-c14-2026,Avon,14
+264970,Presente Avon Batom Power Stay Glitter Nude Pérola,Power Stay,Maquiagem,Maquiagem,4 ml,,55.98,39.99,15.99,28.56,True,71,,avon-c14-2026,Avon,14
+264967,Presente Avon Batom Power Stay Glitter Nude Iluminado,Power Stay,Maquiagem,Maquiagem,4 ml,,55.98,39.99,15.99,28.56,True,71,,avon-c14-2026,Avon,14
+264969,Presente Avon Batom Power Stay Glitter Cereja Brilhante,Power Stay,Maquiagem,Maquiagem,4 ml,,55.98,39.99,15.99,28.56,True,71,,avon-c14-2026,Avon,14
+264965,Presente Avon Batom Power Stay Glitter Framboesa Radiante,Power Stay,Maquiagem,Maquiagem,4 ml,,55.98,39.99,15.99,28.56,True,71,,avon-c14-2026,Avon,14
+264966,Presente Avon Batom Power Stay Glitter Malva Luminoso,Power Stay,Maquiagem,Maquiagem,4 ml,,55.98,39.99,15.99,28.56,True,71,,avon-c14-2026,Avon,14
+266281,Presente Avon Petit Duo,Petit Attitude,Perfumaria,Perfumaria,2 x 50 ml,,136.79,99.9,36.89,26.97,True,71,,avon-c14-2026,Avon,14
+240175,Presente Avon Pur Blanca Duo,Pur Blanca,Perfumaria,Perfumaria,2 x 75 ml,,166.79,110.9,55.89,33.51,True,71,,avon-c14-2026,Avon,14
+152070,Colônia Ariel,Disney Princess,Perfumaria,Perfumaria,70ml,,21.99,16.99,5.0,22.74,True,72,,avon-c14-2026,Avon,14
+213688,Colônia Stitch,Disney,Perfumaria,Perfumaria,70ml,,21.99,16.99,5.0,22.74,True,72,,avon-c14-2026,Avon,14
+219312,Colônia Homem-Aranha,Marvel,Perfumaria,Perfumaria,70ml,,21.99,16.99,5.0,22.74,True,72,,avon-c14-2026,Avon,14
+148589,Colônia Avengers,Marvel,Perfumaria,Perfumaria,70ml,,21.99,16.99,5.0,22.74,True,72,,avon-c14-2026,Avon,14
+152071,Colônia Branca de Neve,Disney Princess,Perfumaria,Perfumaria,70ml,,21.99,16.99,5.0,22.74,True,72,,avon-c14-2026,Avon,14
+219314,Colônia Frozen,Disney Frozen,Perfumaria,Perfumaria,70ml,,21.99,16.99,5.0,22.74,True,72,,avon-c14-2026,Avon,14
+136203,Kit Sabonetes em Barra Frozen,Disney Frozen,Corpo e Banho,Corpo e Banho,150g (3 x 50g),,29.99,24.99,5.0,16.67,True,72,,avon-c14-2026,Avon,14
+136200,Kit Sabonetes em Barra Avengers,Marvel,Corpo e Banho,Corpo e Banho,150g (3 x 50g),,29.99,24.99,5.0,16.67,True,72,,avon-c14-2026,Avon,14
+136208,Kit Sabonetes em Barra Minnie,Disney,Corpo e Banho,Corpo e Banho,150g (3 x 50g),,29.99,24.99,5.0,16.67,True,72,,avon-c14-2026,Avon,14
+136202,Kit Sabonetes em Barra Mickey & Amigos,Disney,Corpo e Banho,Corpo e Banho,150g (3 x 50g),,29.99,24.99,5.0,16.67,True,72,,avon-c14-2026,Avon,14
+247120,Kit Sabonetes em Barra Toy Story,Disney Pixar,Corpo e Banho,Corpo e Banho,150g (3 x 50g),,29.99,24.99,5.0,16.67,True,72,,avon-c14-2026,Avon,14
+136216,Shampoo Cachos Mirabel,Disney Encanto,Cabelos,Cabelos,200 ml,,21.99,17.99,4.0,18.19,True,73,,avon-c14-2026,Avon,14
+136232,Condicionador Cachos Mirabel,Disney Encanto,Cabelos,Cabelos,200 ml,,23.99,19.99,4.0,16.67,True,73,,avon-c14-2026,Avon,14
+136225,Creme para Pentear Cachos Mirabel,Disney Encanto,Cabelos,Cabelos,150 g,,24.99,19.99,5.0,20.01,True,73,,avon-c14-2026,Avon,14
+222048,Shampoo e Condicionador 2 em 1 Mickey e Amigos,Disney Mickey e Amigos,Cabelos,Cabelos,200 ml,,21.99,17.99,4.0,18.19,True,73,,avon-c14-2026,Avon,14
+210504,Gel para Cabelos Stitch,Disney Stitch,Cabelos,Cabelos,100 g,,26.99,23.99,3.0,11.12,True,73,,avon-c14-2026,Avon,14
+210345,Shampoo e Condicionador 2 em 1 Stitch,Disney Stitch,Cabelos,Cabelos,200 ml,,21.99,17.99,4.0,18.19,True,73,,avon-c14-2026,Avon,14
+258841,Kit Stitch (1 Shampoo e Condicionador + 1 Gel para Cabelos),Disney Stitch,Cabelos,Cabelos,200 ml + 100 g,,48.98,34.99,13.99,28.56,True,73,,avon-c14-2026,Avon,14
+178898,Shampoo e Condicionador 2 em 1 Vingadores,Marvel Avengers,Cabelos,Cabelos,200 ml,,21.99,17.99,4.0,18.19,True,73,,avon-c14-2026,Avon,14
+178899,Gel para Cabelos Vingadores,Marvel Avengers,Cabelos,Cabelos,100 g,,26.99,23.99,3.0,11.12,True,73,,avon-c14-2026,Avon,14
+266528,Kit Avengers (1 Shampoo e Condicionador + 1 Gel para Cabelos),Marvel Avengers,Cabelos,Cabelos,200 ml + 100 g,,48.98,34.99,13.99,28.56,True,73,,avon-c14-2026,Avon,14
+262462,Alice no País das Maravilhas Labirinto Encantado Body Splash,Disney Alice no País das Maravilhas,Perfumaria,Perfumaria,200 ml,,69.9,45.9,24.0,34.33,True,74,,avon-c14-2026,Avon,14
+244972,Avon Alice Esmalte para Unhas Carmim Soberano,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,9ml,,21.99,,,,False,75,,avon-c14-2026,Avon,14
+244984,Avon Alice Esmalte para Unhas Sonho Curioso,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,9ml,,21.99,,,,False,75,,avon-c14-2026,Avon,14
+244985,Avon Alice Esmalte para Unhas Trono Negro,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,9ml,,21.99,,,,False,75,,avon-c14-2026,Avon,14
+244974,Avon Alice Esmalte para Unhas Pura Curiosidade,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,9ml,,21.99,,,,False,75,,avon-c14-2026,Avon,14
+244327,Avon Alice Gloss Labial Elixir Sereno,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8g",,49.99,,,,False,75,,avon-c14-2026,Avon,14
+244338,Avon Alice Gloss Labial Elixir Escarlate,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8g",,49.99,,,,False,75,,avon-c14-2026,Avon,14
+264973,Presente Avon Duo Alice Esmalte Carmim Soberano + Gloss Elixir Escarlate,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"9ml + 4,8g",,77.97,69.9,8.07,10.35,True,75,,avon-c14-2026,Avon,14
+264974,Presente Avon Duo Alice Esmalte Sonho Curioso + Gloss Elixir Sereno,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"9ml + 4,8g",,77.97,69.9,8.07,10.35,True,75,,avon-c14-2026,Avon,14
+244361,Avon Alice Iluminador Facial Hora Serena,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8 g",,54.99,54.99,,,False,76,,avon-c14-2026,Avon,14
+244362,Avon Alice Iluminador Facial Tick Tock,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8 g",,54.99,54.99,,,False,76,,avon-c14-2026,Avon,14
+244353,Avon Alice Iluminador Corporal,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,5 g,,68.99,68.99,,,False,76,,avon-c14-2026,Avon,14
+264972,Presente Avon Dupla Maravilha Alice - Gloss Elixir Sereno + Iluminador Facial Hora Serena,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8 g + 4,8 g",,111.97,89.9,22.07,19.71,True,76,,avon-c14-2026,Avon,14
+264968,Presente Avon Dupla Maravilha Alice - Gloss Elixir Escarlate + Iluminador Facial Hora Serena,Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,"4,8 g + 4,8 g",,111.97,89.9,22.07,19.71,True,76,,avon-c14-2026,Avon,14
+264971,Presente Avon Paleta Alice (Paleta Multifuncional + Sacola de Presente P),Disney Alice no País das Maravilhas,Maquiagem,Maquiagem,27g,,236.98,229.9,7.08,2.99,True,77,,avon-c14-2026,Avon,14
+190154,Derma Creme Corporal Pele Nutrida + Firmeza,Avon Care Derma,Hidratação,Hidratação,200ml,,22.99,,,,False,80,,avon-c14-2026,Avon,14
+190153,Derma Creme Corporal Pele Nutrida + Tom Uniforme,Avon Care Derma,Hidratação,Hidratação,200ml,,22.99,,,,False,80,,avon-c14-2026,Avon,14
+190152,Derma Creme Corporal Pele Nutrida + Hidratação Intensiva,Avon Care Derma,Hidratação,Hidratação,200ml,,22.99,,,,False,80,,avon-c14-2026,Avon,14
+161078,Loção Desodorante Corporal Frutas Vermelhas,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,80,,avon-c14-2026,Avon,14
+161068,Loção Desodorante Corporal Frutas Cítricas e Gengibre,Avon Care,Hidratação,Hidratação,700ml,,44.99,,,,False,80,,avon-c14-2026,Avon,14
+161063,Luvas de Silicone Creme Protetor para as Mãos Original,Avon Care,Hidratação,Hidratação,75g,,19.99,,,,False,80,,avon-c14-2026,Avon,14
+161065,Luvas de Silicone Creme Protetor para as Mãos Erva-Doce e Lavanda,Avon Care,Hidratação,Hidratação,75g,,19.99,,,,False,80,,avon-c14-2026,Avon,14
+169009,Sabonete Líquido Íntimo Hydrating,Care Intimate,Corpo e Banho,Corpo e Banho,250ml,,24.99,,,,False,81,,avon-c14-2026,Avon,14
+169007,Sabonete Líquido Íntimo Active,Care Intimate,Corpo e Banho,Corpo e Banho,250ml,,24.99,,,,False,81,,avon-c14-2026,Avon,14
+136072,Kids Protetor Solar com Cor FPS 50,Care Sun+ Kids,Proteção Solar,Proteção Solar,120g,,61.9,,,,False,81,,avon-c14-2026,Avon,14
+238380,Avon Lip Tint Marker Batom e Delineador Labial - Vermelho,Lip Tint Marker,Maquiagem,Maquiagem,1 ml,,39.99,,,,False,82,,avon-c14-2026,Avon,14
+238379,Avon Lip Tint Marker Batom e Delineador Labial - Vinho,Lip Tint Marker,Maquiagem,Maquiagem,1 ml,,39.99,,,,False,82,,avon-c14-2026,Avon,14
+238382,Avon Lip Tint Marker Batom e Delineador Labial - Nude Rosado,Lip Tint Marker,Maquiagem,Maquiagem,1 ml,,39.99,,,,False,82,,avon-c14-2026,Avon,14
+238381,Avon Lip Tint Marker Batom e Delineador Labial - Marrom,Lip Tint Marker,Maquiagem,Maquiagem,1 ml,,39.99,,,,False,82,,avon-c14-2026,Avon,14
+136022,Avon Loção para Remover Maquiagem dos Olhos,Avon,Maquiagem,Maquiagem,60 ml,,27.99,,,,False,82,,avon-c14-2026,Avon,14
+150032,Avon Delineador Retrátil para Olhos - Preto Não Tem Erro,Glimmerstick,Maquiagem,Maquiagem,350 mg,,37.99,,,,False,82,,avon-c14-2026,Avon,14
+169793,Avon Delineador Retrátil para Olhos - Brilho Azul-Marinho,Glimmerstick,Maquiagem,Maquiagem,280 mg,,37.99,,,,False,82,,avon-c14-2026,Avon,14
+169792,Avon Delineador Retrátil para Olhos - Brilho Ametista,Glimmerstick,Maquiagem,Maquiagem,280 mg,,37.99,,,,False,82,,avon-c14-2026,Avon,14
+169791,Avon Delineador Retrátil para Olhos - Brilho Esmeralda,Glimmerstick,Maquiagem,Maquiagem,280 mg,,37.99,,,,False,82,,avon-c14-2026,Avon,14
+150662,Avon Delineador Retrátil para Olhos - Bronzeei,Glimmerstick,Maquiagem,Maquiagem,280 mg,,37.99,,,,False,82,,avon-c14-2026,Avon,14
+135506,Alicate de Unhas,Acessórios,Unhas,Unhas,,,29.99,,,,False,82,,avon-c14-2026,Avon,14
+135507,Cortador de Unhas,Acessórios,Unhas,Unhas,,,15.99,,,,False,82,,avon-c14-2026,Avon,14
+135721,Color Trend Removedor de Esmalte,Color Trend,Unhas,Unhas,60 ml,,19.99,,,,False,82,,avon-c14-2026,Avon,14
+135724,Color Trend Mira-Cuticle Complexo Redutor de Cutículas,Color Trend,Unhas,Unhas,20 g,,16.99,,,,False,82,,avon-c14-2026,Avon,14
+135722,Color Trend Base Niveladora para Unhas,Color Trend,Unhas,Unhas,7 ml,,11.99,,,,False,82,,avon-c14-2026,Avon,14
+135723,Color Trend Cobertura Brilhante e Secagem Rápida para Esmaltes,Color Trend,Unhas,Unhas,7 ml,,13.99,,,,False,82,,avon-c14-2026,Avon,14
+152780,Avon Power Stay Esmalte Gel Branco Absoluto,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152781,Avon Power Stay Esmalte Gel Nude Grão de Areia,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152785,Avon Power Stay Esmalte Gel Nude Supremo,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152784,Avon Power Stay Esmalte Gel Nude Caramelito,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152783,Avon Power Stay Esmalte Gel Nude Rosê,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152778,Avon Power Stay Esmalte Gel Rose Sutil,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152772,Avon Power Stay Esmalte Gel Rosa Magenta,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152773,Avon Power Stay Esmalte Gel Uva Rosada,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152779,Avon Power Stay Esmalte Gel Rosê Avermelhado,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152770,Avon Power Stay Esmalte Gel Cereja Marcante,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152769,Avon Power Stay Esmalte Gel Vermelhaço,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152767,Avon Power Stay Esmalte Gel Vermelho Energia,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152775,Avon Power Stay Esmalte Gel Azul Liberdade,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+152777,Avon Power Stay Esmalte Gel Azul Jeans,Power Stay,Maquiagem,Maquiagem,9g,,21.99,,,,False,83,,avon-c14-2026,Avon,14
+156981,Imari Naturelle Deo Colônia,Imari,Perfumaria,Perfumaria,50ml,,84.9,,,,False,83,,avon-c14-2026,Avon,14
+152799,Imari Corset Deo Colônia,Imari,Perfumaria,Perfumaria,50ml,,84.9,,,,False,83,,avon-c14-2026,Avon,14
+175583,Imari Corset Loção Perfumada para o Corpo,Imari,Corpo e Banho,Corpo e Banho,80ml,,23.99,18.99,5.0,20.84,True,84,,avon-c14-2026,Avon,14
+175584,Imari Eclipse Loção Perfumada para o Corpo,Imari,Corpo e Banho,Corpo e Banho,80ml,,23.99,18.99,5.0,20.84,True,84,,avon-c14-2026,Avon,14
+175585,Imari Queen Loção Perfumada para o Corpo,Imari,Corpo e Banho,Corpo e Banho,80ml,,23.99,,,,False,84,,avon-c14-2026,Avon,14
+159452,Imari Naturelle Loção Perfumada para o Corpo,Imari,Corpo e Banho,Corpo e Banho,90ml,,23.99,,,,False,84,,avon-c14-2026,Avon,14
+190915,Far Away Beyond Loção Perfumada para o Corpo,Far Away,Corpo e Banho,Corpo e Banho,80ml,,26.99,19.99,7.0,25.94,True,84,,avon-c14-2026,Avon,14
+215543,Far Away Infinity Loção Perfumada para o Corpo,Far Away,Corpo e Banho,Corpo e Banho,80ml,,26.99,19.99,7.0,25.94,True,84,,avon-c14-2026,Avon,14
+190919,Far Away Beyond The Moon Loção Perfumada para o Corpo,Far Away,Corpo e Banho,Corpo e Banho,80ml,,25.99,,,,False,84,,avon-c14-2026,Avon,14
+190903,Far Away Glamour Loção Perfumada para o Corpo,Far Away,Corpo e Banho,Corpo e Banho,80ml,,25.99,,,,False,84,,avon-c14-2026,Avon,14
+190918,Far Away Splendoria Loção Perfumada para o Corpo,Far Away,Corpo e Banho,Corpo e Banho,80ml,,25.99,,,,False,84,,avon-c14-2026,Avon,14
+190906,Far Away Loção Perfumada para o Corpo,Far Away,Corpo e Banho,Corpo e Banho,80ml,,25.99,,,,False,84,,avon-c14-2026,Avon,14
+190905,Pur Blanca Noite Loção Perfumada para o Corpo,Pur Blanca,Corpo e Banho,Corpo e Banho,80ml,,17.99,13.99,4.0,22.23,True,85,,avon-c14-2026,Avon,14
+175090,Pur Blanca Loção Perfumada para o Corpo,Pur Blanca,Corpo e Banho,Corpo e Banho,80ml,,17.99,13.99,4.0,22.23,True,85,,avon-c14-2026,Avon,14
+175084,Pur Blanca Loção Perfumada para o Corpo My Essence,Pur Blanca,Corpo e Banho,Corpo e Banho,80ml,,17.99,,,,False,85,,avon-c14-2026,Avon,14
+175077,LOV|U Loção Perfumada para o Corpo,LOV|U,Corpo e Banho,Corpo e Banho,80ml,,30.99,22.99,8.0,25.81,True,85,,avon-c14-2026,Avon,14
+175081,LOV|U Date Night Loção Iluminadora para o Corpo,LOV|U,Corpo e Banho,Corpo e Banho,80ml,,30.99,22.99,8.0,25.81,True,85,,avon-c14-2026,Avon,14
+155706,LOV|U Connected Loção Perfumada para o Corpo,LOV|U,Corpo e Banho,Corpo e Banho,90ml,,30.99,22.99,8.0,25.81,True,85,,avon-c14-2026,Avon,14
+175079,LOV|U Together Loção Perfumada para o Corpo,LOV|U,Corpo e Banho,Corpo e Banho,90ml,,30.99,22.99,8.0,25.81,True,85,,avon-c14-2026,Avon,14
+135974,LOV|U Creme para as Mãos,LOV|U,Hidratação,Hidratação,75g,,30.99,,,,False,86,,avon-c14-2026,Avon,14
+135975,LOV|U Creme para as Mãos Edição Especial,LOV|U,Hidratação,Hidratação,75g,,30.99,,,,False,86,,avon-c14-2026,Avon,14
+135155,Petit Attitude Loção Perfumada para o Corpo,Petit Attitude,Hidratação,Hidratação,50ml,,16.99,,,,False,86,,avon-c14-2026,Avon,14
+135153,Petit Attitude Girl Power Loção Perfumada para o Corpo,Petit Attitude,Hidratação,Hidratação,50ml,,16.99,,,,False,86,,avon-c14-2026,Avon,14
+135768,Aquavibe Refrescantes Body Splash Jabuticaba,Aquavibe,Perfumaria,Perfumaria,150 ml,,25.99,,,,False,87,,avon-c14-2026,Avon,14
+135766,Aquavibe Refrescantes Body Splash Lavanda,Aquavibe,Perfumaria,Perfumaria,150 ml,,25.99,,,,False,87,,avon-c14-2026,Avon,14
+152981,Aquavibe Refrescantes Body Splash Pretty Blue,Aquavibe,Perfumaria,Perfumaria,150 ml,,25.99,,,,False,87,,avon-c14-2026,Avon,14
+135769,Aquavibe Refrescantes Body Splash Baby Smell,Aquavibe,Perfumaria,Perfumaria,150 ml,,25.99,,,,False,87,,avon-c14-2026,Avon,14
+236592,Aquavibe Refrescantes Body Splash Pretty Blue,Aquavibe,Perfumaria,Perfumaria,1 L,,79.9,,,,False,87,,avon-c14-2026,Avon,14
+236590,Aquavibe Refrescantes Body Splash Chypre,Aquavibe,Perfumaria,Perfumaria,1 L,,79.9,,,,False,87,,avon-c14-2026,Avon,14
+236591,Aquavibe Refrescantes Body Splash Pitanga,Aquavibe,Perfumaria,Perfumaria,1 L,,79.9,,,,False,87,,avon-c14-2026,Avon,14
+236593,Aquavibe Refrescantes Body Splash Baby Smell,Aquavibe,Perfumaria,Perfumaria,1 L,,79.9,,,,False,87,,avon-c14-2026,Avon,14
+236594,Aquavibe Refrescantes Body Splash Lavanda,Aquavibe,Perfumaria,Perfumaria,1 L,,79.9,,,,False,87,,avon-c14-2026,Avon,14
+135158,Attraction Sensation Loção Perfumada para o Corpo para Ela,Attraction,Corpo e Banho,Corpo e Banho,90ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+169799,Attraction Closer Loção Perfumada para o Corpo para Ela,Attraction,Corpo e Banho,Corpo e Banho,90ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+135192,Attraction Sensation Shampoo Cabelo e Corpo para Ele,Attraction,Cabelos,Cabelos,90ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+169800,Attraction Closer Shampoo Cabelo e Corpo para Ele,Attraction,Cabelos,Cabelos,90ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+190912,Attraction Awaken Shampoo Cabelo e Corpo para Ele,Attraction,Cabelos,Cabelos,80ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+190913,Attraction Desire Shampoo Cabelo e Corpo para Ele,Attraction,Cabelos,Cabelos,80ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+175095,Attraction Awaken Loção Perfumada para o Corpo para Ela,Attraction,Corpo e Banho,Corpo e Banho,80ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+190916,Attraction Desire Loção Perfumada para o Corpo para Ela,Attraction,Corpo e Banho,Corpo e Banho,80ml,,33.99,,,,False,88,,avon-c14-2026,Avon,14
+175083,Black Essential Shampoo Cabelo e Corpo Charm,Black Essential,Cabelos,Cabelos,90 ml,,22.99,,,,False,89,,avon-c14-2026,Avon,14
+175581,Musk Marine Shampoo Cabelo e Corpo,Musk,Cabelos,Cabelos,80 ml,,17.99,,,,False,89,,avon-c14-2026,Avon,14
+175088,Segno Shampoo Cabelo e Corpo,Segno,Cabelos,Cabelos,80ml,,28.99,,,,False,90,,avon-c14-2026,Avon,14
+190908,Absolute by Exclusive Shampoo Cabelo e Corpo,Exclusive,Cabelos,Cabelos,80ml,,26.99,19.99,7.0,25.94,True,90,,avon-c14-2026,Avon,14
+190902,Exclusive Quest Shampoo Cabelo e Corpo,Exclusive,Cabelos,Cabelos,80ml,,26.99,19.99,7.0,25.94,True,90,,avon-c14-2026,Avon,14
+204685,Batom Líquido Creamy Vinyl Marrom Coral,Power Stay,Maquiagem,Maquiagem,6 ml,,49.99,39.99,10.0,20.0,True,91,,avon-c14-2026,Avon,14
+136165,Esmalte 60s Olhos Azuis,Ultra Color,Maquiagem,Maquiagem,9 ml,,21.99,17.99,4.0,18.19,True,91,,avon-c14-2026,Avon,14
+146981,Color Trend Hidratante Labial FPS 15 Manteiga de Cacau,Color Trend,Maquiagem,Maquiagem,"4,5g",,17.99,14.99,3.0,16.68,True,92,,avon-c14-2026,Avon,14
+135448,Color Trend Natural Real Base Líquida 320 Q,Color Trend,Maquiagem,Maquiagem,20ml,,29.99,22.99,7.0,23.34,True,92,,avon-c14-2026,Avon,14
+148285,Color Trend Delineador Líquido para Olhos Lilás,Color Trend,Maquiagem,Maquiagem,3ml,,25.99,20.99,5.0,19.24,True,92,,avon-c14-2026,Avon,14
+148286,Color Trend Delineador Líquido para Olhos Rosa Verão,Color Trend,Maquiagem,Maquiagem,3ml,,25.99,20.99,5.0,19.24,True,92,,avon-c14-2026,Avon,14
+213268,Aquavibe Refrescantes Body Splash Carambola e Flor de Laranjeira,Aquavibe,Perfumaria,Perfumaria,300ml,,39.99,31.99,8.0,20.01,True,92,,avon-c14-2026,Avon,14
+190919,Far Away Moon Loção Perfumada para o Corpo,Far Away,Corpo e Banho,Corpo e Banho,80ml,,25.99,12.99,13.0,50.02,True,93,,avon-c14-2026,Avon,14
+174218,LOV|U Touch Loção Perfumada para o Corpo,LOV|U,Corpo e Banho,Corpo e Banho,80ml,,30.99,24.99,6.0,19.36,True,93,,avon-c14-2026,Avon,14
+175085,Segno Impact Shampoo Cabelo e Corpo,Segno,Cabelos,Cabelos,80ml,,28.99,14.99,14.0,48.29,True,93,,avon-c14-2026,Avon,14
+175094,Segno True Shampoo Cabelo e Corpo,Segno,Cabelos,Cabelos,80ml,,28.99,14.99,14.0,48.29,True,93,,avon-c14-2026,Avon,14
+175582,Exclusive In Black Shampoo Cabelo e Corpo,Exclusive,Cabelos,Cabelos,80ml,,26.99,21.99,5.0,18.53,True,93,,avon-c14-2026,Avon,14
+136028,Avon Care Gel Creme Facial Hidratante Matificante,Avon Care,Hidratação,Hidratação,20g,,13.99,11.99,2.0,14.3,True,94,,avon-c14-2026,Avon,14

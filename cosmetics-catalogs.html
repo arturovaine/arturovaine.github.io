@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmetics Catalog Data Explorer: O Boticário · Natura · Eudora · Avon · Jequiti</title>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "xv346eh4j2");
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    .brand-natura   { color: #15803d; }
+    .brand-boticario { color: #b45309; }
+    .brand-eudora   { color: #be185d; }
+    .brand-avon     { color: #6d28d9; }
+    .brand-jequiti  { color: #0e7490; }
+    .badge-complete { background:#dcfce7; color:#166534; }
+    .badge-partial  { background:#fef9c3; color:#854d0e; }
+    .badge-pending  { background:#f1f5f9; color:#64748b; }
+    tr:hover td { background:#f8fafc; }
+    .download-csv  { background:#16a34a; color:#fff; }
+    .download-csv:hover  { background:#15803d; }
+    .download-json { background:#2563eb; color:#fff; }
+    .download-json:hover { background:#1d4ed8; }
+    .stat-card { background:rgba(255,255,255,0.15); border:1px solid rgba(255,255,255,0.2); }
+    .tab-btn { color:#6b7280; border-bottom:3px solid transparent; }
+    .tab-btn:hover { color:#374151; }
+    .tab-btn.tab-active { color:#6d28d9; border-color:#7c3aed; font-weight:600; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+  <!-- HEADER -->
+  <header style="background:linear-gradient(135deg,#1e1b4b 0%,#4c1d95 60%,#7c3aed 100%)">
+    <div class="max-w-7xl mx-auto px-6 py-10">
+      <div class="flex items-start justify-between flex-wrap gap-4">
+        <div>
+          <h1 class="text-white text-3xl font-bold">O Boticário · Natura · Eudora · Avon · Jequiti</h1>
+          <p class="text-violet-200 text-lg mt-1">Cosmetics Catalog Data Explorer</p>
+        </div>
+        <a href="https://github.com/arturovaine/cosmetics-catalogs"
+           target="_blank"
+           class="flex items-center gap-2 text-violet-200 hover:text-white text-sm mt-1 transition-colors">
+          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+          </svg>
+          View on GitHub
+        </a>
+      </div>
+
+      <!-- HERO -->
+      <div class="mt-8 rounded-2xl overflow-hidden bg-white/5 border border-white/10 shadow-lg">
+        <img src="images/hero-pipeline.png"
+             alt="Catalog page processed by a computational vision pipeline into structured product JSON"
+             class="w-full h-auto block" />
+      </div>
+
+      <!-- STAT CARDS -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+        <div class="stat-card rounded-xl p-4 text-white">
+          <p id="stat-catalogs" class="text-3xl font-bold">—</p>
+          <p class="text-violet-200 text-sm mt-1">Catalogs</p>
+        </div>
+        <div class="stat-card rounded-xl p-4 text-white">
+          <p id="stat-records" class="text-3xl font-bold">—</p>
+          <p class="text-violet-200 text-sm mt-1">Product records</p>
+        </div>
+        <div class="stat-card rounded-xl p-4 text-white">
+          <p id="stat-brands" class="text-3xl font-bold">—</p>
+          <p class="text-violet-200 text-sm mt-1">Brands</p>
+        </div>
+        <div class="stat-card rounded-xl p-4 text-white">
+          <p id="stat-coverage" class="text-2xl font-bold leading-tight">—</p>
+          <p class="text-violet-200 text-sm mt-1">Coverage</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="max-w-7xl mx-auto px-6 py-8">
+
+    <!-- TABS -->
+    <div class="flex gap-1 mb-6 border-b border-gray-200">
+      <button data-tab="data" class="tab-btn tab-active px-5 py-3 text-sm transition-colors">
+        Catalog Data
+      </button>
+      <button data-tab="analysis" class="tab-btn px-5 py-3 text-sm transition-colors">
+        Portfolio Analysis <span class="ml-1 text-xs bg-violet-100 text-violet-700 px-1.5 py-0.5 rounded-full font-medium">ML</span>
+      </button>
+    </div>
+
+    <div id="tab-data">
+
+    <!-- FILTERS -->
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 mb-6 flex flex-wrap gap-3 items-center">
+      <input id="search" type="search" placeholder="Search catalog…"
+             class="flex-1 min-w-48 border border-gray-200 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400" />
+
+      <select id="filter-brand"
+              class="border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+        <option value="">All brands</option>
+        <option value="O Boticário">O Boticário</option>
+        <option value="Natura">Natura</option>
+        <option value="Eudora">Eudora</option>
+        <option value="Avon">Avon</option>
+        <option value="Jequiti">Jequiti</option>
+      </select>
+
+      <select id="filter-year"
+              class="border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+        <option value="">All years</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+      </select>
+
+      <select id="filter-status"
+              class="border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+        <option value="">All status</option>
+        <option value="complete">Complete</option>
+        <option value="partial">Partial</option>
+        <option value="pending">Pending</option>
+      </select>
+
+      <span id="count-label" class="text-sm text-gray-400 ml-auto">40 catalogs</span>
+    </div>
+
+    <!-- TABLE -->
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-gray-100 text-left">
+            <th class="px-5 py-3 text-gray-500 font-semibold cursor-pointer hover:text-gray-800 select-none" data-col="brand">Brand <span class="sort-icon">↕</span></th>
+            <th class="px-5 py-3 text-gray-500 font-semibold text-center cursor-pointer hover:text-gray-800 select-none" data-col="cycle">Cycle <span class="sort-icon">↕</span></th>
+            <th class="px-5 py-3 text-gray-500 font-semibold text-center cursor-pointer hover:text-gray-800 select-none" data-col="year">Year <span class="sort-icon">↕</span></th>
+            <th class="px-5 py-3 text-gray-500 font-semibold text-right cursor-pointer hover:text-gray-800 select-none" data-col="products">Products <span class="sort-icon">↕</span></th>
+            <th class="px-5 py-3 text-gray-500 font-semibold text-center">Status</th>
+            <th class="px-5 py-3 text-gray-500 font-semibold text-center">Download</th>
+          </tr>
+        </thead>
+        <tbody id="catalog-tbody"></tbody>
+      </table>
+      <div id="empty-msg" class="hidden text-center py-12 text-gray-400">No catalogs match the current filters.</div>
+    </div>
+
+    </div><!-- /tab-data -->
+
+    <!-- ANALYSIS TAB -->
+    <div id="tab-analysis" class="hidden">
+
+      <!-- Intro -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+        <h2 class="text-xl font-bold text-gray-900">Portfolio clustering: four product archetypes</h2>
+        <p class="text-sm text-gray-600 mt-2 leading-relaxed">
+          The 114,323 usable product rows across 110 processed catalogs and five brands
+          (O Boticário, Natura, Avon, Eudora, Jequiti) collapse into
+          <b>25,180 unique products</b> (brand + normalized name). Each product is described by five features
+          aggregated over every catalog appearance (median price, promo exposure, discount depth,
+          catalog persistence, and price volatility), then standardized and clustered with
+          <span class="font-mono text-xs bg-gray-100 px-1.5 py-0.5 rounded">scikit-learn KMeans</span>.
+          Silhouette analysis picks <b>k&nbsp;=&nbsp;4</b>, and the four clusters turn out to be four
+          very different jobs a product can do in a catalog.
+        </p>
+      </div>
+
+      <!-- Clustering methodology deep-dive -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+        <h3 class="text-lg font-bold text-gray-900">How the clustering is computed</h3>
+        <p class="text-sm text-gray-600 mt-2 leading-relaxed">
+          The pipeline reduces <b>114,323</b> product-row observations (110 catalogs, five brands) to
+          <b>25,180</b> unique products, describes each with five behavioural features, standardizes them,
+          and partitions them with k-means. Every step is reproducible from
+          <span class="font-mono text-xs bg-gray-100 px-1.5 py-0.5 rounded">analysis/cluster_portfolio.py</span>.
+        </p>
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">1 · Unit of analysis &amp; working hypotheses</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          A product is keyed by <span class="font-mono text-xs">(brand, normalized_name)</span>, where the name is
+          lower-cased and whitespace-collapsed. Every appearance of that key across all catalogs is folded
+          into a single feature vector. The analysis rests on four hypotheses:
+        </p>
+        <ul class="text-sm text-gray-600 space-y-1 list-disc pl-5 mt-2">
+          <li><b>H1 (stable role).</b> A product plays the same commercial role across the window, so
+          aggregating its appearances into one vector is meaningful.</li>
+          <li><b>H2 (sufficient features).</b> Price level, promo exposure, discount depth, persistence and
+          price stability capture the behaviour that separates roles.</li>
+          <li><b>H3 (convex, Euclidean-separable groups).</b> Roles form compact, roughly round blobs in
+          standardized space, the structure k-means (Euclidean distance) can recover.</li>
+          <li><b>H4 (representative calendar).</b> The catalogs collected approximate each brand&rsquo;s publishing
+          calendar; persistence is relative to the catalogs available, not the full year.</li>
+        </ul>
+        <img src="images/analysis/method/method_funnel.png" alt="Funnel from 114,323 catalog product rows to 25,180 unique products to 4 k-means archetypes" class="w-full max-w-xl h-auto rounded-lg border border-gray-100 mt-4" loading="lazy" />
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">2 · Feature vector (per unique product p)</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Let <span class="font-mono text-xs">A(p)</span> be the appearances of product <i>p</i>; for each
+          appearance <i>i</i>, <span class="font-mono text-xs">r<sub>i</sub></span> is the regular price,
+          <span class="font-mono text-xs">d<sub>i</sub></span> the discount&nbsp;% when on promotion, and
+          <span class="font-mono text-xs">π<sub>i</sub>&nbsp;∈&nbsp;{0,1}</span> the promo flag.
+        </p>
+        <div class="overflow-x-auto mt-2">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="text-left text-gray-500 border-b border-gray-200">
+                <th class="py-2 pr-4 font-semibold">Feature</th>
+                <th class="py-2 pr-4 font-semibold">Formula</th>
+                <th class="py-2 font-semibold">What it captures</th>
+              </tr>
+            </thead>
+            <tbody class="text-gray-700 align-top">
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">log_price</td><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">ln( median<sub>i</sub> r<sub>i</sub> )</td><td class="py-2">Price tier; log tames the right-hand tail</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">promo_rate</td><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">(1/|A|)&nbsp;·&nbsp;Σ<sub>i</sub> π<sub>i</sub></td><td class="py-2">Share of appearances on promotion (0–1)</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">med_discount</td><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">median<sub>{i : π=1}</sub> d<sub>i</sub>&nbsp;&nbsp;(0 if never)</td><td class="py-2">Markdown depth when promoted</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">log_appearances</td><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">ln |A(p)|</td><td class="py-2">Catalog persistence</td></tr>
+              <tr><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">price_cv</td><td class="py-2 pr-4 font-mono text-xs whitespace-nowrap">( std<sub>i</sub> r<sub>i</sub> / median<sub>i</sub> r<sub>i</sub> ), clip&nbsp;[0,1]</td><td class="py-2">Price volatility across appearances</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-gray-500 mt-2">Guards: rows with <span class="font-mono">regular_price ∉ [R$3, R$2000]</span> or a missing name are dropped before aggregation.</p>
+        <img src="images/analysis/method/method_features.png" alt="Histograms of the five features: promo_rate and appearances are strongly skewed" class="w-full h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">3 · Standardization (z-score)</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Each feature <i>j</i> is centred and scaled over all products
+          (<span class="font-mono text-xs">StandardScaler</span>) so no single feature dominates the distance:</p>
+        <div class="font-mono text-[13px] bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 my-2 text-gray-800">z<sub>j</sub> = ( x<sub>j</sub> − μ<sub>j</sub> ) / σ<sub>j</sub></div>
+        <img src="images/analysis/method/method_standardize.png" alt="Boxplots of the five features before (incomparable scales) and after z-scoring (centred at 0, unit spread)" class="w-full max-w-2xl h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">4 · k-means partitioning</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">k-means (Lloyd&rsquo;s algorithm, k-means++ init, 25 restarts,
+          <span class="font-mono text-xs">random_state=42</span>) finds the centroids μ<sub>c</sub> that minimize within-cluster
+          squared Euclidean distance:</p>
+        <div class="font-mono text-[13px] bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 my-2 text-gray-800 overflow-x-auto">J = Σ<sub>c=1..k</sub> Σ<sub>x ∈ C<sub>c</sub></sub> ‖ x − μ<sub>c</sub> ‖²&nbsp;&nbsp;,&nbsp;&nbsp;μ<sub>c</sub> = mean( C<sub>c</sub> )</div>
+        <p class="text-xs text-gray-500 mt-2">Clusters are relabelled by ascending median price, so C0&nbsp;→&nbsp;C3 run cheapest&nbsp;→&nbsp;priciest.</p>
+        <img src="images/analysis/method/method_kmeans.png" alt="PCA scatter of products colored by cluster with the four k-means centroids marked as stars" class="w-full max-w-lg h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">5 · Choosing k by silhouette</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">For each point, <span class="font-mono text-xs">a</span> is its mean distance
+          to its own cluster and <span class="font-mono text-xs">b</span> the mean distance to the nearest other cluster; the mean
+          silhouette (4,000-point sample) is evaluated for k&nbsp;=&nbsp;3…7:</p>
+        <div class="font-mono text-[13px] bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 my-2 text-gray-800">s = ( b − a ) / max( a, b ) ∈ [−1, 1]</div>
+        <div class="overflow-x-auto mt-2">
+          <table class="text-sm border-collapse">
+            <thead><tr class="text-gray-500 border-b border-gray-200">
+              <th class="py-1.5 px-3 font-semibold text-left">k</th><th class="py-1.5 px-3">3</th><th class="py-1.5 px-3">4</th><th class="py-1.5 px-3">5</th><th class="py-1.5 px-3">6</th><th class="py-1.5 px-3">7</th>
+            </tr></thead>
+            <tbody><tr class="text-gray-700">
+              <td class="py-1.5 px-3 font-semibold text-left">silhouette</td><td class="py-1.5 px-3 text-center">0.416</td><td class="py-1.5 px-3 text-center font-bold text-violet-700 bg-violet-50">0.431</td><td class="py-1.5 px-3 text-center">0.393</td><td class="py-1.5 px-3 text-center">0.317</td><td class="py-1.5 px-3 text-center">0.323</td>
+            </tr></tbody>
+          </table>
+        </div>
+        <p class="text-xs text-gray-500 mt-2">The score peaks at <b>k&nbsp;=&nbsp;4</b> (the chosen partition).</p>
+        <img src="images/analysis/k_selection.png" alt="Silhouette score and inertia across k = 3 to 7; silhouette peaks at k = 4" class="w-full max-w-xl h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">6 · PCA for the 2-D map only</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">Principal components project the 5-D space onto the scatter plots;
+          the clusters themselves are fit in the full 5-D space. The first two components explain
+          <b>34%&nbsp;+&nbsp;28%&nbsp;=&nbsp;62%</b> of variance, with an interpretable structure:</p>
+        <ul class="text-sm text-gray-600 space-y-1 list-disc pl-5 mt-2">
+          <li><b>PC1, the promotion axis</b> (loadings med_discount&nbsp;0.71, promo_rate&nbsp;0.64): separates never-promoted from promo-born.</li>
+          <li><b>PC2, the persistence axis</b> (log_appearances&nbsp;0.71, price_cv&nbsp;0.60): separates one-cycle items from the recurring, repriced backbone.</li>
+        </ul>
+        <img src="images/analysis/method/method_pca_loadings.png" alt="Bar chart of PC1 and PC2 loadings across the five features" class="w-full max-w-lg h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">7 · General considerations &amp; limitations</h4>
+        <ul class="text-sm text-gray-600 space-y-1 list-disc pl-5 mt-2">
+          <li><b>Name-based identity.</b> Renamed or re-bundled items read as new products, inflating the single-appearance clusters (C1, C3).</li>
+          <li><b>Model assumptions.</b> k-means presumes roughly isotropic, similar-sized clusters; the tiny managed set (C0, 2%) sits near the model&rsquo;s resolution limit.</li>
+          <li><b>Extraction noise.</b> <span class="font-mono text-xs">promo_rate</span> and <span class="font-mono text-xs">med_discount</span> inherit page-level vision-extraction error.</li>
+          <li><b>Volatility clipping.</b> <span class="font-mono text-xs">price_cv</span> is capped at 1 so a few mis-read prices can&rsquo;t dominate the distance metric.</li>
+          <li><b>Relative persistence.</b> Appearances count against the catalogs collected, not each brand&rsquo;s full annual calendar; coverage differs by brand and year.</li>
+        </ul>
+        <img src="images/analysis/method/method_appearances.png" alt="Histogram of catalog appearances per product with a large spike at one appearance" class="w-full max-w-lg h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
+      </div>
+
+      <!-- Archetype cards -->
+      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 border-t-4" style="border-top-color:#15803d">
+          <p class="text-xs font-semibold text-gray-400 uppercase tracking-wide">C1 · 40.0% of products</p>
+          <h3 class="font-bold text-gray-900 mt-1">One-cycle full-pricers</h3>
+          <p class="text-sm text-gray-600 mt-2 leading-relaxed">Appear in a single catalog, at full price
+          (98% never promoted), then rotate out. The novelty engine: makeup shades and seasonal variety
+          from Make B., Una and Quem Disse, Berenice?</p>
+          <p class="text-xs text-gray-400 mt-3">R$60 median · 1 appearance · 2% promo</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 border-t-4" style="border-top-color:#0ea5e9">
+          <p class="text-xs font-semibold text-gray-400 uppercase tracking-wide">C3 · 31.5% of products</p>
+          <h3 class="font-bold text-gray-900 mt-1">Born on promotion</h3>
+          <p class="text-sm text-gray-600 mt-2 leading-relaxed">Also single-appearance, but 94% arrive
+          already discounted. The priciest archetype (R$70 median) and where gift kits
+          (&ldquo;Presente&hellip;&rdquo;) concentrate: offers built as offers.</p>
+          <p class="text-xs text-gray-400 mt-3">R$70 median · 1 appearance · 94% promo · −22%</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 border-t-4" style="border-top-color:#b45309">
+          <p class="text-xs font-semibold text-gray-400 uppercase tracking-wide">C2 · 26.5% of products</p>
+          <h3 class="font-bold text-gray-900 mt-1">The evergreen backbone</h3>
+          <p class="text-sm text-gray-600 mt-2 leading-relaxed">The recurring assortment: median 11 catalog
+          appearances with rock-stable prices (volatility 1.9%) and a promotion roughly every fourth
+          appearance. This is the shelf the rotation revolves around.</p>
+          <p class="text-xs text-gray-400 mt-3">R$60 median · 11 appearances · 29% promo · −21%</p>
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 border-t-4" style="border-top-color:#7c3aed">
+          <p class="text-xs font-semibold text-gray-400 uppercase tracking-wide">C0 · 2.0% of products</p>
+          <h3 class="font-bold text-gray-900 mt-1">The managed few</h3>
+          <p class="text-sm text-gray-600 mt-2 leading-relaxed">The only archetype whose prices actually
+          move (volatility 26%): persistent staples that are repriced <i>and</i> heavily promoted.
+          Active price management is rare, and it is spread across all five brands, not any single house.</p>
+          <p class="text-xs text-gray-400 mt-3">R$57 median · 5 appearances · 41% promo · −21%</p>
+        </div>
+      </div>
+
+      <!-- Architecture map -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
+        <img src="images/analysis/architecture_map.png" alt="Scatter of unique products: catalog persistence versus promo exposure, colored by cluster" class="w-full h-auto rounded-lg" loading="lazy" />
+        <p class="text-sm text-gray-500 mt-3">The whole architecture in one picture: two dense single-appearance
+        columns on the left: full-price novelty (green, bottom) and promo-born kits (blue, top), alongside the
+        persistent backbone (amber) and the actively managed set (violet) stretching to the right.</p>
+      </div>
+
+      <!-- Key insights -->
+      <div class="bg-violet-50 border-l-4 border-violet-600 rounded-r-2xl p-6 mb-6">
+        <h3 class="font-bold text-gray-900 mb-3">What the clusters reveal</h3>
+        <ul class="text-sm text-gray-700 space-y-2 list-disc pl-5">
+          <li><b>The catalog is a showcase, not a shelf.</b> Half of all unique products appear in exactly
+          one catalog, and the two single-appearance archetypes (C1 + C3) hold ~72% of the portfolio; only
+          about a quarter is recurring assortment (C2 + C0).</li>
+          <li><b>Promotion is a birth trait, not a lifecycle event.</b> Single-appearance products either
+          never promote (C1) or debut on promotion (C3); there is almost no middle ground.</li>
+          <li><b>The house discount is ~20%.</b> Wherever promotion happens, the median discount lands at
+          21–24%, a standardized markdown, not product-level price tuning.</li>
+          <li><b>True price management is the exception.</b> Just 2% of products combine repricing with
+          heavy promotion: a tiny actively-managed core.</li>
+          <li><b>All five brands run the same playbook.</b> Every archetype is a mix of O Boticário, Natura,
+          Avon, Eudora and Jequiti; no single house owns a strategy, so the cluster structure is driven by
+          behaviour, not brand (Avon leans a little heavier on promo-born kits, O Boticário on one-cycle novelty).</li>
+        </ul>
+      </div>
+
+      <!-- Charts grid -->
+      <div class="grid lg:grid-cols-2 gap-6 mb-6">
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5">
+          <img src="images/analysis/cluster_profiles.png" alt="Bar charts of median price, promo exposure, discount depth and appearances per cluster" class="w-full h-auto rounded-lg" loading="lazy" />
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5">
+          <img src="images/analysis/category_mix.png" alt="Category composition of each cluster" class="w-full h-auto rounded-lg" loading="lazy" />
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5">
+          <img src="images/analysis/brand_mix.png" alt="Brand split inside each cluster" class="w-full h-auto rounded-lg" loading="lazy" />
+        </div>
+        <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5">
+          <img src="images/analysis/pca_map.png" alt="PCA projection of products colored by cluster" class="w-full h-auto rounded-lg" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Method & downloads -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+        <details>
+          <summary class="font-semibold text-gray-800 cursor-pointer select-none">Method &amp; limitations</summary>
+          <div class="mt-4 text-sm text-gray-600 space-y-3 leading-relaxed">
+            <p>Features per unique product: log median regular price, share of appearances on promotion,
+            median discount when promoted, log catalog appearances, and price coefficient of variation.
+            Standardized, clustered with KMeans (k = 3–7 tested; silhouette peaks at k = 4, score 0.43).
+            PCA is used for the 2-D projection only.</p>
+            <img src="images/analysis/k_selection.png" alt="Silhouette and inertia versus k" class="w-full max-w-xl h-auto rounded-lg border border-gray-100" loading="lazy" />
+            <ul class="list-disc pl-5 space-y-1">
+              <li>Products are matched by normalized name within brand; renamed or re-bundled items count
+              as separate products, which inflates the single-appearance clusters somewhat.</li>
+              <li>Catalog coverage differs by brand and year (110 processed catalogs, 2025–26); persistence
+              is measured against the catalogs available, not the brands&rsquo; full calendars.</li>
+              <li>Promotional flags come from vision-extracted catalog pages; page-level extraction errors
+              propagate into promo rates.</li>
+            </ul>
+          </div>
+        </details>
+        <div class="flex flex-wrap items-center gap-3 mt-5 pt-4 border-t border-gray-100">
+          <span class="text-sm text-gray-500">Clustered portfolio dataset:</span>
+          <a href="cosmetics-catalogs-data/portfolio_clusters.csv" download
+             class="download-csv inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium transition-colors">
+            <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+            </svg>portfolio_clusters.csv</a>
+          <span class="text-xs text-gray-400">25,180 products · cluster label + all features</span>
+        </div>
+      </div>
+
+    </div><!-- /tab-analysis -->
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="max-w-7xl mx-auto px-6 py-8 mt-4 border-t border-gray-200">
+    <div class="flex flex-wrap items-center justify-end gap-4 text-sm text-gray-400">
+      <div class="flex gap-4">
+        <a href="https://www.kaggle.com/datasets/arturovainecwb/natura-and-co-products-catalogs-20252026"
+           target="_blank" class="hover:text-gray-700 transition-colors">Kaggle Dataset</a>
+        <a href="https://github.com/arturovaine/cosmetics-catalogs"
+           target="_blank" class="hover:text-gray-700 transition-colors">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+                                                        const CATALOGS = [
+      {slug:'boticario-c04-2025', brand:'O Boticário', cycle:4, year:2025, products:1345, status:'complete'},
+      {slug:'boticario-c05-2025', brand:'O Boticário', cycle:5, year:2025, products:1630, status:'complete'},
+      {slug:'boticario-c06-2025', brand:'O Boticário', cycle:6, year:2025, products:1651, status:'complete'},
+      {slug:'boticario-c07-2025', brand:'O Boticário', cycle:7, year:2025, products:1595, status:'complete'},
+      {slug:'boticario-c08-2025', brand:'O Boticário', cycle:8, year:2025, products:1604, status:'complete'},
+      {slug:'boticario-c09-2025', brand:'O Boticário', cycle:9, year:2025, products:1683, status:'complete'},
+      {slug:'boticario-c10-2025', brand:'O Boticário', cycle:10, year:2025, products:1626, status:'complete'},
+      {slug:'boticario-c11-2025', brand:'O Boticário', cycle:11, year:2025, products:1605, status:'complete'},
+      {slug:'boticario-c12-2025', brand:'O Boticário', cycle:12, year:2025, products:1649, status:'complete'},
+      {slug:'boticario-c13-2025', brand:'O Boticário', cycle:13, year:2025, products:1610, status:'complete'},
+      {slug:'boticario-c14-2025', brand:'O Boticário', cycle:14, year:2025, products:1641, status:'complete'},
+      {slug:'boticario-c15-2025', brand:'O Boticário', cycle:15, year:2025, products:1667, status:'complete'},
+      {slug:'boticario-c16-2025', brand:'O Boticário', cycle:16, year:2025, products:1700, status:'complete'},
+      {slug:'boticario-c17-2025', brand:'O Boticário', cycle:17, year:2025, products:1684, status:'complete'},
+      {slug:'boticario-c01-2026', brand:'O Boticário', cycle:1, year:2026, products:1591, status:'complete'},
+      {slug:'boticario-c02-2026', brand:'O Boticário', cycle:2, year:2026, products:1626, status:'complete'},
+      {slug:'boticario-c03-2026', brand:'O Boticário', cycle:3, year:2026, products:33, status:'partial'},
+      {slug:'boticario-c04-2026', brand:'O Boticário', cycle:4, year:2026, products:1442, status:'complete'},
+      {slug:'boticario-c05-2026', brand:'O Boticário', cycle:5, year:2026, products:901, status:'complete'},
+      {slug:'boticario-c06-2026', brand:'O Boticário', cycle:6, year:2026, products:1570, status:'complete'},
+      {slug:'boticario-c07-2026', brand:'O Boticário', cycle:7, year:2026, products:1520, status:'complete'},
+      {slug:'boticario-c08-2026', brand:'O Boticário', cycle:8, year:2026, products:1557, status:'complete'},
+      {slug:'boticario-c09-2026', brand:'O Boticário', cycle:9, year:2026, products:1514, status:'complete'},
+      {slug:'boticario-c10-2026', brand:'O Boticário', cycle:10, year:2026, products:1513, status:'complete'},
+      {slug:'boticario-c11-2026', brand:'O Boticário', cycle:11, year:2026, products:1540, status:'complete'},
+      {slug:'boticario-c12-2026', brand:'O Boticário', cycle:12, year:2026, products:1511, status:'complete'},
+      {slug:'boticario-c13-2026', brand:'O Boticário', cycle:13, year:2026, products:1495, status:'complete'},
+      {slug:'boticario-c14-2026', brand:'O Boticário', cycle:14, year:2026, products:1535, status:'complete'},
+      {slug:'boticario-c15-2026', brand:'O Boticário', cycle:15, year:2026, products:1578, status:'complete'},
+      {slug:'boticario-c16-2026', brand:'O Boticário', cycle:16, year:2026, products:1490, status:'complete'},
+      {slug:'natura-c03-2025', brand:'Natura', cycle:3, year:2025, products:1206, status:'complete'},
+      {slug:'natura-c04-2025', brand:'Natura', cycle:4, year:2025, products:1187, status:'complete'},
+      {slug:'natura-c05-2025', brand:'Natura', cycle:5, year:2025, products:891, status:'complete'},
+      {slug:'natura-c06-2025', brand:'Natura', cycle:6, year:2025, products:1165, status:'complete'},
+      {slug:'natura-c07-2025', brand:'Natura', cycle:7, year:2025, products:1170, status:'complete'},
+      {slug:'natura-c08-2025', brand:'Natura', cycle:8, year:2025, products:1203, status:'complete'},
+      {slug:'natura-c09-2025', brand:'Natura', cycle:9, year:2025, products:1192, status:'complete'},
+      {slug:'natura-c10-2025', brand:'Natura', cycle:10, year:2025, products:1227, status:'complete'},
+      {slug:'natura-c12-2025', brand:'Natura', cycle:12, year:2025, products:1263, status:'complete'},
+      {slug:'natura-c13-2025', brand:'Natura', cycle:13, year:2025, products:1201, status:'complete'},
+      {slug:'natura-c14-2025', brand:'Natura', cycle:14, year:2025, products:1065, status:'complete'},
+      {slug:'natura-c15-2025', brand:'Natura', cycle:15, year:2025, products:1083, status:'complete'},
+      {slug:'natura-c16-2025', brand:'Natura', cycle:16, year:2025, products:1302, status:'complete'},
+      {slug:'natura-c17-2025', brand:'Natura', cycle:17, year:2025, products:1258, status:'complete'},
+      {slug:'natura-c18-2025', brand:'Natura', cycle:18, year:2025, products:1242, status:'complete'},
+      {slug:'natura-c19-2025', brand:'Natura', cycle:19, year:2025, products:1273, status:'complete'},
+      {slug:'natura-c03-2026', brand:'Natura', cycle:3, year:2026, products:1213, status:'complete'},
+      {slug:'natura-c04-2026', brand:'Natura', cycle:4, year:2026, products:1198, status:'complete'},
+      {slug:'natura-c05-2026', brand:'Natura', cycle:5, year:2026, products:1032, status:'complete'},
+      {slug:'natura-c06-2026', brand:'Natura', cycle:6, year:2026, products:971, status:'complete'},
+      {slug:'natura-c07-2026', brand:'Natura', cycle:7, year:2026, products:1154, status:'complete'},
+      {slug:'natura-c08-2026', brand:'Natura', cycle:8, year:2026, products:1142, status:'complete'},
+      {slug:'natura-c09-2026', brand:'Natura', cycle:9, year:2026, products:1451, status:'complete'},
+      {slug:'natura-c10-2026', brand:'Natura', cycle:10, year:2026, products:1242, status:'complete'},
+      {slug:'natura-c11-2026', brand:'Natura', cycle:11, year:2026, products:934, status:'complete'},
+      {slug:'natura-c12-2026', brand:'Natura', cycle:12, year:2026, products:1184, status:'complete'},
+      {slug:'natura-c13-2026', brand:'Natura', cycle:13, year:2026, products:605, status:'partial'},
+      {slug:'natura-c14-2026', brand:'Natura', cycle:14, year:2026, products:1134, status:'complete'},
+      {slug:'natura-c15-2026', brand:'Natura', cycle:15, year:2026, products:972, status:'complete'},
+      {slug:'natura-c16-2026', brand:'Natura', cycle:16, year:2026, products:1251, status:'complete'},
+      {slug:'natura-c17-2026', brand:'Natura', cycle:17, year:2026, products:1322, status:'complete'},
+      {slug:'natura-c18-2026', brand:'Natura', cycle:18, year:2026, products:1308, status:'complete'},
+      {slug:'eudora-c01-2026', brand:'Eudora', cycle:1, year:2026, products:756, status:'complete'},
+      {slug:'eudora-c02-2026', brand:'Eudora', cycle:2, year:2026, products:715, status:'complete'},
+      {slug:'eudora-c03-2026', brand:'Eudora', cycle:3, year:2026, products:697, status:'complete'},
+      {slug:'eudora-c04-2026', brand:'Eudora', cycle:4, year:2026, products:677, status:'complete'},
+      {slug:'eudora-c05-2026', brand:'Eudora', cycle:5, year:2026, products:674, status:'complete'},
+      {slug:'eudora-c06-2026', brand:'Eudora', cycle:6, year:2026, products:408, status:'complete'},
+      {slug:'eudora-c07-2026', brand:'Eudora', cycle:7, year:2026, products:711, status:'complete'},
+      {slug:'eudora-c08-2026', brand:'Eudora', cycle:8, year:2026, products:777, status:'complete'},
+      {slug:'eudora-c09-2026', brand:'Eudora', cycle:9, year:2026, products:658, status:'complete'},
+      {slug:'eudora-c10-2026', brand:'Eudora', cycle:10, year:2026, products:737, status:'complete'},
+      {slug:'eudora-c11-2026', brand:'Eudora', cycle:11, year:2026, products:730, status:'complete'},
+      {slug:'eudora-c12-2026', brand:'Eudora', cycle:12, year:2026, products:755, status:'complete'},
+      {slug:'eudora-c13-2026', brand:'Eudora', cycle:13, year:2026, products:747, status:'complete'},
+      {slug:'eudora-c14-2026', brand:'Eudora', cycle:14, year:2026, products:769, status:'complete'},
+      {slug:'eudora-c15-2026', brand:'Eudora', cycle:15, year:2026, products:774, status:'complete'},
+      {slug:'eudora-c16-2026', brand:'Eudora', cycle:16, year:2026, products:817, status:'complete'},
+      {slug:'eudora-c17-2026', brand:'Eudora', cycle:17, year:2026, products:728, status:'complete'},
+      {slug:'avon-c19-2025', brand:'Avon', cycle:19, year:2025, products:1030, status:'complete'},
+      {slug:'avon-c01-2026', brand:'Avon', cycle:1, year:2026, products:909, status:'complete'},
+      {slug:'avon-c02-2026', brand:'Avon', cycle:2, year:2026, products:952, status:'complete'},
+      {slug:'avon-c03-2026', brand:'Avon', cycle:3, year:2026, products:921, status:'complete'},
+      {slug:'avon-c04-2026', brand:'Avon', cycle:4, year:2026, products:944, status:'complete'},
+      {slug:'avon-c05-2026', brand:'Avon', cycle:5, year:2026, products:955, status:'complete'},
+      {slug:'avon-c06-2026', brand:'Avon', cycle:6, year:2026, products:923, status:'complete'},
+      {slug:'avon-c07-2026', brand:'Avon', cycle:7, year:2026, products:922, status:'complete'},
+      {slug:'avon-c08-2026', brand:'Avon', cycle:8, year:2026, products:949, status:'complete'},
+      {slug:'avon-c09-2026', brand:'Avon', cycle:9, year:2026, products:790, status:'complete'},
+      {slug:'avon-c10-ed3-2026', brand:'Avon', cycle:10, year:2026, products:926, status:'complete'},
+      {slug:'avon-c10-ed2-2026', brand:'Avon', cycle:10, year:2026, products:1462, status:'complete'},
+      {slug:'avon-c11-2026', brand:'Avon', cycle:11, year:2026, products:922, status:'complete'},
+      {slug:'avon-c12-2026', brand:'Avon', cycle:12, year:2026, products:930, status:'complete'},
+      {slug:'avon-c13-2026', brand:'Avon', cycle:13, year:2026, products:883, status:'complete'},
+      {slug:'avon-c14-2026', brand:'Avon', cycle:14, year:2026, products:909, status:'complete'},
+      {slug:'avon-c15-2026', brand:'Avon', cycle:15, year:2026, products:885, status:'complete'},
+      {slug:'avon-c16-2026', brand:'Avon', cycle:16, year:2026, products:947, status:'complete'},
+      {slug:'avon-c17-2026', brand:'Avon', cycle:17, year:2026, products:942, status:'complete'},
+      {slug:'avon-c18-2026', brand:'Avon', cycle:18, year:2026, products:970, status:'complete'},
+      {slug:'jequiti-c01-2026', brand:'Jequiti', cycle:1, year:2026, products:250, status:'complete'},
+      {slug:'jequiti-c02-2026', brand:'Jequiti', cycle:2, year:2026, products:253, status:'complete'},
+      {slug:'jequiti-c03-2026', brand:'Jequiti', cycle:3, year:2026, products:244, status:'complete'},
+      {slug:'jequiti-c04-2026', brand:'Jequiti', cycle:4, year:2026, products:305, status:'complete'},
+      {slug:'jequiti-c05-2026', brand:'Jequiti', cycle:5, year:2026, products:325, status:'complete'},
+      {slug:'jequiti-c06-2026', brand:'Jequiti', cycle:6, year:2026, products:300, status:'complete'},
+      {slug:'jequiti-c07-2026', brand:'Jequiti', cycle:7, year:2026, products:323, status:'complete'},
+      {slug:'jequiti-c08-2026', brand:'Jequiti', cycle:8, year:2026, products:200, status:'complete'},
+      {slug:'jequiti-c09-2026', brand:'Jequiti', cycle:9, year:2026, products:251, status:'complete'},
+      {slug:'jequiti-c10-2026', brand:'Jequiti', cycle:10, year:2026, products:212, status:'complete'},
+      {slug:'jequiti-c11-2026', brand:'Jequiti', cycle:11, year:2026, products:71, status:'complete'},
+      {slug:'jequiti-c13-2026', brand:'Jequiti', cycle:13, year:2026, products:86, status:'complete'},
+      {slug:'jequiti-c14-2026', brand:'Jequiti', cycle:14, year:2026, products:66, status:'complete'},
+    ];
+
+    const STATUS_LABELS = {
+      complete: 'Complete',
+      partial:  'Partial',
+      pending:  'Pending',
+    };
+
+    function renderTable(list) {
+      const tbody = document.getElementById('catalog-tbody');
+      const empty = document.getElementById('empty-msg');
+      document.getElementById('count-label').textContent = `${list.length} catalog${list.length !== 1 ? 's' : ''}`;
+
+      if (list.length === 0) {
+        tbody.innerHTML = '';
+        empty.classList.remove('hidden');
+        return;
+      }
+      empty.classList.add('hidden');
+
+      tbody.innerHTML = list.map(c => {
+        const brandColor = {'Natura':'brand-natura','O Boticário':'brand-boticario','Eudora':'brand-eudora','Avon':'brand-avon','Jequiti':'brand-jequiti'}[c.brand] || 'brand-boticario';
+        const badge = `badge-${c.status}`;
+        const productsStr = c.products > 0 ? c.products.toLocaleString('pt-BR') : '—';
+        const dlBase = `cosmetics-catalogs-data/${c.slug}`;
+        const csvBtn = `<a href="${dlBase}.csv" download
+          class="download-csv inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium transition-colors">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+          </svg>CSV</a>`;
+        const jsonBtn = `<a href="${dlBase}.json" download
+          class="download-json inline-flex items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium transition-colors">
+          <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+          </svg>JSON</a>`;
+
+        return `<tr class="border-b border-gray-50">
+          <td class="px-5 py-3 font-medium ${brandColor}">${c.brand}</td>
+          <td class="px-5 py-3 text-center text-gray-700 font-mono">${String(c.cycle).padStart(2,'0')}</td>
+          <td class="px-5 py-3 text-center text-gray-600">${c.year}</td>
+          <td class="px-5 py-3 text-right font-mono text-gray-800">${productsStr}</td>
+          <td class="px-5 py-3 text-center">
+            <span class="${badge} text-xs font-medium px-2.5 py-1 rounded-full">${STATUS_LABELS[c.status]}</span>
+          </td>
+          <td class="px-5 py-3 text-center">
+            <div class="flex gap-2 justify-center flex-wrap">${csvBtn}${jsonBtn}</div>
+          </td>
+        </tr>`;
+      }).join('');
+    }
+
+    // Sorting state: default = year desc, cycle desc (most recent first)
+    let sortCol = 'year', sortDir = -1;
+
+    function sortList(list) {
+      return [...list].sort((a, b) => {
+        let av = a[sortCol], bv = b[sortCol];
+        if (typeof av === 'string') av = av.toLowerCase(), bv = bv.toLowerCase();
+        if (av < bv) return -sortDir;
+        if (av > bv) return  sortDir;
+        // secondary: cycle desc
+        if (sortCol !== 'cycle') return b.cycle - a.cycle;
+        return 0;
+      });
+    }
+
+    function updateSortIcons() {
+      document.querySelectorAll('th[data-col]').forEach(th => {
+        const icon = th.querySelector('.sort-icon');
+        if (th.dataset.col === sortCol) icon.textContent = sortDir === 1 ? '↑' : '↓';
+        else icon.textContent = '↕';
+      });
+    }
+
+    function applyFilters() {
+      const q      = document.getElementById('search').value.toLowerCase();
+      const brand  = document.getElementById('filter-brand').value;
+      const year   = document.getElementById('filter-year').value;
+      const status = document.getElementById('filter-status').value;
+
+      const filtered = CATALOGS.filter(c => {
+        const label = `${c.brand} cycle ${String(c.cycle).padStart(2,'0')} ${c.year}`.toLowerCase();
+        if (q && !label.includes(q)) return false;
+        if (brand && c.brand !== brand) return false;
+        if (year && c.year !== parseInt(year)) return false;
+        if (status && c.status !== status) return false;
+        return true;
+      });
+      renderTable(sortList(filtered));
+    }
+
+    document.querySelectorAll('th[data-col]').forEach(th => {
+      th.addEventListener('click', () => {
+        if (sortCol === th.dataset.col) sortDir *= -1;
+        else { sortCol = th.dataset.col; sortDir = th.dataset.col === 'brand' ? 1 : -1; }
+        updateSortIcons();
+        applyFilters();
+      });
+    });
+
+    ['search','filter-brand','filter-year','filter-status'].forEach(id =>
+      document.getElementById(id).addEventListener('input', applyFilters)
+    );
+
+    updateSortIcons();
+    applyFilters();
+
+    // Headline stats, computed from CATALOGS so they stay correct as extraction fills in
+    function computeStats() {
+      const records = CATALOGS.reduce((s, c) => s + (c.products || 0), 0);
+      const brands = new Set(CATALOGS.map(c => c.brand));
+      const done = CATALOGS.filter(c => c.status !== 'pending').length;
+      document.getElementById('stat-catalogs').textContent = `${done}/${CATALOGS.length}`;
+      document.getElementById('stat-records').textContent = records.toLocaleString('pt-BR');
+      document.getElementById('stat-brands').textContent = brands.size;
+      // Coverage as an approximate month-year span (mm-yyyy / mm-yyyy). No real cover dates
+      // were extracted, so the publishing month is approximated from the cosmetics "cycle":
+      // these brands run ~18 cycles/year, so month ≈ round(cycle / 18 × 12).
+      const cycleToMonth = c => Math.min(12, Math.max(1, Math.round((c / 18) * 12)));
+      const periods = CATALOGS.map(c => ({ y: c.year, m: cycleToMonth(c.cycle) }));
+      const ord = p => p.y * 12 + p.m;
+      const lo = periods.reduce((a, b) => (ord(b) < ord(a) ? b : a));
+      const hi = periods.reduce((a, b) => (ord(b) > ord(a) ? b : a));
+      const fmt = p => `${String(p.m).padStart(2, '0')}-${p.y}`;
+      document.getElementById('stat-coverage').textContent = `${fmt(lo)} / ${fmt(hi)}`;
+    }
+    computeStats();
+
+    // Tabs (hash-routed: #data / #analysis)
+    function showTab(name) {
+      document.getElementById('tab-data').classList.toggle('hidden', name !== 'data');
+      document.getElementById('tab-analysis').classList.toggle('hidden', name !== 'analysis');
+      document.querySelectorAll('.tab-btn').forEach(b =>
+        b.classList.toggle('tab-active', b.dataset.tab === name));
+      if (location.hash !== '#' + name) history.replaceState(null, '', '#' + name);
+    }
+    document.querySelectorAll('.tab-btn').forEach(b =>
+      b.addEventListener('click', () => showTab(b.dataset.tab)));
+    window.addEventListener('hashchange', () =>
+      showTab(location.hash === '#analysis' ? 'analysis' : 'data'));
+    if (location.hash === '#analysis') showTab('analysis');
+  </script>
+</body>
+</html>

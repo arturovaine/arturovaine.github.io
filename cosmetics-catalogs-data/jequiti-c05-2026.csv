@@ -1,0 +1,326 @@
+code,name,product_line,category,normalized_category,volume_weight,quantity,regular_price,promotional_price,savings,discount_percentage,promotion_active,page,quadrant,catalog_name,brand,cycle
+101619,Desodorante Colônia Feminina Rebeca Abravanel Reale,Rebeca Abravanel,Perfumaria,Perfumaria,50 ml,,89.9,59.9,30.0,33.37,True,3,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,3,,jequiti-c05-2026,Jequiti,5
+100713,Óleo Corporal Bifásico Óllio Flor de Manga,Óllio,Corpo e Banho,Corpo e Banho,200 ml,,49.9,39.9,10.0,20.04,True,5,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,5,,jequiti-c05-2026,Jequiti,5
+100187,Desodorante Colônia Feminina Sublime,Sublime,Perfumaria,Perfumaria,75 ml,,129.9,74.9,55.0,42.34,True,6,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,6,,jequiti-c05-2026,Jequiti,5
+18956,Desodorante Colônia Feminina Florasense,Florasense,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,7,,jequiti-c05-2026,Jequiti,5
+17805,Desodorante Colônia Feminina Florasense Belle,Florasense,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,7,,jequiti-c05-2026,Jequiti,5
+100911,Kit Florasense,Florasense,Perfumaria,Perfumaria,,,79.8,54.9,24.9,31.2,True,7,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,7,,jequiti-c05-2026,Jequiti,5
+11027,Desodorante Colônia Feminina Fléur Jasmin,Fléur,Perfumaria,Perfumaria,25 ml,,49.9,39.9,10.0,20.04,True,8,,jequiti-c05-2026,Jequiti,5
+10080,Fléur Orchidêe Desodorante Colônia,Fléur,Perfumaria,Perfumaria,25ml,,0.0,34.9,,,True,9,,jequiti-c05-2026,Jequiti,5
+10077,Fléur Rosé Desodorante Colônia,Fléur,Perfumaria,Perfumaria,25ml,,0.0,34.9,,,True,9,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,9,,jequiti-c05-2026,Jequiti,5
+17885,Desodorante Colônia Splash Feminina Deluxe,Deluxe,Perfumaria,Perfumaria,200 ml,,64.9,,,,False,10,,jequiti-c05-2026,Jequiti,5
+100915,Desodorante Colônia Feminina Deluxe,Deluxe,Perfumaria,Perfumaria,90 ml,,149.9,139.9,10.0,6.67,True,10,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,10,,jequiti-c05-2026,Jequiti,5
+17917,Desodorante Colônia Feminina Deluxe,Deluxe,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,11,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,11,,jequiti-c05-2026,Jequiti,5
+17786,Desodorante Colônia Feminina Amore,Amore,Perfumaria,Perfumaria,100 ml,,109.9,79.9,30.0,27.3,True,12,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,12,,jequiti-c05-2026,Jequiti,5
+99890,Nécessaire Feminino,Amore,Acessórios,Acessórios,,,42.9,,,,False,13,,jequiti-c05-2026,Jequiti,5
+100673,Desodorante Corporal Spray Feminino Amore,Amore,Corpo e Banho,Corpo e Banho,100 ml,,56.9,42.9,14.0,24.6,True,13,,jequiti-c05-2026,Jequiti,5
+17854,Desodorante Colônia Feminina Amore,Amore,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,13,,jequiti-c05-2026,Jequiti,5
+100919,Kit Amore Perfumação Completa,Amore,Kits e Presentes,Kits e Presentes,,,139.7,99.9,39.8,28.49,True,13,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,13,,jequiti-c05-2026,Jequiti,5
+70063,Desodorante Hidratante Amore Bloom,Amore Bloom,Hidratação,Hidratação,60 g,,31.9,,,,False,14,,jequiti-c05-2026,Jequiti,5
+101641,Desodorante Colônia Feminina Amore Bloom,Amore Bloom,Perfumaria,Perfumaria,100 ml,,109.9,,,,True,14,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,14,,jequiti-c05-2026,Jequiti,5
+100903,Estojo Patricia Abravanel,Patricia Abravanel,Perfumaria,Perfumaria,3 x 25 ml,,119.9,99.9,20.0,16.68,True,15,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,15,,jequiti-c05-2026,Jequiti,5
+18615,Sabonete Hidratante em Barra Rebeca Abravanel,Rebeca Abravanel,Corpo e Banho,Corpo e Banho,3 unidades | 50 g cada,,25.9,19.9,6.0,23.17,True,16,,jequiti-c05-2026,Jequiti,5
+18614,Hidratante Corporal Rebeca Abravanel,Rebeca Abravanel,Corpo e Banho,Corpo e Banho,200 ml,,44.9,29.9,15.0,33.41,True,16,,jequiti-c05-2026,Jequiti,5
+18613,Desodorante Colônia Feminina Rebeca Abravanel,Rebeca Abravanel,Perfumaria,Perfumaria,25 ml,,49.9,29.9,20.0,40.08,True,16,,jequiti-c05-2026,Jequiti,5
+100917,Presente Rebeca Abravanel,Rebeca Abravanel,Kits e Presentes,Kits e Presentes,,,120.7,69.9,50.8,42.09,True,16,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,16,,jequiti-c05-2026,Jequiti,5
+17968,Pulseira Dourada,Acessórios,Acessórios,Acessórios,,,42.9,,,,False,17,,jequiti-c05-2026,Jequiti,5
+100927,Presente Unique (Desodorante Colônia Feminina Unique Gold + Pulseira Dourada),Unique,Perfumaria,Perfumaria,100ml,,139.9,119.9,20.0,14.3,True,17,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Embalagens,Embalagens,,,3.9,,,,False,17,,jequiti-c05-2026,Jequiti,5
+99850,Creme para as Mãos Luvas de Silicone,Sensi,Hidratação,Hidratação,40 g,,20.9,20.9,,,False,18,,jequiti-c05-2026,Jequiti,5
+99851,Creme para os Pés Meias de Silicone,Sensi,Hidratação,Hidratação,50 g,,21.9,21.9,,,False,18,,jequiti-c05-2026,Jequiti,5
+100904,Kit Sensi Mãos e Pés,Sensi,Hidratação,Hidratação,50 g + 40 g,,42.8,29.9,12.9,30.14,True,18,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,3.9,,,False,18,,jequiti-c05-2026,Jequiti,5
+17967,Nécessaire Cinza,Acessórios,Acessórios,Acessórios,,,42.9,,,,False,19,,jequiti-c05-2026,Jequiti,5
+18703,Gel de Limpeza Revigorante Sensi Skincare,Sensi Skincare,Skincare,Skincare,100 g,,31.9,,,,False,19,,jequiti-c05-2026,Jequiti,5
+100292,Sérum Efeito Clareador Sensi Skincare,Sensi Skincare,Skincare,Skincare,30 ml,,95.9,,,,False,19,,jequiti-c05-2026,Jequiti,5
+100923,Kit Sensi Skincare,Sensi Skincare,Skincare,Skincare,,,170.7,99.9,70.8,41.48,True,19,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Embalagens,Acessórios,Acessórios,,,4.9,,,,False,19,,jequiti-c05-2026,Jequiti,5
+100501,Bolsa Meu Bebê,Meu Bebê,Acessórios,Acessórios,,,52.9,,,,False,20,,jequiti-c05-2026,Jequiti,5
+19308,Água de Colônia Meu Bebê Soninho,Meu Bebê,Perfumaria,Perfumaria,100 ml,,59.9,,,,False,21,,jequiti-c05-2026,Jequiti,5
+100237,Água de Colônia Meu Bebê,Meu Bebê,Perfumaria,Perfumaria,100 ml,,59.9,,,,False,21,,jequiti-c05-2026,Jequiti,5
+100918,Kit Meu Bebê Dia e Noite,Meu Bebê,Kits e Presentes,Kits e Presentes,,,119.8,115.8,4.0,3.34,True,21,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,21,,jequiti-c05-2026,Jequiti,5
+100796,Água de Colônia Meu Bebê Suave,Meu Bebê,Perfumaria,Perfumaria,100 ml,,59.9,39.9,20.0,33.39,True,22,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,22,,jequiti-c05-2026,Jequiti,5
+18768,Sacola Presenteável P,Embalagens,Acessórios,Acessórios,20 x 29 cm,,3.9,,,,False,23,,jequiti-c05-2026,Jequiti,5
+18769,Sacola Presenteável M,Embalagens,Acessórios,Acessórios,27 x 38 cm,,4.9,,,,False,23,,jequiti-c05-2026,Jequiti,5
+18770,Sacola Presenteável G,Embalagens,Acessórios,Acessórios,35 x 55 cm,,5.9,,,,False,23,,jequiti-c05-2026,Jequiti,5
+99843,Desodorante Colônia Feminina Patricia Abravanel Original,Patricia Abravanel,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,25,,jequiti-c05-2026,Jequiti,5
+100672,Desodorante Colônia Feminina Amore Bloom,Amore Bloom,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,26,,jequiti-c05-2026,Jequiti,5
+18522,Desodorante Colônia Feminina Jolie,Jolie,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,26,,jequiti-c05-2026,Jequiti,5
+16328,Desodorante Colônia Feminina Adriane Galisteu,Adriane Galisteu,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,27,,jequiti-c05-2026,Jequiti,5
+17612,Desodorante Colônia Feminina Sabrina Sato,Sabrina Sato,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,27,,jequiti-c05-2026,Jequiti,5
+19740,Desodorante Colônia Masculina Fábio Jr. Legacy,Fábio Jr.,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,28,,jequiti-c05-2026,Jequiti,5
+19159,Desodorante Colônia Masculina Portiolli Gold,Celso Portiolli,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,29,,jequiti-c05-2026,Jequiti,5
+19723,Malte Black Desodorante Colônia Masculina,Malte Black,Perfumaria,Perfumaria,25ml,,39.9,26.9,13.0,32.58,True,30,,jequiti-c05-2026,Jequiti,5
+99858,Uzon Original Desodorante Colônia Masculina,Uzon,Perfumaria,Perfumaria,25ml,,39.9,26.9,13.0,32.58,True,30,,jequiti-c05-2026,Jequiti,5
+100029,Royalmadeira Original Desodorante Colônia Masculina,Royalmadeira,Perfumaria,Perfumaria,25ml,,49.9,26.9,23.0,46.09,True,31,,jequiti-c05-2026,Jequiti,5
+11488,Desodorante Colônia Masculina Aire Altitude Intense,Aire,Perfumaria,Perfumaria,25 ml,,29.9,,,,False,32,,jequiti-c05-2026,Jequiti,5
+100285,Desodorante Colônia Masculina Aire Altitude,Aire,Perfumaria,Perfumaria,25 ml,,29.9,,,,False,32,,jequiti-c05-2026,Jequiti,5
+11401,Desodorante Colônia Masculina Aire Azure Intense,Aire,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,33,,jequiti-c05-2026,Jequiti,5
+11365,Desodorante Colônia Masculina Aire Azure,Aire,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,33,,jequiti-c05-2026,Jequiti,5
+18891,Desodorante Colônia Feminina Bem-Me-Quer Paradise,Bem-Me-Quer,Perfumaria,Perfumaria,25ml,,29.9,,,,False,34,,jequiti-c05-2026,Jequiti,5
+100023,Desodorante Colônia Feminina Bem-Me-Quer Ao Luar,Bem-Me-Quer,Perfumaria,Perfumaria,25ml,,29.9,,,,False,34,,jequiti-c05-2026,Jequiti,5
+18220,Desodorante Colônia Feminina Bem-Me-Quer Com Magia,Bem-Me-Quer,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,35,,jequiti-c05-2026,Jequiti,5
+100024,Desodorante Colônia Feminina Bem-Me-Quer Meu Primeiro Amor,Bem-Me-Quer,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,35,,jequiti-c05-2026,Jequiti,5
+19640,Desodorante Colônia Splash Refresca Com Leveza Maracujá,Refresca,Perfumaria,Perfumaria,350ml,,34.9,,,,False,37,,jequiti-c05-2026,Jequiti,5
+19636,Desodorante Colônia Splash Refresca Com Calma Lavanda,Refresca,Perfumaria,Perfumaria,350ml,,34.9,,,,False,37,,jequiti-c05-2026,Jequiti,5
+19642,Desodorante Colônia Splash Refresca Com Conforto Festa das Flores,Refresca,Perfumaria,Perfumaria,350ml,,34.9,,,,False,37,,jequiti-c05-2026,Jequiti,5
+19641,Desodorante Colônia Splash Refresca Com Equilíbrio Alfazema,Refresca,Perfumaria,Perfumaria,350ml,,34.9,,,,False,37,,jequiti-c05-2026,Jequiti,5
+99869,Desodorante Colônia Luke Skywalker™,Star Wars,Perfumaria,Perfumaria,45ml,,89.9,,,,False,38,,jequiti-c05-2026,Jequiti,5
+99871,Desodorante Colônia Princesa Leia™,Star Wars,Perfumaria,Perfumaria,45ml,,89.9,,,,False,38,,jequiti-c05-2026,Jequiti,5
+99870,Desodorante Colônia Collection Star Wars Darth Vader,Star Wars,Perfumaria,Perfumaria,45ml,,89.9,,,,False,39,,jequiti-c05-2026,Jequiti,5
+100133,Estojo de Sabonetes Collection Star Wars,Star Wars,Corpo e Banho,Corpo e Banho,3 unidades de 80g cada,,29.9,,,,False,39,,jequiti-c05-2026,Jequiti,5
+18642,Desodorante Colônia Masculina Portiolli Carbon Fiber,Portiolli,Perfumaria,Perfumaria,100 ml,,149.9,,,,False,40,,jequiti-c05-2026,Jequiti,5
+18644,Desodorante Colônia Masculina Portiolli Titanium Essence,Portiolli,Perfumaria,Perfumaria,100 ml,,149.9,,,,False,40,,jequiti-c05-2026,Jequiti,5
+11128,Desodorante Colônia Masculina Portiolli Gold Intenso,Portiolli,Perfumaria,Perfumaria,90 ml,,149.9,109.9,40.0,26.68,True,41,,jequiti-c05-2026,Jequiti,5
+100294,Desodorante Colônia Masculina Portiolli Original,Portiolli,Perfumaria,Perfumaria,90 ml,,149.9,109.9,40.0,26.68,True,41,,jequiti-c05-2026,Jequiti,5
+100295,Desodorante Colônia Masculina Portiolli Gold,Portiolli,Perfumaria,Perfumaria,90 ml,,149.9,109.9,40.0,26.68,True,41,,jequiti-c05-2026,Jequiti,5
+100196,Desodorante Colônia Masculina Champs,Champs,Perfumaria,Perfumaria,100 ml,,109.9,,,,False,42,,jequiti-c05-2026,Jequiti,5
+19412,Desodorante Colônia Masculina Fábio Jr. Legacy,Fábio Jr.,Perfumaria,Perfumaria,100 ml,,149.9,,,,False,42,,jequiti-c05-2026,Jequiti,5
+18843,Desodorante Colônia Masculina Whindersson Nunes,Whindersson Nunes,Perfumaria,Perfumaria,45 ml,,99.9,,,,False,42,,jequiti-c05-2026,Jequiti,5
+100209,Desodorante Colônia Masculina Royalmadeira Shadid,Royalmadeira,Perfumaria,Perfumaria,75ml,,149.9,,,,False,43,,jequiti-c05-2026,Jequiti,5
+100000,Desodorante Colônia Masculina Royalmadeira Original,Royalmadeira,Perfumaria,Perfumaria,75ml,,149.9,,,,False,43,,jequiti-c05-2026,Jequiti,5
+19356,Desodorante Colônia Masculina Royalmadeira Signature,Royalmadeira,Perfumaria,Perfumaria,75ml,,149.9,,,,False,43,,jequiti-c05-2026,Jequiti,5
+19271,Desodorante Colônia Masculina Malte Reserva,Malte,Perfumaria,Perfumaria,70 ml,,119.9,,,,False,44,,jequiti-c05-2026,Jequiti,5
+19272,Desodorante Colônia Masculina Malte Black,Malte,Perfumaria,Perfumaria,70 ml,,119.9,,,,False,44,,jequiti-c05-2026,Jequiti,5
+19359,Desodorante Colônia Masculina Privé Golden,Privé,Perfumaria,Perfumaria,100 ml,,109.9,,,,False,44,,jequiti-c05-2026,Jequiti,5
+80709,Desodorante Colônia Masculina Privé VIP,Privé,Perfumaria,Perfumaria,100 ml,,109.9,,,,False,44,,jequiti-c05-2026,Jequiti,5
+80710,Desodorante Colônia Masculina Privé Exclusive,Privé,Perfumaria,Perfumaria,100 ml,,109.9,,,,False,44,,jequiti-c05-2026,Jequiti,5
+80706,Desodorante Colônia Masculina Privé Special,Privé,Perfumaria,Perfumaria,100 ml,,109.9,,,,False,44,,jequiti-c05-2026,Jequiti,5
+19246,Desodorante Colônia Masculina Uzon Extreme,Uzon,Perfumaria,Perfumaria,90 ml,,119.9,89.9,30.0,25.02,True,45,,jequiti-c05-2026,Jequiti,5
+19352,Desodorante Colônia Masculina Uzon Original,Uzon,Perfumaria,Perfumaria,90 ml,,119.9,89.9,30.0,25.02,True,45,,jequiti-c05-2026,Jequiti,5
+18198,Desodorante Colônia Hypnotic Feminina,Hypnotic,Perfumaria,Perfumaria,90 ml,,109.9,,,,False,46,,jequiti-c05-2026,Jequiti,5
+18199,Desodorante Colônia Hypnotic Masculina,Hypnotic,Perfumaria,Perfumaria,90 ml,,109.9,,,,False,46,,jequiti-c05-2026,Jequiti,5
+100130,Desodorante Colônia Deluxe Moonlight Feminina,Deluxe,Perfumaria,Perfumaria,90 ml,,149.9,,,,False,47,,jequiti-c05-2026,Jequiti,5
+100131,Desodorante Colônia Deluxe Eclipse Masculina,Deluxe,Perfumaria,Perfumaria,90 ml,,149.9,,,,False,47,,jequiti-c05-2026,Jequiti,5
+100195,Desodorante Colônia Feminina Her,Her,Perfumaria,Perfumaria,75 ml,,99.9,,,,False,49,,jequiti-c05-2026,Jequiti,5
+100145,Desodorante Colônia Feminina Radiance Passion,Radiance Passion,Perfumaria,Perfumaria,90 ml,,149.9,,,,False,50,,jequiti-c05-2026,Jequiti,5
+100188,Desodorante Colônia Feminina Unique Elegance,Unique,Perfumaria,Perfumaria,100 ml,,139.9,,,,False,51,,jequiti-c05-2026,Jequiti,5
+100627,Desodorante Colônia Splash Ana Castela Boiadeira,Ana Castela,Perfumaria,Perfumaria,200ml,,74.9,,,,False,53,,jequiti-c05-2026,Jequiti,5
+100628,Desodorante Colônia Splash Ana Castela Vai Te Viciar,Ana Castela,Perfumaria,Perfumaria,200ml,,74.9,,,,False,53,,jequiti-c05-2026,Jequiti,5
+11023,Desodorante Colônia Feminina Adriane Galisteu,Adriane Galisteu,Perfumaria,Perfumaria,100 ml,,149.9,,,,False,54,,jequiti-c05-2026,Jequiti,5
+80702,Desodorante Colônia Feminina Adriane Galisteu Ella,Adriane Galisteu,Perfumaria,Perfumaria,90 ml,,149.9,,,,False,55,,jequiti-c05-2026,Jequiti,5
+00145,Desodorante Colônia Feminina Bem-Me-Quer(o) Com Magia,Bem-Me-Quer(o),Perfumaria,Perfumaria,100 ml,,89.9,,,,False,56,,jequiti-c05-2026,Jequiti,5
+15131,Desodorante Colônia Feminina Sabrina Sato,Sabrina Sato,Perfumaria,Perfumaria,100 ml,,149.9,,,,False,56,,jequiti-c05-2026,Jequiti,5
+19357,Desodorante Colônia Feminina Patricia Abravanel Intenso,Patricia Abravanel,Perfumaria,Perfumaria,90 ml,,149.9,,,,False,57,,jequiti-c05-2026,Jequiti,5
+19358,Desodorante Colônia Feminina Patricia Abravanel Original,Patricia Abravanel,Perfumaria,Perfumaria,90 ml,,149.9,,,,False,57,,jequiti-c05-2026,Jequiti,5
+16748,Hidratante Corporal Patricia Abravanel Essence,Patricia Abravanel,Hidratação,Hidratação,150 g,,74.9,,,,False,57,,jequiti-c05-2026,Jequiti,5
+100906,Patricia Abravanel Essence,Patricia Abravanel,Perfumaria,Perfumaria,90 ml,,0.0,,,,True,58,,jequiti-c05-2026,Jequiti,5
+14833,Desodorante Colônia Feminina Patricia Abravanel Essence,Patricia Abravanel,Perfumaria,Perfumaria,25 ml,,49.9,,,,True,58,,jequiti-c05-2026,Jequiti,5
+100908,Desodorante Colônia Feminina Claudia Leitte,Claudia Leitte,Perfumaria,Perfumaria,90 ml,,149.9,109.9,40.0,26.68,True,59,,jequiti-c05-2026,Jequiti,5
+70112,Desodorante Colônia Feminina Claudia Leitte,Claudia Leitte,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,59,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,Acessórios,Acessórios,Acessórios,,,3.9,,,,False,59,,jequiti-c05-2026,Jequiti,5
+16746,Desodorante Colônia Refrescante Caminho das Águas Baunilha,Caminho das Águas,Perfumaria,Perfumaria,300 ml,,0.0,,,,False,60,,jequiti-c05-2026,Jequiti,5
+16744,Desodorante Colônia Refrescante Caminho das Águas Madeiras,Caminho das Águas,Perfumaria,Perfumaria,300 ml,,0.0,,,,False,60,,jequiti-c05-2026,Jequiti,5
+18208,Desodorante Colônia Refrescante Caminho das Águas Flor de Lótus,Caminho das Águas,Perfumaria,Perfumaria,300 ml,,0.0,,,,False,60,,jequiti-c05-2026,Jequiti,5
+17873,Caminho das Águas Lavanda Floral Refrescante,Caminho das Águas,Perfumaria,Perfumaria,,,74.9,59.9,15.0,20.03,True,61,,jequiti-c05-2026,Jequiti,5
+16745,Caminho das Águas Flor de Laranjeira Floral Refrescante,Caminho das Águas,Perfumaria,Perfumaria,,,74.9,59.9,15.0,20.03,True,61,,jequiti-c05-2026,Jequiti,5
+19306,Sabonete Líquido Glicerinado,Meu Bebê Soninho,Corpo e Banho,Corpo e Banho,200 ml,,44.9,44.9,,,False,63,,jequiti-c05-2026,Jequiti,5
+19307,Loção Hidratante Corporal,Meu Bebê Soninho,Hidratação,Hidratação,200 ml,,49.9,49.9,,,False,63,,jequiti-c05-2026,Jequiti,5
+17841,Estojo Sabonetes Sortidos,Meu Bebê,Corpo e Banho,Corpo e Banho,3 unidades de 80g cada,,38.9,,,,False,64,,jequiti-c05-2026,Jequiti,5
+100500,Estojo Sabonetes Sortidos Edição Especial,Meu Bebê,Corpo e Banho,Corpo e Banho,3 unidades de 80g cada,,38.9,,,,False,64,,jequiti-c05-2026,Jequiti,5
+15758,Lenços Umedecidos,Meu Bebê,Corpo e Banho,Corpo e Banho,50 unidades,,24.9,,,,False,64,,jequiti-c05-2026,Jequiti,5
+12451,Válvula Pump,Meu Bebê,Acessórios,Acessórios,1 unidade,,6.9,,,,False,64,,jequiti-c05-2026,Jequiti,5
+12450,Shampoo,Meu Bebê,Cabelos,Cabelos,200 ml,,38.9,,,,False,65,,jequiti-c05-2026,Jequiti,5
+100235,Condicionador,Meu Bebê,Cabelos,Cabelos,200 ml,,38.9,,,,False,65,,jequiti-c05-2026,Jequiti,5
+12712,Sabonete Líquido da Cabeça aos Pés,Meu Bebê,Corpo e Banho,Corpo e Banho,200 ml,,44.9,,,,False,65,,jequiti-c05-2026,Jequiti,5
+12713,Loção Hidratante Corporal,Meu Bebê,Hidratação,Hidratação,200 ml,,49.9,,,,False,65,,jequiti-c05-2026,Jequiti,5
+11032,Desodorante Colônia Feminina Hello Kitty Estilosa,Hello Kitty,Perfumaria,Perfumaria,25ml,,39.9,,,,False,66,,jequiti-c05-2026,Jequiti,5
+19345,Desodorante Colônia Feminina Hello Kitty Apaixonada,Hello Kitty,Perfumaria,Perfumaria,25ml,,39.9,,,,False,66,,jequiti-c05-2026,Jequiti,5
+19554,Desodorante Colônia Feminina Barbie Sunshine,Barbie,Perfumaria,Perfumaria,25ml,,39.9,,,,False,66,,jequiti-c05-2026,Jequiti,5
+99950,Desodorante Colônia Feminina Barbie Girl Power,Barbie,Perfumaria,Perfumaria,25ml,,39.9,,,,False,66,,jequiti-c05-2026,Jequiti,5
+100823,Desodorante Colônia Masculina Turma da Mônica Cebolinha,Turma da Mônica,Perfumaria,Perfumaria,50 ml,,79.9,,,,False,67,,jequiti-c05-2026,Jequiti,5
+99967,Desodorante Colônia Magali,Turma da Mônica,Perfumaria,Perfumaria,25ml,,39.9,24.9,15.0,37.59,True,68,,jequiti-c05-2026,Jequiti,5
+99965,Desodorante Colônia Cebolinha,Turma da Mônica,Perfumaria,Perfumaria,25ml,,39.9,24.9,15.0,37.59,True,68,,jequiti-c05-2026,Jequiti,5
+99966,Desodorante Colônia Mônica,Turma da Mônica,Perfumaria,Perfumaria,25ml,,39.9,24.9,15.0,37.59,True,68,,jequiti-c05-2026,Jequiti,5
+100208,Desodorante Colônia Masculina Turma do Chico Bento,Turma do Chico Bento,Perfumaria,Perfumaria,25 ml,,39.9,24.9,15.0,37.59,True,69,,jequiti-c05-2026,Jequiti,5
+80762,Desodorante Colônia Hot Wheels Speed Club,Hot Wheels,Perfumaria,Perfumaria,25ml,,39.9,,,,False,70,,jequiti-c05-2026,Jequiti,5
+99954,Desodorante Colônia Hot Wheels Monster Trucks,Hot Wheels,Perfumaria,Perfumaria,25ml,,39.9,,,,False,70,,jequiti-c05-2026,Jequiti,5
+99959,Desodorante Colônia Minions Eureka!,Minions,Perfumaria,Perfumaria,25ml,,39.9,27.9,12.0,30.08,True,71,,jequiti-c05-2026,Jequiti,5
+19574,Desodorante Colônia Masculina Minions,Minions,Perfumaria,Perfumaria,25ml,,39.9,27.9,12.0,30.08,True,71,,jequiti-c05-2026,Jequiti,5
+19573,Desodorante Colônia Feminina Agnes,Minions,Perfumaria,Perfumaria,25ml,,39.9,27.9,12.0,30.08,True,71,,jequiti-c05-2026,Jequiti,5
+18803,Sally Carrera Desodorante Colônia Feminina,Disney Pixar Carros,Perfumaria,Perfumaria,25ml,,39.9,,,,False,72,,jequiti-c05-2026,Jequiti,5
+18802,Relâmpago McQueen Desodorante Colônia Masculina,Disney Pixar Carros,Perfumaria,Perfumaria,25ml,,39.9,,,,False,72,,jequiti-c05-2026,Jequiti,5
+99963,Desodorante Colônia Woody,Toy Story,Perfumaria,Perfumaria,25 ml,,39.9,29.9,10.0,25.06,True,73,,jequiti-c05-2026,Jequiti,5
+99962,Desodorante Colônia Buzz,Toy Story,Perfumaria,Perfumaria,25 ml,,39.9,29.9,10.0,25.06,True,73,,jequiti-c05-2026,Jequiti,5
+99964,Desodorante Colônia Betty,Toy Story,Perfumaria,Perfumaria,25 ml,,39.9,29.9,10.0,25.06,True,73,,jequiti-c05-2026,Jequiti,5
+99951,Desodorante Colônia Candy Land Marshmallow,Candy Land,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,74,,jequiti-c05-2026,Jequiti,5
+99952,Desodorante Colônia Candy Land Maçã do Amor,Candy Land,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,74,,jequiti-c05-2026,Jequiti,5
+19344,Sabonete Hidratante em Barra Candy Land Bala de Morango,Candy Land,Corpo e Banho,Corpo e Banho,2 unidades | 80 g cada,,24.9,,,,False,75,,jequiti-c05-2026,Jequiti,5
+19342,Desodorante Colônia Candy Land Bala de Morango,Candy Land,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,75,,jequiti-c05-2026,Jequiti,5
+19343,Hidratante Corporal Candy Land Bala de Morango,Candy Land,Hidratação,Hidratação,100 ml,,26.9,19.9,7.0,26.02,True,75,,jequiti-c05-2026,Jequiti,5
+100399,Batom Mattefix Vinho Mistério,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,,,,False,77,,jequiti-c05-2026,Jequiti,5
+100403,Batom Mattefix Vermelho Intenso,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,,,,False,77,,jequiti-c05-2026,Jequiti,5
+100398,Batom Mattefix Rosa Natural,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,,,,False,77,,jequiti-c05-2026,Jequiti,5
+100405,Batom Mattefix Nude Delicado,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,,,,False,77,,jequiti-c05-2026,Jequiti,5
+100406,Batom Mattefix Malva Poder,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,,,,False,77,,jequiti-c05-2026,Jequiti,5
+100401,Batom Mattefix Marrom Encanto,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,,,,False,77,,jequiti-c05-2026,Jequiti,5
+100396,Batom Mattefix Terracota Glamour,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,,,,False,77,,jequiti-c05-2026,Jequiti,5
+100589,Batom Líquido Aviva Nude Poderoso,Aviva,Maquiagem,Maquiagem,4 ml,,45.9,,,,False,78,,jequiti-c05-2026,Jequiti,5
+100587,Batom Líquido Aviva Vinho Fascinante,Aviva,Maquiagem,Maquiagem,4 ml,,45.9,,,,False,78,,jequiti-c05-2026,Jequiti,5
+100585,Batom Líquido Aviva Marrom Irresistível,Aviva,Maquiagem,Maquiagem,4 ml,,45.9,,,,False,78,,jequiti-c05-2026,Jequiti,5
+100588,Batom Líquido Aviva Vermelho Luxo,Aviva,Maquiagem,Maquiagem,4 ml,,45.9,,,,False,78,,jequiti-c05-2026,Jequiti,5
+100408,Batom Hidratante Aviva Marrom Sedução,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,79,,jequiti-c05-2026,Jequiti,5
+100409,Batom Hidratante Aviva Bordô Sublime,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,79,,jequiti-c05-2026,Jequiti,5
+100407,Batom Hidratante Aviva Nude Radiante,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,79,,jequiti-c05-2026,Jequiti,5
+100414,Batom Hidratante Aviva Malva Divino,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,79,,jequiti-c05-2026,Jequiti,5
+100411,Batom Hidratante Aviva Rosé Clássico,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,79,,jequiti-c05-2026,Jequiti,5
+100410,Batom Hidratante Aviva Nude Sofisticado,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,79,,jequiti-c05-2026,Jequiti,5
+100412,Batom Hidratante Aviva Marrom Autêntico,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,79,,jequiti-c05-2026,Jequiti,5
+11621,Máscara para Cílios Maxi Volume,Aviva,Maquiagem,Maquiagem,4 ml,,66.9,,,,False,80,,jequiti-c05-2026,Jequiti,5
+17875,Máscara para Cílios à Prova d'Água Fantastic,Aviva,Maquiagem,Maquiagem,6 ml,,66.9,,,,False,80,,jequiti-c05-2026,Jequiti,5
+18060,Lapiseira para Sobrancelhas Universal,Aviva,Maquiagem,Maquiagem,250 mg,,52.9,,,,False,80,,jequiti-c05-2026,Jequiti,5
+15374,Caneta Delineadora para Olhos Preta,Aviva,Maquiagem,Maquiagem,1 ml,,52.9,,,,False,80,,jequiti-c05-2026,Jequiti,5
+100180,Esmalte The Noite,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+100182,Esmalte Roda a Roda,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+100181,Esmalte Casa dos Artistas,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10135,Esmalte Cocktail,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10084,Esmalte Hot Hot Hot,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10161,Esmalte Chega Mais,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10143,Esmalte Fantasia,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10014,Esmalte Sábado Animado,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10150,Esmalte Vem Pra Cá,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10124,Esmalte Beleza Renovada,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+10120,Esmalte Topa Tudo,Unhas,Maquiagem,Maquiagem,7ml,,15.9,11.9,4.0,25.16,True,81,,jequiti-c05-2026,Jequiti,5
+19009,Gloss Labial Roll-on Melancia,Ellas,Maquiagem,Maquiagem,"3,5 ml",,23.9,,,,False,82,,jequiti-c05-2026,Jequiti,5
+19340,Gloss Labial Roll-on Tutti Frutti,Ellas,Maquiagem,Maquiagem,"3,5 ml",,23.9,,,,False,82,,jequiti-c05-2026,Jequiti,5
+19008,Gloss Labial Roll-on Morango,Ellas,Maquiagem,Maquiagem,"3,5 ml",,23.9,,,,False,82,,jequiti-c05-2026,Jequiti,5
+19006,Lipbalm Batom Candy Morango,Ellas,Maquiagem,Maquiagem,5 g,,23.9,,,,False,82,,jequiti-c05-2026,Jequiti,5
+19005,Lipbalm Batom Candy Melancia,Ellas,Maquiagem,Maquiagem,5 g,,23.9,,,,False,82,,jequiti-c05-2026,Jequiti,5
+100584,Batom Matte Vinho Glamuroso,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18384,Batom Matte Avelã,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18417,Batom Matte Boca Passione,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18380,Batom Matte Cappuccino,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+100583,Batom Matte Marrom Cativante,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18377,Batom Matte Marsala Arraso,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18379,Batom Matte Nude Moda,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18383,Batom Matte Rosa Encantado,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+100582,Batom Matte Rosé Moderno,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18381,Batom Matte Roxo Chic,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18385,Batom Matte Vermelho Luxo,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+100581,Batom Matte Vermelho Vibrante,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18386,Batom Matte Vinho Fabuloso,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+18378,Batom Matte Vinho Puro,Matte,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,83,,jequiti-c05-2026,Jequiti,5
+71500,Lápis para Olhos Preto Kajal,Ellas #makeup,Maquiagem,Maquiagem,"1,2 g",,28.9,21.9,7.0,24.22,True,84,,jequiti-c05-2026,Jequiti,5
+18396,Batom Hidratante Rosa dos Sonhos,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18397,Batom Hidratante Malva Deslumbrante,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18395,Batom Hidratante Carmim Exclusivo,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18394,Batom Hidratante Vermelho Desejo,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18392,Batom Hidratante Nude,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18393,Batom Hidratante Pink Kiss,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18388,Batom Hidratante Vinho Trend,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18389,Batom Hidratante Vinho Sedução,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18390,Batom Hidratante Café Glam,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18391,Batom Hidratante Rosa Ousadia,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,17.9,6.0,25.1,True,85,,jequiti-c05-2026,Jequiti,5
+18305,Shampoo FYO Profissional Plástica Capilar,FYO Profissional,Cabelos,Cabelos,300 ml,,41.9,,,,False,87,,jequiti-c05-2026,Jequiti,5
+18306,Condicionador FYO Profissional Plástica Capilar,FYO Profissional,Cabelos,Cabelos,300 ml,,44.9,,,,False,87,,jequiti-c05-2026,Jequiti,5
+18307,Máscara FYO Profissional Plástica Capilar,FYO Profissional,Cabelos,Cabelos,200 g,,54.9,,,,False,87,,jequiti-c05-2026,Jequiti,5
+18308,Leave-in FYO Profissional Plástica Capilar,FYO Profissional,Cabelos,Cabelos,125 ml,,49.9,,,,False,87,,jequiti-c05-2026,Jequiti,5
+19215,Shampoo FYO Profissional DD Cream,FYO Profissional,Cabelos,Cabelos,300 ml,,41.9,29.9,12.0,28.64,True,88,,jequiti-c05-2026,Jequiti,5
+19216,Condicionador FYO Profissional DD Cream,FYO Profissional,Cabelos,Cabelos,300 ml,,44.9,32.9,12.0,26.73,True,88,,jequiti-c05-2026,Jequiti,5
+19217,Máscara DD Cream,FYO Profissional DD Cream,Cabelos,Cabelos,150 g,,49.9,34.9,15.0,30.06,True,89,,jequiti-c05-2026,Jequiti,5
+19218,Balm DD Cream,FYO Profissional DD Cream,Cabelos,Cabelos,80 ml,,45.9,34.9,11.0,23.97,True,89,,jequiti-c05-2026,Jequiti,5
+99974,Spray Perfumado para Cabelos DD Cream,FYO Profissional DD Cream,Cabelos,Cabelos,60 ml,,39.9,31.9,8.0,20.05,True,89,,jequiti-c05-2026,Jequiti,5
+19622,Shampoo Cachos Naturais e Definidos,FYO Profissional,Cabelos,Cabelos,300 ml,,41.9,,,,False,90,,jequiti-c05-2026,Jequiti,5
+19623,Condicionador Cachos Naturais e Definidos,FYO Profissional,Cabelos,Cabelos,300 ml,,44.9,,,,False,90,,jequiti-c05-2026,Jequiti,5
+19624,Máscara Cachos Naturais e Definidos,FYO Profissional,Cabelos,Cabelos,150 g,,49.9,,,,False,90,,jequiti-c05-2026,Jequiti,5
+18149,Creme para Pentear Cachos Naturais e Definidos,FYO Profissional,Cabelos,Cabelos,150 ml,,49.9,,,,False,90,,jequiti-c05-2026,Jequiti,5
+17640,Máscara Crespos Hidratados e Definidos,FYO Profissional,Cabelos,Cabelos,200 g,,54.9,,,,False,90,,jequiti-c05-2026,Jequiti,5
+17639,Creme para Pentear Crespos Hidratados e Definidos,FYO Profissional,Cabelos,Cabelos,200 ml,,49.9,,,,False,90,,jequiti-c05-2026,Jequiti,5
+13638,Shampoo Fyo Hidratação Profunda,Fyo Profissional,Cabelos,Cabelos,300 ml,,41.9,,,,False,91,,jequiti-c05-2026,Jequiti,5
+13639,Condicionador Fyo Hidratação Profunda,Fyo Profissional,Cabelos,Cabelos,300 ml,,44.9,,,,False,91,,jequiti-c05-2026,Jequiti,5
+11111,Máscara Fyo Hidratação Profunda,Fyo Profissional,Cabelos,Cabelos,150 g,,49.9,,,,False,91,,jequiti-c05-2026,Jequiti,5
+11112,Óleo Restaurador Fyo Hidratação Profunda,Fyo Profissional,Cabelos,Cabelos,30 ml,,39.9,,,,False,91,,jequiti-c05-2026,Jequiti,5
+11117,Shampoo Matizador,FYO Pós-Química Loiro Radiante,Cabelos,Cabelos,300 ml,,43.9,,,,False,92,,jequiti-c05-2026,Jequiti,5
+11468,Condicionador 1 Minuto Matizador,FYO Pós-Química Loiro Radiante,Cabelos,Cabelos,150 g,,46.9,,,,False,92,,jequiti-c05-2026,Jequiti,5
+18136,Creme Iluminador 3D Realce da Cor,FYO Pós-Química Loiro Radiante,Cabelos,Cabelos,80 ml,,45.9,,,,False,92,,jequiti-c05-2026,Jequiti,5
+18151,Shampoo Antirresíduo,FYO Detox,Cabelos,Cabelos,300 ml,,41.9,,,,False,92,,jequiti-c05-2026,Jequiti,5
+19618,Shampoo Liso Prolongado,Fyo Profissional Liso Prolongado,Cabelos,Cabelos,300 ml,,41.9,29.9,12.0,28.64,True,93,,jequiti-c05-2026,Jequiti,5
+19619,Condicionador Liso Prolongado,Fyo Profissional Liso Prolongado,Cabelos,Cabelos,300 ml,,44.9,32.9,12.0,26.73,True,93,,jequiti-c05-2026,Jequiti,5
+19620,Máscara Seladora Liso Prolongado,Fyo Profissional Liso Prolongado,Cabelos,Cabelos,150 g,,49.9,34.9,15.0,30.06,True,93,,jequiti-c05-2026,Jequiti,5
+19621,Creme Disciplinante Liso Prolongado,Fyo Profissional Liso Prolongado,Cabelos,Cabelos,80 ml,,39.9,29.9,10.0,25.06,True,93,,jequiti-c05-2026,Jequiti,5
+19480,Óleo Corporal Bifásico Amêndoas e Frutas Vermelhas,óllio,Corpo e Banho,Corpo e Banho,200 ml,,49.9,,,,False,94,,jequiti-c05-2026,Jequiti,5
+16956,Óllio Óleo Corporal Argan e Vanilla,Óllio,Cuidados Diários,Cuidados Diários,200 ml,,84.9,,,,False,95,,jequiti-c05-2026,Jequiti,5
+16406,Óllio Óleo Corporal Amêndoas e Especiarias,Óllio,Cuidados Diários,Cuidados Diários,200 ml,,84.9,,,,False,95,,jequiti-c05-2026,Jequiti,5
+16392,Óllio Óleo Corporal Amêndoas Doces,Óllio,Cuidados Diários,Cuidados Diários,200 ml,,84.9,,,,False,95,,jequiti-c05-2026,Jequiti,5
+15154,Splash Eu Conquisto Baunilha,Eu Conquisto,Perfumaria,Perfumaria,200 ml,,58.9,,,,False,96,,jequiti-c05-2026,Jequiti,5
+15157,Splash Eu Provoco Morangos com Champagne,Eu Provoco,Perfumaria,Perfumaria,200 ml,,58.9,,,,False,96,,jequiti-c05-2026,Jequiti,5
+18120,Hidratante Corporal Eu Conquisto Baunilha,Eu Conquisto,Hidratação,Hidratação,200 ml,,45.9,,,,False,96,,jequiti-c05-2026,Jequiti,5
+18124,Hidratante Corporal Eu Provoco Morangos com Champagne,Eu Provoco,Hidratação,Hidratação,200 ml,,45.9,,,,False,96,,jequiti-c05-2026,Jequiti,5
+18122,Desodorante Hidratante Corporal Eu Desejo Frutas Vermelhas,Eu Desejo,Hidratação,Hidratação,200 ml,,45.9,34.9,11.0,23.97,True,97,,jequiti-c05-2026,Jequiti,5
+15167,Desodorante Colônia Splash Eu Desejo Frutas Vermelhas,Eu Desejo,Perfumaria,Perfumaria,200 ml,,58.9,44.9,14.0,23.77,True,97,,jequiti-c05-2026,Jequiti,5
+100394,Hidratante Corporal Vida Alegre Flor de Pitaya,Vida,Hidratação,Hidratação,190 ml,,36.9,,,,False,98,,jequiti-c05-2026,Jequiti,5
+100395,Splash Vida Alegre Flor de Pitaya,Vida,Perfumaria,Perfumaria,200 ml,,49.9,,,,False,98,,jequiti-c05-2026,Jequiti,5
+100392,Hidratante Corporal Vida Relax Lavanda,Vida,Hidratação,Hidratação,190 ml,,36.9,,,,False,98,,jequiti-c05-2026,Jequiti,5
+100393,Splash Vida Relax Lavanda,Vida,Perfumaria,Perfumaria,200 ml,,49.9,,,,False,98,,jequiti-c05-2026,Jequiti,5
+100390,Hidratante Corporal Vida Amor Flor de Amora,Vida,Hidratação,Hidratação,190 ml,,36.9,,,,False,98,,jequiti-c05-2026,Jequiti,5
+100391,Splash Vida Amor Flor de Amora,Vida,Perfumaria,Perfumaria,200 ml,,49.9,,,,False,98,,jequiti-c05-2026,Jequiti,5
+17996,Sabonete Hidratante em Barra 5 unidades,Sensi MEN,Corpo e Banho,Corpo e Banho,5 unidades de 80 g cada,,29.9,,,,False,99,,jequiti-c05-2026,Jequiti,5
+100231,Shampoo Anticaspa,Sensi MEN,Cabelos,Cabelos,200 ml,,29.9,,,,False,99,,jequiti-c05-2026,Jequiti,5
+16993,Shampoo 2 em 1,Sensi MEN,Cabelos,Cabelos,200 ml,,27.9,19.9,8.0,28.67,True,99,,jequiti-c05-2026,Jequiti,5
+100010,Sabonete Hidratante em Barra,Sensi MEN,Corpo e Banho,Corpo e Banho,80 g,,5.9,,,,False,99,,jequiti-c05-2026,Jequiti,5
+19309,Sabonete Gel Esfoliante Revitalizante,Sensi Skincare,Cuidados Faciais,Cuidados Faciais,50 g,,36.9,,,,False,100,,jequiti-c05-2026,Jequiti,5
+18704,Tônico Facial Renovador,Sensi Skincare,Cuidados Faciais,Cuidados Faciais,120 ml,,52.9,,,,False,100,,jequiti-c05-2026,Jequiti,5
+18097,Água Micelar 5 em 1,Sensi Skincare,Cuidados Faciais,Cuidados Faciais,150 ml,,44.9,,,,False,100,,jequiti-c05-2026,Jequiti,5
+18707,Sérum Efeito Lipofilling,Sensi Skincare,Cuidados Diários,Cuidados Diários,30ml,,89.9,,,,False,101,,jequiti-c05-2026,Jequiti,5
+18705,Creme Facial Diurno Multirreparador,Sensi Skincare,Cuidados Diários,Cuidados Diários,50g,,74.9,,,,False,101,,jequiti-c05-2026,Jequiti,5
+18706,Creme Facial Noturno Regenerador,Sensi Skincare,Cuidados Diários,Cuidados Diários,50g,,74.9,,,,False,101,,jequiti-c05-2026,Jequiti,5
+100291,Creme Facial Uniformizador,Sensi Skincare,Rosto,Rosto,50g,,79.9,,,,False,102,,jequiti-c05-2026,Jequiti,5
+17655,Gel Esfoliante Corporal,Sensi,Corpo e Banho,Corpo e Banho,200 g,,46.9,,,,False,103,,jequiti-c05-2026,Jequiti,5
+11739,Sabonete Líquido Íntimo,Sensi,Corpo e Banho,Corpo e Banho,200 ml,,50.9,,,,False,103,,jequiti-c05-2026,Jequiti,5
+80730,Desodorante Antitranspirante Aerossol Sensi Men Urban,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,,,,False,104,,jequiti-c05-2026,Jequiti,5
+10169,Desodorante Antitranspirante Aerossol Sensi Men Clinical,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,,,,False,104,,jequiti-c05-2026,Jequiti,5
+80729,Desodorante Antitranspirante Aerossol Sensi Men Antibac,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,,,,False,104,,jequiti-c05-2026,Jequiti,5
+80734,Desodorante Antitranspirante Aerossol Sensi Suave,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,,,,False,104,,jequiti-c05-2026,Jequiti,5
+10166,Desodorante Antitranspirante Aerossol Sensi Clinical,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,,,,False,104,,jequiti-c05-2026,Jequiti,5
+80727,Desodorante Antitranspirante Aerossol Sensi Antibac,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,,,,False,104,,jequiti-c05-2026,Jequiti,5
+80725,Desodorante Antitranspirante Aerossol Sensi Essencial,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,,,,False,104,,jequiti-c05-2026,Jequiti,5
+19498,Desodorante Antitranspirante Roll-on Men Sport,Sensi Men,Desodorantes,Desodorantes,55ml,,26.9,19.9,7.0,26.02,True,105,,jequiti-c05-2026,Jequiti,5
+17658,Desodorante Antitranspirante Roll-on Men Urban,Sensi Men,Desodorantes,Desodorantes,55ml,,26.9,19.9,7.0,26.02,True,105,,jequiti-c05-2026,Jequiti,5
+19497,Desodorante Antitranspirante Roll-on Men Antibac,Sensi Men,Desodorantes,Desodorantes,55ml,,26.9,19.9,7.0,26.02,True,105,,jequiti-c05-2026,Jequiti,5
+19495,Desodorante Antitranspirante Roll-on Suave,Sensi,Desodorantes,Desodorantes,55ml,,26.9,19.9,7.0,26.02,True,105,,jequiti-c05-2026,Jequiti,5
+17265,Desodorante Antitranspirante Roll-on Essencial,Sensi,Desodorantes,Desodorantes,55ml,,26.9,19.9,7.0,26.02,True,105,,jequiti-c05-2026,Jequiti,5
+19494,Desodorante Antitranspirante Roll-on Sem Perfume,Sensi,Desodorantes,Desodorantes,55ml,,26.9,19.9,7.0,26.02,True,105,,jequiti-c05-2026,Jequiti,5
+17570,Sabonete Hidratante em Barra Algodão,Sensi,Sabonetes,Sabonetes,5 unidades de 80g cada,,29.9,24.9,5.0,16.72,True,106,,jequiti-c05-2026,Jequiti,5
+80663,Sabonete Hidratante em Barra Sortidos,Sensi,Sabonetes,Sabonetes,5 unidades de 80g cada,,33.9,,,,False,106,,jequiti-c05-2026,Jequiti,5
+17523,Sabonete Hidratante em Barra Flores,Sensi,Sabonetes,Sabonetes,5 unidades de 80g cada,,33.9,,,,False,106,,jequiti-c05-2026,Jequiti,5
+17573,Sabonete Hidratante em Barra Cuidado & Perfumação,Sensi,Sabonetes,Sabonetes,5 unidades de 80g cada,,33.9,,,,False,106,,jequiti-c05-2026,Jequiti,5
+16906,Sabonete Hidratante em Barra Leite de Amêndoas,Sensi,Sabonetes,Sabonetes,5 unidades de 80g cada,,29.9,,,,False,106,,jequiti-c05-2026,Jequiti,5
+17561,Sabonete Hidratante em Barra Antibacteriano Verbena,Sensi,Cuidados Diários,Cuidados Diários,80 g,,6.9,4.9,2.0,28.99,True,107,,jequiti-c05-2026,Jequiti,5
+17656,Sabonete Hidratante em Barra Pétalas de Rosas,Sensi,Cuidados Diários,Cuidados Diários,80 g,,5.9,4.5,1.4,23.73,True,107,,jequiti-c05-2026,Jequiti,5
+17564,Sabonete Hidratante em Barra Algodão,Sensi,Cuidados Diários,Cuidados Diários,80 g,,5.9,,,,False,107,,jequiti-c05-2026,Jequiti,5
+16885,Sabonete Hidratante em Barra Leite de Amêndoas,Sensi,Cuidados Diários,Cuidados Diários,80 g,,5.9,,,,False,107,,jequiti-c05-2026,Jequiti,5
+19852,Sabonete Hidratante em Barra Aloe Vera,Sensi,Cuidados Diários,Cuidados Diários,80 g,,5.9,,,,False,107,,jequiti-c05-2026,Jequiti,5
+19801,Hidratante Corporal Sensi Pele Morena e Negra,Sensi,Hidratação,Hidratação,200ml,,29.9,,,,False,108,,jequiti-c05-2026,Jequiti,5
+19803,Hidratante Corporal Sensi Pele Seca Mix de Leites,Sensi,Hidratação,Hidratação,200ml,,29.9,,,,False,108,,jequiti-c05-2026,Jequiti,5
+99972,Hidratante Corporal Sensi Pele Seca,Sensi,Hidratação,Hidratação,200ml,,29.9,,,,False,108,,jequiti-c05-2026,Jequiti,5
+19802,Hidratante Corporal Sensi Todos os Tipos de Pele Extrato de Rosas,Sensi,Hidratação,Hidratação,200ml,,29.9,,,,False,108,,jequiti-c05-2026,Jequiti,5
+19800,Hidratante Corporal Sensi Pele Normal,Sensi,Hidratação,Hidratação,200ml,,29.9,,,,False,108,,jequiti-c05-2026,Jequiti,5
+19799,Hidratante Corporal Pele Extrasseca,Sensi,Hidratação,Hidratação,200 ml,,29.9,21.9,8.0,26.76,True,109,,jequiti-c05-2026,Jequiti,5
+19806,Hidratante Corporal Sensi Advanced Pele Madura,Sensi,Hidratação,Hidratação,400ml,,47.9,,,,False,110,,jequiti-c05-2026,Jequiti,5
+19804,Hidratante Corporal Sensi Advanced Todos os Tipos de Pele Hipoalergênico,Sensi,Hidratação,Hidratação,400ml,,47.9,,,,False,110,,jequiti-c05-2026,Jequiti,5
+19805,Hidratante Corporal Sensi Advanced Pele Tensora,Sensi,Hidratação,Hidratação,400ml,,47.9,,,,False,110,,jequiti-c05-2026,Jequiti,5
+80606,Demaquilante Bifásico Aviva,Aviva,Maquiagem,Maquiagem,120 ml,,62.9,44.9,18.0,28.62,True,113,,jequiti-c05-2026,Jequiti,5
+99993,Stick Multifuncional Aviva Seduzo Ameixa,Aviva Seduzo,Maquiagem,Maquiagem,"7,5 g",,63.9,29.9,34.0,53.21,True,113,,jequiti-c05-2026,Jequiti,5
+101591,Hidratante Corporal Sensi Pele Seca Óleo de Amêndoas,Sensi,Hidratação,Hidratação,400ml,,42.9,32.9,10.0,23.31,True,114,,jequiti-c05-2026,Jequiti,5
+101592,Hidratante Corporal Sensi Todos os Tipos de Pele Extrato de Rosas,Sensi,Hidratação,Hidratação,400ml,,42.9,32.9,10.0,23.31,True,114,,jequiti-c05-2026,Jequiti,5
+101593,Hidratante Corporal Sensi Pele Extrasseca Manteiga de Karité,Sensi,Hidratação,Hidratação,400ml,,42.9,32.9,10.0,23.31,True,114,,jequiti-c05-2026,Jequiti,5
+101594,Hidratante Corporal Sensi Pele Normal Óleo de Semente de Uva,Sensi,Hidratação,Hidratação,400ml,,42.9,32.9,10.0,23.31,True,114,,jequiti-c05-2026,Jequiti,5
+101595,Hidratante Corporal Sensi Hidratação Enriquecida Pele Seca Mix de Leites,Sensi,Hidratação,Hidratação,400ml,,42.9,32.9,10.0,23.31,True,115,,jequiti-c05-2026,Jequiti,5
+101596,Hidratante Corporal Sensi Hidratação Reforçada Pele Morena e Negra,Sensi,Hidratação,Hidratação,400ml,,42.9,32.9,10.0,23.31,True,115,,jequiti-c05-2026,Jequiti,5
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,115,,jequiti-c05-2026,Jequiti,5
+100899,Estojo Sensi Momentos de Amor - Sabonete Hidratante em Barra,Sensi,Corpo e Banho,Corpo e Banho,5 unidades | 80 g cada,,33.9,26.9,7.0,20.65,True,116,,jequiti-c05-2026,Jequiti,5
+18768,Sacola P,,Acessórios,Acessórios,,,3.9,,,,False,116,,jequiti-c05-2026,Jequiti,5
