@@ -525,6 +525,14 @@ body.brutalist .exp-hl {
   white-space: nowrap;
 }
 
+/* company name: solid marker chip in the role title */
+body.brutalist .exp-company {
+  background-color: var(--accent-b);
+  color: var(--bg);
+  padding: 0 0.3em;
+  font-weight: 600;
+}
+
 /* ---- scrollspy: highlight the nav link for the section in view ----------- */
 body.brutalist header nav a { position: relative; }
 body.brutalist header nav a.nav-active,
