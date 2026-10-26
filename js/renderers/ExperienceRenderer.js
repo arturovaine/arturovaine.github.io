@@ -44,6 +44,31 @@ export const ExperienceRenderer = {
     }
   },
 
+  renderTitle(title) {
+    // Highlight the company name (text after "at" / "na" / "no") as a marker chip.
+    const seps = this.currentLang === 'pt' ? [' no ', ' na '] : [' at '];
+    let at = -1;
+    let sep = '';
+    for (const s of seps) {
+      const i = title.lastIndexOf(s);
+      if (i > at) { at = i; sep = s; }
+    }
+    if (at === -1) return title;
+
+    const head = title.slice(0, at + sep.length);
+    let company = title.slice(at + sep.length);
+
+    // Keep a trailing work-type tag (e.g. "· Contract") outside the chip.
+    let suffix = '';
+    const dot = company.indexOf(' · ');
+    if (dot !== -1) {
+      suffix = company.slice(dot);
+      company = company.slice(0, dot);
+    }
+
+    return `${head}<span class="exp-company">${company}</span>${suffix}`;
+  },
+
   renderDescription(description) {
     if (Array.isArray(description)) {
       return `
@@ -74,7 +99,7 @@ export const ExperienceRenderer = {
             ${logoHtml}
             <div class="flex-1 min-w-0">
               <div class="flex items-center justify-between flex-wrap gap-2">
-                <h3 class="text-lg font-semibold tracking-tight">${experience.title}</h3>
+                <h3 class="text-lg font-semibold tracking-tight">${this.renderTitle(experience.title)}</h3>
                 <div class="text-sm text-neutral-300">${experience.location}</div>
               </div>
               <div class="text-sm text-neutral-400 mt-1">${experience.period}</div>
