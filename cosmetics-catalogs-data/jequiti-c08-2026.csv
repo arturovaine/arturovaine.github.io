@@ -1,0 +1,201 @@
+code,name,product_line,category,normalized_category,volume_weight,quantity,regular_price,promotional_price,savings,discount_percentage,promotion_active,page,quadrant,catalog_name,brand,cycle
+11365,Desodorante Colônia Masculina Aire Azure,Aire,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,3,,jequiti-c08-2026,Jequiti,8
+17854,Desodorante Colônia Feminina Amore,Amore,Perfumaria,Perfumaria,25 ml,,39.9,29.9,10.0,25.06,True,3,,jequiti-c08-2026,Jequiti,8
+19159,Desodorante Colônia Masculina Portiolli Gold,Portiolli,Perfumaria,Perfumaria,25 ml,,49.9,39.9,10.0,20.04,True,3,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,3,,jequiti-c08-2026,Jequiti,8
+18891,Desodorante Colônia Feminina Bem-Me-Quer Paradise,Bem-Me-Quer,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,4,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Jequiti,Acessórios,Acessórios,,,4.9,,,,False,4,,jequiti-c08-2026,Jequiti,8
+11488,Desodorante Colônia Masculina Aire Altitude Intense,Aire,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,5,,jequiti-c08-2026,Jequiti,8
+11401,Desodorante Colônia Masculina Aire Azure Intense,Aire,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,5,,jequiti-c08-2026,Jequiti,8
+100285,Desodorante Colônia Masculina Aire Altitude,Aire,Perfumaria,Perfumaria,25 ml,,29.9,23.9,6.0,20.07,True,5,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Jequiti,Acessórios,Acessórios,,,4.9,,,,False,5,,jequiti-c08-2026,Jequiti,8
+18956,Desodorante Colônia Feminina Florasense,Florasense,Perfumaria,Perfumaria,25 ml,,39.9,29.9,10.0,25.06,True,6,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Jequiti,Acessórios,Acessórios,,,4.9,,,,False,6,,jequiti-c08-2026,Jequiti,8
+100268,Estojo de Sabonetes Sortidos Meu Bebê Edição São João,Meu Bebê,Corpo e Banho,Corpo e Banho,3 unidades de 80 g cada,,39.9,22.9,17.0,42.61,True,7,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,7,,jequiti-c08-2026,Jequiti,8
+100421,Desodorante Colônia Candy Land Pipoca Doce,Candy Land,Perfumaria,Perfumaria,25 ml,,39.9,24.9,15.0,37.59,True,8,,jequiti-c08-2026,Jequiti,8
+100633,Lipbalm Batom Candy Land Pipoca Doce,Candy Land,Maquiagem,Maquiagem,5 g,,23.9,12.9,11.0,46.03,True,8,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Jequiti,Acessórios,Acessórios,,,4.9,,,,False,8,,jequiti-c08-2026,Jequiti,8
+99952,Desodorante Colônia Candy Land Maçã do Amor,Candy Land,Perfumaria,Perfumaria,25 ml,,39.9,29.9,10.0,25.06,True,9,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,9,,jequiti-c08-2026,Jequiti,8
+100951,Iluminador Compacto Aviva Dourado,Aviva,Maquiagem,Maquiagem,10 g,,39.9,25.9,14.0,35.09,True,10,,jequiti-c08-2026,Jequiti,8
+100952,Iluminador Compacto Aviva Bronze,Aviva,Maquiagem,Maquiagem,10 g,,39.9,25.9,14.0,35.09,True,10,,jequiti-c08-2026,Jequiti,8
+100948,Blush Compacto Aviva Rosa,Aviva,Maquiagem,Maquiagem,10 g,,39.9,25.9,14.0,35.09,True,10,,jequiti-c08-2026,Jequiti,8
+100949,Blush Compacto Aviva Marsala,Aviva,Maquiagem,Maquiagem,10 g,,39.9,25.9,14.0,35.09,True,10,,jequiti-c08-2026,Jequiti,8
+100947,Blush Compacto Aviva Coral,Aviva,Maquiagem,Maquiagem,10 g,,39.9,25.9,14.0,35.09,True,10,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Jequiti,Acessórios,Acessórios,,,4.9,,,,False,10,,jequiti-c08-2026,Jequiti,8
+100454,Lip Tint Ellas Maçã do Amor,Ellas,Maquiagem,Maquiagem,4 ml,,31.9,19.9,12.0,37.62,True,11,,jequiti-c08-2026,Jequiti,8
+100452,Lip Tint Ellas Pipoca Doce,Ellas,Maquiagem,Maquiagem,4 ml,,31.9,19.9,12.0,37.62,True,11,,jequiti-c08-2026,Jequiti,8
+100461,Lip Tint Ellas Geleia de Uva,Ellas,Maquiagem,Maquiagem,4 ml,,31.9,19.9,12.0,37.62,True,11,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Jequiti,Acessórios,Acessórios,,,4.9,,,,False,11,,jequiti-c08-2026,Jequiti,8
+15374,Caneta Delineadora para Olhos Preta Aviva,Aviva,Maquiagem,Maquiagem,1 ml,,52.9,39.9,13.0,24.57,True,12,,jequiti-c08-2026,Jequiti,8
+18769,Sacola Presenteável M,Jequiti,Acessórios,Acessórios,27 x 38 cm,,4.9,,,,False,12,,jequiti-c08-2026,Jequiti,8
+18770,Sacola Presenteável G,Jequiti,Acessórios,Acessórios,35 x 55 cm,,5.9,,,,False,12,,jequiti-c08-2026,Jequiti,8
+19740,Desodorante Colônia Masculina Fábio Jr. Legacy,Fábio Jr.,Perfumaria,Perfumaria,25 ml,,49.9,34.9,15.0,30.06,True,15,,jequiti-c08-2026,Jequiti,8
+18522,Desodorante Colônia Feminina Jolie,Jolie,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,16,,jequiti-c08-2026,Jequiti,8
+100672,Desodorante Colônia Feminina Amore Bloom,Amore Bloom,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,17,,jequiti-c08-2026,Jequiti,8
+19306,Sabonete Líquido Glicerinado Meu Bebê Soninho,Meu Bebê Soninho,Corpo e Banho,Corpo e Banho,200 ml,,44.9,,,,False,19,,jequiti-c08-2026,Jequiti,8
+19307,Loção Hidratante Corporal Meu Bebê Soninho,Meu Bebê Soninho,Hidratação,Hidratação,200 ml,,49.9,,,,False,19,,jequiti-c08-2026,Jequiti,8
+100237,Água de Colônia,Meu Bebê,Perfumaria,Perfumaria,100 ml,,59.9,,,,False,20,,jequiti-c08-2026,Jequiti,8
+100236,Sabonete Líquido da Cabeça aos Pés,Meu Bebê,Corpo e Banho,Corpo e Banho,200 ml,,44.9,,,,False,20,,jequiti-c08-2026,Jequiti,8
+100234,Shampoo Meu Bebê,Meu Bebê,Cabelos,Cabelos,200 ml,,38.9,,,,False,21,,jequiti-c08-2026,Jequiti,8
+100235,Condicionador Meu Bebê,Meu Bebê,Cabelos,Cabelos,200 ml,,38.9,,,,False,21,,jequiti-c08-2026,Jequiti,8
+100238,Loção Hidratante Corporal Meu Bebê,Meu Bebê,Hidratação,Hidratação,200 ml,,49.9,,,,False,21,,jequiti-c08-2026,Jequiti,8
+100796,Água de Colônia Meu Bebê Suave,Meu Bebê,Perfumaria,Perfumaria,100 ml,,59.9,,,,False,21,,jequiti-c08-2026,Jequiti,8
+12451,Válvula Pump,Meu Bebê,Acessórios,Acessórios,1 unidade,,6.9,,,,False,21,,jequiti-c08-2026,Jequiti,8
+19573,Desodorante Colônia Feminina Minions Agnes,Minions,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,22,,jequiti-c08-2026,Jequiti,8
+99954,Desodorante Colônia Masculina Hot Wheels Monster Trucks,Hot Wheels,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,22,,jequiti-c08-2026,Jequiti,8
+19554,Desodorante Colônia Feminina Barbie Sunshine,Barbie,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,23,,jequiti-c08-2026,Jequiti,8
+99949,Desodorante Colônia Feminina Barbie Fashion,Barbie,Perfumaria,Perfumaria,25 ml,,39.9,,,,False,23,,jequiti-c08-2026,Jequiti,8
+19640,Desodorante Colônia Splash Refresca Com Leveza Maracujá,Refresca,Perfumaria,Perfumaria,350ml,,34.9,,,,False,25,,jequiti-c08-2026,Jequiti,8
+19636,Desodorante Colônia Splash Refresca Com Calma Lavanda,Refresca,Perfumaria,Perfumaria,350ml,,34.9,,,,False,25,,jequiti-c08-2026,Jequiti,8
+19641,Desodorante Colônia Splash Refresca Com Equilíbrio Alfazema,Refresca,Perfumaria,Perfumaria,350ml,,34.9,,,,False,25,,jequiti-c08-2026,Jequiti,8
+99869,Desodorante Colônia Luke Skywalker,Star Wars,Perfumaria,Perfumaria,45ml,,89.9,,,,False,26,,jequiti-c08-2026,Jequiti,8
+99871,Desodorante Colônia Princesa Leia,Star Wars,Perfumaria,Perfumaria,45ml,,89.9,,,,False,26,,jequiti-c08-2026,Jequiti,8
+99870,Desodorante Colônia Collection Star Wars™ Darth Vader™,Star Wars,Perfumaria,Perfumaria,45ml,,89.9,,,,False,27,,jequiti-c08-2026,Jequiti,8
+100133,Estojo de Sabonetes Collection Star Wars™,Star Wars,Perfumaria,Perfumaria,3 unidades | 80 g cada,,29.9,,,,False,27,,jequiti-c08-2026,Jequiti,8
+10077,Desodorante Colônia Feminina Fléur Rosé,Fléur,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,28,,jequiti-c08-2026,Jequiti,8
+11027,Desodorante Colônia Feminina Fléur Jasmin,Fléur,Perfumaria,Perfumaria,25 ml,,49.9,,,,False,28,,jequiti-c08-2026,Jequiti,8
+100145,Desodorante Colônia Feminina Radiance Passion,Radiance,Perfumaria,Perfumaria,90 ml,,149.9,109.9,40.0,26.68,True,29,,jequiti-c08-2026,Jequiti,8
+00145,Desodorante Colônia Feminina Bem-Me-Quer(o) Com Magia,Bem-Me-Quer(o),Perfumaria,Perfumaria,100 ml,,89.9,,,,False,30,,jequiti-c08-2026,Jequiti,8
+100187,Desodorante Colônia Feminina Sublime,Sublime,Perfumaria,Perfumaria,75 ml,,129.9,89.9,40.0,30.79,True,31,,jequiti-c08-2026,Jequiti,8
+16748,Hidratante Corporal Patricia Abravanel Essence,Patricia Abravanel,Hidratação,Hidratação,150 g,,74.9,,,,False,32,,jequiti-c08-2026,Jequiti,8
+19357,Desodorante Colônia Feminina Patricia Abravanel Intenso,Patricia Abravanel,Perfumaria,Perfumaria,90 ml,,149.9,119.9,30.0,20.01,True,33,,jequiti-c08-2026,Jequiti,8
+100192,Desodorante Colônia Feminina Unique Gold,Unique,Perfumaria,Perfumaria,100 ml,,139.9,,,,False,34,,jequiti-c08-2026,Jequiti,8
+18614,Desodorante Hidratante Corporal Rebeca Abravanel,Rebeca Abravanel,Hidratação,Hidratação,200 ml,,44.9,29.9,15.0,33.41,True,35,,jequiti-c08-2026,Jequiti,8
+18613,Desodorante Colônia Feminina Rebeca Abravanel Floral Vibrante,Rebeca Abravanel,Perfumaria,Perfumaria,25 ml,,49.9,29.9,20.0,40.08,True,35,,jequiti-c08-2026,Jequiti,8
+19245,Desodorante Colônia Feminina Deluxe,Deluxe,Perfumaria,Perfumaria,90ml,,149.9,109.9,40.0,26.68,True,36,,jequiti-c08-2026,Jequiti,8
+17885,Desodorante Colônia Splash Feminina Deluxe,Deluxe,Perfumaria,Perfumaria,200 ml,,64.9,39.9,25.0,38.52,True,37,,jequiti-c08-2026,Jequiti,8
+100131,Desodorante Colônia Masculina Deluxe Eclipse,Deluxe,Perfumaria,Perfumaria,90 ml,,149.9,109.9,40.0,26.68,True,37,,jequiti-c08-2026,Jequiti,8
+19272,Desodorante Colônia Masculina Malte Black,Malte,Perfumaria,Perfumaria,70 ml,,119.9,99.9,20.0,16.68,True,38,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Jequiti,Acessórios,Acessórios,,,4.9,,,,False,38,,jequiti-c08-2026,Jequiti,8
+100144,Desodorante Colônia Feminina Radiance,Radiance,Perfumaria,Perfumaria,90 ml,,149.9,109.9,40.0,26.68,True,39,,jequiti-c08-2026,Jequiti,8
+18769,Sacola M,Acessórios,Acessórios,Acessórios,,,4.9,,,,False,39,,jequiti-c08-2026,Jequiti,8
+19412,Desodorante Colônia Masculina Fábio Jr. Legacy,Fábio Jr.,Perfumaria,Perfumaria,100 ml,,149.9,,,,False,40,,jequiti-c08-2026,Jequiti,8
+18843,Desodorante Colônia Masculina Whindersson Nunes,Whindersson Nunes,Perfumaria,Perfumaria,45ml,,99.9,49.9,50.0,50.05,True,41,,jequiti-c08-2026,Jequiti,8
+19246,Desodorante Colônia Masculina Uzon Extreme,Uzon,Perfumaria,Perfumaria,90 ml,,119.9,,,,False,42,,jequiti-c08-2026,Jequiti,8
+100000,Desodorante Colônia Masculina Royalmadeira,Royalmadeira,Perfumaria,Perfumaria,75 ml,,149.9,,,,False,42,,jequiti-c08-2026,Jequiti,8
+16746,Desodorante Colônia Refrescante Caminho das Águas Baunilha,Caminho das Águas,Perfumaria,Perfumaria,300 ml,,74.9,59.9,15.0,20.03,True,43,,jequiti-c08-2026,Jequiti,8
+16745,Desodorante Colônia Refrescante Caminho das Águas Flor de Laranjeira,Caminho das Águas,Perfumaria,Perfumaria,300 ml,,74.9,59.9,15.0,20.03,True,43,,jequiti-c08-2026,Jequiti,8
+17873,Desodorante Colônia Refrescante Caminho das Águas Lavanda,Caminho das Águas,Perfumaria,Perfumaria,300 ml,,74.9,59.9,15.0,20.03,True,43,,jequiti-c08-2026,Jequiti,8
+16744,Desodorante Colônia Refrescante Caminho das Águas Madeiras,Caminho das Águas,Perfumaria,Perfumaria,300 ml,,74.9,59.9,15.0,20.03,True,43,,jequiti-c08-2026,Jequiti,8
+18396,Batom Hidratante Rosa dos Sonhos,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,45,,jequiti-c08-2026,Jequiti,8
+18395,Batom Hidratante Carmim Exclusivo,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,45,,jequiti-c08-2026,Jequiti,8
+18394,Batom Hidratante Vermelho Desejo,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,45,,jequiti-c08-2026,Jequiti,8
+18392,Batom Hidratante Nude,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,45,,jequiti-c08-2026,Jequiti,8
+18393,Batom Hidratante Pink Kiss,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,45,,jequiti-c08-2026,Jequiti,8
+18388,Batom Hidratante Vinho Trend,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,45,,jequiti-c08-2026,Jequiti,8
+71500,Lápis para Olhos Preto Kajal,Ellas,Maquiagem,Maquiagem,"1,2 g",,28.9,,,,False,45,,jequiti-c08-2026,Jequiti,8
+100944,Lip Oil Amora,Ellas Fruit,Maquiagem,Maquiagem,,,0.0,,,,False,46,,jequiti-c08-2026,Jequiti,8
+100945,Lip Oil Goiaba,Ellas Fruit,Maquiagem,Maquiagem,,,0.0,,,,False,46,,jequiti-c08-2026,Jequiti,8
+100943,Lip Oil Coco,Ellas Fruit,Maquiagem,Maquiagem,,,0.0,,,,False,46,,jequiti-c08-2026,Jequiti,8
+,Lip Oil Amora Ellas Fruit,Ellas Fruit,Maquiagem,Maquiagem,"3,5 ml",,36.9,33.9,3.0,8.13,True,47,,jequiti-c08-2026,Jequiti,8
+,Lip Oil Goiaba Ellas Fruit,Ellas Fruit,Maquiagem,Maquiagem,"3,5 ml",,36.9,33.9,3.0,8.13,True,47,,jequiti-c08-2026,Jequiti,8
+,Lip Oil Coco Ellas Fruit,Ellas Fruit,Maquiagem,Maquiagem,"3,5 ml",,36.9,33.9,3.0,8.13,True,47,,jequiti-c08-2026,Jequiti,8
+18379,Batom Matte Nude Moda,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+18386,Batom Matte Vinho Fabuloso,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+18383,Batom Matte Rosa Encantado,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+18381,Batom Matte Roxo Chic,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+18385,Batom Matte Vermelho Luxo,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+18417,Batom Matte Boca Passione,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+18378,Batom Matte Vinho Puro,Ellas,Maquiagem,Maquiagem,"3,5 g",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+19009,Gloss Labial Roll-on Melancia,Ellas,Maquiagem,Maquiagem,"3,5 ml",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+19340,Gloss Labial Roll-on Tutti Frutti,Ellas,Maquiagem,Maquiagem,"3,5 ml",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+19008,Gloss Labial Roll-on Morango,Ellas,Maquiagem,Maquiagem,"3,5 ml",,23.9,,,,False,48,,jequiti-c08-2026,Jequiti,8
+100852,Base Corretiva Hidra Matte J10,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100853,Base Corretiva Hidra Matte J20,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100854,Base Corretiva Hidra Matte J30,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100855,Base Corretiva Hidra Matte J40,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100856,Base Corretiva Hidra Matte J50,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100857,Base Corretiva Hidra Matte J60,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100858,Base Corretiva Hidra Matte J70,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100859,Base Corretiva Hidra Matte J80,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100860,Base Corretiva Hidra Matte J90,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100861,Base Corretiva Hidra Matte J100,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100862,Base Corretiva Hidra Matte J110,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100863,Base Corretiva Hidra Matte J120,Aviva,Maquiagem,Maquiagem,30ml,,54.9,,,,False,49,,jequiti-c08-2026,Jequiti,8
+100864,Pó Facial Solto Translúcido Soft Matte,Aviva,Maquiagem,Maquiagem,12 g,,49.9,,,,False,50,,jequiti-c08-2026,Jequiti,8
+100866,Gel para Sobrancelha Fix Brow,Aviva,Maquiagem,Maquiagem,4 ml,,39.9,,,,False,51,,jequiti-c08-2026,Jequiti,8
+100399,Batom Mattefix Vinho Mistério,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,52,,jequiti-c08-2026,Jequiti,8
+100403,Batom Mattefix Vermelho Intenso,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,52,,jequiti-c08-2026,Jequiti,8
+100398,Batom Mattefix Rosa Natural,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,52,,jequiti-c08-2026,Jequiti,8
+100405,Batom Mattefix Nude Delicado,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,52,,jequiti-c08-2026,Jequiti,8
+100406,Batom Mattefix Malva Poder,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,52,,jequiti-c08-2026,Jequiti,8
+100401,Batom Mattefix Marrom Encanto,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,52,,jequiti-c08-2026,Jequiti,8
+100396,Batom Mattefix Terracota Glamour,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,52,,jequiti-c08-2026,Jequiti,8
+100408,Batom Hidrat Marrom Sedução,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,53,,jequiti-c08-2026,Jequiti,8
+100409,Batom Hidrat Bordô Sublime,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,53,,jequiti-c08-2026,Jequiti,8
+100407,Batom Hidrat Nude Radiante,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,53,,jequiti-c08-2026,Jequiti,8
+100414,Batom Hidrat Malva Divino,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,53,,jequiti-c08-2026,Jequiti,8
+100411,Batom Hidrat Rosé Clássico,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,53,,jequiti-c08-2026,Jequiti,8
+100410,Batom Hidrat Nude Sofisticado,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,53,,jequiti-c08-2026,Jequiti,8
+100412,Batom Hidrat Marrom Autêntico,Aviva,Maquiagem,Maquiagem,"3,5 g",,45.9,29.9,16.0,34.86,True,53,,jequiti-c08-2026,Jequiti,8
+100589,Batom Líquido Nude Poderoso Aviva,Aviva,Maquiagem,Maquiagem,4ml,,45.9,,,,False,54,,jequiti-c08-2026,Jequiti,8
+100587,Batom Líquido Vinho Fascinante Aviva,Aviva,Maquiagem,Maquiagem,4ml,,45.9,,,,False,54,,jequiti-c08-2026,Jequiti,8
+100585,Batom Líquido Marrom Irresistível Aviva,Aviva,Maquiagem,Maquiagem,4ml,,45.9,,,,False,54,,jequiti-c08-2026,Jequiti,8
+100588,Batom Líquido Vermelho Luxo Aviva,Aviva,Maquiagem,Maquiagem,4ml,,45.9,,,,False,54,,jequiti-c08-2026,Jequiti,8
+100180,Esmalte The Noite,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+100182,Esmalte Roda a Roda,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+100181,Esmalte Casa dos Artistas,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+10135,Esmalte Cocktail,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+10161,Esmalte Chega Mais,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+10143,Esmalte Fantasia,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+10014,Esmalte Sábado Animado,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+10150,Esmalte Vem Pra Cá,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+10124,Esmalte Beleza Renovada,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+10120,Esmalte Topa Tudo,,Maquiagem,Maquiagem,7 ml,,15.9,11.9,4.0,25.16,True,55,,jequiti-c08-2026,Jequiti,8
+101066,Lápis Multifuncional para Olhos e Lábios,Aviva Irresistível,Maquiagem,Maquiagem,"1,1 g",,34.9,,,,False,56,,jequiti-c08-2026,Jequiti,8
+100932,Batom Líquido Matte Vermelho Delírio,Aviva,Maquiagem,Maquiagem,4 ml,,42.9,,,,False,57,,jequiti-c08-2026,Jequiti,8
+100931,Batom Líquido Matte Marsala Paixão,Aviva,Maquiagem,Maquiagem,4 ml,,42.9,,,,False,57,,jequiti-c08-2026,Jequiti,8
+100930,Batom Líquido Matte Bordô Fatal,Aviva,Maquiagem,Maquiagem,4 ml,,42.9,,,,False,57,,jequiti-c08-2026,Jequiti,8
+100245,Óleo Corporal Bifásico Flor de Amêndoa,óllio,Corpo e Banho,Corpo e Banho,200 ml,,49.9,,,,False,59,,jequiti-c08-2026,Jequiti,8
+100713,Óleo Corporal Bifásico Flor de Manga,óllio,Corpo e Banho,Corpo e Banho,200 ml,,49.9,,,,False,59,,jequiti-c08-2026,Jequiti,8
+17429,Hidratante Corporal Vida + Alegre Flor de Pitaya,Vida,Hidratação,Hidratação,240ml,,47.9,,,,False,60,,jequiti-c08-2026,Jequiti,8
+19361,Hidratante Corporal Vida + Equilíbrio Lírio e Algodão,Vida,Hidratação,Hidratação,240ml,,47.9,,,,False,60,,jequiti-c08-2026,Jequiti,8
+100392,Hidratante Corporal Vida + Relax Lavanda,Vida,Hidratação,Hidratação,190ml,,36.9,,,,False,60,,jequiti-c08-2026,Jequiti,8
+18122,Hidratante Eu Desejo Frutas Vermelhas,Eu,Hidratação,Hidratação,200 ml,,45.9,,,,False,61,,jequiti-c08-2026,Jequiti,8
+18120,Hidratante Eu Conquisto Baunilha,Eu,Hidratação,Hidratação,200 ml,,45.9,34.9,11.0,23.97,True,61,,jequiti-c08-2026,Jequiti,8
+13639,Condicionador Hidratação Profunda,FYO Profissional,Cabelos,Cabelos,300 ml,,44.9,,,,False,62,,jequiti-c08-2026,Jequiti,8
+11111,Máscara Hidratação Profunda,FYO Profissional,Cabelos,Cabelos,150 g,,49.9,,,,False,62,,jequiti-c08-2026,Jequiti,8
+18306,Condicionador Plástica Capilar,FYO Profissional,Cabelos,Cabelos,300 ml,,44.9,,,,False,62,,jequiti-c08-2026,Jequiti,8
+18307,Máscara Plástica Capilar,FYO Profissional,Cabelos,Cabelos,200 g,,54.9,,,,False,62,,jequiti-c08-2026,Jequiti,8
+19217,Máscara DD Cream,Fyo DD Cream,Cabelos,Cabelos,150 g,,49.9,34.9,15.0,30.06,True,63,,jequiti-c08-2026,Jequiti,8
+19218,Balm DD Cream,Fyo DD Cream,Cabelos,Cabelos,80 ml,,45.9,34.9,11.0,23.97,True,63,,jequiti-c08-2026,Jequiti,8
+99974,Spray Perfumado para Cabelos DD Cream,Fyo DD Cream,Cabelos,Cabelos,60 ml,,39.9,31.9,8.0,20.05,True,63,,jequiti-c08-2026,Jequiti,8
+18151,Shampoo Antirresíduo,FYO Profissional,Cabelos,Cabelos,300 ml,,41.9,,,,False,64,,jequiti-c08-2026,Jequiti,8
+17639,Creme para Pentear,FYO Profissional,Cabelos,Cabelos,200 ml,,49.9,,,,False,64,,jequiti-c08-2026,Jequiti,8
+19621,Creme Disciplinante Liso Prolongado,FYO Profissional,Cabelos,Cabelos,80 ml,,39.9,25.9,14.0,35.09,True,65,,jequiti-c08-2026,Jequiti,8
+11468,Condicionador 1 Minuto Matizador Loiro Radiante,FYO Profissional,Cabelos,Cabelos,150 g,,46.9,,,,False,65,,jequiti-c08-2026,Jequiti,8
+18136,Creme Iluminador 3D Realce da Cor Loiro Radiante,FYO Profissional,Cabelos,Cabelos,80 ml,,45.9,,,,False,65,,jequiti-c08-2026,Jequiti,8
+100231,Shampoo Anticaspa,Sensi MEN,Cabelos,Cabelos,200 ml,,29.9,21.9,8.0,26.76,True,66,,jequiti-c08-2026,Jequiti,8
+100010,Sabonete Hidratante em Barra,Sensi MEN,Corpo e Banho,Corpo e Banho,80 g,,5.9,,,,False,66,,jequiti-c08-2026,Jequiti,8
+99972,Hidratante Corporal Pele Seca,Sensi,Hidratação,Hidratação,200 ml,,29.9,,,,False,67,,jequiti-c08-2026,Jequiti,8
+99850,Creme para as Mãos Luvas de Silicone,Sensi,Hidratação,Hidratação,40 g,,20.9,,,,False,67,,jequiti-c08-2026,Jequiti,8
+99851,Creme para os Pés Meias de Silicone,Sensi,Hidratação,Hidratação,50 g,,21.9,,,,False,67,,jequiti-c08-2026,Jequiti,8
+19498,Desodorante Antitranspirante Roll-on Men Sport,Sensi MEN,Corpo e Banho,Corpo e Banho,55 ml,,26.9,,,,False,68,,jequiti-c08-2026,Jequiti,8
+17658,Desodorante Antitranspirante Roll-on Men Urban,Sensi MEN,Corpo e Banho,Corpo e Banho,55 ml,,26.9,,,,False,68,,jequiti-c08-2026,Jequiti,8
+80730,Desodorante Antitranspirante Aerossol Men Urban,Sensi MEN,Corpo e Banho,Corpo e Banho,150 ml | 90 g,,31.9,,,,False,68,,jequiti-c08-2026,Jequiti,8
+80729,Desodorante Antitranspirante Aerossol Men Antibac,Sensi MEN,Corpo e Banho,Corpo e Banho,150 ml | 90 g,,31.9,,,,False,68,,jequiti-c08-2026,Jequiti,8
+10169,Desodorante Antitranspirante Aerossol Men Clinical,Sensi MEN,Corpo e Banho,Corpo e Banho,150 ml | 90 g,,31.9,,,,False,68,,jequiti-c08-2026,Jequiti,8
+10166,Desodorante Antitranspirante Aerossol Clinical,Sensi,Corpo e Banho,Corpo e Banho,150 ml | 90 g,,31.9,,,,False,68,,jequiti-c08-2026,Jequiti,8
+19495,Desodorante Antitranspirante Roll-on Sensi Suave,Sensi,Desodorantes,Desodorantes,55 ml,,26.9,21.9,5.0,18.59,True,69,,jequiti-c08-2026,Jequiti,8
+19494,Desodorante Antitranspirante Roll-on Sensi Sem Perfume,Sensi,Desodorantes,Desodorantes,55 ml,,26.9,21.9,5.0,18.59,True,69,,jequiti-c08-2026,Jequiti,8
+80725,Desodorante Antitranspirante Aerossol Sensi Essencial,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,25.9,6.0,18.81,True,69,,jequiti-c08-2026,Jequiti,8
+80727,Desodorante Antitranspirante Aerossol Sensi Antibac,Sensi,Desodorantes,Desodorantes,150 ml | 90 g,,31.9,25.9,6.0,18.81,True,69,,jequiti-c08-2026,Jequiti,8
+18704,Tônico Facial Renovador,Sensi Skincare,Cuidados Faciais,Cuidados Faciais,120 ml,,52.9,39.9,13.0,24.57,True,70,,jequiti-c08-2026,Jequiti,8
+19309,Sabonete Gel Esfoliante Revitalizante,Sensi Skincare,Cuidados Faciais,Cuidados Faciais,50 g,,36.9,27.9,9.0,24.39,True,70,,jequiti-c08-2026,Jequiti,8
+18097,Água Micelar 5 em 1,Sensi,Cuidados Diários,Cuidados Diários,150 ml,,44.9,32.9,12.0,26.73,True,71,,jequiti-c08-2026,Jequiti,8
+18703,Gel de Limpeza Revigorante,Sensi,Cuidados Diários,Cuidados Diários,100 g,,31.9,21.9,10.0,31.35,True,71,,jequiti-c08-2026,Jequiti,8
+322383,Carnê do Baú da Felicidade Jequiti,Baú da Felicidade,Carnê,Carnê,,,20.0,,,,False,72,,jequiti-c08-2026,Jequiti,8
+17875,Máscara para Cílios à Prova d'Água Aviva Fantastic,Aviva,Maquiagem,Maquiagem,6 ml,,66.9,39.9,27.0,40.36,True,73,,jequiti-c08-2026,Jequiti,8
+18060,Lapiseira para Sobrancelhas Universal Aviva,Aviva,Maquiagem,Maquiagem,250 mg,,52.9,29.9,23.0,43.48,True,73,,jequiti-c08-2026,Jequiti,8
+18705,Creme Facial Diurno Multirreparador,Sensi Skincare,Hidratação,Hidratação,50g,,74.9,49.9,25.0,33.38,True,74,,jequiti-c08-2026,Jequiti,8
+18706,Creme Facial Noturno Regenerador,Sensi Skincare,Hidratação,Hidratação,50g,,74.9,49.9,25.0,33.38,True,74,,jequiti-c08-2026,Jequiti,8
+18707,Sérum Efeito Lipofilling,Sensi Skincare,Hidratação,Hidratação,30ml,,89.9,69.9,20.0,22.25,True,74,,jequiti-c08-2026,Jequiti,8
+100292,Sérum Facial Efeito Clareador,Sensi Skincare,Cuidados Diários,Cuidados Diários,30 ml,,95.9,69.9,26.0,27.11,True,75,,jequiti-c08-2026,Jequiti,8
+100291,Creme Facial Uniformizador,Sensi Skincare,Cuidados Diários,Cuidados Diários,50 g,,79.9,49.9,30.0,37.55,True,75,,jequiti-c08-2026,Jequiti,8
+101621,Kit 1 Creme Uniformizador + 1 Sérum Clareador (Leve Grátis 1 Nécessaire),Sensi Skincare,Cuidados Diários,Cuidados Diários,,,175.8,114.9,60.9,34.64,True,75,,jequiti-c08-2026,Jequiti,8
+17967,Nécessaire Cinza,Acessórios,Acessórios,Acessórios,21 x 12 x 7 cm,,42.9,34.9,8.0,18.65,True,75,,jequiti-c08-2026,Jequiti,8
+19803,Hidratante Desodorante Corporal Sensi Hidratação Enriquecida Pele Seca,Sensi,Hidratação,Hidratação,200ml,,29.9,24.9,5.0,16.72,True,76,,jequiti-c08-2026,Jequiti,8
+19801,Hidratante Desodorante Corporal Sensi Hidratação Reforçada Pele Morena e Negra,Sensi,Hidratação,Hidratação,200ml,,29.9,24.9,5.0,16.72,True,76,,jequiti-c08-2026,Jequiti,8
+19799,Hidratante Desodorante Corporal Sensi Hidratação Intensiva Pele Extrasseca,Sensi,Hidratação,Hidratação,200ml,,29.9,24.9,5.0,16.72,True,76,,jequiti-c08-2026,Jequiti,8

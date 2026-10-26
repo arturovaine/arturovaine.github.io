@@ -1,0 +1,902 @@
+code,name,product_line,category,normalized_category,volume_weight,quantity,regular_price,promotional_price,savings,discount_percentage,promotion_active,page,quadrant,catalog_name,brand,cycle
+85423,Óleo em Creme Corporal Rosas Secretas,Nativa SPA,Corpo e Banho,Corpo e Banho,175g,,88.9,70.9,18.0,20.25,True,2,,boticario-c05-2026,O Boticário,5
+85420,Creme Perfumado Desodorante Hidratante Corporal Rosas Secretas,Nativa SPA,Hidratação,Hidratação,180 ml,,59.9,47.9,12.0,20.03,True,3,,boticario-c05-2026,O Boticário,5
+89366,Body Splash Desodorante Colônia Rosas Secretas,Nativa SPA,Perfumaria,Perfumaria,200 ml,,99.9,,,,False,3,,boticario-c05-2026,O Boticário,5
+85421,Sabonete Líquido Perfumado Corporal Rosas Secretas,Nativa SPA,Corpo e Banho,Corpo e Banho,250 ml,,58.9,46.9,12.0,20.37,True,3,,boticario-c05-2026,O Boticário,5
+88209,Kit Nativa SPA Ameixa,Nativa SPA,Corpo e Banho,Corpo e Banho,200 ml + 60 ml + 30 g,,129.9,,,,False,4,,boticario-c05-2026,O Boticário,5
+50931,Kit Nativa SPA 3 Ameixas,Nativa SPA,Corpo e Banho,Corpo e Banho,3 x 75 ml,,97.9,,,,False,4,,boticario-c05-2026,O Boticário,5
+56275,Promopack Antitranspirante Desodorante Aerossol Ameixa,Nativa SPA,Corpo e Banho,Corpo e Banho,2 unidades de 75 g cada,,59.85,,,,False,4,,boticario-c05-2026,O Boticário,5
+48774,Antitranspirante Desodorante Aerossol Ameixa,Nativa SPA,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,4,,boticario-c05-2026,O Boticário,5
+57675,Óleo Açúcar Esfoliante Corporal Ameixa,Nativa SPA,Corpo e Banho,Corpo e Banho,200 g,,79.9,,,,False,4,,boticario-c05-2026,O Boticário,5
+48282,Loção Desodorante Hidratante Corporal Ameixa,Nativa SPA,Hidratação,Hidratação,400ml,,86.9,,,,False,5,,boticario-c05-2026,O Boticário,5
+59517,Refil Loção Desodorante Hidratante Corporal Ameixa,Nativa SPA,Hidratação,Hidratação,350ml,,67.9,,,,False,5,,boticario-c05-2026,O Boticário,5
+88073,Creme Desodorante Hidratante para Mãos Ameixa,Nativa SPA,Hidratação,Hidratação,75g,,57.9,,,,False,5,,boticario-c05-2026,O Boticário,5
+85096,Óleo Glorioso Desodorante Hidratante Corporal Ameixa,Nativa SPA,Corpo e Banho,Corpo e Banho,200ml,,94.9,,,,False,5,,boticario-c05-2026,O Boticário,5
+85051,Refil Óleo Glorioso Desodorante Hidratante Corporal Ameixa,Nativa SPA,Corpo e Banho,Corpo e Banho,150ml,,73.9,,,,False,5,,boticario-c05-2026,O Boticário,5
+88079,Loção Desodorante Hidratante Corporal Ameixa,Nativa SPA,Hidratação,Hidratação,200ml,,64.9,,,,False,5,,boticario-c05-2026,O Boticário,5
+87051,Óleo Glorioso Corpo e Cabelo Ameixa,Nativa SPA,Corpo e Banho,Corpo e Banho,85ml,,142.9,,,,False,5,,boticario-c05-2026,O Boticário,5
+57829,Loção Aveludada Desodorante Hidratante Corporal Cereja Rouge,Nativa SPA,Hidratação,Hidratação,400ml,,86.9,,,,False,6,,boticario-c05-2026,O Boticário,5
+57830,Refil Loção Aveludada Desodorante Hidratante Corporal Cereja Rouge,Nativa SPA,Hidratação,Hidratação,350ml,,67.9,,,,False,6,,boticario-c05-2026,O Boticário,5
+88730,Óleo Glorioso Desodorante Hidratante Corporal Cereja Rouge,Nativa SPA,Corpo e Banho,Corpo e Banho,200ml,,94.9,,,,False,6,,boticario-c05-2026,O Boticário,5
+57832,Loção Aveludada Desodorante Hidratante Corporal Cereja Rouge,Nativa SPA,Hidratação,Hidratação,180ml,,59.9,,,,False,6,,boticario-c05-2026,O Boticário,5
+86765,Loção Desodorante Hidratante Corporal Quinoa,Nativa SPA,Hidratação,Hidratação,400 ml,,86.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+59518,Refil Loção Desodorante Hidratante Corporal Quinoa,Nativa SPA,Hidratação,Hidratação,350 ml,,67.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+85099,Óleo Glorioso Desodorante Hidratante Corporal Quinoa & Amêndoas,Nativa SPA,Corpo e Banho,Corpo e Banho,200 ml,,94.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+85058,Refil Óleo Glorioso Desodorante Hidratante Corporal Quinoa & Amêndoas,Nativa SPA,Corpo e Banho,Corpo e Banho,150 ml,,73.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+01697,Óleo Glorioso Corpo e Cabelo Quinoa,Nativa SPA,Corpo e Banho,Corpo e Banho,85 ml,,142.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+48771,Loção Antioxidante Desodorante Hidratante Corporal FPS 15 Quinoa,Nativa SPA,Hidratação,Hidratação,200 ml,,69.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+87916,Creme Antissinais para Mãos FPS 15 Quinoa,Nativa SPA,Hidratação,Hidratação,75 g,,57.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+52654,Kit Nativa SPA Quinoa,Nativa SPA,Presentes,Presentes,75 ml + 30 g,,79.9,,,,False,7,,boticario-c05-2026,O Boticário,5
+59823,Loção Desodorante Hidratante Corporal Orquídea Lumière,Nativa SPA,Hidratação,Hidratação,400 ml,,86.9,,,,False,8,,boticario-c05-2026,O Boticário,5
+59824,Refil Loção Desodorante Hidratante Corporal Orquídea Lumière,Nativa SPA,Hidratação,Hidratação,350 ml,,67.9,,,,False,8,,boticario-c05-2026,O Boticário,5
+85584,Óleo Desodorante Hidratante Corporal Orquídea Lumière,Nativa SPA,Hidratação,Hidratação,200 ml,,94.9,,,,False,8,,boticario-c05-2026,O Boticário,5
+59829,Creme Desodorante Hidratante Corporal Orquídea Lumière,Nativa SPA,Hidratação,Hidratação,180 ml,,59.9,,,,False,8,,boticario-c05-2026,O Boticário,5
+87364,Nécessaire Premium,Nativa SPA,Acessórios,Acessórios,"30 x 6,5 x 19 cm",,79.9,,,,False,8,,boticario-c05-2026,O Boticário,5
+53346,Loção Renovadora Desodorante Hidratante Corporal Nativa SPA Lilac,Nativa SPA,Hidratação,Hidratação,400 ml,,86.9,,,,False,9,,boticario-c05-2026,O Boticário,5
+53347,Refil Loção Renovadora Desodorante Hidratante Corporal Nativa SPA Lilac,Nativa SPA,Hidratação,Hidratação,350 ml,,67.9,,,,False,9,,boticario-c05-2026,O Boticário,5
+87914,Creme Hidratante para Mãos e Pés Nativa SPA Lilac,Nativa SPA,Hidratação,Hidratação,50 g,,42.9,,,,False,9,,boticario-c05-2026,O Boticário,5
+55707,Loção Renovadora Desodorante Hidratante Corporal Nativa SPA Lilac,Nativa SPA,Hidratação,Hidratação,180 ml,,59.9,,,,False,9,,boticario-c05-2026,O Boticário,5
+46555,Boti Difusor Elétrico de Ambientes,Acessórios,Acessórios,Acessórios,"10 x 10 x 9,5 cm",,154.9,,,,False,9,,boticario-c05-2026,O Boticário,5
+85584,Óleo Glorioso Desodorante Hidratante Corporal Orquídea Lumière,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,94.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+88730,Óleo Glorioso Desodorante Hidratante Corporal Cereja Rouge,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,94.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+85098,Óleo Glorioso Desodorante Hidratante Corporal Orquídea Noire,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,94.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+58987,Óleo Glorioso Desodorante Hidratante Corporal Uva Merlot,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,94.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+85096,Óleo Glorioso Desodorante Hidratante Corporal Ameixa,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,94.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+85051,Refil Óleo Glorioso Desodorante Hidratante Corporal Ameixa,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,150 ml,,73.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+85099,Óleo Glorioso Desodorante Hidratante Corporal Quinoa & Amêndoas,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,94.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+85058,Refil Óleo Glorioso Desodorante Hidratante Corporal Quinoa & Amêndoas,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,150 ml,,73.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+85097,Óleo Glorioso Desodorante Hidratante Corporal Ameixa Negra,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,94.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+85052,Refil Óleo Glorioso Desodorante Hidratante Corporal Ameixa Negra,Nativa SPA,Cuidados com o Corpo,Cuidados com o Corpo,150 ml,,73.9,,,,False,10,,boticario-c05-2026,O Boticário,5
+86369,Body Splash Desodorante Colônia Orquídea Lumière,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+48280,Body Splash Desodorante Colônia Ameixa Negra,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+88563,Body Splash Desodorante Colônia Ameixa,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+53353,Body Splash Desodorante Colônia Lilac,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+58135,Body Splash Desodorante Colônia Cereja Rouge,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+82052,Body Splash Desodorante Colônia Jasmim Sambac,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+01630,Body Splash Desodorante Colônia Morango Ruby,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+49960,Body Splash Desodorante Colônia Orquídea Noire,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+87272,Body Splash Desodorante Colônia Uva Merlot,Nativa SPA,Perfumaria,Perfumaria,200ml,,99.9,,,,False,11,,boticario-c05-2026,O Boticário,5
+85124,Loção Desodorante Hidratante Corporal Deleite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,400 ml,,74.9,,,,False,12,,boticario-c05-2026,O Boticário,5
+85542,Refil Loção Desodorante Hidratante Corporal Deleite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,350 ml,,59.9,,,,False,12,,boticario-c05-2026,O Boticário,5
+85543,Loção Desodorante Hidratante Corporal Deleite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,200 ml,,54.9,,,,False,12,,boticario-c05-2026,O Boticário,5
+55427,Creme Desodorante Hidratante para Mãos Deleite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,45 g,,36.9,31.37,5.53,14.99,True,12,,boticario-c05-2026,O Boticário,5
+56254,Capinha de Silicone para Creme de Mãos,Cuide-se Bem,Acessórios,Acessórios,"3,5 x 5,65 x 18,5 cm",,20.9,15.9,5.0,23.92,True,12,,boticario-c05-2026,O Boticário,5
+86465,Kit Cuide-se Bem Deleite,Cuide-se Bem,Presentes,Presentes,,,69.9,,,,False,12,,boticario-c05-2026,O Boticário,5
+40220,Kit Cuide-se Bem Nuvem,Cuide-se Bem,Kits e Presentes,Kits e Presentes,,,112.9,,,,False,13,,boticario-c05-2026,O Boticário,5
+49888,Loção Desodorante Hidratante Corporal Nuvem,Cuide-se Bem,Hidratação,Hidratação,400 ml,,74.9,59.92,14.98,20.0,True,13,,boticario-c05-2026,O Boticário,5
+49887,Refil Loção Desodorante Hidratante Corporal Nuvem,Cuide-se Bem,Hidratação,Hidratação,350 ml,,59.9,47.92,11.98,20.0,True,13,,boticario-c05-2026,O Boticário,5
+52757,Sabonete Líquido Íntimo Nuvem,Cuide-se Bem,Corpo e Banho,Corpo e Banho,200 ml,,47.9,38.32,9.58,20.0,True,13,,boticario-c05-2026,O Boticário,5
+51146,Antitranspirante Desodorante Roll-on Nuvem,Cuide-se Bem,Desodorantes,Desodorantes,55 ml,,29.9,,,,False,13,,boticario-c05-2026,O Boticário,5
+88199,Creme Desodorante Hidratante para Mãos Nuvem,Cuide-se Bem,Hidratação,Hidratação,45 g,,36.9,31.37,5.53,14.99,True,13,,boticario-c05-2026,O Boticário,5
+56182,Capinha de Silicone para Creme de Mãos,Cuide-se Bem,Acessórios,Acessórios,,,20.9,15.9,5.0,23.92,True,13,,boticario-c05-2026,O Boticário,5
+49890,Loção Desodorante Hidratante Corporal Nuvem,Cuide-se Bem,Hidratação,Hidratação,200 ml,,54.9,43.92,10.98,20.0,True,13,,boticario-c05-2026,O Boticário,5
+87443,Loção Desodorante Hidratante Corporal Amoruda,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,400 ml,,74.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+49878,Loção Desodorante Hidratante Corporal Boa Noite,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,400 ml,,74.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+49879,Refil Loção Desodorante Hidratante Corporal Boa Noite,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,350 ml,,59.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+87326,Bastão Antiatrito Efeito Shortinho Amoruda,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,35 g,,72.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+87321,Sabonete Esfoliante Corporal Amoruda,Cuide-se Bem,Corpo e Banho,Corpo e Banho,200 ml,,49.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+87315,Loção Desodorante Hidratante Corporal Amoruda,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,54.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+51122,Sabonete Líquido Esfoliante Corporal Boa Noite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,200 ml,,49.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+49880,Loção Desodorante Hidratante Corporal Boa Noite,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,54.9,,,,False,14,,boticario-c05-2026,O Boticário,5
+87963,Óleo Corporal Térmico,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,110 ml,,57.9,,,,False,15,,boticario-c05-2026,O Boticário,5
+85675,Creme Relaxante,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,200 g,,69.9,,,,False,15,,boticario-c05-2026,O Boticário,5
+88913,Spray Íntimo,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,75 ml,,44.9,,,,False,15,,boticario-c05-2026,O Boticário,5
+90995,Sabonete Líquido Corporal 2 em 1,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,52.9,,,,False,15,,boticario-c05-2026,O Boticário,5
+49943,Loção Desodorante Hidratante Corporal Pessegura,Cuide-se Bem,Hidratação,Hidratação,400 ml,,74.9,59.92,14.98,20.0,True,16,,boticario-c05-2026,O Boticário,5
+49944,Refil Loção Desodorante Hidratante Corporal Pessegura,Cuide-se Bem,Hidratação,Hidratação,350 ml,,59.9,47.92,11.98,20.0,True,16,,boticario-c05-2026,O Boticário,5
+51237,Creme Esfoliante para Bumbum de Pêssego Pessegura,Cuide-se Bem,Corpo e Banho,Corpo e Banho,230 g,,77.9,62.32,15.58,20.0,True,16,,boticario-c05-2026,O Boticário,5
+51235,Máscara de Hidratação para Bumbum de Pêssego Pessegura,Cuide-se Bem,Hidratação,Hidratação,230 g,,77.9,62.32,15.58,20.0,True,16,,boticario-c05-2026,O Boticário,5
+49903,Loção Desodorante Hidratante Corporal Pessegura,Cuide-se Bem,Hidratação,Hidratação,200 ml,,54.9,43.92,10.98,20.0,True,16,,boticario-c05-2026,O Boticário,5
+44803,Cestinho em Metal,Cuide-se Bem,Acessórios,Acessórios,"20,8 x 13 x 12 cm",,62.9,49.9,13.0,20.67,True,16,,boticario-c05-2026,O Boticário,5
+57043,Creme Hidratante Deslizante para Lâmina Doçura na Pessegura,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,200 ml,,54.9,,,,False,17,,boticario-c05-2026,O Boticário,5
+57042,Loção Desodorante Hidratante Corporal Doçura na Pessegura,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,400 ml,,74.9,,,,False,17,,boticario-c05-2026,O Boticário,5
+85324,Creme Hidratante Depilatório Corporal Doçura na Pessegura,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,150 ml,,52.9,,,,False,17,,boticario-c05-2026,O Boticário,5
+56836,Nécessaire Cuide-se Bem,Cuide-se Bem,Acessórios,Acessórios,"25 x 18,5 x 6 cm",,72.9,50.9,22.0,30.18,True,17,,boticario-c05-2026,O Boticário,5
+88310,Loção Desodorante Hidratante Corporal Morango e Leite,Cuide-se Bem,Hidratação,Hidratação,400ml,,74.9,,,,False,18,,boticario-c05-2026,O Boticário,5
+49897,Loção Desodorante Hidratante Corporal Cereja Livre,Cuide-se Bem,Hidratação,Hidratação,400ml,,74.9,,,,False,18,,boticario-c05-2026,O Boticário,5
+55195,Refil Loção Desodorante Hidratante Corporal Cereja Livre,Cuide-se Bem,Hidratação,Hidratação,350ml,,59.9,,,,False,18,,boticario-c05-2026,O Boticário,5
+50932,Kit Cuide-se Bem Morango & Leite (Loção Corporal 75ml + Creme para Mãos 30g + Caixa),Cuide-se Bem,Presentes,Presentes,75ml + 30g,,59.9,,,,False,18,,boticario-c05-2026,O Boticário,5
+51168,Sabonete Líquido Íntimo Cereja Livre,Cuide-se Bem,Corpo e Banho,Corpo e Banho,200ml,,47.9,,,,False,18,,boticario-c05-2026,O Boticário,5
+56217,Spray Íntimo Refrescante Cereja Livre,Cuide-se Bem,Corpo e Banho,Corpo e Banho,75ml,,47.9,,,,False,18,,boticario-c05-2026,O Boticário,5
+49898,Loção Desodorante Hidratante Corporal Cereja Livre,Cuide-se Bem,Hidratação,Hidratação,200ml,,54.9,,,,False,18,,boticario-c05-2026,O Boticário,5
+51231,Sabonete em Barra Cereja Livre,Cuide-se Bem,Corpo e Banho,Corpo e Banho,2 unidades de 80 g cada,,23.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+87327,Sabonete em Barra Amoruda,Cuide-se Bem,Corpo e Banho,Corpo e Banho,2 unidades de 80 g cada,,23.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+85679,Sabonete em Barra Cereja de Fases,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+88311,Sabonete em Barra Morango e Leite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+58357,Sabonete em Barra Doçura na Pessegura,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+53792,Sabonete em Barra Feira,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+51226,Sabonete em Barra Nuvem,Cuide-se Bem,Corpo e Banho,Corpo e Banho,2 unidades de 80 g cada,,23.9,19.12,4.78,20.0,True,19,,boticario-c05-2026,O Boticário,5
+51227,Sabonete em Barra Nuvem,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,29.52,7.38,20.0,True,19,,boticario-c05-2026,O Boticário,5
+53784,Esponja de Banho,Cuide-se Bem,Corpo e Banho,Corpo e Banho,Diâmetro: 15 cm,,31.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+51124,Sabonete em Barra Boa Noite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,2 unidades de 80 g cada,,23.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+50882,Sabonete em Barra Boa Noite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+51166,Sabonete em Barra Rosa e Algodão,Cuide-se Bem,Corpo e Banho,Corpo e Banho,2 unidades de 80 g cada,,23.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+51165,Sabonete em Barra Rosa e Algodão,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+85120,Sabonete em Barra Deleite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,2 unidades de 80 g cada,,23.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+85564,Sabonete em Barra Deleite,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,,,,False,19,,boticario-c05-2026,O Boticário,5
+50879,Sabonete em Barra Pessegura,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,29.52,7.38,20.0,True,19,,boticario-c05-2026,O Boticário,5
+85547,Sabonete em Barra Sortidos,Cuide-se Bem,Corpo e Banho,Corpo e Banho,4 unidades de 80 g cada,,36.9,29.52,7.38,20.0,True,19,,boticario-c05-2026,O Boticário,5
+70129,Cuide-se Bem Fortalecedor de Unhas,Cuide-se Bem,Cuidados com o Corpo,Cuidados com o Corpo,13 ml,,35.9,35.9,,,False,20,,boticario-c05-2026,O Boticário,5
+51167,Cuide-se Bem Desodorante Antitranspirante em Creme Sem Perfume,Cuide-se Bem,Desodorante,Desodorante,80 g,,34.9,34.9,,,False,20,,boticario-c05-2026,O Boticário,5
+86024,Cuide-se Bem Hidratante Facial Algodão-Doce,Cuide-se Bem,Cuidados Faciais,Cuidados Faciais,50 g,,37.9,37.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47146,Cuide-se Bem Desodorante Antitranspirante Aerossol Invisible Protect,Cuide-se Bem,Desodorante,Desodorante,90 g,,37.9,37.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47144,Cuide-se Bem Desodorante Antitranspirante Aerossol Protect & Beauty,Cuide-se Bem,Desodorante,Desodorante,90 g,,37.9,37.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47151,Cuide-se Bem Desodorante Antitranspirante Aerossol Sem Alumínio,Cuide-se Bem,Desodorante,Desodorante,90 g,,39.9,39.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47148,Cuide-se Bem Desodorante Antitranspirante Aerossol Clinical Ultra Protect,Cuide-se Bem,Desodorante,Desodorante,90 g,,39.9,39.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47154,Cuide-se Bem Desodorante Roll-On Sem Alumínio,Cuide-se Bem,Desodorante,Desodorante,55 ml,,27.9,27.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47147,Cuide-se Bem Desodorante Roll-On Invisible Protect,Cuide-se Bem,Desodorante,Desodorante,55 ml,,27.9,27.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47145,Cuide-se Bem Desodorante Roll-On Protect & Beauty,Cuide-se Bem,Desodorante,Desodorante,55 ml,,27.9,27.9,,,False,20,,boticario-c05-2026,O Boticário,5
+47165,Cuide-se Bem Desodorante Antitranspirante em Creme Clinical,Cuide-se Bem,Desodorante,Desodorante,50 g,,34.9,34.9,,,False,20,,boticario-c05-2026,O Boticário,5
+55758,Cuide-se Bem Desodorante Antitranspirante Roll-On Melancia,Cuide-se Bem,Desodorante,Desodorante,55 ml,,29.9,29.9,,,False,20,,boticario-c05-2026,O Boticário,5
+51144,Cuide-se Bem Desodorante Antitranspirante Roll-On Leite e Mel,Cuide-se Bem,Desodorante,Desodorante,55 ml,,29.9,29.9,,,False,20,,boticario-c05-2026,O Boticário,5
+57545,Cuide-se Bem Desodorante Antitranspirante Roll-On Bob Esponja,Cuide-se Bem,Desodorante,Desodorante,55 ml,,29.9,29.9,,,False,20,,boticario-c05-2026,O Boticário,5
+94673,Cuide-se Bem Geleia de Limpeza Facial Tangerina,Cuide-se Bem,Cuidados Faciais,Cuidados Faciais,150 g,,44.9,44.9,,,False,20,,boticario-c05-2026,O Boticário,5
+94676,Cuide-se Bem Esfoliante Facial Calda de Morango,Cuide-se Bem,Cuidados Faciais,Cuidados Faciais,100 g,,47.9,47.9,,,False,20,,boticario-c05-2026,O Boticário,5
+94675,Cuide-se Bem Hidratante Facial Maçã-Verde,Cuide-se Bem,Cuidados Faciais,Cuidados Faciais,80 g,,49.9,49.9,,,False,20,,boticario-c05-2026,O Boticário,5
+54805,Cuide-se Bem Máscara Facial Melancia,Cuide-se Bem,Cuidados Faciais,Cuidados Faciais,50 g,,64.9,64.9,,,False,20,,boticario-c05-2026,O Boticário,5
+87478,Vitamina C Gel de Limpeza Facial Antioxidante,Botik,Limpeza,Limpeza,200 g,,84.9,,,,False,21,,boticario-c05-2026,O Boticário,5
+87602,Vitamina C 10% Sérum de Alta Potência,Botik,Tratamento,Tratamento,30 ml,,199.9,,,,False,21,,boticario-c05-2026,O Boticário,5
+87031,Refil Vitamina C Sérum de Alta Potência,Botik,Tratamento,Tratamento,30 ml,,139.9,,,,False,21,,boticario-c05-2026,O Boticário,5
+53186,Vitamina C 10% Sérum de Alta Potência Miniatura,Botik,Tratamento,Tratamento,15 ml,,164.9,131.9,33.0,20.01,True,21,,boticario-c05-2026,O Boticário,5
+59564,Estojo Botik Vitamina C,Botik,Kit Experimentação,Kit Experimentação,15 ml + 50 g + 15 g + 15 g,,184.9,,,,False,21,,boticario-c05-2026,O Boticário,5
+51468,Vitamina C Creme Hidratante Antioxidante,Botik,Hidratação,Hidratação,50 g,,89.9,,,,False,21,,boticario-c05-2026,O Boticário,5
+51466,Vitamina C Multiprotetor Gel Creme FPS 50,Botik,Proteção,Proteção,40 g,,94.9,65.9,29.0,30.56,True,21,,boticario-c05-2026,O Boticário,5
+77131,Ácido Kójico Sérum de Alta Potência,Botik,Tratamento,Tratamento,30 ml,,199.9,139.9,60.0,30.02,True,21,,boticario-c05-2026,O Boticário,5
+59873,Gel de Limpeza Facial Suave Cica Pantenol + Ceramidas,Botik,Cuidados Faciais,Cuidados Faciais,200 g,,84.9,67.9,17.0,20.02,True,22,,boticario-c05-2026,O Boticário,5
+59875,Água Micelar Facial Reparadora Cica Pantenol + Ceramidas,Botik,Cuidados Faciais,Cuidados Faciais,200 ml,,79.9,63.9,16.0,20.03,True,22,,boticario-c05-2026,O Boticário,5
+59876,Creme Multirreparador Facial Calmante Cica Pantenol + Ceramidas,Botik,Cuidados Faciais,Cuidados Faciais,30 g,,59.9,47.9,12.0,20.03,True,22,,boticario-c05-2026,O Boticário,5
+84808,Reparador Labial Cica Pantenol + Ceramidas,Botik,Cuidados Faciais,Cuidados Faciais,"7,5 ml",,39.9,31.9,8.0,20.05,True,22,,boticario-c05-2026,O Boticário,5
+86154,Kit Botik Ácido Hialurônico,Botik,Cuidados Faciais,Cuidados Faciais,,,139.9,,,,False,22,,boticario-c05-2026,O Boticário,5
+87203,Kit Completo Botik,Botik,Cuidados Faciais,Cuidados Faciais,,,239.9,,,,False,22,,boticario-c05-2026,O Boticário,5
+47321,Ácido Mandélico + Tranexâmico 5% Sérum de Alta Potência,Botik,Tratamento Facial,Tratamento Facial,30 ml,,199.9,,,,False,23,,boticario-c05-2026,O Boticário,5
+58473,Ácido Mandélico 10% + Salicílico Sérum de Alta Potência,Botik,Tratamento Facial,Tratamento Facial,30 ml,,199.9,,,,False,23,,boticario-c05-2026,O Boticário,5
+47550,Ácido Mandélico + Tranexâmico Gel Creme Uniformizador de Olheiras,Botik,Tratamento Facial,Tratamento Facial,15 g,,119.9,,,,False,23,,boticario-c05-2026,O Boticário,5
+87491,Ácido Mandélico + Salicílico Gel de Limpeza Facial Micelar,Botik,Limpeza Facial,Limpeza Facial,150 g,,72.9,,,,False,23,,boticario-c05-2026,O Boticário,5
+51068,Ácido Mandélico + Salicílico Gel de Limpeza Facial Micelar Miniatura,Botik,Limpeza Facial,Limpeza Facial,50 g,,49.9,,,,False,23,,boticario-c05-2026,O Boticário,5
+57791,Massageador Facial,Botik,Acessórios,Acessórios,"5,2 x 8 x 0,4 cm",,114.9,,,,False,23,,boticario-c05-2026,O Boticário,5
+83551,"Retinol Puro 0,1% Gel Creme Redutor de Rugas",Botik,Cuidados Faciais,Cuidados Faciais,30 g,,204.9,163.9,41.0,20.01,True,24,,boticario-c05-2026,O Boticário,5
+83550,"Retinol Puro 0,3% Sérum de Alta Potência",Botik,Cuidados Faciais,Cuidados Faciais,30 ml,,214.9,171.9,43.0,20.01,True,24,,boticario-c05-2026,O Boticário,5
+55403,Resveratrol + Silício Sérum de Alta Potência,Botik,Cuidados Faciais,Cuidados Faciais,30 ml,,199.9,,,,False,24,,boticario-c05-2026,O Boticário,5
+49403,"Retinol Puro 0,3% Sérum de Alta Potência",Botik,Cuidados Faciais,Cuidados Faciais,15 ml,,174.9,,,,False,24,,boticario-c05-2026,O Boticário,5
+55407,Resveratrol + Silício Creme Nutritivo Firmador,Botik,Cuidados Faciais,Cuidados Faciais,40 g,,179.9,,,,False,24,,boticario-c05-2026,O Boticário,5
+,"Combo Gel de Limpeza Cica Pantenol + Creme Multirreparador Cica Pantenol + Sérum Retinol Puro 0,3%",Botik,Cuidados Faciais,Cuidados Faciais,200 g + 30 g + 30 ml,,359.7,274.74,84.96,23.62,True,24,,boticario-c05-2026,O Boticário,5
+57763,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 7.0,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+57764,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 6.0,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+57761,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 5.0,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+88910,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 4.5,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+57759,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 4.0,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+57758,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 3.0,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+57749,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 2.0,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+57750,Protetor Solar Facial com Cor Acqua Fluido FPS 70 Cor 1.0,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+47599,Protetor Solar Facial Antioleosidade Acqua Fluido FPS 70,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+47598,Protetor Solar Facial Antioleosidade Acqua Fluido FPS 30,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,76.9,53.9,23.0,29.91,True,25,,boticario-c05-2026,O Boticário,5
+47600,Protetor Solar Facial Antissinais Acqua Fluido FPS 30,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,76.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+47602,Protetor Solar Facial Antissinais Acqua Fluido FPS 70,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+50396,Protetor Solar Facial Antioxidante Ultra Fluido FPS 30,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,76.9,53.9,23.0,29.91,True,25,,boticario-c05-2026,O Boticário,5
+47962,Protetor Solar Facial Antioxidante Ultra Fluido FPS 70,BOTI.SUN,Proteção Solar,Proteção Solar,40ml,,79.9,,,,False,25,,boticario-c05-2026,O Boticário,5
+55930,Protetor Solar Infantil Acqua Fluido FPS 70,Boti.Sun kids,Proteção Solar,Proteção Solar,120 g,,89.9,,,,False,26,,boticario-c05-2026,O Boticário,5
+47596,Pós-Sol Acqua Gel,Boti.Sun,Proteção Solar,Proteção Solar,120 g,,49.9,,,,False,26,,boticario-c05-2026,O Boticário,5
+57731,Protetor Solar Corporal Spray Acqua Fluido FPS 50,Boti.Sun,Proteção Solar,Proteção Solar,180 ml,,109.9,87.9,22.0,20.02,True,26,,boticario-c05-2026,O Boticário,5
+47963,Protetor Solar Corporal Gel Creme FPS 50,Boti.Sun,Proteção Solar,Proteção Solar,200 g,,109.9,,,,False,26,,boticario-c05-2026,O Boticário,5
+50395,Protetor Solar Corporal Gel Creme FPS 30,Boti.Sun,Proteção Solar,Proteção Solar,200 g,,89.9,,,,False,26,,boticario-c05-2026,O Boticário,5
+86866,Protetor Solar Corporal Gel Creme FPS 50,Boti.Sun,Proteção Solar,Proteção Solar,120 g,,79.9,,,,False,26,,boticario-c05-2026,O Boticário,5
+52342,Protetor Solar Corporal Gel Creme FPS 70,Boti.Sun,Proteção Solar,Proteção Solar,200 g,,119.9,,,,False,26,,boticario-c05-2026,O Boticário,5
+86865,Protetor Solar Corporal Gel Creme FPS 70,Boti.Sun,Proteção Solar,Proteção Solar,120 g,,92.9,,,,False,26,,boticario-c05-2026,O Boticário,5
+89305,Kit Presente Lily,Lily,Presentes,Presentes,30 ml + 75 g + 150 ml + 50 g,,397.6,339.9,57.7,14.51,True,28,,boticario-c05-2026,O Boticário,5
+89307,Kit presente Coffee Woman Duo,Coffee,Perfumaria,Perfumaria,100 ml + 200 ml + 50 g,,337.3,284.9,52.4,15.54,True,29,,boticario-c05-2026,O Boticário,5
+89310,Kit presente Liz,Liz,Perfumaria,Perfumaria,100 ml + 100 ml,,274.7,234.9,39.8,14.49,True,29,,boticario-c05-2026,O Boticário,5
+89309,Kit presente Egeo Dolce (Desodorante Colônia 90 ml + Merengue Mousse Hidratante Corporal 250 g + Gloss Labial Bubbaloo Rosa 10 ml + Caixa),Egeo,Perfumaria,Perfumaria,90 ml + 250 g + 10 ml,,276.3,229.9,46.4,16.79,True,30,,boticario-c05-2026,O Boticário,5
+89311,Kit presente Glamour Secrets Black (Desodorante Colônia 75 ml + Loção Hidratante Corporal 200 ml + Caixa),Glamour,Perfumaria,Perfumaria,75 ml + 200 ml,,256.8,194.9,61.9,24.1,True,30,,boticario-c05-2026,O Boticário,5
+90200,Kit Presente Her Code Splash,Her Code,Perfumaria,Perfumaria,200 ml + 200 ml,,187.8,163.9,23.9,12.73,True,31,,boticario-c05-2026,O Boticário,5
+89314,Kit Presente Egeo Choc,Egeo,Perfumaria,Perfumaria,90 ml + 150 ml,,201.8,159.9,41.9,20.76,True,31,,boticario-c05-2026,O Boticário,5
+89316,Kit Presente Celebre sua Força,Celebre,Perfumaria,Perfumaria,100 ml + 50 g,,149.8,114.9,34.9,23.3,True,31,,boticario-c05-2026,O Boticário,5
+52086,Sabonete Líquido Gardênia Imperial,Casa 214,Corpo e Banho,Corpo e Banho,400ml,,119.9,101.9,18.0,15.01,True,32,,boticario-c05-2026,O Boticário,5
+52095,Aromatizador de Ambiente Gardênia Imperial,Casa 214,Perfumaria para Casa,Perfumaria para Casa,250ml,,142.9,121.9,21.0,14.7,True,32,,boticario-c05-2026,O Boticário,5
+52051,Difusor de Ambiente Gardênia Imperial,Casa 214,Perfumaria para Casa,Perfumaria para Casa,250ml,,172.9,146.9,26.0,15.04,True,32,,boticario-c05-2026,O Boticário,5
+58610,Vela Perfumada Gardênia Imperial,Casa 214,Perfumaria para Casa,Perfumaria para Casa,170g,,135.9,115.9,20.0,14.72,True,32,,boticario-c05-2026,O Boticário,5
+54483,Prato Vela Dolomite,Casa 214,Acessórios,Acessórios,"10 x 1,5 cm",,42.9,,,,False,32,,boticario-c05-2026,O Boticário,5
+86504,Refil Difusor de Ambiente Gardênia Imperial,Casa 214,Perfumaria para Casa,Perfumaria para Casa,250ml,,114.9,97.9,17.0,14.8,True,32,,boticario-c05-2026,O Boticário,5
+86505,Refil Difusor de Ambiente Vanilla Sublime,Casa 214,Perfumaria para Casa,Perfumaria para Casa,250ml,,114.9,,,,False,32,,boticario-c05-2026,O Boticário,5
+88340,Refil Aromatizador de Ambiente Vanilla Sublime,Casa 214,Perfumaria para Casa,Perfumaria para Casa,250ml,,94.9,,,,False,32,,boticario-c05-2026,O Boticário,5
+94539,Lily Hair Mist Acetinado,Lily,Cabelos,Cabelos,50 ml,,129.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+87920,Lily Shampoo Acetinado,Lily,Cabelos,Cabelos,250 ml,,62.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+87918,Lily Condicionador Acetinado,Lily,Cabelos,Cabelos,250 ml,,69.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+87915,Lily Sérum Leave-in Acetinado Capilar,Lily,Cabelos,Cabelos,100 ml,,72.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+88911,Lily Sabonete em Barra Decorado,Lily,Corpo e Banho,Corpo e Banho,2 unidades de 90 g cada,,54.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+88023,L'Eau de Lily Blanche Creme de Banho Acetinado,Lily,Corpo e Banho,Corpo e Banho,200 ml,,84.9,67.9,17.0,20.02,True,33,,boticario-c05-2026,O Boticário,5
+54896,Lily Creme de Banho Acetinado,Lily,Corpo e Banho,Corpo e Banho,250 ml,,104.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+48181,Lily Óleo Perfumado Desodorante Corporal,Lily,Corpo e Banho,Corpo e Banho,150 ml,,109.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+48508,Lily Óleo Acetinado Corpo e Cabelo,Lily,Corpo e Banho,Corpo e Banho,50 ml,,142.9,,,,False,33,,boticario-c05-2026,O Boticário,5
+85239,Lily Cashmere Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,144.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+88203,Lily Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,144.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+48062,Refil Lily Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,99.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+77990,Lily Lumière Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,144.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+80849,Refil Lily Lumière Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,99.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+77685,Lily Absolu Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,144.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+77689,Refil Lily Absolu Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,99.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+48058,Love Lily Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,144.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+86167,Kit Lily Jumbo,Lily,Perfumaria,Perfumaria,30 ml + 250 g,,299.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+89446,L'Eau de Lily Soleil Creme Acetinado Desodorante Hidratante Corporal,Lily,Perfumaria,Perfumaria,250 g,,119.9,,,,False,34,,boticario-c05-2026,O Boticário,5
+86895,L'eau de Lily Blanche Desodorante Colônia,Lily,Perfumaria,Perfumaria,75ml,,219.9,,,,False,35,,boticario-c05-2026,O Boticário,5
+49680,L'eau de Lily Soleil Desodorante Colônia,Lily,Perfumaria,Perfumaria,75ml,,219.9,184.9,35.0,15.92,True,35,,boticario-c05-2026,O Boticário,5
+83971,L'eau de Lily Desodorante Colônia,Lily,Perfumaria,Perfumaria,75ml,,219.9,,,,False,35,,boticario-c05-2026,O Boticário,5
+57882,L'eau de Lily Blanche Body Spray Desodorante,Lily,Perfumaria,Perfumaria,100ml,,49.9,39.9,10.0,20.04,True,35,,boticario-c05-2026,O Boticário,5
+77989,Lily Lumière Eau de Parfum,Lily,Perfumaria,Perfumaria,75 ml,,309.9,,,,False,36,,boticario-c05-2026,O Boticário,5
+77524,Lily Eau de Parfum,Lily,Perfumaria,Perfumaria,75 ml,,309.9,,,,False,36,,boticario-c05-2026,O Boticário,5
+74722,Lily Eau de Parfum Miniatura,Lily,Perfumaria,Perfumaria,30 ml,,184.9,,,,False,36,,boticario-c05-2026,O Boticário,5
+77988,Lily Absolu Eau de Parfum,Lily,Perfumaria,Perfumaria,75 ml,,309.9,,,,False,36,,boticario-c05-2026,O Boticário,5
+77517,Love Lily Eau de Parfum,Lily,Perfumaria,Perfumaria,75 ml,,309.9,274.9,35.0,11.29,True,36,,boticario-c05-2026,O Boticário,5
+55363,Lily Gardênia Eau de Parfum,Lily,Perfumaria,Perfumaria,75 ml,,309.9,274.9,35.0,11.29,True,36,,boticario-c05-2026,O Boticário,5
+48734,Lily Le Parfum,Lily,Perfumaria,Perfumaria,30 ml,,339.9,339.9,,,False,37,,boticario-c05-2026,O Boticário,5
+50297,Kit Experimentação Lily,Lily,Perfumaria,Perfumaria,4 unidades com 4 ml cada,,59.9,59.9,,,False,37,,boticario-c05-2026,O Boticário,5
+52640,Kit Lily Presenteável,Lily,Perfumaria,Perfumaria,10 ml + 75 g + 30 g,,169.9,169.9,,,False,37,,boticario-c05-2026,O Boticário,5
+84182,Lily Splash Desodorante Colônia,Lily,Perfumaria,Perfumaria,200 ml,,119.9,119.9,,,False,37,,boticario-c05-2026,O Boticário,5
+48696,Lily Antitranspirante Desodorante Aerossol,Lily,Corpo e Banho,Corpo e Banho,75 g,,39.9,39.9,,,False,37,,boticario-c05-2026,O Boticário,5
+01302,Promopack Lily Antitranspirante Desodorante Aerossol,Lily,Corpo e Banho,Corpo e Banho,2 unidades de 75 g cada,,79.8,59.85,19.95,25.0,True,37,,boticario-c05-2026,O Boticário,5
+54657,Botica 214 African Sunrise Eau de Parfum,Botica 214,Perfumaria,Perfumaria,75 ml,,234.9,,,,False,38,,boticario-c05-2026,O Boticário,5
+47553,Botica 214 Verano en Firenze Eau de Parfum,Botica 214,Perfumaria,Perfumaria,75 ml,,234.9,194.9,40.0,17.03,True,38,,boticario-c05-2026,O Boticário,5
+49353,Botica 214 Peônia & Apricot Eau de Parfum,Botica 214,Perfumaria,Perfumaria,75 ml,,234.9,,,,False,38,,boticario-c05-2026,O Boticário,5
+51387,Botica 214 Fiji Paradise Eau de Parfum,Botica 214,Perfumaria,Perfumaria,75 ml,,234.9,,,,False,38,,boticario-c05-2026,O Boticário,5
+47629,Botica 214 Golden Gardênia Eau de Parfum,Botica 214,Perfumaria,Perfumaria,75 ml,,234.9,,,,False,38,,boticario-c05-2026,O Boticário,5
+48143,Elysée Blanc O Boticário Eau de Parfum,Elysée,Perfumaria,Perfumaria,50 ml,,309.9,,,,False,39,,boticario-c05-2026,O Boticário,5
+53518,Elysée O Boticário Eau de Parfum,Elysée,Perfumaria,Perfumaria,50 ml,,309.9,,,,False,39,,boticario-c05-2026,O Boticário,5
+81331,Elysée Succès O Boticário Eau de Parfum,Elysée,Perfumaria,Perfumaria,50 ml,,309.9,274.9,35.0,11.29,True,39,,boticario-c05-2026,O Boticário,5
+48146,Elysée Nuit O Boticário Eau de Parfum,Elysée,Perfumaria,Perfumaria,50 ml,,309.9,,,,False,39,,boticario-c05-2026,O Boticário,5
+50298,Kit Experimentação Elysée,Elysée,Perfumaria,Perfumaria,4 unidades de 4 ml cada,,59.9,,,,False,39,,boticario-c05-2026,O Boticário,5
+85796,Elysée Creme Acetinado Desodorante Hidratante Corporal,Elysée,Perfumaria,Perfumaria,250g,,144.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+85797,Refil Elysée Creme Acetinado Desodorante Hidratante Corporal,Elysée,Perfumaria,Perfumaria,200g,,99.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+81423,Elysée Succès Creme Acetinado Desodorante Hidratante Corporal,Elysée,Perfumaria,Perfumaria,250g,,144.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+48375,Elysée Blanc Creme Acetinado Desodorante Hidratante Corporal,Elysée,Perfumaria,Perfumaria,250g,,144.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+52589,Refil Elysée Blanc Creme Acetinado Desodorante Hidratante Corporal,Elysée,Perfumaria,Perfumaria,200g,,99.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+48645,Elysée Nuit Creme Acetinado Desodorante Hidratante Corporal,Elysée,Perfumaria,Perfumaria,250g,,144.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+48653,Elysée Antitranspirante Desodorante Aerossol,Elysée,Perfumaria,Perfumaria,75g,,39.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+55763,Promopack Elysée Antitranspirante Desodorante Aerossol,Elysée,Perfumaria,Perfumaria,2 unidades de 75g,,79.8,59.85,19.95,25.0,True,40,,boticario-c05-2026,O Boticário,5
+84042,Kit Elysée,Elysée,Perfumaria,Perfumaria,10ml + 75g + 30g,,162.9,,,,False,40,,boticario-c05-2026,O Boticário,5
+74103,Glamour Secrets Black Desodorante Colônia,Glamour,Perfumaria,Perfumaria,75 ml,,189.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+84260,Glamour Secrets Black Refil Desodorante Colônia,Glamour,Perfumaria,Perfumaria,75 ml,,139.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+52752,Glamour Secrets Black Intense Desodorante Colônia,Glamour,Perfumaria,Perfumaria,75 ml,,189.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+74740,Loção Desodorante Hidratante Corporal Glamour,Glamour,Hidratação,Hidratação,200 ml,,66.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+84230,Loção Desodorante Hidratante Corporal Glamour Secrets Black,Glamour,Hidratação,Hidratação,200 ml,,66.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+84228,Body Spray Desodorante Glamour,Glamour,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+79998,Body Spray Desodorante Glamour Secrets Black,Glamour,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+79997,Antitranspirante Desodorante Aerossol Glamour,Glamour,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+84225,Antitranspirante Desodorante Aerossol Glamour Secrets Black,Glamour,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,41,,boticario-c05-2026,O Boticário,5
+59555,Her Code Touch Eau de Parfum,Her Code,Perfumaria,Perfumaria,50 ml,,244.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+50022,Her Code Eau de Parfum,Her Code,Perfumaria,Perfumaria,50 ml,,244.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+86983,Her Code Clímax Eau de Parfum,Her Code,Perfumaria,Perfumaria,50 ml,,244.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+53835,Her Code Loção Desodorante Hidratante Corporal,Her Code,Hidratação,Hidratação,200 ml,,67.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+85935,Her Code Creme Aveludado Desodorante Hidratante Corporal,Her Code,Hidratação,Hidratação,250 g,,119.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+85947,Her Code Clímax Loção Desodorante Hidratante Corporal,Her Code,Hidratação,Hidratação,200 ml,,67.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+85936,Her Code Touch Óleo de Massagem Corporal,Her Code,Corpo e Banho,Corpo e Banho,150 ml,,94.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+86206,Kit Her Code,Her Code,Perfumaria,Perfumaria,,,299.9,,,,False,43,,boticario-c05-2026,O Boticário,5
+49249,Coffee Woman Desodorante Colônia,Coffee,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,44,,boticario-c05-2026,O Boticário,5
+49250,Coffee Duo Woman Desodorante Colônia,Coffee,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,44,,boticario-c05-2026,O Boticário,5
+49252,Coffee Woman Seduction Desodorante Colônia,Coffee,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,44,,boticario-c05-2026,O Boticário,5
+81384,Coffee Woman Addictive Desodorante Colônia,Coffee,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,44,,boticario-c05-2026,O Boticário,5
+48685,Coffee Woman Seduction Loção Desodorante Hidratante Corporal,Coffee,Corpo e Banho,Corpo e Banho,200 ml,,67.9,,,,False,44,,boticario-c05-2026,O Boticário,5
+49242,Coffee Woman Seduction Antitranspirante Desodorante Aerossol,Coffee,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,44,,boticario-c05-2026,O Boticário,5
+36485,Kit Coffee Woman Seduction,Coffee,Perfumaria,Perfumaria,,,149.9,,,,False,44,,boticario-c05-2026,O Boticário,5
+59306,Floratta Red Passion Eau de Parfum,Floratta,Perfumaria,Perfumaria,75 ml,,219.9,,,,False,45,,boticario-c05-2026,O Boticário,5
+54005,Kit Floratta,Floratta,Perfumaria,Perfumaria,7 unidades com 4 ml cada,,45.9,,,,False,45,,boticario-c05-2026,O Boticário,5
+48313,Floratta Rose Desodorante Colônia,Floratta,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,46,,boticario-c05-2026,O Boticário,5
+48296,Floratta Rose Bouquet Desodorante Colônia,Floratta,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,46,,boticario-c05-2026,O Boticário,5
+52639,Kit Floratta Rose,Floratta,Presentes,Presentes,,,115.9,,,,False,46,,boticario-c05-2026,O Boticário,5
+48646,Floratta Rose Creme Desodorante Hidratante Corporal,Floratta,Corpo e Banho,Corpo e Banho,200 ml,,66.9,,,,False,46,,boticario-c05-2026,O Boticário,5
+49025,Floratta Rose Body Spray Desodorante,Floratta,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,46,,boticario-c05-2026,O Boticário,5
+52507,Floratta Fleur d'Éclipse Eau de Parfum,Floratta,Perfumaria,Perfumaria,75 ml,,219.9,,,,False,47,,boticario-c05-2026,O Boticário,5
+50158,Vaporizador Porta-Perfume,Acessórios,Acessórios,Acessórios,5 ml,,57.9,,,,False,47,,boticario-c05-2026,O Boticário,5
+56579,Nécessaire Feminino 2 em 1,Acessórios,Acessórios,Acessórios,,,79.9,,,,False,47,,boticario-c05-2026,O Boticário,5
+48315,Floratta Gold Desodorante Colônia,Floratta,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,48,,boticario-c05-2026,O Boticário,5
+48307,Floratta Flores Secretas Desodorante Colônia,Floratta,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,48,,boticario-c05-2026,O Boticário,5
+58372,Floratta Romance de Verão Desodorante Colônia,Floratta,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,48,,boticario-c05-2026,O Boticário,5
+85482,Floratta Flores Secretas Body Spray Desodorante,Floratta,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,48,,boticario-c05-2026,O Boticário,5
+71807,Floratta Gold Creme Desodorante Hidratante Corporal,Floratta,Hidratação,Hidratação,200 ml,,66.9,,,,False,48,,boticario-c05-2026,O Boticário,5
+33424,Kit Floratta Flowers,Floratta,Perfumaria,Perfumaria,3 x 30 ml,,204.9,,,,False,48,,boticario-c05-2026,O Boticário,5
+86988,Liz Aura Creme Desodorante Hidratante Corporal,Liz,Hidratação,Hidratação,250 g,,74.9,,,,False,49,,boticario-c05-2026,O Boticário,5
+86990,Liz Aura Desodorante Colônia,Liz,Perfumaria,Perfumaria,100 ml,,169.9,,,,False,49,,boticario-c05-2026,O Boticário,5
+77183,Liz Creme Desodorante Hidratante Corporal,Liz,Hidratação,Hidratação,250 g,,74.9,59.9,15.0,20.03,True,49,,boticario-c05-2026,O Boticário,5
+53416,Liz Intenso Creme Desodorante Hidratante Corporal,Liz,Hidratação,Hidratação,250 g,,74.9,59.9,15.0,20.03,True,49,,boticario-c05-2026,O Boticário,5
+57488,Liz Flora Creme Desodorante Hidratante Corporal,Liz,Hidratação,Hidratação,250 g,,74.9,59.9,15.0,20.03,True,49,,boticario-c05-2026,O Boticário,5
+76700,Liz Desodorante Colônia,Liz,Perfumaria,Perfumaria,100 ml,,169.9,,,,False,49,,boticario-c05-2026,O Boticário,5
+53415,Liz Intenso Desodorante Colônia,Liz,Perfumaria,Perfumaria,100 ml,,169.9,,,,False,49,,boticario-c05-2026,O Boticário,5
+59466,Liz Flora Desodorante Colônia,Liz,Perfumaria,Perfumaria,100 ml,,169.9,144.9,25.0,14.71,True,49,,boticario-c05-2026,O Boticário,5
+47339,Liz Sublime Desodorante Colônia,Liz,Perfumaria,Perfumaria,100 ml,,169.9,144.9,25.0,14.71,True,49,,boticario-c05-2026,O Boticário,5
+48141,Accordes Desodorante Colônia,Accordes,Perfumaria,Perfumaria,80 ml,,244.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+51213,Accordes Harmonia Desodorante Colônia,Accordes,Perfumaria,Perfumaria,80 ml,,244.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+87982,Accordes Body Spray Desodorante,Accordes,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+50158,Vaporizador Porta-Perfume,Acessórios,Acessórios,Acessórios,5 ml,,57.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+83065,Liz Antitranspirante Desodorante Aerossol,Liz,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+52723,Liz Creme Desodorante Hidratante Corporal,Liz,Corpo e Banho,Corpo e Banho,100 ml,,44.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+51225,Boticollection Sabonetes Perfumados,BotiCollection,Corpo e Banho,Corpo e Banho,5 unidades de 80 g cada,,54.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+46931,Kit Boticollection,BotiCollection,Perfumaria,Perfumaria,3 x 30 ml,,199.9,,,,False,50,,boticario-c05-2026,O Boticário,5
+76621,Splash Dream Desodorante Colônia Céu de Baunilha,Dream,Perfumaria,Perfumaria,200ml,,109.9,,,,False,51,,boticario-c05-2026,O Boticário,5
+48634,Splash Dream Desodorante Colônia Amor no Ar,Dream,Perfumaria,Perfumaria,200ml,,109.9,,,,False,51,,boticario-c05-2026,O Boticário,5
+47908,Splash Dream Desodorante Colônia Viagem Encantada,Dream,Perfumaria,Perfumaria,200ml,,109.9,,,,False,51,,boticario-c05-2026,O Boticário,5
+87139,Egeo Cogu Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90ml,,159.9,,,,False,52,,boticario-c05-2026,O Boticário,5
+85067,Egeo Cogu Mellow Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90ml,,159.9,,,,False,52,,boticario-c05-2026,O Boticário,5
+49812,Egeo Original Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90ml,,159.9,124.9,35.0,21.89,True,52,,boticario-c05-2026,O Boticário,5
+82686,Egeo Blue Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90ml,,159.9,,,,False,52,,boticario-c05-2026,O Boticário,5
+73367,Egeo Blue Body Spray Desodorante,Egeo,Perfumaria,Perfumaria,100ml,,49.9,,,,False,52,,boticario-c05-2026,O Boticário,5
+90370,Promopack Egeo Blue Body Spray Desodorante,Egeo,Perfumaria,Perfumaria,2 unidades de 100ml cada,,71.85,,,,False,52,,boticario-c05-2026,O Boticário,5
+84047,Kit Egeo Blue,Egeo,Perfumaria,Perfumaria,,,164.9,,,,False,52,,boticario-c05-2026,O Boticário,5
+86432,Kit Presente Egeo Dolce,Egeo,Perfumaria,Perfumaria,,,154.9,,,,False,52,,boticario-c05-2026,O Boticário,5
+71815,Egeo Choc Suflê Desodorante Hidratante Corporal,Egeo,Corpo e Banho,Corpo e Banho,250 g,,74.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+58499,Egeo Choc High Suflê Desodorante Hidratante Corporal,Egeo,Corpo e Banho,Corpo e Banho,250 g,,74.9,51.9,23.0,30.71,True,53,,boticario-c05-2026,O Boticário,5
+72052,Egeo Dolce Merengue Mousse Desodorante Hidratante Corporal,Egeo,Corpo e Banho,Corpo e Banho,250 g,,74.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+84213,Egeo Vanilla Vibe Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+84214,Egeo Spicy Vibe Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+82685,Egeo Bomb Black Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+82690,Egeo Red Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+48761,Egeo Red Antitranspirante Desodorante Aerossol,Egeo,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+48657,Egeo Dolce Antitranspirante Desodorante Aerossol,Egeo,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+56272,Promopack Antitranspirante Desodorante Aerossol Egeo Dolce,Egeo,Corpo e Banho,Corpo e Banho,2 unidades de 75 g cada,,59.85,,,,False,53,,boticario-c05-2026,O Boticário,5
+74893,Egeo Dolce Body Spray Desodorante,Egeo,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+85577,Kit Presente Egeo Bomb Black,Egeo,Perfumaria,Perfumaria,90 ml + 100 g,,159.9,,,,False,53,,boticario-c05-2026,O Boticário,5
+85054,Egeo Dolce Illusion Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,54,,boticario-c05-2026,O Boticário,5
+82688,Egeo Dolce Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,54,,boticario-c05-2026,O Boticário,5
+59436,Egeo Choc High Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,54,,boticario-c05-2026,O Boticário,5
+82689,Egeo Choc Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,,,,False,54,,boticario-c05-2026,O Boticário,5
+87556,Egeo Dolce Illusion Creme Desodorante Hidratante Corporal,Egeo,Hidratação,Hidratação,250 g,,74.9,,,,False,54,,boticario-c05-2026,O Boticário,5
+86028,Egeo Big Bag,Egeo,Acessórios,Acessórios,"48,5 x 15 x 36 cm",,99.9,,,,False,54,,boticario-c05-2026,O Boticário,5
+52044,Celebre Agora Desodorante Colônia Feminino,Celebre,Perfumaria,Perfumaria,100ml,,114.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+52052,Celebre Agora Desodorante Colônia Masculino,Celebre,Perfumaria,Perfumaria,100ml,,114.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+83059,Celebre Sua Força Desodorante Colônia Masculino,Celebre,Perfumaria,Perfumaria,100ml,,114.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+83060,Celebre Sua Força Desodorante Colônia Feminino,Celebre,Perfumaria,Perfumaria,100ml,,114.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+83061,Celebre Sua Força Loção Desodorante Hidratante Corporal,Celebre,Hidratação,Hidratação,200ml,,42.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+57541,Celebre Agora Masculino Shower Gel Cabelo e Corpo,Celebre,Corpo e Banho,Corpo e Banho,100g,,34.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+52050,Celebre Agora Loção Desodorante Hidratante Corporal,Celebre,Hidratação,Hidratação,200ml,,42.9,29.9,13.0,30.3,True,55,,boticario-c05-2026,O Boticário,5
+39235,Celebre Sua Força Body Spray Desodorante,Celebre,Perfumaria,Perfumaria,100ml,,49.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+83212,Refil Celebre Sua Força Desodorante Colônia Floral Frutal,Celebre,Perfumaria,Perfumaria,100ml,,82.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+83211,Refil Celebre Sua Força Desodorante Colônia Fougère Aromática,Celebre,Perfumaria,Perfumaria,100ml,,82.9,,,,False,55,,boticario-c05-2026,O Boticário,5
+48664,Portinari Desodorante Colônia,BotiCollection,Perfumaria,Perfumaria,100 ml,,194.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+52029,Portinari Absoluto Desodorante Colônia,BotiCollection,Perfumaria,Perfumaria,100 ml,,204.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+86081,Portinari Memórias Desodorante Colônia,BotiCollection,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+27707,Connexion Desodorante Colônia,BotiCollection,Perfumaria,Perfumaria,100 ml,,174.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+76681,Horizonte Desodorante Colônia,BotiCollection,Perfumaria,Perfumaria,100 ml,,174.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+76678,Styletto Desodorante Colônia,BotiCollection,Perfumaria,Perfumaria,100 ml,,174.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+82476,Portinari Antitranspirante Desodorante Aerossol,Portinari,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+48779,Portinari Body Spray Desodorante,Portinari,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+30326,Portinari Shower Gel,Portinari,Corpo e Banho,Corpo e Banho,200 g,,49.9,,,,False,56,,boticario-c05-2026,O Boticário,5
+50732,Uomini Spirit Desodorante Colônia,Uomini,Perfumaria,Perfumaria,100 ml,,199.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+49765,Uomini Desodorante Colônia,Uomini,Perfumaria,Perfumaria,100 ml,,199.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+49766,Uomini Black Desodorante Colônia,Uomini,Perfumaria,Perfumaria,100 ml,,199.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+50418,Uomini Infinite Desodorante Colônia,Uomini,Perfumaria,Perfumaria,100 ml,,199.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+50659,Uomini Spirit Antitranspirante Desodorante Aerossol,Uomini,Perfumaria,Perfumaria,75 g,,39.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+77486,Uomini Antitranspirante Desodorante Aerossol,Uomini,Perfumaria,Perfumaria,75 g,,39.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+80888,Uomini Infinite Body Spray Desodorante,Uomini,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+80887,Uomini Body Spray Desodorante,Uomini,Perfumaria,Perfumaria,100 ml,,49.9,,,,False,57,,boticario-c05-2026,O Boticário,5
+84391,Malbec Gold Desodorante Colônia,Malbec,Perfumaria,Perfumaria,100 ml,,249.9,214.9,35.0,14.01,True,58,,boticario-c05-2026,O Boticário,5
+54154,Malbec Icon Antitranspirante Desodorante Aerossol,Malbec,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,58,,boticario-c05-2026,O Boticário,5
+75827,Malbec Gold Antitranspirante Desodorante Aerossol,Malbec,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,58,,boticario-c05-2026,O Boticário,5
+86969,Malbec Pure Gold Antitranspirante Desodorante Aerossol,Malbec,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,58,,boticario-c05-2026,O Boticário,5
+53074,Malbec X Antitranspirante Desodorante Aerossol,Malbec,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,58,,boticario-c05-2026,O Boticário,5
+49362,Malbec Antitranspirante Desodorante Aerossol,Malbec,Corpo e Banho,Corpo e Banho,75 g,,39.9,27.9,12.0,30.08,True,58,,boticario-c05-2026,O Boticário,5
+75829,Malbec Magnetic Antitranspirante Desodorante Aerossol,Malbec,Corpo e Banho,Corpo e Banho,75 g,,39.9,27.9,12.0,30.08,True,58,,boticario-c05-2026,O Boticário,5
+01317,Promopack Malbec Antitranspirante Desodorante Aerossol,Malbec,Corpo e Banho,Corpo e Banho,2 unidades de 75 g cada,,59.85,,,,False,58,,boticario-c05-2026,O Boticário,5
+48381,Malbec Antitranspirante Desodorante Roll-On,Malbec,Corpo e Banho,Corpo e Banho,55 ml,,29.9,,,,False,58,,boticario-c05-2026,O Boticário,5
+54101,Malbec X Desodorante Colônia,Malbec,Perfumaria,Perfumaria,100 ml,,249.9,224.9,25.0,10.0,True,59,,boticario-c05-2026,O Boticário,5
+49291,Kit Malbec,Malbec,Perfumaria,Perfumaria,50 ml + 31 g + 75 ml,,184.9,,,,False,59,,boticario-c05-2026,O Boticário,5
+84390,Malbec Magnetic Desodorante Colônia,Malbec,Perfumaria,Perfumaria,100 ml,,249.9,,,,False,59,,boticario-c05-2026,O Boticário,5
+84399,Malbec Flame Desodorante Colônia,Malbec,Perfumaria,Perfumaria,100 ml,,249.9,,,,False,59,,boticario-c05-2026,O Boticário,5
+84400,Malbec Bleu Desodorante Colônia,Malbec,Perfumaria,Perfumaria,100 ml,,229.9,229.9,,,False,60,,boticario-c05-2026,O Boticário,5
+54231,Malbec Ultra Bleu Desodorante Colônia,Malbec,Perfumaria,Perfumaria,100 ml,,229.9,229.9,,,False,60,,boticario-c05-2026,O Boticário,5
+48683,Malbec Vert Loção Desodorante Hidratante Corporal,Malbec,Hidratação,Hidratação,200 ml,,67.9,67.9,,,False,60,,boticario-c05-2026,O Boticário,5
+84055,Malbec Vert Body Spray Desodorante,Malbec,Perfumaria,Perfumaria,100 ml,,49.9,49.9,,,False,60,,boticario-c05-2026,O Boticário,5
+50125,Malbec Ultra Bleu Body Spray Desodorante,Malbec,Perfumaria,Perfumaria,100 ml,,49.9,49.9,,,False,60,,boticario-c05-2026,O Boticário,5
+90379,Promopack Malbec Ultra Bleu Body Spray Desodorante,Malbec,Perfumaria,Perfumaria,2 unidades de 100 ml cada,,71.85,71.85,,,False,60,,boticario-c05-2026,O Boticário,5
+53901,Nécessaire Malbec,Malbec,Acessórios,Acessórios,"9 x 17 x 23,5 cm",,79.9,63.9,16.0,20.03,True,60,,boticario-c05-2026,O Boticário,5
+56690,Gel de Limpeza Facial Pele Oleosa,Malbec,Corpo & Rosto,Corpo & Rosto,150 g,,64.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+59019,Loção Desodorante Hidratante Corporal,Malbec,Corpo & Rosto,Corpo & Rosto,200 ml,,67.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+56687,Sérum Facial Pele Oleosa,Malbec,Corpo & Rosto,Corpo & Rosto,30 ml,,149.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+56688,Multiprotetor Pele Oleosa,Malbec,Corpo & Rosto,Corpo & Rosto,40 ml,,99.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+84682,Sabonete em Barra,Malbec,Corpo & Rosto,Corpo & Rosto,2 unidades de 80 g cada,,31.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+87452,Sabonete em Barra Edição Limitada,Malbec,Corpo & Rosto,Corpo & Rosto,4 unidades de 80 g cada,,53.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+59021,Sabonete Líquido Corporal,Malbec,Corpo & Rosto,Corpo & Rosto,250 g,,62.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+59018,Creme Hidratante Facial Anti-Idade FPS 30,Malbec,Corpo & Rosto,Corpo & Rosto,50 ml,,109.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+57639,Boticário Nécessaire Premium Masculino,Malbec,Acessórios,Acessórios,"24 x 10 x 16,5 cm",,89.9,,,,False,61,,boticario-c05-2026,O Boticário,5
+59033,Shampoo Esfoliante Anticaspa Malbec,Malbec,Cabelos,Cabelos,150 ml,,59.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59035,Shampoo Anticaspa Malbec,Malbec,Cabelos,Cabelos,250 ml,,55.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59034,Condicionador Anticaspa Malbec,Malbec,Cabelos,Cabelos,250 ml,,57.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59126,Kit Malbec Cuidados Antiqueda,Malbec,Cabelos,Cabelos,250 ml + 250 ml + 100 ml,,179.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59125,Kit Malbec Cuidados Anticaspa,Malbec,Cabelos,Cabelos,2 unidades de 250 ml cada,,99.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59031,Shampoo Malbec Antioleosidade,Malbec,Cabelos,Cabelos,250 ml,,55.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59493,Shampoo Malbec Cabelos Grisalhos,Malbec,Cabelos,Cabelos,250 ml,,55.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+58968,Shampoo Malbec Antiqueda,Malbec,Cabelos,Cabelos,250 ml,,55.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59037,Condicionador Malbec Antiqueda,Malbec,Cabelos,Cabelos,250 ml,,57.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+59036,Tônico Capilar Malbec Antiqueda,Malbec,Cabelos,Cabelos,100 ml,,99.9,,,,False,62,,boticario-c05-2026,O Boticário,5
+55366,Arbo Atlântica Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,169.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+52898,Arbo Puro Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,169.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+74444,Arbo Botanic Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,169.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+50651,Arbo Intenso Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,179.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+50653,Refil Arbo Intenso Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,124.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+47851,Arbo Forest Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,169.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+47881,Refil Arbo Forest Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,124.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+83961,Arbo Body Spray Desodorante,Arbo,Perfumaria,Perfumaria,100ml,,49.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+79417,Arbo Botanic Body Spray Desodorante,Arbo,Perfumaria,Perfumaria,100ml,,49.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+81056,Refil Arbo Liberté Desodorante Colônia,Arbo,Perfumaria,Perfumaria,100ml,,124.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+57640,Nécessaire Arbo,Arbo,Acessórios,Acessórios,,,62.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+49288,Kit Arbo,Arbo,Perfumaria,Perfumaria,,,119.9,,,,False,63,,boticario-c05-2026,O Boticário,5
+58526,Quasar Deep Blue Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100 ml,,174.9,,,,False,64,,boticario-c05-2026,O Boticário,5
+51243,Quasar Classic Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100 ml,,174.9,,,,False,64,,boticario-c05-2026,O Boticário,5
+50862,Quasar Classic Desodorante Colônia Refil,Quasar,Perfumaria,Perfumaria,100 ml,,125.9,,,,False,64,,boticario-c05-2026,O Boticário,5
+51108,Quasar Blue Shower Gel Corpo e Cabelo,Quasar,Corpo e Banho,Corpo e Banho,200 g,,51.9,,,,False,64,,boticario-c05-2026,O Boticário,5
+53677,Quasar Blue Creme de Barbear,Quasar,Barbear,Barbear,110 g,,69.9,,,,False,64,,boticario-c05-2026,O Boticário,5
+51217,Quasar Blue Gel Após Barba,Quasar,Barbear,Barbear,110 g,,67.9,,,,False,64,,boticario-c05-2026,O Boticário,5
+53680,Quasar Blue Antitranspirante Desodorante Roll-On,Quasar,Desodorantes,Desodorantes,55 ml,,29.9,23.9,6.0,20.07,True,64,,boticario-c05-2026,O Boticário,5
+51244,Quasar Blue Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100ml,,174.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+50863,Refil Quasar Blue Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100ml,,125.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+50831,Quasar Ice Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100ml,,174.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+50820,Quasar Rush Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100ml,,174.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+51262,Quasar Fire Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100ml,,174.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+50662,Quasar Vision Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100ml,,174.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+51242,Quasar Brave Desodorante Colônia,Quasar,Perfumaria,Perfumaria,100ml,,174.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+50726,Quasar Rush Antitranspirante Desodorante Aerossol,Quasar,Corpo e Banho,Corpo e Banho,75g,,39.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+51324,Quasar Rush Body Spray Desodorante,Quasar,Perfumaria,Perfumaria,100ml,,49.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+51261,Quasar Blue Body Spray Desodorante,Quasar,Perfumaria,Perfumaria,100ml,,49.9,,,,False,65,,boticario-c05-2026,O Boticário,5
+86464,Kit Quasar Classic,Quasar,Perfumaria,Perfumaria,100ml + 100ml,,179.9,143.9,36.0,20.01,True,65,,boticario-c05-2026,O Boticário,5
+47950,Zaad Eau de Parfum,Zaad,Perfumaria,Perfumaria,95 ml,,329.9,,,,False,66,,boticario-c05-2026,O Boticário,5
+49247,Coffee Man Seduction Desodorante Colônia,Coffee Man,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,67,,boticario-c05-2026,O Boticário,5
+49245,Coffee Man Duo Desodorante Colônia,Coffee Man,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,67,,boticario-c05-2026,O Boticário,5
+49244,Coffee Man Desodorante Colônia,Coffee Man,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,67,,boticario-c05-2026,O Boticário,5
+49193,Coffee Man Unique Desodorante Colônia,Coffee Man,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,67,,boticario-c05-2026,O Boticário,5
+86077,Coffee Man Antitranspirante Desodorante Aerossol,Coffee Man,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,67,,boticario-c05-2026,O Boticário,5
+57641,Nécessaire Viagem,Acessórios,Acessórios,Acessórios,18 x 6 x 10 cm,,75.9,,,,False,67,,boticario-c05-2026,O Boticário,5
+83529,The Blend Cardamom Eau de Parfum,The Blend,Perfumaria,Perfumaria,100 ml,,359.9,,,,False,68,,boticario-c05-2026,O Boticário,5
+77489,The Blend Bourbon Eau de Parfum,The Blend,Perfumaria,Perfumaria,100 ml,,359.9,,,,False,68,,boticario-c05-2026,O Boticário,5
+47949,The Blend Eau de Parfum,The Blend,Perfumaria,Perfumaria,100 ml,,359.9,,,,False,68,,boticario-c05-2026,O Boticário,5
+52482,Kit Experimentação Zaad e The Blend,The Blend,Perfumaria,Perfumaria,4 unidades com 4 ml cada,,59.9,,,,False,68,,boticario-c05-2026,O Boticário,5
+48789,The Blend Antitranspirante Desodorante Aerossol,The Blend,Corpo e Banho,Corpo e Banho,75 g,,39.9,,,,False,68,,boticario-c05-2026,O Boticário,5
+01296,Promopack The Blend Antitranspirante Desodorante Aerossol,The Blend,Corpo e Banho,Corpo e Banho,2 unidades de 75 g cada,,59.85,,,,False,68,,boticario-c05-2026,O Boticário,5
+56005,Creme Pré e Pós-Barba,MEN,Barbear,Barbear,150g,,59.9,,,,False,69,,boticario-c05-2026,O Boticário,5
+55975,Shampoo 2 em 1,MEN,Cabelos,Cabelos,250ml,,42.9,,,,False,69,,boticario-c05-2026,O Boticário,5
+58643,Creme Pós-Barba Azulen,MEN,Barbear,Barbear,40g,,57.9,,,,False,69,,boticario-c05-2026,O Boticário,5
+55968,Shampoo 2 em 1 Anticaspa,MEN,Cabelos,Cabelos,250ml,,44.9,,,,False,69,,boticario-c05-2026,O Boticário,5
+56000,"Kit Cabelos (Shampoo 2 em 1 anticaspa, 2 unidades de 250 ml cada)",MEN,Cabelos,Cabelos,2 unidades de 250ml,,79.9,,,,False,69,,boticario-c05-2026,O Boticário,5
+55993,Pasta Capilar Alta Fixação,MEN,Cabelos,Cabelos,100g,,57.9,,,,False,69,,boticario-c05-2026,O Boticário,5
+90610,Sabonete Líquido Antiacne MEN,MEN,Facial,Facial,150 ml,,51.9,,,,False,70,,boticario-c05-2026,O Boticário,5
+90611,Gel Secativo Antiacne MEN,MEN,Facial,Facial,15 g,,37.9,,,,False,70,,boticario-c05-2026,O Boticário,5
+56001,MEN Sport Creme Hidratante Antiatrito,MEN,Hidratação,Hidratação,100 g,,49.9,,,,False,70,,boticario-c05-2026,O Boticário,5
+56004,MEN Sport Desodorante para os Pés,MEN,Corpo e Banho,Corpo e Banho,125 ml,,39.9,,,,False,70,,boticario-c05-2026,O Boticário,5
+76664,MEN Desodorante Colônia,MEN,Perfumaria,Perfumaria,100 ml,,164.9,,,,False,70,,boticario-c05-2026,O Boticário,5
+76665,MEN Only Desodorante Colônia,MEN,Perfumaria,Perfumaria,100 ml,,164.9,,,,False,70,,boticario-c05-2026,O Boticário,5
+76666,MEN Galbe Desodorante Colônia,MEN,Perfumaria,Perfumaria,100 ml,,164.9,,,,False,70,,boticario-c05-2026,O Boticário,5
+56858,Batom Líquido Instamatte Begeli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56860,Batom Líquido Instamatte Terracotali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56854,Batom Líquido Instamatte Uvali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56862,Batom Líquido Instamatte Carameli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56944,Batom Líquido Instamatte Damascoli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56941,Batom Líquido Instamatte Malvali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56865,Batom Líquido Instamatte Amendoli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56844,Batom Líquido Instamatte Rosetali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56948,Batom Líquido Instamatte Jabuticali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56852,Batom Líquido Instamatte Cacauli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56851,Batom Líquido Instamatte Roseirali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56855,Batom Líquido Instamatte Bordoli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56847,Batom Líquido Instamatte Castanheli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+57616,Batom Líquido Instamatte Azaleiali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56942,Batom Líquido Instamatte Cerejali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56846,Batom Líquido Instamatte Morenali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56866,Batom Líquido Instamatte Marsalali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56946,Batom Líquido Instamatte Rosadoli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56848,Batom Líquido Instamatte Marronli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56850,Batom Líquido Instamatte Vinheli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56943,Batom Líquido Instamatte Vermelholi,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56945,Batom Líquido Instamatte Avelali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56853,Batom Líquido Instamatte Amorli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56962,Batom Líquido Instamatte Vermeli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56947,Batom Líquido Instamatte Cafeli,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56859,Batom Líquido Instamatte Lilali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+56849,Batom Líquido Instamatte Goiabali,Instamatte,Maquiagem,Maquiagem,4 ml,,49.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+89370,Lip Oil Cuide-se Bem Feira Tangerina,Cuide-se Bem,Maquiagem,Maquiagem,4 ml,,54.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+89368,Lip Oil Cuide-se Bem Feira Morango,Cuide-se Bem,Maquiagem,Maquiagem,4 ml,,54.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+89369,Lip Oil Cuide-se Bem Feira Pêssego,Cuide-se Bem,Maquiagem,Maquiagem,4 ml,,54.9,,,,False,72,,boticario-c05-2026,O Boticário,5
+51186,Gloss Volumão Vermelho Bocão,Volumão,Maquiagem,Maquiagem,"9,5 ml",,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+51189,Gloss Volumão Nasci Assim,Volumão,Maquiagem,Maquiagem,"9,5 ml",,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+51187,Gloss Volumão Cereja Explosão,Volumão,Maquiagem,Maquiagem,"9,5 ml",,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56724,Batom Líquido Volumão Morangoli,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56726,Batom Líquido Volumão Tamaroli,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56727,Batom Líquido Volumão Damascoli,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56728,Batom Líquido Volumão Rosa Pinkli,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56729,Batom Líquido Volumão Marrom Camurçali,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56722,Batom Líquido Volumão Roseli,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56725,Batom Líquido Volumão Amorali,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56723,Batom Líquido Volumão Ameixali,Volumão,Maquiagem,Maquiagem,4 ml,,62.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57811,Batom Stick Volumão Vinholê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56721,Batom Stick Volumão Marrom Chocolê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57822,Batom Stick Volumão Marsalê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57810,Batom Stick Volumão Cobre Laranjalê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57828,Batom Stick Volumão Amendolê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57826,Batom Stick Volumão Roselelê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57821,Batom Stick Volumão Rosadolê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+56720,Batom Stick Volumão Vermelho Rubilê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57825,Batom Stick Volumão Goiabalê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+57820,Batom Stick Volumão Roseirê,Volumão,Maquiagem,Maquiagem,"3,4 g",,57.9,,,,False,73,,boticario-c05-2026,O Boticário,5
+86133,Pop Batom Cremoso Rosa Radiante,QDB Pop,Maquiagem,Maquiagem,"3,6 g",,18.9,18.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86132,Pop Batom Cremoso Rosa Malva,QDB Pop,Maquiagem,Maquiagem,"3,6 g",,18.9,18.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86134,Pop Batom Cremoso Nude Avelã,QDB Pop,Maquiagem,Maquiagem,"3,6 g",,18.9,18.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86135,Pop Batom Semimate Marrom Glacê,QDB Pop,Maquiagem,Maquiagem,"3,6 g",,18.9,18.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86136,Pop Batom Semimate Rosa Supremo,QDB Pop,Maquiagem,Maquiagem,"3,6 g",,18.9,18.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86137,Pop Batom Semimate Vermelho Icônico,QDB Pop,Maquiagem,Maquiagem,"3,6 g",,18.9,18.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86119,Pop Máscara para Cílios,QDB Pop,Maquiagem,Maquiagem,10 g,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86120,Pop Base Líquida Cor 100 F,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86121,Pop Base Líquida Cor 120 N,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86122,Pop Base Líquida Cor 140 N,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86123,Pop Base Líquida Cor 150 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86124,Pop Base Líquida Cor 180 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86125,Pop Base Líquida Cor 200 N,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86126,Pop Base Líquida Cor 210 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86127,Pop Base Líquida Cor 230 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86128,Pop Base Líquida Cor 240 F,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86129,Pop Base Líquida Cor 260 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86130,Pop Base Líquida Cor 270 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+86131,Pop Base Líquida Cor 290 N,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+89234,Pop Base Líquida Cor 300 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+89235,Pop Base Líquida Cor 310 Q,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+89236,Pop Base Líquida Cor 330 F,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+89255,Pop Base Líquida Cor 345 F,QDB Pop,Maquiagem,Maquiagem,30 ml,,34.9,34.9,,,False,74,,boticario-c05-2026,O Boticário,5
+59358,Pop Lápis para Olhos Pretito,QDB Pop,Maquiagem,Maquiagem,"1,1 g",,17.9,17.9,,,False,74,,boticario-c05-2026,O Boticário,5
+59359,Pop Lápis para Olhos Marrontito,QDB Pop,Maquiagem,Maquiagem,"1,1 g",,17.9,17.9,,,False,74,,boticario-c05-2026,O Boticário,5
+56957,Batom Líquido Cremoso dos Sonhos Rosite,Batom Líquido dos Sonhos,Maquiagem,Maquiagem,4 ml,,52.9,36.9,16.0,30.25,True,74,,boticario-c05-2026,O Boticário,5
+56960,Batom Líquido Cremoso dos Sonhos Laranjite,Batom Líquido dos Sonhos,Maquiagem,Maquiagem,4 ml,,52.9,36.9,16.0,30.25,True,74,,boticario-c05-2026,O Boticário,5
+56961,Batom Líquido Cremoso dos Sonhos Uvite,Batom Líquido dos Sonhos,Maquiagem,Maquiagem,4 ml,,52.9,36.9,16.0,30.25,True,74,,boticario-c05-2026,O Boticário,5
+56958,Batom Líquido Cremoso dos Sonhos Roxite,Batom Líquido dos Sonhos,Maquiagem,Maquiagem,4 ml,,52.9,36.9,16.0,30.25,True,74,,boticario-c05-2026,O Boticário,5
+56956,Batom Líquido Cremoso dos Sonhos Vermelite,Batom Líquido dos Sonhos,Maquiagem,Maquiagem,4 ml,,52.9,36.9,16.0,30.25,True,74,,boticario-c05-2026,O Boticário,5
+56959,Batom Líquido Cremoso dos Sonhos Marronzite,Batom Líquido dos Sonhos,Maquiagem,Maquiagem,4 ml,,52.9,36.9,16.0,30.25,True,74,,boticario-c05-2026,O Boticário,5
+86160,"Quem Disse, Berenice? by Cuide-se Bem Hidratante Labial Amoruda",Cuide-se Bem,Hidratação,Hidratação,"6,2 g",,39.9,39.9,,,False,74,,boticario-c05-2026,O Boticário,5
+78923,Pincel Superdenso,Tint Alta Cobertura,Maquiagem,Maquiagem,,,77.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56878,Base Líquida Tint Alta Cobertura Cor 100,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56879,Base Líquida Tint Alta Cobertura Cor 110,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56880,Base Líquida Tint Alta Cobertura Cor 120,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56881,Base Líquida Tint Alta Cobertura Cor 130,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56882,Base Líquida Tint Alta Cobertura Cor 140,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56883,Base Líquida Tint Alta Cobertura Cor 150,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56884,Base Líquida Tint Alta Cobertura Cor 180,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56885,Base Líquida Tint Alta Cobertura Cor 185,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56886,Base Líquida Tint Alta Cobertura Cor 190,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56887,Base Líquida Tint Alta Cobertura Cor 200,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56888,Base Líquida Tint Alta Cobertura Cor 210,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56889,Base Líquida Tint Alta Cobertura Cor 215,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56890,Base Líquida Tint Alta Cobertura Cor 220,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56891,Base Líquida Tint Alta Cobertura Cor 225,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56892,Base Líquida Tint Alta Cobertura Cor 230,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56893,Base Líquida Tint Alta Cobertura Cor 240,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56894,Base Líquida Tint Alta Cobertura Cor 245,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56895,Base Líquida Tint Alta Cobertura Cor 250,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56896,Base Líquida Tint Alta Cobertura Cor 260,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56897,Base Líquida Tint Alta Cobertura Cor 270,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56898,Base Líquida Tint Alta Cobertura Cor 280,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56899,Base Líquida Tint Alta Cobertura Cor 290,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56900,Base Líquida Tint Alta Cobertura Cor 292,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56901,Base Líquida Tint Alta Cobertura Cor 300,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56902,Base Líquida Tint Alta Cobertura Cor 310,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56903,Base Líquida Tint Alta Cobertura Cor 320,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56904,Base Líquida Tint Alta Cobertura Cor 330,Tint Alta Cobertura,Maquiagem,Maquiagem,30ml,,72.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+57606,Corretivo Facial Tint Alta Cobertura Verde,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+57607,Corretivo Facial Tint Alta Cobertura Salmão,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+57608,Corretivo Facial Tint Alta Cobertura Laranja,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56923,Corretivo Facial Tint Alta Cobertura Cor 105,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56924,Corretivo Facial Tint Alta Cobertura Cor 115,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56925,Corretivo Facial Tint Alta Cobertura Cor 145,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56926,Corretivo Facial Tint Alta Cobertura Cor 195,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56927,Corretivo Facial Tint Alta Cobertura Cor 225,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56928,Corretivo Facial Tint Alta Cobertura Cor 255,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56929,Corretivo Facial Tint Alta Cobertura Cor 295,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56930,Corretivo Facial Tint Alta Cobertura Cor 315,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+56931,Corretivo Facial Tint Alta Cobertura Cor 335,Tint Alta Cobertura,Maquiagem,Maquiagem,9ml,,47.9,,,,False,75,,boticario-c05-2026,O Boticário,5
+59388,Blush + Glow Líquido Multifuncional Cobretin,"Quem Disse, Berenice?",Maquiagem,Maquiagem,15ml,,39.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+59386,Blush + Glow Líquido Multifuncional Perolati,"Quem Disse, Berenice?",Maquiagem,Maquiagem,15ml,,39.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+59387,Blush + Glow Líquido Multifuncional Roseiralix,"Quem Disse, Berenice?",Maquiagem,Maquiagem,15ml,,39.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+84752,Blush + Glow Líquido Multifuncional Rosalix,"Quem Disse, Berenice?",Maquiagem,Maquiagem,15ml,,39.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+84753,Blush + Glow Líquido Multifuncional Mate Lichiati,"Quem Disse, Berenice?",Maquiagem,Maquiagem,15ml,,39.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+84754,Blush + Glow Líquido Multifuncional Mate Pessegoli,"Quem Disse, Berenice?",Maquiagem,Maquiagem,15ml,,39.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+56733,Blush Compacto Mate Vermetin,"Quem Disse, Berenice?",Maquiagem,Maquiagem,2g,,69.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+56732,Blush Compacto Mate Rosadinex,"Quem Disse, Berenice?",Maquiagem,Maquiagem,2g,,69.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+58286,Blush Compacto Acetinado Cobrelito,"Quem Disse, Berenice?",Maquiagem,Maquiagem,2g,,69.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+58287,Blush Compacto Acetinado Amoratin,"Quem Disse, Berenice?",Maquiagem,Maquiagem,2g,,69.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+58288,Iluminador em Pó Compacto,"Quem Disse, Berenice?",Maquiagem,Maquiagem,5g,,79.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+79437,Glitter Solto para Olhos Roselitter,"Quem Disse, Berenice?",Maquiagem,Maquiagem,1g,,54.9,43.9,11.0,20.04,True,76,,boticario-c05-2026,O Boticário,5
+79434,Glitter Solto para Olhos Brancolitter,"Quem Disse, Berenice?",Maquiagem,Maquiagem,1g,,54.9,43.9,11.0,20.04,True,76,,boticario-c05-2026,O Boticário,5
+76661,Glitter Líquido Multiuso Douratix,"Quem Disse, Berenice?",Maquiagem,Maquiagem,4ml,,56.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+76663,Glitter Líquido Multiuso Rosatix,"Quem Disse, Berenice?",Maquiagem,Maquiagem,4ml,,56.9,,,,False,76,,boticario-c05-2026,O Boticário,5
+90048,Nah Cardoso Gloss Labial Peptide Lips Cocoa Melt,Nah Cardoso,Maquiagem,Maquiagem,"2,4 g",,79.9,79.9,,,False,77,,boticario-c05-2026,O Boticário,5
+90475,Nah Cardoso Gloss Labial Peptide Lips Berry Mousse,Nah Cardoso,Maquiagem,Maquiagem,"2,4 g",,79.9,79.9,,,False,77,,boticario-c05-2026,O Boticário,5
+90047,Nah Cardoso Gloss Labial Peptide Lips Guava Glaze,Nah Cardoso,Maquiagem,Maquiagem,"2,4 g",,79.9,79.9,,,False,77,,boticario-c05-2026,O Boticário,5
+90046,Nah Cardoso Gloss Labial Peptide Lips Cotton Candy,Nah Cardoso,Maquiagem,Maquiagem,"2,4 g",,79.9,79.9,,,False,77,,boticario-c05-2026,O Boticário,5
+94189,Nah Cardoso Blush Stick On The Go Lovely,Nah Cardoso,Maquiagem,Maquiagem,5 g,,64.9,64.9,,,False,77,,boticario-c05-2026,O Boticário,5
+94188,Nah Cardoso Blush Stick On The Go Charming,Nah Cardoso,Maquiagem,Maquiagem,5 g,,64.9,64.9,,,False,77,,boticario-c05-2026,O Boticário,5
+90116,Nah Cardoso Lápis para Contorno Labial Soft Liner Brave,Nah Cardoso,Maquiagem,Maquiagem,"1,1 g",,57.9,57.9,,,False,77,,boticario-c05-2026,O Boticário,5
+90115,Nah Cardoso Lápis para Contorno Labial Soft Liner Bold,Nah Cardoso,Maquiagem,Maquiagem,"1,1 g",,57.9,57.9,,,False,77,,boticario-c05-2026,O Boticário,5
+50016,Hidratante Facial Toda Regenerada,Skin.q,Hidratação,Hidratação,50ml,,57.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+59766,Cremão Hidratante Repara e Acalma,Skin.q,Hidratação,Hidratação,30g,,57.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+77910,Balm Labial Hidratação e Volume,Skin.q,Hidratação,Hidratação,7.5g,,55.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+56470,Kit Indisciplinada,Skin.q,Rotina,Rotina,80g,,89.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+50253,Protetor Solar FPS 70 Cor 01,Skin.q,Proteção,Proteção,40ml,,84.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+50252,Protetor Solar FPS 70 Cor 02,Skin.q,Proteção,Proteção,40ml,,84.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+50251,Protetor Solar FPS 70 Cor 03,Skin.q,Proteção,Proteção,40ml,,84.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+50250,Protetor Solar FPS 70 Cor 04,Skin.q,Proteção,Proteção,40ml,,84.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+50258,Protetor Solar FPS 70 Sem Cor,Skin.q,Proteção,Proteção,40ml,,84.9,,,,False,78,,boticario-c05-2026,O Boticário,5
+51595,Pedra Absorvente de Oleosidade,Make B.,Maquiagem,Maquiagem,"2,9 x 2,9 x 5 cm",,89.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+05546,Primer Facial Antioleosidade Salicylic,Make B.,Maquiagem,Maquiagem,30g,,87.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01863,Base Líquida Mate Salicylic Cor 330,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01861,Base Líquida Mate Salicylic Cor 320,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82553,Base Líquida Mate Salicylic Cor 310,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82552,Base Líquida Mate Salicylic Cor 300,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01862,Base Líquida Mate Salicylic Cor 290,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82551,Base Líquida Mate Salicylic Cor 280,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82550,Base Líquida Mate Salicylic Cor 270,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82549,Base Líquida Mate Salicylic Cor 260,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82548,Base Líquida Mate Salicylic Cor 250,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82547,Base Líquida Mate Salicylic Cor 240,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82546,Base Líquida Mate Salicylic Cor 230,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01789,Base Líquida Mate Salicylic Cor 220,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82545,Base Líquida Mate Salicylic Cor 210,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01808,Base Líquida Mate Salicylic Cor 200,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01790,Base Líquida Mate Salicylic Cor 190,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01806,Base Líquida Mate Salicylic Cor 180,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82544,Base Líquida Mate Salicylic Cor 170,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82543,Base Líquida Mate Salicylic Cor 160,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01786,Base Líquida Mate Salicylic Cor 150,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82542,Base Líquida Mate Salicylic Cor 140,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82541,Base Líquida Mate Salicylic Cor 130,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01787,Base Líquida Mate Salicylic Cor 120,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+82540,Base Líquida Mate Salicylic Cor 110,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+01788,Base Líquida Mate Salicylic Cor 100,Make B.,Maquiagem,Maquiagem,30g,,94.9,,,,False,80,,boticario-c05-2026,O Boticário,5
+58632,Corretivo Líquido Effect Cor 80,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58631,Corretivo Líquido Effect Cor 70,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58630,Corretivo Líquido Effect Cor 60,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58629,Corretivo Líquido Effect Cor 50,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58628,Corretivo Líquido Effect Cor 40,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58627,Corretivo Líquido Effect Cor 30,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58626,Corretivo Líquido Effect Cor 25,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58624,Corretivo Líquido Effect Cor 20,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58622,Corretivo Líquido Effect Cor 15,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+58566,Corretivo Líquido Effect Cor 10,Make B.,Maquiagem,Maquiagem,"5,7ml",,69.9,55.9,14.0,20.03,True,80,,boticario-c05-2026,O Boticário,5
+48015,Primer Líquido Hyaluronic,Make B.,Maquiagem,Maquiagem,17 ml,,82.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+49218,Estojo Pó Compacto Hyaluronic,Make B.,Maquiagem,Maquiagem,,,49.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+37159,Refil Pó Compacto Hyaluronic Cor 80,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+36826,Refil Pó Compacto Hyaluronic Cor 70,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+36637,Refil Pó Compacto Hyaluronic Cor 60,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+36488,Refil Pó Compacto Hyaluronic Cor 50,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+36487,Refil Pó Compacto Hyaluronic Cor 40,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+37699,Refil Pó Compacto Hyaluronic Cor 30,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+37695,Refil Pó Compacto Hyaluronic Cor 25,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+37694,Refil Pó Compacto Hyaluronic Cor 20,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+37696,Refil Pó Compacto Hyaluronic Cor 15,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+37693,Refil Pó Compacto Hyaluronic Cor 10,Make B.,Maquiagem,Maquiagem,8 g,,85.9,,,,False,81,,boticario-c05-2026,O Boticário,5
+87268,Palette Multifuncional Ready,Make B.,Maquiagem,Maquiagem,"45,2 g",,299.9,,,,False,82,,boticario-c05-2026,O Boticário,5
+54652,Palette de Sombras Natural and More,Make B.,Maquiagem,Maquiagem,"14,4 g",,154.9,,,,False,82,,boticario-c05-2026,O Boticário,5
+50756,Máscara Cílios Postiços com Vitamina B5,Make B.,Maquiagem,Maquiagem,10 g,,94.9,,,,False,83,,boticario-c05-2026,O Boticário,5
+55502,Máscara para Cílios Explosion Grow,Make B.,Maquiagem,Maquiagem,10 g,,99.9,,,,False,83,,boticario-c05-2026,O Boticário,5
+52638,Máscara para Cílios 4K Panoramic com Bioqueratina,Make B.,Maquiagem,Maquiagem,10 g,,94.9,,,,False,83,,boticario-c05-2026,O Boticário,5
+53427,Delineador Líquido Preto para Olhos,Make B.,Maquiagem,Maquiagem,5 ml,,74.9,,,,False,83,,boticario-c05-2026,O Boticário,5
+76689,Caneta para Delinear Olhos,Make B.,Maquiagem,Maquiagem,"1,2 ml",,79.9,,,,False,83,,boticario-c05-2026,O Boticário,5
+55505,Lápis para Olhos Ultrablack,Make B.,Maquiagem,Maquiagem,"1,2 g",,67.9,,,,False,83,,boticario-c05-2026,O Boticário,5
+53906,Pincel Espiral,Make B.,Maquiagem,Maquiagem,"16,8 cm",,57.9,,,,False,84,,boticario-c05-2026,O Boticário,5
+53936,Pincel Base Duo Fiber,Make B.,Maquiagem,Maquiagem,"17,3 cm",,84.9,,,,False,84,,boticario-c05-2026,O Boticário,5
+53904,Pincel para Pó,Make B.,Maquiagem,Maquiagem,"19,8 cm",,84.9,,,,False,84,,boticario-c05-2026,O Boticário,5
+53907,Pincel para Blush,Make B.,Maquiagem,Maquiagem,"18,3 cm",,84.9,,,,False,84,,boticario-c05-2026,O Boticário,5
+53910,Pincel para Base,Make B.,Maquiagem,Maquiagem,"17,3 cm",,84.9,,,,False,84,,boticario-c05-2026,O Boticário,5
+53847,Pincel Duo para Olhos,Make B.,Maquiagem,Maquiagem,"16,7 cm",,37.9,,,,False,84,,boticario-c05-2026,O Boticário,5
+87101,Balm Labial Night Peeling Incolor,Make B.,Maquiagem,Maquiagem,"3,6 g",,69.9,,,,False,85,,boticario-c05-2026,O Boticário,5
+88585,Balm Micro Tint Grape Wine,Make B.,Maquiagem,Maquiagem,"3,6 g",,62.9,,,,False,85,,boticario-c05-2026,O Boticário,5
+88473,Balm Micro Tint Rosewater,Make B.,Maquiagem,Maquiagem,"3,6 g",,62.9,,,,False,85,,boticario-c05-2026,O Boticário,5
+86166,Balm Labial Night Mask,Make B.,Maquiagem,Maquiagem,9 g,,69.9,,,,False,85,,boticario-c05-2026,O Boticário,5
+58813,Balm Labial Night Plump,Make B.,Maquiagem,Maquiagem,"3,6 g",,69.9,,,,False,85,,boticario-c05-2026,O Boticário,5
+87103,Balm Labial Color Repair Coral,Make B.,Maquiagem,Maquiagem,"3,6 g",,62.9,,,,False,85,,boticario-c05-2026,O Boticário,5
+87102,Balm Labial Color Repair Red,Make B.,Maquiagem,Maquiagem,"3,6 g",,62.9,,,,False,85,,boticario-c05-2026,O Boticário,5
+88523,Batom Cremoso com Ácido Poliglutâmico Fashion Berry,Make B.,Maquiagem,Maquiagem,"3,6 g",,64.9,41.9,23.0,35.44,True,86,,boticario-c05-2026,O Boticário,5
+88522,Batom Cremoso com Ácido Poliglutâmico Revolution Red,Make B.,Maquiagem,Maquiagem,"3,6 g",,64.9,41.9,23.0,35.44,True,86,,boticario-c05-2026,O Boticário,5
+88517,Batom Cremoso com Ácido Poliglutâmico Revolution Brown,Make B.,Maquiagem,Maquiagem,"3,6 g",,64.9,41.9,23.0,35.44,True,86,,boticario-c05-2026,O Boticário,5
+88516,Batom Cremoso com Ácido Poliglutâmico Nude Malva,Make B.,Maquiagem,Maquiagem,"3,6 g",,64.9,41.9,23.0,35.44,True,86,,boticario-c05-2026,O Boticário,5
+88518,Batom Cremoso com Ácido Poliglutâmico Soft Nude,Make B.,Maquiagem,Maquiagem,"3,6 g",,64.9,41.9,23.0,35.44,True,86,,boticario-c05-2026,O Boticário,5
+88520,Batom Cremoso com Ácido Poliglutâmico Watermelon,Make B.,Maquiagem,Maquiagem,"3,6 g",,64.9,41.9,23.0,35.44,True,86,,boticario-c05-2026,O Boticário,5
+88515,Batom Cremoso com Ácido Poliglutâmico Rosa Cashmere,Make B.,Maquiagem,Maquiagem,"3,6 g",,64.9,41.9,23.0,35.44,True,86,,boticario-c05-2026,O Boticário,5
+82492,Refil Batom Cremoso Rosa Cashmere,Make B.,Maquiagem,Maquiagem,"3,6 g",,47.9,30.9,17.0,35.49,True,86,,boticario-c05-2026,O Boticário,5
+82494,Refil Batom Cremoso Soft Nude,Make B.,Maquiagem,Maquiagem,"3,6 g",,47.9,,,,False,86,,boticario-c05-2026,O Boticário,5
+56585,Maleta de Maquiagem,Make B.,Acessórios,Acessórios,"22,5 x 16,2 x 16,2 cm",,229.0,182.9,46.1,20.13,True,86,,boticario-c05-2026,O Boticário,5
+57500,Six Mini Lips,Make B.,Maquiagem,Maquiagem,"6 unidades de 0,4 g cada",,79.9,,,,False,87,,boticario-c05-2026,O Boticário,5
+58234,Batom Cremoso Cereja Rouge Red Cherry,Make B.,Maquiagem,Maquiagem,5 g,,69.9,,,,False,87,,boticario-c05-2026,O Boticário,5
+56837,Nécessaire Make B.,Make B.,Acessórios,Acessórios,"20 x 10 x 15,5 cm",,79.9,,,,False,87,,boticario-c05-2026,O Boticário,5
+82065,Lápis-Batom Instalip Mate Rosa,Intense,Maquiagem,Maquiagem,"1,2 g",,29.9,,,,True,88,,boticario-c05-2026,O Boticário,5
+76599,Lápis-Batom Instalip Mate Vermelho,Intense,Maquiagem,Maquiagem,"1,2 g",,29.9,,,,True,88,,boticario-c05-2026,O Boticário,5
+76601,Lápis-Batom Instalip Mate Vinho,Intense,Maquiagem,Maquiagem,"1,2 g",,29.9,,,,True,88,,boticario-c05-2026,O Boticário,5
+52159,Batom Líquido Tint Superfix 16h Cor 245,Intense,Maquiagem,Maquiagem,5ml,,59.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52160,Batom Líquido Tint Superfix 16h Cor 635,Intense,Maquiagem,Maquiagem,5ml,,59.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52156,Batom Líquido Tint Superfix 16h Cor 425,Intense,Maquiagem,Maquiagem,5ml,,59.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52154,Batom Líquido Tint Superfix 16h Cor 345,Intense,Maquiagem,Maquiagem,5ml,,59.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52150,Batom Líquido Tint Superfix 16h Cor 535,Intense,Maquiagem,Maquiagem,5ml,,59.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52163,Batom Cremoso Cor 250,Intense,Maquiagem,Maquiagem,"3,8g",,34.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52161,Batom Cremoso Cor 270,Intense,Maquiagem,Maquiagem,"3,8g",,34.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52934,Batom Cremoso Cor 227,Intense,Maquiagem,Maquiagem,"3,8g",,34.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52155,Batom Cremoso Cor 120,Intense,Maquiagem,Maquiagem,"3,8g",,34.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52148,Batom Cremoso Cor 420,Intense,Maquiagem,Maquiagem,"3,8g",,34.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+52146,Batom Cremoso Cor 260,Intense,Maquiagem,Maquiagem,"3,8g",,34.9,,,,True,89,,boticario-c05-2026,O Boticário,5
+02286,Pop! Base Líquida Mate Camuflagem Cor 330,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02285,Pop! Base Líquida Mate Camuflagem Cor 320,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02276,Pop! Base Líquida Mate Camuflagem Cor 300,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02274,Pop! Base Líquida Mate Camuflagem Cor 260,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02260,Pop! Base Líquida Mate Camuflagem Cor 240,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02259,Pop! Base Líquida Mate Camuflagem Cor 230,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02258,Pop! Base Líquida Mate Camuflagem Cor 210,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02257,Pop! Base Líquida Mate Camuflagem Cor 190,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02256,Pop! Base Líquida Mate Camuflagem Cor 160,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02252,Pop! Base Líquida Mate Camuflagem Cor 140,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02240,Pop! Base Líquida Mate Camuflagem Cor 120,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02239,Pop! Base Líquida Mate Camuflagem Cor 100,Intense,Maquiagem,Maquiagem,20 ml,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+51953,Pop! Máscara para Cílios Volume,Intense,Maquiagem,Maquiagem,10 g,,34.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02483,Pop! Lápis Preto para Olhos,Intense,Maquiagem,Maquiagem,"1,1 g",,17.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02150,Pop! Batom Cremoso Magenta,Intense,Maquiagem,Maquiagem,"3,6 g",,18.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02094,Pop! Batom Cremoso Bege Amêndoa,Intense,Maquiagem,Maquiagem,"3,6 g",,18.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02100,Pop! Batom Cremoso Rosa,Intense,Maquiagem,Maquiagem,"3,6 g",,18.9,15.9,3.0,15.87,True,90,,boticario-c05-2026,O Boticário,5
+02215,Pop! Batom Mate Rosa Telha,Intense,Maquiagem,Maquiagem,4 g,,18.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02186,Pop! Batom Mate Bege Castanho,Intense,Maquiagem,Maquiagem,4 g,,18.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+02192,Pop! Batom Mate Vermelho,Intense,Maquiagem,Maquiagem,4 g,,18.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+57766,Pop! Batom Bala Cremoso Rosa Malva,Intense,Maquiagem,Maquiagem,"3,6 g",,17.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+57767,Pop! Batom Bala Cremoso Vermelho,Intense,Maquiagem,Maquiagem,"3,6 g",,17.9,,,,False,90,,boticario-c05-2026,O Boticário,5
+45627,Kit de Pincéis,Intense,Maquiagem,Maquiagem,,,89.9,62.9,27.0,30.03,True,91,,boticario-c05-2026,O Boticário,5
+45557,Boti Apontador,Intense,Maquiagem,Maquiagem,,,31.9,24.9,7.0,21.94,True,91,,boticario-c05-2026,O Boticário,5
+45629,Kit de Esponjas,Intense,Maquiagem,Maquiagem,,,42.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48987,Reboco HD Base Líquida & Corretivo - Cor 85,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48979,Reboco HD Base Líquida & Corretivo - Cor 80,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48986,Reboco HD Base Líquida & Corretivo - Cor 77,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48978,Reboco HD Base Líquida & Corretivo - Cor 75,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48974,Reboco HD Base Líquida & Corretivo - Cor 60,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48983,Reboco HD Base Líquida & Corretivo - Cor 53,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48973,Reboco HD Base Líquida & Corretivo - Cor 50,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48985,Reboco HD Base Líquida & Corretivo - Cor 40,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48977,Reboco HD Base Líquida & Corretivo - Cor 37,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48972,Reboco HD Base Líquida & Corretivo - Cor 35,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48982,Reboco HD Base Líquida & Corretivo - Cor 30,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48984,Reboco HD Base Líquida & Corretivo - Cor 25,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48981,Reboco HD Base Líquida & Corretivo - Cor 20,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48975,Reboco HD Base Líquida & Corretivo - Cor 15,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48988,Reboco HD Base Líquida & Corretivo - Cor 13,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48980,Reboco HD Base Líquida & Corretivo - Cor 10,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+48976,Reboco HD Base Líquida & Corretivo - Cor 3,Intense,Maquiagem,Maquiagem,24 g,,72.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+75631,Pó Compacto Facial - Cor 70,Intense,Maquiagem,Maquiagem,5 g,,69.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+75630,Pó Compacto Facial - Cor 50,Intense,Maquiagem,Maquiagem,5 g,,69.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+75629,Pó Compacto Facial - Cor 40,Intense,Maquiagem,Maquiagem,5 g,,69.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+75628,Pó Compacto Facial - Cor 30,Intense,Maquiagem,Maquiagem,5 g,,69.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+75627,Pó Compacto Facial - Cor 20,Intense,Maquiagem,Maquiagem,5 g,,69.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+75626,Pó Compacto Facial - Cor 10,Intense,Maquiagem,Maquiagem,5 g,,69.9,,,,False,91,,boticario-c05-2026,O Boticário,5
+53339,Batom Cremoso Vermelho 350,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+53341,Batom Cremoso Vermelho 310,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52145,Batom Cremoso Cor 340,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+53340,Batom Cremoso Rosa 280,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52153,Batom Cremoso Malva 540,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+53338,Batom Cremoso Rosa 223,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52162,Batom Cremoso Malva 580,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52155,Batom Cremoso Cor 120,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52934,Batom Cremoso Cor 227,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52163,Batom Cremoso Cor 250,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52146,Batom Cremoso Cor 260,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52161,Batom Cremoso Cor 270,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52148,Batom Cremoso Cor 420,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52198,Batom Mate Cor 330,Intense,Maquiagem,Maquiagem,"3,8 g",,37.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52193,Batom Mate Cor 235,Intense,Maquiagem,Maquiagem,"3,8 g",,37.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52197,Batom Mate Cor 130,Intense,Maquiagem,Maquiagem,"3,8 g",,37.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52194,Batom Mate Cor 360,Intense,Maquiagem,Maquiagem,"3,8 g",,37.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52202,Batom Mate Cor 430,Intense,Maquiagem,Maquiagem,"3,8 g",,37.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+52199,Batom Mate Cor 520,Intense,Maquiagem,Maquiagem,"3,8 g",,37.9,,,,False,92,,boticario-c05-2026,O Boticário,5
+58304,Palette Multifuncional Deleite Chocolatudo,Deleite Chocolatudo,Maquiagem,Maquiagem,5 g,,104.9,,,,False,93,,boticario-c05-2026,O Boticário,5
+56257,Gloss Labial Deleite Chocolatudo Rosa,Deleite Chocolatudo,Maquiagem,Maquiagem,"5,5 ml",,48.9,,,,False,93,,boticario-c05-2026,O Boticário,5
+56259,Gloss Labial Deleite Chocolatudo Marrom,Deleite Chocolatudo,Maquiagem,Maquiagem,"5,5 ml",,48.9,,,,False,93,,boticario-c05-2026,O Boticário,5
+50448,Hidratante Labial Deleite Intense by Cuide-se Bem,Intense by Cuide-se Bem,Maquiagem,Maquiagem,"6,2 g",,39.9,31.9,8.0,20.05,True,93,,boticario-c05-2026,O Boticário,5
+50447,Hidratante Labial Leite e Mel Intense by Cuide-se Bem,Intense by Cuide-se Bem,Maquiagem,Maquiagem,"6,2 g",,39.9,31.9,8.0,20.05,True,93,,boticario-c05-2026,O Boticário,5
+50449,Hidratante Labial Cereja Livre Intense by Cuide-se Bem,Intense by Cuide-se Bem,Maquiagem,Maquiagem,"6,2 g",,39.9,31.9,8.0,20.05,True,93,,boticario-c05-2026,O Boticário,5
+50446,Hidratante Labial Pessegura Intense by Cuide-se Bem,Intense by Cuide-se Bem,Maquiagem,Maquiagem,"6,2 g",,39.9,31.9,8.0,20.05,True,93,,boticario-c05-2026,O Boticário,5
+50381,Batom Glossy Marsala,Intense,Maquiagem,Maquiagem,"3,2 g",,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+50379,Batom Glossy Nude Rosado,Intense,Maquiagem,Maquiagem,"3,2 g",,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+54678,Batom Cremoso Amor,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+54677,Batom Cremoso Paçoca,Intense,Maquiagem,Maquiagem,"3,8 g",,34.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+76600,Lápis-Batom Páprica Instalip Mate,Intense,Maquiagem,Maquiagem,"1,2 g",,29.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+76598,Lápis-Batom Nude Instalip Mate,Intense,Maquiagem,Maquiagem,"1,2 g",,29.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+76597,Lápis-Batom Nude Rosado Instalip Mate,Intense,Maquiagem,Maquiagem,"1,2 g",,29.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+52816,Brilho Labial Incolor,Intense,Maquiagem,Maquiagem,5 ml,,45.9,31.9,14.0,30.5,True,94,,boticario-c05-2026,O Boticário,5
+52281,Gloss Labial Cor 115,Intense,Maquiagem,Maquiagem,5 ml,,45.9,31.9,14.0,30.5,True,94,,boticario-c05-2026,O Boticário,5
+52282,Gloss Labial Cor 215,Intense,Maquiagem,Maquiagem,5 ml,,45.9,31.9,14.0,30.5,True,94,,boticario-c05-2026,O Boticário,5
+81514,Batom Líquido Aquatint Coral,Intense,Maquiagem,Maquiagem,5 ml,,42.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+81513,Batom Líquido Aquatint Rosa,Intense,Maquiagem,Maquiagem,5 ml,,42.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+81512,Batom Líquido Aquatint Vermelho,Intense,Maquiagem,Maquiagem,5 ml,,42.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+57060,Lip Tint Bob Esponja Rosa,Intense,Maquiagem,Maquiagem,"5,5 ml",,48.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+57061,Lip Tint Bob Esponja Coral,Intense,Maquiagem,Maquiagem,"5,5 ml",,48.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+50666,Gloss Labial Bubbaloo Uva,Intense,Maquiagem,Maquiagem,5 ml,,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+50615,Gloss Labial Bubbaloo Morango,Intense,Maquiagem,Maquiagem,5 ml,,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+01080,Gloss Labial Bubbaloo Tutti-Frutti,Intense,Maquiagem,Maquiagem,5 ml,,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48276,Base Líquida Efeito Mate Cor 80,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48270,Base Líquida Efeito Mate Cor 75,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48273,Base Líquida Efeito Mate Cor 70,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48269,Base Líquida Efeito Mate Cor 60,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48275,Base Líquida Efeito Mate Cor 50,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48279,Base Líquida Efeito Mate Cor 40,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48272,Base Líquida Efeito Mate Cor 30,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48278,Base Líquida Efeito Mate Cor 25,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48271,Base Líquida Efeito Mate Cor 20,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48277,Base Líquida Efeito Mate Cor 15,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+48274,Base Líquida Efeito Mate Cor 10,Intense,Maquiagem,Maquiagem,25 ml,,62.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+75605,Corretivo Líquido Cor 20,Intense,Maquiagem,Maquiagem,8 ml,,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+75606,Corretivo Líquido Cor 30,Intense,Maquiagem,Maquiagem,8 ml,,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+75607,Corretivo Líquido Cor 50,Intense,Maquiagem,Maquiagem,8 ml,,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+75608,Corretivo Líquido Cor 60,Intense,Maquiagem,Maquiagem,8 ml,,47.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+47969,Sabonete Líquido Demaquilante,Intense,Maquiagem,Maquiagem,85 ml,,56.9,,,,False,94,,boticario-c05-2026,O Boticário,5
+82704,Shampoo Nutrição Profunda,Match,Cabelos,Cabelos,300 ml,,45.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+83147,Refil Shampoo Nutrição Profunda,Match,Cabelos,Cabelos,250 ml,,37.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+56186,Shampoo Nutrição Profunda,Match,Cabelos,Cabelos,50 ml,,18.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+82708,Máscara Capilar Nutrição Profunda,Match,Cabelos,Cabelos,250 g,,67.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+83124,Refil Máscara Capilar Nutrição Profunda,Match,Cabelos,Cabelos,250 ml,,62.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+56188,Máscara Capilar Nutrição Profunda,Match,Cabelos,Cabelos,70 g,,34.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+82707,Leave-in Nutrição Profunda,Match,Cabelos,Cabelos,150 ml,,54.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+82709,Óleo Capilar Nutrição Profunda,Match,Cabelos,Cabelos,50 ml,,82.9,,,,False,95,,boticario-c05-2026,O Boticário,5
+52076,Shampoo Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,300 ml,,45.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+86668,Condicionador Hidratante e Leave-in de Definição Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,300 ml,,49.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+86667,Leave-in Leve Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,250 ml,,49.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+86665,Booster Nutrição Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,90 ml,,42.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+52083,Booster Reconstrução Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,90 ml,,42.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+52072,Óleo Multibenefícios Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,50 ml,,82.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+52082,Creme para Pentear Cachos 2ABC a 3ABC Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,450 ml,,64.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+52741,Refil Creme para Pentear Cachos 2ABC a 3ABC Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,400 ml,,49.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+53543,Sérum Couro Cabeludo Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,50 ml,,44.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+52079,Máscara Hidratante Cachos 2ABC a 3ABC Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,350 g,,69.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+52075,Máscara Hidratante Crespos 4ABC Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,350 g,,69.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+86670,Creme para Pentear Crespos 4ABC Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,450 ml,,64.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+52740,Refil Creme para Pentear Crespos 4ABC Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,400 ml,,49.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+86673,Finalizador Jelly Modelador Ciência das Curvas,Match Ciência das Curvas,Cabelos,Cabelos,350 ml,,77.9,,,,False,96,,boticario-c05-2026,O Boticário,5
+83697,Shampoo Oleosidade Controlada Match,Match,Cabelos,Cabelos,300 ml,,45.9,,,,False,97,,boticario-c05-2026,O Boticário,5
+83699,Condicionador Oleosidade Controlada Match,Match,Cabelos,Cabelos,280 ml,,47.9,,,,False,97,,boticario-c05-2026,O Boticário,5
+49150,Spray Multibenefícios Lab,Match Lab,Cabelos,Cabelos,150 ml,,64.9,,,,False,98,,boticario-c05-2026,O Boticário,5
+49379,Acidificante Lab,Match Lab,Cabelos,Cabelos,100 ml,,67.9,,,,False,98,,boticario-c05-2026,O Boticário,5
+47968,Leave-in Reconstrutor Lab,Match Lab,Cabelos,Cabelos,150 ml,,54.9,,,,False,98,,boticario-c05-2026,O Boticário,5
+56799,Queratina Concentrada Lab,Match Lab,Cabelos,Cabelos,50 ml,,44.9,35.92,8.98,20.0,True,98,,boticario-c05-2026,O Boticário,5
+49093,Ampola Capilar Seringa Lab Hair Sérum,Match Lab,Cabelos,Cabelos,9 ml,,39.9,,,,False,98,,boticario-c05-2026,O Boticário,5
+59188,Shampoo Banana,Cuide-se Bem Feira,Cabelos,Cabelos,230 ml,,25.9,,,,False,99,,boticario-c05-2026,O Boticário,5
+59193,Condicionador Banana,Cuide-se Bem Feira,Cabelos,Cabelos,170 ml,,29.9,,,,False,99,,boticario-c05-2026,O Boticário,5
+87078,Máscara Banana,Cuide-se Bem Feira,Cabelos,Cabelos,250 ml,,42.9,,,,False,99,,boticario-c05-2026,O Boticário,5
+84313,Shampoo Vinagre de Maçã,Cuide-se Bem Feira,Cabelos,Cabelos,230 ml,,25.9,,,,False,99,,boticario-c05-2026,O Boticário,5
+55104,Shampoo Vinagre de Framboesa,Cuide-se Bem Feira,Cabelos,Cabelos,230 ml,,25.9,,,,False,99,,boticario-c05-2026,O Boticário,5
+55106,Condicionador Mel Vegano,Cuide-se Bem Feira,Cabelos,Cabelos,170 ml,,29.9,,,,False,99,,boticario-c05-2026,O Boticário,5
+55105,Creme para Pentear Seiva de Babosa,Cuide-se Bem Feira,Cabelos,Cabelos,200 ml,,39.9,,,,False,99,,boticario-c05-2026,O Boticário,5
+87073,Shampoo Óleo de Coco,Cuide-se Bem,Cabelos,Cabelos,230ml,,25.9,,,,False,100,,boticario-c05-2026,O Boticário,5
+87454,Condicionador Óleo de Coco,Cuide-se Bem,Cabelos,Cabelos,170ml,,29.9,,,,False,100,,boticario-c05-2026,O Boticário,5
+87075,Máscara Óleo de Coco,Cuide-se Bem,Cabelos,Cabelos,250ml,,42.9,,,,False,100,,boticario-c05-2026,O Boticário,5
+51441,Dr. Botica Colônia Poção da Força,Dr. Botica,Perfumaria,Perfumaria,120 ml,,96.9,,,,False,101,,boticario-c05-2026,O Boticário,5
+55221,Dr. Botica Colônia Poção da Criatividade,Dr. Botica,Perfumaria,Perfumaria,120 ml,,96.9,,,,False,101,,boticario-c05-2026,O Boticário,5
+83684,Dr. Botica Colônia Poção da Aventura,Dr. Botica,Perfumaria,Perfumaria,120 ml,,96.9,,,,False,101,,boticario-c05-2026,O Boticário,5
+51521,Dr. Botica Colônia Poção da Coragem,Dr. Botica,Perfumaria,Perfumaria,120 ml,,96.9,,,,False,101,,boticario-c05-2026,O Boticário,5
+53921,Dr. Botica Colônia Poção do Coração,Dr. Botica,Perfumaria,Perfumaria,120 ml,,96.9,,,,False,101,,boticario-c05-2026,O Boticário,5
+52122,Shampoo Poção da Espuma Lisos,Dr. Botica,Cabelos,Cabelos,400ml,,59.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+56601,Shampoo Poção da Espuma Cacheados,Dr. Botica,Cabelos,Cabelos,400ml,,59.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+55243,Shampoo Poção da Espuma Crespos,Dr. Botica,Cabelos,Cabelos,400ml,,59.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+52136,Condicionador Poção do Brilho Lisos,Dr. Botica,Cabelos,Cabelos,400ml,,62.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+52140,Condicionador Poção do Brilho Cacheados,Dr. Botica,Cabelos,Cabelos,400ml,,62.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+55245,Condicionador Poção do Brilho Crespos,Dr. Botica,Cabelos,Cabelos,400ml,,62.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+52110,Creme para Pentear Poção Tira Nó Lisos,Dr. Botica,Cabelos,Cabelos,350ml,,65.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+52147,Creme para Pentear Poção Tira Nó Cacheados,Dr. Botica,Cabelos,Cabelos,350ml,,65.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+52164,Creme para Pentear Poção Tira Nó Crespos,Dr. Botica,Cabelos,Cabelos,350ml,,65.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+52175,Sabonete Líquido Poção das Bolhas,Dr. Botica,Corpo e Banho,Corpo e Banho,400ml,,69.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+52172,Loção Hidratante Poção das Nuvens,Dr. Botica,Corpo e Banho,Corpo e Banho,400ml,,79.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+51436,Trio de Sabonetes em Barra Banho de Coragem,Dr. Botica,Corpo e Banho,Corpo e Banho,3 x 80g,,44.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+70683,Trio de Sabonetes em Barra Banho do Coração,Dr. Botica,Corpo e Banho,Corpo e Banho,3 x 80g,,44.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+72614,Trio de Sabonetes em Barra Banho de Amizade,Dr. Botica,Corpo e Banho,Corpo e Banho,3 x 80g,,44.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+55222,Espuma de Banho Nuvem de Ideias,Dr. Botica,Corpo e Banho,Corpo e Banho,150ml,,62.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+55223,Spray Capilar Desembaraçante Chuva de Imaginação,Dr. Botica,Cabelos,Cabelos,100ml,,53.9,,,,False,102,,boticario-c05-2026,O Boticário,5
+70669,Sophie Colônia Like,Sophie,Perfumaria,Perfumaria,100 ml,,115.9,,,,False,103,,boticario-c05-2026,O Boticário,5
+70668,Sophie Colônia Hello,Sophie,Perfumaria,Perfumaria,100 ml,,115.9,,,,False,103,,boticario-c05-2026,O Boticário,5
+51500,Sophie Colônia Candy,Sophie,Perfumaria,Perfumaria,100 ml,,115.9,,,,False,103,,boticario-c05-2026,O Boticário,5
+70693,Loção Hidratante Corporal Sophie,Sophie,Hidratação,Hidratação,200 ml,,52.9,,,,False,103,,boticario-c05-2026,O Boticário,5
+51438,Sabonete em Barra Sophie,Sophie,Corpo e Banho,Corpo e Banho,3 unidades de 80 g cada,,47.9,,,,False,103,,boticario-c05-2026,O Boticário,5
+87363,Nécessaire Aranhaverso,Marvel,Acessórios,Acessórios,"23,5 x 7 x 17 cm",,89.9,,,,False,103,,boticario-c05-2026,O Boticário,5
+55194,Next Shampoo Refrescante,Next,Cabelos,Cabelos,230 ml,,0.0,,,,False,104,,boticario-c05-2026,O Boticário,5
+55083,Next Colônia,Next,Perfumaria,Perfumaria,75 ml,,99.9,,,,False,104,,boticario-c05-2026,O Boticário,5
+85452,Pasta Modeladora Capilar Next,Next,Cabelos,Cabelos,150 g,,59.9,,,,False,104,,boticario-c05-2026,O Boticário,5
+55253,Desodorante em Creme Next,Next,Corpo e Banho,Corpo e Banho,50 ml,,32.9,,,,False,104,,boticario-c05-2026,O Boticário,5
+89501,Dedal Dental Adultos,Au.migos pets,Higiene Bucal,Higiene Bucal,30 unidades,,59.9,44.9,15.0,25.04,True,105,,boticario-c05-2026,O Boticário,5
+58299,Lenço Umedecido Adultos,Au.migos pets,Banho e Higiene,Banho e Higiene,50 unidades,,28.9,,,,False,105,,boticario-c05-2026,O Boticário,5
+57211,Combo Pós-Passeio: Colônia Adultos + Lenço Umedecido,Au.migos pets,Banho e Higiene,Banho e Higiene,60 ml + 50 unidades,,98.8,81.8,17.0,17.21,True,105,,boticario-c05-2026,O Boticário,5
+57210,Combo Cheirosinho: Banho a Seco + Lenço Umedecido,Au.migos pets,Banho e Higiene,Banho e Higiene,240 ml + 50 unidades,,88.8,,,,False,105,,boticario-c05-2026,O Boticário,5
+50677,Clash Desodorante Colônia,Clash,Perfumaria,Perfumaria,100 ml,,169.9,134.9,35.0,20.6,True,106,,boticario-c05-2026,O Boticário,5
+50678,Refil - Clash Desodorante Colônia,Clash,Perfumaria,Perfumaria,100 ml,,129.9,99.9,30.0,23.09,True,106,,boticario-c05-2026,O Boticário,5
+85483,Floratta Red Body Spray Desodorante,Floratta,Perfumaria,Perfumaria,100 ml,,49.9,39.2,10.7,21.44,True,106,,boticario-c05-2026,O Boticário,5
+84213,Egeo Vanilla Vibe Desodorante Colônia,Egeo,Perfumaria,Perfumaria,90 ml,,159.9,125.6,34.3,21.45,True,106,,boticario-c05-2026,O Boticário,5
+59845,Loção Hidratante Corporal Lua,Boti Baby Lua,Hidratação,Hidratação,200 ml,,63.9,51.12,12.78,20.0,True,107,,boticario-c05-2026,O Boticário,5
+59957,Sabonete Líquido de Glicerina Lua,Boti Baby Lua,Limpeza,Limpeza,200 ml,,54.9,43.92,10.98,20.0,True,107,,boticario-c05-2026,O Boticário,5
+59132,Boti Baby Colônia da Lua,Boti Baby Lua,Perfumaria,Perfumaria,100 ml,,95.9,76.72,19.18,20.0,True,107,,boticario-c05-2026,O Boticário,5

@@ -1,0 +1,818 @@
+code,name,product_line,category,normalized_category,volume_weight,quantity,regular_price,promotional_price,savings,discount_percentage,promotion_active,page,quadrant,catalog_name,brand,cycle
+97977,Combo Diva Mirage: Desodorante Colônia + Loção Corporal Desodorante,Diva Mirage,Perfumaria,Perfumaria,100 ml + 150 ml,,212.89,159.9,52.99,24.89,True,2,,eudora-c16-2026,Eudora,16
+97978,Combo Diva Mirage: Desodorante Colônia + Hair Mist,Diva Mirage,Perfumaria,Perfumaria,100 ml + 60 ml,,227.8,184.9,42.9,18.83,True,2,,eudora-c16-2026,Eudora,16
+87532,Diva Mirage Desodorante Colônia,Diva,Perfumaria,Perfumaria,100 ml,,154.9,124.9,30.0,19.37,True,3,,eudora-c16-2026,Eudora,16
+91721,Diva Mirage Loção Hidratante Desodorante Corporal,Diva,Corpo e Banho,Corpo e Banho,150 ml,,57.9,49.9,8.0,13.82,True,3,,eudora-c16-2026,Eudora,16
+95620,Diva Suprema Spray Hair Mist,Diva,Cabelos,Cabelos,60 ml,,72.9,,,,False,3,,eudora-c16-2026,Eudora,16
+53517,Tônico Capilar Estimulante Siàge Acelera o Crescimento,Siàge Acelera o Crescimento,Cabelos,Cabelos,65 ml,,77.99,59.9,18.09,23.2,True,4,,eudora-c16-2026,Eudora,16
+53501,Condicionador Siàge Acelera o Crescimento,Siàge Acelera o Crescimento,Cabelos,Cabelos,200 ml,,52.99,39.9,13.09,24.7,True,4,,eudora-c16-2026,Eudora,16
+53506,Máscara Antiquebra Siàge Acelera o Crescimento,Siàge Acelera o Crescimento,Cabelos,Cabelos,250 g,,74.99,49.9,25.09,33.46,True,4,,eudora-c16-2026,Eudora,16
+53502,Shampoo Siàge Acelera o Crescimento,Siàge Acelera o Crescimento,Cabelos,Cabelos,250 ml,,49.99,39.9,10.09,20.18,True,4,,eudora-c16-2026,Eudora,16
+70878,Glam Lápis Kajal com Esfumador Preto Absoluto,Glam,Maquiagem,Maquiagem,"1,1 g",,64.99,35.9,29.09,44.76,True,5,,eudora-c16-2026,Eudora,16
+70877,Glam Lápis Kajal com Esfumador Marrom Intenso,Glam,Maquiagem,Maquiagem,"1,1 g",,64.99,35.9,29.09,44.76,True,5,,eudora-c16-2026,Eudora,16
+,Pó Compacto Facial Ultra Matte,Glam,Maquiagem,Maquiagem,10 g,,59.99,44.9,15.09,25.15,True,5,,eudora-c16-2026,Eudora,16
+55799,Soul Palette de Sombras Turbo,Soul,Maquiagem,Maquiagem,8 g,,57.99,39.9,18.09,31.2,True,5,,eudora-c16-2026,Eudora,16
+93350,Glam Gloss Labial Treat Avelã Sutil,Glam,Maquiagem,Maquiagem,"5,4 ml",,52.99,29.9,23.09,43.57,True,5,,eudora-c16-2026,Eudora,16
+93351,Glam Gloss Labial Treat Rose Natural,Glam,Maquiagem,Maquiagem,"5,4 ml",,52.99,29.9,23.09,43.57,True,5,,eudora-c16-2026,Eudora,16
+,Glam Skin Sculpt Base Líquida Semi Matte,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,5,,eudora-c16-2026,Eudora,16
+52208,Siàge Tônico Capilar Estimula o Crescimento Men,Siàge Men,Cabelos,Cabelos,100 ml,,69.9,59.9,10.0,14.31,True,6,,eudora-c16-2026,Eudora,16
+49570,Impression Gel Pós-Barba,Impression,Barba,Barba,75 g,,72.99,34.9,38.09,52.19,True,6,,eudora-c16-2026,Eudora,16
+49577,Impression EDP,Impression,Perfumaria,Perfumaria,100 ml,,259.9,169.9,90.0,34.63,True,6,,eudora-c16-2026,Eudora,16
+52213,Siàge Shampoo Estimula o Crescimento Men,Siàge Men,Cabelos,Cabelos,250 ml,,41.99,35.9,6.09,14.5,True,6,,eudora-c16-2026,Eudora,16
+93220,Eau de Parfum Magnific,Magnific,Perfumaria,Perfumaria,75 ml,,214.9,124.9,90.0,41.88,True,7,,eudora-c16-2026,Eudora,16
+87453,Lyra Desodorante Colônia,Lyra,Perfumaria,Perfumaria,75 ml,,179.9,129.9,50.0,27.79,True,7,,eudora-c16-2026,Eudora,16
+57597,Eudora H Desodorante Colônia Marine,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,79.9,45.0,36.03,True,7,,eudora-c16-2026,Eudora,16
+93544,Diva Desodorante Colônia,Diva,Perfumaria,Perfumaria,100 ml,,149.9,109.9,40.0,26.68,True,7,,eudora-c16-2026,Eudora,16
+87334,Desodorante Colônia Volpe Next,Volpe,Perfumaria,Perfumaria,100 ml,,174.9,119.9,55.0,31.45,True,7,,eudora-c16-2026,Eudora,16
+95353,Instance Ameixa e Praliné Creme Hidratante Desodorante Corporal,Instance,Corpo e Banho,Corpo e Banho,180ml,,39.99,30.9,9.09,22.73,True,8,,eudora-c16-2026,Eudora,16
+85955,Instance Ameixa e Praliné Sabonete em Calda,Instance,Corpo e Banho,Corpo e Banho,180ml,,44.99,38.9,6.09,13.54,True,8,,eudora-c16-2026,Eudora,16
+53438,Siàge Nutri Rosé Leave-in,Siàge,Cabelos,Cabelos,100ml,,55.99,43.9,12.09,21.59,True,8,,eudora-c16-2026,Eudora,16
+47400,Siàge Shampoo Nutri Rosé,Siàge,Cabelos,Cabelos,400ml,,69.99,59.9,10.09,14.42,True,8,,eudora-c16-2026,Eudora,16
+47401,Siàge Nutri Rosé Condicionador,Siàge,Cabelos,Cabelos,400ml,,74.99,64.9,10.09,13.46,True,8,,eudora-c16-2026,Eudora,16
+54506,Niina Secrets Primer Hidra Glow,Niina Secrets,Cuidados Faciais,Cuidados Faciais,15 ml,,82.99,29.9,53.09,63.97,True,9,,eudora-c16-2026,Eudora,16
+55437,Niina Skin Sérum Vitamina C Facial,Niina Skin,Cuidados Faciais,Cuidados Faciais,30 ml,,124.99,89.9,35.09,28.07,True,9,,eudora-c16-2026,Eudora,16
+07395,Eudora Niina Skin Sérum Multiprotetor FPS 50 12 em 1,Niina Skin,Cuidados Faciais,Cuidados Faciais,30 ml,,124.9,94.9,30.0,24.02,True,9,,eudora-c16-2026,Eudora,16
+66804,Niina Skin Creme Sorbet Facial Firmador,Niina Skin,Cuidados Faciais,Cuidados Faciais,80 g,,82.99,52.9,30.09,36.26,True,9,,eudora-c16-2026,Eudora,16
+55438,Niina Skin Tônico Renovador Antioxidante Vitamina C,Niina Skin,Cuidados Faciais,Cuidados Faciais,110 ml,,69.99,54.9,15.09,21.56,True,9,,eudora-c16-2026,Eudora,16
+86902,Eudora Eau de Parfum Noir,Eudora,Perfumaria,Perfumaria,75 ml,,244.9,159.9,85.0,34.71,True,10,,eudora-c16-2026,Eudora,16
+95353,Instance Ameixa e Praliné Creme Hidratante Desodorante Corporal,Instance,Corpo e Banho,Corpo e Banho,180 ml,,39.99,30.9,9.09,22.73,True,10,,eudora-c16-2026,Eudora,16
+85955,Instance Ameixa e Praliné Sabonete em Calda,Instance,Corpo e Banho,Corpo e Banho,180 ml,,44.99,38.9,6.09,13.54,True,10,,eudora-c16-2026,Eudora,16
+58845,Club 6 Spotlight Desodorante Colônia,Club 6,Perfumaria,Perfumaria,95 ml,,154.9,119.9,35.0,22.6,True,10,,eudora-c16-2026,Eudora,16
+07066,Siàge Condicionador Cica-Therapy,Siàge,Cabelos,Cabelos,200 ml,,52.99,39.9,13.09,24.7,True,10,,eudora-c16-2026,Eudora,16
+47364,Siàge Máscara Capilar Cica-Therapy,Siàge,Cabelos,Cabelos,250 g,,74.99,49.9,25.09,33.46,True,10,,eudora-c16-2026,Eudora,16
+47401,Siàge Nutri Rosé Condicionador,Siàge,Cabelos,Cabelos,400 ml,,74.99,64.9,10.09,13.46,True,10,,eudora-c16-2026,Eudora,16
+97992,Compre Sérum Neo Dermo e Ganhe o Hidratante: Sérum Uniformizador + Hidratante Uniformizador,Neo Dermo,Cuidados Faciais,Cuidados Faciais,30ml + 50g,,216.98,139.9,77.08,35.52,True,11,,eudora-c16-2026,Eudora,16
+57074,Neo Dermo Hidratante Uniformizador Active Pro,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50g,,76.99,63.9,13.09,17.0,True,11,,eudora-c16-2026,Eudora,16
+55437,Niina Skin Sérum Vitamina C Facial,Niina Secrets,Cuidados Faciais,Cuidados Faciais,30ml,,124.99,89.9,35.09,28.07,True,11,,eudora-c16-2026,Eudora,16
+86501,Instance Desodorante Colônia Body Splash Rosa Absoluta,Instance,Perfumaria,Perfumaria,200ml,,74.99,59.9,15.09,20.12,True,11,,eudora-c16-2026,Eudora,16
+87155,Instance Loção Desodorante Hidratante Corporal Ameixa e Praliné,Instance,Corpo e Banho,Corpo e Banho,400ml,,59.99,48.9,11.09,18.49,True,11,,eudora-c16-2026,Eudora,16
+55438,Niina Skin Tônico Renovador Antioxidante Vitamina C,Niina Secrets,Cuidados Faciais,Cuidados Faciais,110ml,,69.99,54.9,15.09,21.56,True,11,,eudora-c16-2026,Eudora,16
+,Eudora Make Batom Hidratante Kiss Me,Kiss Me,Maquiagem,Maquiagem,"3,7 g",,75.98,37.99,37.99,50.0,True,12,,eudora-c16-2026,Eudora,16
+,Eudora Make Batom Matte Kiss Me,Kiss Me,Maquiagem,Maquiagem,"3,7 g",,75.98,37.99,37.99,50.0,True,12,,eudora-c16-2026,Eudora,16
+89977,Máscara de Cílios Turbo Dimension,Eudora Make,Maquiagem,Maquiagem,10 g,,109.98,54.99,54.99,50.0,True,12,,eudora-c16-2026,Eudora,16
+55804,Máscara Capilar Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,250g,,74.99,49.9,25.09,33.46,True,13,,eudora-c16-2026,Eudora,16
+55803,Condicionador Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,200ml,,52.99,39.9,13.09,24.7,True,13,,eudora-c16-2026,Eudora,16
+57076,Leave-in Spray Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,100ml,,62.99,49.9,13.09,20.78,True,13,,eudora-c16-2026,Eudora,16
+55802,Shampoo Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,250ml,,49.99,39.9,10.09,20.18,True,13,,eudora-c16-2026,Eudora,16
+98407,Combo Pink Pitaya: Creme Hidratante Desodorante Corporal + Body Splash,Instance,Corpo e Banho,Corpo e Banho,400ml + 200ml,,134.98,99.9,35.08,25.99,True,14,,eudora-c16-2026,Eudora,16
+94665,Presente Club 6 Voyage (Desodorante Colônia + Desodorante Antitranspirante Aerossol + Caixa de Presente),Club 6,Perfumaria,Perfumaria,95 ml + 125 ml (75 g),,193.89,159.9,33.99,17.53,True,16,,eudora-c16-2026,Eudora,16
+94660,Kit Presente Eudora Rosé,Eudora Rosé,Perfumaria,Perfumaria,35 ml + 100 ml + 100 g,,253.97,189.9,64.07,25.23,True,17,,eudora-c16-2026,Eudora,16
+94661,Kit Presente Magnific Rouge Camélia,Magnific,Perfumaria,Perfumaria,75 ml + 200 ml,,199.89,159.9,39.99,20.01,True,18,,eudora-c16-2026,Eudora,16
+94666,"Kit Presente Diva Esplêndida (Desodorante Colônia 30 ml + Kiss Me Cherry Gloss Labial 5,5 ml + Loção Desodorante Hidratante Corporal 200 ml + Caixa de Presente)",Diva,Kits de Presente,Kits de Presente,"30 ml + 5,5 ml + 200 ml",,172.88,139.9,32.98,19.08,True,19,,eudora-c16-2026,Eudora,16
+94663,Kit Presente Niina Secrets Make (Iluminador Facial Soft Petals 3 g + Pincel Multifuncional Miniatura + Delineador Líquido Crystal Brilho Rosé Gold 3 g + Caixa de Presente),Niina Secrets,Maquiagem,Maquiagem,3 g + 3 g,,192.97,144.9,48.07,24.91,True,19,,eudora-c16-2026,Eudora,16
+94662,Kit Presente Siàge Nutri Rosé (Shampoo 250ml + Condicionador 200ml + Máscara Capilar 50g + Caixa de Presente),Siàge,Cabelos,Cabelos,250ml + 200ml + 50g,,152.97,122.9,30.07,19.66,True,20,,eudora-c16-2026,Eudora,16
+94667,Kit Presente Kiss Me Cabernet (Desodorante Colônia 50ml + Loção Desodorante Perfumada Corporal 100ml + Caixa de Presente),Kiss Me,Perfumaria,Perfumaria,50ml + 100ml,,144.98,119.9,25.08,17.3,True,21,,eudora-c16-2026,Eudora,16
+96485,Kit Presente Instance Obsessão por Baunilha (Loção Hidratante Desodorante Corporal 75ml + Desodorante Colônia Spray Corporal 75ml + Caixa de Presente),Instance,Corpo e Banho,Corpo e Banho,75ml + 75ml,,64.99,59.9,5.09,7.83,True,21,,eudora-c16-2026,Eudora,16
+94664,Kit Presente Instance Baunilha Glow (Desodorante Colônia Spray Corporal + Loção Desodorante Corporal + Caixa de Presente),Instance,Kits de Presente,Kits de Presente,200ml + 180ml,,114.98,89.9,25.08,21.81,True,22,,eudora-c16-2026,Eudora,16
+94669,Kit Presente Eudora Duo Body Sprays,Eudora,Corpo e Banho,Corpo e Banho,2 x 100ml,,95.98,74.9,21.08,21.96,True,23,,eudora-c16-2026,Eudora,16
+96484,Kit Presente Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,2 x 75ml,,64.99,59.9,5.09,7.83,True,23,,eudora-c16-2026,Eudora,16
+94672,Kit Presente Instance Morango Irresistível,Instance,Corpo e Banho,Corpo e Banho,75 ml + 75 ml,,61.98,49.9,12.08,19.49,True,24,,eudora-c16-2026,Eudora,16
+94670,Kit Presente Impression,Impression,Perfumaria,Perfumaria,100 ml + 75 g,,120.98,79.9,41.08,33.96,True,24,,eudora-c16-2026,Eudora,16
+97347,Presente EDP Golden (Eau de Parfum + Creme Desodorante Hidratante),Eudora Golden,Perfumaria,Perfumaria,75 ml + 250 g,,364.89,269.9,94.99,26.03,True,25,,eudora-c16-2026,Eudora,16
+98693,Combo Siàge Cauterização dos Lisos (Shampoo + Condicionador + Máscara Capilar),Siàge,Cabelos,Cabelos,250 ml + 200 ml + 250 g,,177.97,129.9,48.07,27.01,True,25,,eudora-c16-2026,Eudora,16
+97348,Presente Diva Fabulosa (Desodorante Colônia 100 ml + Máscara para Cílios Turbo 10 g),Diva,Kits e Presentes,Kits e Presentes,100ml + 10g,,204.89,149.9,54.99,26.84,True,26,,eudora-c16-2026,Eudora,16
+97358,Combo Velvet Sensual (Desodorante Colônia 100 ml + Creme Desodorante Hidratante 250 g),Velvet,Kits e Presentes,Kits e Presentes,100ml + 250g,,229.89,179.9,49.99,21.75,True,26,,eudora-c16-2026,Eudora,16
+97362,Combo Instance Frutas Vermelhas (Loção Desodorante Corporal 75 ml + Sabonete Líquido Perfumado Corporal 75 ml),Instance,Corpo e Banho,Corpo e Banho,75ml + 75ml,,47.9,44.9,3.0,6.26,True,26,,eudora-c16-2026,Eudora,16
+97355,Presente Club 6 Fever (Desodorante Colônia + Espuma para Barbear),Club 6,Perfumaria,Perfumaria,95 ml + 200 ml (190 g),,219.89,179.9,39.99,18.19,True,27,,eudora-c16-2026,Eudora,16
+98692,Combo Intention For Man Strong (Desodorante Colônia + Body Spray),Intention,Perfumaria,Perfumaria,100 ml + 100 ml,,207.89,169.9,37.99,18.27,True,27,,eudora-c16-2026,Eudora,16
+97349,Combo Eudora H (Desodorante Colônia + Espuma para Barbear),Eudora H,Perfumaria,Perfumaria,100 ml + 200 ml (190 g),,182.89,139.9,42.99,23.51,True,27,,eudora-c16-2026,Eudora,16
+97363,Presente Kiss Me Rosa Marcante (Desodorante Colônia + Loção Perfumada Desodorante Corporal),Kiss Me,Perfumaria,Perfumaria,50 ml + 100 ml,,144.98,109.9,35.08,24.2,True,28,,eudora-c16-2026,Eudora,16
+98695,Combo Ameixa e Praliné (Loção Desodorante Hidratante Corporal + Hidratante de Mãos),Instance,Corpo e Banho,Corpo e Banho,400 ml + 30 g,,82.98,69.9,13.08,15.76,True,28,,eudora-c16-2026,Eudora,16
+97350,Combo Pulse Action (Balm Pós-Barba + Desodorante Colônia),Pulse,Perfumaria,Perfumaria,75 g + 100 ml,,144.98,99.9,45.08,31.09,True,28,,eudora-c16-2026,Eudora,16
+98407,Combo Instance Pitaya: Body Splash Desodorante Colônia + Creme Desodorante Hidratante Corporal,Instance,Corpo e Banho,Corpo e Banho,200 ml + 400 ml,,134.98,99.9,35.08,25.99,True,29,,eudora-c16-2026,Eudora,16
+97360,Combo Instance Maracujá: Body Splash Desodorante Colônia + Creme Desodorante Hidratante Corporal,Instance,Corpo e Banho,Corpo e Banho,200 ml + 400 ml,,134.98,99.9,35.08,25.99,True,29,,eudora-c16-2026,Eudora,16
+97359,Combo Magnific: Body Spray + Sabonete em Barra Sortido,Magnific,Corpo e Banho,Corpo e Banho,100 ml + 4 x 80 g,,80.98,64.9,16.08,19.86,True,29,,eudora-c16-2026,Eudora,16
+97361,Presente Instance Maracujá,Instance,Corpo e Banho,Corpo e Banho,4 x 80 g + 180 ml,,70.98,59.9,11.08,15.61,True,30,,eudora-c16-2026,Eudora,16
+85395,Sabonete em Barra Ameixa e Praliné,Instance,Corpo e Banho,Corpo e Banho,4 unidades de 80 g,,32.99,29.9,3.09,9.37,True,30,,eudora-c16-2026,Eudora,16
+90987,Sabonete em Barra Pink Pitaya,Instance,Corpo e Banho,Corpo e Banho,4 unidades de 80 g,,32.99,29.9,3.09,9.37,True,30,,eudora-c16-2026,Eudora,16
+86538,Máscara para Cílios Turbo Volumaço,Eudora Make,Maquiagem,Maquiagem,10 g,,44.99,33.74,11.25,25.01,True,31,,eudora-c16-2026,Eudora,16
+87434,Eudora Make Delineador À Prova D'Água Forever Preto,Eudora Make,Maquiagem,Maquiagem,3 ml,,54.99,41.24,13.75,25.0,True,31,,eudora-c16-2026,Eudora,16
+87439,Batom Líquido Matte Supreme Marrom Precioso,Matte Supreme,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,31,,eudora-c16-2026,Eudora,16
+79363,Batom Líquido Matte Supreme Fúcsia Valioso,Matte Supreme,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,31,,eudora-c16-2026,Eudora,16
+87442,Batom Líquido Matte Supreme Rosado Suave,Matte Supreme,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,31,,eudora-c16-2026,Eudora,16
+79364,Batom Líquido Matte Supreme Bordô Aveludado,Matte Supreme,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,31,,eudora-c16-2026,Eudora,16
+87440,Batom Líquido Matte Supreme Nude Conforto,Matte Supreme,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,31,,eudora-c16-2026,Eudora,16
+79365,Batom Líquido Matte Supreme Vermelho Âmbar,Matte Supreme,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,31,,eudora-c16-2026,Eudora,16
+95367,Batom Líquido Matte Supreme Adam Canela,Matte Supreme,Maquiagem,Maquiagem,4 ml,,61.99,46.49,15.5,25.0,True,31,,eudora-c16-2026,Eudora,16
+80939,Nécessaire Dourado 1,Acessórios,Acessórios,Acessórios,"20,5 x 5 x 10 cm",,57.99,43.49,14.5,25.0,True,31,,eudora-c16-2026,Eudora,16
+80837,Nécessaire Dourado 2,Acessórios,Acessórios,Acessórios,"24,5 x 7 x 15 cm",,84.99,63.74,21.25,25.0,True,31,,eudora-c16-2026,Eudora,16
+80877,Nécessaire Dourado 3,Acessórios,Acessórios,Acessórios,"19 x 5,7 x 13,8 cm",,74.99,56.24,18.75,25.0,True,31,,eudora-c16-2026,Eudora,16
+53654,Caixa P,Eudora,Embalagens,Embalagens,"15,5 x 15,5 x 6 cm",,8.7,,,,False,32,,eudora-c16-2026,Eudora,16
+53655,Caixa M,Eudora,Embalagens,Embalagens,"20 x 20 x 8,5 cm",,9.9,,,,False,32,,eudora-c16-2026,Eudora,16
+53656,Caixa G,Eudora,Embalagens,Embalagens,"23,5 x 23,5 x 11,7 cm",,17.6,,,,False,32,,eudora-c16-2026,Eudora,16
+53657,Envelope P,Eudora,Embalagens,Embalagens,"15 x 7,5 x 21,5 cm",,4.9,,,,False,32,,eudora-c16-2026,Eudora,16
+53658,Envelope M,Eudora,Embalagens,Embalagens,"18 x 9 x 25,1 cm",,6.9,,,,False,32,,eudora-c16-2026,Eudora,16
+53966,Sacola Envelope P,Eudora,Embalagens,Embalagens,"15 x 4,5 x 13 cm",,2.9,,,,False,32,,eudora-c16-2026,Eudora,16
+53651,Sacola P,Eudora,Embalagens,Embalagens,"19 x 9,3 x 23 cm",,3.6,,,,False,32,,eudora-c16-2026,Eudora,16
+53944,Sacola M,Eudora,Embalagens,Embalagens,"24 x 9,5 x 30 cm",,3.9,,,,False,32,,eudora-c16-2026,Eudora,16
+53653,Sacola G,Eudora,Embalagens,Embalagens,35 x 16 x 35 cm,,6.8,,,,False,32,,eudora-c16-2026,Eudora,16
+85704,Envelope P Natal,Eudora,Embalagens,Embalagens,"15 x 7,5 x 21,5 cm",,4.9,,,,False,32,,eudora-c16-2026,Eudora,16
+85706,Sacola M Natal,Eudora,Embalagens,Embalagens,"24 x 9,5 x 30 cm",,3.9,,,,False,32,,eudora-c16-2026,Eudora,16
+85705,Caixa M Natal,Eudora,Embalagens,Embalagens,"20 x 20 x 8,5 cm",,14.99,,,,False,32,,eudora-c16-2026,Eudora,16
+55675,Refil Máscara Capilar Nutri Rosé,Siàge Nutri Rosé,Cabelos,Cabelos,250 g,,59.99,46.9,13.09,21.82,True,33,,eudora-c16-2026,Eudora,16
+90297,Máscara Capilar Nutri Rosé,Siàge Nutri Rosé,Cabelos,Cabelos,250 g,,74.99,,,,False,33,,eudora-c16-2026,Eudora,16
+53438,Leave-in Nutri Rosé,Siàge Nutri Rosé,Cabelos,Cabelos,100 ml,,55.99,43.9,12.09,21.59,True,33,,eudora-c16-2026,Eudora,16
+89641,Nécessaire Rosé,Siàge Nutri Rosé,Acessórios,Acessórios,"24 x 7,5 x 12 cm",,69.9,55.9,14.0,20.03,True,33,,eudora-c16-2026,Eudora,16
+86875,Óleo Capilar Nutritivo Siàge Nutri Rosé,Siàge Nutri Rosé,Cabelo,Cabelo,60ml,,84.99,,,,False,34,,eudora-c16-2026,Eudora,16
+53435,Shampoo Siàge Nutri Rosé,Siàge Nutri Rosé,Cabelo,Cabelo,250ml,,49.99,,,,False,34,,eudora-c16-2026,Eudora,16
+47400,Shampoo Siàge Nutri Rosé,Siàge Nutri Rosé,Cabelo,Cabelo,400ml,,69.99,59.9,10.09,14.42,True,34,,eudora-c16-2026,Eudora,16
+48318,Refil Shampoo Siàge Nutri Rosé,Siàge Nutri Rosé,Cabelo,Cabelo,400ml,,55.99,,,,False,34,,eudora-c16-2026,Eudora,16
+53436,Condicionador Siàge Nutri Rosé,Siàge Nutri Rosé,Cabelo,Cabelo,200ml,,52.99,,,,False,34,,eudora-c16-2026,Eudora,16
+47401,Condicionador Siàge Nutri Rosé,Siàge Nutri Rosé,Cabelo,Cabelo,400ml,,74.99,64.9,10.09,13.46,True,34,,eudora-c16-2026,Eudora,16
+48319,Refil Condicionador Siàge Nutri Rosé,Siàge Nutri Rosé,Cabelo,Cabelo,400ml,,59.99,,,,False,34,,eudora-c16-2026,Eudora,16
+53517,Tônico Capilar Estimulante Siàge Acelera o Crescimento,Siàge,Cabelos,Cabelos,65 ml,,77.99,59.9,18.09,23.2,True,35,,eudora-c16-2026,Eudora,16
+53501,Condicionador Siàge Acelera o Crescimento,Siàge,Cabelos,Cabelos,200 ml,,52.99,39.9,13.09,24.7,True,35,,eudora-c16-2026,Eudora,16
+53502,Shampoo Siàge Acelera o Crescimento,Siàge,Cabelos,Cabelos,250 ml,,49.99,39.9,10.09,20.18,True,35,,eudora-c16-2026,Eudora,16
+53506,Máscara Antiquebra Siàge Acelera o Crescimento,Siàge,Cabelos,Cabelos,250 g,,74.99,49.9,25.09,33.46,True,35,,eudora-c16-2026,Eudora,16
+58122,Óleo em Creme Siàge Nutri Acid.Complex,Siàge,Cabelos,Cabelos,100 ml,,69.99,,,,False,36,,eudora-c16-2026,Eudora,16
+58119,Shampoo Siàge Nutri Acid.Complex,Siàge,Cabelos,Cabelos,250 ml,,49.99,,,,False,36,,eudora-c16-2026,Eudora,16
+58120,Condicionador Siàge Nutri Acid.Complex,Siàge,Cabelos,Cabelos,200 ml,,52.99,,,,False,36,,eudora-c16-2026,Eudora,16
+95383,Hair Mist Siàge Nutri Acid.Complex,Siàge,Cabelos,Cabelos,60 ml,,69.9,,,,False,36,,eudora-c16-2026,Eudora,16
+58121,Máscara Concentrada Siàge Nutri Acid.Complex,Siàge,Cabelos,Cabelos,250 g,,74.99,,,,False,36,,eudora-c16-2026,Eudora,16
+55804,Máscara Capilar Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,250 g,,74.99,49.9,25.09,33.46,True,37,,eudora-c16-2026,Eudora,16
+55802,Shampoo Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,250 ml,,49.99,39.9,10.09,20.18,True,37,,eudora-c16-2026,Eudora,16
+55803,Condicionador Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,200 ml,,52.99,39.9,13.09,24.7,True,37,,eudora-c16-2026,Eudora,16
+55805,Água Lamelar Acidificante Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,150 ml,,72.99,,,,False,37,,eudora-c16-2026,Eudora,16
+57076,Leave-in Spray Siàge Resgate Imediato,Siàge,Cabelos,Cabelos,100 ml,,62.99,49.9,13.09,20.78,True,37,,eudora-c16-2026,Eudora,16
+96617,Óleo Capilar Siàge Ultra Bond Reset,Siàge Ultra Bond Reset,Cabelos,Cabelos,60 ml,,84.99,,,,False,38,,eudora-c16-2026,Eudora,16
+89681,Proteína Capilar Siàge Ultra Bond Reset,Siàge Ultra Bond Reset,Cabelos,Cabelos,80 g,,79.99,,,,False,38,,eudora-c16-2026,Eudora,16
+89678,Shampoo Siàge Ultra Bond Reset,Siàge Ultra Bond Reset,Cabelos,Cabelos,250 ml,,49.99,,,,False,38,,eudora-c16-2026,Eudora,16
+89679,Condicionador Siàge Ultra Bond Reset,Siàge Ultra Bond Reset,Cabelos,Cabelos,200 ml,,52.99,,,,False,38,,eudora-c16-2026,Eudora,16
+89680,Máscara Capilar Siàge Ultra Bond Reset,Siàge Ultra Bond Reset,Cabelos,Cabelos,250 g,,74.99,,,,False,38,,eudora-c16-2026,Eudora,16
+88917,Máscara Capilar Siàge Nutri Diamond,Siàge,Cabelos,Cabelos,250 g,,74.99,,,,False,39,,eudora-c16-2026,Eudora,16
+88303,Shampoo Siàge Nutri Diamond,Siàge,Cabelos,Cabelos,250 ml,,49.99,,,,False,39,,eudora-c16-2026,Eudora,16
+88304,Condicionador Siàge Nutri Diamond,Siàge,Cabelos,Cabelos,200 ml,,52.99,,,,False,39,,eudora-c16-2026,Eudora,16
+94401,Luxury Oil Óleo Nutritivo Siàge Nutri Diamond,Siàge,Cabelos,Cabelos,60 ml,,82.99,,,,False,39,,eudora-c16-2026,Eudora,16
+88918,Bruma Impermeabilizante Siàge Nutri Diamond,Siàge,Cabelos,Cabelos,100 ml,,69.99,,,,False,39,,eudora-c16-2026,Eudora,16
+47178,Leave-in Balm Disciplinante,Siàge Glow Expert,Cabelos,Cabelos,100 ml,,55.99,,,,False,40,,eudora-c16-2026,Eudora,16
+47177,Máscara Ultra-Brilho,Siàge Glow Expert,Cabelos,Cabelos,250 g,,74.99,,,,False,40,,eudora-c16-2026,Eudora,16
+47175,Shampoo,Siàge Glow Expert,Cabelos,Cabelos,250 ml,,49.99,,,,False,40,,eudora-c16-2026,Eudora,16
+47176,Condicionador,Siàge Glow Expert,Cabelos,Cabelos,200 ml,,52.99,,,,False,40,,eudora-c16-2026,Eudora,16
+53754,Frasqueira Siàge,Siàge,Acessórios,Acessórios,22 x 9 x 17 cm,,79.99,,,,False,40,,eudora-c16-2026,Eudora,16
+85995,Óleo Capilar Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,60ml,,84.99,,,,False,41,,eudora-c16-2026,Eudora,16
+53521,Máscara Capilar Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,250g,,74.99,,,,False,41,,eudora-c16-2026,Eudora,16
+53520,Condicionador Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,200ml,,52.99,,,,False,41,,eudora-c16-2026,Eudora,16
+54361,Condicionador Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,400ml,,74.99,,,,False,41,,eudora-c16-2026,Eudora,16
+54363,Refil Condicionador Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,400ml,,59.99,,,,False,41,,eudora-c16-2026,Eudora,16
+53519,Shampoo Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,250ml,,49.99,,,,False,41,,eudora-c16-2026,Eudora,16
+54360,Shampoo Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,400ml,,69.99,,,,False,41,,eudora-c16-2026,Eudora,16
+54362,Refil Shampoo Siàge Reconstrói os Fios,Siàge Reconstrói os Fios,Cabelos,Cabelos,400ml,,55.99,,,,False,41,,eudora-c16-2026,Eudora,16
+87950,Sérum Pro-Volume Siàge Volume Imediato,Siàge,Cabelos,Cabelos,100 ml,,69.99,,,,False,42,,eudora-c16-2026,Eudora,16
+87559,Máscara Capilar Siàge Volume Imediato,Siàge,Cabelos,Cabelos,250 g,,74.99,,,,False,42,,eudora-c16-2026,Eudora,16
+87560,Mousse Capilar Volumizador Siàge Volume Imediato,Siàge,Cabelos,Cabelos,150 ml,,50.99,,,,False,42,,eudora-c16-2026,Eudora,16
+87557,Shampoo Siàge Volume Imediato,Siàge,Cabelos,Cabelos,250 ml,,49.99,,,,False,42,,eudora-c16-2026,Eudora,16
+87558,Condicionador Siàge Volume Imediato,Siàge,Cabelos,Cabelos,200 ml,,52.99,,,,False,42,,eudora-c16-2026,Eudora,16
+55876,Refil Máscara Capilar Siàge Cica-Therapy,Siàge Cica-Therapy,Cabelos,Cabelos,250g,,59.99,,,,False,43,,eudora-c16-2026,Eudora,16
+47364,Máscara Capilar Cicatrizante Siàge Cica-Therapy,Siàge Cica-Therapy,Cabelos,Cabelos,250g,,74.99,49.9,25.09,33.46,True,43,,eudora-c16-2026,Eudora,16
+07234,Leave-in Concentrado Siàge Cica-Therapy,Siàge Cica-Therapy,Cabelos,Cabelos,100ml,,55.99,39.9,16.09,28.74,True,43,,eudora-c16-2026,Eudora,16
+07066,Condicionador Siàge Cica-Therapy,Siàge Cica-Therapy,Cabelos,Cabelos,200ml,,52.99,39.9,13.09,24.7,True,43,,eudora-c16-2026,Eudora,16
+55958,Condicionador Siàge Cica-Therapy,Siàge Cica-Therapy,Cabelos,Cabelos,400ml,,74.99,,,,False,43,,eudora-c16-2026,Eudora,16
+19816,Shampoo Siàge Cica-Therapy,Siàge Cica-Therapy,Cabelos,Cabelos,250ml,,49.99,39.9,10.09,20.18,True,43,,eudora-c16-2026,Eudora,16
+55957,Shampoo Siàge Cica-Therapy,Siàge Cica-Therapy,Cabelos,Cabelos,400ml,,69.99,,,,False,43,,eudora-c16-2026,Eudora,16
+55674,Refil Máscara Capilar Hair-Plastia,Siàge Hair-Plastia,Cabelos,Cabelos,250 g,,59.99,,,,False,44,,eudora-c16-2026,Eudora,16
+01644,Máscara Capilar Hialurônica Hair-Plastia,Siàge Hair-Plastia,Cabelos,Cabelos,250 g,,74.99,,,,False,44,,eudora-c16-2026,Eudora,16
+54095,Booster Pro-Aging Hair-Plastia,Siàge Hair-Plastia,Cabelos,Cabelos,100 ml,,55.99,,,,False,44,,eudora-c16-2026,Eudora,16
+01641,Shampoo Hair-Plastia,Siàge Hair-Plastia,Cabelos,Cabelos,250 ml,,49.99,,,,False,44,,eudora-c16-2026,Eudora,16
+93047,Condicionador Hair-Plastia,Siàge Hair-Plastia,Cabelos,Cabelos,200 ml,,52.99,,,,False,44,,eudora-c16-2026,Eudora,16
+86893,Kit Siàge Hair-Plastia (Shampoo + Condicionador + Máscara),Siàge Hair-Plastia,Cabelos,Cabelos,3 x 50 ml,,72.99,,,,False,44,,eudora-c16-2026,Eudora,16
+53500,Máscara Capilar Seladora Siàge Liso Intenso,Siàge Liso Intenso,Cabelos,Cabelos,250g,,74.99,,,,False,45,,eudora-c16-2026,Eudora,16
+53503,Leave-in Selante Finalizador Siàge Liso Intenso,Siàge Liso Intenso,Cabelos,Cabelos,100ml,,52.99,,,,False,45,,eudora-c16-2026,Eudora,16
+55677,Refil Máscara Capilar Siàge Liso Intenso,Siàge Liso Intenso,Cabelos,Cabelos,250g,,59.99,,,,False,45,,eudora-c16-2026,Eudora,16
+53504,Shampoo Siàge Liso Intenso,Siàge Liso Intenso,Cabelos,Cabelos,250ml,,49.99,,,,False,45,,eudora-c16-2026,Eudora,16
+53505,Condicionador Siàge Liso Intenso,Siàge Liso Intenso,Cabelos,Cabelos,200ml,,52.99,,,,False,45,,eudora-c16-2026,Eudora,16
+51750,Leave-In Capilar Siàge Cauterização dos Lisos,Siàge Cauterização dos Lisos,Cabelos,Cabelos,100ml,,55.99,55.99,,,False,46,,eudora-c16-2026,Eudora,16
+51749,Máscara Capilar Siàge Cauterização dos Lisos,Siàge Cauterização dos Lisos,Cabelos,Cabelos,250g,,74.99,74.99,,,False,46,,eudora-c16-2026,Eudora,16
+51746,Shampoo Siàge Cauterização dos Lisos,Siàge Cauterização dos Lisos,Cabelos,Cabelos,250ml,,49.99,49.99,,,False,46,,eudora-c16-2026,Eudora,16
+51745,Condicionador Siàge Cauterização dos Lisos,Siàge Cauterização dos Lisos,Cabelos,Cabelos,200ml,,52.99,52.99,,,False,46,,eudora-c16-2026,Eudora,16
+30302,Condicionador Siàge Hidratação Micelar,Siàge,Cabelos,Cabelos,200ml,,52.99,,,,False,47,,eudora-c16-2026,Eudora,16
+30199,Shampoo Siàge Hidratação Micelar,Siàge,Cabelos,Cabelos,250ml,,49.99,,,,False,47,,eudora-c16-2026,Eudora,16
+30207,Leave-in Siàge Hidratação Micelar,Siàge,Cabelos,Cabelos,100ml,,52.99,,,,False,47,,eudora-c16-2026,Eudora,16
+55488,Shampoo Antioleosidade Siàge Hidratação Micelar,Siàge,Cabelos,Cabelos,250ml,,49.99,,,,False,47,,eudora-c16-2026,Eudora,16
+30203,Máscara Siàge Hidratação Micelar,Siàge,Cabelos,Cabelos,250g,,74.99,,,,False,47,,eudora-c16-2026,Eudora,16
+53433,Máscara Capilar Siàge Cauterização dos Fios,Siàge,Cabelos,Cabelos,250g,,74.99,,,,False,47,,eudora-c16-2026,Eudora,16
+55669,Refil Máscara Capilar Siàge Cauterização dos Fios,Siàge,Cabelos,Cabelos,250g,,59.99,,,,False,47,,eudora-c16-2026,Eudora,16
+53434,Sérum Autoaquecimento Siàge Cauterização dos Fios,Siàge,Cabelos,Cabelos,60ml,,72.99,,,,False,47,,eudora-c16-2026,Eudora,16
+53428,Shampoo Siàge Cauterização dos Fios,Siàge,Cabelos,Cabelos,250ml,,49.99,,,,False,47,,eudora-c16-2026,Eudora,16
+53430,Condicionador Siàge Cauterização dos Fios,Siàge,Cabelos,Cabelos,200ml,,52.99,,,,False,47,,eudora-c16-2026,Eudora,16
+55475,Sérum Capilar Dermohair Scalp Rebalance,Siàge Dermohair,Cabelos,Cabelos,48 ml,,87.99,,,,False,48,,eudora-c16-2026,Eudora,16
+55472,Shampoo Dermohair Scalp Rebalance,Siàge Dermohair,Cabelos,Cabelos,300 ml,,72.99,,,,False,48,,eudora-c16-2026,Eudora,16
+55473,Condicionador Dermohair Scalp Rebalance,Siàge Dermohair,Cabelos,Cabelos,280 ml,,72.99,,,,False,48,,eudora-c16-2026,Eudora,16
+57491,Máscara Capilar Dermohair Resistência Antiqueda,Siàge Dermohair,Cabelos,Cabelos,250 g,,92.99,,,,False,48,,eudora-c16-2026,Eudora,16
+55476,Shampoo Dermohair Resistência Antiqueda,Siàge Dermohair,Cabelos,Cabelos,300 ml,,72.99,,,,False,48,,eudora-c16-2026,Eudora,16
+55474,Condicionador Dermohair Resistência Antiqueda,Siàge Dermohair,Cabelos,Cabelos,280 ml,,72.99,,,,False,48,,eudora-c16-2026,Eudora,16
+55444,Tônico Capilar Dermohair Resistência Antiqueda,Siàge Dermohair,Cabelos,Cabelos,100 ml,,94.99,,,,False,48,,eudora-c16-2026,Eudora,16
+58311,Creme Para Pentear Volume Siàge Pro Cronology Curvas,Siàge Pro Cronology Curvas,Cabelos,Cabelos,300 ml,,54.99,,,,False,49,,eudora-c16-2026,Eudora,16
+58310,Creme Para Pentear Definição Siàge Pro Cronology Curvas,Siàge Pro Cronology Curvas,Cabelos,Cabelos,300 ml,,54.99,,,,False,49,,eudora-c16-2026,Eudora,16
+58312,Finalizador Jelly Siàge Pro Cronology Curvas,Siàge Pro Cronology Curvas,Cabelos,Cabelos,300 ml,,64.99,,,,False,49,,eudora-c16-2026,Eudora,16
+58307,Shampoo Siàge Pro Cronology Curvas,Siàge Pro Cronology Curvas,Cabelos,Cabelos,250 ml,,49.99,,,,False,49,,eudora-c16-2026,Eudora,16
+58308,Condicionador Siàge Pro Cronology Curvas,Siàge Pro Cronology Curvas,Cabelos,Cabelos,250 ml,,52.99,,,,False,49,,eudora-c16-2026,Eudora,16
+85756,Ampola Capilar Reconstrução,Siàge Pro Cronology,Cabelos,Cabelos,30 ml,,42.99,,,,False,50,,eudora-c16-2026,Eudora,16
+85755,Ampola Capilar Nutrição,Siàge Pro Cronology,Cabelos,Cabelos,30 ml,,42.99,,,,False,50,,eudora-c16-2026,Eudora,16
+53355,Máscara Capilar de Hidratação,Siàge Pro Cronology,Cabelos,Cabelos,250 g,,74.99,,,,False,50,,eudora-c16-2026,Eudora,16
+53096,Leave-in Capilar Memorizador,Siàge Pro Cronology,Cabelos,Cabelos,100 ml,,69.99,,,,False,50,,eudora-c16-2026,Eudora,16
+55764,Kit Completo (Máscara Capilar + Ampola Nutrição + Ampola Reconstrução),Siàge Pro Cronology,Cabelos,Cabelos,250 g + 2x 10 ml,,139.9,,,,False,50,,eudora-c16-2026,Eudora,16
+53094,Shampoo,Siàge Pro Cronology,Cabelos,Cabelos,250 ml,,49.99,,,,False,50,,eudora-c16-2026,Eudora,16
+53095,Condicionador,Siàge Pro Cronology,Cabelos,Cabelos,200 ml,,52.99,,,,False,50,,eudora-c16-2026,Eudora,16
+56298,Ativador de Cachos Siàge Men Cachos e Crespos,Siàge Men,Cabelos,Cabelos,100 ml,,49.99,49.99,,,False,51,,eudora-c16-2026,Eudora,16
+56297,Óleo Capilar Siàge Men Cachos e Crespos,Siàge Men,Cabelos,Cabelos,100 ml,,59.99,59.99,,,False,51,,eudora-c16-2026,Eudora,16
+56295,Creme para Pentear Cachos Siàge Men Cachos e Crespos,Siàge Men,Cabelos,Cabelos,450 g,,69.99,69.99,,,False,51,,eudora-c16-2026,Eudora,16
+56296,Creme para Pentear Crespos Siàge Men Cachos e Crespos,Siàge Men,Cabelos,Cabelos,450 g,,69.99,69.99,,,False,51,,eudora-c16-2026,Eudora,16
+56293,Shampoo Siàge Men Cachos e Crespos,Siàge Men,Cabelos,Cabelos,250 ml,,41.99,36.9,5.09,12.12,True,51,,eudora-c16-2026,Eudora,16
+56294,Condicionador Siàge Men Cachos e Crespos,Siàge Men,Cabelos,Cabelos,200 ml,,43.99,36.9,7.09,16.12,True,51,,eudora-c16-2026,Eudora,16
+59565,Promopack Cachos e Crespos (1 Shampoo 250ml + 1 Condicionador 200ml),Siàge Men,Cabelos,Cabelos,250 ml + 200 ml,,69.99,69.99,,,False,51,,eudora-c16-2026,Eudora,16
+52204,Shampoo Limpeza Purificante Men,Siàge Men,Cabelos,Cabelos,250 ml,,41.99,,,,False,52,,eudora-c16-2026,Eudora,16
+90923,Siàge Shampoo Cabelo e Barba Men,Siàge Men,Cabelos,Cabelos,250 ml,,41.99,,,,False,52,,eudora-c16-2026,Eudora,16
+52213,Shampoo Estimula o Crescimento Men,Siàge Men,Cabelos,Cabelos,250 ml,,41.99,35.9,6.09,14.5,True,52,,eudora-c16-2026,Eudora,16
+52208,Tônico Capilar Estimula o Crescimento,Siàge Men,Cabelos,Cabelos,100 ml,,69.99,59.9,10.09,14.42,True,52,,eudora-c16-2026,Eudora,16
+52190,Condicionador Hidratação Intensa Men,Siàge Men,Cabelos,Cabelos,200 ml,,43.99,,,,False,52,,eudora-c16-2026,Eudora,16
+90924,Promopack Siàge Barba e Cabelo Men,Siàge Men,Cabelos,Cabelos,,,69.99,,,,False,52,,eudora-c16-2026,Eudora,16
+95050,Combo Siàge Men Estimula o Crescimento,Siàge Men,Cabelos,Cabelos,,,111.98,89.9,22.08,19.72,True,52,,eudora-c16-2026,Eudora,16
+57415,Gel Capilar Alta Fixação,Siàge Men,Cabelos,Cabelos,150 g,,42.99,,,,False,52,,eudora-c16-2026,Eudora,16
+52214,Pomada Modeladora,Siàge Men,Cabelos,Cabelos,90 g,,52.99,,,,False,52,,eudora-c16-2026,Eudora,16
+52212,Shampoo Combate à Caspa Men,Siàge Men,Cabelos,Cabelos,250 ml,,41.99,,,,False,52,,eudora-c16-2026,Eudora,16
+52216,Promopack Combate à Caspa,Siàge Men,Cabelos,Cabelos,500 ml,,65.99,,,,False,52,,eudora-c16-2026,Eudora,16
+87532,Diva Mirage Desodorante Colônia,Diva,Perfumaria,Perfumaria,100 ml,,154.9,124.9,30.0,19.37,True,53,,eudora-c16-2026,Eudora,16
+91721,Diva Mirage Loção Hidratante Desodorante Corporal,Diva,Corpo e Banho,Corpo e Banho,150 ml,,57.9,49.9,8.0,13.82,True,53,,eudora-c16-2026,Eudora,16
+95620,Diva Spray Hair Mist,Diva,Cabelos,Cabelos,60 ml,,72.9,,,,False,53,,eudora-c16-2026,Eudora,16
+52107,Diva Fabulosa Desodorante Colônia,Diva,Perfumaria,Perfumaria,100ml,,149.9,,,,False,54,,eudora-c16-2026,Eudora,16
+85328,Diva Desodorante Colônia,Diva,Perfumaria,Perfumaria,100ml,,149.9,109.9,40.0,26.68,True,54,,eudora-c16-2026,Eudora,16
+59012,Diva Suprema Desodorante Colônia,Diva,Perfumaria,Perfumaria,100ml,,149.9,,,,False,54,,eudora-c16-2026,Eudora,16
+53979,Diva Absoluta Desodorante Colônia,Diva,Perfumaria,Perfumaria,100ml,,149.9,,,,False,54,,eudora-c16-2026,Eudora,16
+93541,Diva Esplêndida Desodorante Colônia,Diva,Perfumaria,Perfumaria,100ml,,149.9,,,,False,54,,eudora-c16-2026,Eudora,16
+93542,Loção Desodorante Hidratante Corporal Diva Esplêndida,Diva,Corpo e Banho,Corpo e Banho,200ml,,57.99,,,,False,54,,eudora-c16-2026,Eudora,16
+89267,Loção Desodorante Hidratante Corporal Diva,Diva,Corpo e Banho,Corpo e Banho,200ml,,57.99,43.9,14.09,24.3,True,54,,eudora-c16-2026,Eudora,16
+56458,Diva Esplêndida Body Spray Desodorante,Diva,Corpo e Banho,Corpo e Banho,100ml,,47.99,,,,False,54,,eudora-c16-2026,Eudora,16
+88687,Creme Acetinado Desodorante Hidratante Corporal Noir,Eudora Noir,Corpo e Banho,Corpo e Banho,250 g,,119.99,91.9,28.09,23.41,True,55,,eudora-c16-2026,Eudora,16
+86902,Eudora Eau de Parfum Noir,Eudora Noir,Perfumaria,Perfumaria,75 ml,,244.9,159.9,85.0,34.71,True,55,,eudora-c16-2026,Eudora,16
+89715,Eudora Body Spray Desodorante Absolu,Eudora,Perfumaria,Perfumaria,100 ml,,47.99,,,,False,55,,eudora-c16-2026,Eudora,16
+58633,Eudora Body Spray Desodorante,Eudora,Perfumaria,Perfumaria,100 ml,,47.99,,,,False,55,,eudora-c16-2026,Eudora,16
+87807,Eudora Creme Acetinado Desodorante Hidratante Corporal,Eudora,Corpo e Banho,Corpo e Banho,250 g,,119.99,,,,False,55,,eudora-c16-2026,Eudora,16
+52746,Refil Eudora Creme Acetinado Desodorante Hidratante Corporal,Eudora,Corpo e Banho,Corpo e Banho,200 g,,89.99,,,,False,55,,eudora-c16-2026,Eudora,16
+85268,Eudora Rosé Eau de Parfum,Eudora,Perfumaria,Perfumaria,75 ml,,244.9,244.9,,,False,56,,eudora-c16-2026,Eudora,16
+87013,Eudora Eau de Parfum,Eudora,Perfumaria,Perfumaria,75 ml,,244.9,244.9,,,False,56,,eudora-c16-2026,Eudora,16
+87017,Eudora Golden Eau de Parfum,Eudora,Perfumaria,Perfumaria,75 ml,,244.9,244.9,,,False,56,,eudora-c16-2026,Eudora,16
+89642,Eudora Absolu Eau de Parfum,Eudora,Perfumaria,Perfumaria,75 ml,,244.9,244.9,,,False,56,,eudora-c16-2026,Eudora,16
+87014,Eudora Rouge Eau de Parfum,Eudora,Perfumaria,Perfumaria,75 ml,,244.9,244.9,,,False,56,,eudora-c16-2026,Eudora,16
+86749,Creme Acetinado Desodorante Hidratante Corporal Rouge,Eudora,Hidratação,Hidratação,250 g,,119.99,119.99,,,False,56,,eudora-c16-2026,Eudora,16
+86750,Creme Acetinado Desodorante Hidratante Corporal Golden,Eudora,Hidratação,Hidratação,250 g,,119.99,119.99,,,False,56,,eudora-c16-2026,Eudora,16
+86751,Creme Acetinado Desodorante Hidratante Corporal Rosé,Eudora,Hidratação,Hidratação,250 g,,119.99,119.99,,,False,56,,eudora-c16-2026,Eudora,16
+96397,Creme Acetinado Absolu Desodorante Hidratante Corporal,Eudora,Hidratação,Hidratação,200 g,,119.99,119.99,,,False,56,,eudora-c16-2026,Eudora,16
+50268,Kiss Me Cabernet Desodorante Colônia,Kiss Me,Perfumaria,Perfumaria,50 ml,,109.9,84.9,25.0,22.75,True,57,,eudora-c16-2026,Eudora,16
+57902,Bolsa Tote Eudora,Eudora,Acessórios,Acessórios,45 x 14 x 30 cm,,129.99,,,,False,57,,eudora-c16-2026,Eudora,16
+88058,Nécessaire,Eudora,Acessórios,Acessórios,"24 x 19 x 9,5 cm",,23.99,,,,False,57,,eudora-c16-2026,Eudora,16
+50267,Kiss Me Rosa Marcante Desodorante Colônia,Kiss Me,Perfumaria,Perfumaria,50ml,,109.99,,,,False,58,,eudora-c16-2026,Eudora,16
+56365,Kiss Me Delicious Desodorante Colônia,Kiss Me,Perfumaria,Perfumaria,50ml,,109.99,,,,False,58,,eudora-c16-2026,Eudora,16
+50271,Kiss Me Now Desodorante Colônia,Kiss Me,Perfumaria,Perfumaria,50ml,,109.99,,,,False,58,,eudora-c16-2026,Eudora,16
+88748,Kiss Me Again Desodorante Colônia,Kiss Me,Perfumaria,Perfumaria,50ml,,109.99,,,,False,58,,eudora-c16-2026,Eudora,16
+59549,Kiss Me Please Desodorante Colônia,Kiss Me,Perfumaria,Perfumaria,50ml,,109.99,,,,False,58,,eudora-c16-2026,Eudora,16
+50272,Loção Perfumada Desodorante Corporal Kiss Me Rosa Marcante,Kiss Me,Hidratação,Hidratação,100ml,,34.99,,,,False,58,,eudora-c16-2026,Eudora,16
+50273,Loção Perfumada Desodorante Corporal Kiss Me Cabernet,Kiss Me,Hidratação,Hidratação,100ml,,34.99,,,,False,58,,eudora-c16-2026,Eudora,16
+89767,Velvet Soul Desodorante Colônia,Velvet,Perfumaria,Perfumaria,100ml,,129.9,79.9,50.0,38.49,True,59,,eudora-c16-2026,Eudora,16
+90141,Velvet Soul Body Spray Desodorante,Velvet,Perfumaria,Perfumaria,100ml,,47.99,41.9,6.09,12.69,True,59,,eudora-c16-2026,Eudora,16
+91009,Velvet Soul Loção Hidratante Desodorante Corporal,Velvet,Hidratação,Hidratação,150ml,,47.99,,,,False,59,,eudora-c16-2026,Eudora,16
+87518,Eudora Velvet Sensual Desodorante Colônia,Velvet,Perfumaria,Perfumaria,100 ml,,129.9,,,,False,60,,eudora-c16-2026,Eudora,16
+86259,Eudora Velvet Sensual Intense Desodorante Colônia,Velvet,Perfumaria,Perfumaria,100 ml,,129.9,,,,False,60,,eudora-c16-2026,Eudora,16
+87517,Eudora Velvet Confident Desodorante Colônia,Velvet,Perfumaria,Perfumaria,100 ml,,129.9,,,,False,60,,eudora-c16-2026,Eudora,16
+57550,Eudora Velvet Inspire Desodorante Colônia,Velvet,Perfumaria,Perfumaria,100 ml,,129.9,,,,False,60,,eudora-c16-2026,Eudora,16
+94060,Eudora Velvet Divine Desodorante Colônia,Velvet,Perfumaria,Perfumaria,100 ml,,129.9,,,,False,60,,eudora-c16-2026,Eudora,16
+52745,Velvet Sensual Creme Hidratante Desodorante Corporal Aveludado,Velvet,Corpo e Banho,Corpo e Banho,250 g,,99.99,,,,False,60,,eudora-c16-2026,Eudora,16
+49543,La Victorie Eau de Parfum,La Victorie,Perfumaria,Perfumaria,75ml,,269.9,,,,False,61,,eudora-c16-2026,Eudora,16
+93548,La Victorie Intense Eau de Parfum,La Victorie,Perfumaria,Perfumaria,75ml,,269.9,,,,False,61,,eudora-c16-2026,Eudora,16
+52748,La Victorie Intense Creme Acetinado Desodorante Hidratante Corporal,La Victorie,Hidratação,Hidratação,250g,,119.99,,,,False,61,,eudora-c16-2026,Eudora,16
+58640,La Victorie Intense Body Spray Desodorante,La Victorie,Perfumaria,Perfumaria,100ml,,47.99,,,,False,61,,eudora-c16-2026,Eudora,16
+12967,La Victorie Creme Acetinado Desodorante Hidratante Corporal,La Victorie,Hidratação,Hidratação,250g,,119.99,97.9,22.09,18.41,True,61,,eudora-c16-2026,Eudora,16
+52747,Refil La Victorie Creme Acetinado Desodorante Hidratante Corporal,La Victorie,Hidratação,Hidratação,200g,,89.99,60.9,29.09,32.33,True,61,,eudora-c16-2026,Eudora,16
+52542,Magnific Audaz Eau de Parfum,Magnific,Perfumaria,Perfumaria,75 ml,,214.9,,,,False,62,,eudora-c16-2026,Eudora,16
+93220,Magnific Eau de Parfum,Magnific,Perfumaria,Perfumaria,75 ml,,214.9,124.9,90.0,41.88,True,62,,eudora-c16-2026,Eudora,16
+71286,Magnific Violet Dahlia Desodorante Colônia,Magnific,Perfumaria,Perfumaria,75 ml,,144.9,,,,False,62,,eudora-c16-2026,Eudora,16
+52943,Magnific Rouge Camélia Desodorante Colônia,Magnific,Perfumaria,Perfumaria,75 ml,,144.9,,,,False,62,,eudora-c16-2026,Eudora,16
+88716,Magnific Pink Peônia Desodorante Colônia,Magnific,Perfumaria,Perfumaria,75 ml,,144.9,99.9,45.0,31.06,True,62,,eudora-c16-2026,Eudora,16
+93221,Magnific Loção Desodorante Hidratante Corporal,Magnific,Corpo e Banho,Corpo e Banho,200 g,,74.99,,,,False,62,,eudora-c16-2026,Eudora,16
+57476,Magnific Body Spray Desodorante,Magnific,Perfumaria,Perfumaria,100 ml,,47.99,,,,False,62,,eudora-c16-2026,Eudora,16
+53142,Imensi Alive Desodorante Colônia,Imensi,Perfumaria,Perfumaria,100ml,,159.9,,,,False,63,,eudora-c16-2026,Eudora,16
+53144,Imensi Desodorante Colônia,Imensi,Perfumaria,Perfumaria,100ml,,159.9,,,,False,63,,eudora-c16-2026,Eudora,16
+53138,Imensi Infinite Desodorante Colônia,Imensi,Perfumaria,Perfumaria,100ml,,159.9,,,,False,63,,eudora-c16-2026,Eudora,16
+58641,Imensi Body Spray Desodorante,Imensi,Perfumaria,Perfumaria,100ml,,47.99,,,,False,63,,eudora-c16-2026,Eudora,16
+53145,Loção Desodorante Hidratante Corporal Imensi,Imensi,Hidratação,Hidratação,200ml,,54.99,,,,False,63,,eudora-c16-2026,Eudora,16
+53136,Loção Desodorante Hidratante Corporal Imensi Infinite,Imensi,Hidratação,Hidratação,200ml,,54.99,,,,False,63,,eudora-c16-2026,Eudora,16
+53141,Loção Desodorante Hidratante Corporal Imensi Alive,Imensi,Hidratação,Hidratação,200ml,,54.99,,,,False,63,,eudora-c16-2026,Eudora,16
+49803,Chic Retrô Desodorante Colônia,Chic,Perfumaria,Perfumaria,95 ml,,129.9,,,,False,64,,eudora-c16-2026,Eudora,16
+93024,Chic Chérie Desodorante Colônia,Chic,Perfumaria,Perfumaria,95 ml,,129.9,,,,False,64,,eudora-c16-2026,Eudora,16
+87453,Lyra Desodorante Colônia,Lyra,Perfumaria,Perfumaria,75 ml,,179.9,129.9,50.0,27.79,True,64,,eudora-c16-2026,Eudora,16
+87380,Lyra Happy Desodorante Colônia,Lyra,Perfumaria,Perfumaria,75 ml,,179.9,,,,False,64,,eudora-c16-2026,Eudora,16
+51730,Lyra Joy Desodorante Colônia,Lyra,Perfumaria,Perfumaria,75 ml,,179.9,,,,False,64,,eudora-c16-2026,Eudora,16
+58839,Lyra Body Spray Desodorante,Lyra,Perfumaria,Perfumaria,100 ml,,47.99,,,,False,64,,eudora-c16-2026,Eudora,16
+92730,Loção Desodorante Hidratante Corporal Lyra,Lyra,Corpo e Banho,Corpo e Banho,150 ml,,52.99,,,,False,64,,eudora-c16-2026,Eudora,16
+51780,Loção Desodorante Hidratante Corporal Lyra Joy,Lyra,Corpo e Banho,Corpo e Banho,150 ml,,52.99,,,,False,64,,eudora-c16-2026,Eudora,16
+55295,Eudora Royal Desodorante Colônia Feminina,Royal,Perfumaria,Perfumaria,100 ml,,149.99,,,,False,65,,eudora-c16-2026,Eudora,16
+96626,Creme Acetinado Desodorante Hidratante Corporal,Royal,Hidratação,Hidratação,200 g,,99.99,,,,False,65,,eudora-c16-2026,Eudora,16
+55296,Eudora Royal Desodorante Colônia Masculina,Eudora Royal,Perfumaria,Perfumaria,100 ml,,149.99,,,,False,66,,eudora-c16-2026,Eudora,16
+91000,Loção Desodorante Hidratante Corporal Feminino Eudora Royal,Eudora Royal,Corpo e Banho,Corpo e Banho,150 ml,,52.99,,,,False,66,,eudora-c16-2026,Eudora,16
+94969,Loção Desodorante Hidratante Corporal Masculino Eudora Royal,Eudora Royal,Corpo e Banho,Corpo e Banho,150 ml,,52.99,,,,False,66,,eudora-c16-2026,Eudora,16
+58845,Club 6 Spotlight Desodorante Colônia,Club 6,Perfumaria,Perfumaria,95 ml,,154.9,119.9,35.0,22.6,True,67,,eudora-c16-2026,Eudora,16
+87938,Club 6 Prestige Eau de Parfum,Club 6,Perfumaria,Perfumaria,95 ml,,184.9,,,,False,67,,eudora-c16-2026,Eudora,16
+90609,Loção Desodorante Hidratante Corporal Prestige,Club 6,Corpo e Banho,Corpo e Banho,150 ml,,52.99,,,,False,67,,eudora-c16-2026,Eudora,16
+87293,Club 6 Desodorante Colônia,Club 6,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,68,,eudora-c16-2026,Eudora,16
+87325,Club 6 Cassino Desodorante Colônia,Club 6,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,68,,eudora-c16-2026,Eudora,16
+87292,Club 6 Voyage Desodorante Colônia,Club 6,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,68,,eudora-c16-2026,Eudora,16
+87300,Club 6 Fever Desodorante Colônia,Club 6,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,68,,eudora-c16-2026,Eudora,16
+87328,Club 6 Exclusive Desodorante Colônia,Club 6,Perfumaria,Perfumaria,100 ml,,154.9,,,,False,68,,eudora-c16-2026,Eudora,16
+87299,Club 6 Intenso Desodorante Colônia,Club 6,Perfumaria,Perfumaria,100 ml,,164.9,,,,False,68,,eudora-c16-2026,Eudora,16
+50014,Club 6 Body Spray Desodorante,Club 6,Perfumaria,Perfumaria,100 ml,,47.9,41.9,6.0,12.53,True,68,,eudora-c16-2026,Eudora,16
+49568,Club 6 Espuma para Barbear,Club 6,Corpo e Banho,Corpo e Banho,200 ml (190 g),,64.99,,,,False,68,,eudora-c16-2026,Eudora,16
+49562,Club 6 Balm Pós-Barba,Club 6,Corpo e Banho,Corpo e Banho,75 g,,59.99,,,,False,68,,eudora-c16-2026,Eudora,16
+57597,Eudora H Marine Desodorante Colônia,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,79.9,45.0,36.03,True,69,,eudora-c16-2026,Eudora,16
+53447,Desodorante Antitranspirante Aerossol Eudora H,Eudora H,Corpo e Banho,Corpo e Banho,125 ml (90 g),,38.99,,,,False,69,,eudora-c16-2026,Eudora,16
+85321,Espuma Para Barbear Eudora H,Eudora H,Corpo e Banho,Corpo e Banho,200 ml (190 g),,57.99,,,,False,69,,eudora-c16-2026,Eudora,16
+50112,Eudora H Refresh Desodorante Colônia,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,,,,False,69,,eudora-c16-2026,Eudora,16
+53452,Eudora H Flow Desodorante Colônia,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,,,,False,69,,eudora-c16-2026,Eudora,16
+94052,Eudora H Energy Desodorante Colônia,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,,,,False,69,,eudora-c16-2026,Eudora,16
+94054,Eudora H Acqua Desodorante Colônia,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,,,,False,69,,eudora-c16-2026,Eudora,16
+94053,Eudora H Ready Desodorante Colônia,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,,,,False,69,,eudora-c16-2026,Eudora,16
+94051,Eudora H Desodorante Colônia,Eudora H,Perfumaria,Perfumaria,100 ml,,124.9,,,,False,69,,eudora-c16-2026,Eudora,16
+58933,Bold Intention Desodorante Colônia,Intention,Perfumaria,Perfumaria,100ml,,159.9,,,,False,70,,eudora-c16-2026,Eudora,16
+87290,Close Intention Desodorante Colônia,Intention,Perfumaria,Perfumaria,100ml,,159.9,,,,False,70,,eudora-c16-2026,Eudora,16
+49063,Strong Intention Desodorante Colônia,Intention,Perfumaria,Perfumaria,100ml,,159.9,,,,False,70,,eudora-c16-2026,Eudora,16
+51432,Intention For Man Bad Desodorante Colônia,Intention,Perfumaria,Perfumaria,100ml,,159.9,117.9,42.0,26.27,True,70,,eudora-c16-2026,Eudora,16
+50010,Intention Body Spray Desodorante,Intention,Perfumaria,Perfumaria,100ml,,47.99,,,,False,70,,eudora-c16-2026,Eudora,16
+78620,Pulse Desodorante Colônia,Pulse,Perfumaria,Perfumaria,100 ml,,94.99,69.9,25.09,26.41,True,71,,eudora-c16-2026,Eudora,16
+87340,Pulse Boost Desodorante Colônia,Pulse,Perfumaria,Perfumaria,100 ml,,94.99,,,,False,71,,eudora-c16-2026,Eudora,16
+85899,Pulse Intense Desodorante Colônia,Pulse,Perfumaria,Perfumaria,100 ml,,94.9,,,,False,71,,eudora-c16-2026,Eudora,16
+58056,Pulse Power Desodorante Colônia,Pulse,Perfumaria,Perfumaria,100 ml,,94.99,,,,False,71,,eudora-c16-2026,Eudora,16
+87338,Pulse Action Desodorante Colônia,Pulse,Perfumaria,Perfumaria,100 ml,,94.99,,,,False,71,,eudora-c16-2026,Eudora,16
+53013,Pulse Action Balm Pós-Barba,Pulse,Barba,Barba,75 g,,49.99,,,,False,71,,eudora-c16-2026,Eudora,16
+87334,Volpe Next Desodorante Colônia,Volpe,Perfumaria,Perfumaria,100 ml,,174.9,119.9,55.0,31.45,True,72,,eudora-c16-2026,Eudora,16
+92219,Volpe Desodorante Colônia,Volpe,Perfumaria,Perfumaria,100 ml,,174.9,,,,False,72,,eudora-c16-2026,Eudora,16
+87330,Volpe Triumph Desodorante Colônia,Volpe,Perfumaria,Perfumaria,100 ml,,174.9,,,,False,72,,eudora-c16-2026,Eudora,16
+50012,Volpe Desodorante Body Spray,Volpe,Corpo e Banho,Corpo e Banho,100 ml,,47.99,,,,False,72,,eudora-c16-2026,Eudora,16
+49577,Impression Eau de Parfum,Impression,Perfumaria,Perfumaria,100 ml,,259.9,169.9,90.0,34.63,True,72,,eudora-c16-2026,Eudora,16
+49579,Impression In Black Eau de Parfum,Impression,Perfumaria,Perfumaria,100 ml,,259.9,,,,False,72,,eudora-c16-2026,Eudora,16
+49584,Impression In Black Loção Desodorante Hidratante Corporal,Impression,Corpo e Banho,Corpo e Banho,200 ml,,68.99,,,,False,72,,eudora-c16-2026,Eudora,16
+56459,Impression Body Spray Desodorante,Impression,Corpo e Banho,Corpo e Banho,100 ml,,47.99,,,,False,72,,eudora-c16-2026,Eudora,16
+49583,Impression Espuma de Barbear,Impression,Corpo e Banho,Corpo e Banho,200 ml,,77.99,,,,False,72,,eudora-c16-2026,Eudora,16
+49570,Impression Gel Creme Pós-Barba,Impression,Corpo e Banho,Corpo e Banho,75 g,,72.99,34.9,38.09,52.19,True,72,,eudora-c16-2026,Eudora,16
+90984,Creme Hidratante Desodorante Corporal Pink Pitaya,Instance,Hidratação,Hidratação,400 ml,,59.99,44.9,15.09,25.15,True,73,,eudora-c16-2026,Eudora,16
+95675,Body Splash Desodorante Colônia Pink Pitaya,Instance,Perfumaria,Perfumaria,200 ml,,74.99,59.9,15.09,20.12,True,73,,eudora-c16-2026,Eudora,16
+98407,Combo Pink Pitaya (Creme Hidratante 400 ml + Body Splash 200 ml),Instance,Corpo e Banho,Corpo e Banho,400 ml + 200 ml,,134.98,99.9,35.08,25.99,True,73,,eudora-c16-2026,Eudora,16
+90985,Creme Hidratante Desodorante Corporal Efeito Glam Pink Pitaya,Instance,Hidratação,Hidratação,150 ml,,39.99,29.9,10.09,25.23,True,73,,eudora-c16-2026,Eudora,16
+90987,Sabonete em Barra Pink Pitaya,Instance,Corpo e Banho,Corpo e Banho,4 unidades de 80 g,,32.99,29.9,3.09,9.37,True,73,,eudora-c16-2026,Eudora,16
+87766,Body Splash Desodorante Colônia Ameixa e Praliné,Instance,Perfumaria,Perfumaria,200 ml,,74.99,,,,False,74,,eudora-c16-2026,Eudora,16
+87175,Refil Creme Hidratante Desodorante Corporal Ameixa e Praliné,Instance,Cuidado Corporal,Cuidado Corporal,350 ml,,49.99,37.9,12.09,24.18,True,74,,eudora-c16-2026,Eudora,16
+87155,Creme Hidratante Desodorante Corporal Ameixa e Praliné,Instance,Cuidado Corporal,Cuidado Corporal,400 ml,,59.99,48.9,11.09,18.49,True,74,,eudora-c16-2026,Eudora,16
+85396,Creme para Mãos Ameixa e Praliné,Instance,Cuidado Corporal,Cuidado Corporal,30 g,,22.99,,,,False,74,,eudora-c16-2026,Eudora,16
+85395,Sabonete em Barra Ameixa e Praliné,Instance,Cuidado Corporal,Cuidado Corporal,4 unidades de 80 g,,32.99,29.9,3.09,9.37,True,74,,eudora-c16-2026,Eudora,16
+85955,Sabonete em Calda Ameixa e Praliné,Instance,Cuidado Corporal,Cuidado Corporal,180 ml,,44.99,38.9,6.09,13.54,True,74,,eudora-c16-2026,Eudora,16
+95353,Creme Hidratante Desodorante Corporal Ameixa e Praliné,Instance,Cuidado Corporal,Cuidado Corporal,180 ml,,39.99,30.9,9.09,22.73,True,74,,eudora-c16-2026,Eudora,16
+85316,Creme para Mãos Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,30 g,,22.99,,,,False,75,,eudora-c16-2026,Eudora,16
+85285,Esfoliante Corporal Perfumado Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,180 g,,44.99,,,,False,75,,eudora-c16-2026,Eudora,16
+87767,Body Splash Desodorante Colônia Instance Frutas Vermelhas,Instance,Perfumaria,Perfumaria,200 ml,,74.99,,,,False,75,,eudora-c16-2026,Eudora,16
+87257,Sabonete Líquido Perfumado Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,400 ml,,49.99,,,,False,75,,eudora-c16-2026,Eudora,16
+85306,Sabonete Líquido Íntimo Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,180 ml,,44.99,,,,False,75,,eudora-c16-2026,Eudora,16
+86035,Antitranspirante Desodorante Aerossol Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,150 ml,,34.99,,,,False,75,,eudora-c16-2026,Eudora,16
+86031,Antitranspirante Roll-On Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,55 ml,,23.99,,,,False,75,,eudora-c16-2026,Eudora,16
+85369,Sabonete em Barra Instance Frutas Vermelhas,Instance,Corpo e Banho,Corpo e Banho,4 unidades de 80 g,,32.99,,,,False,75,,eudora-c16-2026,Eudora,16
+87128,Creme Hidratante Desodorante Corporal Frutas Vermelhas,Instance,Cuidado Corporal,Cuidado Corporal,180 ml,,39.99,,,,False,76,,eudora-c16-2026,Eudora,16
+87126,Creme Hidratante Desodorante Corporal Frutas Vermelhas,Instance,Cuidado Corporal,Cuidado Corporal,400 ml,,59.99,,,,False,76,,eudora-c16-2026,Eudora,16
+87127,Refil Creme Hidratante Desodorante Corporal Frutas Vermelhas,Instance,Cuidado Corporal,Cuidado Corporal,350 ml,,49.99,,,,False,76,,eudora-c16-2026,Eudora,16
+47818,Antitranspirante Desodorante Aerossol Sem Perfume,Instance,Desodorantes,Desodorantes,150 ml (90 g),,34.99,,,,False,76,,eudora-c16-2026,Eudora,16
+47815,Antitranspirante Desodorante Aerossol Chá Verde e Romã,Instance,Desodorantes,Desodorantes,150 ml (90 g),,34.99,,,,False,76,,eudora-c16-2026,Eudora,16
+86032,Antitranspirante Desodorante Aerossol Algodão & Jasmim,Instance,Desodorantes,Desodorantes,150 ml (90 g),,34.99,30.9,4.09,11.69,True,76,,eudora-c16-2026,Eudora,16
+86041,Antitranspirante Roll-On Chá Verde & Romã,Instance,Desodorantes,Desodorantes,55 ml,,23.99,,,,False,76,,eudora-c16-2026,Eudora,16
+86038,Antitranspirante em Creme Chá Verde & Romã,Instance,Desodorantes,Desodorantes,80 g,,26.99,22.9,4.09,15.15,True,76,,eudora-c16-2026,Eudora,16
+87135,Creme Hidratante Desodorante Corporal Obsessão por Baunilha,Instance,Hidratação,Hidratação,400 ml,,59.99,,,,False,77,,eudora-c16-2026,Eudora,16
+87136,Refil Creme Hidratante Desodorante Corporal Obsessão por Baunilha,Instance,Hidratação,Hidratação,350 ml,,49.99,,,,False,77,,eudora-c16-2026,Eudora,16
+87759,Body Splash Desodorante Colônia Obsessão por Baunilha,Instance,Perfumaria,Perfumaria,200 ml,,74.99,,,,False,77,,eudora-c16-2026,Eudora,16
+87256,Sabonete Líquido Perfumado Obsessão por Baunilha,Instance,Corpo e Banho,Corpo e Banho,400 ml,,49.99,,,,False,77,,eudora-c16-2026,Eudora,16
+86030,Antitranspirante em Creme Obsessão por Baunilha,Instance,Corpo e Banho,Corpo e Banho,80 g,,26.99,22.9,4.09,15.15,True,77,,eudora-c16-2026,Eudora,16
+87137,Creme Hidratante Desodorante Corporal Obsessão por Baunilha,Instance,Hidratação,Hidratação,180 ml,,39.99,,,,False,77,,eudora-c16-2026,Eudora,16
+87253,Creme para Mãos Obsessão por Baunilha,Instance,Hidratação,Hidratação,30 g,,22.99,,,,False,77,,eudora-c16-2026,Eudora,16
+87779,Refil Creme Hidratante Desodorante Corporal Baunilha Intensa,Instance,Corpo e Banho,Corpo e Banho,350 ml,,49.99,49.99,,,False,78,,eudora-c16-2026,Eudora,16
+89701,Body Splash Desodorante Colônia Baunilha Intensa,Instance,Perfumaria,Perfumaria,200 ml,,74.99,74.99,,,False,78,,eudora-c16-2026,Eudora,16
+86225,Creme Hidratante Desodorante Corporal Baunilha Intensa,Instance,Corpo e Banho,Corpo e Banho,400 ml,,59.99,59.99,,,False,78,,eudora-c16-2026,Eudora,16
+88065,Sabonetes Sortidos em Barra,Instance,Corpo e Banho,Corpo e Banho,4 unidades de 80 g,,32.99,32.99,,,False,78,,eudora-c16-2026,Eudora,16
+86227,Sabonete Líquido Perfumado Baunilha Intensa,Instance,Corpo e Banho,Corpo e Banho,200 ml,,39.99,39.99,,,False,78,,eudora-c16-2026,Eudora,16
+86226,Creme para Mãos Baunilha Intensa,Instance,Hidratação,Hidratação,30 g,,22.99,22.99,,,False,78,,eudora-c16-2026,Eudora,16
+94815,Instance Joias do Oriente Creme Hidratante Desodorante Corporal Tâmara Negra,Instance,Hidratação,Hidratação,400ml,,59.99,,,,False,79,,eudora-c16-2026,Eudora,16
+94816,Instance Joias do Oriente Creme Hidratante Desodorante Corporal Âmbar Precioso,Instance,Hidratação,Hidratação,400ml,,59.99,,,,False,79,,eudora-c16-2026,Eudora,16
+95094,Instance Joias do Oriente Body Splash Desodorante Colônia Tâmara Negra,Instance,Perfumaria,Perfumaria,200ml,,74.99,,,,False,79,,eudora-c16-2026,Eudora,16
+95093,Instance Joias do Oriente Body Splash Desodorante Colônia Âmbar Precioso,Instance,Perfumaria,Perfumaria,200ml,,74.99,,,,False,79,,eudora-c16-2026,Eudora,16
+94820,Instance Joias do Oriente Sabonete Líquido em Calda Tâmara Negra,Instance,Corpo e Banho,Corpo e Banho,180ml,,44.99,,,,False,79,,eudora-c16-2026,Eudora,16
+94821,Instance Joias do Oriente Creme Hidratante Desodorante Concentrado Ultra Perfumado Âmbar Precioso,Instance,Hidratação,Hidratação,180ml,,39.99,,,,False,79,,eudora-c16-2026,Eudora,16
+87131,Creme Desodorante Hidratante Corporal Karité,Instance,Cuidado Corporal,Cuidado Corporal,400 ml,,59.99,,,,False,80,,eudora-c16-2026,Eudora,16
+87132,Refil Creme Desodorante Hidratante Corporal Karité,Instance,Cuidado Corporal,Cuidado Corporal,350 ml,,49.99,,,,False,80,,eudora-c16-2026,Eudora,16
+85317,Creme para Mãos Karité,Instance,Cuidado Corporal,Cuidado Corporal,30 g,,22.99,,,,False,80,,eudora-c16-2026,Eudora,16
+94984,Creme Hidratante Desodorante Corporal Karité,Instance,Cuidado Corporal,Cuidado Corporal,180 ml,,39.99,,,,False,80,,eudora-c16-2026,Eudora,16
+87765,Body Splash Desodorante Colônia Karité,Instance,Cuidado Corporal,Cuidado Corporal,200 ml,,74.99,,,,False,80,,eudora-c16-2026,Eudora,16
+85308,Sabonete em Barra Karité,Instance,Cuidado Corporal,Cuidado Corporal,4 unidades de 80 g,,32.99,,,,False,80,,eudora-c16-2026,Eudora,16
+87259,Sabonete Líquido Perfumado Karité,Instance,Cuidado Corporal,Cuidado Corporal,400 ml,,49.99,,,,False,80,,eudora-c16-2026,Eudora,16
+86042,Antitranspirante em Creme Karité,Instance,Cuidado Corporal,Cuidado Corporal,80 g,,26.99,,,,False,80,,eudora-c16-2026,Eudora,16
+53196,Antitranspirante Desodorante Aerossol Karité,Instance,Cuidado Corporal,Cuidado Corporal,150 ml (90 g),,34.99,,,,False,80,,eudora-c16-2026,Eudora,16
+87761,Body Splash Desodorante Colônia Maracujá,Instance,Perfumaria,Perfumaria,200 ml,,74.99,,,,False,81,,eudora-c16-2026,Eudora,16
+87152,Creme Desodorante Hidratante Corporal Maracujá,Instance,Hidratação,Hidratação,400 ml,,59.99,,,,False,81,,eudora-c16-2026,Eudora,16
+87153,Refil Creme Desodorante Hidratante Corporal Maracujá,Instance,Hidratação,Hidratação,350 ml,,49.99,34.9,15.09,30.19,True,81,,eudora-c16-2026,Eudora,16
+85313,Sabonete em Barra Maracujá,Instance,Corpo e Banho,Corpo e Banho,4 unidades de 80 g,,32.99,,,,False,81,,eudora-c16-2026,Eudora,16
+87154,Creme Hidratante Desodorante Corporal Maracujá,Instance,Hidratação,Hidratação,180 ml,,37.99,,,,False,81,,eudora-c16-2026,Eudora,16
+89451,Creme Hidratante Desodorante Corporal Morango Irresistível,Instance,Cuidado Corporal,Cuidado Corporal,400 ml,,59.99,,,,False,82,,eudora-c16-2026,Eudora,16
+95619,Body Splash Desodorante Colônia Morango Irresistível,Instance,Cuidado Corporal,Cuidado Corporal,200 ml,,74.99,,,,False,82,,eudora-c16-2026,Eudora,16
+89453,Sabonete em Barra Morango Irresistível,Instance,Cuidado Corporal,Cuidado Corporal,4 unidades de 80 g,,32.99,,,,False,82,,eudora-c16-2026,Eudora,16
+87157,Creme Desodorante Hidratante Corporal Rosa Absoluta,Instance,Cuidado Corporal,Cuidado Corporal,400 ml,,59.99,,,,False,82,,eudora-c16-2026,Eudora,16
+87262,Refil Creme Desodorante Hidratante Corporal Rosa Absoluta,Instance,Cuidado Corporal,Cuidado Corporal,350 ml,,49.99,,,,False,82,,eudora-c16-2026,Eudora,16
+86501,Body Splash Desodorante Colônia Rosa Absoluta,Instance,Cuidado Corporal,Cuidado Corporal,200 ml,,74.99,59.9,15.09,20.12,True,82,,eudora-c16-2026,Eudora,16
+85353,Sabonete em Barra Rosa Absoluta,Instance,Cuidado Corporal,Cuidado Corporal,4 unidades de 80 g,,32.99,,,,False,82,,eudora-c16-2026,Eudora,16
+85314,Óleo Bifásico Corporal Rosa Absoluta,Instance,Cuidado Corporal,Cuidado Corporal,200 ml,,69.99,,,,False,82,,eudora-c16-2026,Eudora,16
+85315,Creme para Mãos Rosa Absoluta,Instance,Cuidado Corporal,Cuidado Corporal,30 g,,22.99,,,,False,82,,eudora-c16-2026,Eudora,16
+93062,Hidratante Desodorante Corporal Âmbar Dourado,La Piel,Corpo e Banho,Corpo e Banho,400 ml,,67.99,,,,False,83,,eudora-c16-2026,Eudora,16
+47888,Refil Hidratante Desodorante Corporal Âmbar Dourado,La Piel,Corpo e Banho,Corpo e Banho,350 ml,,57.99,,,,False,83,,eudora-c16-2026,Eudora,16
+93738,Sérum Concentrado Corporal Booster de Biocolágeno,La Piel,Corpo e Banho,Corpo e Banho,25 ml,,57.99,46.9,11.09,19.12,True,83,,eudora-c16-2026,Eudora,16
+93063,Hidratante Desodorante Corporal Tâmaras Egípcias,La Piel,Corpo e Banho,Corpo e Banho,400 ml,,67.99,,,,False,83,,eudora-c16-2026,Eudora,16
+47887,Refil Hidratante Desodorante Corporal Tâmaras Egípcias,La Piel,Corpo e Banho,Corpo e Banho,350 ml,,57.99,,,,False,83,,eudora-c16-2026,Eudora,16
+93081,Creme Hidratante Mãos Tâmaras Egípcias,La Piel,Corpo e Banho,Corpo e Banho,50 g,,34.99,,,,False,83,,eudora-c16-2026,Eudora,16
+93067,Hidratante Desodorante Corporal Cristais do Himalaia,La Piel,Corpo e Banho,Corpo e Banho,400 ml,,67.99,,,,False,83,,eudora-c16-2026,Eudora,16
+50406,Refil Hidratante Desodorante Corporal Cristais do Himalaia,La Piel,Corpo e Banho,Corpo e Banho,350 ml,,57.99,,,,False,83,,eudora-c16-2026,Eudora,16
+93729,Eudora Baby Toalha com Capuz,Eudora Baby,Infantil,Infantil,80 x 80 cm,,114.9,,,,False,83,,eudora-c16-2026,Eudora,16
+58404,Hidratante Desodorante Corporal Biosensitive,La Piel Biosensitive,Cuidado Corporal,Cuidado Corporal,400ml,,67.99,,,,False,84,,eudora-c16-2026,Eudora,16
+58405,Gel Hidratante de Banho Corporal Biosensitive,La Piel Biosensitive,Cuidado Corporal,Cuidado Corporal,200g,,47.99,,,,False,84,,eudora-c16-2026,Eudora,16
+58406,Balm Tripla Ação Intensiva Desodorante Corporal Biosensitive,La Piel Biosensitive,Cuidado Corporal,Cuidado Corporal,100g,,52.99,,,,False,84,,eudora-c16-2026,Eudora,16
+55630,Desodorante Antitranspirante Roll-On Biosensitive,La Piel Biosensitive,Cuidado Corporal,Cuidado Corporal,55ml,,27.99,,,,False,84,,eudora-c16-2026,Eudora,16
+93065,Hidratante Desodorante Corporal Algas do Pacífico,La Piel Algas do Pacífico,Cuidado Corporal,Cuidado Corporal,400ml,,67.99,52.9,15.09,22.19,True,84,,eudora-c16-2026,Eudora,16
+51795,Refil Hidratante Desodorante Corporal Algas do Pacífico,La Piel Algas do Pacífico,Cuidado Corporal,Cuidado Corporal,350ml,,57.99,44.9,13.09,22.57,True,84,,eudora-c16-2026,Eudora,16
+47608,Creme Esfoliante Corporal Algas do Pacífico,La Piel Algas do Pacífico,Cuidado Corporal,Cuidado Corporal,200g,,47.99,,,,False,84,,eudora-c16-2026,Eudora,16
+93749,Creme Hidratante para Colo e Pescoço Algas do Pacífico,La Piel Algas do Pacífico,Cuidado Corporal,Cuidado Corporal,200g,,82.99,,,,False,84,,eudora-c16-2026,Eudora,16
+93747,Óleo Hidratante Desodorante Corporal Algas do Pacífico,La Piel Algas do Pacífico,Cuidado Corporal,Cuidado Corporal,200ml,,77.99,,,,False,84,,eudora-c16-2026,Eudora,16
+97809,Batom Líquido Matte Blur Nude Rosado,Matte Blur,Maquiagem,Maquiagem,5 ml,,64.99,47.9,17.09,26.3,True,85,,eudora-c16-2026,Eudora,16
+97811,Batom Líquido Matte Blur Marrom,Matte Blur,Maquiagem,Maquiagem,5 ml,,64.99,47.9,17.09,26.3,True,85,,eudora-c16-2026,Eudora,16
+97812,Batom Líquido Matte Blur Vermelho,Matte Blur,Maquiagem,Maquiagem,5 ml,,64.99,47.9,17.09,26.3,True,85,,eudora-c16-2026,Eudora,16
+97815,Batom Líquido Matte Blur Malva,Matte Blur,Maquiagem,Maquiagem,5 ml,,64.99,47.9,17.09,26.3,True,85,,eudora-c16-2026,Eudora,16
+56646,Refil Batom Amulips Efeito Matte Alaranjado Destemido,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56637,Refil Batom Amulips Efeito Matte Vinho Atitude,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56644,Refil Batom Amulips Efeito Matte Vermelho Coragem,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56645,Refil Batom Amulips Efeito Matte Marrom Determinado,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56640,Refil Batom Amulips Efeito Semi Matte Malva Incomparável,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56636,Refil Batom Amulips Efeito Semi Matte Vermelho Envolvente,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56639,Refil Batom Amulips Efeito Semi Matte Rosa Autêntico,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56638,Refil Batom Amulips Efeito Semi Matte Marrom Confiante,Amulips,Maquiagem,Maquiagem,"3,4 g",,44.99,26.9,18.09,40.21,True,85,,eudora-c16-2026,Eudora,16
+56643,Case Batom Amulips Rosa Glamour,Amulips,Maquiagem,Maquiagem,,,22.99,15.9,7.09,30.84,True,85,,eudora-c16-2026,Eudora,16
+56642,Case Batom Amulips Dourado Sofisticado,Amulips,Maquiagem,Maquiagem,,,22.99,15.9,7.09,30.84,True,85,,eudora-c16-2026,Eudora,16
+56641,Case Batom Amulips Preto Chique,Amulips,Maquiagem,Maquiagem,,,22.99,15.9,7.09,30.84,True,85,,eudora-c16-2026,Eudora,16
+89098,Gloss Labial Micro Injection Cherry,Micro Injection,Maquiagem,Maquiagem,"5,2 ml",,69.99,,,,False,86,,eudora-c16-2026,Eudora,16
+89097,Gloss Labial Micro Injection Brown,Micro Injection,Maquiagem,Maquiagem,"5,2 ml",,69.99,,,,False,86,,eudora-c16-2026,Eudora,16
+89096,Gloss Labial Micro Injection Rose,Micro Injection,Maquiagem,Maquiagem,"5,2 ml",,69.99,,,,False,86,,eudora-c16-2026,Eudora,16
+94210,Gloss Labial Micro Injection Fúcsia,Micro Injection,Maquiagem,Maquiagem,"5,2 ml",,69.99,,,,False,86,,eudora-c16-2026,Eudora,16
+89095,Gloss Labial Micro Injection Pink Extreme,Micro Injection,Maquiagem,Maquiagem,"5,2 ml",,69.99,,,,False,86,,eudora-c16-2026,Eudora,16
+94212,Lapiseira Contorno Labial Micro Injection Soft Rose,Micro Injection,Maquiagem,Maquiagem,"0,3 g",,49.99,,,,False,86,,eudora-c16-2026,Eudora,16
+94213,Lapiseira Contorno Labial Micro Injection Bare Brown,Micro Injection,Maquiagem,Maquiagem,"0,3 g",,49.99,,,,False,86,,eudora-c16-2026,Eudora,16
+56770,Porta-Batom Eudora,Eudora,Maquiagem,Maquiagem,,,49.99,,,,False,86,,eudora-c16-2026,Eudora,16
+93350,Gloss Treat Ácido Hialurônico Avelã Sutil,Treat,Maquiagem,Maquiagem,"5,4 ml",,52.99,29.9,23.09,43.57,True,86,,eudora-c16-2026,Eudora,16
+93351,Gloss Treat Ácido Hialurônico Rosé Natural,Treat,Maquiagem,Maquiagem,"5,4 ml",,52.99,29.9,23.09,43.57,True,86,,eudora-c16-2026,Eudora,16
+87439,Batom Matte Supreme Marrom Precioso,Eudora Make,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,87,,eudora-c16-2026,Eudora,16
+87442,Batom Matte Supreme Rosado Suave,Eudora Make,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,87,,eudora-c16-2026,Eudora,16
+79364,Batom Matte Supreme Bordô Aveludado,Eudora Make,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,87,,eudora-c16-2026,Eudora,16
+79365,Batom Matte Supreme Vermelho Âmbar,Eudora Make,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,87,,eudora-c16-2026,Eudora,16
+79363,Batom Matte Supreme Fúcsia Valioso,Eudora Make,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,87,,eudora-c16-2026,Eudora,16
+87440,Batom Matte Supreme Nude Conforto,Eudora Make,Maquiagem,Maquiagem,4 ml,,59.99,44.99,15.0,25.0,True,87,,eudora-c16-2026,Eudora,16
+50480,Glam Batom Micro Plump Avelã Magnífico,Glam,Maquiagem,Maquiagem,"1,8 g",,64.99,,,,False,87,,eudora-c16-2026,Eudora,16
+50481,Glam Batom Micro Plump Vermelho Único,Glam,Maquiagem,Maquiagem,"1,8 g",,64.99,,,,False,87,,eudora-c16-2026,Eudora,16
+50482,Glam Batom Micro Plump Terracota Retrô,Glam,Maquiagem,Maquiagem,"1,8 g",,64.99,,,,False,87,,eudora-c16-2026,Eudora,16
+50483,Glam Batom Micro Plump Rosado Nobre,Glam,Maquiagem,Maquiagem,"1,8 g",,64.99,,,,False,87,,eudora-c16-2026,Eudora,16
+50484,Glam Batom Micro Plump Malva Essencial,Glam,Maquiagem,Maquiagem,"1,8 g",,64.99,,,,False,87,,eudora-c16-2026,Eudora,16
+95888,Lapiseira Multifuncional Adam,Eudora Make,Maquiagem,Maquiagem,"0,3 g",,39.99,,,,False,88,,eudora-c16-2026,Eudora,16
+95367,Batom Líquido Matte Supreme Adam,Eudora Make,Maquiagem,Maquiagem,4 ml,,61.99,46.49,15.5,25.0,True,88,,eudora-c16-2026,Eudora,16
+95670,Gloss Líquido Adam,Eudora Make,Maquiagem,Maquiagem,"5,2 ml",,36.99,,,,False,88,,eudora-c16-2026,Eudora,16
+53019,Batom Líquido Duo Clinical Pink Único,Duo Clinical,Maquiagem,Maquiagem,"3,5 g",,64.99,,,,False,88,,eudora-c16-2026,Eudora,16
+56761,Batom Líquido Duo Clinical Vermelho Imprescindível,Duo Clinical,Maquiagem,Maquiagem,"3,5 g",,64.99,,,,False,88,,eudora-c16-2026,Eudora,16
+84878,Batom Líquido Duo Clinical Canela Sublime,Duo Clinical,Maquiagem,Maquiagem,"3,5 g",,64.99,,,,False,88,,eudora-c16-2026,Eudora,16
+84879,Batom Líquido Duo Clinical Magenta Enigmático,Duo Clinical,Maquiagem,Maquiagem,"3,5 g",,64.99,,,,False,88,,eudora-c16-2026,Eudora,16
+84881,Batom Líquido Duo Clinical Rosado Essencial,Duo Clinical,Maquiagem,Maquiagem,"3,5 g",,64.99,,,,False,88,,eudora-c16-2026,Eudora,16
+84882,Batom Líquido Duo Clinical Vermelho Magnífico,Duo Clinical,Maquiagem,Maquiagem,"3,5 g",,64.99,,,,False,88,,eudora-c16-2026,Eudora,16
+84880,Batom Líquido Duo Clinical Mascavo Irresistível,Duo Clinical,Maquiagem,Maquiagem,"3,5 g",,64.99,,,,False,88,,eudora-c16-2026,Eudora,16
+86534,Batom Hidratante Kiss Me Vermelho Arraso,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+84862,Batom Hidratante Kiss Me Malva da Moda,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+84864,Batom Hidratante Kiss Me Rosa Atitude,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+84860,Batom Hidratante Kiss Me Castanho Passarela,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+84861,Batom Hidratante Kiss Me Look do Dia,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+84863,Batom Hidratante Kiss Me Nude Veludo,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+86524,Batom Hidratante Kiss Me Marrom Desfile,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+84859,Batom Hidratante Kiss Me Avelã,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,89,,eudora-c16-2026,Eudora,16
+84908,Batom Tint Mood Rosado Energy,Tint Mood,Maquiagem,Maquiagem,"5,5ml",,34.99,29.9,5.09,14.55,True,89,,eudora-c16-2026,Eudora,16
+84907,Batom Tint Mood Vermelho Happy,Tint Mood,Maquiagem,Maquiagem,"5,5ml",,34.99,29.9,5.09,14.55,True,89,,eudora-c16-2026,Eudora,16
+86605,Batom Tint Mood Uva Relax,Tint Mood,Maquiagem,Maquiagem,"5,5ml",,34.99,29.9,5.09,14.55,True,89,,eudora-c16-2026,Eudora,16
+58334,Batom Líquido Turbo Semi Matte Rosa Pink,Turbo,Maquiagem,Maquiagem,"5,2ml",,39.99,,,,False,89,,eudora-c16-2026,Eudora,16
+58333,Batom Líquido Turbo Semi Matte Vermelho Turbinado,Turbo,Maquiagem,Maquiagem,"5,2ml",,39.99,,,,False,89,,eudora-c16-2026,Eudora,16
+58335,Batom Líquido Turbo Semi Matte Marrom Turbinado,Turbo,Maquiagem,Maquiagem,"5,2ml",,39.99,,,,False,89,,eudora-c16-2026,Eudora,16
+84869,Batom Matte Kiss Me Nude Destaque,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84870,Batom Matte Kiss Me Nude Expressão,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+86535,Batom Matte Kiss Me Nude Caramelo,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84877,Batom Matte Kiss Me Vinho Cabernet,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84872,Batom Matte Kiss Me Nude Realce,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84871,Batom Matte Kiss Me Nude Poder,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84876,Batom Matte Kiss Me Vermelho Paparazzi,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84875,Batom Matte Kiss Me Vermelho Moderno,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84874,Batom Matte Kiss Me Rose Único,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84873,Batom Matte Kiss Me Pink Nude,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84865,Batom Matte Kiss Me Nude Estilo,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84868,Batom Matte Kiss Me Nude Autoral,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84867,Batom Matte Kiss Me Marrom Tendência,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+84866,Batom Matte Kiss Me Marrom Autêntico,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+86533,Batom Matte Kiss Me Magma Obsessão,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+86536,Batom Matte Kiss Me Nude Querido,Kiss Me,Maquiagem,Maquiagem,"3,7g",,37.99,,,,True,90,,eudora-c16-2026,Eudora,16
+85006,Gloss Kiss Me Incolor,Kiss Me,Maquiagem,Maquiagem,"5,2ml",,36.99,19.9,17.09,46.2,True,90,,eudora-c16-2026,Eudora,16
+86611,Gloss Kiss Me Pêssego Flash,Kiss Me,Maquiagem,Maquiagem,"5,2ml",,36.99,19.9,17.09,46.2,True,90,,eudora-c16-2026,Eudora,16
+86555,Gloss Kiss Me Rosa Holofote,Kiss Me,Maquiagem,Maquiagem,"5,2ml",,36.99,19.9,17.09,46.2,True,90,,eudora-c16-2026,Eudora,16
+89846,Lip Oil Kiss Me Tint Charm Brown,Kiss Me,Maquiagem,Maquiagem,2 ml,,69.99,69.99,,,False,91,,eudora-c16-2026,Eudora,16
+89848,Lip Oil Kiss Me Tint Charm Red,Kiss Me,Maquiagem,Maquiagem,2 ml,,69.99,69.99,,,False,91,,eudora-c16-2026,Eudora,16
+89849,Lip Oil Kiss Me Tint Charm Pink,Kiss Me,Maquiagem,Maquiagem,2 ml,,69.99,69.99,,,False,91,,eudora-c16-2026,Eudora,16
+89845,Lip Oil Kiss Me Tint Charm Peach,Kiss Me,Maquiagem,Maquiagem,2 ml,,69.99,69.99,,,False,91,,eudora-c16-2026,Eudora,16
+56648,Eudora Glam Estojo,Glam,Maquiagem,Maquiagem,,,115.99,115.99,,,False,91,,eudora-c16-2026,Eudora,16
+55880,Batom Cremoso Metals Vermelho Precioso,Glam,Maquiagem,Maquiagem,2 g,,54.99,54.99,,,False,91,,eudora-c16-2026,Eudora,16
+55881,Batom Cremoso Metals Nude Nobre,Glam,Maquiagem,Maquiagem,2 g,,54.99,54.99,,,False,91,,eudora-c16-2026,Eudora,16
+85823,Lápis Multifuncional 3-1 Cherry Vermelho,Kiss Me,Maquiagem,Maquiagem,"1,2 g",,32.99,32.99,,,False,91,,eudora-c16-2026,Eudora,16
+87435,Batom Líquido Matte Tint Forever Vermelho Radiante,Forever Matte Tint,Maquiagem,Maquiagem,4 ml,,59.99,59.99,,,False,92,,eudora-c16-2026,Eudora,16
+87444,Batom Líquido Matte Tint Forever Bordô Intenso,Forever Matte Tint,Maquiagem,Maquiagem,4 ml,,59.99,59.99,,,False,92,,eudora-c16-2026,Eudora,16
+87437,Batom Líquido Matte Tint Forever Nude Icônico,Forever Matte Tint,Maquiagem,Maquiagem,4 ml,,59.99,59.99,,,False,92,,eudora-c16-2026,Eudora,16
+87446,Batom Líquido Matte Tint Forever Vinho Sublime,Forever Matte Tint,Maquiagem,Maquiagem,4 ml,,59.99,59.99,,,False,92,,eudora-c16-2026,Eudora,16
+87436,Batom Líquido Matte Tint Forever Rosé Vintage,Forever Matte Tint,Maquiagem,Maquiagem,4 ml,,59.99,59.99,,,False,92,,eudora-c16-2026,Eudora,16
+87404,Máscara Para Sobrancelhas à Prova D'água,Eudora Make,Maquiagem,Maquiagem,4 g,,62.99,62.99,,,False,92,,eudora-c16-2026,Eudora,16
+57021,Lapiseira Retrátil Para Sobrancelhas Claro,Eudora Make,Maquiagem,Maquiagem,"0,35 g",,62.99,62.99,,,False,92,,eudora-c16-2026,Eudora,16
+57023,Lapiseira Retrátil Para Sobrancelhas Escuro,Eudora Make,Maquiagem,Maquiagem,"0,35 g",,62.99,62.99,,,False,92,,eudora-c16-2026,Eudora,16
+84921,Lápis Para Sobrancelhas Claro,Turbo,Maquiagem,Maquiagem,"1,1 g",,39.99,29.9,10.09,25.23,True,92,,eudora-c16-2026,Eudora,16
+84922,Lápis Para Sobrancelhas Médio,Turbo,Maquiagem,Maquiagem,"1,1 g",,39.99,29.9,10.09,25.23,True,92,,eudora-c16-2026,Eudora,16
+90663,Lápis Para Sobrancelhas Escuro,Turbo,Maquiagem,Maquiagem,"1,1 g",,39.99,29.9,10.09,25.23,True,92,,eudora-c16-2026,Eudora,16
+55800,Palette de Sombras Metals,Glam,Maquiagem,Maquiagem,"5,85g",,104.99,,,,False,93,,eudora-c16-2026,Eudora,16
+55799,Palette Sombras Turbo,Glam,Maquiagem,Maquiagem,8g,,57.99,39.9,18.09,31.2,True,93,,eudora-c16-2026,Eudora,16
+89980,Paleta de Sombras Turbo,Glam,Maquiagem,Maquiagem,8g,,55.99,,,,False,93,,eudora-c16-2026,Eudora,16
+81130,Kit de Pincéis Olhos,Glam,Maquiagem,Maquiagem,,,62.99,40.94,22.05,35.01,True,93,,eudora-c16-2026,Eudora,16
+84926,Lápis Retrátil Turbo Preto,Glam,Maquiagem,Maquiagem,"3,5g",,39.99,29.9,10.09,25.23,True,93,,eudora-c16-2026,Eudora,16
+84928,Lápis Retrátil Turbo Marrom,Glam,Maquiagem,Maquiagem,"3,5g",,39.99,29.9,10.09,25.23,True,93,,eudora-c16-2026,Eudora,16
+70878,Lápis Kajal com Esfumador Preto Absoluto,Glam,Maquiagem,Maquiagem,"1,1g",,64.99,35.9,29.09,44.76,True,93,,eudora-c16-2026,Eudora,16
+70877,Lápis Kajal com Esfumador Marrom Intenso,Glam,Maquiagem,Maquiagem,"1,1g",,64.99,35.9,29.09,44.76,True,93,,eudora-c16-2026,Eudora,16
+89977,Máscara para Cílios Turbo Dimension,Turbo,Maquiagem,Maquiagem,10 g,,54.99,,,,True,94,,eudora-c16-2026,Eudora,16
+84946,Máscara para Cílios Turbo 7 em 1,Turbo,Maquiagem,Maquiagem,10 g,,54.99,,,,False,94,,eudora-c16-2026,Eudora,16
+56623,Máscara para Cílios Turbo,Soul,Maquiagem,Maquiagem,10 g,,54.99,,,,False,94,,eudora-c16-2026,Eudora,16
+86538,Máscara para Cílios Turbo Volumaço,Turbo,Maquiagem,Maquiagem,10 g,,44.99,,,,True,94,,eudora-c16-2026,Eudora,16
+87434,Delineador à Prova D'Água Preto,Eudora Make,Maquiagem,Maquiagem,3 ml,,54.99,,,,True,94,,eudora-c16-2026,Eudora,16
+70883,Caneta Delineadora Preta,Glam,Maquiagem,Maquiagem,"1,2 ml",,72.99,,,,False,94,,eudora-c16-2026,Eudora,16
+84915,Delineador Líquido Turbo Essencial Preto,Turbo,Maquiagem,Maquiagem,"2,5 ml",,42.99,29.9,13.09,30.45,True,94,,eudora-c16-2026,Eudora,16
+84959,Base Líquida Control Skin Perfection Cor 100 F,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84960,Base Líquida Control Skin Perfection Cor 120 N,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84962,Base Líquida Control Skin Perfection Cor 140 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84963,Base Líquida Control Skin Perfection Cor 170 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84964,Base Líquida Control Skin Perfection Cor 185 F,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84965,Base Líquida Control Skin Perfection Cor 200 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84966,Base Líquida Control Skin Perfection Cor 210 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84967,Base Líquida Control Skin Perfection Cor 215 N,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84968,Base Líquida Control Skin Perfection Cor 225 N,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84969,Base Líquida Control Skin Perfection Cor 235 N,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84970,Base Líquida Control Skin Perfection Cor 250 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84971,Base Líquida Control Skin Perfection Cor 260 N,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84972,Base Líquida Control Skin Perfection Cor 270 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84973,Base Líquida Control Skin Perfection Cor 275 N,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+84961,Base Líquida Control Skin Perfection Cor 288 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+89059,Base Líquida Control Skin Perfection Cor 300 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+89060,Base Líquida Control Skin Perfection Cor 320 Q,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+89061,Base Líquida Control Skin Perfection Cor 325 F,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+89062,Base Líquida Control Skin Perfection Cor 335 F,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+89063,Base Líquida Control Skin Perfection Cor 345 N,Skin Perfection,Maquiagem,Maquiagem,25ml,,77.99,,,,False,95,,eudora-c16-2026,Eudora,16
+81132,Kit de Pincéis Gold Shine,Eudora,Maquiagem,Maquiagem,,,89.99,,,,False,95,,eudora-c16-2026,Eudora,16
+55801,Blush Bronzer Compacto Gradient Metals,Glam,Maquiagem,Maquiagem,7g,,97.99,,,,False,95,,eudora-c16-2026,Eudora,16
+56678,Glam Kit de Pincéis,Glam,Maquiagem,Maquiagem,,,79.99,54.9,25.09,31.37,True,95,,eudora-c16-2026,Eudora,16
+94220,Skin Perfection Corretivo Líquido Cor 120 N,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94221,Skin Perfection Corretivo Líquido Cor 150 Q,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94222,Skin Perfection Corretivo Líquido Cor 190 Q,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94226,Skin Perfection Corretivo Líquido Cor 210 Q,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94227,Skin Perfection Corretivo Líquido Cor 225 Q,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94228,Skin Perfection Corretivo Líquido Cor 250 N,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94229,Skin Perfection Corretivo Líquido Cor 260 Q,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94230,Skin Perfection Corretivo Líquido Cor 270 Q,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94231,Skin Perfection Corretivo Líquido Cor 290 Q,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94232,Skin Perfection Corretivo Líquido Cor 325 F,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94233,Skin Perfection Corretivo Líquido Cor 335 F,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+94234,Skin Perfection Corretivo Líquido Cor 345 N,Skin Perfection,Maquiagem,Maquiagem,4ml,,59.99,39.9,20.09,33.49,True,96,,eudora-c16-2026,Eudora,16
+85008,Skin Perfection Base Líquida Cor 100 F,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85011,Skin Perfection Base Líquida Cor 120 N,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85007,Skin Perfection Base Líquida Cor 140 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85012,Skin Perfection Base Líquida Cor 170 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85013,Skin Perfection Base Líquida Cor 185 F,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85014,Skin Perfection Base Líquida Cor 200 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85015,Skin Perfection Base Líquida Cor 210 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85016,Skin Perfection Base Líquida Cor 215 N,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85017,Skin Perfection Base Líquida Cor 225 N,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85018,Skin Perfection Base Líquida Cor 235 N,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85021,Skin Perfection Base Líquida Cor 250 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85022,Skin Perfection Base Líquida Cor 260 N,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85023,Skin Perfection Base Líquida Cor 270 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85024,Skin Perfection Base Líquida Cor 275 N,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85026,Skin Perfection Base Líquida Cor 288 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85027,Skin Perfection Base Líquida Cor 300 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85029,Skin Perfection Base Líquida Cor 320 Q,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85030,Skin Perfection Base Líquida Cor 325 F,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85031,Skin Perfection Base Líquida Cor 335 F,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85032,Skin Perfection Base Líquida Cor 345 N,Skin Perfection,Maquiagem,Maquiagem,30ml,,107.99,91.9,16.09,14.9,True,96,,eudora-c16-2026,Eudora,16
+85075,Pó Compacto Facial Ultra Matte Cor 100,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+85076,Pó Compacto Facial Ultra Matte Cor 170,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+85077,Pó Compacto Facial Ultra Matte Cor 235,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+85078,Pó Compacto Facial Ultra Matte Cor 270,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+85079,Pó Compacto Facial Ultra Matte Cor 288,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+85080,Pó Compacto Facial Ultra Matte Cor 300,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+85081,Pó Compacto Facial Ultra Matte Cor 325,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+85082,Pó Compacto Facial Ultra Matte Cor 335,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,44.9,15.09,25.15,True,96,,eudora-c16-2026,Eudora,16
+89472,Pó Compacto Facial Ultra Matte Cor 345,Skin Perfection,Maquiagem,Maquiagem,10g,,59.99,48.9,11.09,18.49,True,96,,eudora-c16-2026,Eudora,16
+92648,Skin Perfection Pó Solto Matificante Médio-Escuro,Skin Perfection,Maquiagem,Maquiagem,20g,,87.99,,,,False,96,,eudora-c16-2026,Eudora,16
+92647,Skin Perfection Pó Solto Matificante Médio-Claro,Skin Perfection,Maquiagem,Maquiagem,20g,,87.99,,,,False,96,,eudora-c16-2026,Eudora,16
+55891,Base Líquida Semi Matte Skin Sculpt Cor 00,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55889,Base Líquida Semi Matte Skin Sculpt Cor 03,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55887,Base Líquida Semi Matte Skin Sculpt Cor 05,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55894,Base Líquida Semi Matte Skin Sculpt Cor 10,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55903,Base Líquida Semi Matte Skin Sculpt Cor 15,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55890,Base Líquida Semi Matte Skin Sculpt Cor 25,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55885,Base Líquida Semi Matte Skin Sculpt Cor 35,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55899,Base Líquida Semi Matte Skin Sculpt Cor 50,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55893,Base Líquida Semi Matte Skin Sculpt Cor 65,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55884,Base Líquida Semi Matte Skin Sculpt Cor 83,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55888,Base Líquida Semi Matte Skin Sculpt Cor 85,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+55902,Base Líquida Semi Matte Skin Sculpt Cor 100,Glam,Maquiagem,Maquiagem,30 ml,,89.99,61.9,28.09,31.21,True,97,,eudora-c16-2026,Eudora,16
+80835,Esponja Make Blend,Glam,Maquiagem,Maquiagem,"6 x 5,5 cm",,39.9,,,,False,97,,eudora-c16-2026,Eudora,16
+92312,Skin Perfection Primer Matte,Glam,Maquiagem,Maquiagem,35 ml,,87.99,,,,False,97,,eudora-c16-2026,Eudora,16
+59925,Paetê Shine Iluminador Compacto,Glam,Maquiagem,Maquiagem,5 g,,79.99,,,,False,97,,eudora-c16-2026,Eudora,16
+89635,Kit Miniesponja Blend Perfection,Glam,Maquiagem,Maquiagem,5 unidades,,34.9,,,,False,97,,eudora-c16-2026,Eudora,16
+55796,CC Cream Second Skin Cor 00,Eudora Glam,Maquiagem,Maquiagem,30 ml,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+55795,CC Cream Second Skin Cor 10,Eudora Glam,Maquiagem,Maquiagem,30 ml,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+55797,CC Cream Second Skin Cor 35,Eudora Glam,Maquiagem,Maquiagem,30 ml,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+55798,CC Cream Second Skin Cor 50,Eudora Glam,Maquiagem,Maquiagem,30 ml,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+56708,CC Cream Second Skin Cor 65,Eudora Glam,Maquiagem,Maquiagem,30 ml,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+56709,CC Cream Second Skin Cor 85,Eudora Glam,Maquiagem,Maquiagem,30 ml,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+55879,Blush Unitário Brown Fashioned,Eudora Glam,Maquiagem,Maquiagem,5 g,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+52403,Blush Unitário Peach Bellini,Eudora Glam,Maquiagem,Maquiagem,5 g,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+52404,Blush Unitário Rose Sangria,Eudora Glam,Maquiagem,Maquiagem,5 g,,74.99,,,,False,98,,eudora-c16-2026,Eudora,16
+55882,Eudora Glam Primer Líquido Metals,Eudora Glam,Maquiagem,Maquiagem,32 ml,,92.99,,,,False,98,,eudora-c16-2026,Eudora,16
+52579,Eudora Skin Protect Pó Compacto,Eudora Skin Protect,Maquiagem,Maquiagem,10 g,,69.99,,,,False,98,,eudora-c16-2026,Eudora,16
+51452,Esponja Diamante,Eudora Glam,Maquiagem,Maquiagem,"6 x 5,5 cm",,39.99,,,,False,98,,eudora-c16-2026,Eudora,16
+94789,Corretivo Daily Tint Cor 0 100 F,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+94800,Corretivo Daily Tint Cor 05 130Q,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+94803,Corretivo Daily Tint Cor 10 140Q,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+94817,Corretivo Daily Tint Cor 25 210Q,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+94812,Corretivo Daily Tint Cor 45 230Q,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+94813,Corretivo Daily Tint Cor 65 280Q,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+94814,Corretivo Daily Tint Cor 85 290N,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+94818,Corretivo Daily Tint Cor 95 330Q,Niina Secrets,Maquiagem,Maquiagem,10 ml,,64.99,,,,False,99,,eudora-c16-2026,Eudora,16
+93700,Bruma Facial Nutri Fresh,Niina Secrets,Maquiagem,Maquiagem,110 ml,,74.99,,,,False,99,,eudora-c16-2026,Eudora,16
+90112,Bruma Facial Nutri Fresh Travel Size,Niina Secrets,Maquiagem,Maquiagem,30 ml,,42.99,,,,False,99,,eudora-c16-2026,Eudora,16
+89180,Pincel Retrátil Multifuncional,Niina Secrets,Maquiagem,Maquiagem,"18,5 cm",,79.9,,,,False,99,,eudora-c16-2026,Eudora,16
+48101,Base Líquida Daily Tint Cream Cor 0,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+48106,Base Líquida Daily Tint Cream Cor 03,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+48107,Base Líquida Daily Tint Cream Cor 05,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+48102,Base Líquida Daily Tint Cream Cor 13,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+54525,Base Líquida Daily Tint Cream Cor 25,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+48104,Base Líquida Daily Tint Cream Cor 35,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+48108,Base Líquida Daily Tint Cream Cor 48,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+54527,Base Líquida Daily Tint Cream Cor 60,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+48105,Base Líquida Daily Tint Cream Cor 70,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+48103,Base Líquida Daily Tint Cream Cor 85,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+49459,Base Líquida Daily Tint Cream Cor 95,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+49460,Base Líquida Daily Tint Cream Cor 100,Niina Secrets,Maquiagem,Maquiagem,25ml,,79.99,,,,False,100,,eudora-c16-2026,Eudora,16
+93274,Base Líquida Hidra Glow Cor 00,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93275,Base Líquida Hidra Glow Cor 05,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93277,Base Líquida Hidra Glow Cor 10,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93278,Base Líquida Hidra Glow Cor 13,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93279,Base Líquida Hidra Glow Cor 25,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93280,Base Líquida Hidra Glow Cor 30,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93281,Base Líquida Hidra Glow Cor 35,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93282,Base Líquida Hidra Glow Cor 40,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93283,Base Líquida Hidra Glow Cor 45,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93284,Base Líquida Hidra Glow Cor 55,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93285,Base Líquida Hidra Glow Cor 65,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93286,Base Líquida Hidra Glow Cor 70,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93287,Base Líquida Hidra Glow Cor 75,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93288,Base Líquida Hidra Glow Cor 80,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93289,Base Líquida Hidra Glow Cor 90,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93498,Base Líquida Hidra Glow Cor 95,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+93499,Base Líquida Hidra Glow Cor 100,Niina Secrets,Maquiagem,Maquiagem,30 ml,,97.99,,,,False,101,,eudora-c16-2026,Eudora,16
+54506,Primer Hidra Glow,Niina Secrets,Maquiagem,Maquiagem,15 ml,,82.99,29.9,53.09,63.97,True,101,,eudora-c16-2026,Eudora,16
+55731,Pó Solto Perfect Match Cor 1,Niina Secrets,Maquiagem,Maquiagem,12 g,,72.99,,,,False,101,,eudora-c16-2026,Eudora,16
+55732,Pó Solto Perfect Match Cor 2,Niina Secrets,Maquiagem,Maquiagem,12 g,,72.99,,,,False,101,,eudora-c16-2026,Eudora,16
+55733,Pó Solto Perfect Match Cor 3,Niina Secrets,Maquiagem,Maquiagem,12 g,,72.99,,,,False,101,,eudora-c16-2026,Eudora,16
+55734,Pó Solto Perfect Match Cor 4,Niina Secrets,Maquiagem,Maquiagem,12 g,,72.99,,,,False,101,,eudora-c16-2026,Eudora,16
+55735,Pó Solto Perfect Match Cor 5,Niina Secrets,Maquiagem,Maquiagem,12 g,,72.99,,,,False,101,,eudora-c16-2026,Eudora,16
+55736,Pó Solto Perfect Match Cor 6,Niina Secrets,Maquiagem,Maquiagem,12 g,,72.99,,,,False,101,,eudora-c16-2026,Eudora,16
+87302,Esponja Pink Blend,Niina Secrets,Maquiagem,Maquiagem,"6,1 x 4,5 cm",,39.9,26.9,13.0,32.58,True,101,,eudora-c16-2026,Eudora,16
+59883,Blush Stick Daily Rosa,Niina Secrets,Maquiagem,Maquiagem,5g,,62.99,,,,False,102,,eudora-c16-2026,Eudora,16
+59884,Blush Stick Daily Malva,Niina Secrets,Maquiagem,Maquiagem,5g,,62.99,,,,False,102,,eudora-c16-2026,Eudora,16
+59885,Blush Stick Daily Coral,Niina Secrets,Maquiagem,Maquiagem,5g,,62.99,,,,False,102,,eudora-c16-2026,Eudora,16
+89315,Blush Stick Daily Amora,Niina Secrets,Maquiagem,Maquiagem,5g,,62.99,,,,False,102,,eudora-c16-2026,Eudora,16
+87455,Contorno Stick Cor 1,Niina Secrets,Maquiagem,Maquiagem,5g,,64.99,,,,False,102,,eudora-c16-2026,Eudora,16
+87456,Contorno Stick Cor 2,Niina Secrets,Maquiagem,Maquiagem,5g,,64.99,,,,False,102,,eudora-c16-2026,Eudora,16
+87457,Contorno Stick Cor 3,Niina Secrets,Maquiagem,Maquiagem,5g,,64.99,,,,False,102,,eudora-c16-2026,Eudora,16
+86737,Contorno Stick Cor 4,Niina Secrets,Maquiagem,Maquiagem,5g,,64.99,,,,False,102,,eudora-c16-2026,Eudora,16
+90300,Niina Clutch Gold Secrets,Niina Secrets,Acessórios,Acessórios,"11 x 5,5 x 9,5 cm",,95.9,,,,False,102,,eudora-c16-2026,Eudora,16
+87307,Nécessaire Pink Puffer,Niina Secrets,Acessórios,Acessórios,"24 x 14 x 12,5 cm",,174.9,,,,False,102,,eudora-c16-2026,Eudora,16
+56676,Esponja Pink Puff,Niina Secrets,Acessórios,Acessórios,"6,5 x 1,2 x 7 cm",,22.99,,,,False,102,,eudora-c16-2026,Eudora,16
+96201,Paleta Multifuncional Luminous 01,Niina Secrets,Maquiagem,Maquiagem,12g,,144.99,,,,False,103,,eudora-c16-2026,Eudora,16
+96202,Paleta Multifuncional Luminous 02,Niina Secrets,Maquiagem,Maquiagem,12g,,144.99,,,,False,103,,eudora-c16-2026,Eudora,16
+87308,Kit de Pincéis para Olhos,Niina Secrets,Maquiagem,Maquiagem,4 unidades,,69.99,49.9,20.09,28.7,True,103,,eudora-c16-2026,Eudora,16
+89648,Kit Minipincéis Pink Secrets,Niina Secrets,Maquiagem,Maquiagem,,,105.9,,,,False,103,,eudora-c16-2026,Eudora,16
+89081,Palette Multifuncional Luminous Summer Cor 1,Niina Secrets,Maquiagem,Maquiagem,7 g,,106.99,,,,False,104,,eudora-c16-2026,Eudora,16
+89082,Palette Multifuncional Luminous Summer Cor 2,Niina Secrets,Maquiagem,Maquiagem,7 g,,106.99,,,,False,104,,eudora-c16-2026,Eudora,16
+89483,Palette Multifuncional Luminous Summer Cor 3,Niina Secrets,Maquiagem,Maquiagem,7 g,,106.99,,,,False,104,,eudora-c16-2026,Eudora,16
+89085,Gloss Labial Luminous Summer Cor 2,Niina Secrets,Maquiagem,Maquiagem,12 g,,37.99,29.9,8.09,21.3,True,104,,eudora-c16-2026,Eudora,16
+89084,Gloss Labial Luminous Summer Cor 1,Niina Secrets,Maquiagem,Maquiagem,12 g,,37.99,,,,False,104,,eudora-c16-2026,Eudora,16
+59887,Iluminador Líquido Luminous Bronze,Niina Secrets,Maquiagem,Maquiagem,10 ml,,67.99,,,,False,104,,eudora-c16-2026,Eudora,16
+59886,Iluminador Líquido Luminous Rosé,Niina Secrets,Maquiagem,Maquiagem,10 ml,,67.99,,,,False,104,,eudora-c16-2026,Eudora,16
+54600,Batom Cremoso Love You,Niina Secrets,Maquiagem,Maquiagem,3 g,,109.99,,,,False,104,,eudora-c16-2026,Eudora,16
+89645,Niina Charm Pink Secrets,Niina Secrets,Acessórios,Acessórios,15 x 18 cm,,68.9,,,,False,104,,eudora-c16-2026,Eudora,16
+54000,Batom Líquido Skinny Matte Pink Peônia,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+85403,Batom Líquido Skinny Matte Castanho Begônia,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+54001,Batom Líquido Skinny Matte Rose Gardênia,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+85400,Batom Líquido Skinny Matte Rosa Lótus,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+54003,Batom Líquido Skinny Matte Vermelho Hibisco,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+85404,Batom Líquido Skinny Matte Malva Camélia,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+54004,Batom Líquido Skinny Matte Terracota Orquídea,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+85402,Batom Líquido Skinny Matte Marrom Lírio,Niina Secrets,Maquiagem,Maquiagem,5ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+52581,Hidra Balm Caramelo,Niina Secrets,Maquiagem,Maquiagem,3.2g,,42.99,,,,False,105,,eudora-c16-2026,Eudora,16
+52583,Hidra Balm Vinho,Niina Secrets,Maquiagem,Maquiagem,3.2g,,42.99,29.9,13.09,30.45,True,105,,eudora-c16-2026,Eudora,16
+52584,Hidra Balm Rosa,Niina Secrets,Maquiagem,Maquiagem,3.2g,,42.99,29.9,13.09,30.45,True,105,,eudora-c16-2026,Eudora,16
+52582,Batom Gloss Crystal Jaspe,Niina Secrets,Maquiagem,Maquiagem,7ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+09401,Batom Gloss Crystal Topázio,Niina Secrets,Maquiagem,Maquiagem,7ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+52585,Batom Gloss Crystal Moon Stone,Niina Secrets,Maquiagem,Maquiagem,7ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+09400,Batom Gloss Crystal Rubi,Niina Secrets,Maquiagem,Maquiagem,7ml,,59.99,,,,False,105,,eudora-c16-2026,Eudora,16
+90100,Batom Soft Petals Rosa Secreta,Niina Secrets,Maquiagem,Maquiagem,"3,8g",,63.99,63.99,,,False,106,,eudora-c16-2026,Eudora,16
+95312,Batom Soft Petals Marrom Aveludado,Niina Secrets,Maquiagem,Maquiagem,"3,8g",,63.99,63.99,,,False,106,,eudora-c16-2026,Eudora,16
+90102,Batom Soft Petals Castanho Encantado,Niina Secrets,Maquiagem,Maquiagem,"3,8g",,63.99,63.99,,,False,106,,eudora-c16-2026,Eudora,16
+90101,Batom Soft Petals Vermelho Romântico,Niina Secrets,Maquiagem,Maquiagem,"3,8g",,63.99,63.99,,,False,106,,eudora-c16-2026,Eudora,16
+90093,Batom Soft Petals Rosé Pétala,Niina Secrets,Maquiagem,Maquiagem,"3,8g",,63.99,63.99,,,False,106,,eudora-c16-2026,Eudora,16
+90103,Lapiseira para Contorno dos Lábios Soft Petals Rosé Pétala,Niina Secrets,Maquiagem,Maquiagem,"1,1g",,48.99,48.99,,,False,106,,eudora-c16-2026,Eudora,16
+90104,Lapiseira para Contorno dos Lábios Soft Petals Rosa Secreta,Niina Secrets,Maquiagem,Maquiagem,"1,1g",,48.99,48.99,,,False,106,,eudora-c16-2026,Eudora,16
+90105,Lapiseira para Contorno dos Lábios Soft Petals Vermelho Romântico,Niina Secrets,Maquiagem,Maquiagem,"1,1g",,48.99,48.99,,,False,106,,eudora-c16-2026,Eudora,16
+90106,Lapiseira para Contorno dos Lábios Soft Petals Castanho Encantado,Niina Secrets,Maquiagem,Maquiagem,"1,1g",,48.99,48.99,,,False,106,,eudora-c16-2026,Eudora,16
+95313,Lapiseira para Contorno dos Lábios Soft Petals Marrom Aveludado,Niina Secrets,Maquiagem,Maquiagem,"1,1g",,48.99,48.99,,,False,106,,eudora-c16-2026,Eudora,16
+90108,Iluminador Facial Soft Petals,Niina Secrets,Maquiagem,Maquiagem,3 g,,74.99,,,,False,107,,eudora-c16-2026,Eudora,16
+94163,Palette Petals,Niina Secrets,Maquiagem,Maquiagem,12 g,,159.99,104.9,55.09,34.43,True,107,,eudora-c16-2026,Eudora,16
+54512,Palette Green,Niina Secrets,Maquiagem,Maquiagem,"5,6 g",,144.99,,,,False,107,,eudora-c16-2026,Eudora,16
+85399,Palette Neutrals,Niina Secrets,Maquiagem,Maquiagem,"5,6 g",,139.99,,,,False,107,,eudora-c16-2026,Eudora,16
+93701,Máscara para Cílios Super Up,Niina Secrets,Maquiagem,Maquiagem,8 g,,65.99,,,,True,108,,eudora-c16-2026,Eudora,16
+54516,Máscara para Cílios Super Bold,Niina Secrets,Maquiagem,Maquiagem,10 g,,72.99,,,,False,108,,eudora-c16-2026,Eudora,16
+87303,Espelho Pocket LED,Niina Secrets,Acessórios,Acessórios,,,119.99,,,,False,108,,eudora-c16-2026,Eudora,16
+54513,Lapiseira Sobrancelha 3 em 1 Clara,Niina Secrets,Maquiagem,Maquiagem,"1,1 g",,69.99,,,,False,108,,eudora-c16-2026,Eudora,16
+54514,Lapiseira Sobrancelha 3 em 1 Média,Niina Secrets,Maquiagem,Maquiagem,"1,1 g",,69.99,,,,False,108,,eudora-c16-2026,Eudora,16
+54515,Lapiseira Sobrancelha 3 em 1 Escura,Niina Secrets,Maquiagem,Maquiagem,"1,1 g",,69.99,,,,False,108,,eudora-c16-2026,Eudora,16
+54511,Delineador Líquido Crystal Brilho Rosé Gold,Niina Secrets,Maquiagem,Maquiagem,3 g,,67.99,,,,False,108,,eudora-c16-2026,Eudora,16
+56675,Pincel Multifuncional,Niina Secrets,Maquiagem,Maquiagem,"16,8 cm",,72.99,,,,False,109,,eudora-c16-2026,Eudora,16
+56671,Pincel Contorno,Niina Secrets,Maquiagem,Maquiagem,"16,7 cm",,69.99,,,,False,109,,eudora-c16-2026,Eudora,16
+56672,Pincel Blush,Niina Secrets,Maquiagem,Maquiagem,"17,7 cm",,72.99,57.9,15.09,20.67,True,109,,eudora-c16-2026,Eudora,16
+56670,Pincel Iluminador,Niina Secrets,Maquiagem,Maquiagem,"16,8 cm",,69.99,48.9,21.09,30.13,True,109,,eudora-c16-2026,Eudora,16
+87309,Porta-Pincel Pink,Niina Secrets,Maquiagem,Maquiagem,20 x 8 cm,,62.99,,,,False,109,,eudora-c16-2026,Eudora,16
+56674,Pincel Pó,Niina Secrets,Maquiagem,Maquiagem,"18,5 cm",,78.99,49.9,29.09,36.83,True,109,,eudora-c16-2026,Eudora,16
+57781,Pincel Base Duo Fiber,Niina Secrets,Maquiagem,Maquiagem,"16,2 cm",,78.99,,,,False,109,,eudora-c16-2026,Eudora,16
+59526,Desodorante Colônia Niina Celebrate,Niina Secrets,Perfumaria,Perfumaria,100 ml,,179.9,,,,False,110,,eudora-c16-2026,Eudora,16
+52318,Desodorante Colônia Niina Bloom,Niina Secrets,Perfumaria,Perfumaria,100 ml,,179.9,,,,False,110,,eudora-c16-2026,Eudora,16
+01062,Desodorante Colônia Niina Secrets,Niina Secrets,Perfumaria,Perfumaria,100 ml,,179.9,,,,False,110,,eudora-c16-2026,Eudora,16
+01073,Loção Desodorante Hidratante Corporal Niina Secrets,Niina Secrets,Corpo e Banho,Corpo e Banho,200 ml,,54.99,,,,False,110,,eudora-c16-2026,Eudora,16
+52344,Loção Desodorante Hidratante Corporal Niina Bloom,Niina Secrets,Corpo e Banho,Corpo e Banho,200 ml,,54.99,,,,False,110,,eudora-c16-2026,Eudora,16
+56163,Maleta de Maquiagem Niina Secrets,Niina Secrets,Acessórios,Acessórios,"22,6 x 16,5 x 16,3 cm",,269.99,,,,False,110,,eudora-c16-2026,Eudora,16
+85915,Gel de Limpeza Facial Niina Skin,Niina Secrets Skin,Skincare,Skincare,100 g,,57.99,,,,False,111,,eudora-c16-2026,Eudora,16
+56765,Beauty Clips Niina Secrets,Niina Secrets,Acessórios,Acessórios,"8,8 x 1,56 cm",,67.99,67.99,,,False,112,,eudora-c16-2026,Eudora,16
+59696,Mousse de Limpeza Facial,Niina Secrets,Cuidados Faciais,Cuidados Faciais,150 ml,,69.99,69.99,,,False,112,,eudora-c16-2026,Eudora,16
+55438,Tônico Renovador Antioxidante Vitamina C,Niina Secrets,Cuidados Faciais,Cuidados Faciais,110 ml,,69.99,54.9,15.09,21.56,True,112,,eudora-c16-2026,Eudora,16
+07379,Cleansing Oil,Niina Secrets,Cuidados Faciais,Cuidados Faciais,110 ml,,79.99,79.99,,,False,112,,eudora-c16-2026,Eudora,16
+89800,Micelar Milk Facial,Niina Secrets,Cuidados Faciais,Cuidados Faciais,250 ml,,53.99,53.99,,,False,112,,eudora-c16-2026,Eudora,16
+85845,Gel de Limpeza Facial,Niina Secrets,Cuidados Faciais,Cuidados Faciais,300 g,,84.99,84.99,,,False,112,,eudora-c16-2026,Eudora,16
+55437,Sérum Vitamina C Antioxidante,Niina Skin,Tratamento Facial,Tratamento Facial,30 ml,,124.99,89.9,35.09,28.07,True,113,,eudora-c16-2026,Eudora,16
+86804,Creme Sorbet Firmador,Niina Skin,Tratamento Facial,Tratamento Facial,80 g,,82.99,52.9,30.09,36.26,True,113,,eudora-c16-2026,Eudora,16
+92859,Creme Overnight Renovador,Niina Skin,Tratamento Facial,Tratamento Facial,50 g,,74.99,,,,False,113,,eudora-c16-2026,Eudora,16
+55481,Sérum Facial Pró Colágeno,Niina Skin,Tratamento Facial,Tratamento Facial,30 ml,,124.9,,,,False,113,,eudora-c16-2026,Eudora,16
+51349,Máscara Noturna Lip Repair,Niina Skin,Tratamento Facial,Tratamento Facial,9 g,,52.99,,,,False,113,,eudora-c16-2026,Eudora,16
+56679,Massageador Facial Face Shape,Niina Secrets,Hidratação,Hidratação,"6,5 x 1,2 x 7 cm",,129.99,129.99,,,False,114,,eudora-c16-2026,Eudora,16
+90083,Sérum Hidramake Drops,Niina Secrets,Hidratação,Hidratação,30 ml,,89.99,89.99,,,False,114,,eudora-c16-2026,Eudora,16
+07394,Hidragel Nutritivo,Niina Secrets,Hidratação,Hidratação,30 ml,,99.99,99.99,,,False,114,,eudora-c16-2026,Eudora,16
+59189,Refil Hidragel Nutritivo,Niina Secrets,Hidratação,Hidratação,30 ml,,69.99,69.99,,,False,114,,eudora-c16-2026,Eudora,16
+51348,Hidratante Matificante Antioleosidade,Niina Secrets,Hidratação,Hidratação,40 g,,54.99,54.99,,,False,114,,eudora-c16-2026,Eudora,16
+07395,Sérum Multiprotetor FPS 50 12 em 1,Niina Secrets,Proteção Solar,Proteção Solar,30 ml,,124.9,94.9,30.0,24.02,True,114,,eudora-c16-2026,Eudora,16
+52864,Protetor Solar Facial Antioleosidade FPS 70,Niina Secrets,Proteção Solar,Proteção Solar,40 ml,,82.99,82.99,,,False,114,,eudora-c16-2026,Eudora,16
+52168,Gel de Limpeza Facial Neo Dermo Purific,Neo Dermo,Limpeza Facial,Limpeza Facial,150 g,,49.99,34.9,15.09,30.19,True,115,,eudora-c16-2026,Eudora,16
+52247,Mousse de Limpeza Micelar Neo Dermo,Neo Dermo,Limpeza Facial,Limpeza Facial,150 ml,,72.99,,,,False,115,,eudora-c16-2026,Eudora,16
+52243,Hidra Mineral Gel Hidratante Facial Neo Dermo,Neo Dermo,Hidratação,Hidratação,30 g,,107.99,,,,False,115,,eudora-c16-2026,Eudora,16
+56526,Protetor Solar Sem Cor FPS 50,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40 g,,84.99,84.99,,,False,116,,eudora-c16-2026,Eudora,16
+57073,Sérum Uniformizador,Neo Dermo,Cuidados Faciais,Cuidados Faciais,30 ml,,139.99,139.99,,,False,116,,eudora-c16-2026,Eudora,16
+57072,Creme Redutor de Olheiras,Neo Dermo,Cuidados Faciais,Cuidados Faciais,12 g,,84.99,69.9,15.09,17.76,True,116,,eudora-c16-2026,Eudora,16
+97992,Compre o Sérum e Ganhe Hidratante (Sérum Uniformizador + Hidratante Uniformizador),Neo Dermo,Cuidados Faciais,Cuidados Faciais,30 ml + 50 g,,216.98,139.9,77.08,35.52,True,116,,eudora-c16-2026,Eudora,16
+57074,Hidratante Uniformizador,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50 g,,76.99,63.9,13.09,17.0,True,116,,eudora-c16-2026,Eudora,16
+59689,Sérum Tensor de Rugas,Neo Dermo,Cuidados Faciais,Cuidados Faciais,30 ml,,139.99,139.99,,,False,117,,eudora-c16-2026,Eudora,16
+53919,Sérum Antioxidante,Neo Dermo,Cuidados Faciais,Cuidados Faciais,30 ml,,139.99,139.99,,,False,117,,eudora-c16-2026,Eudora,16
+52169,Esfoliante Facial,Neo Dermo,Cuidados Faciais,Cuidados Faciais,75 g,,59.99,59.99,,,False,117,,eudora-c16-2026,Eudora,16
+55671,Creme Hidratante Facial Hidra Mineral,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50 g,,76.99,76.99,,,False,117,,eudora-c16-2026,Eudora,16
+59706,Hidratante Labial Hyaluronic,Neo Dermo,Cuidados Faciais,Cuidados Faciais,6 g,,39.99,39.99,,,False,117,,eudora-c16-2026,Eudora,16
+59682,Sérum Bioestimulador de Colágeno,Neo Dermo,Cuidados Faciais,Cuidados Faciais,30 ml,,139.99,,,,False,118,,eudora-c16-2026,Eudora,16
+54073,Sérum Ácido Hialurônico,Neo Dermo,Cuidados Faciais,Cuidados Faciais,30 ml,,139.99,,,,False,118,,eudora-c16-2026,Eudora,16
+59681,Creme para Olhos Biocolágeno,Neo Dermo,Cuidados Faciais,Cuidados Faciais,15 g,,84.99,,,,False,118,,eudora-c16-2026,Eudora,16
+59683,Creme de Contorno Facial,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50 g,,76.99,,,,False,118,,eudora-c16-2026,Eudora,16
+56527,Protetor Solar Sem Cor FPS 70,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40 g,,89.99,59.9,30.09,33.44,True,118,,eudora-c16-2026,Eudora,16
+52038,Neo Dermo Pró Age Gel Hidratante Antissinais 30+,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50 g,,104.99,,,,False,119,,eudora-c16-2026,Eudora,16
+52033,Neo Dermo Pró Age Gel Creme Hidratante Antissinais 45+,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50 g,,104.99,,,,False,119,,eudora-c16-2026,Eudora,16
+52037,Neo Dermo Pró Age Creme Hidratante Antissinais 60+,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50 g,,104.99,,,,False,119,,eudora-c16-2026,Eudora,16
+52247,Neo Dermo Mousse de Limpeza Micelar,Neo Dermo,Cuidados Faciais,Cuidados Faciais,150 ml,,72.99,,,,False,119,,eudora-c16-2026,Eudora,16
+52036,Neo Dermo Creme Reparador Pescoço e Colo,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40 g,,154.99,,,,False,119,,eudora-c16-2026,Eudora,16
+55670,Neo Dermo Creme Hidratante Facial Multieffect 5 em 1,Neo Dermo,Cuidados Faciais,Cuidados Faciais,50 g,,76.99,,,,False,119,,eudora-c16-2026,Eudora,16
+56527,Protetor Solar Sem Cor FPS 70 Neo Dermo,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40g,,89.99,59.9,30.09,33.44,True,120,,eudora-c16-2026,Eudora,16
+56526,Protetor Solar Sem Cor FPS 50 Neo Dermo,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40g,,84.99,,,,False,120,,eudora-c16-2026,Eudora,16
+56462,Protetor Solar Facial com Cor FPS 70 - Cor 1 Neo Dermo,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40g,,89.99,,,,False,120,,eudora-c16-2026,Eudora,16
+56463,Protetor Solar Facial com Cor FPS 70 - Cor 2 Neo Dermo,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40g,,89.99,,,,False,120,,eudora-c16-2026,Eudora,16
+56464,Protetor Solar Facial com Cor FPS 70 - Cor 3 Neo Dermo,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40g,,89.99,,,,False,120,,eudora-c16-2026,Eudora,16
+56465,Protetor Solar Facial com Cor FPS 70 - Cor 4 Neo Dermo,Neo Dermo,Cuidados Faciais,Cuidados Faciais,40g,,89.99,,,,False,120,,eudora-c16-2026,Eudora,16

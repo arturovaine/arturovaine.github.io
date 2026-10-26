@@ -1,0 +1,1452 @@
+code,name,product_line,category,normalized_category,volume_weight,quantity,regular_price,promotional_price,savings,discount_percentage,promotion_active,page,quadrant,catalog_name,brand,cycle
+246408,Desodorante Colônia Kaiak Sonar Masculino,Kaiak,Perfumaria,Perfumaria,100ml,,189.9,151.9,38.0,20.01,True,7,,natura-c09-2026,Natura,9
+246412,Desodorante Colônia Kaiak Oceano Masculino,Kaiak,Perfumaria,Perfumaria,100ml,,189.9,151.9,38.0,20.01,True,7,,natura-c09-2026,Natura,9
+24641,Desodorante Colônia Kaiak Masculino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,8,,natura-c09-2026,Natura,9
+108402,Desodorante Colônia Kaiak Aventura Masculino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,8,,natura-c09-2026,Natura,9
+108403,Desodorante Colônia Kaiak Pulso Masculino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,8,,natura-c09-2026,Natura,9
+108401,Desodorante Colônia Kaiak Urbe Masculino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,8,,natura-c09-2026,Natura,9
+125949,Desodorante Colônia Kaiak O2 Masculino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,8,,natura-c09-2026,Natura,9
+57525,K deo parfum masculino,Natura K,Perfumaria,Perfumaria,100 ml,,279.9,279.9,,,False,9,,natura-c09-2026,Natura,9
+72468,K max deo parfum masculino,Natura K,Perfumaria,Perfumaria,100 ml,,279.9,279.9,,,False,9,,natura-c09-2026,Natura,9
+120195,Conjunto sabonete em barra com saboneteira kaiak masculino,Kaiak,Corpo e Banho,Corpo e Banho,2 x 90 g,,71.9,71.9,,,False,9,,natura-c09-2026,Natura,9
+108875,Sabonete em barra corpo e barba kaiak masculino,Kaiak,Corpo e Banho,Corpo e Banho,2 x 90 g,,28.9,28.9,,,False,9,,natura-c09-2026,Natura,9
+109482,Spray pós-barba kaiak masculino,Kaiak,Cuidados Pessoais,Cuidados Pessoais,150 ml,,75.9,75.9,,,False,9,,natura-c09-2026,Natura,9
+108876,Shampoo cabelo e corpo kaiak masculino,Kaiak,Cabelos,Cabelos,200 ml,,40.9,40.9,,,False,9,,natura-c09-2026,Natura,9
+99159,Deo Parfum Natura Homem Tato,Natura Homem,Perfumaria,Perfumaria,100ml,,239.9,169.9,70.0,29.18,True,11,,natura-c09-2026,Natura,9
+53255,Desodorante Colônia Natura Homem,Natura Homem,Perfumaria,Perfumaria,100 ml,,209.9,,,,False,12,,natura-c09-2026,Natura,9
+59847,Deo Parfum Natura Homem Essence,Natura Homem,Perfumaria,Perfumaria,100 ml,,239.9,,,,False,12,,natura-c09-2026,Natura,9
+125366,Deo Parfum Natura Homem Elo,Natura Homem,Perfumaria,Perfumaria,100 ml,,239.9,,,,False,12,,natura-c09-2026,Natura,9
+81951,Deo Parfum Natura Homem Sagaz,Natura Homem,Perfumaria,Perfumaria,100 ml,,239.9,,,,False,12,,natura-c09-2026,Natura,9
+152280,Deo Parfum Natura Homem Nós,Natura Homem,Perfumaria,Perfumaria,100 ml,,239.9,,,,False,12,,natura-c09-2026,Natura,9
+71770,Deo Parfum Natura Homem Dom,Natura Homem,Perfumaria,Perfumaria,100 ml,,239.9,,,,False,12,,natura-c09-2026,Natura,9
+02190,Deo parfum natura homem emocion.e,Homem,Perfumaria,Perfumaria,100 ml,,319.9,,,,False,13,,natura-c09-2026,Natura,9
+176285,Deo parfum natura homem evolut.io,Homem,Perfumaria,Perfumaria,100 ml,,319.9,,,,False,13,,natura-c09-2026,Natura,9
+89834,Deo parfum natura homem cor.agio,Homem,Perfumaria,Perfumaria,100 ml,,319.9,,,,False,13,,natura-c09-2026,Natura,9
+160264,Shower gel 4 em 1,Natura Homem,Cuidados Pessoais,Cuidados Pessoais,200 g,,60.9,,,,False,14,,natura-c09-2026,Natura,9
+151018,Shampoo 2 em 1,Natura Homem,Cabelos,Cabelos,300 ml,,50.9,,,,False,14,,natura-c09-2026,Natura,9
+160210,Shampoo anticaspa,Natura Homem,Cabelos,Cabelos,300 ml,,57.9,,,,False,14,,natura-c09-2026,Natura,9
+151020,Desodorante hidratante corporal,Natura Homem,Hidratação,Hidratação,300 ml,,84.9,,,,False,14,,natura-c09-2026,Natura,9
+152330,Hidratante mãos e áreas ressecadas,Natura Homem,Hidratação,Hidratação,50 ml,,40.9,,,,False,14,,natura-c09-2026,Natura,9
+160273,Sabonete facial esfoliante,Natura Homem,Cuidados Pessoais,Cuidados Pessoais,75 ml,,62.9,,,,False,14,,natura-c09-2026,Natura,9
+151019,Multicorretor antissinais,Natura Homem,Cuidados Pessoais,Cuidados Pessoais,40 g,,112.9,,,,False,14,,natura-c09-2026,Natura,9
+151023,Sabonete barra 2 em 1 corpo e barba,Natura Homem,Corpo e Banho,Corpo e Banho,3 unidades de 110 g cada,,37.9,,,,False,14,,natura-c09-2026,Natura,9
+152277,Gel para barbear,Natura Homem,Barba,Barba,75 g,,50.9,,,,False,14,,natura-c09-2026,Natura,9
+151022,Balm pós-barba multifuncional,Natura Homem,Barba,Barba,75 ml,,75.9,,,,False,14,,natura-c09-2026,Natura,9
+152331,Óleo para barba,Natura Homem,Barba,Barba,30 ml,,79.9,,,,False,14,,natura-c09-2026,Natura,9
+151021,Creme para barbear multifuncional,Natura Homem,Barba,Barba,75 ml,,57.9,,,,False,14,,natura-c09-2026,Natura,9
+159952,Espuma de barbear,Natura Homem,Barba,Barba,200 ml/180 g,,70.9,,,,False,14,,natura-c09-2026,Natura,9
+160216,Shampoo antiqueda,Homem,Cabelos,Cabelos,300 ml,,57.9,44.9,13.0,22.45,True,15,,natura-c09-2026,Natura,9
+145489,Tônico capilar antiqueda,Homem,Cabelos,Cabelos,100 ml,,90.9,69.9,21.0,23.1,True,15,,natura-c09-2026,Natura,9
+110411,Desodorante Colônia Biografia Encontros Masculino,Biografia,Perfumaria,Perfumaria,100 ml,,209.9,146.9,63.0,30.01,True,16,,natura-c09-2026,Natura,9
+71601,Desodorante Colônia Biografia Masculino,Biografia,Perfumaria,Perfumaria,100 ml,,209.9,,,,False,16,,natura-c09-2026,Natura,9
+71603,Desodorante Colônia Biografia Assinatura Masculino,Biografia,Perfumaria,Perfumaria,100 ml,,209.9,,,,False,16,,natura-c09-2026,Natura,9
+30410,Desodorante colônia sr. n,Sr. N,Perfumaria,Perfumaria,100 ml,,164.9,,,,False,17,,natura-c09-2026,Natura,9
+85389,Gel após barba,Sr. N,Barba,Barba,75 g,,60.9,49.9,11.0,18.06,True,17,,natura-c09-2026,Natura,9
+85400,Creme de barbear espumante,Sr. N,Barba,Barba,80 g,,51.9,39.9,12.0,23.12,True,17,,natura-c09-2026,Natura,9
+71766,Desodorante colônia sintonia,Sintonia,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,17,,natura-c09-2026,Natura,9
+71773,Desodorante colônia sintonia impacto,Sintonia,Perfumaria,Perfumaria,100 ml,,219.9,,,,False,17,,natura-c09-2026,Natura,9
+194227,Deo parfum essencial desejos masculino,Essencial,Perfumaria,Perfumaria,100 ml,,299.9,204.9,95.0,31.68,True,19,,natura-c09-2026,Natura,9
+76422,Deo parfum essencial exclusivo masculino,Essencial,Perfumaria,Perfumaria,100ml,,279.9,,,,False,20,,natura-c09-2026,Natura,9
+07979,Refil deo parfum essencial exclusivo,Essencial,Perfumaria,Perfumaria,,,213.9,,,,False,20,,natura-c09-2026,Natura,9
+165811,Deo parfum essencial atrai masculino,Essencial,Perfumaria,Perfumaria,100ml,,279.9,,,,False,20,,natura-c09-2026,Natura,9
+95560,Deo parfum essencial supreme masculino,Essencial,Perfumaria,Perfumaria,100ml,,279.9,,,,False,20,,natura-c09-2026,Natura,9
+103348,Deo parfum essencial único masculino,Essencial,Perfumaria,Perfumaria,90ml,,322.9,,,,False,20,,natura-c09-2026,Natura,9
+107122,Refil deo parfum essencial único,Essencial,Perfumaria,Perfumaria,,,228.9,,,,False,20,,natura-c09-2026,Natura,9
+114584,Deo parfum essencial ato masculino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,21,,natura-c09-2026,Natura,9
+114586,Refil Deo parfum essencial ato masculino,Essencial,Perfumaria,Perfumaria,100 ml,,213.9,,,,False,21,,natura-c09-2026,Natura,9
+167755,Deo parfum essencial sentir masculino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,21,,natura-c09-2026,Natura,9
+76420,Deo parfum essencial masculino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,21,,natura-c09-2026,Natura,9
+07977,Refil Deo parfum essencial masculino,Essencial,Perfumaria,Perfumaria,100 ml,,213.9,,,,False,21,,natura-c09-2026,Natura,9
+114274,Sabonete em barra corpo e barba essencial,Essencial,Corpo e Banho,Corpo e Banho,3 unidades de 110 g cada,,53.9,,,,False,21,,natura-c09-2026,Natura,9
+114277,Creme de barbear essencial,Essencial,Barba,Barba,75 g,,68.9,,,,False,21,,natura-c09-2026,Natura,9
+114276,Balm pós-barba essencial,Essencial,Barba,Barba,75 ml,,82.9,,,,False,21,,natura-c09-2026,Natura,9
+16872,Desodorante Hidratante Corporal Perfumado Essencial Oud,Essencial,Corpo e Banho,Corpo e Banho,200 g,,134.9,119.9,15.0,11.12,True,22,,natura-c09-2026,Natura,9
+98943,Refil Desodorante Hidratante Corporal Perfumado Essencial Oud,Essencial,Corpo e Banho,Corpo e Banho,200 g,,99.9,,,,False,22,,natura-c09-2026,Natura,9
+76424,Deo parfum essencial oud masculino,Essencial,Perfumaria,Perfumaria,100 ml,,289.9,199.9,90.0,31.05,True,23,,natura-c09-2026,Natura,9
+76425,Deo parfum essencial oud feminino,Essencial,Perfumaria,Perfumaria,100 ml,,289.9,199.9,90.0,31.05,True,23,,natura-c09-2026,Natura,9
+11683,REFIL Deo parfum essencial oud masculino,Essencial,Perfumaria,Perfumaria,100 ml,,221.9,159.9,62.0,27.94,True,23,,natura-c09-2026,Natura,9
+11682,REFIL Deo parfum essencial oud feminino,Essencial,Perfumaria,Perfumaria,100 ml,,221.9,159.9,62.0,27.94,True,23,,natura-c09-2026,Natura,9
+27263,Deo parfum essencial mirra masculino,Essencial,Perfumaria,Perfumaria,100 ml,,289.9,,,,False,24,,natura-c09-2026,Natura,9
+27264,Deo parfum essencial mirra feminino,Essencial,Perfumaria,Perfumaria,100 ml,,289.9,,,,False,24,,natura-c09-2026,Natura,9
+242212,Presente Natura Essencial Safran Masculino,Essencial,Perfumaria,Perfumaria,100ml,,289.9,214.9,75.0,25.87,True,25,,natura-c09-2026,Natura,9
+242521,Presente Natura Essencial Safran Feminino,Essencial,Perfumaria,Perfumaria,100ml,,289.9,214.9,75.0,25.87,True,25,,natura-c09-2026,Natura,9
+194226,Deo parfum essencial desejos feminino,Essencial,Perfumaria,Perfumaria,100 ml,,299.9,204.9,95.0,31.68,True,27,,natura-c09-2026,Natura,9
+103349,Deo parfum essencial único feminino,Essencial,Perfumaria,Perfumaria,90 ml,,322.9,,,,False,28,,natura-c09-2026,Natura,9
+107121,Refil Deo parfum essencial único feminino,Essencial,Perfumaria,Perfumaria,90 ml,,228.9,,,,False,28,,natura-c09-2026,Natura,9
+76421,Deo parfum essencial feminino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,28,,natura-c09-2026,Natura,9
+07978,Refil Deo parfum essencial feminino,Essencial,Perfumaria,Perfumaria,100 ml,,213.9,,,,False,28,,natura-c09-2026,Natura,9
+167756,Deo parfum essencial sentir feminino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,28,,natura-c09-2026,Natura,9
+114583,Deo parfum essencial ato feminino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,29,,natura-c09-2026,Natura,9
+114585,Refil Deo parfum essencial ato feminino,Essencial,Perfumaria,Perfumaria,100 ml,,213.9,,,,False,29,,natura-c09-2026,Natura,9
+76423,Deo parfum essencial exclusivo feminino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,29,,natura-c09-2026,Natura,9
+11681,Refil Deo parfum essencial exclusivo feminino,Essencial,Perfumaria,Perfumaria,100 ml,,213.9,,,,False,29,,natura-c09-2026,Natura,9
+165813,Deo parfum essencial atrai feminino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,29,,natura-c09-2026,Natura,9
+95563,Deo parfum essencial supreme feminino,Essencial,Perfumaria,Perfumaria,100 ml,,279.9,,,,False,29,,natura-c09-2026,Natura,9
+16870,Desodorante hidratante corporal perfumado essencial,Essencial,Hidratação,Hidratação,200 g,,134.9,,,,False,29,,natura-c09-2026,Natura,9
+98941,Refil Desodorante hidratante corporal perfumado essencial,Essencial,Hidratação,Hidratação,200 g,,99.9,,,,False,29,,natura-c09-2026,Natura,9
+16871,Desodorante hidratante corporal perfumado essencial exclusivo,Essencial,Hidratação,Hidratação,200 g,,134.9,,,,False,29,,natura-c09-2026,Natura,9
+98942,Refil Desodorante hidratante corporal perfumado essencial exclusivo,Essencial,Hidratação,Hidratação,200 g,,99.9,,,,False,29,,natura-c09-2026,Natura,9
+16873,Desodorante hidratante corporal perfumado essencial supreme,Essencial,Hidratação,Hidratação,200 g,,134.9,,,,False,29,,natura-c09-2026,Natura,9
+02446,Natura una deo parfum feminino,Natura Una,Perfumaria,Perfumaria,75 ml,,319.9,,,,False,30,,natura-c09-2026,Natura,9
+128756,Natura una blush deo parfum feminino,Natura Una,Perfumaria,Perfumaria,75 ml,,319.9,,,,False,30,,natura-c09-2026,Natura,9
+02458,Natura una artisan deo parfum feminino,Natura Una,Perfumaria,Perfumaria,75 ml,,319.9,,,,False,30,,natura-c09-2026,Natura,9
+140595,Desodorante hidratante corporal perfumado una artisan,Natura Una,Corpo e Banho,Corpo e Banho,200 g,,134.9,,,,False,30,,natura-c09-2026,Natura,9
+205933,Natura Una Nude Deo Parfum Feminino,Una,Perfumaria,Perfumaria,75ml,,319.9,239.9,80.0,25.01,True,31,,natura-c09-2026,Natura,9
+205340,Kit Natura Una Nude Deo Parfum + Batom CC Hidratante FPS 25 Nude 2C,Una,Perfumaria,Perfumaria,"75ml + 3,8g",,384.8,279.8,105.0,27.29,True,31,,natura-c09-2026,Natura,9
+205323,Kit Natura Una Nude Deo Parfum + Batom CC Hidratante FPS 25 Nude 2C Intenso,Una,Perfumaria,Perfumaria,"75ml + 3,8g",,384.8,279.8,105.0,27.29,True,31,,natura-c09-2026,Natura,9
+54522,Deo Parfum Ilía Feminino,Ilía,Perfumaria,Perfumaria,50ml,,199.9,,,,False,32,,natura-c09-2026,Natura,9
+122470,Deo Parfum Ilía Completa Feminino,Ilía,Perfumaria,Perfumaria,50ml,,199.9,,,,False,32,,natura-c09-2026,Natura,9
+102419,Deo Parfum Ilía Ser Feminino,Ilía,Perfumaria,Perfumaria,50ml,,199.9,,,,False,32,,natura-c09-2026,Natura,9
+83314,Deo Parfum Ilía Secreto Feminino,Ilía,Perfumaria,Perfumaria,50ml,,199.9,,,,False,32,,natura-c09-2026,Natura,9
+155887,Deo Parfum Ilía Florescer Feminino,Ilía,Perfumaria,Perfumaria,50ml,,199.9,139.9,60.0,30.02,True,33,,natura-c09-2026,Natura,9
+184829,Sabonetes perfumados em barra aura alba,Aura Alba,Corpo e Banho,Corpo e Banho,2 unidades de 90 g cada,,49.9,,,,False,35,,natura-c09-2026,Natura,9
+197460,Óleo perfumado corporal aura alba,Aura Alba,Corpo e Banho,Corpo e Banho,200 ml,,129.9,,,,False,35,,natura-c09-2026,Natura,9
+178907,Eau de parfum aura alba,Aura Alba,Perfumaria,Perfumaria,75 ml,,329.9,,,,False,35,,natura-c09-2026,Natura,9
+180310,Creme aveludado corporal aura alba,Aura Alba,Hidratação,Hidratação,200 g,,149.9,,,,False,35,,natura-c09-2026,Natura,9
+189575,Refil Creme aveludado corporal aura alba,Aura Alba,Hidratação,Hidratação,200 g,,99.0,,,,False,35,,natura-c09-2026,Natura,9
+184481,Creme perfumado de mãos aura alba,Aura Alba,Hidratação,Hidratação,40 g,,47.9,,,,False,35,,natura-c09-2026,Natura,9
+97169,Desodorante hidratante corporal perfumado luna radiante,Luna,Hidratação,Hidratação,300 ml,,95.9,66.9,29.0,30.24,True,36,,natura-c09-2026,Natura,9
+97170,Refil Desodorante hidratante corporal perfumado luna radiante,Luna,Hidratação,Hidratação,300 ml,,66.9,,,,False,36,,natura-c09-2026,Natura,9
+171364,Desodorante colônia luna divina feminino,Luna,Perfumaria,Perfumaria,75 ml,,185.9,,,,False,36,,natura-c09-2026,Natura,9
+173003,Desodorante hidratante iluminador corporal perfumado luna divina,Luna,Hidratação,Hidratação,150 ml,,65.9,,,,False,36,,natura-c09-2026,Natura,9
+187605,Perfume para cabelos luna divina,Luna,Cabelos,Cabelos,30 ml,,87.9,,,,False,36,,natura-c09-2026,Natura,9
+02550,Desodorante Colônia Luna Radiante Feminino,Luna,Perfumaria,Perfumaria,75ml,,185.9,129.9,56.0,30.12,True,37,,natura-c09-2026,Natura,9
+44452,Desodorante Colônia Luna Feminino,Luna,Perfumaria,Perfumaria,75ml,,185.9,,,,False,37,,natura-c09-2026,Natura,9
+97153,Desodorante Hidratante Corporal Perfumado Luna,Luna,Corpo e Banho,Corpo e Banho,300ml,,95.9,,,,False,37,,natura-c09-2026,Natura,9
+97168,Refil Desodorante Hidratante Corporal Perfumado Luna,Luna,Corpo e Banho,Corpo e Banho,300ml,,66.9,,,,False,37,,natura-c09-2026,Natura,9
+150216,Perfume para Cabelos Luna,Luna,Cabelos,Cabelos,30ml,,79.9,,,,False,37,,natura-c09-2026,Natura,9
+128615,Desodorante colônia luna ousadia feminino,Natura Luna,Perfumaria,Perfumaria,75 ml,,185.9,,,,False,38,,natura-c09-2026,Natura,9
+129620,Desodorante hidratante corporal perfumado luna ousadia,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,95.9,,,,False,38,,natura-c09-2026,Natura,9
+129617,Refil desodorante hidratante corporal perfumado luna ousadia,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,66.9,,,,False,38,,natura-c09-2026,Natura,9
+115463,Desodorante colônia luna coragem feminino,Natura Luna,Perfumaria,Perfumaria,75 ml,,185.9,,,,False,38,,natura-c09-2026,Natura,9
+115658,Desodorante hidratante corporal perfumado luna coragem,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,95.9,,,,False,38,,natura-c09-2026,Natura,9
+115659,Refil desodorante hidratante corporal perfumado luna coragem,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,66.9,,,,False,38,,natura-c09-2026,Natura,9
+204451,Desodorante colônia luna nuit feminino,Natura Luna,Perfumaria,Perfumaria,75 ml,,185.9,,,,False,38,,natura-c09-2026,Natura,9
+204459,Desodorante hidratante corporal perfumado luna nuit,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,95.9,,,,False,38,,natura-c09-2026,Natura,9
+210343,Refil desodorante hidratante corporal perfumado luna nuit,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,66.9,,,,False,38,,natura-c09-2026,Natura,9
+56417,Desodorante colônia luna absoluta feminino,Natura Luna,Perfumaria,Perfumaria,75 ml,,185.9,,,,False,38,,natura-c09-2026,Natura,9
+97171,Desodorante hidratante corporal perfumado luna absoluta,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,95.9,,,,False,38,,natura-c09-2026,Natura,9
+97172,Refil desodorante hidratante corporal perfumado luna absoluta,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,66.9,,,,False,38,,natura-c09-2026,Natura,9
+102038,Desodorante colônia luna confiante feminino,Natura Luna,Perfumaria,Perfumaria,75 ml,,185.9,,,,False,38,,natura-c09-2026,Natura,9
+102039,Desodorante hidratante corporal perfumado luna confiante,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,95.9,,,,False,38,,natura-c09-2026,Natura,9
+102420,Refil desodorante hidratante corporal perfumado luna confiante,Natura Luna,Corpo e Banho,Corpo e Banho,300 ml,,66.9,,,,False,38,,natura-c09-2026,Natura,9
+116854,Body Splash Desodorante Colônia Luna Feminino,Luna,Perfumaria,Perfumaria,200 ml,,92.9,64.9,28.0,30.14,True,39,,natura-c09-2026,Natura,9
+86935,Deo Parfum Luna Intensa Feminino,Luna,Perfumaria,Perfumaria,50 ml,,219.9,,,,False,39,,natura-c09-2026,Natura,9
+173009,Desodorante Hidratante Corporal Perfumado Luna Intensa,Luna,Hidratação,Hidratação,200 g,,134.9,,,,False,39,,natura-c09-2026,Natura,9
+173014,Refil Desodorante Hidratante Corporal Perfumado Luna Intensa,Luna,Hidratação,Hidratação,200 g,,99.9,,,,False,39,,natura-c09-2026,Natura,9
+122474,Deo Parfum Luna Ilumina Feminino,Luna,Perfumaria,Perfumaria,50 ml,,219.9,,,,False,39,,natura-c09-2026,Natura,9
+173010,Desodorante Hidratante Corporal Perfumado Luna Ilumina,Luna,Hidratação,Hidratação,200 g,,134.9,,,,False,39,,natura-c09-2026,Natura,9
+173000,Refil Desodorante Hidratante Corporal Perfumado Luna Ilumina,Luna,Hidratação,Hidratação,200 g,,99.9,,,,False,39,,natura-c09-2026,Natura,9
+133863,Desodorante Colônia Ekos Ryo Chuva,Ekos,Perfumaria,Perfumaria,75 ml,,199.9,139.9,60.0,30.02,True,40,,natura-c09-2026,Natura,9
+133865,Desodorante Colônia Ekos Ryo Vivo,Ekos,Perfumaria,Perfumaria,75 ml,,199.9,,,,False,40,,natura-c09-2026,Natura,9
+150192,Desodorante Colônia Ekos Ryo Festa,Ekos,Perfumaria,Perfumaria,75 ml,,199.9,,,,False,40,,natura-c09-2026,Natura,9
+73562,Desodorante Colônia Frescor Castanha Feminino,Ekos,Perfumaria,Perfumaria,150ml,,129.9,89.9,40.0,30.79,True,41,,natura-c09-2026,Natura,9
+73567,Refil Desodorante Colônia Frescor Castanha Feminino,Ekos,Perfumaria,Perfumaria,150ml,,105.9,,,,False,41,,natura-c09-2026,Natura,9
+73565,Desodorante Colônia Frescor Feminino Açaí,Natura Ekos,Perfumaria,Perfumaria,150ml,,129.9,,,,False,42,,natura-c09-2026,Natura,9
+73570,Refil Desodorante Colônia Frescor Feminino Açaí,Natura Ekos,Perfumaria,Perfumaria,150ml,,105.9,,,,False,42,,natura-c09-2026,Natura,9
+222447,Desodorante Colônia Frescor Feminino Maracujá Natureza dos Sonhos,Natura Ekos,Perfumaria,Perfumaria,150ml,,129.9,,,,False,42,,natura-c09-2026,Natura,9
+218369,Desodorante Colônia Frescor Feminino Cacau,Natura Ekos,Perfumaria,Perfumaria,150ml,,129.9,,,,False,42,,natura-c09-2026,Natura,9
+199392,Desodorante Colônia Frescor Feminino Cupuaçu,Natura Ekos,Perfumaria,Perfumaria,150ml,,129.9,,,,False,42,,natura-c09-2026,Natura,9
+73563,Desodorante Colônia Frescor Feminino Pitanga,Natura Ekos,Perfumaria,Perfumaria,150ml,,129.9,,,,False,42,,natura-c09-2026,Natura,9
+73568,Refil Desodorante Colônia Frescor Feminino Pitanga,Natura Ekos,Perfumaria,Perfumaria,150ml,,105.9,,,,False,42,,natura-c09-2026,Natura,9
+73564,Desodorante colônia frescor maracujá feminino,Ekos,Perfumaria,Perfumaria,150 ml,,129.9,77.9,52.0,40.03,True,43,,natura-c09-2026,Natura,9
+73569,Refil Desodorante colônia frescor maracujá feminino,Ekos,Perfumaria,Perfumaria,150 ml,,105.9,,,,False,43,,natura-c09-2026,Natura,9
+246409,Desodorante colônia kaiak oceano feminino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,129.9,60.0,31.6,True,45,,natura-c09-2026,Natura,9
+246410,Desodorante colônia kaiak feminino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,45,,natura-c09-2026,Natura,9
+246407,Desodorante colônia kaiak sonar feminino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,45,,natura-c09-2026,Natura,9
+108408,Desodorante colônia kaiak aventura feminino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,47,,natura-c09-2026,Natura,9
+125947,Desodorante colônia kaiak O2 feminino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,,,,False,47,,natura-c09-2026,Natura,9
+108878,Desodorante hidratante corporal kaiak feminino,Kaiak,Hidratação,Hidratação,150 ml,,64.9,,,,False,47,,natura-c09-2026,Natura,9
+02271,Válvula,Natura Águas,Perfumaria,Perfumaria,,,12.9,,,,False,48,,natura-c09-2026,Natura,9
+95646,Desodorante Colônia Águas Lírio Feminino,Natura Águas,Perfumaria,Perfumaria,170 ml,,116.9,,,,False,48,,natura-c09-2026,Natura,9
+95638,Desodorante Colônia Águas Flor de Laranjeira Feminino,Natura Águas,Perfumaria,Perfumaria,170 ml,,116.9,,,,False,48,,natura-c09-2026,Natura,9
+166361,Desodorante Colônia Águas Framboesa Feminino,Natura Águas,Perfumaria,Perfumaria,170 ml,,116.9,,,,False,48,,natura-c09-2026,Natura,9
+95643,Desodorante Colônia Águas Jabuticaba Feminino,Natura Águas,Perfumaria,Perfumaria,170 ml,,116.9,,,,False,48,,natura-c09-2026,Natura,9
+95642,Desodorante Colônia Águas Violeta Feminino,Natura Águas,Perfumaria,Perfumaria,170 ml,,116.9,,,,False,48,,natura-c09-2026,Natura,9
+95644,Desodorante Colônia Águas Lavanda Feminino,Natura Águas,Perfumaria,Perfumaria,170 ml,,116.9,,,,False,48,,natura-c09-2026,Natura,9
+119239,Desodorante Colônia Kriska Romance Feminino,Natura Kriska,Perfumaria,Perfumaria,100 ml,,169.9,,,,False,48,,natura-c09-2026,Natura,9
+41795,Desodorante Colônia Kriska Clássico Feminino,Natura Kriska,Perfumaria,Perfumaria,100 ml,,169.9,,,,False,48,,natura-c09-2026,Natura,9
+68944,Desodorante Colônia Kriska Shock Feminino,Natura Kriska,Perfumaria,Perfumaria,100 ml,,169.9,,,,False,48,,natura-c09-2026,Natura,9
+68943,Desodorante Colônia Kriska Drama Feminino,Natura Kriska,Perfumaria,Perfumaria,100 ml,,169.9,,,,False,48,,natura-c09-2026,Natura,9
+110410,Desodorante Colônia Biografia Encontros Feminino,Biografia,Perfumaria,Perfumaria,100ml,,209.9,146.9,63.0,30.01,True,49,,natura-c09-2026,Natura,9
+71600,Desodorante Colônia Biografia Feminino,Biografia,Perfumaria,Perfumaria,100ml,,209.9,,,,False,49,,natura-c09-2026,Natura,9
+71602,Desodorante Colônia Biografia Assinatura Feminino,Biografia,Perfumaria,Perfumaria,100ml,,209.9,,,,False,49,,natura-c09-2026,Natura,9
+174618,Body Splash Desodorante Colônia Cereja Negra e Praliné Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+181013,Body Splash Desodorante Colônia Maçã Caramelada e Baunilha Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+205937,Body Splash Desodorante Colônia Morango e Baunilha Dourada Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+88075,Body Splash Desodorante Colônia Amora Vermelha e Jabuticaba Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+152286,Body Splash Desodorante Colônia Energizante Flor de Gengibre e Tangerina Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+196313,Body Splash Desodorante Colônia Jambo Rosa e Flor de Caju Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+72195,Body Splash Desodorante Colônia Macadâmia Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+159712,Body Splash Desodorante Colônia Chá de Camomila e Lavanda Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+72221,Body Splash Desodorante Colônia Algodão Tododia,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,50,,natura-c09-2026,Natura,9
+95841,Body splash desodorante colônia cereja e avelã,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,65.5,28.4,30.24,True,51,,natura-c09-2026,Natura,9
+100679,Body splash desodorante colônia ameixa e flor de baunilha,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,65.5,28.4,30.24,True,51,,natura-c09-2026,Natura,9
+95949,Desodorante Colônia Beijo de Humor Masculino,Humor,Perfumaria,Perfumaria,75ml,,164.9,114.9,50.0,30.32,True,52,,natura-c09-2026,Natura,9
+95947,Desodorante colônia beijo de humor feminino,Humor,Perfumaria,Perfumaria,75ml,,164.9,114.9,50.0,30.32,True,53,,natura-c09-2026,Natura,9
+70995,Desodorante colônia química de humor feminino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+70996,Desodorante colônia química de humor masculino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+86725,Desodorante colônia humor a dois masculino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+100148,Desodorante colônia humor on-line feminino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+100146,Desodorante colônia humor on-line masculino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+86728,Desodorante colônia paz e humor masculino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+131462,Desodorante colônia festival de humor feminino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+131465,Desodorante colônia conexão de humor masculino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+100144,Iogurte desodorante hidratante perfumado humor off-line,Humor,Corpo e Banho,Corpo e Banho,125 ml,,55.9,,,,False,54,,natura-c09-2026,Natura,9
+86723,Desodorante colônia meu primeiro humor feminino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+86727,Desodorante colônia humor próprio feminino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,54,,natura-c09-2026,Natura,9
+100145,Geleia de banho corporal humor off-line,Humor,Corpo e Banho,Corpo e Banho,125 g,,47.9,,,,False,54,,natura-c09-2026,Natura,9
+194821,Creme hidratante para mãos perfumado humor da minha vida,Humor,Hidratação,Hidratação,40 g,,45.9,35.9,10.0,21.79,True,55,,natura-c09-2026,Natura,9
+196322,Desodorante colônia humor da minha vida,Humor,Perfumaria,Perfumaria,75 ml,,164.9,114.9,50.0,30.32,True,55,,natura-c09-2026,Natura,9
+122928,Desodorante colônia humor transforma,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,55,,natura-c09-2026,Natura,9
+102422,Desodorante colônia humor liberta,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,55,,natura-c09-2026,Natura,9
+169821,Desodorante colônia humor envolve,Humor,Perfumaria,Perfumaria,75 ml,,164.9,,,,False,55,,natura-c09-2026,Natura,9
+151553,Desodorante Corporal Kaiak O2 Masculino (Leve com Refil),Kaiak,Corpo e Banho,Corpo e Banho,100ml,,101.8,56.9,44.9,44.11,True,56,,natura-c09-2026,Natura,9
+169783,Refil Desodorante Corporal Kaiak O2 Masculino,Kaiak,Corpo e Banho,Corpo e Banho,100ml,,44.9,,,,False,56,,natura-c09-2026,Natura,9
+154911,Desodorante Corporal Luna Absoluta Feminino (Leve com Refil),Luna,Corpo e Banho,Corpo e Banho,100ml,,101.8,56.9,44.9,44.11,True,56,,natura-c09-2026,Natura,9
+155290,Refil Desodorante Corporal Luna Absoluta Feminino,Luna,Corpo e Banho,Corpo e Banho,100ml,,44.9,,,,False,56,,natura-c09-2026,Natura,9
+16623,Desodorante Corporal Kaiak Oceano Masculino,Kaiak,Corpo e Banho,Corpo e Banho,100ml,,56.9,,,,False,56,,natura-c09-2026,Natura,9
+16626,Refil Desodorante Corporal Kaiak Oceano Masculino,Kaiak,Corpo e Banho,Corpo e Banho,100ml,,44.9,,,,False,56,,natura-c09-2026,Natura,9
+56747,Desodorante Corporal Kaiak Masculino,Kaiak,Corpo e Banho,Corpo e Banho,100ml,,56.9,,,,False,56,,natura-c09-2026,Natura,9
+56948,Refil Desodorante Corporal Kaiak Masculino,Kaiak,Corpo e Banho,Corpo e Banho,100ml,,44.9,,,,False,56,,natura-c09-2026,Natura,9
+85393,Desodorante Corporal Sr. N,Sr. N,Corpo e Banho,Corpo e Banho,100ml,,56.9,,,,False,56,,natura-c09-2026,Natura,9
+85390,Refil Desodorante Corporal Sr. N,Sr. N,Corpo e Banho,Corpo e Banho,100ml,,44.9,,,,False,56,,natura-c09-2026,Natura,9
+110686,Desodorante Corporal Natura Homem,Natura Homem,Corpo e Banho,Corpo e Banho,100ml,,56.9,,,,False,56,,natura-c09-2026,Natura,9
+57412,Refil Desodorante Corporal Natura Homem,Natura Homem,Corpo e Banho,Corpo e Banho,100ml,,44.9,,,,False,56,,natura-c09-2026,Natura,9
+88454,Desodorante Corporal Biografia Masculino,Biografia,Corpo e Banho,Corpo e Banho,100ml,,56.9,,,,False,56,,natura-c09-2026,Natura,9
+88431,Refil Desodorante Corporal Biografia Masculino,Biografia,Corpo e Banho,Corpo e Banho,100ml,,44.9,,,,False,56,,natura-c09-2026,Natura,9
+17759,Desodorante Corporal Essencial Exclusivo Masculino (com Refil),Essencial,Corpo e Banho,Corpo e Banho,100ml,,128.8,72.9,55.9,43.4,True,57,,natura-c09-2026,Natura,9
+155605,Refil Desodorante Corporal Essencial Exclusivo Masculino,Essencial,Corpo e Banho,Corpo e Banho,100ml,,55.9,,,,False,57,,natura-c09-2026,Natura,9
+146888,Desodorante Corporal Essencial Exclusivo Feminino (com Refil),Essencial,Corpo e Banho,Corpo e Banho,100ml,,128.8,72.9,55.9,43.4,True,57,,natura-c09-2026,Natura,9
+155604,Refil Desodorante Corporal Essencial Exclusivo Feminino,Essencial,Corpo e Banho,Corpo e Banho,100ml,,55.9,,,,False,57,,natura-c09-2026,Natura,9
+56754,Desodorante Corporal Kaiak Feminino,Kaiak,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+56763,Refil Desodorante Corporal Kaiak Feminino,Kaiak,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+56744,Desodorante Corporal Meu Primeiro Humor Feminino,Humor,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+56766,Refil Desodorante Corporal Meu Primeiro Humor Feminino,Humor,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+88453,Desodorante Corporal Biografia Feminino,Biografia,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+88455,Refil Desodorante Corporal Biografia Feminino,Biografia,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+69200,Desodorante Corporal Luna Feminino,Luna,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+89259,Refil Desodorante Corporal Luna Feminino,Luna,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+123156,Desodorante Corporal Erva Doce,Erva Doce,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+123157,Refil Desodorante Corporal Erva Doce,Erva Doce,Corpo e Banho,Corpo e Banho,100ml,,0.0,,,,False,57,,natura-c09-2026,Natura,9
+205340,Batom CC Hidratante FPS 25 Nude 2C,Una,Maquiagem,Maquiagem,"3,8g",,64.9,57.6,7.3,11.25,True,61,,natura-c09-2026,Natura,9
+205323,Batom CC Hidratante FPS 25 Nude 2C Intenso,Una,Maquiagem,Maquiagem,"3,8g",,64.9,57.6,7.3,11.25,True,61,,natura-c09-2026,Natura,9
+206730,Máscara para cílios volume marrom,Una,Maquiagem,Maquiagem,7g,,96.9,79.9,17.0,17.54,True,62,,natura-c09-2026,Natura,9
+205934,PRO Palette de sombras nude 2C,Una,Maquiagem,Maquiagem,7g,,169.9,139.9,30.0,17.66,True,62,,natura-c09-2026,Natura,9
+204760,Blush Líquido Radiance Nude 2C,Una,Maquiagem,Maquiagem,5ml,,79.9,69.9,10.0,12.52,True,63,,natura-c09-2026,Natura,9
+205322,Blush Líquido Radiance Nude 2C Intenso,Una,Maquiagem,Maquiagem,5ml,,79.9,69.9,10.0,12.52,True,63,,natura-c09-2026,Natura,9
+205326,Blush Líquido Radiance Vermelho,Una,Maquiagem,Maquiagem,5ml,,79.9,69.9,10.0,12.52,True,63,,natura-c09-2026,Natura,9
+192103,Máscara de cílios extreme multibenefícios,Una,Maquiagem,Maquiagem,8 ml,,109.9,,,,False,64,,natura-c09-2026,Natura,9
+174921,Máscara para cílios multi HD,Una,Maquiagem,Maquiagem,9 g,,116.9,,,,False,64,,natura-c09-2026,Natura,9
+106122,Máscara para cílios alongamento infinito à prova d'água,Una,Maquiagem,Maquiagem,8 ml,,89.9,,,,False,64,,natura-c09-2026,Natura,9
+34262,Caneta delineadora para olhos,Una,Maquiagem,Maquiagem,1 ml,,74.9,,,,False,64,,natura-c09-2026,Natura,9
+140742,Sérum para sobrancelhas extremific,Una,Maquiagem,Maquiagem,4 g,,139.9,,,,False,64,,natura-c09-2026,Natura,9
+95757,Delineador matte peel off preto,Una,Maquiagem,Maquiagem,3 ml,,74.9,,,,False,64,,natura-c09-2026,Natura,9
+17043,Caneta delineadora de sobrancelhas castanho,Una,Maquiagem,Maquiagem,"1,1 ml",,74.9,,,,False,64,,natura-c09-2026,Natura,9
+17042,Caneta delineadora de sobrancelhas castanho-claro,Una,Maquiagem,Maquiagem,"1,1 ml",,74.9,,,,False,64,,natura-c09-2026,Natura,9
+70720,Lápis kajal para olhos preto,Una,Maquiagem,Maquiagem,"1,14g",,69.9,,,,False,65,,natura-c09-2026,Natura,9
+70721,Lápis kajal para olhos marrom,Una,Maquiagem,Maquiagem,"1,14g",,69.9,,,,False,65,,natura-c09-2026,Natura,9
+124319,Estojo refilável studio palette,Una,Maquiagem,Maquiagem,,,64.9,,,,False,65,,natura-c09-2026,Natura,9
+106135,REFIL Studio palette roxo glam metálico,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106134,REFIL Studio palette azul glam metálico,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106138,REFIL Studio palette prata glam sparkling,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106132,REFIL Studio palette preto matte,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106131,REFIL Studio palette marsala matte,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106129,REFIL Studio palette rosa blush matte,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106136,REFIL Studio palette mostarda matte,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106126,REFIL Studio palette ouro glow,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106127,REFIL Studio palette bronze glow,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106139,REFIL Studio palette verde jade matte,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106125,REFIL Studio palette rosé glow,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106137,REFIL Studio palette dourado glam sparkling,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106130,REFIL Studio palette marrom-claro matte,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+106128,REFIL Studio palette marrom profundo matte,Una,Maquiagem,Maquiagem,2g,,34.9,,,,False,65,,natura-c09-2026,Natura,9
+204432,Lápis Labial Retrátil PRO Vermelho 1,Una,Maquiagem,Maquiagem,"3,5g",,49.9,,,,False,66,,natura-c09-2026,Natura,9
+204429,Lápis Labial Retrátil PRO Marrom 10,Una,Maquiagem,Maquiagem,"3,5g",,49.9,,,,False,66,,natura-c09-2026,Natura,9
+204430,Lápis Labial Retrátil PRO Nude 2C,Una,Maquiagem,Maquiagem,"3,5g",,49.9,,,,False,66,,natura-c09-2026,Natura,9
+204434,Lápis Labial Retrátil PRO Nude 2C Intenso,Una,Maquiagem,Maquiagem,"3,5g",,49.9,,,,False,66,,natura-c09-2026,Natura,9
+192148,Gloss Multifuncional,Una,Maquiagem,Maquiagem,7g,,49.9,,,,False,66,,natura-c09-2026,Natura,9
+95780,Batom Matte Powder Violeta 6-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+95782,Batom Matte Powder Vinho 4-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+95775,Batom Matte Powder Rouge 6-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+95776,Batom Matte Powder Marrom 4-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+95778,Batom Matte Powder Marrom 2-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+95774,Batom Matte Powder Rosé 4-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+95773,Batom Matte Powder Nude 4-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+95777,Batom Matte Powder Rouge 2-M,Una,Maquiagem,Maquiagem,"3,4g",,59.9,,,,False,66,,natura-c09-2026,Natura,9
+22390,Batom Cristal Pink,Una,Maquiagem,Maquiagem,8ml,,64.9,,,,False,66,,natura-c09-2026,Natura,9
+95868,Batom Cristal Rouge,Una,Maquiagem,Maquiagem,8ml,,64.9,,,,False,66,,natura-c09-2026,Natura,9
+167327,Batom Cristal Nude 2C Intenso,Una,Maquiagem,Maquiagem,8ml,,64.9,,,,False,66,,natura-c09-2026,Natura,9
+167322,Batom Cristal Nude 2C,Una,Maquiagem,Maquiagem,8ml,,64.9,,,,False,66,,natura-c09-2026,Natura,9
+140022,Batom Líquido Matte Intransferível Nude 2C,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+140019,Batom Líquido Matte Intransferível Nude 2C Intenso,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+140059,Batom Líquido Matte Intransferível Rose 2-M,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+140025,Batom Líquido Matte Intransferível Pink 6-M,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+140032,Batom Líquido Matte Intransferível Vermelho 2-M,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+140024,Batom Líquido Matte Intransferível Rouge 6-M,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+140053,Batom Líquido Matte Intransferível Violeta 6-M,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+140023,Batom Líquido Matte Intransferível Marrom 10-M,Una,Maquiagem,Maquiagem,7ml,,65.9,,,,False,67,,natura-c09-2026,Natura,9
+148471,Batom Líquido Ultra Care 24h Nude 1-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+148475,Batom Líquido Ultra Care 24h Rosê 2-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+148472,Batom Líquido Ultra Care 24h Rosa 2-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+148469,Batom Líquido Ultra Care 24h Violeta 10-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+148474,Batom Líquido Ultra Care 24h Marrom 10-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+148473,Batom Líquido Ultra Care 24h Vinho 8-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+148476,Batom Líquido Ultra Care 24h Vermelho 4-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+148470,Batom Líquido Ultra Care 24h Vermelho 2-C,Una,Maquiagem,Maquiagem,7ml,,49.9,,,,False,67,,natura-c09-2026,Natura,9
+205337,Gloss Labial Hidratação Ativa Dourado 2,Una,Maquiagem,Maquiagem,5ml,,59.9,,,,False,67,,natura-c09-2026,Natura,9
+164825,Gloss Labial Hidratação Ativa Marrom,Una,Maquiagem,Maquiagem,5ml,,59.9,,,,False,67,,natura-c09-2026,Natura,9
+205329,Gloss Labial Hidratação Ativa Vinho 6,Una,Maquiagem,Maquiagem,5ml,,59.9,,,,False,67,,natura-c09-2026,Natura,9
+164820,Gloss Labial Hidratação Ativa Vermelho 2,Una,Maquiagem,Maquiagem,5ml,,59.9,,,,False,67,,natura-c09-2026,Natura,9
+205338,Gloss Labial Hidratação Ativa Pink 8,Una,Maquiagem,Maquiagem,5ml,,59.9,,,,False,67,,natura-c09-2026,Natura,9
+164826,Gloss Labial Hidratação Ativa Rose 1,Una,Maquiagem,Maquiagem,5ml,,59.9,,,,False,67,,natura-c09-2026,Natura,9
+164824,Gloss Labial Volume Imediato Incolor,Una,Maquiagem,Maquiagem,5ml,,59.9,,,,False,67,,natura-c09-2026,Natura,9
+122122,Corretivo Cobertura Extrema 24h 10N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122120,Corretivo Cobertura Extrema 24h 15N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122117,Corretivo Cobertura Extrema 24h 19N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122113,Corretivo Cobertura Extrema 24h 21N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122114,Corretivo Cobertura Extrema 24h 24N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122112,Corretivo Cobertura Extrema 24h 27N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122121,Corretivo Cobertura Extrema 24h 30N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122115,Corretivo Cobertura Extrema 24h 32N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122116,Corretivo Cobertura Extrema 24h 35N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122118,Corretivo Cobertura Extrema 24h 37N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122123,Corretivo Cobertura Extrema 24h 43N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+122119,Corretivo Cobertura Extrema 24h 46N,Una,Maquiagem,Maquiagem,8ml,,62.9,56.6,6.3,10.02,True,69,,natura-c09-2026,Natura,9
+181513,Base Stick FPS 50 Cor 12F,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181518,Base Stick FPS 50 Cor 15Q,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181515,Base Stick FPS 50 Cor 21Q,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181509,Base Stick FPS 50 Cor 23F,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181514,Base Stick FPS 50 Cor 25Q,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181520,Base Stick FPS 50 Cor 29N,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181521,Base Stick FPS 50 Cor 31N,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181516,Base Stick FPS 50 Cor 32Q,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181517,Base Stick FPS 50 Cor 35Q,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181510,Base Stick FPS 50 Cor 37Q,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181519,Base Stick FPS 50 Cor 40Q,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+181511,Base Stick FPS 50 Cor 43N,Make B.,Maquiagem,Maquiagem,12g,,119.9,119.9,,,False,71,,natura-c09-2026,Natura,9
+107123,Corretivo cushion nude me 10N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107124,Corretivo cushion nude me 15N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107125,Corretivo cushion nude me 19N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107126,Corretivo cushion nude me 21N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107127,Corretivo cushion nude me 24N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107128,Corretivo cushion nude me 27N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107129,Corretivo cushion nude me 30N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107130,Corretivo cushion nude me 32N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107131,Corretivo cushion nude me 35N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107132,Corretivo cushion nude me 37N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107133,Corretivo cushion nude me 43N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+107134,Corretivo cushion nude me 46N,Una,Maquiagem,Maquiagem,12 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+135024,Base tint extremo conforto FPS 40 12F,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+134778,Base tint extremo conforto FPS 40 15Q,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135035,Base tint extremo conforto FPS 40 21Q,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135047,Base tint extremo conforto FPS 40 23F,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135042,Base tint extremo conforto FPS 40 25Q,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135025,Base tint extremo conforto FPS 40 29N,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135026,Base tint extremo conforto FPS 40 31N,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135028,Base tint extremo conforto FPS 40 32Q,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135034,Base tint extremo conforto FPS 40 35Q,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135030,Base tint extremo conforto FPS 40 37Q,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135023,Base tint extremo conforto FPS 40 40Q,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+135022,Base tint extremo conforto FPS 40 43N,Una,Maquiagem,Maquiagem,30 ml,,79.9,,,,False,72,,natura-c09-2026,Natura,9
+108125,Base matte 10N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108126,Base matte 12F,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108127,Base matte 15Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108128,Base matte 16F,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108129,Base matte 19N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108130,Base matte 20N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108131,Base matte 21Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108132,Base matte 23F,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108133,Base matte 24F,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108135,Base matte 25Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108136,Base matte 27N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108138,Base matte 29N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108140,Base matte 30F,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108142,Base matte 31N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108144,Base matte 32Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108146,Base matte 33N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108148,Base matte 35N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108150,Base matte 35Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108151,Base matte 37Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108153,Base matte 40Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108154,Base matte 43N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108155,Base matte 44N,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108156,Base matte 46Q,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+108157,Base matte 48F,Una,Maquiagem,Maquiagem,30 ml,,99.9,,,,False,72,,natura-c09-2026,Natura,9
+191617,Base líquida HD 10N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173602,Refil Base líquida HD 10N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191628,Base líquida HD 12F,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173605,Refil Base líquida HD 12F,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191634,Base líquida HD 15Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173609,Refil Base líquida HD 15Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191635,Base líquida HD 16F,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173593,Refil Base líquida HD 16F,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191636,Base líquida HD 19N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173608,Refil Base líquida HD 19N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191637,Base líquida HD 20N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173607,Refil Base líquida HD 20N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191638,Base líquida HD 21Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173612,Refil Base líquida HD 21Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191639,Base líquida HD 23F,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173592,Refil Base líquida HD 23F,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+193846,Base líquida HD 24F,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173606,Refil Base líquida HD 24F,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191618,Base líquida HD 25Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173599,Refil Base líquida HD 25Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191619,Base líquida HD 27N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173604,Refil Base líquida HD 27N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191620,Base líquida HD 29N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173600,Refil Base líquida HD 29N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191621,Base líquida HD 30N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173591,Refil Base líquida HD 30N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191622,Base líquida HD 31N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173597,Refil Base líquida HD 31N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191623,Base líquida HD 33Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173601,Refil Base líquida HD 33Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191625,Base líquida HD 35N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173611,Refil Base líquida HD 35N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191626,Base líquida HD 35Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173598,Refil Base líquida HD 35Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191627,Base líquida HD 36Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173595,Refil Base líquida HD 36Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191629,Base líquida HD 40Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173594,Refil Base líquida HD 40Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191630,Base líquida HD 43N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173603,Refil Base líquida HD 43N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191631,Base líquida HD 44N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173610,Refil Base líquida HD 44N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191632,Base líquida HD 47Q,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173993,Refil Base líquida HD 47Q,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191633,Base líquida HD 48F,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173992,Refil Base líquida HD 48F,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+191624,Base líquida HD 49N,Una,Maquiagem,Maquiagem,30 ml,,159.9,,,,False,72,,natura-c09-2026,Natura,9
+173596,Refil Base líquida HD 49N,Una,Maquiagem,Maquiagem,30 ml,,109.9,,,,False,72,,natura-c09-2026,Natura,9
+127768,Base Matte Powder 12F,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127775,Base Matte Powder 15Q,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127766,Base Matte Powder 21Q,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127761,Base Matte Powder 23F,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127760,Base Matte Powder 25Q,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127763,Base Matte Powder 29N,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127772,Base Matte Powder 31N,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127776,Base Matte Powder 32Q,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127777,Base Matte Powder 35Q,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127757,Base Matte Powder 37Q,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127762,Base Matte Powder 40Q,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+127764,Base Matte Powder 43N,Una,Maquiagem,Maquiagem,20g,,139.9,,,,False,73,,natura-c09-2026,Natura,9
+110181,Base Sérum Nude Me 10N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110182,Base Sérum Nude Me 12F,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110183,Base Sérum Nude Me 15Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110184,Base Sérum Nude Me 16F,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110185,Base Sérum Nude Me 19N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110186,Base Sérum Nude Me 20N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110187,Base Sérum Nude Me 21Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110188,Base Sérum Nude Me 23F,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110189,Base Sérum Nude Me 24F,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110190,Base Sérum Nude Me 25Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110191,Base Sérum Nude Me 27N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110192,Base Sérum Nude Me 29N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110193,Base Sérum Nude Me 30F,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110194,Base Sérum Nude Me 31N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110195,Base Sérum Nude Me 32Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110196,Base Sérum Nude Me 33N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110197,Base Sérum Nude Me 35N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110198,Base Sérum Nude Me 35Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110199,Base Sérum Nude Me 37Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110200,Base Sérum Nude Me 40Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110201,Base Sérum Nude Me 43N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110202,Base Sérum Nude Me 44N,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110203,Base Sérum Nude Me 46Q,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110204,Base Sérum Nude Me 48F,Una,Maquiagem,Maquiagem,30ml,,179.9,,,,False,73,,natura-c09-2026,Natura,9
+110678,REFIL Pó compacto nude me 12N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+110679,REFIL Pó compacto nude me 19N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+110680,REFIL Pó compacto nude me 21N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+110681,REFIL Pó compacto nude me 27N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+110682,REFIL Pó compacto nude me 31N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+110683,REFIL Pó compacto nude me 35N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+110684,REFIL Pó compacto nude me 40N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+110685,REFIL Pó compacto nude me 46N,Una,Maquiagem,Maquiagem,10g,,64.9,,,,False,74,,natura-c09-2026,Natura,9
+71663,Estojo de maquiagem rosa metalizado,Una,Maquiagem,Maquiagem,,,59.9,,,,False,74,,natura-c09-2026,Natura,9
+72020,REFIL Blush intense me uva matte,Una,Maquiagem,Maquiagem,6g,,69.9,,,,False,74,,natura-c09-2026,Natura,9
+92595,REFIL Blush intense me coral perolado,Una,Maquiagem,Maquiagem,6g,,69.9,,,,False,74,,natura-c09-2026,Natura,9
+92584,REFIL Blush intense me rosê matte,Una,Maquiagem,Maquiagem,6g,,69.9,,,,False,74,,natura-c09-2026,Natura,9
+92576,REFIL Blush intense me bronze perolado,Una,Maquiagem,Maquiagem,6g,,69.9,,,,False,74,,natura-c09-2026,Natura,9
+24865,REFIL Iluminador marmorizado corpo e rosto,Una,Maquiagem,Maquiagem,"3,5g",,69.9,,,,False,74,,natura-c09-2026,Natura,9
+165384,Pó solto facial translúcido matte natural,Una,Maquiagem,Maquiagem,8g,,119.9,,,,False,74,,natura-c09-2026,Natura,9
+165814,Pó solto facial translúcido luminoso,Una,Maquiagem,Maquiagem,8g,,119.9,,,,False,74,,natura-c09-2026,Natura,9
+153720,Bruma facial hidratante fixadora,Una,Maquiagem,Maquiagem,100ml,,74.9,,,,False,74,,natura-c09-2026,Natura,9
+59313,Primer blur,Una,Maquiagem,Maquiagem,30ml,,89.9,,,,False,74,,natura-c09-2026,Natura,9
+109481,Sérum para unhas e cutículas,Una,Maquiagem,Maquiagem,10 ml,,64.9,,,,False,75,,natura-c09-2026,Natura,9
+15825,Base primer 3D gel,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+15826,Top coat 3D gel,Una,Maquiagem,Maquiagem,8 ml,,35.9,,,,False,75,,natura-c09-2026,Natura,9
+15353,Esmalte 3D gel contorno 590,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+15823,Esmalte 3D gel collage 100,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+15822,Esmalte 3D gel origami 110,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+109477,Esmalte 3D gel porcelana 910,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+15820,Esmalte 3D gel macramê 920,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+109479,Esmalte 3D gel terracota 960,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+15553,Esmalte 3D gel compasso 750,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+15815,Esmalte 3D gel una nº 2,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+15352,Esmalte 3D gel contraponto 630,Una,Maquiagem,Maquiagem,8 ml,,33.9,,,,False,75,,natura-c09-2026,Natura,9
+105713,Pincel PRO iluminador,Una,Maquiagem,Maquiagem,,,54.9,,,,False,75,,natura-c09-2026,Natura,9
+58406,Pincel PRO duo fibras,Una,Maquiagem,Maquiagem,,,69.9,,,,False,75,,natura-c09-2026,Natura,9
+105716,Pincel PRO precisão,Una,Maquiagem,Maquiagem,,,38.9,,,,False,75,,natura-c09-2026,Natura,9
+109002,Pincel PRO base cremosa,Una,Maquiagem,Maquiagem,,,69.9,,,,False,75,,natura-c09-2026,Natura,9
+55105,Pincel PRO pó compacto,Una,Maquiagem,Maquiagem,,,79.9,,,,False,75,,natura-c09-2026,Natura,9
+55100,Pincel PRO blush,Una,Maquiagem,Maquiagem,,,64.9,,,,False,75,,natura-c09-2026,Natura,9
+55104,Pincel PRO base líquida,Una,Maquiagem,Maquiagem,,,59.9,,,,False,75,,natura-c09-2026,Natura,9
+105714,Pincel PRO corretivo,Una,Maquiagem,Maquiagem,,,49.9,,,,False,75,,natura-c09-2026,Natura,9
+105717,Pincel PRO sobrancelhas,Una,Maquiagem,Maquiagem,,,29.9,,,,False,75,,natura-c09-2026,Natura,9
+105715,Pincel PRO esfumador,Una,Maquiagem,Maquiagem,,,29.9,,,,False,75,,natura-c09-2026,Natura,9
+55107,Pincel PRO lábios,Una,Maquiagem,Maquiagem,,,30.9,,,,False,75,,natura-c09-2026,Natura,9
+06421,Batom Color Hidra FPS 8 Rosa 200,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+107359,Batom Color Hidra FPS 8 Rosa 204,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+107364,Batom Color Hidra FPS 8 Rosa 280,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+04953,Batom Color Hidra FPS 8 Roxo 603,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+03379,Batom Color Hidra FPS 8 Coral 805,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+04960,Batom Color Hidra FPS 8 Vermelho 120,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+06422,Batom Color Hidra FPS 8 Marrom 470,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+06319,Batom Color Hidra FPS 8 Vinho 540,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,26.9,9.0,25.07,True,77,,natura-c09-2026,Natura,9
+116200,Batom Multimix Cremoso Bege Fresh,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116202,Batom Multimix Cremoso Rosa Crush,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116204,Batom Multimix Cremoso Cobre Sunset,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116197,Batom Multimix Cremoso Cobre Mystic,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116186,Batom Multimix Cremoso Rock n Red,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116199,Batom Multimix Cremoso Vinho Rocks,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116201,Batom Multimix Cremoso Hey Honey,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116203,Batom Multimix Cremoso Pink Paradise,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116195,Batom Multimix Cremoso Rosa Kiss Me,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+114984,Batom Multimix Cremoso Coral Fun,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116188,Batom Multimix Cremoso Vermelho Hot,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+116193,Batom Multimix Cremoso Brown Mystic,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+10162,Batom Color Tint FPS 8 Rosa 210,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+06587,Batom Color Tint FPS 8 Rosa 225,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+06589,Batom Color Tint FPS 8 Pink 320,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+10161,Batom Color Tint FPS 8 Roxo 612,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+06606,Batom Color Tint FPS 8 Laranja 714,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+06590,Batom Color Tint FPS 8 Coral 808,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+06588,Batom Color Tint FPS 8 Vermelho 117,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+06586,Batom Color Tint FPS 8 Vinho 532,Faces,Maquiagem,Maquiagem,"3,5g",,35.9,,,,False,78,,natura-c09-2026,Natura,9
+77989,Batom Matte Marsala,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+93029,Batom Matte Red Square,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+87468,Batom Matte Queen of Red,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+93024,Batom Matte Vinho In Love,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+93026,Batom Matte Purple Rain,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+12179,Batom Matte Azul Cyber,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+87469,Batom Matte Naked Nude,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+90905,Batom Matte Nude,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+77992,Batom Matte Cookie Nude,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+67645,Batom Matte Rosa Candy,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+93028,Batom Matte Perfect Pink,Faces,Maquiagem,Maquiagem,"3,5g",,23.9,,,,False,78,,natura-c09-2026,Natura,9
+111424,Batom Matte Longa Duração Chocolate Mousse,Faces,Maquiagem,Maquiagem,"5,5ml",,49.9,,,,False,78,,natura-c09-2026,Natura,9
+111426,Batom Matte Longa Duração Marsala Night,Faces,Maquiagem,Maquiagem,"5,5ml",,49.9,,,,False,78,,natura-c09-2026,Natura,9
+111466,Batom Matte Longa Duração Bege Beauty,Faces,Maquiagem,Maquiagem,"5,5ml",,49.9,,,,False,78,,natura-c09-2026,Natura,9
+111425,Batom Matte Longa Duração Red Love,Faces,Maquiagem,Maquiagem,"5,5ml",,49.9,,,,False,78,,natura-c09-2026,Natura,9
+111398,Batom Matte Longa Duração Cereja Likes,Faces,Maquiagem,Maquiagem,"5,5ml",,49.9,,,,False,78,,natura-c09-2026,Natura,9
+111428,Batom Matte Longa Duração Roxo Digital,Faces,Maquiagem,Maquiagem,"5,5ml",,49.9,,,,False,78,,natura-c09-2026,Natura,9
+123025,Batom Lip Tint Roxo Go,Faces,Maquiagem,Maquiagem,"3,9ml",,26.9,,,,False,78,,natura-c09-2026,Natura,9
+123024,Batom Lip Tint Pink Play,Faces,Maquiagem,Maquiagem,"3,9ml",,26.9,,,,False,78,,natura-c09-2026,Natura,9
+118445,Batom Lip Tint Vermelho Start,Faces,Maquiagem,Maquiagem,"3,9ml",,26.9,,,,False,78,,natura-c09-2026,Natura,9
+118918,Batom Lip Tint Cintilante On,Faces,Maquiagem,Maquiagem,"3,9ml",,26.9,,,,False,78,,natura-c09-2026,Natura,9
+151704,Mini Chubby Matte Marrom,Faces,Maquiagem,Maquiagem,"1,2g",,29.9,,,,False,78,,natura-c09-2026,Natura,9
+151700,Mini Chubby Matte Nude,Faces,Maquiagem,Maquiagem,"1,2g",,29.9,,,,False,78,,natura-c09-2026,Natura,9
+151705,Mini Chubby Matte Vermelho,Faces,Maquiagem,Maquiagem,"1,2g",,29.9,,,,False,78,,natura-c09-2026,Natura,9
+151702,Mini Chubby Matte Rosa,Faces,Maquiagem,Maquiagem,"1,2g",,29.9,,,,False,78,,natura-c09-2026,Natura,9
+167182,Gloss Coleção do Amor,Faces,Maquiagem,Maquiagem,7g,,44.9,,,,False,78,,natura-c09-2026,Natura,9
+09619,Lápis para Lábios Color & Contour Rosa,Faces,Maquiagem,Maquiagem,"1,4g",,39.9,31.9,8.0,20.05,True,79,,natura-c09-2026,Natura,9
+09586,Lápis para Lábios Color & Contour Vermelho,Faces,Maquiagem,Maquiagem,"1,4g",,39.9,31.9,8.0,20.05,True,79,,natura-c09-2026,Natura,9
+09521,Lápis para Lábios Color & Contour Marrom,Faces,Maquiagem,Maquiagem,"1,4g",,39.9,31.9,8.0,20.05,True,79,,natura-c09-2026,Natura,9
+09583,Lápis para Lábios Color & Contour Vinho,Faces,Maquiagem,Maquiagem,"1,4g",,39.9,31.9,8.0,20.05,True,79,,natura-c09-2026,Natura,9
+175112,Gloss Pink Universe,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,79,,natura-c09-2026,Natura,9
+175111,Gloss Sparkle Glass,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,79,,natura-c09-2026,Natura,9
+175105,Gloss Mystic Galaxy,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,79,,natura-c09-2026,Natura,9
+175103,Gloss Brown Star,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,79,,natura-c09-2026,Natura,9
+08847,Pó Compacto Matte Claro 20,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08848,Pó Compacto Matte Claro 24,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08882,Pó Compacto Matte Médio 22,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08883,Pó Compacto Matte Médio 24,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08884,Pó Compacto Matte Médio 26,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08885,Pó Compacto Matte Castanho 20,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08888,Pó Compacto Matte Castanho 22,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08889,Pó Compacto Matte Escuro 20,Faces,Maquiagem,Maquiagem,"6,5g",,68.9,,,,False,80,,natura-c09-2026,Natura,9
+08992,Refil Pó Compacto Matte Claro 20,Faces,Maquiagem,Maquiagem,"6,5g",,49.9,,,,False,80,,natura-c09-2026,Natura,9
+09009,Refil Pó Compacto Matte Claro 24,Faces,Maquiagem,Maquiagem,"6,5g",,49.9,,,,False,80,,natura-c09-2026,Natura,9
+09026,Refil Pó Compacto Matte Médio 22,Faces,Maquiagem,Maquiagem,"6,5g",,49.9,,,,False,80,,natura-c09-2026,Natura,9
+09125,Refil Pó Compacto Matte Médio 26,Faces,Maquiagem,Maquiagem,"6,5g",,49.9,,,,False,80,,natura-c09-2026,Natura,9
+09149,Refil Pó Compacto Matte Castanho 20,Faces,Maquiagem,Maquiagem,"6,5g",,49.9,,,,False,80,,natura-c09-2026,Natura,9
+09304,Refil Pó Compacto Matte Castanho 22,Faces,Maquiagem,Maquiagem,"6,5g",,49.9,,,,False,80,,natura-c09-2026,Natura,9
+09431,Refil Pó Compacto Matte Escuro 20,Faces,Maquiagem,Maquiagem,"6,5g",,49.9,,,,False,80,,natura-c09-2026,Natura,9
+116688,Corretivo Checkmatte 10N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116689,Corretivo Checkmatte 15N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116690,Corretivo Checkmatte 19N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116691,Corretivo Checkmatte 21N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116692,Corretivo Checkmatte 24N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116693,Corretivo Checkmatte 27N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116694,Corretivo Checkmatte 30N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116695,Corretivo Checkmatte 32N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116696,Corretivo Checkmatte 35N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116697,Corretivo Checkmatte 37N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116698,Corretivo Checkmatte 43N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+116699,Corretivo Checkmatte 46N,Faces,Maquiagem,Maquiagem,10g,,34.9,,,,False,80,,natura-c09-2026,Natura,9
+166343,Base Líquida Checkmatte 30F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166327,Base Líquida Checkmatte 31N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166326,Base Líquida Checkmatte 32Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166347,Base Líquida Checkmatte 33N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166346,Base Líquida Checkmatte 35N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166337,Base Líquida Checkmatte 35Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166342,Base Líquida Checkmatte 37Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166334,Base Líquida Checkmatte 40Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166336,Base Líquida Checkmatte 43N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166331,Base Líquida Checkmatte 44N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166339,Base Líquida Checkmatte 46Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+166348,Base Líquida Checkmatte 48F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,81,,natura-c09-2026,Natura,9
+04741,Pó Compacto Translúcido,Faces,Maquiagem,Maquiagem,"5,5g",,39.9,,,,False,81,,natura-c09-2026,Natura,9
+15045,Refil Pó Compacto Translúcido,Faces,Maquiagem,Maquiagem,"5,5g",,34.9,,,,False,81,,natura-c09-2026,Natura,9
+101037,Duo Superbrilho Golden Rubi,Faces,Maquiagem,Maquiagem,"2,5g",,44.9,,,,False,81,,natura-c09-2026,Natura,9
+16641,Esponja Color Blend,Faces,Maquiagem,Maquiagem,"L 4 x A 5,7 cm",,39.9,,,,False,81,,natura-c09-2026,Natura,9
+09483,Blush Color Bronze 47,Faces,Maquiagem,Maquiagem,3g,,39.9,,,,False,81,,natura-c09-2026,Natura,9
+09432,Blush Color Vinho 28,Faces,Maquiagem,Maquiagem,3g,,39.9,,,,False,81,,natura-c09-2026,Natura,9
+09481,Blush Color Rosa 69,Faces,Maquiagem,Maquiagem,3g,,39.9,,,,False,81,,natura-c09-2026,Natura,9
+09456,Blush Color Coral 85,Faces,Maquiagem,Maquiagem,3g,,39.9,,,,False,81,,natura-c09-2026,Natura,9
+105026,Gel Glitter Dourado,Faces,Maquiagem,Maquiagem,80g,,49.9,,,,False,81,,natura-c09-2026,Natura,9
+157257,Gel Glitter Cristal,Faces,Maquiagem,Maquiagem,80g,,49.9,,,,False,81,,natura-c09-2026,Natura,9
+138473,Sombra Mono Real Bronze,Faces,Maquiagem,Maquiagem,"1,5g",,39.9,,,,False,82,,natura-c09-2026,Natura,9
+109151,Sombra Mono Azul Joy,Faces,Maquiagem,Maquiagem,"1,5g",,39.9,,,,False,82,,natura-c09-2026,Natura,9
+09832,Supermáscara Tint para Cílios,Faces,Maquiagem,Maquiagem,12ml,,59.9,,,,False,82,,natura-c09-2026,Natura,9
+09833,Multimáscara Tint para Cílios à Prova d'Água,Faces,Maquiagem,Maquiagem,7ml,,55.9,,,,False,82,,natura-c09-2026,Natura,9
+86642,Máscara Volume Fever,Faces,Maquiagem,Maquiagem,7ml,,34.9,,,,False,82,,natura-c09-2026,Natura,9
+120447,Máscara para Sobrancelhas,Faces,Maquiagem,Maquiagem,4ml,,39.9,,,,False,82,,natura-c09-2026,Natura,9
+167192,Gel de Sobrancelhas Incolor,Faces,Maquiagem,Maquiagem,4ml,,39.9,,,,False,82,,natura-c09-2026,Natura,9
+67666,Máscara Megafantástica,Faces,Maquiagem,Maquiagem,7ml,,34.9,,,,False,82,,natura-c09-2026,Natura,9
+65830,Caneta Delineadora Preta,Faces,Maquiagem,Maquiagem,1ml,,44.9,,,,False,82,,natura-c09-2026,Natura,9
+140741,Delineador Retrátil Wine,Faces,Maquiagem,Maquiagem,280mg,,44.9,,,,False,82,,natura-c09-2026,Natura,9
+137955,Delineador Retrátil Roxo,Faces,Maquiagem,Maquiagem,280mg,,44.9,,,,False,82,,natura-c09-2026,Natura,9
+09921,Lápis para Olhos Marrom,Faces,Maquiagem,Maquiagem,"1,3g",,39.9,,,,False,82,,natura-c09-2026,Natura,9
+09910,Lápis para Olhos Preto,Faces,Maquiagem,Maquiagem,"1,3g",,39.9,,,,False,82,,natura-c09-2026,Natura,9
+67647,Máscara para olhos e sobrancelhas incolor,Faces,Maquiagem,Maquiagem,7 ml,,34.9,25.9,9.0,25.79,True,83,,natura-c09-2026,Natura,9
+166352,Gel de limpeza controle de oleosidade,Faces,Cuidados com a Pele,Cuidados com a Pele,120 g,,42.9,,,,False,84,,natura-c09-2026,Natura,9
+166354,Sérum facial uniformiza+,Faces,Cuidados com a Pele,Cuidados com a Pele,35 g,,69.9,,,,False,84,,natura-c09-2026,Natura,9
+166351,Gel secativo de espinhas seca+,Faces,Cuidados com a Pele,Cuidados com a Pele,15 g,,35.9,,,,False,84,,natura-c09-2026,Natura,9
+166353,Hidratante facial matificante,Faces,Cuidados com a Pele,Cuidados com a Pele,50 ml,,50.9,,,,False,84,,natura-c09-2026,Natura,9
+183307,Máscara facial refrescante,Faces,Cuidados com a Pele,Cuidados com a Pele,20 ml,,20.9,,,,False,84,,natura-c09-2026,Natura,9
+117124,Demaquilante líquido 3 em 1,Faces,Cuidados com a Pele,Cuidados com a Pele,120 ml,,49.9,,,,False,84,,natura-c09-2026,Natura,9
+128752,Bálsamo demaquilante,Faces,Cuidados com a Pele,Cuidados com a Pele,45 g,,63.9,,,,False,84,,natura-c09-2026,Natura,9
+178162,Esmalte faces Coral Nude Caiena,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+106543,Esmalte faces Vermelho Assunción,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+106544,Esmalte faces Lilás Caracas,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+178163,Esmalte faces Preto London,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+106551,Esmalte faces Verde Canberra,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+106534,Esmalte faces Rosa Nude Buenos Aires,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+106535,Esmalte faces Pink Rio,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+106542,Esmalte faces Rosa Montevideo,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+106553,Esmalte faces Marrom Nude SP,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+178160,Esmalte faces Verde Paramaribo,Faces,Maquiagem,Maquiagem,6 ml,,24.9,,,,False,84,,natura-c09-2026,Natura,9
+118910,Gel booster hidratante facial,Faces,Hidratação,Hidratação,35 g,,64.9,44.9,20.0,30.82,True,85,,natura-c09-2026,Natura,9
+105024,Máscara refresh,Faces,Hidratação,Hidratação,50 ml,,39.9,27.9,12.0,30.08,True,85,,natura-c09-2026,Natura,9
+189563,Hidratante facial intensivo,Faces,Hidratação,Hidratação,50 ml,,50.9,,,,False,85,,natura-c09-2026,Natura,9
+183308,Máscara facial pré-make hidratante,Faces,Hidratação,Hidratação,20 ml,,20.9,,,,False,85,,natura-c09-2026,Natura,9
+69720,Limpeza Purificante Antioleosidade Sabonete em Gel,Chronos,Rosto,Rosto,130g,,82.0,56.9,25.1,30.61,True,89,,natura-c09-2026,Natura,9
+169229,Sérum Intensivo Redutor de Oleosidade,Chronos,Rosto,Rosto,30ml,,195.0,174.9,20.1,10.31,True,89,,natura-c09-2026,Natura,9
+169244,Refil Sérum Intensivo Redutor de Oleosidade,Chronos,Rosto,Rosto,30ml,,136.0,,,,False,89,,natura-c09-2026,Natura,9
+69725,Protetor Antioleosidade Redutor de Poros FPS 30 / FPUVA 10 Incolor,Chronos,Rosto,Rosto,50ml,,105.0,72.9,32.1,30.57,True,89,,natura-c09-2026,Natura,9
+134189,Multiprotetor Antissinais FPS 50 / FPUVA 18,Chronos,Rosto,Rosto,50ml,,108.0,96.9,11.1,10.28,True,90,,natura-c09-2026,Natura,9
+135043,Essência de Tratamento Revitalização e Luminosidade,Chronos,Rosto,Rosto,100ml,,132.0,,,,False,90,,natura-c09-2026,Natura,9
+127754,Sérum Intensivo para Bolsas e Olheiras,Chronos,Rosto,Rosto,15ml,,185.0,,,,False,90,,natura-c09-2026,Natura,9
+169247,Sérum Intensivo Lifting e Firmeza,Chronos,Rosto,Rosto,30ml,,195.0,,,,False,90,,natura-c09-2026,Natura,9
+168819,Refil Sérum Intensivo Lifting e Firmeza,Chronos,Rosto,Rosto,30ml,,136.0,,,,False,90,,natura-c09-2026,Natura,9
+169222,Sérum Intensivo Multiclareador,Chronos,Rosto,Rosto,30ml,,195.0,,,,False,90,,natura-c09-2026,Natura,9
+169235,Refil Sérum Intensivo Multiclareador,Chronos,Rosto,Rosto,30ml,,136.0,,,,False,90,,natura-c09-2026,Natura,9
+259655,Kit multiprotetor antissinais + super sérum redutor de rugas,Chronos,Rosto,Rosto,50ml + 10ml,,223.0,123.9,99.1,44.44,True,91,,natura-c09-2026,Natura,9
+179454,Super sérum redutor de rugas,Chronos,Rosto,Rosto,10ml,,115.0,,,,False,91,,natura-c09-2026,Natura,9
+169233,Sérum intensivo preenchedor hidratante,Chronos,Rosto,Rosto,30ml,,195.0,,,,False,91,,natura-c09-2026,Natura,9
+168818,Refil Sérum intensivo preenchedor hidratante,Chronos,Rosto,Rosto,30ml,,136.0,,,,False,91,,natura-c09-2026,Natura,9
+169258,Super sérum para olhos redutor de rugas e flacidez,Chronos,Rosto,Rosto,15ml,,195.0,,,,False,91,,natura-c09-2026,Natura,9
+169238,Refil Super sérum para olhos redutor de rugas e flacidez,Chronos,Rosto,Rosto,15ml,,136.0,,,,False,91,,natura-c09-2026,Natura,9
+169264,Super sérum redutor de rugas,Chronos,Rosto,Rosto,30ml,,239.0,,,,False,91,,natura-c09-2026,Natura,9
+169234,Refil Super sérum redutor de rugas,Chronos,Rosto,Rosto,30ml,,167.0,,,,False,91,,natura-c09-2026,Natura,9
+134592,Gel creme antissinais renovação e prevenção 30+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,155.0,,,,False,92,,natura-c09-2026,Natura,9
+134593,Gel creme antissinais renovação e prevenção 30+ Noite,Chronos,Rosto,Rosto,40g,,155.0,,,,False,92,,natura-c09-2026,Natura,9
+134591,Refil Gel creme antissinais renovação e prevenção 30+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,124.0,,,,False,92,,natura-c09-2026,Natura,9
+134595,Refil Gel creme antissinais renovação e prevenção 30+ Noite,Chronos,Rosto,Rosto,40g,,124.0,,,,False,92,,natura-c09-2026,Natura,9
+134725,Gel creme antissinais firmeza e luminosidade 45+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,155.0,,,,False,92,,natura-c09-2026,Natura,9
+135032,Gel creme antissinais firmeza e luminosidade 45+ Noite,Chronos,Rosto,Rosto,40g,,155.0,,,,False,92,,natura-c09-2026,Natura,9
+134585,Refil Gel creme antissinais firmeza e luminosidade 45+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,124.0,,,,False,92,,natura-c09-2026,Natura,9
+134589,Refil Gel creme antissinais firmeza e luminosidade 45+ Noite,Chronos,Rosto,Rosto,40g,,124.0,,,,False,92,,natura-c09-2026,Natura,9
+134693,Creme Antissinais Preenchimento e Revitalização 60+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,155.0,,,,False,93,,natura-c09-2026,Natura,9
+135036,Creme Antissinais Preenchimento e Revitalização 60+ Noite,Chronos,Rosto,Rosto,40g,,155.0,,,,False,93,,natura-c09-2026,Natura,9
+134700,Refil Creme Antissinais Preenchimento e Revitalização 60+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,124.0,,,,False,93,,natura-c09-2026,Natura,9
+134587,Refil Creme Antissinais Preenchimento e Revitalização 60+ Noite,Chronos,Rosto,Rosto,40g,,124.0,,,,False,93,,natura-c09-2026,Natura,9
+134697,Creme Antissinais Restauração e Cuidado 70+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,155.0,,,,False,93,,natura-c09-2026,Natura,9
+135027,Creme Antissinais Restauração e Cuidado 70+ Noite,Chronos,Rosto,Rosto,40g,,155.0,,,,False,93,,natura-c09-2026,Natura,9
+134723,Refil Creme Antissinais Restauração e Cuidado 70+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,124.0,,,,False,93,,natura-c09-2026,Natura,9
+134590,Refil Creme Antissinais Restauração e Cuidado 70+ Noite,Chronos,Rosto,Rosto,40g,,124.0,,,,False,93,,natura-c09-2026,Natura,9
+134695,Creme Antissinais Fortalecimento e Nutrição 80+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,155.0,,,,False,93,,natura-c09-2026,Natura,9
+135039,Creme Antissinais Fortalecimento e Nutrição 80+ Noite,Chronos,Rosto,Rosto,40g,,155.0,,,,False,93,,natura-c09-2026,Natura,9
+134694,Refil Creme Antissinais Fortalecimento e Nutrição 80+ Dia FPS 30,Chronos,Rosto,Rosto,40g,,124.0,,,,False,93,,natura-c09-2026,Natura,9
+134594,Refil Creme Antissinais Fortalecimento e Nutrição 80+ Noite,Chronos,Rosto,Rosto,40g,,124.0,,,,False,93,,natura-c09-2026,Natura,9
+135060,Sabonete em espuma limpeza suave,Chronos,Cuidados com o Rosto,Cuidados com o Rosto,150 ml,,89.0,,,,False,94,,natura-c09-2026,Natura,9
+134586,Sabonete em mousse limpeza intensiva,Chronos,Cuidados com o Rosto,Cuidados com o Rosto,85 g,,82.0,,,,False,94,,natura-c09-2026,Natura,9
+171365,Sabonete em óleo limpeza demaquilante,Chronos,Cuidados com o Rosto,Cuidados com o Rosto,125 ml,,82.0,,,,False,94,,natura-c09-2026,Natura,9
+133503,Água micelar demaquilante suave,Chronos,Cuidados com o Rosto,Cuidados com o Rosto,150 ml,,82.0,,,,False,94,,natura-c09-2026,Natura,9
+137976,Demaquilante bifásico intensivo,Chronos,Cuidados com o Rosto,Cuidados com o Rosto,150 ml,,82.0,,,,False,94,,natura-c09-2026,Natura,9
+135057,Triplo esfoliante peeling antissinais,Chronos,Cuidados com o Rosto,Cuidados com o Rosto,50 g,,82.0,,,,False,94,,natura-c09-2026,Natura,9
+190899,Sabonete em pó enzimático limpeza uniformizadora,Chronos,Cuidados com o Rosto,Cuidados com o Rosto,50 g,,89.0,,,,False,94,,natura-c09-2026,Natura,9
+183277,Multiprotetor Clareador FPS 70 / FPUVA Incolor,Chronos,Proteção Solar,Proteção Solar,50ml,,119.0,,,,False,95,,natura-c09-2026,Natura,9
+183273,Multiprotetor Clareador FPS 70 / FPUVA Cor 1,Chronos,Proteção Solar,Proteção Solar,50ml,,119.0,,,,False,95,,natura-c09-2026,Natura,9
+183272,Multiprotetor Clareador FPS 70 / FPUVA Cor 2,Chronos,Proteção Solar,Proteção Solar,50ml,,119.0,,,,False,95,,natura-c09-2026,Natura,9
+183276,Multiprotetor Clareador FPS 70 / FPUVA Cor 3,Chronos,Proteção Solar,Proteção Solar,50ml,,119.0,,,,False,95,,natura-c09-2026,Natura,9
+183280,Multiprotetor Clareador FPS 70 / FPUVA Cor 4,Chronos,Proteção Solar,Proteção Solar,50ml,,119.0,,,,False,95,,natura-c09-2026,Natura,9
+183279,Multiprotetor Clareador FPS 70 / FPUVA Cor 5,Chronos,Proteção Solar,Proteção Solar,50ml,,119.0,,,,False,95,,natura-c09-2026,Natura,9
+183281,Multiprotetor Clareador FPS 70 / FPUVA Cor 6,Chronos,Proteção Solar,Proteção Solar,50ml,,119.0,,,,False,95,,natura-c09-2026,Natura,9
+91849,Hidratante Acqua Renovador,Chronos,Hidratação,Hidratação,40g,,179.0,,,,False,95,,natura-c09-2026,Natura,9
+91819,Refil Hidratante Acqua Renovador,Chronos,Hidratação,Hidratação,40g,,144.0,,,,False,95,,natura-c09-2026,Natura,9
+167236,Balm Labial Reparador Hidratante,Chronos,Hidratação,Hidratação,15ml,,59.0,,,,False,95,,natura-c09-2026,Natura,9
+169217,Balm para Olhos Redutor de Rugas,Chronos,Hidratação,Hidratação,15g,,109.0,,,,False,95,,natura-c09-2026,Natura,9
+181015,Sabonete em barra puro vegetal maçã caramelada e baunilha,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,31.4,3.5,10.03,True,98,,natura-c09-2026,Natura,9
+203531,Kit Tododia Maçã Caramelada e Baunilha (1 Creme Desodorante Nutritivo 400 ml + 1 Body Splash 200 ml),Tododia,Corpo e Banho,Corpo e Banho,400ml + 200ml,,172.8,93.8,79.0,45.72,True,99,,natura-c09-2026,Natura,9
+181012,Creme desodorante nutritivo para o corpo maçã caramelada e baunilha,Tododia,Hidratação,Hidratação,400ml,,78.9,,,,False,99,,natura-c09-2026,Natura,9
+181013,Body splash desodorante colônia maçã caramelada e baunilha,Tododia,Perfumaria,Perfumaria,200ml,,93.9,,,,False,99,,natura-c09-2026,Natura,9
+249078,Kit gloss tododia maçã caramelada e baunilha,Tododia,Maquiagem,Maquiagem,2 x 10 ml,,59.8,52.9,6.9,11.54,True,100,,natura-c09-2026,Natura,9
+181014,Gloss labial maçã caramelada e baunilha,Tododia,Maquiagem,Maquiagem,10 ml,,29.9,,,,False,100,,natura-c09-2026,Natura,9
+192138,Creme Nutritivo para as Mãos Pêssego e Flor de Cravo Tododia,Tododia,Hidratação,Hidratação,50ml,,39.9,23.9,16.0,40.1,True,101,,natura-c09-2026,Natura,9
+192137,Creme Nutritivo para as Mãos Acerola e Hibisco Tododia,Tododia,Hidratação,Hidratação,50ml,,39.9,23.9,16.0,40.1,True,101,,natura-c09-2026,Natura,9
+72178,Creme Nutritivo para as Mãos Algodão Tododia,Tododia,Hidratação,Hidratação,50ml,,39.9,23.9,16.0,40.1,True,101,,natura-c09-2026,Natura,9
+72179,Creme Nutritivo para Mãos e Colo Noz Pecã e Cacau Tododia,Tododia,Hidratação,Hidratação,50ml,,39.9,23.9,16.0,40.1,True,101,,natura-c09-2026,Natura,9
+95937,Creme Nutritivo para as Mãos Cereja e Avelã Tododia,Tododia,Hidratação,Hidratação,50ml,,39.9,,,,False,101,,natura-c09-2026,Natura,9
+18979,Creme Nutritivo para os Pés Cereja e Avelã Tododia,Tododia,Hidratação,Hidratação,50ml,,39.9,,,,False,101,,natura-c09-2026,Natura,9
+99818,Creme desodorante nutritivo para o corpo ameixa e flor de baunilha,Tododia,Hidratação,Hidratação,400 ml,,78.9,,,,False,102,,natura-c09-2026,Natura,9
+100526,Sabonete líquido em gel ameixa e flor de baunilha,Tododia,Corpo e Banho,Corpo e Banho,290 g / 300 ml,,50.9,,,,False,102,,natura-c09-2026,Natura,9
+100528,Refil Sabonete líquido em gel ameixa e flor de baunilha,Tododia,Corpo e Banho,Corpo e Banho,300 ml,,38.4,,,,False,102,,natura-c09-2026,Natura,9
+148016,Creme nutritivo para as mãos ameixa e flor de baunilha,Tododia,Hidratação,Hidratação,50 ml,,39.9,,,,False,102,,natura-c09-2026,Natura,9
+111325,Óleo bifásico corporal ameixa e flor de baunilha,Tododia,Corpo e Banho,Corpo e Banho,120 ml,,62.9,,,,False,102,,natura-c09-2026,Natura,9
+174918,Balm labial cor ameixa,Tododia,Maquiagem,Maquiagem,"2,7 g",,35.9,,,,False,102,,natura-c09-2026,Natura,9
+174614,Creme desodorante nutritivo para o corpo cereja negra e praliné,Tododia,Hidratação,Hidratação,400 ml,,78.9,,,,False,102,,natura-c09-2026,Natura,9
+174618,Body splash desodorante colônia cereja negra e praliné,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,,,,False,102,,natura-c09-2026,Natura,9
+189571,Creme veludo para o corpo cereja negra e praliné,Tododia,Hidratação,Hidratação,250 g,,84.9,,,,False,102,,natura-c09-2026,Natura,9
+100383,Refil Creme Desodorante Nutritivo para o Corpo Ameixa e Flor de Baunilha,Tododia,Hidratação,Hidratação,400ml,,58.9,49.9,9.0,15.28,True,103,,natura-c09-2026,Natura,9
+100605,Refil Creme Desodorante Nutritivo para o Corpo Cereja e Avelã,Tododia,Hidratação,Hidratação,400ml,,58.9,49.9,9.0,15.28,True,103,,natura-c09-2026,Natura,9
+174595,Refil Creme Desodorante Nutritivo para o Corpo Cereja Negra e Praliné,Tododia,Hidratação,Hidratação,400ml,,58.9,49.9,9.0,15.28,True,103,,natura-c09-2026,Natura,9
+23218,Creme desodorante nutritivo para o corpo cereja e avelã,Tododia,Hidratação,Hidratação,200 ml,,56.9,,,,False,104,,natura-c09-2026,Natura,9
+99137,Creme desodorante nutritivo para o corpo cereja e avelã,Tododia,Hidratação,Hidratação,400 ml,,78.9,,,,False,104,,natura-c09-2026,Natura,9
+174612,Creme amanteigado corporal perfumado cereja e avelã,Tododia,Hidratação,Hidratação,200 ml,,84.9,,,,False,104,,natura-c09-2026,Natura,9
+174922,Balm labial cor cereja,Tododia,Maquiagem,Maquiagem,"2,7 g",,35.9,,,,False,104,,natura-c09-2026,Natura,9
+95843,Sabonete líquido em gel cereja e avelã,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,50.9,,,,False,104,,natura-c09-2026,Natura,9
+18978,Refil sabonete líquido em gel cereja e avelã,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,38.4,,,,False,104,,natura-c09-2026,Natura,9
+174493,Sabonete líquido íntimo cereja e avelã,Tododia,Corpo e Banho,Corpo e Banho,200 ml,,50.9,,,,False,104,,natura-c09-2026,Natura,9
+21307,Óleo bifásico corporal cereja e avelã,Tododia,Corpo e Banho,Corpo e Banho,120 ml,,62.9,,,,False,104,,natura-c09-2026,Natura,9
+174926,Óleo Bifásico Corporal Cereja Negra e Praliné,Tododia,Corpo e Banho,Corpo e Banho,120ml,,62.9,46.9,16.0,25.44,True,105,,natura-c09-2026,Natura,9
+206231,Óleo Bifásico Corporal Morango e Baunilha Dourada,Tododia,Corpo e Banho,Corpo e Banho,120ml,,62.9,46.9,16.0,25.44,True,105,,natura-c09-2026,Natura,9
+219299,Esfoliante para o Corpo Morango e Baunilha Dourada,Tododia,Corpo e Banho,Corpo e Banho,190g,,50.9,,,,False,105,,natura-c09-2026,Natura,9
+205941,Creme Merengue para o Corpo Morango e Baunilha Dourada,Tododia,Hidratação,Hidratação,250g,,84.9,,,,False,105,,natura-c09-2026,Natura,9
+205936,Creme Desodorante Nutritivo para o Corpo Morango e Baunilha Dourada,Tododia,Hidratação,Hidratação,400ml,,78.9,,,,False,105,,natura-c09-2026,Natura,9
+206230,Refil Creme Desodorante Nutritivo para o Corpo Morango e Baunilha Dourada,Tododia,Hidratação,Hidratação,400ml,,58.9,,,,False,105,,natura-c09-2026,Natura,9
+02816,Creme Desodorante Nutritivo para o Corpo Tododia Algodão,Tododia,Hidratação,Hidratação,400ml,,78.9,,,,False,106,,natura-c09-2026,Natura,9
+23037,Creme Desodorante Nutritivo para o Corpo Tododia Algodão,Tododia,Hidratação,Hidratação,200ml,,56.9,,,,False,106,,natura-c09-2026,Natura,9
+02817,Refil Creme Desodorante Nutritivo para o Corpo Tododia Algodão,Tododia,Hidratação,Hidratação,400ml,,58.9,,,,False,106,,natura-c09-2026,Natura,9
+72221,Body Splash Desodorante Colônia Tododia Algodão,Tododia,Perfumaria,Perfumaria,200ml,,93.9,,,,False,106,,natura-c09-2026,Natura,9
+88103,Creme Desodorante Nutritivo para o Corpo Tododia Amora Vermelha e Jabuticaba,Tododia,Hidratação,Hidratação,400ml,,78.9,,,,False,106,,natura-c09-2026,Natura,9
+23154,Creme Desodorante Nutritivo para o Corpo Tododia Amora Vermelha e Jabuticaba,Tododia,Hidratação,Hidratação,200ml,,56.9,,,,False,106,,natura-c09-2026,Natura,9
+87516,Refil Creme Desodorante Nutritivo para o Corpo Tododia Amora Vermelha e Jabuticaba,Tododia,Hidratação,Hidratação,400ml,,58.9,,,,False,106,,natura-c09-2026,Natura,9
+88075,Body Splash Desodorante Colônia Tododia Amora Vermelha e Jabuticaba,Tododia,Perfumaria,Perfumaria,200ml,,93.9,,,,False,106,,natura-c09-2026,Natura,9
+02814,Creme Desodorante Nutritivo para o Corpo Tododia Macadâmia,Tododia,Hidratação,Hidratação,400ml,,78.9,,,,False,106,,natura-c09-2026,Natura,9
+23081,Creme Desodorante Nutritivo para o Corpo Tododia Macadâmia,Tododia,Hidratação,Hidratação,200ml,,56.9,,,,False,106,,natura-c09-2026,Natura,9
+02815,Refil Creme Desodorante Nutritivo para o Corpo Tododia Macadâmia,Tododia,Hidratação,Hidratação,400ml,,58.9,,,,False,106,,natura-c09-2026,Natura,9
+72195,Body Splash Desodorante Colônia Tododia Macadâmia,Tododia,Perfumaria,Perfumaria,200ml,,93.9,,,,False,106,,natura-c09-2026,Natura,9
+02820,Creme Desodorante Nutritivo para o Corpo Tododia Noz Pecã e Cacau,Tododia,Hidratação,Hidratação,400ml,,78.9,,,,False,106,,natura-c09-2026,Natura,9
+23082,Creme Desodorante Nutritivo para o Corpo Tododia Noz Pecã e Cacau,Tododia,Hidratação,Hidratação,200ml,,56.9,,,,False,106,,natura-c09-2026,Natura,9
+02821,Refil Creme Desodorante Nutritivo para o Corpo Tododia Noz Pecã e Cacau,Tododia,Hidratação,Hidratação,400ml,,58.9,,,,False,106,,natura-c09-2026,Natura,9
+172097,Creme desodorante corporal nutrição radiante jambo rosa e flor de caju,Tododia Jambo Rosa e Flor de Caju,Hidratação,Hidratação,400 ml,,78.9,,,,False,107,,natura-c09-2026,Natura,9
+172100,Refil Creme desodorante corporal nutrição radiante jambo rosa e flor de caju,Tododia Jambo Rosa e Flor de Caju,Hidratação,Hidratação,400 ml,,58.9,,,,False,107,,natura-c09-2026,Natura,9
+172096,Sabonete em óleo corporal jambo rosa e flor de caju,Tododia Jambo Rosa e Flor de Caju,Corpo e Banho,Corpo e Banho,190 ml,,69.9,,,,False,107,,natura-c09-2026,Natura,9
+172099,Esfoliante nutritivo jambo rosa e flor de caju,Tododia Jambo Rosa e Flor de Caju,Corpo e Banho,Corpo e Banho,190 g,,50.9,,,,False,107,,natura-c09-2026,Natura,9
+172410,Geleia desodorante iluminadora jambo rosa e flor de caju,Tododia Jambo Rosa e Flor de Caju,Hidratação,Hidratação,100 g,,59.9,,,,False,107,,natura-c09-2026,Natura,9
+172407,Óleo em creme ultranutritivo restaurador desodorante corporal jambo rosa e flor de caju,Tododia Jambo Rosa e Flor de Caju,Hidratação,Hidratação,200 ml,,84.9,,,,False,107,,natura-c09-2026,Natura,9
+172411,Manteiga desodorante corporal uniformizadora de tom jambo rosa e flor de caju,Tododia Jambo Rosa e Flor de Caju,Hidratação,Hidratação,200 g,,84.9,,,,False,107,,natura-c09-2026,Natura,9
+152300,Creme desodorante nutritivo energizante para o corpo 2 em 1 flor de gengibre e tangerina,Tododia Energia,Hidratação,Hidratação,400 ml,,78.9,,,,False,107,,natura-c09-2026,Natura,9
+152290,Refil Creme desodorante nutritivo energizante para o corpo 2 em 1 flor de gengibre e tangerina,Tododia Energia,Hidratação,Hidratação,400 ml,,58.9,,,,False,107,,natura-c09-2026,Natura,9
+152297,Gel de banho energizante para o corpo flor de gengibre e tangerina,Tododia Energia,Corpo e Banho,Corpo e Banho,290 g / 300 ml,,50.9,,,,False,107,,natura-c09-2026,Natura,9
+152283,Refil Gel de banho energizante para o corpo flor de gengibre e tangerina,Tododia Energia,Corpo e Banho,Corpo e Banho,300 ml,,38.4,,,,False,107,,natura-c09-2026,Natura,9
+152298,Creme desodorante nutritivo energizante para o corpo 2 em 1 flor de gengibre e tangerina,Tododia Energia,Hidratação,Hidratação,200 ml,,56.9,,,,False,107,,natura-c09-2026,Natura,9
+152301,Sabonete em barra esfoliante energizante flor de gengibre e tangerina,Tododia Energia,Corpo e Banho,Corpo e Banho,2 unidades de 90 g cada,,20.9,,,,False,107,,natura-c09-2026,Natura,9
+152289,Bruma facial energizante flor de gengibre e tangerina,Tododia Energia,Cuidados com o Rosto,Cuidados com o Rosto,100 ml,,52.9,,,,False,107,,natura-c09-2026,Natura,9
+121970,Creme noturno para o corpo chá de camomila e lavanda,Tododia,Corpo e Banho,Corpo e Banho,400 ml,,78.9,,,,False,108,,natura-c09-2026,Natura,9
+121967,Creme noturno para o corpo chá de camomila e lavanda,Tododia,Corpo e Banho,Corpo e Banho,200 ml,,56.9,,,,False,108,,natura-c09-2026,Natura,9
+121961,Refil Creme noturno para o corpo chá de camomila e lavanda,Tododia,Corpo e Banho,Corpo e Banho,400 ml,,58.9,,,,False,108,,natura-c09-2026,Natura,9
+159711,Sabonete líquido cremoso para o corpo banho nas nuvens,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,50.9,,,,False,108,,natura-c09-2026,Natura,9
+159710,Refil Sabonete líquido cremoso para o corpo banho nas nuvens,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,38.4,,,,False,108,,natura-c09-2026,Natura,9
+121966,Spray de ambientes chá de camomila e lavanda,Tododia,Perfumaria,Perfumaria,200 ml,,89.9,,,,False,108,,natura-c09-2026,Natura,9
+125798,Refil Spray de ambientes chá de camomila e lavanda,Tododia,Perfumaria,Perfumaria,200 ml,,62.9,,,,False,108,,natura-c09-2026,Natura,9
+121958,Creme nuvem relaxante para o corpo com nutrição prebiótica + B5 chá de camomila e lavanda,Tododia,Corpo e Banho,Corpo e Banho,200 ml,,84.9,,,,False,108,,natura-c09-2026,Natura,9
+121965,Sabonete em barra puro vegetal massageador chá de camomila e lavanda,Tododia,Corpo e Banho,Corpo e Banho,2 unidades de 80 g cada,,20.9,,,,False,108,,natura-c09-2026,Natura,9
+121968,Concentrado relaxante chá de camomila e lavanda,Tododia,Corpo e Banho,Corpo e Banho,800 mg,,69.9,,,,False,108,,natura-c09-2026,Natura,9
+86013,Sabonete líquido em gel alecrim e sálvia,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,50.9,,,,False,108,,natura-c09-2026,Natura,9
+86329,Refil Sabonete líquido em gel alecrim e sálvia,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,38.4,,,,False,108,,natura-c09-2026,Natura,9
+05870,Sabonete líquido em gel amora vermelha e jabuticaba,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,50.9,,,,False,108,,natura-c09-2026,Natura,9
+05894,Refil Sabonete líquido em gel amora vermelha e jabuticaba,Tododia,Corpo e Banho,Corpo e Banho,290 g/300 ml,,38.4,,,,False,108,,natura-c09-2026,Natura,9
+110281,Sabonete líquido em gel para mãos e corpo alecrim e sálvia,Tododia,Corpo e Banho,Corpo e Banho,390 g,,59.9,,,,False,108,,natura-c09-2026,Natura,9
+113404,Sabonete líquido cremoso para o corpo macadâmia,Tododia,Corpo e Banho,Corpo e Banho,300 ml,,50.9,,,,False,108,,natura-c09-2026,Natura,9
+113407,Refil Sabonete líquido cremoso para o corpo macadâmia,Tododia,Corpo e Banho,Corpo e Banho,300 ml,,38.4,,,,False,108,,natura-c09-2026,Natura,9
+113403,Sabonete Líquido Cremoso para o Corpo Algodão,Tododia,Corpo e Banho,Corpo e Banho,300ml,,89.3,50.9,38.4,43.0,True,109,,natura-c09-2026,Natura,9
+113406,Refil Sabonete Líquido Cremoso para o Corpo Algodão,Tododia,Corpo e Banho,Corpo e Banho,300ml,,38.4,,,,False,109,,natura-c09-2026,Natura,9
+83641,Sabonete Líquido Íntimo Suave Conforto,Tododia,Corpo e Banho,Corpo e Banho,200ml,,50.9,,,,False,109,,natura-c09-2026,Natura,9
+83638,Sabonete Líquido Íntimo Delicado Frescor,Tododia,Corpo e Banho,Corpo e Banho,200ml,,50.9,,,,False,109,,natura-c09-2026,Natura,9
+140759,Esfoliante em Creme para o Corpo Macadâmia,Tododia,Corpo e Banho,Corpo e Banho,200ml,,50.9,,,,False,109,,natura-c09-2026,Natura,9
+121969,Sabonete em Barra Puro Vegetal Chá de Camomila e Lavanda,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+02829,Sabonete em Barra Puro Vegetal Macadâmia,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+02830,Sabonete em Barra Puro Vegetal Algodão,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+95840,Sabonete em Barra Puro Vegetal Cereja e Avelã,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+100535,Sabonete em Barra Puro Vegetal Ameixa e Flor de Baunilha,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+87512,Sabonete em Barra Puro Vegetal Amora Vermelha e Jabuticaba,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+174494,Sabonete em Barra Puro Vegetal Cereja Negra e Praliné,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+205939,Sabonete em Barra Puro Vegetal Morango e Baunilha Dourada,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,,,,False,110,,natura-c09-2026,Natura,9
+247217,Kit Sabonete em Barra Tododia com 4 Caixas,Tododia,Corpo e Banho,Corpo e Banho,4 caixas com 5 unidades de 90 g cada,,139.6,114.9,24.7,17.69,True,111,,natura-c09-2026,Natura,9
+02832,Sabonete em Barra Puro Vegetal Noz Pecã e Cacau,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,0.0,,,,False,111,,natura-c09-2026,Natura,9
+150230,Sabonete em Barra Puro Vegetal Romã e Flor de Amora,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,0.0,,,,False,111,,natura-c09-2026,Natura,9
+152302,Sabonete em Barra Puro Vegetal Energizante Flor de Gengibre e Tangerina,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,0.0,,,,False,111,,natura-c09-2026,Natura,9
+214468,Sabonete em Barra Puro Vegetal Jambo Rosa e Flor de Caju,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,0.0,,,,False,111,,natura-c09-2026,Natura,9
+72147,Sabonete em Barra Puro Vegetal Alecrim e Sálvia,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,0.0,,,,False,111,,natura-c09-2026,Natura,9
+114464,Sabonete em Barra Puro Vegetal Sortido,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,42.9,,,,False,111,,natura-c09-2026,Natura,9
+203401,Creme desodorante hidratante para o corpo Castanha,Ekos Castanha,Hidratação,Hidratação,400ml,,89.9,53.9,36.0,40.04,True,113,,natura-c09-2026,Natura,9
+203379,Creme desodorante hidratante para o corpo Castanha,Ekos Castanha,Hidratação,Hidratação,200ml,,69.9,,,,False,113,,natura-c09-2026,Natura,9
+203381,Refil Creme desodorante hidratante para o corpo Castanha,Ekos Castanha,Hidratação,Hidratação,400ml,,69.9,,,,False,113,,natura-c09-2026,Natura,9
+174338,Óleo Trifásico Desodorante Corporal Ekos Castanha,Ekos Castanha,Corpo e Banho,Corpo e Banho,200 ml,,99.9,,,,False,114,,natura-c09-2026,Natura,9
+187608,Refil Óleo Trifásico Desodorante Corporal Ekos Castanha,Ekos Castanha,Corpo e Banho,Corpo e Banho,200 ml,,79.9,,,,False,114,,natura-c09-2026,Natura,9
+256157,Kit Óleo Trifásico Desodorante Corporal Ekos Castanha (1 Óleo 200 ml + 1 Refil 200 ml),Ekos Castanha,Corpo e Banho,Corpo e Banho,400 ml,,179.8,112.8,67.0,37.26,True,114,,natura-c09-2026,Natura,9
+150219,Kit Concentrado para o Corpo Ekos Castanha (1 Frasco 250 ml + 1 Concentrado 30 ml),Ekos Castanha,Hidratação,Hidratação,280 ml,,78.9,69.9,9.0,11.41,True,114,,natura-c09-2026,Natura,9
+139243,Concentrado para o Corpo Ekos Castanha,Ekos Castanha,Hidratação,Hidratação,30 ml,,60.5,54.45,6.05,10.0,True,114,,natura-c09-2026,Natura,9
+139242,Sabonete monodose para as mãos,Ekos,Corpo e Banho,Corpo e Banho,30 unidades de 500 mg cada,,39.9,,,,False,115,,natura-c09-2026,Natura,9
+70983,Creme hidratante para as mãos,Ekos,Hidratação,Hidratação,75 g,,59.9,,,,False,115,,natura-c09-2026,Natura,9
+95133,Creme hidratante para as mãos,Ekos,Hidratação,Hidratação,40 g,,41.9,,,,False,115,,natura-c09-2026,Natura,9
+69817,Creme hidratante para os pés,Ekos,Hidratação,Hidratação,75 g,,59.9,,,,False,115,,natura-c09-2026,Natura,9
+219069,Kit Sabonete Líquido Ekos Castanha,Ekos,Corpo e Banho,Corpo e Banho,500ml,,121.8,74.8,47.0,38.59,True,116,,natura-c09-2026,Natura,9
+70402,Sabonete Líquido para Mãos Ekos Castanha,Ekos,Corpo e Banho,Corpo e Banho,250ml,,69.9,,,,False,116,,natura-c09-2026,Natura,9
+70389,Refil Sabonete Líquido para Mãos Ekos Castanha,Ekos,Corpo e Banho,Corpo e Banho,250ml,,51.9,,,,False,116,,natura-c09-2026,Natura,9
+69825,Polpa Esfoliante Hidratação e Renovação para o Corpo Ekos Castanha,Ekos,Corpo e Banho,Corpo e Banho,200g,,95.9,74.9,21.0,21.9,True,116,,natura-c09-2026,Natura,9
+169166,Sabonete em Óleo Corporal Ekos Castanha,Ekos,Corpo e Banho,Corpo e Banho,200ml,,74.9,59.9,15.0,20.03,True,116,,natura-c09-2026,Natura,9
+203390,Creme desodorante hidratante para o corpo Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,400 ml,,89.9,89.9,,,False,117,,natura-c09-2026,Natura,9
+203397,Refil Creme desodorante hidratante para o corpo Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,400 ml,,69.9,69.9,,,False,117,,natura-c09-2026,Natura,9
+203399,Creme desodorante hidratante para o corpo Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,200 ml,,69.9,69.9,,,False,117,,natura-c09-2026,Natura,9
+98767,Sabonete líquido esfoliante para o corpo Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,185 ml,,55.9,55.9,,,False,117,,natura-c09-2026,Natura,9
+19949,Refil Sabonete líquido esfoliante para o corpo Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,185 ml,,40.6,40.6,,,False,117,,natura-c09-2026,Natura,9
+75493,Óleo bifásico desodorante corporal Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,200 ml,,99.9,99.9,,,False,117,,natura-c09-2026,Natura,9
+75505,Refil Óleo bifásico desodorante corporal Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,200 ml,,79.9,79.9,,,False,117,,natura-c09-2026,Natura,9
+19904,Creme hidratante para as mãos Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,75 g,,59.9,59.9,,,False,117,,natura-c09-2026,Natura,9
+123735,Bálsamo concentrado para o corpo Tukumã,Ekos Tukumã,Corpo e Banho,Corpo e Banho,200 g,,95.9,95.9,,,False,117,,natura-c09-2026,Natura,9
+203478,Creme desodorante hidratante para o corpo Cupuaçu,Ekos Cupuaçu,Corpo e Banho,Corpo e Banho,400 ml,,89.9,89.9,,,False,117,,natura-c09-2026,Natura,9
+205946,Refil Creme desodorante hidratante para o corpo Cupuaçu,Ekos Cupuaçu,Corpo e Banho,Corpo e Banho,400 ml,,69.9,69.9,,,False,117,,natura-c09-2026,Natura,9
+203480,Creme firmador para o bumbum Cupuaçu,Ekos Cupuaçu,Corpo e Banho,Corpo e Banho,200 g,,105.9,105.9,,,False,117,,natura-c09-2026,Natura,9
+206217,Sabonete em barra puro vegetal cremoso Cupuaçu,Ekos Cupuaçu,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,45.9,,,False,117,,natura-c09-2026,Natura,9
+199392,Desodorante colônia frescor feminino Cupuaçu,Ekos Cupuaçu,Perfumaria,Perfumaria,150 ml,,129.9,129.9,,,False,117,,natura-c09-2026,Natura,9
+203476,Creme hidratante para as mãos Cupuaçu,Ekos Cupuaçu,Corpo e Banho,Corpo e Banho,75 g,,59.9,59.9,,,False,117,,natura-c09-2026,Natura,9
+204786,Creme esfoliante para o bumbum Cupuaçu,Ekos Cupuaçu,Corpo e Banho,Corpo e Banho,190 g,,84.9,84.9,,,False,117,,natura-c09-2026,Natura,9
+80969,Creme hidratante para as mãos Ucuuba,Ekos,Hidratação,Hidratação,75g,,59.9,41.9,18.0,30.05,True,118,,natura-c09-2026,Natura,9
+203377,Creme desodorante hidratante para o corpo Ucuuba,Ekos,Hidratação,Hidratação,400ml,,89.9,62.9,27.0,30.03,True,118,,natura-c09-2026,Natura,9
+203409,Refil creme desodorante hidratante para o corpo Ucuuba,Ekos,Hidratação,Hidratação,400ml,,69.9,,,,False,118,,natura-c09-2026,Natura,9
+214469,Creme hidratante para as mãos Cacau,Ekos Cacau,Hidratação,Hidratação,75 g,,59.9,,,,False,119,,natura-c09-2026,Natura,9
+218368,Manteiga desodorante hidratante para o corpo Cacau,Ekos Cacau,Hidratação,Hidratação,200 g,,97.9,,,,False,119,,natura-c09-2026,Natura,9
+218370,Protetor labial hidratante Cacau,Ekos Cacau,Hidratação,Hidratação,"3,5 g",,42.9,,,,False,119,,natura-c09-2026,Natura,9
+217742,Sabonete em barra puro vegetal cremoso Cacau,Ekos Cacau,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,,,,False,119,,natura-c09-2026,Natura,9
+220919,Creme desodorante hidratante para o corpo Cacau,Ekos Cacau,Hidratação,Hidratação,400 ml,,89.9,,,,False,119,,natura-c09-2026,Natura,9
+224496,Refil Creme desodorante hidratante para o corpo Cacau,Ekos Cacau,Hidratação,Hidratação,400 ml,,69.9,,,,False,119,,natura-c09-2026,Natura,9
+97427,Óleo Trifásico Desodorante Corporal Andiroba,Ekos Andiroba,Corpo e Banho,Corpo e Banho,200 ml,,99.9,,,,False,120,,natura-c09-2026,Natura,9
+97433,Refil Óleo Trifásico Desodorante Corporal Andiroba,Ekos Andiroba,Corpo e Banho,Corpo e Banho,200 ml,,79.9,,,,False,120,,natura-c09-2026,Natura,9
+162090,Esfoliante Térmico Relaxante Andiroba,Ekos Andiroba,Corpo e Banho,Corpo e Banho,100 g,,89.9,,,,False,120,,natura-c09-2026,Natura,9
+163709,Polpa Desodorante Hidratante para o Corpo Andiroba,Ekos Andiroba,Hidratação,Hidratação,400 ml,,89.9,,,,False,120,,natura-c09-2026,Natura,9
+166359,Polpa Desodorante Hidratante para o Corpo Andiroba,Ekos Andiroba,Hidratação,Hidratação,200 ml,,69.9,,,,False,120,,natura-c09-2026,Natura,9
+162093,Refil Polpa Desodorante Hidratante para o Corpo Andiroba,Ekos Andiroba,Hidratação,Hidratação,400 ml,,69.9,,,,False,120,,natura-c09-2026,Natura,9
+70406,Sabonete Líquido para o Corpo Andiroba,Ekos Andiroba,Corpo e Banho,Corpo e Banho,195 ml,,55.9,,,,False,120,,natura-c09-2026,Natura,9
+70393,Refil Sabonete Líquido para o Corpo Andiroba,Ekos Andiroba,Corpo e Banho,Corpo e Banho,195 ml,,40.6,,,,False,120,,natura-c09-2026,Natura,9
+162087,Sabonete em Barra Massageador Puro Vegetal Andiroba,Ekos Andiroba,Corpo e Banho,Corpo e Banho,2 unidades de 100 g cada,,29.9,,,,False,120,,natura-c09-2026,Natura,9
+73214,Fluido de Massagem para o Corpo Andiroba,Ekos Andiroba,Corpo e Banho,Corpo e Banho,100 g,,76.9,,,,False,120,,natura-c09-2026,Natura,9
+122484,Creme Hidratante para as Mãos Andiroba,Ekos Andiroba,Hidratação,Hidratação,75 g,,59.9,,,,False,120,,natura-c09-2026,Natura,9
+97428,Óleo trifásico desodorante corporal Maracujá,Ekos,Corpo e Banho,Corpo e Banho,200ml,,99.9,,,,False,121,,natura-c09-2026,Natura,9
+97431,Refil Óleo trifásico desodorante corporal Maracujá,Ekos,Corpo e Banho,Corpo e Banho,200ml,,79.9,,,,False,121,,natura-c09-2026,Natura,9
+203383,Creme desodorante hidratante para o corpo Maracujá,Ekos,Corpo e Banho,Corpo e Banho,400ml,,89.9,,,,False,121,,natura-c09-2026,Natura,9
+203382,Creme desodorante hidratante para o corpo Maracujá,Ekos,Corpo e Banho,Corpo e Banho,200ml,,69.9,,,,False,121,,natura-c09-2026,Natura,9
+203386,Refil Creme desodorante hidratante para o corpo Maracujá,Ekos,Corpo e Banho,Corpo e Banho,400ml,,69.9,,,,False,121,,natura-c09-2026,Natura,9
+73564,Desodorante colônia frescor feminino Maracujá,Ekos,Perfumaria,Perfumaria,150ml,,129.9,77.9,52.0,40.03,True,121,,natura-c09-2026,Natura,9
+73569,Refil Desodorante colônia frescor feminino Maracujá,Ekos,Perfumaria,Perfumaria,150ml,,105.9,,,,False,121,,natura-c09-2026,Natura,9
+80967,Creme hidratante para as mãos Maracujá,Ekos,Hidratação,Hidratação,75g,,59.9,,,,False,121,,natura-c09-2026,Natura,9
+70405,Sabonete líquido esfoliante para o corpo Maracujá,Ekos,Corpo e Banho,Corpo e Banho,185ml,,55.9,,,,False,121,,natura-c09-2026,Natura,9
+70392,Refil Sabonete líquido esfoliante para o corpo Maracujá,Ekos,Corpo e Banho,Corpo e Banho,185ml,,40.6,,,,False,121,,natura-c09-2026,Natura,9
+70410,Sabonete líquido para o corpo Maracujá,Ekos,Corpo e Banho,Corpo e Banho,195ml,,55.9,,,,False,121,,natura-c09-2026,Natura,9
+70401,Sabonete líquido para mãos Maracujá,Ekos,Corpo e Banho,Corpo e Banho,250ml,,69.9,,,,False,121,,natura-c09-2026,Natura,9
+70388,Refil Sabonete líquido para mãos Maracujá,Ekos,Corpo e Banho,Corpo e Banho,250ml,,51.9,,,,False,121,,natura-c09-2026,Natura,9
+95035,Fluido de massagem para o corpo Maracujá,Ekos,Corpo e Banho,Corpo e Banho,100g,,76.9,,,,False,121,,natura-c09-2026,Natura,9
+231780,Creme desodorante hidratante para o corpo Maracujá,Ekos Maracujá,Hidratação,Hidratação,400 ml,,89.9,,,,False,122,,natura-c09-2026,Natura,9
+222447,Desodorante colônia frescor feminino Maracujá,Ekos Maracujá,Perfumaria,Perfumaria,150 ml,,129.9,,,,False,122,,natura-c09-2026,Natura,9
+220145,Sabonete em barra puro vegetal cremoso Maracujá,Ekos Maracujá,Corpo e Banho,Corpo e Banho,4 unidades de 100 g,,45.9,,,,False,122,,natura-c09-2026,Natura,9
+203398,Creme desodorante hidratante para o corpo Açaí,Ekos Açaí,Hidratação,Hidratação,400 ml,,89.9,,,,False,122,,natura-c09-2026,Natura,9
+203384,Refil Creme desodorante hidratante para o corpo Açaí,Ekos Açaí,Hidratação,Hidratação,400 ml,,69.9,,,,False,122,,natura-c09-2026,Natura,9
+203389,Creme desodorante hidratante para o corpo Açaí,Ekos Açaí,Hidratação,Hidratação,200 ml,,69.9,,,,False,122,,natura-c09-2026,Natura,9
+110650,Óleo trifásico desodorante corporal Açaí,Ekos Açaí,Corpo e Banho,Corpo e Banho,200 ml,,99.9,,,,False,122,,natura-c09-2026,Natura,9
+110644,Refil Óleo trifásico desodorante corporal Açaí,Ekos Açaí,Corpo e Banho,Corpo e Banho,200 ml,,79.9,,,,False,122,,natura-c09-2026,Natura,9
+97261,Sabonete líquido esfoliante para o corpo Açaí,Ekos Açaí,Corpo e Banho,Corpo e Banho,185 ml,,55.9,,,,False,122,,natura-c09-2026,Natura,9
+103839,Refil Sabonete líquido esfoliante para o corpo Açaí,Ekos Açaí,Corpo e Banho,Corpo e Banho,185 ml,,40.6,,,,False,122,,natura-c09-2026,Natura,9
+97269,Creme hidratante para as mãos Açaí,Ekos Açaí,Hidratação,Hidratação,75 g,,59.9,,,,False,122,,natura-c09-2026,Natura,9
+134575,Sabonete em barra puro vegetal cremoso,Ekos,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,43.4,2.5,5.45,True,123,,natura-c09-2026,Natura,9
+124393,Sabonete em barra puro vegetal cremoso e esfoliante maracujá,Ekos,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,,,,False,123,,natura-c09-2026,Natura,9
+129797,Sabonete em barra puro vegetal esfoliante,Ekos,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,,,,False,123,,natura-c09-2026,Natura,9
+129799,Sabonete em barra puro vegetal cremoso e esfoliante refrescante,Ekos,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,,,,False,123,,natura-c09-2026,Natura,9
+134574,Sabonete em barra puro vegetal cremoso e esfoliante,Ekos,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,,,,False,123,,natura-c09-2026,Natura,9
+171123,Spray de ambientes erva doce casa,Erva Doce,Casa,Casa,200 ml,,79.9,59.9,20.0,25.03,True,124,,natura-c09-2026,Natura,9
+171110,REFIL Spray de ambientes erva doce casa,Erva Doce,Casa,Casa,200 ml,,55.9,,,,False,124,,natura-c09-2026,Natura,9
+194200,Kit difusor de ambientes erva doce casa,Erva Doce,Casa,Casa,200 ml,,139.9,,,,False,124,,natura-c09-2026,Natura,9
+171109,REFIL Difusor erva doce casa,Erva Doce,Casa,Casa,200 ml,,83.9,,,,False,124,,natura-c09-2026,Natura,9
+27730,Álcool gel antisséptico 70° inpm,Erva Doce,Corpo e Banho,Corpo e Banho,45 g,,28.9,,,,False,124,,natura-c09-2026,Natura,9
+34089,Sabonete em barra puro vegetal sortido,Erva Doce,Corpo e Banho,Corpo e Banho,4 unidades de 90 g cada,,40.9,,,,False,124,,natura-c09-2026,Natura,9
+26384,Sabonete em barra puro vegetal,Erva Doce,Corpo e Banho,Corpo e Banho,3 unidades de 90 g cada,,31.9,,,,False,124,,natura-c09-2026,Natura,9
+26441,Sabonete Cremoso para as Mãos com Refil,Erva Doce,Corpo e Banho,Corpo e Banho,250 ml,,111.8,63.9,47.9,42.84,True,125,,natura-c09-2026,Natura,9
+28175,Refil Sabonete Cremoso para as Mãos,Erva Doce,Corpo e Banho,Corpo e Banho,250 ml,,47.9,,,,False,125,,natura-c09-2026,Natura,9
+189566,Creme Desodorante Corporal Perfumado Amêndoas e Orquídea Negra,Sève,Hidratação,Hidratação,200 g,,112.9,,,,False,126,,natura-c09-2026,Natura,9
+189568,Creme Desodorante Corporal Perfumado Amêndoas Doces,Sève,Hidratação,Hidratação,200 g,,112.9,,,,False,126,,natura-c09-2026,Natura,9
+140684,Óleo desodorante corporal amêndoas e canela,Sève,Corpo e Banho,Corpo e Banho,200ml,,116.9,69.9,47.0,40.21,True,127,,natura-c09-2026,Natura,9
+28724,Óleo desodorante corporal rosas e amêndoas,Sève,Corpo e Banho,Corpo e Banho,200ml,,116.9,69.9,47.0,40.21,True,127,,natura-c09-2026,Natura,9
+38856,Refil Óleo desodorante corporal rosas e amêndoas,Sève,Corpo e Banho,Corpo e Banho,200ml,,99.9,,,,False,127,,natura-c09-2026,Natura,9
+140683,Óleo desodorante corporal amêndoas e orquídea negra,Sève,Corpo e Banho,Corpo e Banho,200ml,,116.9,,,,False,127,,natura-c09-2026,Natura,9
+199914,Refil Óleo desodorante corporal amêndoas e orquídea negra,Sève,Corpo e Banho,Corpo e Banho,200ml,,99.9,,,,False,127,,natura-c09-2026,Natura,9
+20214,Óleo desodorante corporal pimenta rosa,Sève,Corpo e Banho,Corpo e Banho,200ml,,116.9,,,,False,127,,natura-c09-2026,Natura,9
+25543,Refil Óleo desodorante corporal pimenta rosa,Sève,Corpo e Banho,Corpo e Banho,200ml,,99.9,,,,False,127,,natura-c09-2026,Natura,9
+38854,Óleo desodorante corporal amêndoas doces intensa,Sève,Corpo e Banho,Corpo e Banho,200ml,,116.9,,,,False,127,,natura-c09-2026,Natura,9
+39015,Refil Óleo desodorante corporal amêndoas doces intensa,Sève,Corpo e Banho,Corpo e Banho,200ml,,99.9,,,,False,127,,natura-c09-2026,Natura,9
+19081,Óleo desodorante corporal amêndoas doces,Sève,Corpo e Banho,Corpo e Banho,200ml,,116.9,,,,False,127,,natura-c09-2026,Natura,9
+18624,Refil Óleo desodorante corporal amêndoas doces,Sève,Corpo e Banho,Corpo e Banho,200ml,,99.9,,,,False,127,,natura-c09-2026,Natura,9
+176908,Protetor Solar Corporal FPS 70 / FPUVA 25,Natura Solar,Proteção Solar,Proteção Solar,200ml,,149.9,129.9,20.0,13.34,True,128,,natura-c09-2026,Natura,9
+176914,Protetor Solar Corporal FPS 50 / FPUVA 20,Natura Solar,Proteção Solar,Proteção Solar,200ml,,139.9,,,,False,128,,natura-c09-2026,Natura,9
+182087,Protetor Solar Corporal FPS 30 / FPUVA 12,Natura Solar,Proteção Solar,Proteção Solar,200ml,,129.9,,,,False,128,,natura-c09-2026,Natura,9
+177404,Protetor Solar Bifásico FPS 30 / FPUVA 19,Natura Solar,Proteção Solar,Proteção Solar,200ml,,149.9,,,,False,128,,natura-c09-2026,Natura,9
+176909,Protetor solar facial pele mista a oleosa fps 50 / fpuva 20,Natura Solar,Proteção Solar,Proteção Solar,50ml,,99.9,59.9,40.0,40.04,True,129,,natura-c09-2026,Natura,9
+176913,Protetor solar facial pele normal a seca fps 50 / fpuva 20,Natura Solar,Proteção Solar,Proteção Solar,50ml,,99.9,59.9,40.0,40.04,True,129,,natura-c09-2026,Natura,9
+186435,Protetor solar facial pele mista a oleosa fps 70 / fpuva 25,Natura Solar,Proteção Solar,Proteção Solar,50ml,,109.9,,,,False,129,,natura-c09-2026,Natura,9
+176905,Protetor solar facial pele normal a seca fps 70 / fpuva 25,Natura Solar,Proteção Solar,Proteção Solar,50ml,,109.9,,,,False,129,,natura-c09-2026,Natura,9
+178858,Protetor solar facial stick fps 50 / fpuva 17,Natura Solar,Proteção Solar,Proteção Solar,15g,,125.9,,,,False,129,,natura-c09-2026,Natura,9
+176907,Protetor solar infantil fps 50 / fpuva 17,Natura Solar,Proteção Solar,Proteção Solar,200ml,,149.9,,,,False,129,,natura-c09-2026,Natura,9
+150228,Desodorante Antitranspirante Roll-on Natura Homem Elo,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,130,,natura-c09-2026,Natura,9
+150227,Desodorante Antitranspirante Roll-on Natura Homem Dom,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,130,,natura-c09-2026,Natura,9
+150229,Desodorante Antitranspirante Roll-on Natura Homem Essence,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,130,,natura-c09-2026,Natura,9
+155842,Desodorante Antitranspirante Roll-on Natura Homem Sagaz,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,130,,natura-c09-2026,Natura,9
+150225,Desodorante Antitranspirante Roll-on Natura Homem,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,,,,False,130,,natura-c09-2026,Natura,9
+150223,Desodorante Antitranspirante Roll-on Natura Homem Sem Perfume,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,,,,False,130,,natura-c09-2026,Natura,9
+150222,Desodorante Antitranspirante Roll-on Natura Homem Tato,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,,,,False,130,,natura-c09-2026,Natura,9
+152271,Desodorante Antitranspirante Roll-on Natura Homem Nós,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,,,,False,130,,natura-c09-2026,Natura,9
+189392,Desodorante Antitranspirante Roll-on Kaiak Aventura Masculino,Kaiak,Desodorantes,Desodorantes,75ml,,29.9,,,,False,130,,natura-c09-2026,Natura,9
+189398,Desodorante Antitranspirante Roll-on Kaiak Urbe Masculino,Kaiak,Desodorantes,Desodorantes,75ml,,29.9,,,,False,130,,natura-c09-2026,Natura,9
+234075,Kit desodorante erva doce roll-on (3 unidades),Erva Doce,Desodorantes,Desodorantes,3 x 70ml,,89.7,59.8,29.9,33.33,True,131,,natura-c09-2026,Natura,9
+189412,Desodorante antitranspirante roll-on erva doce,Erva Doce,Desodorantes,Desodorantes,70ml,,29.9,,,,False,131,,natura-c09-2026,Natura,9
+177731,Desodorante antitranspirante roll-on kaiak O2 masculino,Kaiak,Desodorantes,Desodorantes,70ml,,0.0,,,,False,131,,natura-c09-2026,Natura,9
+189390,Desodorante antitranspirante roll-on kaiak masculino,Kaiak,Desodorantes,Desodorantes,70ml,,0.0,,,,False,131,,natura-c09-2026,Natura,9
+189396,Desodorante antitranspirante roll-on kaiak pulso masculino,Kaiak,Desodorantes,Desodorantes,70ml,,0.0,,,,False,131,,natura-c09-2026,Natura,9
+189394,Desodorante antitranspirante roll-on kaiak oceano masculino,Kaiak,Desodorantes,Desodorantes,70ml,,0.0,,,,False,131,,natura-c09-2026,Natura,9
+189393,Desodorante antitranspirante roll-on kaiak aventura feminino,Kaiak,Desodorantes,Desodorantes,70ml,,0.0,,,,False,131,,natura-c09-2026,Natura,9
+189391,Desodorante antitranspirante roll-on kaiak feminino,Kaiak,Desodorantes,Desodorantes,70ml,,0.0,,,,False,131,,natura-c09-2026,Natura,9
+189399,Desodorante antitranspirante roll-on luna feminino,Luna,Desodorantes,Desodorantes,70ml,,0.0,,,,False,131,,natura-c09-2026,Natura,9
+189407,Desodorante Antitranspirante Roll-on Tododia Ameixa e Flor de Baunilha,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+189406,Desodorante Antitranspirante Roll-on Tododia Cereja e Avelã,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+189413,Desodorante Antitranspirante Roll-on Tododia Sem Perfume,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+189414,Desodorante Antitranspirante Roll-on Tododia Alecrim e Sálvia,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+189401,Desodorante Antitranspirante Roll-on Tododia Algodão,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+190850,Desodorante Antitranspirante Roll-on Tododia Pele Uniforme,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+189402,Desodorante Antitranspirante Roll-on Tododia Macadâmia,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+189404,Desodorante Antitranspirante Roll-on Tododia Amora Vermelha e Jabuticaba,Tododia,Desodorantes,Desodorantes,70ml,,29.9,,,,False,132,,natura-c09-2026,Natura,9
+100530,Desodorante Antitranspirante em Creme Tododia Ameixa e Flor de Baunilha,Tododia,Desodorantes,Desodorantes,80g,,30.9,,,,False,132,,natura-c09-2026,Natura,9
+148001,Desodorante Antitranspirante em Creme Tododia Cereja e Avelã,Tododia,Desodorantes,Desodorantes,80g,,30.9,,,,False,132,,natura-c09-2026,Natura,9
+01925,Desodorante Antitranspirante em Creme Tododia Macadâmia,Tododia,Desodorantes,Desodorantes,80g,,30.9,,,,False,132,,natura-c09-2026,Natura,9
+02179,Desodorante Antitranspirante em Creme Erva Doce,Erva Doce,Desodorantes,Desodorantes,80g,,30.9,,,,False,132,,natura-c09-2026,Natura,9
+96519,Desodorante Antitranspirante em Creme Tododia Leite de Algodão,Tododia,Corpo e Banho,Corpo e Banho,80g,,30.9,24.7,6.2,20.06,True,133,,natura-c09-2026,Natura,9
+96515,Desodorante Antitranspirante em Creme Tododia Sem Perfume,Tododia,Corpo e Banho,Corpo e Banho,80g,,30.9,24.7,6.2,20.06,True,133,,natura-c09-2026,Natura,9
+02185,Desodorante Antitranspirante em Creme Tododia Noz Pecã e Cacau,Tododia,Corpo e Banho,Corpo e Banho,80g,,30.9,24.7,6.2,20.06,True,133,,natura-c09-2026,Natura,9
+248611,Kit lumina nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,1 Shampoo 300 ml + 1 Condicionador 300 ml + 1 Máscara 250 ml,,188.7,139.9,48.8,25.86,True,137,,natura-c09-2026,Natura,9
+200656,Shampoo nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,300 ml,,52.9,41.9,11.0,20.79,True,137,,natura-c09-2026,Natura,9
+200658,Condicionador nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,300 ml,,55.9,43.9,12.0,21.47,True,137,,natura-c09-2026,Natura,9
+200641,Máscara nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,250 ml,,79.9,63.9,16.0,20.03,True,137,,natura-c09-2026,Natura,9
+205931,Óleo Bifásico Nutrição de Nanoprecisão,Lumina,Cabelos,Cabelos,100ml,,79.9,59.9,20.0,25.03,True,139,,natura-c09-2026,Natura,9
+148455,Spray Texturizador,Lumina,Cabelos,Cabelos,150 ml,,79.9,59.9,20.0,25.03,True,140,,natura-c09-2026,Natura,9
+148166,Spray de Volume,Lumina,Cabelos,Cabelos,150 ml,,79.9,59.9,20.0,25.03,True,140,,natura-c09-2026,Natura,9
+148459,Protetor Térmico,Lumina,Cabelos,Cabelos,150 ml,,79.9,59.9,20.0,25.03,True,141,,natura-c09-2026,Natura,9
+148167,Essência,Lumina,Cabelos,Cabelos,30 ml,,79.9,59.9,20.0,25.03,True,141,,natura-c09-2026,Natura,9
+171367,Essência Sublime,Lumina,Cabelos,Cabelos,30 ml,,79.9,59.9,20.0,25.03,True,141,,natura-c09-2026,Natura,9
+147411,Shampoo Nutritivo,Lumina,Cabelos,Cabelos,300ml,,52.9,,,,False,142,,natura-c09-2026,Natura,9
+147412,Refil Shampoo Nutritivo,Lumina,Cabelos,Cabelos,300ml,,38.9,,,,False,142,,natura-c09-2026,Natura,9
+147440,Condicionador Polinutrição,Lumina,Cabelos,Cabelos,300ml,,55.9,,,,False,142,,natura-c09-2026,Natura,9
+147410,Refil Condicionador Polinutrição,Lumina,Cabelos,Cabelos,300ml,,41.9,,,,False,142,,natura-c09-2026,Natura,9
+150303,Máscara Reparadora,Lumina,Cabelos,Cabelos,50ml,,33.9,,,,False,142,,natura-c09-2026,Natura,9
+147418,Máscara Reparadora,Lumina,Cabelos,Cabelos,250ml,,79.9,,,,False,142,,natura-c09-2026,Natura,9
+147447,Refil Máscara Reparadora,Lumina,Cabelos,Cabelos,250ml,,59.9,,,,False,142,,natura-c09-2026,Natura,9
+147448,Ampola Reparação Instantânea,Lumina,Cabelos,Cabelos,4 unidades de 20ml cada,,79.9,,,,False,142,,natura-c09-2026,Natura,9
+147453,Creme de Pentear Selador de Cutículas,Lumina,Cabelos,Cabelos,250ml,,58.9,,,,False,142,,natura-c09-2026,Natura,9
+147406,Refil Creme de Pentear Selador de Cutículas,Lumina,Cabelos,Cabelos,250ml,,44.9,,,,False,142,,natura-c09-2026,Natura,9
+147439,Óleo Leve Reparador,Lumina,Cabelos,Cabelos,100ml,,79.9,,,,False,142,,natura-c09-2026,Natura,9
+147421,Shampoo Estimulante Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,300ml,,56.9,,,,False,142,,natura-c09-2026,Natura,9
+147450,Refil Shampoo Estimulante Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,300ml,,41.9,,,,False,142,,natura-c09-2026,Natura,9
+147444,Condicionador Fortificante Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,300ml,,59.9,,,,False,142,,natura-c09-2026,Natura,9
+147451,Refil Condicionador Fortificante Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,300ml,,44.9,,,,False,142,,natura-c09-2026,Natura,9
+147417,Máscara Antiquebra Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,250ml,,79.9,,,,False,142,,natura-c09-2026,Natura,9
+147407,Refil Máscara Antiquebra Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,250ml,,59.9,,,,False,142,,natura-c09-2026,Natura,9
+150302,Máscara Antiquebra Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,50ml,,33.9,,,,False,142,,natura-c09-2026,Natura,9
+147427,Sérum Noturno Antiqueda e Crescimento,Lumina,Cabelos,Cabelos,100ml,,94.5,,,,False,142,,natura-c09-2026,Natura,9
+147416,Shampoo purificante,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,143,,natura-c09-2026,Natura,9
+147414,Refil Shampoo purificante,Lumina,Cabelos,Cabelos,300 ml,,38.9,,,,False,143,,natura-c09-2026,Natura,9
+147446,Condicionador protetor,Lumina,Cabelos,Cabelos,300 ml,,55.9,,,,False,143,,natura-c09-2026,Natura,9
+147402,Refil Condicionador protetor,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,143,,natura-c09-2026,Natura,9
+200649,Máscara hidratante,Lumina,Cabelos,Cabelos,250 ml,,79.9,,,,False,143,,natura-c09-2026,Natura,9
+200647,Refil Máscara hidratante,Lumina,Cabelos,Cabelos,250 ml,,59.9,,,,False,143,,natura-c09-2026,Natura,9
+147434,Spray de pentear antipoluição,Lumina,Cabelos,Cabelos,150 ml,,79.9,,,,False,143,,natura-c09-2026,Natura,9
+164516,Shampoo reparador Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,144,,natura-c09-2026,Natura,9
+164509,Refil Shampoo reparador Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,300 ml,,38.9,,,,False,144,,natura-c09-2026,Natura,9
+164517,Condicionador reparador Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,300 ml,,55.9,,,,False,144,,natura-c09-2026,Natura,9
+164512,Refil Condicionador reparador Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,144,,natura-c09-2026,Natura,9
+164505,Máscara reparadora Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,250 ml,,79.9,,,,False,144,,natura-c09-2026,Natura,9
+164506,Refil Máscara reparadora Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,250 ml,,59.9,,,,False,144,,natura-c09-2026,Natura,9
+164508,Sérum noturno reparador Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,100 ml,,79.9,,,,False,144,,natura-c09-2026,Natura,9
+164518,Protetor térmico reparador Lumina Força e reparação molecular,Lumina,Cabelos,Cabelos,150 ml,,79.9,,,,False,144,,natura-c09-2026,Natura,9
+176050,Sérum de prevenção antissinais Lumina,Lumina,Cabelos,Cabelos,100 ml,,94.9,,,,False,144,,natura-c09-2026,Natura,9
+174206,Shampoo de tratamento antissinais Lumina,Lumina,Cabelos,Cabelos,300 ml,,56.9,,,,False,144,,natura-c09-2026,Natura,9
+174194,Refil Shampoo de tratamento antissinais Lumina,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,144,,natura-c09-2026,Natura,9
+174212,Condicionador antissinais Lumina,Lumina,Cabelos,Cabelos,300 ml,,59.9,,,,False,144,,natura-c09-2026,Natura,9
+174187,Refil Condicionador antissinais Lumina,Lumina,Cabelos,Cabelos,300 ml,,44.9,,,,False,144,,natura-c09-2026,Natura,9
+174196,Máscara antissinais Lumina,Lumina,Cabelos,Cabelos,250 ml,,79.9,,,,False,144,,natura-c09-2026,Natura,9
+174193,Refil Máscara antissinais Lumina,Lumina,Cabelos,Cabelos,250 ml,,59.9,,,,False,144,,natura-c09-2026,Natura,9
+176398,Leave-in densificador antissinais Lumina,Lumina,Cabelos,Cabelos,150 ml,,94.9,,,,False,144,,natura-c09-2026,Natura,9
+148170,Shampoo Reestruturante Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,300ml,,52.9,,,,False,145,,natura-c09-2026,Natura,9
+148177,Refil Shampoo Reestruturante Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,300ml,,38.9,,,,False,145,,natura-c09-2026,Natura,9
+148442,Condicionador Provitalidade Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,300ml,,55.9,,,,False,145,,natura-c09-2026,Natura,9
+148399,Refil Condicionador Provitalidade Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,300ml,,41.9,,,,False,145,,natura-c09-2026,Natura,9
+148412,Máscara Regeneradora Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,250ml,,79.9,,,,False,145,,natura-c09-2026,Natura,9
+148443,Refil Máscara Regeneradora Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,250ml,,59.9,,,,False,145,,natura-c09-2026,Natura,9
+150304,Máscara Regeneradora Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,50ml,,33.9,,,,False,145,,natura-c09-2026,Natura,9
+148448,Kit Tratamento Intensivo Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,100ml + 220ml,,149.9,,,,False,145,,natura-c09-2026,Natura,9
+148421,Sérum Regenerador Progressivo Reconstrução de Danos Extremos Lumina,Lumina,Cabelos,Cabelos,100ml,,79.9,,,,False,145,,natura-c09-2026,Natura,9
+148176,Shampoo Revitalizante Brilho e Proteção da Cor Lumina,Lumina,Cabelos,Cabelos,300ml,,52.9,,,,False,145,,natura-c09-2026,Natura,9
+148175,Refil Shampoo Revitalizante Brilho e Proteção da Cor Lumina,Lumina,Cabelos,Cabelos,300ml,,38.9,,,,False,145,,natura-c09-2026,Natura,9
+148433,Condicionador Protetor da Cor Lumina,Lumina,Cabelos,Cabelos,300ml,,55.9,,,,False,145,,natura-c09-2026,Natura,9
+148405,Refil Condicionador Protetor da Cor Lumina,Lumina,Cabelos,Cabelos,300ml,,41.9,,,,False,145,,natura-c09-2026,Natura,9
+148410,Máscara de Blindagem Brilho e Proteção da Cor Lumina,Lumina,Cabelos,Cabelos,220ml,,79.9,,,,False,145,,natura-c09-2026,Natura,9
+148444,Refil Máscara de Blindagem Brilho e Proteção da Cor Lumina,Lumina,Cabelos,Cabelos,220ml,,59.9,,,,False,145,,natura-c09-2026,Natura,9
+148449,Spray Antidesbotamento e Brilho Lumina,Lumina,Cabelos,Cabelos,150ml,,79.9,,,,False,145,,natura-c09-2026,Natura,9
+148415,Condicionador de limpeza Cabelos cacheados e crespos,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,146,,natura-c09-2026,Natura,9
+148441,Refil Condicionador de limpeza Cabelos cacheados e crespos,Lumina,Cabelos,Cabelos,300 ml,,40.9,,,,False,146,,natura-c09-2026,Natura,9
+148404,Gelatina de definição e brilho Cabelos cacheados e crespos,Lumina,Cabelos,Cabelos,240 g,,58.9,,,,False,146,,natura-c09-2026,Natura,9
+148165,Óleo multifuncional Cabelos cacheados e crespos,Lumina,Cabelos,Cabelos,100 ml,,79.9,,,,False,146,,natura-c09-2026,Natura,9
+148419,Spray umidificador reativador Cabelos cacheados e crespos,Lumina,Cabelos,Cabelos,150 ml,,79.9,,,,False,146,,natura-c09-2026,Natura,9
+148161,Shampoo cremoso Cabelos cacheados,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,146,,natura-c09-2026,Natura,9
+148162,Refil Shampoo cremoso Cabelos cacheados,Lumina,Cabelos,Cabelos,300 ml,,38.9,,,,False,146,,natura-c09-2026,Natura,9
+148411,Condicionador hidratante Cabelos cacheados,Lumina,Cabelos,Cabelos,300 ml,,55.9,,,,False,146,,natura-c09-2026,Natura,9
+148413,Refil Condicionador hidratante Cabelos cacheados,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,146,,natura-c09-2026,Natura,9
+148440,Máscara recuperadora Cabelos cacheados,Lumina,Cabelos,Cabelos,250 ml,,79.9,,,,False,146,,natura-c09-2026,Natura,9
+148406,Refil Máscara recuperadora Cabelos cacheados,Lumina,Cabelos,Cabelos,250 ml,,59.9,,,,False,146,,natura-c09-2026,Natura,9
+148437,Creme de pentear de definição Cabelos cacheados,Lumina,Cabelos,Cabelos,300 ml,,58.9,,,,False,146,,natura-c09-2026,Natura,9
+148403,Refil Creme de pentear de definição Cabelos cacheados,Lumina,Cabelos,Cabelos,300 ml,,44.9,,,,False,146,,natura-c09-2026,Natura,9
+148171,Shampoo hidratante Cabelos crespos,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,146,,natura-c09-2026,Natura,9
+148169,Refil Shampoo hidratante Cabelos crespos,Lumina,Cabelos,Cabelos,300 ml,,38.9,,,,False,146,,natura-c09-2026,Natura,9
+148409,Condicionador nutritivo Cabelos crespos,Lumina,Cabelos,Cabelos,300 ml,,55.9,,,,False,146,,natura-c09-2026,Natura,9
+148400,Refil Condicionador nutritivo Cabelos crespos,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,146,,natura-c09-2026,Natura,9
+148417,Máscara reconstrutora Cabelos crespos,Lumina,Cabelos,Cabelos,250 ml,,79.9,,,,False,146,,natura-c09-2026,Natura,9
+148439,Refil Máscara reconstrutora Cabelos crespos,Lumina,Cabelos,Cabelos,250 ml,,59.9,,,,False,146,,natura-c09-2026,Natura,9
+148436,Creme de pentear ativador Cabelos crespos,Lumina,Cabelos,Cabelos,300 ml,,58.9,,,,False,146,,natura-c09-2026,Natura,9
+148432,Refil Creme de pentear ativador Cabelos crespos,Lumina,Cabelos,Cabelos,300 ml,,44.9,,,,False,146,,natura-c09-2026,Natura,9
+167286,Shampoo restaurador,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,147,,natura-c09-2026,Natura,9
+167294,Refil Shampoo restaurador,Lumina,Cabelos,Cabelos,300 ml,,38.9,,,,False,147,,natura-c09-2026,Natura,9
+167291,Condicionador restaurador,Lumina,Cabelos,Cabelos,300 ml,,55.9,,,,False,147,,natura-c09-2026,Natura,9
+167285,Refil Condicionador restaurador,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,147,,natura-c09-2026,Natura,9
+167289,Máscara restauradora,Lumina,Cabelos,Cabelos,250 ml,,79.9,,,,False,147,,natura-c09-2026,Natura,9
+167295,Refil Máscara restauradora,Lumina,Cabelos,Cabelos,250 ml,,59.9,,,,False,147,,natura-c09-2026,Natura,9
+167288,Spray de aminoácidos pré-secagem,Lumina,Cabelos,Cabelos,150 ml,,79.9,,,,False,147,,natura-c09-2026,Natura,9
+148158,Shampoo matizador,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,147,,natura-c09-2026,Natura,9
+148157,Refil Shampoo matizador,Lumina,Cabelos,Cabelos,300 ml,,38.9,,,,False,147,,natura-c09-2026,Natura,9
+148159,Ampola matização e restauração,Lumina,Cabelos,Cabelos,4 unidades de 20 ml cada,,79.9,,,,False,147,,natura-c09-2026,Natura,9
+148450,Leave-in matizador,Lumina,Cabelos,Cabelos,150 ml,,79.9,,,,False,147,,natura-c09-2026,Natura,9
+147404,Shampoo detox,Lumina,Cabelos,Cabelos,300 ml,,52.9,,,,False,147,,natura-c09-2026,Natura,9
+147420,Shampoo reequilibrante,Lumina,Cabelos,Cabelos,300 ml,,56.9,,,,False,147,,natura-c09-2026,Natura,9
+147408,Refil Shampoo reequilibrante,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,147,,natura-c09-2026,Natura,9
+147457,Tônico de tratamento intensivo,Lumina,Cabelos,Cabelos,100 ml,,94.5,,,,False,147,,natura-c09-2026,Natura,9
+147449,Shampoo equilibrante,Lumina,Cabelos,Cabelos,300 ml,,56.9,,,,False,147,,natura-c09-2026,Natura,9
+147442,Refil Shampoo equilibrante,Lumina,Cabelos,Cabelos,300 ml,,41.9,,,,False,147,,natura-c09-2026,Natura,9
+147401,Condicionador suave,Lumina,Cabelos,Cabelos,300 ml,,59.9,,,,False,147,,natura-c09-2026,Natura,9
+147445,Refil Condicionador suave,Lumina,Cabelos,Cabelos,300 ml,,44.9,,,,False,147,,natura-c09-2026,Natura,9
+155601,Shampoo reparador,Tododia,Cabelos,Cabelos,300 ml,,35.9,28.4,7.5,20.89,True,148,,natura-c09-2026,Natura,9
+154865,Refil Shampoo reparador,Tododia,Cabelos,Cabelos,300 ml,,27.9,,,,False,148,,natura-c09-2026,Natura,9
+154876,Condicionador reparador,Tododia,Cabelos,Cabelos,280 ml,,37.9,29.9,8.0,21.11,True,148,,natura-c09-2026,Natura,9
+154861,Refil Condicionador reparador,Tododia,Cabelos,Cabelos,280 ml,,28.9,,,,False,148,,natura-c09-2026,Natura,9
+156233,Creme para pentear reparador,Tododia,Cabelos,Cabelos,180 ml,,35.9,28.4,7.5,20.89,True,148,,natura-c09-2026,Natura,9
+156234,Refil Creme para pentear reparador,Tododia,Cabelos,Cabelos,180 ml,,27.9,,,,False,148,,natura-c09-2026,Natura,9
+255661,Kit Tododia Reparação para os Cabelos e Hidratação para as Mãos (Shampoo 300ml + Condicionador 280ml + Creme para Mãos 50ml),Tododia,Cabelos,Cabelos,300ml + 280ml + 50ml,,113.7,73.9,39.8,35.0,True,149,,natura-c09-2026,Natura,9
+154872,Máscara concentrada cronocapilar nutre,Tododia Cronocapilar,Cabelos,Cabelos,250 ml,,49.9,49.9,,,False,150,,natura-c09-2026,Natura,9
+154863,Refil Máscara concentrada cronocapilar nutre,Tododia Cronocapilar,Cabelos,Cabelos,250 ml,,37.5,37.5,,,False,150,,natura-c09-2026,Natura,9
+154871,Máscara concentrada cronocapilar hidrata,Tododia Cronocapilar,Cabelos,Cabelos,250 ml,,49.9,49.9,,,False,150,,natura-c09-2026,Natura,9
+154862,Refil Máscara concentrada cronocapilar hidrata,Tododia Cronocapilar,Cabelos,Cabelos,250 ml,,37.5,37.5,,,False,150,,natura-c09-2026,Natura,9
+154875,Máscara concentrada cronocapilar repara,Tododia Cronocapilar,Cabelos,Cabelos,250 ml,,49.9,49.9,,,False,150,,natura-c09-2026,Natura,9
+154864,Refil Máscara concentrada cronocapilar repara,Tododia Cronocapilar,Cabelos,Cabelos,250 ml,,37.5,37.5,,,False,150,,natura-c09-2026,Natura,9
+173588,Shampoo cachos e crespos,Tododia Cachos e Crespos,Cabelos,Cabelos,300 ml,,35.9,35.9,,,False,150,,natura-c09-2026,Natura,9
+173585,Refil Shampoo cachos e crespos,Tododia Cachos e Crespos,Cabelos,Cabelos,300 ml,,27.9,27.9,,,False,150,,natura-c09-2026,Natura,9
+173587,Condicionador cachos e crespos,Tododia Cachos e Crespos,Cabelos,Cabelos,280 ml,,37.9,37.9,,,False,150,,natura-c09-2026,Natura,9
+173589,Refil Condicionador cachos e crespos,Tododia Cachos e Crespos,Cabelos,Cabelos,280 ml,,28.9,28.9,,,False,150,,natura-c09-2026,Natura,9
+173581,Creme para pentear cachos,Tododia Cachos e Crespos,Cabelos,Cabelos,280 ml,,39.9,39.9,,,False,150,,natura-c09-2026,Natura,9
+173586,Refil Creme para pentear cachos,Tododia Cachos e Crespos,Cabelos,Cabelos,280 ml,,29.9,29.9,,,False,150,,natura-c09-2026,Natura,9
+173584,Creme para pentear crespos,Tododia Cachos e Crespos,Cabelos,Cabelos,280 ml,,39.9,39.9,,,False,150,,natura-c09-2026,Natura,9
+173582,Refil Creme para pentear crespos,Tododia Cachos e Crespos,Cabelos,Cabelos,280 ml,,29.9,29.9,,,False,150,,natura-c09-2026,Natura,9
+173583,Spray reativador cachos e crespos,Tododia,Cabelos,Cabelos,200 ml,,45.9,,,,False,151,,natura-c09-2026,Natura,9
+173590,Gelatina cachos e crespos,Tododia,Cabelos,Cabelos,240 g,,39.9,,,,False,151,,natura-c09-2026,Natura,9
+174032,Essência para cabelo flor de ameixa,Tododia,Cabelos,Cabelos,60 ml,,49.9,,,,False,151,,natura-c09-2026,Natura,9
+176406,Essência para cabelo cereja e avelã,Tododia,Cabelos,Cabelos,60 ml,,49.9,,,,False,151,,natura-c09-2026,Natura,9
+154866,Shampoo hidratante Tododia Maçã Verde e Aloe Vera,Tododia Maçã Verde e Aloe Vera,Cabelos,Cabelos,300 ml,,35.9,,,,False,152,,natura-c09-2026,Natura,9
+154868,Refil Shampoo hidratante Tododia Maçã Verde e Aloe Vera,Tododia Maçã Verde e Aloe Vera,Cabelos,Cabelos,300 ml,,27.9,,,,False,152,,natura-c09-2026,Natura,9
+154873,Condicionador hidratante Tododia Maçã Verde e Aloe Vera,Tododia Maçã Verde e Aloe Vera,Cabelos,Cabelos,280 ml,,37.9,,,,False,152,,natura-c09-2026,Natura,9
+154860,Refil Condicionador hidratante Tododia Maçã Verde e Aloe Vera,Tododia Maçã Verde e Aloe Vera,Cabelos,Cabelos,280 ml,,28.9,,,,False,152,,natura-c09-2026,Natura,9
+156235,Spray hidratante Tododia Maçã Verde e Aloe Vera,Tododia Maçã Verde e Aloe Vera,Cabelos,Cabelos,200 ml,,45.9,,,,False,152,,natura-c09-2026,Natura,9
+196324,Shampoo Detox Chá de Hortelã e Gengibre,Tododia,Cabelos,Cabelos,300ml,,35.9,,,,False,153,,natura-c09-2026,Natura,9
+196327,Refil Shampoo Detox Chá de Hortelã e Gengibre,Tododia,Cabelos,Cabelos,300ml,,27.9,,,,False,153,,natura-c09-2026,Natura,9
+196328,Condicionador Detox Chá de Hortelã e Gengibre,Tododia,Cabelos,Cabelos,280ml,,37.9,,,,False,153,,natura-c09-2026,Natura,9
+196323,Refil Condicionador Detox Chá de Hortelã e Gengibre,Tododia,Cabelos,Cabelos,280ml,,28.9,,,,False,153,,natura-c09-2026,Natura,9
+154869,Shampoo Nutritivo Pêssego e Amêndoa,Tododia,Cabelos,Cabelos,300ml,,35.9,,,,False,153,,natura-c09-2026,Natura,9
+154867,Refil Shampoo Nutritivo Pêssego e Amêndoa,Tododia,Cabelos,Cabelos,300ml,,27.9,,,,False,153,,natura-c09-2026,Natura,9
+154870,Condicionador Nutritivo Pêssego e Amêndoa,Tododia,Cabelos,Cabelos,280ml,,37.9,,,,False,153,,natura-c09-2026,Natura,9
+154859,Refil Condicionador Nutritivo Pêssego e Amêndoa,Tododia,Cabelos,Cabelos,280ml,,28.9,,,,False,153,,natura-c09-2026,Natura,9
+156237,Creme para Pentear Nutritivo Pêssego e Amêndoa,Tododia,Cabelos,Cabelos,180ml,,35.9,,,,False,153,,natura-c09-2026,Natura,9
+156236,Refil Creme para Pentear Nutritivo Pêssego e Amêndoa,Tododia,Cabelos,Cabelos,180ml,,27.9,,,,False,153,,natura-c09-2026,Natura,9
+112771,Máscara Reconstrutora Ekos Murumuru,Ekos Murumuru,Cabelos,Cabelos,200g,,84.9,67.9,17.0,20.02,True,154,,natura-c09-2026,Natura,9
+112770,Creme para Pentear Multibenefícios Ekos Murumuru,Ekos Murumuru,Cabelos,Cabelos,150ml,,64.9,51.9,13.0,20.03,True,154,,natura-c09-2026,Natura,9
+113409,Shampoo Ekos Patauá,Ekos Patauá,Cabelos,Cabelos,300ml,,59.9,,,,False,154,,natura-c09-2026,Natura,9
+112766,Refil Shampoo Ekos Patauá,Ekos Patauá,Cabelos,Cabelos,300ml,,45.9,,,,False,154,,natura-c09-2026,Natura,9
+113245,Condicionador Ekos Patauá,Ekos Patauá,Cabelos,Cabelos,300ml,,62.9,,,,False,154,,natura-c09-2026,Natura,9
+112768,Refil Condicionador Ekos Patauá,Ekos Patauá,Cabelos,Cabelos,300ml,,47.9,,,,False,154,,natura-c09-2026,Natura,9
+113243,Shampoo Murumuru,Ekos,Cabelos,Cabelos,300 ml,,59.9,47.9,12.0,20.03,True,155,,natura-c09-2026,Natura,9
+112760,Refil Shampoo Murumuru,Ekos,Cabelos,Cabelos,300 ml,,45.9,,,,False,155,,natura-c09-2026,Natura,9
+113244,Condicionador Murumuru,Ekos,Cabelos,Cabelos,300 ml,,62.9,49.9,13.0,20.67,True,155,,natura-c09-2026,Natura,9
+112762,Refil Condicionador Murumuru,Ekos,Cabelos,Cabelos,300 ml,,47.9,,,,False,155,,natura-c09-2026,Natura,9
+113150,Máscara Pré-shampoo Murumuru,Ekos,Cabelos,Cabelos,100 g,,64.9,,,,False,155,,natura-c09-2026,Natura,9
+112892,Sérum Noturno Nutritivo Murumuru,Ekos,Cabelos,Cabelos,30 ml,,79.9,,,,False,155,,natura-c09-2026,Natura,9
+255659,Kit Ekos Cabelo e Corpo (Shampoo Murumuru 300 ml + Condicionador Murumuru 300 ml + Sabonete em Barra Puro Vegetal Castanha 100 g),Ekos,Cabelos,Cabelos,300 ml + 300 ml + 100 g,,135.2,89.9,45.3,33.51,True,155,,natura-c09-2026,Natura,9
+112777,Máscara Fortalecedora,Ekos,Cabelos,Cabelos,200 g,,84.9,,,,False,155,,natura-c09-2026,Natura,9
+112776,Tônico Noturno de Crescimento,Ekos,Cabelos,Cabelos,30 ml,,79.9,,,,False,155,,natura-c09-2026,Natura,9
+122499,Óleo Fortalecedor Finalizador,Ekos,Cabelos,Cabelos,60 ml,,99.9,,,,False,155,,natura-c09-2026,Natura,9
+151018,Shampoo 2 em 1,Natura Homem,Cabelos,Cabelos,300 ml,,50.9,,,,False,156,,natura-c09-2026,Natura,9
+160216,Shampoo antiqueda,Natura Homem,Cabelos,Cabelos,300 ml,,57.9,44.9,13.0,22.45,True,156,,natura-c09-2026,Natura,9
+145489,Tônico capilar antiqueda,Natura Homem,Cabelos,Cabelos,100 ml,,90.9,69.9,21.0,23.1,True,156,,natura-c09-2026,Natura,9
+160210,Shampoo anticaspa,Natura Homem,Cabelos,Cabelos,300 ml,,57.9,,,,False,156,,natura-c09-2026,Natura,9
+108876,Shampoo cabelo e corpo kaiak masculino,Kaiak,Cabelos,Cabelos,200 ml,,40.9,,,,False,157,,natura-c09-2026,Natura,9
+92790,Shampoo Mamãe e Bebê,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,45.9,,,,False,160,,natura-c09-2026,Natura,9
+92791,Refil Shampoo Mamãe e Bebê,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,36.7,,,,False,160,,natura-c09-2026,Natura,9
+92793,Condicionador Mamãe e Bebê,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,45.9,,,,False,160,,natura-c09-2026,Natura,9
+92794,Refil Condicionador Mamãe e Bebê,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,36.7,,,,False,160,,natura-c09-2026,Natura,9
+92804,Hidratante Mamãe e Bebê,Mamãe e Bebê,Hidratação,Hidratação,200 ml,,69.9,,,,False,160,,natura-c09-2026,Natura,9
+106418,Refil Hidratante Mamãe e Bebê,Mamãe e Bebê,Hidratação,Hidratação,200 ml,,54.2,,,,False,160,,natura-c09-2026,Natura,9
+92800,Sabonete Líquido Mamãe e Bebê,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,200 ml,,52.9,,,,False,160,,natura-c09-2026,Natura,9
+92802,Refil Sabonete Líquido Mamãe e Bebê,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,200 ml,,39.9,,,,False,160,,natura-c09-2026,Natura,9
+92798,Lenços Umedecidos com Fragrância Mamãe e Bebê,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,50 folhas,,36.9,,,,False,160,,natura-c09-2026,Natura,9
+207390,Kit Minissabonetes Maternidade com Cesto Mamãe e Bebê,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,20 x 25 g,,155.9,,,,False,160,,natura-c09-2026,Natura,9
+207887,Kit Minissabonetes Maternidade Mamãe e Bebê,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,20 x 25 g,,79.9,,,,False,160,,natura-c09-2026,Natura,9
+166870,Shampoo cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,45.9,38.9,7.0,15.25,True,161,,natura-c09-2026,Natura,9
+166871,Condicionador cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,45.9,38.9,7.0,15.25,True,161,,natura-c09-2026,Natura,9
+167173,Creme para pentear cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,125 ml,,49.5,41.9,7.6,15.35,True,161,,natura-c09-2026,Natura,9
+206386,Kit cabelos cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,1 Shampoo 200 ml + 1 Condicionador 200 ml + 1 Creme para pentear 125 ml,,141.3,109.9,31.4,22.22,True,161,,natura-c09-2026,Natura,9
+92795,Sabonete em Barra,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,5 unidades de 100 g cada,,51.9,46.7,5.2,10.02,True,162,,natura-c09-2026,Natura,9
+92786,Água de colônia sem álcool,Mamãe e Bebê,Perfumaria,Perfumaria,100 ml,,106.9,,,,False,162,,natura-c09-2026,Natura,9
+75234,Óleo de massagem no bebê com guia de massagem,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,100 ml,,63.9,,,,False,162,,natura-c09-2026,Natura,9
+75233,Óleo para gestante com guia de massagem,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,200 ml,,109.9,,,,False,162,,natura-c09-2026,Natura,9
+92808,Hidratante preventivo de estrias,Mamãe e Bebê,Hidratação,Hidratação,200 ml,,92.9,,,,False,162,,natura-c09-2026,Natura,9
+92788,Água de colônia relaxante,Mamãe e Bebê,Perfumaria,Perfumaria,100 ml,,106.9,,,,False,162,,natura-c09-2026,Natura,9
+92806,Hidratante relaxante,Mamãe e Bebê,Hidratação,Hidratação,200 ml,,69.9,,,,False,162,,natura-c09-2026,Natura,9
+92952,Sabonete em espuma relaxante,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,200 ml,,59.9,,,,False,162,,natura-c09-2026,Natura,9
+106422,Sabonete líquido sem fragrância,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,200 ml,,52.9,,,,False,162,,natura-c09-2026,Natura,9
+97955,Creme preventivo de assaduras,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,60 g,,49.9,,,,False,162,,natura-c09-2026,Natura,9
+106423,Hidratante sem fragrância,Mamãe e Bebê,Hidratação,Hidratação,200 ml,,69.9,,,,False,162,,natura-c09-2026,Natura,9
+92799,Lenços umedecidos sem fragrância,Mamãe e Bebê,Corpo e Banho,Corpo e Banho,50 folhas,,36.9,,,,False,162,,natura-c09-2026,Natura,9
+169427,Kit miniatura mamãe e bebê,Mamãe e Bebê,Infantil,Infantil,,,132.9,97.9,35.0,26.34,True,163,,natura-c09-2026,Natura,9
+187035,Conjunto papai e bebê com mochila e trocador,Papai e Bebê,Presentes,Presentes,,,489.9,,,,False,163,,natura-c09-2026,Natura,9
+197576,Conjunto mamãe e bebê com mala maternidade,Mamãe e Bebê,Presentes,Presentes,,,495.9,,,,False,163,,natura-c09-2026,Natura,9
+187033,Conjunto mamãe e bebê com bolsa e trocador,Mamãe e Bebê,Presentes,Presentes,,,489.9,,,,False,163,,natura-c09-2026,Natura,9
+187034,Conjunto mamãe e bebê com frasqueira,Mamãe e Bebê,Presentes,Presentes,,,279.9,,,,False,163,,natura-c09-2026,Natura,9
+184469,Kit Refil Cabelos Lisos e Ondulados,Naturé,Cabelos,Cabelos,2 x 250ml,,63.8,49.9,13.9,21.79,True,164,,natura-c09-2026,Natura,9
+102396,REFIL Shampoo Cabelos Lisos e Ondulados,Naturé,Cabelos,Cabelos,250ml,,29.9,24.9,5.0,16.72,True,164,,natura-c09-2026,Natura,9
+102395,Shampoo Cabelos Lisos e Ondulados,Naturé,Cabelos,Cabelos,250ml,,37.9,,,,False,164,,natura-c09-2026,Natura,9
+102398,REFIL Condicionador Cabelos Lisos e Ondulados,Naturé,Cabelos,Cabelos,250ml,,33.9,27.9,6.0,17.7,True,164,,natura-c09-2026,Natura,9
+102397,Condicionador Cabelos Lisos e Ondulados,Naturé,Cabelos,Cabelos,250ml,,43.9,,,,False,164,,natura-c09-2026,Natura,9
+102416,Sabonetes Folhinhas,Naturé,Corpo e Banho,Corpo e Banho,3 unidades de 90g cada,,38.5,29.9,8.6,22.34,True,164,,natura-c09-2026,Natura,9
+102400,Shampoo Cabelos Cacheados e Crespos,Naturé,Cabelos,Cabelos,250ml,,37.9,,,,False,164,,natura-c09-2026,Natura,9
+102401,REFIL Shampoo Cabelos Cacheados e Crespos,Naturé,Cabelos,Cabelos,250ml,,29.9,,,,False,164,,natura-c09-2026,Natura,9
+102402,Condicionador Cabelos Cacheados e Crespos,Naturé,Cabelos,Cabelos,250ml,,43.9,,,,False,164,,natura-c09-2026,Natura,9
+102403,REFIL Condicionador Cabelos Cacheados e Crespos,Naturé,Cabelos,Cabelos,250ml,,33.9,,,,False,164,,natura-c09-2026,Natura,9
+102404,Creme Para Pentear Cabelos Cacheados e Crespos,Naturé,Cabelos,Cabelos,250ml,,49.9,,,,False,164,,natura-c09-2026,Natura,9
+102405,REFIL Creme Para Pentear Cabelos Cacheados e Crespos,Naturé,Cabelos,Cabelos,250ml,,39.9,,,,False,164,,natura-c09-2026,Natura,9
+102406,Shampoo 2 em 1,Naturé,Cabelos,Cabelos,250ml,,45.9,,,,False,164,,natura-c09-2026,Natura,9
+102407,REFIL Shampoo 2 em 1,Naturé,Cabelos,Cabelos,250ml,,35.9,,,,False,164,,natura-c09-2026,Natura,9
+192089,Trio de Colônias Natura Naturé,Naturé,Perfumaria,Perfumaria,3 x 100ml,,299.7,149.85,149.85,50.0,True,165,,natura-c09-2026,Natura,9
+106421,Colônia catavento,Naturé,Perfumaria,Perfumaria,100ml,,99.9,,,,False,165,,natura-c09-2026,Natura,9
+156244,Refil Colônia catavento,Naturé,Perfumaria,Perfumaria,100ml,,79.9,,,,False,165,,natura-c09-2026,Natura,9
+128757,Colônia corre corre,Naturé,Perfumaria,Perfumaria,100ml,,99.9,,,,False,165,,natura-c09-2026,Natura,9
+146473,Refil Colônia corre corre,Naturé,Perfumaria,Perfumaria,100ml,,79.9,,,,False,165,,natura-c09-2026,Natura,9
+128758,Colônia pula pula,Naturé,Perfumaria,Perfumaria,100ml,,99.9,,,,False,165,,natura-c09-2026,Natura,9
+146474,Refil Colônia pula pula,Naturé,Perfumaria,Perfumaria,100ml,,79.9,,,,False,165,,natura-c09-2026,Natura,9
+106496,Hidratante corporal,Naturé,Hidratação,Hidratação,125ml,,42.9,,,,False,165,,natura-c09-2026,Natura,9
+102417,Sabonete líquido,Naturé,Corpo e Banho,Corpo e Banho,250ml,,37.9,,,,False,165,,natura-c09-2026,Natura,9
+102418,Refil Sabonete líquido,Naturé,Corpo e Banho,Corpo e Banho,250ml,,28.5,,,,False,165,,natura-c09-2026,Natura,9
+112788,Sabonetes em barra quadradinhos,Naturé,Corpo e Banho,Corpo e Banho,5 unidades de 90g,,47.9,,,,False,165,,natura-c09-2026,Natura,9
+166022,Sabonetes em barra naturés na natureza,Naturé,Corpo e Banho,Corpo e Banho,4 unidades de 90g,,49.9,,,,False,165,,natura-c09-2026,Natura,9
+218962,Caderno mudando o futuro,Crer Para Ver,Papelaria,Papelaria,72 folhas,,49.9,49.9,,,False,168,,natura-c09-2026,Natura,9
+195644,Duo cadernos,Crer Para Ver,Papelaria,Papelaria,80 folhas cada,,29.9,29.9,,,False,168,,natura-c09-2026,Natura,9
+170766,Kit lápis e caneta,Crer Para Ver,Papelaria,Papelaria,,,23.9,23.9,,,False,168,,natura-c09-2026,Natura,9
+218964,Bolsa listrada,Crer Para Ver,Acessórios,Acessórios,,,99.9,99.9,,,False,168,,natura-c09-2026,Natura,9
+229540,Porta-cartão pendurável,Crer Para Ver,Acessórios,Acessórios,,,35.9,35.9,,,False,168,,natura-c09-2026,Natura,9
+195636,Bolsa crossbody,Crer Para Ver,Acessórios,Acessórios,,,89.9,89.9,,,False,168,,natura-c09-2026,Natura,9
+195641,Garrafa plástica,Crer Para Ver,Acessórios,Acessórios,600 ml,,29.9,29.9,,,False,168,,natura-c09-2026,Natura,9
+152267,Sacola de presente M,Crer Para Ver,Acessórios,Acessórios,,,9.2,9.2,,,False,168,,natura-c09-2026,Natura,9
+195646,Sacola estampada,Crer Para Ver,Acessórios,Acessórios,,,7.9,7.9,,,False,168,,natura-c09-2026,Natura,9
+195640,Sacola premium gratidão,Crer Para Ver,Acessórios,Acessórios,,,13.9,13.9,,,False,168,,natura-c09-2026,Natura,9
+229549,Garrafa térmica,Crer Para Ver,Acessórios,Acessórios,500 ml,,109.9,109.9,,,False,168,,natura-c09-2026,Natura,9
+189545,Nécessaire organizador,Crer Para Ver,Acessórios,Acessórios,,,59.9,59.9,,,False,168,,natura-c09-2026,Natura,9
+163210,Frasqueira,Crer Para Ver,Acessórios,Acessórios,4 litros,,86.9,86.9,,,False,168,,natura-c09-2026,Natura,9
+218960,Frasqueira térmica,Crer Para Ver,Acessórios,Acessórios,,,89.9,89.9,,,False,168,,natura-c09-2026,Natura,9
+224725,Case organizador para notebook,Crer Para Ver,Acessórios,Acessórios,,,79.9,79.9,,,False,168,,natura-c09-2026,Natura,9
+176444,Tigela,Crer Para Ver,Casa,Casa,500 ml,,49.9,49.9,,,False,168,,natura-c09-2026,Natura,9
+176440,Xícara e pires,Crer Para Ver,Casa,Casa,75 ml,,39.9,39.9,,,False,168,,natura-c09-2026,Natura,9
+195642,Caneca gratidão,Crer Para Ver,Casa,Casa,300 ml,,43.9,43.9,,,False,168,,natura-c09-2026,Natura,9
+224724,Caneca coração,Crer Para Ver,Casa,Casa,200 ml,,39.9,39.9,,,False,168,,natura-c09-2026,Natura,9
+134197,Saboneteira 100% reciclada,Crer Para Ver,Acessórios,Acessórios,,,26.9,26.9,,,False,168,,natura-c09-2026,Natura,9
+187122,Copo térmico,Crer para Ver,Acessórios,Acessórios,350 ml,,72.9,65.9,7.0,9.6,True,169,,natura-c09-2026,Natura,9
+218961,Mochila,Crer para Ver,Acessórios,Acessórios,,,159.9,143.9,16.0,10.01,True,169,,natura-c09-2026,Natura,9
+129745,Maxi bolsa dobrável,Crer para Ver,Acessórios,Acessórios,,,66.5,58.9,7.6,11.43,True,169,,natura-c09-2026,Natura,9
+170770,Duo cadernos canoa,Crer para Ver,Papelaria,Papelaria,2 unidades de 40 folhas cada,,29.9,22.9,7.0,23.41,True,169,,natura-c09-2026,Natura,9
+242554,Presente Natura Kaiak Aero Feminino,Kaiak,Presentes,Presentes,100 ml + 100 ml,,230.9,149.9,81.0,35.08,True,171,,natura-c09-2026,Natura,9
+242539,Presente Natura Kaiak Aero Masculino,Kaiak,Presentes,Presentes,100 ml + 100 ml,,231.7,149.9,81.8,35.3,True,171,,natura-c09-2026,Natura,9
+242516,Presente Natura Homem Elo,Homem,Presentes,Presentes,100 ml + 75 ml + 3x110 g,,363.2,249.9,113.3,31.19,True,171,,natura-c09-2026,Natura,9
+242212,Presente Natura Essencial Safran Masculino,Essencial,Perfumaria,Perfumaria,100ml,,289.9,214.9,75.0,25.87,True,172,,natura-c09-2026,Natura,9
+242521,Presente Natura Essencial Safran Feminino,Essencial,Perfumaria,Perfumaria,100ml,,289.9,214.9,75.0,25.87,True,172,,natura-c09-2026,Natura,9
+242543,Presente Natura Essencial Atrai Masculino,Essencial,Perfumaria,Perfumaria,100ml + 100ml,,352.8,234.9,117.9,33.42,True,172,,natura-c09-2026,Natura,9
+243056,Presente natura mamãe e bebê flor de laranjeira,Mamãe e Bebê,Cuidados com o Bebê,Cuidados com o Bebê,100ml + 100g,,141.7,94.9,46.8,33.03,True,173,,natura-c09-2026,Natura,9
+171353,Presente natura ekos cacau hidratação para mãos e lábios,Ekos,Hidratação,Hidratação,"40g + 3,5g",,79.9,74.9,5.0,6.26,True,173,,natura-c09-2026,Natura,9
+184850,Presente natura tododia ameixa e flor de baunilha,Tododia,Corpo e Banho,Corpo e Banho,60ml + 200ml + 190g/200ml,,133.4,104.9,28.5,21.36,True,173,,natura-c09-2026,Natura,9
+155893,Presente natura ekos árvore colheita,Ekos,Corpo e Banho,Corpo e Banho,12 unidades de 25g cada,,149.9,136.9,13.0,8.67,True,173,,natura-c09-2026,Natura,9
+242228,Presente Natura Ilía Dual,Ilía,Perfumaria,Perfumaria,50 ml,,199.9,149.9,50.0,25.01,True,174,,natura-c09-2026,Natura,9
+248464,Presente Natura Ekos Maracujá,Ekos,Corpo e Banho,Corpo e Banho,150 ml + 400 ml,,219.8,159.9,59.9,27.25,True,174,,natura-c09-2026,Natura,9
+259854,Presente Natura Tododia Macadâmia,Tododia,Corpo e Banho,Corpo e Banho,400 ml + 5x90 g,,113.8,89.9,23.9,21.0,True,174,,natura-c09-2026,Natura,9
+174902,Caixa de presente G com cinta,Presentes,Acessórios,Acessórios,"C 24,8 x L 20,4 x A 8,2 cm",,11.0,,,,False,175,,natura-c09-2026,Natura,9
+178148,Embalagem de presente M parabéns,Presentes,Acessórios,Acessórios,"C 11,8 x L 13,8 x A 27,3 cm",,7.0,,,,False,175,,natura-c09-2026,Natura,9
+174326,Embalagem de presente P parabéns,Presentes,Acessórios,Acessórios,"C 9,5 x L 11 x A 21 cm",,5.0,,,,False,175,,natura-c09-2026,Natura,9
+161146,Sacola de presente míni com laço,Presentes,Acessórios,Acessórios,,,4.0,,,,False,175,,natura-c09-2026,Natura,9
+161148,Sacola de presente P com laço,Presentes,Acessórios,Acessórios,,,5.0,,,,False,175,,natura-c09-2026,Natura,9
+249685,Desodorante Colônia Masculino Kaiak Extremo,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,151.9,38.0,20.01,True,177,,natura-c09-2026,Natura,9
+246408,Desodorante Colônia Masculino Kaiak Sonar,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,151.9,38.0,20.01,True,177,,natura-c09-2026,Natura,9
+246412,Desodorante Colônia Masculino Kaiak Oceano,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,151.9,38.0,20.01,True,177,,natura-c09-2026,Natura,9
+99159,Deo parfum natura homem tato,Natura Homem,Perfumaria,Perfumaria,100 ml,,239.9,169.9,70.0,29.18,True,178,,natura-c09-2026,Natura,9
+110411,Desodorante colônia biografia encontros masculino,Biografia,Perfumaria,Perfumaria,100 ml,,209.9,146.9,63.0,30.01,True,178,,natura-c09-2026,Natura,9
+85389,Gel após barba sr. n,Sr. N,Barba,Barba,75 g,,60.9,49.9,11.0,18.06,True,178,,natura-c09-2026,Natura,9
+85400,Creme de barbear espumante sr. n,Sr. N,Barba,Barba,80 g,,51.9,39.9,12.0,23.12,True,178,,natura-c09-2026,Natura,9
+194227,Deo parfum essencial desejos masculino,Essencial,Perfumaria,Perfumaria,100 ml,,299.9,204.9,95.0,31.68,True,179,,natura-c09-2026,Natura,9
+16872,Desodorante hidratante corporal perfumado essencial oud,Essencial,Corpo e Banho,Corpo e Banho,200 g,,134.9,119.9,15.0,11.12,True,179,,natura-c09-2026,Natura,9
+76424,Deo parfum essencial oud masculino,Essencial,Perfumaria,Perfumaria,100 ml,,289.9,199.9,90.0,31.05,True,179,,natura-c09-2026,Natura,9
+76425,Deo parfum essencial oud feminino,Essencial,Perfumaria,Perfumaria,100 ml,,289.9,199.9,90.0,31.05,True,179,,natura-c09-2026,Natura,9
+11683,Refil Deo Parfum Essencial Oud Masculino,Essencial,Perfumaria,Perfumaria,100 ml,,221.9,159.9,62.0,27.94,True,180,,natura-c09-2026,Natura,9
+11682,Refil Deo Parfum Essencial Oud Feminino,Essencial,Perfumaria,Perfumaria,100 ml,,221.9,159.9,62.0,27.94,True,180,,natura-c09-2026,Natura,9
+194226,Deo Parfum Essencial Desejos Feminino,Essencial,Perfumaria,Perfumaria,100 ml,,299.9,204.9,95.0,31.68,True,180,,natura-c09-2026,Natura,9
+155887,Deo Parfum Ilía Florescer Feminino,Ilía,Perfumaria,Perfumaria,50 ml,,199.9,139.9,60.0,30.02,True,180,,natura-c09-2026,Natura,9
+205933,Natura Una Nude Deo Parfum Feminino,Una,Perfumaria,Perfumaria,75 ml,,319.9,239.9,80.0,25.01,True,181,,natura-c09-2026,Natura,9
+205340,"Kit Natura Una Nude (Deo Parfum Feminino 75 ml + Batom CC Hidratante FPS 25 Nude 2C 3,8 g)",Una,Perfumaria,Perfumaria,"75 ml + 3,8 g",,384.8,279.8,105.0,27.29,True,181,,natura-c09-2026,Natura,9
+205323,"Kit Natura Una Nude (Deo Parfum Feminino 75 ml + Batom CC Hidratante FPS 25 Nude 2C Intenso 3,8 g)",Una,Perfumaria,Perfumaria,"75 ml + 3,8 g",,384.8,279.8,105.0,27.29,True,181,,natura-c09-2026,Natura,9
+97169,Desodorante hidratante corporal perfumado luna radiante,Luna,Hidratação,Hidratação,300 ml,,95.9,66.9,29.0,30.24,True,182,,natura-c09-2026,Natura,9
+02550,Desodorante colônia luna radiante feminino,Luna,Perfumaria,Perfumaria,75 ml,,185.9,129.9,56.0,30.12,True,182,,natura-c09-2026,Natura,9
+116854,Body splash desodorante colônia luna feminino,Luna,Perfumaria,Perfumaria,200 ml,,92.9,64.9,28.0,30.14,True,182,,natura-c09-2026,Natura,9
+110410,Desodorante colônia biografia encontros feminino,Biografia,Perfumaria,Perfumaria,100 ml,,209.9,146.9,63.0,30.01,True,182,,natura-c09-2026,Natura,9
+133863,Desodorante colônia ekos ryo chuva,Ekos,Perfumaria,Perfumaria,75 ml,,199.9,139.9,60.0,30.02,True,183,,natura-c09-2026,Natura,9
+73564,Desodorante colônia ekos frescor maracujá feminino,Ekos,Perfumaria,Perfumaria,150 ml,,129.9,77.9,52.0,40.03,True,183,,natura-c09-2026,Natura,9
+73562,Desodorante colônia ekos frescor castanha feminino,Ekos,Perfumaria,Perfumaria,150 ml,,129.9,89.9,40.0,30.79,True,183,,natura-c09-2026,Natura,9
+246409,Desodorante colônia kaiak oceano feminino,Kaiak,Perfumaria,Perfumaria,100 ml,,189.9,129.9,60.0,31.6,True,184,,natura-c09-2026,Natura,9
+95841,Body splash desodorante colônia tododia cereja e avelã,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,65.5,28.4,30.24,True,184,,natura-c09-2026,Natura,9
+100679,Body splash desodorante colônia tododia ameixa e flor de baunilha,Tododia,Perfumaria,Perfumaria,200 ml,,93.9,65.5,28.4,30.24,True,184,,natura-c09-2026,Natura,9
+95949,Desodorante colônia beijo de humor masculino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,114.9,50.0,30.32,True,185,,natura-c09-2026,Natura,9
+95947,Desodorante colônia beijo de humor feminino,Humor,Perfumaria,Perfumaria,75 ml,,164.9,114.9,50.0,30.32,True,185,,natura-c09-2026,Natura,9
+194821,Creme hidratante para mãos perfumado humor da minha vida,Humor,Hidratação,Hidratação,40 g,,45.9,35.9,10.0,21.79,True,185,,natura-c09-2026,Natura,9
+196322,Desodorante colônia humor da minha vida,Humor,Perfumaria,Perfumaria,75 ml,,164.9,114.9,50.0,30.32,True,185,,natura-c09-2026,Natura,9
+151553,Desodorante corporal kaiak O2 masculino,Kaiak,Perfumaria,Perfumaria,100 ml,,101.8,56.9,44.9,44.11,True,186,,natura-c09-2026,Natura,9
+154911,Desodorante corporal luna absoluta feminino,Luna,Perfumaria,Perfumaria,100 ml,,101.8,56.9,44.9,44.11,True,186,,natura-c09-2026,Natura,9
+17759,Desodorante corporal essencial exclusivo masculino,Essencial,Perfumaria,Perfumaria,100 ml,,128.8,72.9,55.9,43.4,True,187,,natura-c09-2026,Natura,9
+146888,Desodorante corporal essencial exclusivo feminino,Essencial,Perfumaria,Perfumaria,100 ml,,128.8,72.9,55.9,43.4,True,187,,natura-c09-2026,Natura,9
+205340,Batom CC Hidratante FPS 25 Nude 2C,Una,Maquiagem,Maquiagem,"3,8 g",,64.9,57.6,7.3,11.25,True,188,,natura-c09-2026,Natura,9
+205323,Batom CC Hidratante FPS 25 Nude 2C Intenso,Una,Maquiagem,Maquiagem,"3,8 g",,64.9,57.6,7.3,11.25,True,188,,natura-c09-2026,Natura,9
+206730,Máscara para cílios volume marrom,Una,Maquiagem,Maquiagem,7g,,96.9,79.9,17.0,17.54,True,189,,natura-c09-2026,Natura,9
+205326,Blush líquido radiance vermelho,Una,Maquiagem,Maquiagem,5ml,,79.9,69.9,10.0,12.52,True,189,,natura-c09-2026,Natura,9
+204760,Blush líquido radiance nude 2C,Una,Maquiagem,Maquiagem,5ml,,79.9,69.9,10.0,12.52,True,189,,natura-c09-2026,Natura,9
+205322,Blush líquido radiance nude 2C intenso,Una,Maquiagem,Maquiagem,5ml,,79.9,69.9,10.0,12.52,True,189,,natura-c09-2026,Natura,9
+205934,PRO Palette de sombras nude 2C,Una,Maquiagem,Maquiagem,7g,,169.9,139.9,30.0,17.66,True,189,,natura-c09-2026,Natura,9
+122122,Corretivo Cobertura Extrema 24h 10N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122120,Corretivo Cobertura Extrema 24h 15N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122117,Corretivo Cobertura Extrema 24h 19N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122113,Corretivo Cobertura Extrema 24h 21N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122114,Corretivo Cobertura Extrema 24h 24N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122112,Corretivo Cobertura Extrema 24h 27N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122121,Corretivo Cobertura Extrema 24h 30N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122115,Corretivo Cobertura Extrema 24h 32N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122116,Corretivo Cobertura Extrema 24h 35N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122118,Corretivo Cobertura Extrema 24h 37N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122123,Corretivo Cobertura Extrema 24h 43N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+122119,Corretivo Cobertura Extrema 24h 46N,Una,Maquiagem,Maquiagem,8 ml,,62.9,56.6,6.3,10.02,True,190,,natura-c09-2026,Natura,9
+06421,Batom color hidra FPS 8 rosa 200,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+107359,Batom color hidra FPS 8 rosa 204,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+03379,Batom color hidra FPS 8 coral 805,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+04960,Batom color hidra FPS 8 vermelho 120,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+107364,Batom color hidra FPS 8 rosa 280,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+04953,Batom color hidra FPS 8 roxo 603,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+06422,Batom color hidra FPS 8 marrom 470,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+06319,Batom color hidra FPS 8 vinho 540,Faces,Maquiagem,Maquiagem,"3,5 g",,35.9,26.9,9.0,25.07,True,191,,natura-c09-2026,Natura,9
+09619,Lápis para lábios color & contour rosa,Faces,Maquiagem,Maquiagem,"1,4 g",,39.9,31.9,8.0,20.05,True,191,,natura-c09-2026,Natura,9
+09586,Lápis para lábios color & contour vermelho,Faces,Maquiagem,Maquiagem,"1,4 g",,39.9,31.9,8.0,20.05,True,191,,natura-c09-2026,Natura,9
+09521,Lápis para lábios color & contour marrom,Faces,Maquiagem,Maquiagem,"1,4 g",,39.9,31.9,8.0,20.05,True,191,,natura-c09-2026,Natura,9
+09583,Lápis para lábios color & contour vinho,Faces,Maquiagem,Maquiagem,"1,4 g",,39.9,31.9,8.0,20.05,True,191,,natura-c09-2026,Natura,9
+175112,Gloss Pink Universe,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,192,,natura-c09-2026,Natura,9
+175111,Gloss Sparkle Glass,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,192,,natura-c09-2026,Natura,9
+175105,Gloss Mystic Galaxy,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,192,,natura-c09-2026,Natura,9
+175103,Gloss Brown Star,Faces,Maquiagem,Maquiagem,"3,9g",,34.9,25.9,9.0,25.79,True,192,,natura-c09-2026,Natura,9
+166338,Base Líquida Checkmatte 10N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166332,Base Líquida Checkmatte 12F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166341,Base Líquida Checkmatte 15Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166335,Base Líquida Checkmatte 16F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166329,Base Líquida Checkmatte 19N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166330,Base Líquida Checkmatte 20N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166345,Base Líquida Checkmatte 21Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166349,Base Líquida Checkmatte 23F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166328,Base Líquida Checkmatte 24F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166340,Base Líquida Checkmatte 25Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166333,Base Líquida Checkmatte 27N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166344,Base Líquida Checkmatte 29N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166343,Base Líquida Checkmatte 30F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166327,Base Líquida Checkmatte 31N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166326,Base Líquida Checkmatte 32Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166347,Base Líquida Checkmatte 33N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166346,Base Líquida Checkmatte 35N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166337,Base Líquida Checkmatte 35Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166342,Base Líquida Checkmatte 37Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166334,Base Líquida Checkmatte 40Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166336,Base Líquida Checkmatte 43N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166331,Base Líquida Checkmatte 44N,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166339,Base Líquida Checkmatte 46Q,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+166348,Base Líquida Checkmatte 48F,Faces,Maquiagem,Maquiagem,25ml,,45.9,38.9,7.0,15.25,True,192,,natura-c09-2026,Natura,9
+67647,Máscara para olhos e sobrancelhas incolor,Faces,Maquiagem,Maquiagem,7 ml,,34.9,25.9,9.0,25.79,True,193,,natura-c09-2026,Natura,9
+118910,Gel booster hidratante facial,Faces,Maquiagem,Maquiagem,35 g,,64.9,44.9,20.0,30.82,True,193,,natura-c09-2026,Natura,9
+105024,Máscara refresh,Faces,Maquiagem,Maquiagem,50 ml,,39.9,27.9,12.0,30.08,True,193,,natura-c09-2026,Natura,9
+69720,Limpeza purificante antioleosidade,Chronos Derma,Rosto,Rosto,130 g,,82.0,56.9,25.1,30.61,True,194,,natura-c09-2026,Natura,9
+169229,Sérum intensivo redutor de oleosidade,Chronos Derma,Rosto,Rosto,30 ml,,195.0,174.9,20.1,10.31,True,194,,natura-c09-2026,Natura,9
+69725,Protetor antioleosidade redutor de poros FPS 30 / FPUVA 10,Chronos Derma,Rosto,Rosto,50 ml,,105.0,72.9,32.1,30.57,True,194,,natura-c09-2026,Natura,9
+134189,Multiprotetor antissinais FPS 50 / FPUVA 18,Chronos Derma,Rosto,Rosto,50 ml,,108.0,96.9,11.1,10.28,True,195,,natura-c09-2026,Natura,9
+259655,Kit multiprotetor antissinais + super sérum redutor de rugas,Chronos Derma,Rosto,Rosto,50 ml + 10 ml,,223.0,123.9,99.1,44.44,True,195,,natura-c09-2026,Natura,9
+203531,Kit tododia maçã caramelada e baunilha (1 Creme nutritivo 400 ml + 1 Body splash 200 ml),Tododia,Cuidados para o corpo,Cuidados para o corpo,400 ml + 200 ml,,172.8,93.8,79.0,45.72,True,196,,natura-c09-2026,Natura,9
+181015,Sabonete em barra puro vegetal maçã caramelada e baunilha,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90g cada,,34.9,31.4,3.5,10.03,True,197,,natura-c09-2026,Natura,9
+249078,Kit gloss tododia maçã caramelada e baunilha,Tododia,Maquiagem,Maquiagem,2 unidades de 10ml cada,,59.8,52.9,6.9,11.54,True,197,,natura-c09-2026,Natura,9
+192138,Creme Nutritivo para as Mãos Pêssego e Flor de Cravo Tododia,Tododia,Cuidados para o corpo,Cuidados para o corpo,50ml,,39.9,23.9,16.0,40.1,True,198,,natura-c09-2026,Natura,9
+192137,Creme Nutritivo para as Mãos Acerola e Hibisco Tododia,Tododia,Cuidados para o corpo,Cuidados para o corpo,50ml,,39.9,23.9,16.0,40.1,True,198,,natura-c09-2026,Natura,9
+72178,Creme Nutritivo para as Mãos Algodão Tododia,Tododia,Cuidados para o corpo,Cuidados para o corpo,50ml,,39.9,23.9,16.0,40.1,True,198,,natura-c09-2026,Natura,9
+72179,Creme Nutritivo para as Mãos Noz Pecã e Cacau Tododia,Tododia,Cuidados para o corpo,Cuidados para o corpo,50ml,,39.9,23.9,16.0,40.1,True,198,,natura-c09-2026,Natura,9
+113403,Sabonete Líquido Cremoso para o Corpo Algodão (com refil),Tododia,Cuidados para o corpo,Cuidados para o corpo,300ml,,89.3,50.9,38.4,43.0,True,198,,natura-c09-2026,Natura,9
+100383,REFIL Creme desodorante nutritivo para o corpo Ameixa e Flor de Baunilha,Tododia,Cuidados para o corpo,Cuidados para o corpo,400ml,,58.9,49.9,9.0,15.28,True,199,,natura-c09-2026,Natura,9
+100605,REFIL Creme desodorante nutritivo para o corpo Cereja e Avelã,Tododia,Cuidados para o corpo,Cuidados para o corpo,400ml,,58.9,49.9,9.0,15.28,True,199,,natura-c09-2026,Natura,9
+174595,REFIL Creme desodorante nutritivo para o corpo Cereja Negra e Praliné,Tododia,Cuidados para o corpo,Cuidados para o corpo,400ml,,58.9,49.9,9.0,15.28,True,199,,natura-c09-2026,Natura,9
+174926,Óleo Bifásico Corporal Cereja Negra e Praliné,Tododia,Cuidados para o corpo,Cuidados para o corpo,120 ml,,62.9,46.9,16.0,25.44,True,200,,natura-c09-2026,Natura,9
+206231,Óleo Bifásico Corporal Morango e Baunilha Dourada,Tododia,Cuidados para o corpo,Cuidados para o corpo,120 ml,,62.9,46.9,16.0,25.44,True,200,,natura-c09-2026,Natura,9
+247217,Kit Sabonete em Barra Tododia com 4 Caixas,Tododia,Cuidados para o corpo,Cuidados para o corpo,4 caixas com 5 unidades de 90 g cada,,139.6,114.9,24.7,17.69,True,201,,natura-c09-2026,Natura,9
+203401,Creme desodorante hidratante para o corpo,Ekos Castanha,Corpo e Banho,Corpo e Banho,400 ml,,89.9,53.9,36.0,40.04,True,202,,natura-c09-2026,Natura,9
+134575,Sabonete em barra puro vegetal cremoso,Ekos,Corpo e Banho,Corpo e Banho,4 unidades de 100 g cada,,45.9,43.4,2.5,5.45,True,202,,natura-c09-2026,Natura,9
+256157,Kit óleo trifásico desodorante corporal ekos castanha,Ekos,Cuidados para o corpo,Cuidados para o corpo,200 ml + 200 ml,,179.8,112.8,67.0,37.26,True,203,,natura-c09-2026,Natura,9
+150219,Kit concentrado para o corpo,Ekos,Cuidados para o corpo,Cuidados para o corpo,250 ml + 30 ml,,78.9,69.9,9.0,11.41,True,203,,natura-c09-2026,Natura,9
+139243,Concentrado para o corpo,Ekos,Cuidados para o corpo,Cuidados para o corpo,30 ml,,60.5,54.45,6.05,10.0,True,203,,natura-c09-2026,Natura,9
+219069,Kit sabonete líquido ekos castanha (1 Sabonete líquido para mãos 250 ml + 1 REFIL Sabonete líquido para mãos 250 ml),Ekos Castanha,Cuidados para o corpo,Cuidados para o corpo,250 ml + 250 ml,,121.8,74.8,47.0,38.59,True,204,,natura-c09-2026,Natura,9
+69825,Polpa esfoliante hidratação e renovação para o corpo,Ekos Castanha,Cuidados para o corpo,Cuidados para o corpo,200 g,,95.9,74.9,21.0,21.9,True,204,,natura-c09-2026,Natura,9
+169166,Sabonete em óleo corporal,Ekos Castanha,Cuidados para o corpo,Cuidados para o corpo,200 ml,,74.9,59.9,15.0,20.03,True,204,,natura-c09-2026,Natura,9
+80969,Creme hidratante para as mãos Ekos Ucuuba,Ekos,Hidratação,Hidratação,75 g,,59.9,41.9,18.0,30.05,True,205,,natura-c09-2026,Natura,9
+203377,Creme desodorante hidratante para o corpo Ekos Ucuuba,Ekos,Hidratação,Hidratação,400 ml,,89.9,62.9,27.0,30.03,True,205,,natura-c09-2026,Natura,9
+26441,Sabonete cremoso para as mãos,Erva Doce,Cuidados para o corpo,Cuidados para o corpo,250ml,,111.8,63.9,47.9,42.84,True,206,,natura-c09-2026,Natura,9
+171123,Spray de ambientes erva doce casa,Erva Doce,Cuidados para o corpo,Cuidados para o corpo,200ml,,79.9,59.9,20.0,25.03,True,206,,natura-c09-2026,Natura,9
+140684,Óleo desodorante corporal amêndoas e canela,Sève,Cuidados para o corpo,Cuidados para o corpo,200 ml,,116.9,69.9,47.0,40.21,True,207,,natura-c09-2026,Natura,9
+28724,Óleo desodorante corporal rosas e amêndoas,Sève,Cuidados para o corpo,Cuidados para o corpo,200 ml,,116.9,69.9,47.0,40.21,True,207,,natura-c09-2026,Natura,9
+176908,Protetor solar corporal fps uvb 70 / fpuva 25,Solar,Proteção Solar,Proteção Solar,200 ml,,149.9,129.9,20.0,13.34,True,207,,natura-c09-2026,Natura,9
+176913,Protetor solar facial pele normal a seca fps uvb 50 / fpuva 20,Solar,Proteção Solar,Proteção Solar,50 ml,,99.9,59.9,40.0,40.04,True,208,,natura-c09-2026,Natura,9
+176909,Protetor solar facial pele mista a oleosa fps uvb 50 / fpuva 20,Solar,Proteção Solar,Proteção Solar,50 ml,,99.9,59.9,40.0,40.04,True,208,,natura-c09-2026,Natura,9
+234075,Kit desodorante erva doce roll-on,Erva Doce,Desodorantes,Desodorantes,3 unidades de 70 ml cada,,89.7,59.8,29.9,33.33,True,208,,natura-c09-2026,Natura,9
+150228,Desodorante Antitranspirante Roll-on Natura Homem Elo,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,209,,natura-c09-2026,Natura,9
+150227,Desodorante Antitranspirante Roll-on Natura Homem Dom,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,209,,natura-c09-2026,Natura,9
+150229,Desodorante Antitranspirante Roll-on Natura Homem Essence,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,209,,natura-c09-2026,Natura,9
+155842,Desodorante Antitranspirante Roll-on Natura Homem Sagaz,Natura Homem,Desodorantes,Desodorantes,75ml,,29.9,19.9,10.0,33.44,True,209,,natura-c09-2026,Natura,9
+96519,Desodorante Antitranspirante em Creme Tododia Leite de Algodão,Tododia,Desodorantes,Desodorantes,80g,,30.9,24.7,6.2,20.06,True,210,,natura-c09-2026,Natura,9
+96515,Desodorante Antitranspirante em Creme Tododia Sem Perfume,Tododia,Desodorantes,Desodorantes,80g,,30.9,24.7,6.2,20.06,True,210,,natura-c09-2026,Natura,9
+02185,Desodorante Antitranspirante em Creme Tododia Noz Pecã e Cacau,Tododia,Desodorantes,Desodorantes,80g,,30.9,24.7,6.2,20.06,True,210,,natura-c09-2026,Natura,9
+248611,Kit Lumina Nutrição de Nanoprecisão (1 Shampoo + 1 Condicionador + 1 Máscara),Lumina,Cabelos,Cabelos,"1 Shampoo 300 ml, 1 Condicionador 300 ml, 1 Máscara 250 ml",,188.7,139.9,48.8,25.86,True,211,,natura-c09-2026,Natura,9
+200656,Shampoo nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,300 ml,,52.9,41.9,11.0,20.79,True,212,,natura-c09-2026,Natura,9
+200658,Condicionador nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,300 ml,,55.9,43.9,12.0,21.47,True,212,,natura-c09-2026,Natura,9
+200641,Máscara nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,250 ml,,79.9,63.9,16.0,20.03,True,212,,natura-c09-2026,Natura,9
+205931,Óleo bifásico nutrição de nanoprecisão,Lumina,Cabelos,Cabelos,100 ml,,79.9,59.9,20.0,25.03,True,213,,natura-c09-2026,Natura,9
+148167,Essência finalizadores,Lumina,Cabelos,Cabelos,30 ml,,79.9,59.9,20.0,25.03,True,213,,natura-c09-2026,Natura,9
+171367,Essência sublime finalizadores,Lumina,Cabelos,Cabelos,30 ml,,79.9,59.9,20.0,25.03,True,213,,natura-c09-2026,Natura,9
+148455,Spray texturizador,Lumina,Cabelos,Cabelos,150 ml,,79.9,59.9,20.0,25.03,True,214,,natura-c09-2026,Natura,9
+148166,Spray de volume,Lumina,Cabelos,Cabelos,150 ml,,79.9,59.9,20.0,25.03,True,214,,natura-c09-2026,Natura,9
+148459,Protetor térmico,Lumina,Cabelos,Cabelos,150 ml,,79.9,59.9,20.0,25.03,True,214,,natura-c09-2026,Natura,9
+155601,Shampoo reparador Tododia Flor de Cereja e Abacate,Tododia Flor de Cereja e Abacate,Cabelos,Cabelos,300 ml,,35.9,28.4,7.5,20.89,True,215,,natura-c09-2026,Natura,9
+154876,Condicionador reparador Tododia Flor de Cereja e Abacate,Tododia Flor de Cereja e Abacate,Cabelos,Cabelos,280 ml,,37.9,29.9,8.0,21.11,True,215,,natura-c09-2026,Natura,9
+156233,Creme para pentear reparador Tododia Flor de Cereja e Abacate,Tododia Flor de Cereja e Abacate,Cabelos,Cabelos,180 ml,,35.9,28.4,7.5,20.89,True,215,,natura-c09-2026,Natura,9
+255661,Kit tododia reparação para os cabelos e hidratação para as mãos Flor de Cereja e Abacate,Tododia,Cabelos,Cabelos,300ml + 280ml + 50ml,,113.7,73.9,39.8,35.0,True,216,,natura-c09-2026,Natura,9
+113243,Ekos Murumuru Shampoo,Ekos,Cabelos,Cabelos,300 ml,,59.9,47.9,12.0,20.03,True,217,,natura-c09-2026,Natura,9
+113244,Ekos Murumuru Condicionador,Ekos,Cabelos,Cabelos,300 ml,,62.9,49.9,13.0,20.67,True,217,,natura-c09-2026,Natura,9
+255659,Kit Ekos Cabelo e Corpo,Ekos,Cabelos,Cabelos,300 ml + 300 ml + 100 g,,135.2,89.9,45.3,33.51,True,217,,natura-c09-2026,Natura,9
+112771,Máscara reconstrutora,Ekos Murumuru,Cabelos,Cabelos,200 g,,84.9,67.9,17.0,20.02,True,218,,natura-c09-2026,Natura,9
+112770,Creme para pentear multibenefícios,Ekos Murumuru,Cabelos,Cabelos,150 ml,,64.9,51.9,13.0,20.03,True,218,,natura-c09-2026,Natura,9
+160216,Shampoo antiqueda,Natura Homem,Cabelos,Cabelos,300 ml,,57.9,44.9,13.0,22.45,True,218,,natura-c09-2026,Natura,9
+145489,Tônico capilar antiqueda,Natura Homem,Cabelos,Cabelos,100 ml,,90.9,69.9,21.0,23.1,True,218,,natura-c09-2026,Natura,9
+166870,Shampoo cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,45.9,38.9,7.0,15.25,True,219,,natura-c09-2026,Natura,9
+166871,Condicionador cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,200 ml,,45.9,38.9,7.0,15.25,True,219,,natura-c09-2026,Natura,9
+206386,Kit cabelos cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,1 Shampoo 200 ml + 1 Condicionador 200 ml + 1 Creme para pentear 125 ml,,141.3,109.9,31.4,22.22,True,219,,natura-c09-2026,Natura,9
+167173,Creme para pentear cachinhos e crespinhos,Mamãe e Bebê,Cabelos,Cabelos,125 ml,,49.5,41.9,7.6,15.35,True,220,,natura-c09-2026,Natura,9
+169427,Kit miniatura mamãe e bebê,Mamãe e Bebê,Infantil,Infantil,50 ml + 50 ml + 50 ml,,132.9,97.9,35.0,26.34,True,220,,natura-c09-2026,Natura,9
+92795,Sabonete em barra (Caixa com 5 unidades de 100 g cada),Mamãe e Bebê,Corpo e Banho,Corpo e Banho,5 x 100 g,,51.9,46.7,5.2,10.02,True,220,,natura-c09-2026,Natura,9
+102396,REFIL Shampoo cabelos lisos e ondulados,Naturé,Infantil,Infantil,250 ml,,29.9,24.9,5.0,16.72,True,221,,natura-c09-2026,Natura,9
+102398,REFIL Condicionador cabelos lisos e ondulados,Naturé,Infantil,Infantil,250 ml,,33.9,27.9,6.0,17.7,True,221,,natura-c09-2026,Natura,9
+184469,Kit refil cabelos lisos e ondulados,Naturé,Infantil,Infantil,2 x 250 ml,,63.8,49.9,13.9,21.79,True,221,,natura-c09-2026,Natura,9
+192089,Trio de colônias natura naturé,Naturé,Perfumaria,Perfumaria,3 x 100 ml,,299.7,149.85,149.85,50.0,True,222,,natura-c09-2026,Natura,9
+102416,Sabonetes folhinhas,Naturé,Corpo e Banho,Corpo e Banho,3 unidades de 90 g cada,,38.5,29.9,8.6,22.34,True,222,,natura-c09-2026,Natura,9
+187122,Copo térmico,Crer para Ver,Acessórios,Acessórios,350 ml,,72.9,65.9,7.0,9.6,True,223,,natura-c09-2026,Natura,9
+218961,Mochila,Crer para Ver,Acessórios,Acessórios,C 28 x L 13 x A 41 cm,,159.9,143.9,16.0,10.01,True,223,,natura-c09-2026,Natura,9
+129745,Maxi bolsa dobrável,Crer para Ver,Acessórios,Acessórios,C 44 x A 38 cm,,66.5,58.9,7.6,11.43,True,223,,natura-c09-2026,Natura,9
+170770,Duo cadernos canoa,Crer para Ver,Papelaria,Papelaria,2 unidades de 40 folhas cada,,29.9,22.9,7.0,23.41,True,223,,natura-c09-2026,Natura,9
+71600,Desodorante colônia biografia feminino,Biografia,Perfumaria,Perfumaria,100 ml,,209.9,145.9,64.0,30.49,True,225,,natura-c09-2026,Natura,9
+122470,Deo parfum ilía completa feminino,Ilía,Perfumaria,Perfumaria,50 ml,,199.9,139.9,60.0,30.02,True,225,,natura-c09-2026,Natura,9
+166361,Desodorante colônia águas framboesa feminino,Águas,Perfumaria,Perfumaria,170 ml,,116.9,81.9,35.0,29.94,True,225,,natura-c09-2026,Natura,9
+17761,Desodorante corporal essencial exclusivo feminino,Essencial,Corpo e Banho,Corpo e Banho,100 ml,,72.9,53.9,19.0,26.06,True,225,,natura-c09-2026,Natura,9
+194823,Desodorante hidratante iluminador corporal perfumado essencial exclusivo feminino,Essencial,Corpo e Banho,Corpo e Banho,100 ml,,89.9,66.9,23.0,25.58,True,226,,natura-c09-2026,Natura,9
+116779,Deo parfum natura homem essence,Natura Homem,Perfumaria,Perfumaria,25 ml,,93.1,73.9,19.2,20.62,True,226,,natura-c09-2026,Natura,9
+103976,Deo parfum natura homem sagaz,Natura Homem,Perfumaria,Perfumaria,25 ml,,93.1,73.9,19.2,20.62,True,226,,natura-c09-2026,Natura,9
+194818,Desodorante hidratante corporal natura homem tato,Natura Homem,Corpo e Banho,Corpo e Banho,300ml,,109.2,83.9,25.3,23.17,True,226,,natura-c09-2026,Natura,9
+101037,Duo superbrilho golden rubi,Faces,Maquiagem,Maquiagem,"2,5 g",,44.9,25.9,19.0,42.32,True,227,,natura-c09-2026,Natura,9
+22390,Batom cristal pink,Una,Maquiagem,Maquiagem,8 ml,,64.9,47.9,17.0,26.19,True,227,,natura-c09-2026,Natura,9
+95868,Batom cristal rouge,Una,Maquiagem,Maquiagem,8 ml,,64.9,47.9,17.0,26.19,True,227,,natura-c09-2026,Natura,9
+167327,Batom cristal nude 2C intenso,Una,Maquiagem,Maquiagem,8 ml,,64.9,47.9,17.0,26.19,True,227,,natura-c09-2026,Natura,9
+167322,Batom cristal nude 2C,Una,Maquiagem,Maquiagem,8 ml,,64.9,47.9,17.0,26.19,True,227,,natura-c09-2026,Natura,9
+194212,Batom CC hidratante FPS 25 rouge,Una,Maquiagem,Maquiagem,"3,8 g",,64.9,57.9,7.0,10.79,True,227,,natura-c09-2026,Natura,9
+95870,Batom cristal cobre,Una,Maquiagem,Maquiagem,8 ml,,64.9,47.9,17.0,26.19,True,227,,natura-c09-2026,Natura,9
+109479,Esmalte 3D gel terracota 960,Una,Maquiagem,Maquiagem,8 ml,,33.9,22.9,11.0,32.45,True,228,,natura-c09-2026,Natura,9
+106535,Esmalte faces pink rio,Faces,Maquiagem,Maquiagem,6 ml,,24.9,14.9,10.0,40.16,True,228,,natura-c09-2026,Natura,9
+109152,Sombra mono rosa like,Faces,Maquiagem,Maquiagem,"1,5 g",,39.9,19.9,20.0,50.13,True,228,,natura-c09-2026,Natura,9
+109154,Sombra mono laranja hype,Faces,Maquiagem,Maquiagem,"1,5 g",,39.9,19.9,20.0,50.13,True,228,,natura-c09-2026,Natura,9
+169244,REFIL Sérum intensivo redutor de oleosidade,Chronos Derma,Rosto,Rosto,30 ml,,136.0,95.0,41.0,30.15,True,229,,natura-c09-2026,Natura,9
+168818,REFIL Sérum intensivo preenchedor hidratante,Chronos Derma,Rosto,Rosto,30 ml,,136.0,95.0,41.0,30.15,True,229,,natura-c09-2026,Natura,9
+113412,Sabonete líquido esfoliante para o corpo capim limão e hortelã,Tododia,Corpo e Banho,Corpo e Banho,190 g,,58.1,29.9,28.2,48.54,True,229,,natura-c09-2026,Natura,9
+181132,Creme sorbet desodorante nutritivo para o corpo amora e flor de pêssego,Tododia,Corpo e Banho,Corpo e Banho,400 ml,,78.9,54.9,24.0,30.42,True,229,,natura-c09-2026,Natura,9
+181339,REFIL Creme sorbet desodorante nutritivo para o corpo amora e flor de pêssego,Tododia,Hidratação,Hidratação,400ml,,58.9,39.9,19.0,32.26,True,230,,natura-c09-2026,Natura,9
+140759,Esfoliante em creme para o corpo macadâmia,Tododia,Corpo e Banho,Corpo e Banho,200ml,,50.9,34.9,16.0,31.43,True,230,,natura-c09-2026,Natura,9
+152298,Creme desodorante nutritivo energizante para o corpo 2 em 1 flor de gengibre e tangerina,Tododia,Hidratação,Hidratação,200ml,,56.9,44.9,12.0,21.09,True,230,,natura-c09-2026,Natura,9
+152300,Creme desodorante nutritivo energizante para o corpo 2 em 1 flor de gengibre e tangerina,Tododia,Hidratação,Hidratação,400ml,,78.9,54.9,24.0,30.42,True,230,,natura-c09-2026,Natura,9
+152297,Gel de banho energizante para o corpo flor de gengibre e tangerina (com Refil),Tododia,Corpo e Banho,Corpo e Banho,290 g / 300 ml,,89.3,50.9,38.4,43.0,True,231,,natura-c09-2026,Natura,9
+07733,Sabonete em barra puro vegetal tâmara e canela,Tododia,Corpo e Banho,Corpo e Banho,5 unidades de 90 g cada,,34.9,30.9,4.0,11.46,True,231,,natura-c09-2026,Natura,9
+155865,Gloss labial manga rosa e água de coco,Tododia,Maquiagem,Maquiagem,10 ml,,29.9,26.9,3.0,10.03,True,231,,natura-c09-2026,Natura,9
+121970,Creme noturno para o corpo chá de camomila e lavanda,Tododia Todanoite,Corpo e Banho,Corpo e Banho,400 ml,,78.9,54.9,24.0,30.42,True,232,,natura-c09-2026,Natura,9
+148520,Óleo bifásico corporal tâmara e canela,Tododia,Corpo e Banho,Corpo e Banho,120 ml,,62.9,39.9,23.0,36.57,True,232,,natura-c09-2026,Natura,9
+110644,REFIL Óleo trifásico desodorante corporal açaí,Ekos,Corpo e Banho,Corpo e Banho,200 ml,,79.9,63.9,16.0,20.03,True,232,,natura-c09-2026,Natura,9
+70408,Sabonete líquido cremoso para o corpo castanha,Ekos,Corpo e Banho,Corpo e Banho,195 ml,,55.9,39.9,16.0,28.62,True,232,,natura-c09-2026,Natura,9
+203382,Creme desodorante hidratante para o corpo Ekos Maracujá,Ekos Maracujá,Corpo e Banho,Corpo e Banho,200 ml,,69.9,54.9,15.0,21.46,True,233,,natura-c09-2026,Natura,9
+147457,Tônico de tratamento intensivo Lumina Anticaspa,Lumina,Cabelos,Cabelos,100 ml,,94.5,64.9,29.6,31.32,True,233,,natura-c09-2026,Natura,9
+147434,Spray de pentear antipoluição Lumina Hidratação e Proteção Antipoluição,Lumina,Cabelos,Cabelos,150 ml,,79.9,59.9,20.0,25.03,True,233,,natura-c09-2026,Natura,9
+176050,Sérum de prevenção antissinais Lumina Antissinais Regenerador Capilar,Lumina,Cabelos,Cabelos,100 ml,,94.9,64.9,30.0,31.61,True,233,,natura-c09-2026,Natura,9
+174032,Essência para cabelo flor de ameixa,Tododia,Cabelos,Cabelos,60 ml,,49.9,41.9,8.0,16.03,True,234,,natura-c09-2026,Natura,9
+112890,Sérum noturno nutritivo,Ekos Murumuru,Cabelos,Cabelos,30 ml,,79.9,54.9,25.0,31.29,True,234,,natura-c09-2026,Natura,9
+113150,Máscara pré-shampoo,Ekos Murumuru,Cabelos,Cabelos,100 g,,64.9,44.9,20.0,30.82,True,234,,natura-c09-2026,Natura,9
+204491,Toalha de praia,Crer Para Ver,Acessórios,Acessórios,L 65 x A 130 cm,,75.9,65.9,10.0,13.18,True,234,,natura-c09-2026,Natura,9
+242220,Presente natura kaiak aventura feminino,Kaiak,Perfumaria,Perfumaria,100 ml + 200 ml,,282.8,249.9,32.9,11.63,True,235,,natura-c09-2026,Natura,9
+239727,Presente natura essencial masculino,Essencial,Perfumaria,Perfumaria,100 ml + 25 ml,,397.6,339.9,57.7,14.51,True,235,,natura-c09-2026,Natura,9
+174336,Presente Natura Queridinhos,Natura,Presentes,Presentes,100 ml + 80 ml + 40 g,,139.0,134.9,4.1,2.95,True,236,,natura-c09-2026,Natura,9
+184337,Presente Natura Tododia Feliz Aniversário,Tododia,Presentes,Presentes,60 ml + 80 ml + 50 ml,,107.9,94.9,13.0,12.05,True,236,,natura-c09-2026,Natura,9
+239726,Presente natura kaiak masculino,Kaiak,Presentes,Presentes,100 ml + 100 ml + 100 g + 90 g,,318.0,259.9,58.1,18.27,True,237,,natura-c09-2026,Natura,9
+210390,Presente natura homem,Homem,Presentes,Presentes,100 ml + 100 ml + 3x110 g,,304.7,259.9,44.8,14.7,True,237,,natura-c09-2026,Natura,9
+185782,Presente Natura Mamãe e Bebê Momento Chá de Bebê,Mamãe e Bebê,Infantil,Infantil,,,209.7,154.9,54.8,26.13,True,238,,natura-c09-2026,Natura,9
