@@ -239,11 +239,29 @@
         <p class="text-xs text-gray-500 mt-2">Clusters are relabelled by ascending median price, so C0&nbsp;→&nbsp;C3 run cheapest&nbsp;→&nbsp;priciest.</p>
         <img src="images/analysis/method/method_kmeans.png" alt="PCA scatter of products colored by cluster with the four k-means centroids marked as stars" class="w-full max-w-lg h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
 
-        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">5 · Choosing k by silhouette</h4>
-        <p class="text-sm text-gray-600 leading-relaxed">For each point, <span class="font-mono text-xs">a</span> is its mean distance
-          to its own cluster and <span class="font-mono text-xs">b</span> the mean distance to the nearest other cluster; the mean
-          silhouette (4,000-point sample) is evaluated for k&nbsp;=&nbsp;3…7:</p>
-        <div class="font-mono text-[13px] bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 my-2 text-gray-800">s = ( b − a ) / max( a, b ) ∈ [−1, 1]</div>
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">5 · Choosing k: silhouette and inertia</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">k is not learned by k-means; we fix it in advance. To pick it we fit the model for
+          k&nbsp;=&nbsp;3…7 and weigh two diagnostics against each other.</p>
+
+        <p class="text-sm text-gray-600 leading-relaxed mt-3"><b>Inertia</b> (within-cluster sum of squares) is exactly the quantity
+          k-means minimizes: the total squared distance from every point to its own centroid.</p>
+        <div class="font-mono text-[13px] bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 my-2 text-gray-800 overflow-x-auto">inertia = Σ<sub>c</sub> Σ<sub>x ∈ C<sub>c</sub></sub> ‖ x − μ<sub>c</sub> ‖²</div>
+        <p class="text-sm text-gray-600 leading-relaxed">Adding clusters can only lower it (one centroid per point drives it to 0), so it can
+          never be maximized directly. Instead you look for the <i>elbow</i>: the k past which each extra cluster buys only a small
+          further drop. The elbow is informative but subjective, with no single value to optimize.</p>
+
+        <p class="text-sm text-gray-600 leading-relaxed mt-3"><b>Silhouette</b> fixes that by scoring how well each point fits its own
+          cluster versus the nearest alternative. For a point <i>i</i>, let <span class="font-mono text-xs">a(i)</span> be its mean
+          distance to the other points in its own cluster and <span class="font-mono text-xs">b(i)</span> its mean distance to the
+          points of the nearest other cluster:</p>
+        <div class="font-mono text-[13px] bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 my-2 text-gray-800">s(i) = ( b(i) − a(i) ) / max( a(i), b(i) )&nbsp;&nbsp;∈&nbsp;&nbsp;[−1, 1]</div>
+        <ul class="text-sm text-gray-600 space-y-1 list-disc pl-5 mt-2">
+          <li><b>s ≈ +1</b>: the point sits snugly inside its cluster, far from any other (well clustered).</li>
+          <li><b>s ≈ 0</b>: it lies on the boundary between two clusters (ambiguous).</li>
+          <li><b>s &lt; 0</b>: it is closer to a neighbouring cluster than its own (probably mis-assigned).</li>
+        </ul>
+        <p class="text-sm text-gray-600 leading-relaxed mt-2">We average <span class="font-mono text-xs">s(i)</span> over a 4,000-point
+          sample at each k. Unlike inertia, silhouette has a genuine maximum, so it is the decider:</p>
         <div class="overflow-x-auto mt-2">
           <table class="text-sm border-collapse">
             <thead><tr class="text-gray-500 border-b border-gray-200">
@@ -254,7 +272,8 @@
             </tr></tbody>
           </table>
         </div>
-        <p class="text-xs text-gray-500 mt-2">The score peaks at <b>k&nbsp;=&nbsp;4</b> (the chosen partition).</p>
+        <p class="text-xs text-gray-500 mt-2">Silhouette peaks at <b>k&nbsp;=&nbsp;4</b> (0.431) while inertia just keeps sliding, so we
+          take k&nbsp;=&nbsp;4. The chart plots both: silhouette (violet, pick the top) against the inertia elbow (grey).</p>
         <img src="images/analysis/k_selection.png" alt="Silhouette score and inertia across k = 3 to 7; silhouette peaks at k = 4" class="w-full max-w-xl h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
 
         <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">6 · PCA for the 2-D map only</h4>
