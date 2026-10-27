@@ -429,6 +429,28 @@
         <span class="text-gray-400">(All 25,180 unique products; colours are the final clusters: C0 violet,
         C1 green, C2 amber, C3 blue. Click any dot for its product.)</span></p>
         <p id="arch-status" class="text-sm font-semibold text-gray-800 mt-1">Loading…</p>
+        <div class="flex flex-wrap items-center gap-2 mt-2">
+          <span class="text-xs uppercase tracking-wide font-semibold text-gray-400">Filter</span>
+          <select id="arch-f-brand" class="border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+            <option value="">All brands</option>
+            <option value="O Boticário">O Boticário</option>
+            <option value="Natura">Natura</option>
+            <option value="Eudora">Eudora</option>
+            <option value="Avon">Avon</option>
+            <option value="Jequiti">Jequiti</option>
+          </select>
+          <select id="arch-f-cat" class="border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+            <option value="">All categories</option>
+          </select>
+          <select id="arch-f-cluster" class="border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+            <option value="">All archetypes</option>
+            <option value="0">C0 · managed</option>
+            <option value="1">C1 · one-cycle</option>
+            <option value="2">C2 · backbone</option>
+            <option value="3">C3 · promo-born</option>
+          </select>
+          <button id="arch-f-reset" type="button" class="text-xs text-violet-600 hover:underline">reset</button>
+        </div>
         <div class="flex items-center gap-3 mt-2">
           <button id="arch-play" type="button" class="shrink-0 rounded-lg bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium px-4 py-1.5 transition-colors">► Play</button>
           <input id="arch-slider" type="range" min="0" max="0" value="0" class="flex-1 accent-violet-600 cursor-pointer" aria-label="cycle" />
@@ -473,12 +495,28 @@
           const idx = new Map();
           for (let i = 0; i < pts.length; i++) idx.set(pts[i].d, pts[i]);
 
+          const fBrand = document.getElementById('arch-f-brand');
+          const fCat = document.getElementById('arch-f-cat');
+          const fCluster = document.getElementById('arch-f-cluster');
+          const catCount = {};
+          pts.forEach(function (p) { const c = p.d[2]; if (c) catCount[c] = (catCount[c] || 0) + 1; });
+          Object.keys(catCount).sort(function (a, b) { return catCount[b] - catCount[a]; }).slice(0, 15)
+            .forEach(function (c) { const o = document.createElement('option'); o.value = c; o.textContent = c; fCat.appendChild(o); });
+          function matches(p) {
+            if (fBrand.value && p.d[1] !== fBrand.value) return false;
+            if (fCat.value && p.d[2] !== fCat.value) return false;
+            if (fCluster.value !== '' && p.c !== +fCluster.value) return false;
+            return true;
+          }
+
           function esc(s) { return String(s).replace(/[&<>"]/g, function (m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]; }); }
           function kv(k, v) { return '<div class="flex justify-between gap-3 py-0.5"><dt class="text-gray-400">' + k + '</dt><dd class="text-gray-700 font-medium text-right">' + v + '</dd></div>'; }
           function frameArrays(f) {
             const x = [], y = [], col = [], cd = [];
             for (let i = 0; i < pts.length; i++) {
-              const p = pts[i]; let cnt = 0, promo = 0;
+              const p = pts[i];
+              if (!matches(p)) continue;
+              let cnt = 0, promo = 0;
               for (let k = 0; k < p.ap.length; k++) if (p.ap[k] <= f) { cnt++; promo += p.pr[k]; }
               if (!cnt) continue;
               x.push(cnt * (1 + p.jx)); y.push(promo / cnt + p.jy); col.push(colors[p.c]); cd.push(p.d);
@@ -486,14 +524,15 @@
             return { x: x, y: y, col: col, cd: cd };
           }
           function hiPos(f) {
-            if (!selected) return null;
+            if (!selected || !matches(selected)) return null;
             let cnt = 0, promo = 0;
             for (let k = 0; k < selected.ap.length; k++) if (selected.ap[k] <= f) { cnt++; promo += selected.pr[k]; }
             if (!cnt) return null;
             return [cnt * (1 + selected.jx), promo / cnt + selected.jy];
           }
-          function setStatus(f) {
-            if (statusEl) statusEl.textContent = data.periods[f] + ' · ' + data.cumCatalogs[f] + ' catalogs · ' + data.cumProducts[f].toLocaleString('en-US') + ' products';
+          function setStatus(f, n) {
+            const count = (n == null ? data.cumProducts[f] : n);
+            if (statusEl) statusEl.textContent = data.periods[f] + ' · ' + data.cumCatalogs[f] + ' catalogs · ' + count.toLocaleString('en-US') + ' products';
           }
           function goTo(f) {
             curFrame = f;
@@ -501,7 +540,7 @@
             const hx = hp ? [hp[0]] : [], hy = hp ? [hp[1]] : [];
             Plotly.restyle('arch-anim', { x: [a.x], y: [a.y], customdata: [a.cd], 'marker.color': [a.col] }, [0]);
             Plotly.restyle('arch-anim', { x: [hx, hx], y: [hy, hy] }, [1, 2]);
-            setStatus(f);
+            setStatus(f, a.x.length);
             if (+slider.value !== f) slider.value = f;
           }
           function stop() { if (timer) { clearInterval(timer); timer = null; playBtn.textContent = '► Play'; } }
@@ -540,6 +579,10 @@
               goTo(0);
               slider.addEventListener('input', function () { stop(); goTo(+slider.value); });
               playBtn.addEventListener('click', play);
+              [fBrand, fCat, fCluster].forEach(function (s) { s.addEventListener('change', function () { goTo(curFrame); }); });
+              document.getElementById('arch-f-reset').addEventListener('click', function () {
+                fBrand.value = ''; fCat.value = ''; fCluster.value = ''; goTo(curFrame);
+              });
               gd.on('plotly_click', function (ev) {
                 const pt = ev.points && ev.points[0]; if (!pt || !pt.customdata) return;
                 const d = pt.customdata;
