@@ -365,7 +365,35 @@
         </ul>
         <img src="images/analysis/method/method_pca_loadings.png" alt="Bar chart of PC1 and PC2 loadings across the five features" class="w-full max-w-lg h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
 
-        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">7 · General considerations &amp; limitations</h4>
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">7 · Robustness check: do the archetypes survive different features?</h4>
+        <p class="text-sm text-gray-600 leading-relaxed">I re-ran k-means on alternative feature sets and measured how
+          much the assignments move with the <span class="font-mono text-xs">Adjusted Rand Index</span> (ARI: 1 means
+          identical to the baseline, 0 means unrelated).</p>
+        <div class="overflow-x-auto mt-2">
+          <table class="w-full text-sm border-collapse">
+            <thead>
+              <tr class="text-left text-gray-500 border-b border-gray-200">
+                <th class="py-2 pr-4 font-semibold">Feature set</th>
+                <th class="py-2 pr-4 font-semibold">ARI vs&nbsp;baseline</th>
+                <th class="py-2 font-semibold">What happens</th>
+              </tr>
+            </thead>
+            <tbody class="text-gray-700 align-top">
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4">Baseline (the five features)</td><td class="py-2 pr-4 font-mono">1.00</td><td class="py-2">reference</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4">+ brand or + category</td><td class="py-2 pr-4 font-mono">0.01–0.02</td><td class="py-2">clusters collapse onto brand/category (≈100% pure); the behaviour is lost, so these are deliberately excluded</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4">+ kit/gift flag</td><td class="py-2 pr-4 font-mono">0.83</td><td class="py-2">essentially the same archetypes</td></tr>
+              <tr class="border-b border-gray-100"><td class="py-2 pr-4">drop the two price features</td><td class="py-2 pr-4 font-mono">0.84</td><td class="py-2">same archetypes; promotion + discount + persistence carry them</td></tr>
+              <tr><td class="py-2 pr-4">drop promotion &amp; discount</td><td class="py-2 pr-4 font-mono">0.30</td><td class="py-2">archetypes break; promotion/discount is the defining axis</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-gray-500 mt-2">So the archetypes are stable under behavioural tweaks and are driven by the
+          promotion/discount axis. Brand and category are left out on purpose: adding them just makes k-means
+          re-describe brand and category (in the baseline, no cluster is more than ~44% one category or brand, so the
+          groups cut across them). Reproducible from
+          <span class="font-mono text-xs bg-gray-100 px-1.5 py-0.5 rounded">analysis/feature_experiments.py</span>.</p>
+
+        <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">8 · General considerations &amp; limitations</h4>
         <ul class="text-sm text-gray-600 space-y-1 list-disc pl-5 mt-2">
           <li><b>Labels describe the typical member, not a rule.</b> k-means assigns by the whole 5-feature
           vector, and the promotion/discount axis dominates, so a never-discounted item can land in the
