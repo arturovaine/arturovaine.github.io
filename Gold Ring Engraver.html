@@ -1,0 +1,365 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Gold Ring Engraver</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&family=Manrope:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Cinzel+Decorative:wght@700&family=Parisienne&family=Allura&family=Great+Vibes&family=Arimo:wght@400&family=Lobster&family=Oswald:wght@400&family=Caladea&family=Caveat:wght@500&family=Alex+Brush&family=Gochi+Hand&family=Pinyon+Script&family=Yellowtail&family=Russo+One&family=Cormorant+Garamond:ital,wght@1,600&family=Kaushan+Script&family=Pixelify+Sans:wght@500&family=Audiowide&family=Delius&display=swap">
+<style>
+/* Layout: one-screen workbench — 3D stage fills the left, an engraver's order sheet on the right; stacks on phones. */
+:root{
+  --bg:#e9ebee; --panel:#f6f7f8; --ink:#1b2130; --muted:#5f6675; --line:#d3d7de;
+  --gold:#a8771c; --gold-soft:#f1e3c2; --card:#151b2b; --card-ink:#f3f1ea; --card-dim:#8d93a5;
+  --stage-a:#f4f5f7; --stage-b:#cfd3da; --warn:#a4421f;
+  --display:"Bodoni Moda", "Didot", Georgia, serif;
+  --body:"Manrope", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0f131c; --panel:#161b26; --ink:#e8e6df; --muted:#9aa0ae; --line:#2a3141;
+  --gold:#e0b45a; --gold-soft:#3a2f17; --card:#0a0d15; --card-ink:#f3f1ea; --card-dim:#7d8496;
+  --stage-a:#262d3c; --stage-b:#0c0f16; --warn:#ef8a62; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0f131c; --panel:#161b26; --ink:#e8e6df; --muted:#9aa0ae; --line:#2a3141;
+  --gold:#e0b45a; --gold-soft:#3a2f17; --card:#0a0d15; --card-ink:#f3f1ea; --card-dim:#7d8496;
+  --stage-a:#262d3c; --stage-b:#0c0f16; --warn:#ef8a62; color-scheme:dark }
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:14px;line-height:1.5}
+.app{display:grid;grid-template-columns:minmax(0,1fr) 380px;height:100%;min-height:560px}
+.stage{position:relative;min-width:0;background:radial-gradient(120% 90% at 50% 35%,var(--stage-a),var(--stage-b))}
+#gl{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none}
+.stage-head{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-between;align-items:flex-start;gap:12px;
+  padding:18px max(18px, env(safe-area-inset-right,0px)) 0 max(18px, env(safe-area-inset-left,0px));pointer-events:none}
+h1{font-family:var(--display);font-weight:500;font-size:28px;line-height:1.1;margin:0;letter-spacing:.01em;text-wrap:balance}
+h1 em{color:var(--gold)}
+.sub{color:var(--muted);font-size:13px;margin:4px 0 0}
+.views{position:absolute;left:max(18px, env(safe-area-inset-left,0px));bottom:18px;display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:500 12px/1 var(--body);letter-spacing:.04em;padding:9px 12px;border-radius:999px;border:1px solid var(--line);
+  background:color-mix(in srgb,var(--panel) 80%,transparent);color:var(--ink);cursor:pointer;backdrop-filter:blur(6px)}
+.chip[aria-pressed="true"]{border-color:var(--gold);color:var(--gold)}
+.chip:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.hint{position:absolute;right:max(18px, env(safe-area-inset-right,0px));bottom:22px;font:11px var(--mono);color:var(--muted)}
+
+.sheet{background:var(--panel);border-left:1px solid var(--line);overflow-y:auto;min-width:0;
+  padding-block:20px 28px;padding-left:22px;padding-right:max(22px, env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+.group{display:flex;flex-direction:column;gap:12px}
+.label{font:600 11px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.field{display:grid;grid-template-columns:1fr auto;align-items:center;gap:6px 10px}
+.field label{font-weight:500}
+.field output,.num{font:500 13px var(--mono);font-variant-numeric:tabular-nums}
+.field .note{grid-column:1/-1;font:12px var(--mono);color:var(--muted);margin-top:-2px}
+input[type=range]{grid-column:1/-1;width:100%;accent-color:var(--gold);margin:0}
+.textbox{width:100%;box-sizing:border-box;font:500 16px var(--body);padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink)}
+.warn{color:var(--warn);font-size:12px;min-height:1em;margin:0}
+.tones{display:flex;gap:8px;flex-wrap:wrap}
+.tone{display:flex;align-items:center;gap:8px;padding:7px 12px 7px 8px;border:1px solid var(--line);border-radius:999px;background:transparent;color:var(--ink);font:500 13px var(--body);cursor:pointer}
+.tone i{width:16px;height:16px;border-radius:50%;display:block;box-shadow:inset 0 0 0 1px rgba(0,0,0,.15)}
+.tone[aria-pressed="true"]{border-color:var(--gold);background:var(--gold-soft)}
+
+/* the font card, styled after the jeweller's sample tag */
+.card{background:var(--card);color:var(--card-ink);border-radius:6px;padding:14px 10px;display:flex;flex-direction:column;gap:2px;
+  box-shadow:0 1px 0 rgba(255,255,255,.04) inset,0 6px 18px rgba(0,0,0,.18)}
+.font{display:flex;align-items:baseline;justify-content:space-between;gap:10px;background:transparent;border:0;color:inherit;text-align:left;
+  padding:5px 10px;border-radius:4px;cursor:pointer;font-size:21px;line-height:1.2}
+.font small{font:11px var(--mono);color:var(--card-dim);white-space:nowrap}
+.font:hover{background:rgba(255,255,255,.06)}
+.font[aria-pressed="true"]{background:rgba(224,180,90,.16);box-shadow:inset 2px 0 0 #e0b45a}
+.fine{font-size:12px;color:var(--muted);margin:0}
+.specs{display:grid;grid-template-columns:1fr auto;gap:6px 12px;border-top:1px solid var(--line);padding-top:14px}
+.specs dt{color:var(--muted)} .specs dd{margin:0;font:500 13px var(--mono);text-align:right;font-variant-numeric:tabular-nums}
+
+@media (max-width:820px){
+  html,body{height:auto}
+  .app{grid-template-columns:1fr;height:auto}
+  .stage{height:62vh;min-height:360px}
+  .sheet{border-left:0;border-top:1px solid var(--line);overflow:visible;padding-left:max(16px, env(safe-area-inset-left,0px));padding-right:max(16px, env(safe-area-inset-right,0px))}
+  h1{font-size:22px}
+  .hint{display:none}
+}
+@media (prefers-reduced-motion: reduce){ .chip,.tone{transition:none} }
+</style>
+
+<div class="app">
+  <section class="stage" aria-label="3D ring preview">
+    <canvas id="gl"></canvas>
+    <div class="stage-head">
+      <div>
+        <h1>Gold ring <em>engraver</em></h1>
+        <p class="sub">Drag to turn the ring, scroll or pinch to zoom.</p>
+      </div>
+    </div>
+    <div class="views">
+      <button class="chip" id="vInside" aria-pressed="true">Inside view</button>
+      <button class="chip" id="vOutside" aria-pressed="false">Outside view</button>
+      <button class="chip" id="vSpin" aria-pressed="false">Auto-rotate</button>
+    </div>
+    <div class="hint" id="hint">all dimensions in mm</div>
+  </section>
+
+  <aside class="sheet" aria-label="Ring settings">
+    <div class="group">
+      <span class="label">Band</span>
+      <div class="field">
+        <label for="diam">Inner diameter</label><output id="diamOut" class="num"></output>
+        <input type="range" id="diam" min="14" max="24" step="0.1" value="17.5">
+        <span class="note" id="sizeNote"></span>
+      </div>
+      <div class="field">
+        <label for="thick">Thickness</label><output id="thickOut" class="num"></output>
+        <input type="range" id="thick" min="1" max="3" step="0.05" value="1.6">
+      </div>
+      <div class="field">
+        <label for="width">Width</label><output id="widthOut" class="num"></output>
+        <input type="range" id="width" min="2" max="8" step="0.1" value="4">
+      </div>
+      <div class="tones" role="group" aria-label="Gold colour">
+        <button class="tone" data-tone="yellow" aria-pressed="true"><i style="background:#e6b54f"></i>Yellow 18k</button>
+        <button class="tone" data-tone="rose" aria-pressed="false"><i style="background:#e0a08a"></i>Rose 18k</button>
+        <button class="tone" data-tone="white" aria-pressed="false"><i style="background:#dcdcd6"></i>White 18k</button>
+      </div>
+    </div>
+
+    <div class="group">
+      <span class="label">Engraving · inside</span>
+      <input class="textbox" id="text" maxlength="60" value="Forever &amp; always 123" aria-label="Engraving text">
+      <p class="warn" id="warn"></p>
+      <div class="field">
+        <label for="fsize">Letter height</label><output id="fsizeOut" class="num"></output>
+        <input type="range" id="fsize" min="0.8" max="3.5" step="0.05" value="1.8">
+      </div>
+      <div class="field">
+        <label for="depth">Depth</label><output id="depthOut" class="num"></output>
+        <input type="range" id="depth" min="0.03" max="0.25" step="0.01" value="0.12">
+      </div>
+    </div>
+
+    <div class="group">
+      <span class="label">Font family</span>
+      <div class="card" id="fonts" role="group" aria-label="Font family"></div>
+      <p class="fine">The original font is used when it's installed on this device. Otherwise the closest free match, named on the right, is shown.</p>
+    </div>
+
+    <dl class="specs">
+      <dt>Outer diameter</dt><dd id="sOuter"></dd>
+      <dt>Inside circumference</dt><dd id="sCirc"></dd>
+      <dt>Engraving length</dt><dd id="sLen"></dd>
+      <dt>Est. gold weight</dt><dd id="sWeight"></dd>
+    </dl>
+  </aside>
+</div>
+
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+// Fonts from the jeweller's card. `local` is tried first; `free` is the Google Fonts look-alike.
+const FONTS = [
+  { name:'Algerian',      local:'Algerian',             free:'Cinzel Decorative', weight:700 },
+  { name:'Allegro',       local:'Allegro BT',           free:'Parisienne' },
+  { name:'Allura',        local:'Allura',               free:'Allura' },
+  { name:'Amaze',         local:'Amaze',                free:'Great Vibes' },
+  { name:'Arial',         local:'Arial',                free:'Arimo' },
+  { name:'Barbie',        local:'Barbie',               free:'Lobster' },
+  { name:'Burma Outline', local:'Burma Outline',        free:'Oswald', outline:true },
+  { name:'Cambria',       local:'Cambria',              free:'Caladea' },
+  { name:'Caveat',        local:'Caveat',               free:'Caveat', weight:500 },
+  { name:'Cotillion',     local:'Cotillion',            free:'Alex Brush' },
+  { name:'Dadhand',       local:'Dadhand',              free:'Gochi Hand' },
+  { name:'English',       local:'English157 BT',        free:'Pinyon Script' },
+  { name:'Ford',          local:'Ford Script',          free:'Yellowtail' },
+  { name:'Future',        local:'Future',               free:'Russo One' },
+  { name:'Lucida',        local:'Lucida Calligraphy',   free:'Cormorant Garamond', style:'italic', weight:600 },
+  { name:'Michland',      local:'Michland',             free:'Kaushan Script' },
+  { name:'Minecraft',     local:'Minecraft',            free:'Pixelify Sans', weight:500 },
+  { name:'Nulshock',      local:'Nulshock',             free:'Audiowide' },
+  { name:'Segoe',         local:'Segoe Print',          free:'Delius' },
+];
+const fontCss = (f, px) => `${f.style||'normal'} ${f.weight||400} ${px}px "${f.local}", "${f.free}", serif`;
+
+const TONES = {
+  yellow:{ color:0xffd88a, density:15.5 },
+  rose:  { color:0xf8c2a6, density:15.0 },
+  white: { color:0xf0eee8, density:15.8 },
+};
+
+const $ = id => document.getElementById(id);
+const state = { diam:17.5, thick:1.6, width:4, text:'Forever & always 123', fsize:1.8, depth:0.12, font:0, tone:'yellow' };
+
+// ---------- font card ----------
+const card = $('fonts');
+FONTS.forEach((f,i)=>{
+  const b = document.createElement('button');
+  b.className='font'; b.type='button'; b.dataset.i=i;
+  b.setAttribute('aria-pressed', i===state.font);
+  b.innerHTML = `<span></span><small>${f.free===f.name?'':'≈ '+f.free}</small>`;
+  const s = b.querySelector('span');
+  s.textContent = f.name + ' 123';
+  s.style.font = fontCss(f, 21);
+  if (f.outline){ s.style.color='transparent'; s.style.webkitTextStroke='1px currentColor'; }
+  b.onclick = ()=>{ state.font=i; card.querySelectorAll('.font').forEach(x=>x.setAttribute('aria-pressed', x===b)); update(); };
+  card.appendChild(b);
+});
+
+// ---------- renderer ----------
+const canvas = $('gl');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias:true, alpha:true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.toneMapping = THREE.LinearToneMapping;
+renderer.toneMappingExposure = 1.1;
+const scene = new THREE.Scene();
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+const key = new THREE.DirectionalLight(0xffffff, 1.4); key.position.set(20,40,30); scene.add(key);
+
+const camera = new THREE.PerspectiveCamera(35, 1, 0.1, 500);
+const headlamp = new THREE.PointLight(0xfff4e0, 2.2, 0, 0); camera.add(headlamp); scene.add(camera);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x8a7a60, 0.8));
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true; controls.minDistance = 12; controls.maxDistance = 120;
+
+const ring = new THREE.Group(); scene.add(ring);
+
+const gold = new THREE.MeshPhysicalMaterial({ color:TONES.yellow.color, metalness:1, roughness:0.14, clearcoat:0.3, clearcoatRoughness:0.1, envMapIntensity:1.6 });
+const innerMat = new THREE.MeshPhysicalMaterial({ color:TONES.yellow.color, metalness:1, roughness:1, side:THREE.BackSide, envMapIntensity:2.4 });
+
+// three canvases: displacement/bump (white = cut), colour (darker in the cut), roughness (satin in the cut)
+const mk = () => { const c=document.createElement('canvas'); const t=new THREE.CanvasTexture(c); t.colorSpace=THREE.NoColorSpace; t.anisotropy=8; return {c, t}; };
+const disp = mk(), col = mk(), rough = mk();
+col.t.colorSpace = THREE.SRGBColorSpace;
+innerMat.displacementMap = disp.t; innerMat.bumpMap = disp.t;
+innerMat.map = col.t; innerMat.roughnessMap = rough.t;
+
+let outerMesh, innerMesh;
+const SEG_R = 720;
+
+function profile(ri, t, w){
+  const f = Math.min(0.35, t*0.25, w*0.15), pts=[], n=2.6;
+  const arc=(cx,cy,r,a0,a1,k)=>{ for(let i=0;i<=k;i++){ const a=a0+(a1-a0)*i/k; pts.push(new THREE.Vector2(cx+r*Math.cos(a), cy+r*Math.sin(a))); } };
+  arc(ri+f, -w/2+f, f, Math.PI, Math.PI*1.5, 8);
+  const cx=ri+f, a=t-f, b=w/2;
+  for(let i=1;i<64;i++){
+    const th=-Math.PI/2+Math.PI*i/64, c=Math.cos(th), s=Math.sin(th);
+    pts.push(new THREE.Vector2(cx + a*Math.sign(c)*Math.abs(c)**(2/n), b*Math.sign(s)*Math.abs(s)**(2/n)));
+  }
+  arc(ri+f, w/2-f, f, Math.PI*0.5, Math.PI, 8);
+  return { pts, f };
+}
+
+function areaAndCentroid(pts){ // closed polygon in (r,y)
+  let A=0, cx=0;
+  for(let i=0;i<pts.length;i++){ const p=pts[i], q=pts[(i+1)%pts.length], cr=p.x*q.y-q.x*p.y; A+=cr; cx+=(p.x+q.x)*cr; }
+  A/=2; return { A:Math.abs(A), cx: cx/(6*A) };
+}
+
+function buildGeometry(){
+  const ri=state.diam/2, t=state.thick, w=state.width;
+  const { pts, f } = profile(ri, t, w);
+  outerMesh?.geometry.dispose(); innerMesh?.geometry.dispose();
+  if(!outerMesh){ outerMesh=new THREE.Mesh(undefined, gold); ring.add(outerMesh); innerMesh=new THREE.Mesh(undefined, innerMat); ring.add(innerMesh); }
+  outerMesh.geometry = new THREE.LatheGeometry(pts, SEG_R);
+  const h = w-2*f;
+  innerMesh.geometry = new THREE.CylinderGeometry(ri, ri, h, 1440, Math.max(40, Math.round(h*30)), true);
+  // weight via Pappus: closed section = profile + inner straight edge
+  const { A, cx } = areaAndCentroid(pts);
+  const volCm3 = A * 2*Math.PI*cx / 1000;
+  return { ri, h, volCm3 };
+}
+
+let geo;
+let fontToken = 0;
+async function drawEngraving(){
+  const f = FONTS[state.font];
+  const circ = Math.PI*state.diam;
+  const W = 4096, pxPerMm = W/circ, H = Math.max(64, Math.round(geo.h*pxPerMm));
+  const px = state.fsize*pxPerMm;
+  const token = ++fontToken;
+  try { await document.fonts.load(fontCss(f, 40), state.text||'a'); } catch(e){}
+  if(token!==fontToken) return;
+
+  const draw = (o, bg, fg, blur) => {
+    o.c.width=W; o.c.height=H;
+    const g=o.c.getContext('2d');
+    g.fillStyle=bg; g.fillRect(0,0,W,H);
+    g.save();
+    g.translate(W,0); g.scale(-1,1);           // mirrored so it reads correctly from inside the ring
+    g.font=fontCss(f, px); g.textAlign='center'; g.textBaseline='middle';
+    if(blur) g.filter=`blur(${blur}px)`;
+    if(f.outline){ g.strokeStyle=fg; g.lineWidth=Math.max(2, px*0.07); g.strokeText(state.text, W/2, H/2); }
+    else { g.fillStyle=fg; g.fillText(state.text, W/2, H/2); }
+    g.restore();
+    o.t.needsUpdate=true;
+  };
+  draw(disp, '#000', '#fff', Math.max(0.6, pxPerMm*0.012));
+  draw(col,  '#fff', '#8a8a8a', 0);
+  draw(rough,'rgb(40,40,40)', 'rgb(175,175,175)', 0);
+
+  const m = document.createElement('canvas').getContext('2d'); m.font = fontCss(f, px);
+  const len = m.measureText(state.text).width/pxPerMm;
+  $('sLen').textContent = state.text ? len.toFixed(1)+' mm' : '—';
+  const warns=[];
+  if(len > circ*0.95) warns.push(`Text is longer than the inside circumference (${circ.toFixed(1)} mm). Shorten it or reduce the letter height.`);
+  if(state.fsize > geo.h*0.92) warns.push('Letters are taller than the flat inner band. Reduce the letter height or widen the band.');
+  $('warn').textContent = warns.join(' ');
+}
+
+function update(rebuild=false){
+  const s=state;
+  $('diamOut').textContent = s.diam.toFixed(1)+' mm';
+  $('thickOut').textContent = s.thick.toFixed(2)+' mm';
+  $('widthOut').textContent = s.width.toFixed(1)+' mm';
+  $('fsizeOut').textContent = s.fsize.toFixed(2)+' mm';
+  $('depthOut').textContent = s.depth.toFixed(2)+' mm';
+  const us = (s.diam-11.63)/0.8128;
+  $('sizeNote').textContent = `≈ US size ${Math.max(0,us).toFixed(1)}`;
+  if(rebuild || !geo) geo = buildGeometry();
+  innerMat.displacementScale = s.depth;
+  innerMat.bumpScale = s.depth*4;
+  const tone = TONES[s.tone];
+  gold.color.setHex(tone.color); innerMat.color.setHex(tone.color);
+  $('sOuter').textContent = (s.diam+2*s.thick).toFixed(2)+' mm';
+  $('sCirc').textContent = (Math.PI*s.diam).toFixed(1)+' mm';
+  $('sWeight').textContent = '≈ '+(geo.volCm3*tone.density).toFixed(2)+' g';
+  drawEngraving();
+}
+
+const bind = (id, k, rebuild) => $(id).addEventListener('input', e => { state[k] = id==='text' ? e.target.value : parseFloat(e.target.value); update(rebuild); });
+bind('diam','diam',true); bind('thick','thick',true); bind('width','width',true);
+bind('fsize','fsize',false); bind('depth','depth',false); bind('text','text',false);
+document.querySelectorAll('.tone').forEach(b => b.onclick = () => {
+  state.tone=b.dataset.tone; document.querySelectorAll('.tone').forEach(x=>x.setAttribute('aria-pressed', x===b)); update();
+});
+
+// ---------- views ----------
+let tween=null;
+function goTo(pos){
+  const from=camera.position.clone(), to=new THREE.Vector3(...pos).multiplyScalar(state.diam/17.5), t0=performance.now();
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  tween = now => { const k=reduce?1:Math.min(1,(now-t0)/700), e=k<.5?2*k*k:1-(-2*k+2)**2/2; camera.position.lerpVectors(from,to,e); controls.target.set(0,0,0); if(k>=1) tween=null; };
+}
+const setView = (btn, pos) => { ['vInside','vOutside'].forEach(id=>$(id).setAttribute('aria-pressed', id===btn)); goTo(pos); };
+const INSIDE = [0, 9, 32], OUTSIDE = [30, 16, 34];
+$('vInside').onclick = () => { ring.rotation.y = 0; setView('vInside', INSIDE); };
+$('vOutside').onclick = () => setView('vOutside', OUTSIDE);
+$('vSpin').onclick = e => { controls.autoRotate=!controls.autoRotate; e.currentTarget.setAttribute('aria-pressed', controls.autoRotate); };
+camera.position.set(...INSIDE);
+
+// ---------- loop ----------
+function resize(){
+  const r = canvas.parentElement.getBoundingClientRect();
+  renderer.setSize(r.width, r.height, false);
+  camera.aspect = r.width/Math.max(1,r.height); camera.updateProjectionMatrix();
+}
+new ResizeObserver(resize).observe(canvas.parentElement);
+resize();
+update(true);
+document.fonts.ready.then(()=>drawEngraving());
+renderer.setAnimationLoop(now => { if(tween) tween(now); controls.update(); renderer.render(scene, camera); });
+</script>
+
+</body></html>
