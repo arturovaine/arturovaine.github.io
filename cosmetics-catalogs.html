@@ -341,6 +341,106 @@
         persistent backbone (amber) and the actively managed set (violet) stretching to the right.</p>
       </div>
 
+      <!-- Animated architecture map: cumulative by cycle -->
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
+        <h3 class="font-bold text-gray-900">Watch the architecture fill in, cycle by cycle</h3>
+        <p class="text-sm text-gray-500 mt-1 mb-2">Press play: step&nbsp;1 is the first extracted cycle and each
+        step adds the next publishing period (year&nbsp;·&nbsp;cycle). Products drift right as they accumulate
+        appearances, so the recurring backbone (amber) grows out of the single-appearance columns on the left.
+        <span class="text-gray-400">(2,000-product sample; colours are the final clusters: C0 violet, C1 green,
+        C2 amber, C3 blue.)</span></p>
+        <p id="arch-status" class="text-sm font-semibold text-gray-800 mt-1">Loading…</p>
+        <div id="arch-anim" style="width:100%;height:480px;"></div>
+      </div>
+      <script>
+      (function () {
+        let started = false;
+        function ensurePlotly(cb) {
+          if (window.Plotly) return cb();
+          const s = document.createElement('script');
+          s.src = 'https://cdn.plot.ly/plotly-2.35.2.min.js';
+          s.charset = 'utf-8';
+          s.onload = cb;
+          document.head.appendChild(s);
+        }
+        function initArchAnim() {
+          if (started) return;
+          const el = document.getElementById('arch-anim');
+          if (!el || el.offsetParent === null) return;   // wait until the Analysis tab is visible
+          started = true;
+          ensurePlotly(function () {
+            fetch('cosmetics-catalogs-data/arch_anim.json')
+              .then(function (r) { return r.json(); })
+              .then(build)
+              .catch(function () { started = false; });
+          });
+        }
+        function build(data) {
+          const F = data.periods.length, colors = data.colors, names = data.names;
+          const frames = [];
+          for (let f = 0; f < F; f++) {
+            const tx = [[], [], [], []], ty = [[], [], [], []];
+            for (const p of data.pts) {
+              let cnt = 0, promo = 0;
+              for (let k = 0; k < p.ap.length; k++) if (p.ap[k] <= f) { cnt++; promo += p.pr[k]; }
+              if (!cnt) continue;
+              tx[p.c].push(cnt * (1 + p.jx));
+              ty[p.c].push(promo / cnt + p.jy);
+            }
+            frames.push({
+              name: String(f),
+              data: [0, 1, 2, 3].map(function (c) { return { x: tx[c], y: ty[c] }; })
+            });
+          }
+          const init = [0, 1, 2, 3].map(function (c) {
+            return {
+              type: 'scatter', mode: 'markers', name: names[c],
+              x: frames[0].data[c].x, y: frames[0].data[c].y,
+              marker: { color: colors[c], size: 5, opacity: 0.5 }
+            };
+          });
+          const layout = {
+            showlegend: false,
+            margin: { t: 22, r: 16, b: 10, l: 56 },
+            xaxis: { title: 'Catalog appearances (log scale)', type: 'log',
+                     range: [Math.log10(0.8), Math.log10(40)], tickvals: [1, 2, 3, 5, 10, 20, 30], fixedrange: true },
+            yaxis: { title: 'Share of appearances on promotion', range: [-0.06, 1.06], fixedrange: true },
+            updatemenus: [{
+              type: 'buttons', direction: 'left', showactive: false,
+              x: 0.02, y: 0, xanchor: 'right', yanchor: 'top', pad: { t: 62, r: 8 },
+              buttons: [
+                { label: '► Play', method: 'animate', args: [null, { mode: 'immediate', fromcurrent: true, frame: { duration: 240, redraw: true }, transition: { duration: 0 } }] },
+                { label: '❚❚ Pause', method: 'animate', args: [[null], { mode: 'immediate', frame: { duration: 0, redraw: true }, transition: { duration: 0 } }] }
+              ]
+            }],
+            sliders: [{
+              active: 0, pad: { l: 90, t: 52 }, len: 0.84,
+              currentvalue: { prefix: 'Cycle: ', font: { size: 12, color: '#6b7280' } },
+              steps: data.periods.map(function (p, f) {
+                return { label: p, method: 'animate',
+                  args: [[String(f)], { mode: 'immediate', frame: { duration: 0, redraw: true }, transition: { duration: 0 } }] };
+              })
+            }]
+          };
+          Plotly.newPlot('arch-anim', init, layout, { displayModeBar: false, responsive: true })
+            .then(function () {
+              Plotly.addFrames('arch-anim', frames);
+              const statusEl = document.getElementById('arch-status');
+              function setStatus(f) { if (statusEl) statusEl.textContent = data.periods[f] + ' · ' + data.cumCatalogs[f] + ' catalogs extracted'; }
+              setStatus(0);
+              document.getElementById('arch-anim').on('plotly_animatingframe', function (e) {
+                const nm = e && (e.name != null ? e.name : (e.frame && e.frame.name));
+                const f = +nm;
+                if (!isNaN(f)) setStatus(f);
+              });
+            });
+        }
+        window.addEventListener('load', function () { setTimeout(initArchAnim, 60); });
+        document.querySelectorAll('.tab-btn').forEach(function (b) { b.addEventListener('click', function () { setTimeout(initArchAnim, 60); }); });
+        window.addEventListener('hashchange', function () { setTimeout(initArchAnim, 60); });
+      })();
+      </script>
+
       <!-- Key insights -->
       <div class="bg-violet-50 border-l-4 border-violet-600 rounded-r-2xl p-6 mb-6">
         <h3 class="font-bold text-gray-900 mb-3">What the clusters reveal</h3>
