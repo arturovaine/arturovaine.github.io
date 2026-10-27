@@ -158,8 +158,9 @@
       <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
         <h2 class="text-xl font-bold text-gray-900">Portfolio clustering: four product archetypes</h2>
         <p class="text-sm text-gray-600 mt-2 leading-relaxed">
-          The 114,323 usable product rows across 110 processed catalogs and five brands
-          (O Boticário, Natura, Avon, Eudora, Jequiti) collapse into
+          Of the <b>116,234</b> extracted product records, 114,323 carry a usable name and a plausible price
+          (R$3–2,000); these clean rows, across the processed catalogs and five brands
+          (O Boticário, Natura, Avon, Eudora, Jequiti), collapse into
           <b>25,180 unique products</b> (brand + normalized name). Each product is described by five features
           aggregated over every catalog appearance (median price, promo exposure, discount depth,
           catalog persistence, and price volatility), then standardized and clustered with
@@ -173,7 +174,8 @@
       <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
         <h3 class="text-lg font-bold text-gray-900">How the clustering is computed</h3>
         <p class="text-sm text-gray-600 mt-2 leading-relaxed">
-          The pipeline reduces <b>114,323</b> product-row observations (110 catalogs, five brands) to
+          The pipeline takes the <b>114,323</b> usable product rows (the cleaned subset of the 116,234
+          extracted records, over 110 catalog-cycles and five brands) and reduces them to
           <b>25,180</b> unique products, describes each with five behavioural features, standardizes them,
           and partitions them with k-means. Every step is reproducible from
           <span class="font-mono text-xs bg-gray-100 px-1.5 py-0.5 rounded">analysis/cluster_portfolio.py</span>.
@@ -195,7 +197,7 @@
           <li><b>H4 (representative calendar).</b> The catalogs collected approximate each brand&rsquo;s publishing
           calendar; persistence is relative to the catalogs available, not the full year.</li>
         </ul>
-        <img src="images/analysis/method/method_funnel.png" alt="Funnel from 114,323 catalog product rows to 25,180 unique products to 4 k-means archetypes" class="w-full max-w-xl h-auto rounded-lg border border-gray-100 mt-4" loading="lazy" />
+        <img src="images/analysis/method/method_funnel.png" alt="Funnel from 114,323 usable product rows to 25,180 unique products to 4 k-means archetypes" class="w-full max-w-xl h-auto rounded-lg border border-gray-100 mt-4" loading="lazy" />
 
         <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">2 · Feature vector (per unique product p)</h4>
         <p class="text-sm text-gray-600 leading-relaxed">
