@@ -347,11 +347,15 @@
         <p class="text-sm text-gray-500 mt-1 mb-2">Press play: step&nbsp;1 is the first extracted cycle and each
         step adds the next publishing period (year&nbsp;·&nbsp;cycle). Products drift right as they accumulate
         appearances, so the recurring backbone (amber) grows out of the single-appearance columns on the left.
-        <span class="text-gray-400">(2,000-product sample; colours are the final clusters: C0 violet, C1 green,
-        C2 amber, C3 blue.)</span></p>
+        <span class="text-gray-400">(All 25,180 unique products; colours are the final clusters: C0 violet,
+        C1 green, C2 amber, C3 blue. Click any dot for its product.)</span></p>
         <p id="arch-status" class="text-sm font-semibold text-gray-800 mt-1">Loading…</p>
-        <div class="flex flex-col lg:flex-row gap-4 mt-1">
-          <div id="arch-anim" class="flex-1 min-w-0" style="height:480px;"></div>
+        <div class="flex items-center gap-3 mt-2">
+          <button id="arch-play" type="button" class="shrink-0 rounded-lg bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium px-4 py-1.5 transition-colors">► Play</button>
+          <input id="arch-slider" type="range" min="0" max="0" value="0" class="flex-1 accent-violet-600 cursor-pointer" aria-label="cycle" />
+        </div>
+        <div class="flex flex-col lg:flex-row gap-4 mt-2">
+          <div id="arch-anim" class="flex-1 min-w-0" style="height:460px;"></div>
           <div id="arch-info" class="lg:w-72 shrink-0 rounded-xl border border-gray-100 bg-gray-50 p-4 text-sm text-gray-400 flex items-center justify-center text-center" style="min-height:120px;">Click any dot to see the product behind it.</div>
         </div>
       </div>
@@ -379,87 +383,97 @@
           });
         }
         function build(data) {
-          const F = data.periods.length, colors = data.colors, names = data.names;
-          const frames = [];
-          for (let f = 0; f < F; f++) {
-            const tx = [[], [], [], []], ty = [[], [], [], []], cd = [[], [], [], []], txt = [[], [], [], []];
-            for (const p of data.pts) {
-              let cnt = 0, promo = 0;
+          const colors = data.colors, names = data.names, pts = data.pts, F = data.periods.length;
+          const gd = document.getElementById('arch-anim');
+          const statusEl = document.getElementById('arch-status');
+          const infoEl = document.getElementById('arch-info');
+          const slider = document.getElementById('arch-slider');
+          const playBtn = document.getElementById('arch-play');
+          const BRANDCLS = { 'Natura': 'brand-natura', 'O Boticário': 'brand-boticario', 'Eudora': 'brand-eudora', 'Avon': 'brand-avon', 'Jequiti': 'brand-jequiti' };
+          let curFrame = 0, selected = null, timer = null;
+          const idx = new Map();
+          for (let i = 0; i < pts.length; i++) idx.set(pts[i].d, pts[i]);
+
+          function esc(s) { return String(s).replace(/[&<>"]/g, function (m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]; }); }
+          function kv(k, v) { return '<div class="flex justify-between gap-3 py-0.5"><dt class="text-gray-400">' + k + '</dt><dd class="text-gray-700 font-medium text-right">' + v + '</dd></div>'; }
+          function frameArrays(f) {
+            const x = [], y = [], col = [], cd = [];
+            for (let i = 0; i < pts.length; i++) {
+              const p = pts[i]; let cnt = 0, promo = 0;
               for (let k = 0; k < p.ap.length; k++) if (p.ap[k] <= f) { cnt++; promo += p.pr[k]; }
               if (!cnt) continue;
-              tx[p.c].push(cnt * (1 + p.jx));
-              ty[p.c].push(promo / cnt + p.jy);
-              cd[p.c].push(p.d);
-              txt[p.c].push(p.d.n + ' · ' + p.d.b);
+              x.push(cnt * (1 + p.jx)); y.push(promo / cnt + p.jy); col.push(colors[p.c]); cd.push(p.d);
             }
-            frames.push({
-              name: String(f),
-              data: [0, 1, 2, 3].map(function (c) { return { x: tx[c], y: ty[c], customdata: cd[c], text: txt[c] }; })
-            });
+            return { x: x, y: y, col: col, cd: cd };
           }
-          const init = [0, 1, 2, 3].map(function (c) {
-            return {
-              type: 'scatter', mode: 'markers', name: names[c],
-              x: frames[0].data[c].x, y: frames[0].data[c].y,
-              customdata: frames[0].data[c].customdata, text: frames[0].data[c].text,
-              marker: { color: colors[c], size: 5, opacity: 0.5 },
-              hovertemplate: '%{text}<extra></extra>'
-            };
-          });
-          const layout = {
-            showlegend: false,
-            margin: { t: 22, r: 16, b: 10, l: 56 },
-            xaxis: { title: 'Catalog appearances (log scale)', type: 'log',
-                     range: [Math.log10(0.8), Math.log10(120)], tickvals: [1, 2, 3, 5, 10, 20, 30, 50, 110], fixedrange: true },
-            yaxis: { title: 'Share of appearances on promotion', range: [-0.06, 1.06], fixedrange: true },
-            updatemenus: [{
-              type: 'buttons', direction: 'left', showactive: false,
-              x: 0.02, y: 0, xanchor: 'right', yanchor: 'top', pad: { t: 62, r: 8 },
-              buttons: [
-                { label: '► Play', method: 'animate', args: [null, { mode: 'immediate', fromcurrent: true, frame: { duration: 240, redraw: true }, transition: { duration: 0 } }] },
-                { label: '❚❚ Pause', method: 'animate', args: [[null], { mode: 'immediate', frame: { duration: 0, redraw: true }, transition: { duration: 0 } }] }
-              ]
-            }],
-            sliders: [{
-              active: 0, pad: { l: 90, t: 52 }, len: 0.84,
-              currentvalue: { prefix: 'Cycle: ', font: { size: 12, color: '#6b7280' } },
-              steps: data.periods.map(function (p, f) {
-                return { label: p, method: 'animate',
-                  args: [[String(f)], { mode: 'immediate', frame: { duration: 0, redraw: true }, transition: { duration: 0 } }] };
-              })
-            }]
-          };
-          Plotly.newPlot('arch-anim', init, layout, { displayModeBar: false, responsive: true })
-            .then(function () {
-              Plotly.addFrames('arch-anim', frames);
-              const statusEl = document.getElementById('arch-status');
-              function setStatus(f) { if (statusEl) statusEl.textContent = data.periods[f] + ' · ' + data.cumCatalogs[f] + ' catalogs extracted'; }
-              setStatus(0);
-              document.getElementById('arch-anim').on('plotly_animatingframe', function (e) {
-                const nm = e && (e.name != null ? e.name : (e.frame && e.frame.name));
-                const f = +nm;
-                if (!isNaN(f)) setStatus(f);
-              });
+          function hiPos(f) {
+            if (!selected) return null;
+            let cnt = 0, promo = 0;
+            for (let k = 0; k < selected.ap.length; k++) if (selected.ap[k] <= f) { cnt++; promo += selected.pr[k]; }
+            if (!cnt) return null;
+            return [cnt * (1 + selected.jx), promo / cnt + selected.jy];
+          }
+          function setStatus(f) {
+            if (statusEl) statusEl.textContent = data.periods[f] + ' · ' + data.cumCatalogs[f] + ' catalogs · ' + data.cumProducts[f].toLocaleString('en-US') + ' products';
+          }
+          function goTo(f) {
+            curFrame = f;
+            const a = frameArrays(f), hp = hiPos(f);
+            Plotly.restyle('arch-anim', { x: [a.x], y: [a.y], customdata: [a.cd], 'marker.color': [a.col] }, [0]);
+            Plotly.restyle('arch-anim', { x: [hp ? [hp[0]] : []], y: [hp ? [hp[1]] : []] }, [1]);
+            setStatus(f);
+            if (+slider.value !== f) slider.value = f;
+          }
+          function stop() { if (timer) { clearInterval(timer); timer = null; playBtn.textContent = '► Play'; } }
+          function play() {
+            if (timer) { stop(); return; }
+            if (curFrame >= F - 1) goTo(0);
+            playBtn.textContent = '❚❚ Pause';
+            timer = setInterval(function () {
+              if (curFrame >= F - 1) { stop(); return; }
+              goTo(curFrame + 1);
+            }, 260);
+          }
 
-              const infoEl = document.getElementById('arch-info');
-              const BRANDCLS = { 'Natura': 'brand-natura', 'O Boticário': 'brand-boticario', 'Eudora': 'brand-eudora', 'Avon': 'brand-avon', 'Jequiti': 'brand-jequiti' };
-              function esc(s) { return String(s).replace(/[&<>"]/g, function (m) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[m]; }); }
-              function kv(k, v) { return '<div class="flex justify-between gap-3 py-0.5"><dt class="text-gray-400">' + k + '</dt><dd class="text-gray-700 font-medium text-right">' + v + '</dd></div>'; }
-              document.getElementById('arch-anim').on('plotly_click', function (ev) {
+          const dataTrace = {
+            type: 'scattergl', mode: 'markers', x: [], y: [], customdata: [],
+            marker: { color: [], size: 5, opacity: 0.5 },
+            hovertemplate: '%{customdata[0]} · %{customdata[1]}<extra></extra>'
+          };
+          const hiTrace = {
+            type: 'scatter', mode: 'markers', x: [], y: [], hoverinfo: 'skip', showlegend: false,
+            marker: { size: 16, color: 'rgba(0,0,0,0)', line: { color: '#111827', width: 2.5 } }
+          };
+          const layout = {
+            showlegend: false, margin: { t: 10, r: 16, b: 42, l: 56 },
+            xaxis: { title: 'Catalog appearances (log scale)', type: 'log',
+                     range: [Math.log10(0.8), Math.log10(320)], tickvals: [1, 2, 3, 5, 10, 20, 30, 50, 110, 240], fixedrange: true },
+            yaxis: { title: 'Share of appearances on promotion', range: [-0.06, 1.06], fixedrange: true }
+          };
+          Plotly.newPlot('arch-anim', [dataTrace, hiTrace], layout, { displayModeBar: false, responsive: true })
+            .then(function () {
+              slider.max = F - 1; slider.value = 0;
+              goTo(0);
+              slider.addEventListener('input', function () { stop(); goTo(+slider.value); });
+              playBtn.addEventListener('click', play);
+              gd.on('plotly_click', function (ev) {
                 const pt = ev.points && ev.points[0]; if (!pt || !pt.customdata) return;
                 const d = pt.customdata;
+                selected = idx.get(d) || null;
+                const hp = hiPos(curFrame);
+                Plotly.restyle('arch-anim', { x: [hp ? [hp[0]] : []], y: [hp ? [hp[1]] : []] }, [1]);
                 infoEl.className = 'lg:w-72 shrink-0 rounded-xl border border-gray-100 bg-gray-50 p-4 text-sm';
                 infoEl.innerHTML =
-                  '<div class="text-xs font-semibold text-gray-400 uppercase tracking-wide">' + esc(data.names[pt.curveNumber]) + '</div>' +
-                  '<div class="font-bold text-gray-900 mt-1 leading-snug">' + esc(d.n) + '</div>' +
-                  '<div class="text-sm font-semibold ' + (BRANDCLS[d.b] || '') + '">' + esc(d.b) + '</div>' +
+                  '<div class="text-xs font-semibold text-gray-400 uppercase tracking-wide">' + esc(names[selected ? selected.c : 0]) + '</div>' +
+                  '<div class="font-bold text-gray-900 mt-1 leading-snug">' + esc(d[0]) + '</div>' +
+                  '<div class="text-sm font-semibold ' + (BRANDCLS[d[1]] || '') + '">' + esc(d[1]) + '</div>' +
                   '<dl class="mt-3">' +
-                    kv('Median price', 'R$ ' + d.p) +
-                    kv('Appearances', d.a + ' catalogs') +
-                    kv('On promotion', d.pm + '%') +
-                    kv('Median discount', d.ds ? '−' + d.ds + '%' : '—') +
-                    kv('Category', esc(d.cat || '—')) +
-                    kv('Line', esc(d.l || '—')) +
+                    kv('Median price', 'R$ ' + d[4]) +
+                    kv('Appearances', d[5] + ' catalogs') +
+                    kv('On promotion', d[6] + '%') +
+                    kv('Median discount', d[7] ? '−' + d[7] + '%' : '—') +
+                    kv('Category', esc(d[2] || '—')) +
+                    kv('Line', esc(d[3] || '—')) +
                   '</dl>';
               });
             });
