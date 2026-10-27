@@ -240,7 +240,83 @@
           squared Euclidean distance:</p>
         <div class="font-mono text-[13px] bg-gray-50 border border-gray-100 rounded-lg px-4 py-3 my-2 text-gray-800 overflow-x-auto">J = Σ<sub>c=1..k</sub> Σ<sub>x ∈ C<sub>c</sub></sub> ‖ x − μ<sub>c</sub> ‖²&nbsp;&nbsp;,&nbsp;&nbsp;μ<sub>c</sub> = mean( C<sub>c</sub> )</div>
         <p class="text-xs text-gray-500 mt-2">Clusters are relabelled by ascending median price, so C0&nbsp;→&nbsp;C3 run cheapest&nbsp;→&nbsp;priciest.</p>
-        <img src="images/analysis/method/method_kmeans.png" alt="PCA scatter of products colored by cluster with the four k-means centroids marked as stars" class="w-full max-w-lg h-auto rounded-lg border border-gray-100 mt-3" loading="lazy" />
+        <div class="mt-3 rounded-lg border border-gray-100 p-3 max-w-xl">
+          <div class="flex items-center gap-3 mb-1">
+            <button id="km-play" type="button" class="shrink-0 rounded-lg bg-violet-600 hover:bg-violet-700 text-white text-xs font-medium px-3 py-1 transition-colors">► Play</button>
+            <input id="km-slider" type="range" min="0" max="0" value="0" class="flex-1 accent-violet-600 cursor-pointer" aria-label="iteration" />
+            <span id="km-status" class="shrink-0 text-xs font-semibold text-gray-600 tabular-nums">iteration 1</span>
+          </div>
+          <div id="km-anim" style="width:100%;height:340px;"></div>
+          <p class="text-xs text-gray-400 mt-1">Lloyd&rsquo;s algorithm converging on the real 5-D data (shown in the
+          2-D PCA projection): big dots are centroids, small dots are products coloured by their nearest centroid.
+          Each step reassigns points, then moves each centroid to the mean of its members, until nothing changes
+          (14 steps).</p>
+        </div>
+        <script>
+        (function () {
+          let started = false;
+          function ensurePlotly(cb) {
+            if (window.Plotly) return cb();
+            const s = document.createElement('script');
+            s.src = 'https://cdn.plot.ly/plotly-2.35.2.min.js'; s.charset = 'utf-8'; s.onload = cb;
+            document.head.appendChild(s);
+          }
+          function initKM() {
+            if (started) return;
+            const el = document.getElementById('km-anim');
+            if (!el || el.offsetParent === null) return;
+            started = true;
+            ensurePlotly(function () {
+              fetch('cosmetics-catalogs-data/kmeans_anim.json').then(function (r) { return r.json(); })
+                .then(build).catch(function () { started = false; });
+            });
+          }
+          function build(data) {
+            const colors = data.colors, F = data.frames.length;
+            const slider = document.getElementById('km-slider');
+            const playBtn = document.getElementById('km-play');
+            const statusEl = document.getElementById('km-status');
+            let cur = 0, timer = null;
+            function cols(arr) { return arr.map(function (c) { return colors[c]; }); }
+            const ptsTrace = {
+              type: 'scattergl', mode: 'markers', x: data.px, y: data.py, hoverinfo: 'skip',
+              marker: { color: cols(data.frames[0].col), size: 4, opacity: 0.45 }
+            };
+            const cenTrace = {
+              type: 'scattergl', mode: 'markers', x: data.frames[0].cx, y: data.frames[0].cy, hoverinfo: 'skip',
+              marker: { color: cols(data.frames[0].cc), size: 20, line: { color: '#111827', width: 3 } }
+            };
+            const layout = {
+              showlegend: false, margin: { t: 8, r: 8, b: 34, l: 38 },
+              xaxis: { title: 'PC1 (' + Math.round(data.pcVar[0] * 100) + '%)', zeroline: false, fixedrange: true, showticklabels: false },
+              yaxis: { title: 'PC2 (' + Math.round(data.pcVar[1] * 100) + '%)', zeroline: false, fixedrange: true, showticklabels: false }
+            };
+            function goTo(t) {
+              cur = t; const f = data.frames[t];
+              Plotly.restyle('km-anim', { 'marker.color': [cols(f.col)] }, [0]);
+              Plotly.restyle('km-anim', { x: [f.cx], y: [f.cy], 'marker.color': [cols(f.cc)] }, [1]);
+              if (statusEl) statusEl.textContent = (t >= F - 1) ? 'converged' : ('iteration ' + (t + 1));
+              if (+slider.value !== t) slider.value = t;
+            }
+            function stop() { if (timer) { clearInterval(timer); timer = null; playBtn.textContent = '► Play'; } }
+            function play() {
+              if (timer) { stop(); return; }
+              if (cur >= F - 1) goTo(0);
+              playBtn.textContent = '❚❚ Pause';
+              timer = setInterval(function () { if (cur >= F - 1) { stop(); return; } goTo(cur + 1); }, 650);
+            }
+            Plotly.newPlot('km-anim', [ptsTrace, cenTrace], layout, { displayModeBar: false, responsive: true })
+              .then(function () {
+                slider.max = F - 1; slider.value = 0; goTo(0);
+                slider.addEventListener('input', function () { stop(); goTo(+slider.value); });
+                playBtn.addEventListener('click', play);
+              });
+          }
+          window.addEventListener('load', function () { setTimeout(initKM, 60); });
+          document.querySelectorAll('.tab-btn').forEach(function (b) { b.addEventListener('click', function () { setTimeout(initKM, 60); }); });
+          window.addEventListener('hashchange', function () { setTimeout(initKM, 60); });
+        })();
+        </script>
 
         <h4 class="font-semibold text-violet-700 text-xs uppercase tracking-wide mt-5 mb-1">5 · Choosing k: silhouette and inertia</h4>
         <p class="text-sm text-gray-600 leading-relaxed">k is not learned by k-means; we fix it in advance. To pick it we fit the model for
