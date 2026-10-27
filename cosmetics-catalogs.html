@@ -419,8 +419,9 @@
           function goTo(f) {
             curFrame = f;
             const a = frameArrays(f), hp = hiPos(f);
+            const hx = hp ? [hp[0]] : [], hy = hp ? [hp[1]] : [];
             Plotly.restyle('arch-anim', { x: [a.x], y: [a.y], customdata: [a.cd], 'marker.color': [a.col] }, [0]);
-            Plotly.restyle('arch-anim', { x: [hp ? [hp[0]] : []], y: [hp ? [hp[1]] : []] }, [1]);
+            Plotly.restyle('arch-anim', { x: [hx, hx], y: [hy, hy] }, [1, 2]);
             setStatus(f);
             if (+slider.value !== f) slider.value = f;
           }
@@ -440,9 +441,13 @@
             marker: { color: [], size: 5, opacity: 0.5 },
             hovertemplate: '%{customdata[0]} · %{customdata[1]}<extra></extra>'
           };
-          const hiTrace = {
-            type: 'scatter', mode: 'markers', x: [], y: [], hoverinfo: 'skip', showlegend: false,
-            marker: { size: 16, color: 'rgba(0,0,0,0)', line: { color: '#111827', width: 2.5 } }
+          const haloTrace = {
+            type: 'scattergl', mode: 'markers', x: [], y: [], hoverinfo: 'skip', showlegend: false,
+            marker: { size: 20, color: 'rgba(0,0,0,0)', line: { color: '#ffffff', width: 6 } }
+          };
+          const ringTrace = {
+            type: 'scattergl', mode: 'markers', x: [], y: [], hoverinfo: 'skip', showlegend: false,
+            marker: { size: 20, color: 'rgba(0,0,0,0)', line: { color: '#111827', width: 3 } }
           };
           const layout = {
             showlegend: false, margin: { t: 10, r: 16, b: 42, l: 56 },
@@ -450,7 +455,7 @@
                      range: [Math.log10(0.8), Math.log10(320)], tickvals: [1, 2, 3, 5, 10, 20, 30, 50, 110, 240], fixedrange: true },
             yaxis: { title: 'Share of appearances on promotion', range: [-0.06, 1.06], fixedrange: true }
           };
-          Plotly.newPlot('arch-anim', [dataTrace, hiTrace], layout, { displayModeBar: false, responsive: true })
+          Plotly.newPlot('arch-anim', [dataTrace, haloTrace, ringTrace], layout, { displayModeBar: false, responsive: true })
             .then(function () {
               slider.max = F - 1; slider.value = 0;
               goTo(0);
@@ -461,7 +466,8 @@
                 const d = pt.customdata;
                 selected = idx.get(d) || null;
                 const hp = hiPos(curFrame);
-                Plotly.restyle('arch-anim', { x: [hp ? [hp[0]] : []], y: [hp ? [hp[1]] : []] }, [1]);
+                const hx = hp ? [hp[0]] : [], hy = hp ? [hp[1]] : [];
+                Plotly.restyle('arch-anim', { x: [hx, hx], y: [hy, hy] }, [1, 2]);
                 infoEl.className = 'lg:w-72 shrink-0 rounded-xl border border-gray-100 bg-gray-50 p-4 text-sm';
                 infoEl.innerHTML =
                   '<div class="text-xs font-semibold text-gray-400 uppercase tracking-wide">' + esc(names[selected ? selected.c : 0]) + '</div>' +
