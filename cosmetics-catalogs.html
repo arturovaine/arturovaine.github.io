@@ -32,6 +32,9 @@
     .tab-btn { color:#6b7280; border-bottom:3px solid transparent; }
     .tab-btn:hover { color:#374151; }
     .tab-btn.tab-active { color:#6d28d9; border-color:#7c3aed; font-weight:600; }
+    .ml-nav-link { display:block; border-left:2px solid transparent; margin-left:-1px; padding:4px 0 4px 12px; color:#6b7280; cursor:pointer; line-height:1.3; }
+    .ml-nav-link:hover { color:#6d28d9; border-left-color:#c4b5fd; }
+    .ml-nav-link.active { color:#6d28d9; border-left-color:#7c3aed; font-weight:600; }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
@@ -153,9 +156,77 @@
 
     <!-- ANALYSIS TAB -->
     <div id="tab-analysis" class="hidden">
+      <div class="lg:flex lg:gap-6">
+        <aside class="hidden lg:block w-52 shrink-0">
+          <nav class="sticky top-6 text-sm">
+            <p class="text-xs font-semibold uppercase tracking-wide text-gray-400 mb-2 pl-3">On this page</p>
+            <ul class="space-y-0.5 border-l border-gray-200">
+              <li><a data-scroll="sec-crisp" class="ml-nav-link">CRISP-DM cycle</a></li>
+              <li><a data-scroll="sec-overview" class="ml-nav-link">Four archetypes</a></li>
+              <li><a data-scroll="sec-method" class="ml-nav-link">How it&rsquo;s computed</a></li>
+              <li><a data-scroll="sec-archetypes" class="ml-nav-link">The archetypes</a></li>
+              <li><a data-scroll="sec-map" class="ml-nav-link">Architecture map</a></li>
+              <li><a data-scroll="sec-animation" class="ml-nav-link">Cumulative animation</a></li>
+              <li><a data-scroll="sec-insights" class="ml-nav-link">What it reveals</a></li>
+              <li><a data-scroll="sec-charts" class="ml-nav-link">Charts</a></li>
+              <li><a data-scroll="sec-pricing" class="ml-nav-link">Pricing &amp; promotion</a></li>
+              <li><a data-scroll="sec-data" class="ml-nav-link">Data &amp; method</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <div class="flex-1 min-w-0">
+
+      <!-- CRISP-DM -->
+      <div id="sec-crisp" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+        <h2 class="text-xl font-bold text-gray-900">How this was built: the CRISP-DM cycle</h2>
+        <p class="text-sm text-gray-600 mt-2 leading-relaxed">The project follows the six phases of
+          <b>CRISP-DM</b> (Cross-Industry Standard Process for Data Mining). It is iterative, not linear:
+          evaluation kept looping back into the data and the model (the price-less rows, the C1 relabel, the
+          robustness check below).</p>
+        <div class="flex flex-col lg:flex-row gap-6 mt-4 items-center">
+          <svg viewBox="0 0 600 400" class="w-full lg:w-1/2 max-w-md h-auto shrink-0" role="img" aria-label="CRISP-DM cycle diagram">
+            <defs>
+              <marker id="crispArrow" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto-start-reverse">
+                <path d="M0,0 L9,4.5 L0,9 Z" fill="#a78bfa"/>
+              </marker>
+            </defs>
+            <path d="M350,113 A100,100 0 1 1 250,113" fill="none" stroke="#ede9fe" stroke-width="11" marker-end="url(#crispArrow)"/>
+            <line x1="281" y1="72" x2="319" y2="72" stroke="#a78bfa" stroke-width="2.5" marker-start="url(#crispArrow)" marker-end="url(#crispArrow)"/>
+            <circle cx="300" cy="200" r="46" fill="#1e1b4b"/>
+            <text x="300" y="196" text-anchor="middle" font-size="14" font-weight="800" fill="#ffffff">Data</text>
+            <text x="300" y="214" text-anchor="middle" font-size="9" fill="#c4b5fd">112 catalogs</text>
+            <g><circle cx="225" cy="72" r="50" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+              <text x="225" y="60" text-anchor="middle" font-size="16" font-weight="800" fill="#7c3aed">1</text>
+              <text x="225" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#1e1b4b"><tspan x="225" dy="0">Business</tspan><tspan x="225" dy="12">Understanding</tspan></text></g>
+            <g><circle cx="375" cy="72" r="50" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+              <text x="375" y="60" text-anchor="middle" font-size="16" font-weight="800" fill="#7c3aed">2</text>
+              <text x="375" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#1e1b4b"><tspan x="375" dy="0">Data</tspan><tspan x="375" dy="12">Understanding</tspan></text></g>
+            <g><circle cx="450" cy="200" r="50" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+              <text x="450" y="188" text-anchor="middle" font-size="16" font-weight="800" fill="#7c3aed">3</text>
+              <text x="450" y="208" text-anchor="middle" font-size="10" font-weight="700" fill="#1e1b4b"><tspan x="450" dy="0">Data</tspan><tspan x="450" dy="12">Preparation</tspan></text></g>
+            <g><circle cx="375" cy="328" r="50" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+              <text x="375" y="324" text-anchor="middle" font-size="16" font-weight="800" fill="#7c3aed">4</text>
+              <text x="375" y="344" text-anchor="middle" font-size="11" font-weight="700" fill="#1e1b4b">Modeling</text></g>
+            <g><circle cx="225" cy="328" r="50" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+              <text x="225" y="324" text-anchor="middle" font-size="16" font-weight="800" fill="#7c3aed">5</text>
+              <text x="225" y="344" text-anchor="middle" font-size="11" font-weight="700" fill="#1e1b4b">Evaluation</text></g>
+            <g><circle cx="150" cy="200" r="50" fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+              <text x="150" y="196" text-anchor="middle" font-size="16" font-weight="800" fill="#7c3aed">6</text>
+              <text x="150" y="216" text-anchor="middle" font-size="11" font-weight="700" fill="#1e1b4b">Deployment</text></g>
+          </svg>
+          <ol class="flex-1 min-w-0 space-y-2 text-sm text-gray-600">
+            <li><b class="text-gray-900">1. Business understanding.</b> Framed for an RGM / pricing manager: how do rival brands run assortment, price and promotion across cycles?</li>
+            <li><b class="text-gray-900">2. Data understanding.</b> 112 public catalogs (5 brands, 2025–26) as images/PDFs; map coverage, gaps and quirks (non-chronological cycles, price-less items).</li>
+            <li><b class="text-gray-900">3. Data preparation.</b> Vision/LLM extraction turns pages into rows; clean (price R$3–2,000) and engineer five behavioural features per unique product.</li>
+            <li><b class="text-gray-900">4. Modeling.</b> k-means on the standardized features; k chosen by silhouette (= 4); PCA for the 2-D map.</li>
+            <li><b class="text-gray-900">5. Evaluation.</b> Silhouette, a feature-robustness check (ARI), and a sanity read of each archetype against the business questions.</li>
+            <li><b class="text-gray-900">6. Deployment.</b> This live explorer: data table, ML tab, animations, filters and downloadable CSVs.</li>
+          </ol>
+        </div>
+      </div>
 
       <!-- Intro -->
-      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+      <div id="sec-overview" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
         <h2 class="text-xl font-bold text-gray-900">Portfolio clustering: four product archetypes</h2>
         <p class="text-sm text-gray-600 mt-2 leading-relaxed">
           The extraction yields <b>116,234</b> product records across the 112 catalogs; the clustering works
@@ -172,7 +243,7 @@
       </div>
 
       <!-- Clustering methodology deep-dive -->
-      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+      <div id="sec-method" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
         <h3 class="text-lg font-bold text-gray-900">How the clustering is computed</h3>
         <p class="text-sm text-gray-600 mt-2 leading-relaxed">
           The pipeline takes the <b>114,323</b> priced product rows (of the 116,234 extracted records, over
@@ -408,7 +479,7 @@
       </div>
 
       <!-- Archetype cards -->
-      <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
+      <div id="sec-archetypes" class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 mb-6">
         <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 border-t-4" style="border-top-color:#15803d">
           <p class="text-xs font-semibold text-gray-400 uppercase tracking-wide">C1 · 40.0% of products</p>
           <h3 class="font-bold text-gray-900 mt-1">Full-price newcomers</h3>
@@ -444,7 +515,7 @@
       </div>
 
       <!-- Architecture map -->
-      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
+      <div id="sec-map" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
         <img src="images/analysis/architecture_map.png" alt="Scatter of unique products: catalog persistence versus promo exposure, colored by cluster" class="w-full h-auto rounded-lg" loading="lazy" />
         <p class="text-sm text-gray-500 mt-3">The whole architecture in one picture: two dense single-appearance
         columns on the left: full-price novelty (green, bottom) and promo-born kits (blue, top), alongside the
@@ -452,7 +523,7 @@
       </div>
 
       <!-- Animated architecture map: cumulative by cycle -->
-      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
+      <div id="sec-animation" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
         <h3 class="font-bold text-gray-900">Watch the architecture fill in, cycle by cycle</h3>
         <p class="text-sm text-gray-500 mt-1 mb-2">Press play: step&nbsp;1 is the first extracted cycle and each
         step adds the next publishing period (year&nbsp;·&nbsp;cycle). Products drift right as they accumulate
@@ -508,10 +579,8 @@
           if (!el || el.offsetParent === null) return;   // wait until the Analysis tab is visible
           started = true;
           ensurePlotly(function () {
-            fetch('cosmetics-catalogs-data/arch_anim.json')
-              .then(function (r) { return r.json(); })
-              .then(build)
-              .catch(function () { started = false; });
+            if (!window.loadArchData) window.loadArchData = function () { if (!window.__archData) window.__archData = fetch('cosmetics-catalogs-data/arch_anim.json').then(function (r) { return r.json(); }); return window.__archData; };
+            window.loadArchData().then(build).catch(function () { started = false; });
           });
         }
         function build(data) {
@@ -644,7 +713,7 @@
       </script>
 
       <!-- Key insights -->
-      <div class="bg-violet-50 border-l-4 border-violet-600 rounded-r-2xl p-6 mb-6">
+      <div id="sec-insights" class="bg-violet-50 border-l-4 border-violet-600 rounded-r-2xl p-6 mb-6">
         <h3 class="font-bold text-gray-900 mb-3">What the clusters reveal</h3>
         <ul class="text-sm text-gray-700 space-y-2 list-disc pl-5">
           <li><b>The catalog is a showcase, not a shelf.</b> Half of all unique products appear in exactly
@@ -663,7 +732,7 @@
       </div>
 
       <!-- Charts grid -->
-      <div class="grid lg:grid-cols-2 gap-6 mb-6">
+      <div id="sec-charts" class="grid lg:grid-cols-2 gap-6 mb-6">
         <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-5">
           <img src="images/analysis/cluster_profiles.png" alt="Bar charts of median price, promo exposure, discount depth and appearances per cluster" class="w-full h-auto rounded-lg" loading="lazy" />
         </div>
@@ -678,8 +747,121 @@
         </div>
       </div>
 
+      <!-- Pricing & promotion (interactive) -->
+      <div id="sec-pricing" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+        <h2 class="text-xl font-bold text-gray-900">Pricing &amp; promotion</h2>
+        <p class="text-sm text-gray-500 mt-1 mb-2">Discount depth, price bands and how often the mix is promoted.
+        Filter by brand, category or archetype, and press play to watch the distributions build up cycle by cycle.</p>
+        <p id="pp-status" class="text-sm font-semibold text-gray-800 mt-1">Loading…</p>
+        <div class="flex flex-wrap items-center gap-2 mt-2">
+          <span class="text-xs uppercase tracking-wide font-semibold text-gray-400">Filter</span>
+          <select id="pp-f-brand" class="border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+            <option value="">All brands</option>
+            <option value="O Boticário">O Boticário</option>
+            <option value="Natura">Natura</option>
+            <option value="Eudora">Eudora</option>
+            <option value="Avon">Avon</option>
+            <option value="Jequiti">Jequiti</option>
+          </select>
+          <select id="pp-f-cat" class="border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+            <option value="">All categories</option>
+          </select>
+          <select id="pp-f-cluster" class="border border-gray-200 rounded-lg px-2 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400">
+            <option value="">All archetypes</option>
+            <option value="0">C0 · managed</option>
+            <option value="1">C1 · full price</option>
+            <option value="2">C2 · backbone</option>
+            <option value="3">C3 · promo-born</option>
+          </select>
+          <button id="pp-f-reset" type="button" class="text-xs text-violet-600 hover:underline">reset</button>
+        </div>
+        <div class="flex items-center gap-3 mt-2">
+          <button id="pp-play" type="button" class="shrink-0 rounded-lg bg-violet-600 hover:bg-violet-700 text-white text-sm font-medium px-4 py-1.5 transition-colors">► Play</button>
+          <input id="pp-slider" type="range" min="0" max="0" value="0" class="flex-1 accent-violet-600 cursor-pointer" aria-label="cycle" />
+        </div>
+        <div class="grid md:grid-cols-3 gap-4 mt-3">
+          <div><p class="text-xs font-semibold text-gray-600 mb-1 text-center">Discount depth per SKU</p><div id="pp-discount" style="width:100%;height:260px;"></div></div>
+          <div><p class="text-xs font-semibold text-gray-600 mb-1 text-center">Products by price band</p><div id="pp-price" style="width:100%;height:260px;"></div></div>
+          <div><p class="text-xs font-semibold text-gray-600 mb-1 text-center">Promo frequency of the mix</p><div id="pp-promo" style="width:100%;height:260px;"></div></div>
+        </div>
+        <p id="pp-stats" class="text-xs text-gray-500 mt-2">&nbsp;</p>
+      </div>
+      <script>
+      (function () {
+        let started = false;
+        function ensurePlotly(cb) { if (window.Plotly) return cb(); const s = document.createElement('script'); s.src = 'https://cdn.plot.ly/plotly-2.35.2.min.js'; s.charset = 'utf-8'; s.onload = cb; document.head.appendChild(s); }
+        function init() {
+          if (started) return;
+          const el = document.getElementById('pp-discount');
+          if (!el || el.offsetParent === null) return;
+          started = true;
+          ensurePlotly(function () {
+            if (!window.loadArchData) window.loadArchData = function () { if (!window.__archData) window.__archData = fetch('cosmetics-catalogs-data/arch_anim.json').then(function (r) { return r.json(); }); return window.__archData; };
+            window.loadArchData().then(build).catch(function () { started = false; });
+          });
+        }
+        function build(DATA) {
+          const pts = DATA.pts, F = DATA.periods.length;
+          const fB = document.getElementById('pp-f-brand'), fC = document.getElementById('pp-f-cat'), fK = document.getElementById('pp-f-cluster');
+          const slider = document.getElementById('pp-slider'), playBtn = document.getElementById('pp-play');
+          const statusEl = document.getElementById('pp-status'), statsEl = document.getElementById('pp-stats');
+          let cur = 0, timer = null;
+          const minAp = pts.map(function (p) { let m = 1e9; for (let k = 0; k < p.ap.length; k++) if (p.ap[k] < m) m = p.ap[k]; return m; });
+          const cc = {}; pts.forEach(function (p) { const c = p.d[2]; if (c) cc[c] = (cc[c] || 0) + 1; });
+          Object.keys(cc).sort(function (a, b) { return cc[b] - cc[a]; }).slice(0, 15).forEach(function (c) { const o = document.createElement('option'); o.value = c; o.textContent = c; fC.appendChild(o); });
+          function matches(p) { if (fB.value && p.d[1] !== fB.value) return false; if (fC.value && p.d[2] !== fC.value) return false; if (fK.value !== '' && p.c !== +fK.value) return false; return true; }
+          function median(a) { if (!a.length) return 0; const s = a.slice().sort(function (x, y) { return x - y; }); const m = s.length >> 1; return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+          function binize(arr, lo, hi, step) { const n = Math.round((hi - lo) / step); const counts = new Array(n).fill(0); const centers = []; for (let i = 0; i < n; i++) centers.push(lo + step * (i + 0.5)); for (let j = 0; j < arr.length; j++) { let i = Math.floor((arr[j] - lo) / step); if (i < 0) i = 0; if (i >= n) i = n - 1; counts[i]++; } return { centers: centers, counts: counts }; }
+
+          const PE = [0, 25, 50, 75, 100, 150, Infinity], PL = ['≤25', '25–50', '50–75', '75–100', '100–150', '>150'];
+          const BR = ['O Boticário', 'Natura', 'Eudora', 'Avon', 'Jequiti'];
+          const BH = { 'O Boticário': '#b45309', 'Natura': '#15803d', 'Eudora': '#be185d', 'Avon': '#6d28d9', 'Jequiti': '#0e7490' };
+          const base = { margin: { t: 6, r: 10, b: 36, l: 44 }, bargap: 0.04, font: { size: 10 } };
+          const cfg = { displayModeBar: false, responsive: true };
+
+          function render(f) {
+            cur = f;
+            const vis = [];
+            for (let i = 0; i < pts.length; i++) if (minAp[i] <= f && matches(pts[i])) vis.push(pts[i]);
+            const disc = []; for (let i = 0; i < vis.length; i++) if (vis[i].d[7] > 0) disc.push(vis[i].d[7]);
+            const dh = binize(disc, 0, 90, 3);
+            const meanD = disc.length ? disc.reduce(function (a, b) { return a + b; }, 0) / disc.length : 0;
+            Plotly.react('pp-discount', [{ type: 'bar', x: dh.centers, y: dh.counts, marker: { color: '#7c3aed' }, hovertemplate: '%{x:.0f}% off: %{y} SKUs<extra></extra>' }],
+              Object.assign({ showlegend: false, xaxis: { title: '% off', range: [0, 75], fixedrange: true }, yaxis: { fixedrange: true },
+                shapes: disc.length ? [{ type: 'line', x0: meanD, x1: meanD, yref: 'paper', y0: 0, y1: 1, line: { color: '#1e1b4b', dash: 'dash', width: 1.4 } }] : [],
+                annotations: disc.length ? [{ x: meanD, yref: 'paper', y: 1, yanchor: 'bottom', text: 'mean ' + meanD.toFixed(0) + '%', showarrow: false, font: { size: 10, color: '#1e1b4b' } }] : [] }, base), cfg);
+            const bb = {}; for (let b = 0; b < BR.length; b++) bb[BR[b]] = new Array(PL.length).fill(0);
+            for (let i = 0; i < vis.length; i++) { const v = vis[i].d[4]; let bi = 0; for (let j = 0; j < PE.length - 1; j++) if (v >= PE[j] && v < PE[j + 1]) { bi = j; break; } if (bb[vis[i].d[1]]) bb[vis[i].d[1]][bi]++; }
+            Plotly.react('pp-price', BR.map(function (b) { return { type: 'bar', name: b, x: PL, y: bb[b], marker: { color: BH[b] }, hovertemplate: b + ' %{x}: %{y}<extra></extra>' }; }),
+              Object.assign({ showlegend: false, barmode: 'stack', xaxis: { title: 'R$ band', fixedrange: true }, yaxis: { fixedrange: true } }, base), cfg);
+            const rates = []; let never = 0;
+            for (let i = 0; i < vis.length; i++) { const p = vis[i]; let cnt = 0, pr = 0; for (let k = 0; k < p.ap.length; k++) if (p.ap[k] <= f) { cnt++; pr += p.pr[k]; } if (cnt) { const r = pr / cnt * 100; rates.push(r); if (r === 0) never++; } }
+            const ph = binize(rates, 0, 100, 5);
+            Plotly.react('pp-promo', [{ type: 'bar', x: ph.centers, y: ph.counts, marker: { color: '#7c3aed' }, hovertemplate: '%{x:.0f}% promo: %{y} SKUs<extra></extra>' }],
+              Object.assign({ showlegend: false, xaxis: { title: '% of appearances', range: [0, 100], fixedrange: true }, yaxis: { type: 'log', fixedrange: true } }, base), cfg);
+            const medP = median(vis.map(function (p) { return p.d[4]; }));
+            const neverPct = rates.length ? never / rates.length * 100 : 0;
+            statusEl.textContent = DATA.periods[f] + ' · ' + vis.length.toLocaleString('en-US') + ' products in the mix';
+            statsEl.textContent = 'mean discount ' + meanD.toFixed(0) + '%   ·   median price R$' + medP.toFixed(0) + '   ·   ' + neverPct.toFixed(0) + '% never promoted';
+            if (+slider.value !== f) slider.value = f;
+          }
+          function stop() { if (timer) { clearInterval(timer); timer = null; playBtn.textContent = '► Play'; } }
+          function play() { if (timer) { stop(); return; } if (cur >= F - 1) render(0); playBtn.textContent = '❚❚ Pause'; timer = setInterval(function () { if (cur >= F - 1) { stop(); return; } render(cur + 1); }, 320); }
+
+          slider.max = F - 1; slider.value = F - 1; render(F - 1);
+          slider.addEventListener('input', function () { stop(); render(+slider.value); });
+          playBtn.addEventListener('click', play);
+          [fB, fC, fK].forEach(function (s) { s.addEventListener('change', function () { render(cur); }); });
+          document.getElementById('pp-f-reset').addEventListener('click', function () { fB.value = ''; fC.value = ''; fK.value = ''; render(cur); });
+        }
+        window.addEventListener('load', function () { setTimeout(init, 60); });
+        document.querySelectorAll('.tab-btn').forEach(function (b) { b.addEventListener('click', function () { setTimeout(init, 60); }); });
+        window.addEventListener('hashchange', function () { setTimeout(init, 60); });
+      })();
+      </script>
+
       <!-- Method & downloads -->
-      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+      <div id="sec-data" class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
         <details>
           <summary class="font-semibold text-gray-800 cursor-pointer select-none">Method &amp; limitations</summary>
           <div class="mt-4 text-sm text-gray-600 space-y-3 leading-relaxed">
@@ -710,7 +892,34 @@
         </div>
       </div>
 
+        </div>
+      </div>
     </div><!-- /tab-analysis -->
+    <script>
+    (function () {
+      const links = document.querySelectorAll('.ml-nav-link');
+      links.forEach(function (a) {
+        a.addEventListener('click', function () {
+          const el = document.getElementById(a.getAttribute('data-scroll'));
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+      const byId = {};
+      links.forEach(function (a) { byId[a.getAttribute('data-scroll')] = a; });
+      if ('IntersectionObserver' in window) {
+        const obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (e.isIntersecting) {
+              links.forEach(function (a) { a.classList.remove('active'); });
+              if (byId[e.target.id]) byId[e.target.id].classList.add('active');
+            }
+          });
+        }, { rootMargin: '-15% 0px -75% 0px' });
+        ['sec-crisp', 'sec-overview', 'sec-method', 'sec-archetypes', 'sec-map', 'sec-animation', 'sec-insights', 'sec-charts', 'sec-pricing', 'sec-data']
+          .forEach(function (id) { const el = document.getElementById(id); if (el) obs.observe(el); });
+      }
+    })();
+    </script>
 
   </main>
 
