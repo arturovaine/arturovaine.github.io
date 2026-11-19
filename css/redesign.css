@@ -608,3 +608,11 @@ body.brutalist .btn:focus-visible { outline: 2px solid var(--accent) !important;
   .hero-stat + .hero-stat { padding-left: 0.75rem; }
   .hero-stat-num { font-size: 1.6rem; }
 }
+
+/* Hamburger menu belongs to the mobile header only. The Tailwind build keeps
+   md:hidden inside @layer utilities, which loses the cascade to unlayered
+   component styles — so hide the button and panel explicitly on desktop. */
+@media (min-width: 768px) {
+  #menuBtn,
+  #mobileNav { display: none !important; }
+}
