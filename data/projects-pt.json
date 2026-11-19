@@ -1,11 +1,11 @@
 [
   {
-    "id": "northcraft",
-    "title": "Northcraft — Minneapolis",
-    "description": "Um mundo estilo Minecraft do rio de Minneapolis no navegador — explore, voe e construa em uma cidade voxel em tempo real.",
-    "image": "./src/assets/thumbs/northcraft.webp",
-    "alt": "Renderização 3D em voxel do rio de Minneapolis no Northcraft",
-    "url": "https://northcraft-brown.vercel.app/",
+    "id": "teto-emergency-housing",
+    "title": "Moradia de Emergência TETO",
+    "description": "Modelo 3D interativo da moradia de emergência da TETO (casa pré-fabricada de 18 m²) — sequência de montagem, vista explodida e ficha técnica, direto no navegador.",
+    "image": "./src/assets/thumbs/teto-emergency-housing.webp",
+    "alt": "Modelo 3D interativo da moradia de emergência da TETO com sequência de montagem e ficha técnica",
+    "url": "https://arturovaine.com/teto-emergency-housing/",
     "branch": [
       "development"
     ],
@@ -13,22 +13,24 @@
     "tags": [
       "Three.js",
       "WebGL",
-      "Game"
+      "Impacto Social"
     ],
     "modal": {
-      "subtitle": "Uma Minneapolis em voxel para explorar e construir",
-      "fullDescription": "Northcraft é um jogo de navegador inspirado em Minecraft que recria o rio de Minneapolis como um mundo voxel explorável. O jogador percorre a orla do Mississippi, coloca e quebra blocos, voa e constrói — com o mundo salvo automaticamente no navegador. Uma experiência 3D em tempo real, feita para ser lúdica e fácil de compartilhar.",
+      "subtitle": "A moradia de emergência de 18 m² da TETO, reconstruída em WebGL interativo",
+      "fullDescription": "Reconstrução 3D interativa da moradia de emergência construída pela ONG TETO — casa pré-fabricada de 18 m², montada em mutirão de dois dias. A página mostra a casa em WebGL com a sequência de montagem passo a passo, uma vista explodida e a ficha técnica com as medidas em metros. Reconstruída a partir de material público — fui voluntário nas equipes de construção da TETO em 2015 e 2017.",
       "features": [
-        "Mundo voxel renderizado inteiramente no navegador (Three.js / WebGL)",
-        "Construção e quebra de blocos com desfazer e salvamento automático no navegador",
-        "Exploração livre com modo de voo e controles WASD",
-        "Uma orla estilizada de Minneapolis — skyline, rio e pontos de referência"
+        "Cena em Three.js com sombras e textura procedural de tábuas de pinus",
+        "Vistas predefinidas — perspectiva, fachada, lateral, fundos e planta — além de órbita livre, zoom e pan",
+        "Montagem passo a passo (7 etapas, dos pilotis às aberturas) e vista explodida controladas por sliders",
+        "Clique numa peça no modelo ou na lista lateral para destacá-la e ler sua descrição",
+        "Alternâncias de cotas, porta e janelas abertas/fechadas, tábuas horizontais ou verticais",
+        "Acessível: controles rotulados, foco visível, reduced motion e temas claro/escuro"
       ],
       "techStack": [
         "Three.js",
         "WebGL",
         "JavaScript",
-        "Vercel"
+        "HTML/CSS"
       ],
       "status": "Live"
     },
@@ -327,6 +329,40 @@
         "Análise Geoespacial"
       ],
       "status": "Em Desenvolvimento"
+    }
+  },
+  {
+    "id": "northcraft",
+    "title": "Northcraft — Minneapolis",
+    "description": "Um mundo estilo Minecraft do rio de Minneapolis no navegador — explore, voe e construa em uma cidade voxel em tempo real.",
+    "image": "./src/assets/thumbs/northcraft.webp",
+    "alt": "Renderização 3D em voxel do rio de Minneapolis no Northcraft",
+    "url": "https://northcraft-brown.vercel.app/",
+    "branch": [
+      "development"
+    ],
+    "category": "experiment",
+    "tags": [
+      "Three.js",
+      "WebGL",
+      "Game"
+    ],
+    "modal": {
+      "subtitle": "Uma Minneapolis em voxel para explorar e construir",
+      "fullDescription": "Northcraft é um jogo de navegador inspirado em Minecraft que recria o rio de Minneapolis como um mundo voxel explorável. O jogador percorre a orla do Mississippi, coloca e quebra blocos, voa e constrói — com o mundo salvo automaticamente no navegador. Uma experiência 3D em tempo real, feita para ser lúdica e fácil de compartilhar.",
+      "features": [
+        "Mundo voxel renderizado inteiramente no navegador (Three.js / WebGL)",
+        "Construção e quebra de blocos com desfazer e salvamento automático no navegador",
+        "Exploração livre com modo de voo e controles WASD",
+        "Uma orla estilizada de Minneapolis — skyline, rio e pontos de referência"
+      ],
+      "techStack": [
+        "Three.js",
+        "WebGL",
+        "JavaScript",
+        "Vercel"
+      ],
+      "status": "Live"
     }
   },
   {
