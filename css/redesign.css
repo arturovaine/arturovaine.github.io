@@ -317,6 +317,14 @@ body.brutalist .mb-shift-ring { border-radius: 50% !important; } /* beat the glo
 .macbook-standalone { display: flex; flex-direction: column; align-items: center; margin: 0; width: 500px; max-width: 100%; }
 .macbook-standalone .hero-macbook { display: inline-block; width: 100%; }
 .macbook-standalone .hero-macbook-frame { width: 100%; max-width: none; height: auto; }
+.hero-macbook-caption {
+  margin-top: 0.8rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--soft);
+  max-width: 420px;
+}
 
 /* Core stack + socials — single horizontal line (scrolls if it overflows) */
 .hero-stack {

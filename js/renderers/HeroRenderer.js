@@ -48,6 +48,10 @@ export const HeroRenderer = {
     if (paragraphs[1]) paragraphs[1].innerHTML = t.paragraph2;
     if (paragraphs[2]) paragraphs[2].innerHTML = t.paragraph3;
 
+    // Update MacBook caption (Ozires Silva award)
+    const macbookCaption = document.querySelector('.hero-macbook-caption');
+    if (macbookCaption && t.macbookCaption) macbookCaption.textContent = t.macbookCaption;
+
     // Update stats
     const statsLabels = document.querySelectorAll('.stat-label');
     if (statsLabels[0]) statsLabels[0].textContent = t.stats.experience;

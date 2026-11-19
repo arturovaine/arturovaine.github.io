@@ -28,7 +28,8 @@
       "pixelArt": {
         "title": "Pixel Art Portrait",
         "description": "Frame-by-frame animated digital illustrations crafted in retro pixel art style"
-      }
+      },
+      "macbookCaption": "In 2018 I received first place in the Ozires Silva Award for Sustainable Entrepreneurship."
     },
     "heroCards": {
       "software": {
@@ -84,7 +85,13 @@
           "description": "Theme switching with localStorage persistence and smooth transitions. Modular CSS architecture split into 5 organized files."
         }
       },
-      "techStack": ["Vanilla JS (ES6)", "Tailwind CSS", "Three.js", "Lucide Icons", "GitHub Pages"],
+      "techStack": [
+        "Vanilla JS (ES6)",
+        "Tailwind CSS",
+        "Three.js",
+        "Lucide Icons",
+        "GitHub Pages"
+      ],
       "learnMore": "Learn More",
       "viewSource": "View Source"
     },
@@ -163,7 +170,8 @@
       "pixelArt": {
         "title": "Retrato em Pixel Art",
         "description": "Ilustrações digitais animadas quadro a quadro criadas em estilo retrô de pixel art"
-      }
+      },
+      "macbookCaption": "Em 2018 recebi o primeiro lugar no Prêmio Ozires Silva de Empreendedorismo Sustentável."
     },
     "heroCards": {
       "software": {
@@ -219,7 +227,13 @@
           "description": "Troca de tema com persistência em localStorage e transições suaves. Arquitetura CSS modular dividida em 5 arquivos organizados."
         }
       },
-      "techStack": ["Vanilla JS (ES6)", "Tailwind CSS", "Three.js", "Lucide Icons", "GitHub Pages"],
+      "techStack": [
+        "Vanilla JS (ES6)",
+        "Tailwind CSS",
+        "Three.js",
+        "Lucide Icons",
+        "GitHub Pages"
+      ],
       "learnMore": "Saiba Mais",
       "viewSource": "Ver Código"
     },
